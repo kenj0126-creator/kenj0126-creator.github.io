@@ -1,5 +1,7 @@
 {
-  "brief": [],
+  "brief": [
+    "data/brief/2026-10-22.json"
+  ],
   "weekly": [],
   "countries": [
     "data/tracker/countries/JP.json"
