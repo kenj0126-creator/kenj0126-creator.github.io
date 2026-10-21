@@ -1,0 +1,429 @@
+{
+  "themes": [
+    {
+      "id": "c2-decision",
+      "ja": "意思決定支援・指揮統制",
+      "en": "Decision support & C2"
+    },
+    {
+      "id": "isr-targeting",
+      "ja": "ISR・ターゲティング",
+      "en": "ISR & targeting"
+    },
+    {
+      "id": "autonomy-laws",
+      "ja": "自律兵器・無人システム",
+      "en": "Autonomy & uncrewed systems"
+    },
+    {
+      "id": "nuclear-nc3",
+      "ja": "核指揮統制と抑止",
+      "en": "Nuclear C3 & deterrence"
+    },
+    {
+      "id": "cognitive",
+      "ja": "認知戦・情報操作",
+      "en": "Cognitive & information warfare"
+    },
+    {
+      "id": "cyber-ci",
+      "ja": "サイバーと重要インフラ",
+      "en": "Cyber & critical infrastructure"
+    },
+    {
+      "id": "compute-export",
+      "ja": "半導体・計算資源・輸出管理",
+      "en": "Chips, compute & export controls"
+    },
+    {
+      "id": "frontier-safety",
+      "ja": "フロンティアAIの安全性",
+      "en": "Frontier AI safety & security"
+    },
+    {
+      "id": "industry-procurement",
+      "ja": "防衛産業と調達",
+      "en": "Defense industry & acquisition"
+    },
+    {
+      "id": "governance-norms",
+      "ja": "国際規範とガバナンス",
+      "en": "Norms & governance"
+    }
+  ],
+  "actors": [
+    {
+      "id": "US",
+      "ja": "米国",
+      "en": "United States"
+    },
+    {
+      "id": "CN",
+      "ja": "中国",
+      "en": "China"
+    },
+    {
+      "id": "RU",
+      "ja": "ロシア",
+      "en": "Russia"
+    },
+    {
+      "id": "JP",
+      "ja": "日本",
+      "en": "Japan"
+    },
+    {
+      "id": "GB",
+      "ja": "英国",
+      "en": "United Kingdom"
+    },
+    {
+      "id": "AU",
+      "ja": "豪州",
+      "en": "Australia"
+    },
+    {
+      "id": "KR",
+      "ja": "韓国",
+      "en": "South Korea"
+    },
+    {
+      "id": "TW",
+      "ja": "台湾",
+      "en": "Taiwan"
+    },
+    {
+      "id": "IN",
+      "ja": "インド",
+      "en": "India"
+    },
+    {
+      "id": "IL",
+      "ja": "イスラエル",
+      "en": "Israel"
+    },
+    {
+      "id": "UA",
+      "ja": "ウクライナ",
+      "en": "Ukraine"
+    },
+    {
+      "id": "NATO",
+      "ja": "NATO",
+      "en": "NATO"
+    },
+    {
+      "id": "EU",
+      "ja": "EU",
+      "en": "EU"
+    },
+    {
+      "id": "UN",
+      "ja": "国連",
+      "en": "United Nations"
+    },
+    {
+      "id": "G7",
+      "ja": "G7",
+      "en": "G7"
+    },
+    {
+      "id": "ASEAN",
+      "ja": "ASEAN",
+      "en": "ASEAN"
+    },
+    {
+      "id": "QUAD",
+      "ja": "QUAD",
+      "en": "QUAD"
+    }
+  ],
+  "doc_types": [
+    {
+      "id": "strategy",
+      "ja": "戦略・方針文書",
+      "en": "Strategy & policy"
+    },
+    {
+      "id": "law-regulation",
+      "ja": "法令・規則・指令",
+      "en": "Laws & regulations"
+    },
+    {
+      "id": "declaration",
+      "ja": "宣言・共同声明・決議",
+      "en": "Declarations & resolutions"
+    },
+    {
+      "id": "official-report",
+      "ja": "政府・国際機関の報告書",
+      "en": "Official reports"
+    },
+    {
+      "id": "think-tank",
+      "ja": "シンクタンク報告",
+      "en": "Think-tank reports"
+    },
+    {
+      "id": "academic",
+      "ja": "学術論文・書籍",
+      "en": "Academic research"
+    },
+    {
+      "id": "budget-procurement",
+      "ja": "予算・調達文書",
+      "en": "Budget & procurement"
+    },
+    {
+      "id": "speech-testimony",
+      "ja": "演説・議会証言",
+      "en": "Speeches & testimony"
+    },
+    {
+      "id": "news-analysis",
+      "ja": "報道・論評",
+      "en": "News & analysis"
+    },
+    {
+      "id": "dataset",
+      "ja": "データセット・指標",
+      "en": "Datasets & indicators"
+    }
+  ],
+  "forums": [
+    {
+      "id": "un-ga",
+      "ja": "国連総会",
+      "en": "UN General Assembly"
+    },
+    {
+      "id": "ccw-gge",
+      "ja": "CCW・LAWS政府専門家会合",
+      "en": "CCW GGE on LAWS"
+    },
+    {
+      "id": "reaim",
+      "ja": "REAIMサミット",
+      "en": "REAIM Summit"
+    },
+    {
+      "id": "political-declaration",
+      "ja": "軍事AI政治宣言",
+      "en": "Political Declaration on Military AI"
+    },
+    {
+      "id": "g7-hiroshima",
+      "ja": "G7広島AIプロセス",
+      "en": "G7 Hiroshima AI Process"
+    },
+    {
+      "id": "ai-summits",
+      "ja": "AIサミット系列",
+      "en": "AI Summits"
+    },
+    {
+      "id": "nato",
+      "ja": "NATO",
+      "en": "NATO"
+    },
+    {
+      "id": "eu",
+      "ja": "EU",
+      "en": "EU"
+    },
+    {
+      "id": "oecd",
+      "ja": "OECD",
+      "en": "OECD"
+    },
+    {
+      "id": "bilateral",
+      "ja": "二国間対話",
+      "en": "Bilateral dialogue"
+    }
+  ],
+  "kill_chain": [
+    {
+      "id": "detect",
+      "ja": "探知・識別",
+      "en": "Detect & identify"
+    },
+    {
+      "id": "decide",
+      "ja": "意思決定",
+      "en": "Decide"
+    },
+    {
+      "id": "engage",
+      "ja": "交戦",
+      "en": "Engage"
+    },
+    {
+      "id": "assess",
+      "ja": "効果評価",
+      "en": "Assess"
+    },
+    {
+      "id": "sustain",
+      "ja": "兵站・整備",
+      "en": "Sustain"
+    },
+    {
+      "id": "cognitive-domain",
+      "ja": "認知領域",
+      "en": "Cognitive domain"
+    }
+  ],
+  "importance": [
+    {
+      "id": 3,
+      "ja": "構造的な変化",
+      "en": "Structural change"
+    },
+    {
+      "id": 2,
+      "ja": "注目すべき動き",
+      "en": "Notable development"
+    },
+    {
+      "id": 1,
+      "ja": "参考情報",
+      "en": "For reference"
+    }
+  ],
+  "source_reliability": [
+    {
+      "id": "A",
+      "ja": "完全に信頼できる",
+      "en": "Completely reliable"
+    },
+    {
+      "id": "B",
+      "ja": "通常は信頼できる",
+      "en": "Usually reliable"
+    },
+    {
+      "id": "C",
+      "ja": "かなり信頼できる",
+      "en": "Fairly reliable"
+    },
+    {
+      "id": "D",
+      "ja": "通常は信頼できない",
+      "en": "Not usually reliable"
+    },
+    {
+      "id": "E",
+      "ja": "信頼できない",
+      "en": "Unreliable"
+    },
+    {
+      "id": "F",
+      "ja": "判断不能",
+      "en": "Cannot be judged"
+    }
+  ],
+  "information_credibility": [
+    {
+      "id": 1,
+      "ja": "他の情報源で確認済み",
+      "en": "Confirmed by other sources"
+    },
+    {
+      "id": 2,
+      "ja": "おそらく正しい",
+      "en": "Probably true"
+    },
+    {
+      "id": 3,
+      "ja": "正しい可能性がある",
+      "en": "Possibly true"
+    },
+    {
+      "id": 4,
+      "ja": "疑わしい",
+      "en": "Doubtful"
+    },
+    {
+      "id": 5,
+      "ja": "ありそうにない",
+      "en": "Improbable"
+    },
+    {
+      "id": 6,
+      "ja": "判断不能",
+      "en": "Cannot be judged"
+    }
+  ],
+  "stages": [
+    {
+      "id": "announced",
+      "ja": "発表",
+      "en": "Announced"
+    },
+    {
+      "id": "solicitation",
+      "ja": "公募",
+      "en": "Solicitation"
+    },
+    {
+      "id": "awarded",
+      "ja": "契約",
+      "en": "Awarded"
+    },
+    {
+      "id": "fielded",
+      "ja": "配備",
+      "en": "Fielded"
+    },
+    {
+      "id": "cancelled",
+      "ja": "中止",
+      "en": "Cancelled"
+    }
+  ],
+  "stances": [
+    {
+      "id": "support",
+      "ja": "支持",
+      "en": "Support"
+    },
+    {
+      "id": "oppose",
+      "ja": "反対",
+      "en": "Oppose"
+    },
+    {
+      "id": "conditional",
+      "ja": "条件付き",
+      "en": "Conditional"
+    },
+    {
+      "id": "abstain",
+      "ja": "棄権",
+      "en": "Abstain"
+    },
+    {
+      "id": "endorsed",
+      "ja": "賛同済み",
+      "en": "Endorsed"
+    },
+    {
+      "id": "not-endorsed",
+      "ja": "未賛同",
+      "en": "Not endorsed"
+    }
+  ],
+  "issues": [
+    {
+      "id": "laws-instrument",
+      "ja": "LAWSに関する国際的枠組み",
+      "en": "International instrument on LAWS"
+    },
+    {
+      "id": "political-declaration",
+      "ja": "軍事AI政治宣言",
+      "en": "Political Declaration on Military AI"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "position-JP-political-declaration",
+    "actor": "JP",
+    "issue": "political-declaration",
+    "stance": "endorsed",
+    "as_of": "2025-06-06",
+    "evidence_url": "https://www.mod.go.jp/atla/soubiseisaku/ai_guideline/ai_guideline_ver.01.pdf",
+    "note_ja": "第1節(2)アに日本の支持表明を記載。法的拘束力を持たない宣言への賛同として記録する。as_ofは確認資料の公表日。",
+    "note_en": "Section 1(2)(a) records Japan’s support for this non-binding declaration. The as_of date is the source’s publication date.",
+    "author": "Ken Jimbo",
+    "reviewed_by": "",
+    "created": "2026-10-21",
+    "updated": "2026-10-21",
+    "last_reviewed": "2026-10-21",
+    "sample": false
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "name": "AI & Security Observatory",
+  "short_name": "AI & Security",
+  "name_ja": "AI安全保障オブザーバトリー",
+  "description_ja": "AIと安全保障の変化を観測し、政策と研究をつなぐ。",
+  "description_en": "Observing change at the intersection of AI, security and policy.",
+  "editor_ja": "編集：神保謙",
+  "editor_en": "Edited by Ken Jimbo",
+  "phase": 1,
+  "languages": [
+    "ja",
+    "en"
+  ],
+  "default_language": "ja",
+  "version": "0.2",
+  "sample_mode": false,
+  "last_updated": "2026-10-21",
+  "hero_ja": "AIは、安全保障を\nどう変えるか。",
+  "hero_en": "Understanding AI.\nRethinking security.",
+  "intro_ja": "日々の動向から、一次資料、各国の政策、戦場の分析へ。日本とインド太平洋の視点から、AIと安全保障の全体像を読み解く。",
+  "intro_en": "From daily developments to primary sources, national policies and battlefield analysis. A research perspective from Japan and the Indo-Pacific.",
+  "sample_notice_ja": "初版プレビュー：掲載内容は表示・操作確認用のサンプルです。実際のニュース、政策評価、調達実績を示すものではありません。",
+  "sample_notice_en": "Prototype preview: all entries are illustrative samples, not verified news, policy assessments or procurement records.",
+  "editorial_ja": "個人編集で開始し、編集・レビュー体制が整った段階でRAIS AI×安全保障研究グループの責任編集への移行を検討します。",
+  "editorial_en": "This project begins under individual editorship. A transition to RAIS AI & Security Research Group editorial responsibility may be considered once review procedures and institutional approval are in place."
+}

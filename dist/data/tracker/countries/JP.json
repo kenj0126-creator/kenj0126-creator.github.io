@@ -1,0 +1,66 @@
+{
+  "id": "country-JP",
+  "title_ja": "日本：国別プロファイル",
+  "title_en": "Japan: country profile",
+  "date": "2026-10-21",
+  "url": "https://www.mod.go.jp/j/press/news/2024/07/02a_01.pdf",
+  "publisher": "AI & Security Observatory",
+  "publisher_en": "AI & Security Observatory",
+  "themes": [
+    "governance-norms",
+    "c2-decision",
+    "autonomy-laws"
+  ],
+  "actors": [
+    "JP"
+  ],
+  "doc_type": "official-report",
+  "forums": [
+    "ccw-gge",
+    "reaim",
+    "political-declaration"
+  ],
+  "kill_chain": [],
+  "importance": 2,
+  "reliability": "",
+  "summary_ja": "防衛省は2024年の基本方針で、探知・識別、情報収集・分析、指揮統制など7分野のAI活用を重点化した。\nAIは人間の判断を支援し、その活用では人間の関与を確保するとしている。\n2025年の研究開発ガイドラインは、法的・政策的要件と技術的要件に基づくリスク管理を示す。",
+  "summary_en": "Japan’s 2024 defense AI policy identifies seven priority areas and requires human involvement. The 2025 research and development guidelines establish legal, policy and technical requirements for risk management.",
+  "japan_implication": "高リスクのAI装備品等には法的・政策的審査と技術的審査を行い、低リスクのものは自己点検を基本とする。運用者を研究開発の初期から設計・試験評価に関与させることが有効とされる。",
+  "japan_implication_en": "High-risk AI equipment undergoes legal, policy and technical review; low-risk equipment principally uses self-assessment. Early operator involvement in development and testing is encouraged.",
+  "related": [],
+  "author": "Ken Jimbo",
+  "reviewed_by": "",
+  "created": "2026-10-21",
+  "updated": "2026-10-21",
+  "sample": false,
+  "country": "JP",
+  "strategy_docs": [
+    "lib-2026-0101",
+    "lib-2026-0102"
+  ],
+  "organizations": [
+    {
+      "name": "防衛省",
+      "name_en": "Ministry of Defense",
+      "role": "AI活用の基本方針と、装備品等の研究開発における責任あるAI適用ガイドラインを策定。",
+      "role_en": "Issues defense AI policy and responsible AI research and development guidelines."
+    },
+    {
+      "name": "防衛装備庁",
+      "name_en": "Acquisition, Technology & Logistics Agency",
+      "role": "構想段階から各自衛隊等と調整し、運用者を研究開発に関与させることが有効とされる。",
+      "role_en": "Encouraged to coordinate with the Self-Defense Forces from the concept stage and involve operators in development."
+    },
+    {
+      "name": "各自衛隊等",
+      "name_en": "Self-Defense Forces and related organizations",
+      "role": "将来の利用、データ提供、維持管理を担う部隊等の研究開発・試験評価への関与が有効とされる。",
+      "role_en": "Future users, data providers and maintenance units are encouraged to participate in development and testing."
+    }
+  ],
+  "budget_notes": [],
+  "key_programs": [],
+  "last_reviewed": "2026-10-21",
+  "cooperation_ja": "基本方針は各国との協力・連携の推進を掲げる。ガイドラインは、日本が米国主導のAI政治宣言とREAIMの成果文書に支持を表明したことを記載する。",
+  "cooperation_en": "The policy promotes international cooperation. The guidelines record Japan’s support for the US-led Political Declaration on military AI and REAIM outcome documents."
+}
