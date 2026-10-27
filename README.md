@@ -7,7 +7,7 @@ A bilingual (Japanese / English) research site observing change at the intersect
 
 ## 現在の役割（2026-10-28 から） / Current role
 
-このリポジトリは、Daily Brief の原稿を受け渡す場所として使う。Claude の定期実行が毎朝 `handoff/daily/YYYY-MM-DD.json` と `.md` を作成し、公開サイトの編集・公開を担う ChatGPT が次のURLから取り込む。手順と執筆規則は `docs/DAILY_BRIEF_RUNBOOK.md`（v2）、検証は `node tools/check-handoff.js YYYY-MM-DD`。
+このリポジトリは、Daily Brief の原稿を受け渡す場所として使う。Claude の定期実行が毎朝 `handoff/daily/YYYY-MM-DD.json` と `.md` を作成し、公開サイトの編集・公開を担う ChatGPT が次のURLから取り込む。手順と執筆規則は `docs/DAILY_BRIEF_RUNBOOK.md`（v2）、検証は `node tools/check-handoff.js YYYY-MM-DD`、公開側の取り込み方針は `docs/EDITOR_INGEST_GUIDE.md`。
 This repository now carries the daily brief manuscripts. A scheduled Claude run writes `handoff/daily/YYYY-MM-DD.json` and `.md` each morning; the public site, edited and published through ChatGPT, imports them from:
 `https://raw.githubusercontent.com/kenj0126-creator/kenj0126-creator.github.io/main/handoff/daily/YYYY-MM-DD.json`
 
