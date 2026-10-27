@@ -89,11 +89,17 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 
 見出しと1〜3文の本文（`brief_text_ja`）、原典リンク。小見出しは付けない。
 
-### 3.3 今日の要点（lead_points_ja）
+### 3.3 号の題と副題（edition_title_ja・edition_dek_ja）
+
+- 題：その号の動きを貫く論点を、20〜32字の名詞句で示す（例：「AI防御の実行体制と自律システムの検証段階」）。個別の項目の見出しの繰り返しは避ける。
+- 副題：題を補う一文、25〜45字（例：「検査、調達、企業の利用条件をつなぐ制度と、実装の到達点。」）。
+- 英語（`edition_title_en`・`edition_dek_en`）も同じ内容で書く。
+
+### 3.4 今日の要点（lead_points_ja）
 
 3〜5項目。1項目目にその日の動きを貫く見立てを置き、続けて要点を示す。各項目は1〜2文。
 
-### 3.4 事実の扱い（必ず守る）
+### 3.5 事実の扱い（必ず守る）
 
 - **日付を区別する**：`date` は原典の公表日または事象の発生日。`edition_date` は掲載日。
 - **段階を混同しない**：予算要求／成立予算／契約／実証／配備は別の段階。発表や予算額から戦闘効果を推定しない。
@@ -101,7 +107,7 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 - **戦場関連の主張には信頼度コード**：`battlefield_claim: true` とし、`reliability` に情報源の信頼性（A〜F）と情報の確度（1〜6）を組み合わせたコード（例 `B2`）を付ける。
 - **未確認の内容を登録しない**：裏付けが取れない話題は載せない。推測は推測と明記する。
 
-### 3.5 文体
+### 3.6 文体
 
 - 日本語は分析的な論説調（である調）。一文は60〜80字を目安とし、「したがって」「一方で」「その結果」など論理の接続を明示する。
 - 「〜ではなく、〜」の構文は使わない（`check-handoff.js` が検出する）。強い否定（「〜でない」「〜がない」）の多用を避け、言える範囲を肯定文で示す。
@@ -117,6 +123,10 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
   "edition_date": "2026-10-28",
   "generated_at": "2026-10-28T06:05:00+09:00",
   "window_from": "2026-10-27T06:00:00+09:00",
+  "edition_title_ja": "（号の題）",
+  "edition_title_en": "(Edition title)",
+  "edition_dek_ja": "（副題の一文）",
+  "edition_dek_en": "(One-sentence dek)",
   "lead_points_ja": ["（その日を貫く見立て）", "（要点）", "（要点）"],
   "lead_points_en": ["...", "...", "..."],
   "items": [
@@ -204,6 +214,9 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 ```markdown
 # Daily AI × Security Brief — YYYY年M月D日
 
+**（号の題）**
+（副題）
+
 ## 今日の要点
 1. …
 2. …
@@ -249,5 +262,6 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 
 ## 改訂履歴
 
+- v2.1（2026-10-28）：号の題と副題（edition_title・edition_dek）を追加。
 - v2（2026-10-28）：原稿の受け渡し方式に移行。内容に即した小見出し、主要動向と短信の二層構成、日英の本文を採用。GitHub Pages での公開を終了。
 - v1（2026-10-22）：`dist/data/brief/` への直接公開（GitHub Pages）。

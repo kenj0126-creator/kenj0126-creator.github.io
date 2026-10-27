@@ -33,7 +33,8 @@
    - `stage`（announced / solicitation / awarded / fielded / cancelled）→ `stage_ja` / `stage_en`：区分に沿い、本文に即した短い表記にする（例：awarded →「契約締結」）。
    - 主要動向：`lead` → `summary_ja/en` と `analysis.lead_*`、`sections` → `analysis.sections`、`watch_next` → `analysis.watch_next_*`、`sources` → `analysis.sources` と `source_urls`・`source_kind`。`analysis_schema` は 3。`comment` と `facts` は空でよい。
    - 短信：`brief_text` → `summary_ja/en`。`sources` → `source_urls`・`source_kind`。
-   - `lead_points` と `upcoming` → `data/brief-meta/YYYY-MM-DD.json`。
+   - `edition_title_*` と `edition_dek_*` → その号の題と副題（号の冒頭に表示している題・副題）。書き換えずに使う。
+   - `lead_points` と `upcoming` → その号の「今日の要点」と「今後の予定」（既存の保存場所があればそこに、なければ `data/brief-meta/YYYY-MM-DD.json`）。
    - `internal`（scan, dropped, notes_for_editor）は公開しない。採用記録（internal_log）に写す。
 3. 原典の確認：各出典の URL を開き、題名・発行主体・日付と、本文の数値・固有名詞との対応を確認し、`checked_on` を記録する。
    - リンク切れ：同じ文書の正しい URL が見つかれば差し替えて記録する。
@@ -50,4 +51,5 @@
 
 ## 改訂履歴
 
+- 2026-10-28：号の題と副題（edition_title・edition_dek）の対応を追加。
 - 2026-10-28：初版。原稿の受け渡し方式への移行に伴い作成。

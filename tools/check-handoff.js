@@ -61,6 +61,18 @@ const styleScan = (label, texts) => {
 };
 styleScan('lead_points_ja', doc.lead_points_ja || []);
 
+// Edition title and dek (runbook §3.3)
+for (const k of ['edition_title_ja', 'edition_title_en', 'edition_dek_ja', 'edition_dek_en']) if (!str(doc[k])) err(`${k} is required (runbook §3.3)`);
+if (str(doc.edition_title_ja)) {
+  const n = jaLen(doc.edition_title_ja);
+  if (n < 14 || n > 40) warn(`edition_title_ja is ${n} chars (target 20–32)`);
+}
+if (str(doc.edition_dek_ja)) {
+  const n = jaLen(doc.edition_dek_ja);
+  if (n < 18 || n > 60) warn(`edition_dek_ja is ${n} chars (target 25–45)`);
+}
+styleScan('edition_title/dek', [doc.edition_title_ja || '', doc.edition_dek_ja || '']);
+
 let main = 0;
 let brief = 0;
 const compact = day.replace(/-/g, '');
