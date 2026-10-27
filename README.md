@@ -5,9 +5,16 @@
 AIと安全保障の変化を観測し、政策と研究をつなぐ日英二言語の研究情報サイト。
 A bilingual (Japanese / English) research site observing change at the intersection of AI, security and policy.
 
-公開URL / Live site: https://kenj0126-creator.github.io/
+## 現在の役割（2026-10-28 から） / Current role
 
-## 構成 / Layout
+このリポジトリは、Daily Brief の原稿を受け渡す場所として使う。Claude の定期実行が毎朝 `handoff/daily/YYYY-MM-DD.json` と `.md` を作成し、公開サイトの編集・公開を担う ChatGPT が次のURLから取り込む。手順と執筆規則は `docs/DAILY_BRIEF_RUNBOOK.md`（v2）、検証は `node tools/check-handoff.js YYYY-MM-DD`。
+This repository now carries the daily brief manuscripts. A scheduled Claude run writes `handoff/daily/YYYY-MM-DD.json` and `.md` each morning; the public site, edited and published through ChatGPT, imports them from:
+`https://raw.githubusercontent.com/kenj0126-creator/kenj0126-creator.github.io/main/handoff/daily/YYYY-MM-DD.json`
+
+GitHub Pages（https://kenj0126-creator.github.io/ ）での公開は 2026-10-28 に終了し、終了案内（`retired/`）だけを配信している。以下の `dist/` 以降の説明は旧版の記録である。
+Publishing on GitHub Pages ended on 2026-10-28; only a retirement notice (`retired/`) is served. The `dist/` layout below documents the earlier version.
+
+## 構成（旧版） / Layout (earlier version)
 
 | パス / Path | 役割 / Role |
 | --- | --- |

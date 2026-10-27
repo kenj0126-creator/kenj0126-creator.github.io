@@ -1,8 +1,13 @@
 name: Deploy site to GitHub Pages
 
+# 2026-10-28: GitHub Pages での公開を終了し、旧版の終了案内（retired/）だけを配信する。
+# 日次の原稿（handoff/daily/）の push では配信を行わない。
 on:
   push:
     branches: [main]
+    paths:
+      - 'retired/**'
+      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -24,19 +29,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate data and scripts (no build step)
-        run: |
-          node --version
-          node --check dist/assets/app.js
-          node tools/validate.js
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload dist/ as the Pages artifact
+      - name: Upload retired/ as the Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: retired
 
       - name: Deploy
         id: deployment
