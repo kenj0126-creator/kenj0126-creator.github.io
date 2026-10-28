@@ -1,0 +1,94 @@
+name: Deploy site to Xserver
+
+# Uploads site/ (the copy of the public site kept in this repository) to Xserver over SSH
+# whenever main changes it. Connection details live in repository secrets (docs/PUBLISHING.md).
+# Until those secrets and site/ exist, the job explains why it skipped and exits successfully.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/deploy-xserver.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-xserver
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      XSERVER_HOST: ${{ secrets.XSERVER_HOST }}
+      XSERVER_USER: ${{ secrets.XSERVER_USER }}
+      XSERVER_PORT: ${{ secrets.XSERVER_PORT }}
+      XSERVER_PATH: ${{ secrets.XSERVER_PATH }}
+      PUBLIC_SITE_URL: ${{ vars.PUBLIC_SITE_URL }}
+      SITE_BASIC_AUTH: ${{ secrets.SITE_BASIC_AUTH }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check configuration
+        id: cfg
+        env:
+          XSERVER_SSH_KEY: ${{ secrets.XSERVER_SSH_KEY }}
+        run: |
+          ready=true
+          if [ ! -f site/data/index.json ]; then echo "::notice::site/ がまだないため転送を省略した"; ready=false; fi
+          for v in XSERVER_HOST XSERVER_USER XSERVER_PATH XSERVER_SSH_KEY; do
+            if [ -z "${!v}" ]; then echo "::notice::$v が未登録のため転送を省略した"; ready=false; fi
+          done
+          echo "ready=$ready" >> "$GITHUB_OUTPUT"
+
+      - name: Set up Node
+        if: steps.cfg.outputs.ready == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate site
+        if: steps.cfg.outputs.ready == 'true'
+        run: node tools/check-site.js site
+
+      - name: Set up SSH
+        if: steps.cfg.outputs.ready == 'true'
+        env:
+          XSERVER_SSH_KEY: ${{ secrets.XSERVER_SSH_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$XSERVER_SSH_KEY" > ~/.ssh/xserver
+          chmod 600 ~/.ssh/xserver
+          ssh-keyscan -p "${XSERVER_PORT:-10022}" "$XSERVER_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          ssh -i ~/.ssh/xserver -p "${XSERVER_PORT:-10022}" -o BatchMode=yes "$XSERVER_USER@$XSERVER_HOST" "test -d '$XSERVER_PATH'" \
+            || { echo "::error::Xサーバーに接続できない、または公開ディレクトリがない（SSH設定・国外アクセス制限・XSERVER_PATH を確認）"; exit 1; }
+
+      - name: Upload with rsync
+        if: steps.cfg.outputs.ready == 'true'
+        run: |
+          rsync -rltz --checksum --chmod=D755,F644 \
+            --exclude '.htaccess' --exclude '.htpasswd' --exclude '.well-known/' \
+            -e "ssh -i $HOME/.ssh/xserver -p ${XSERVER_PORT:-10022} -o BatchMode=yes" \
+            site/ "$XSERVER_USER@$XSERVER_HOST:$XSERVER_PATH/"
+
+      - name: Confirm files on the server
+        if: steps.cfg.outputs.ready == 'true'
+        run: |
+          local_sum=$(sha256sum site/data/index.json | cut -d' ' -f1)
+          remote_sum=$(ssh -i ~/.ssh/xserver -p "${XSERVER_PORT:-10022}" -o BatchMode=yes "$XSERVER_USER@$XSERVER_HOST" "sha256sum '$XSERVER_PATH/data/index.json'" | cut -d' ' -f1)
+          [ "$local_sum" = "$remote_sum" ] || { echo "::error::サーバー上の data/index.json が手元と一致しない"; exit 1; }
+          echo "サーバー上のファイルを確認した（data/index.json $remote_sum）"
+
+      - name: Confirm over HTTPS
+        if: steps.cfg.outputs.ready == 'true' && env.PUBLIC_SITE_URL != ''
+        run: |
+          opts=(-fsS --retry 3 --retry-delay 5)
+          [ -n "$SITE_BASIC_AUTH" ] && opts+=(-u "$SITE_BASIC_AUTH")
+          local_sum=$(sha256sum site/data/index.json | cut -d' ' -f1)
+          web_sum=$(curl "${opts[@]}" -H 'Cache-Control: no-cache' "$PUBLIC_SITE_URL/data/index.json?ts=$(date +%s)" | sha256sum | cut -d' ' -f1)
+          [ "$local_sum" = "$web_sum" ] || { echo "::error::公開サイトの data/index.json が最新になっていない"; exit 1; }
+          echo "公開サイトで最新版を確認した"

@@ -1,7 +1,9 @@
 # Daily Brief 原稿の取り込み方針（公開サイトの編集・公開担当向け）
 
 版：2026-10-28。対象：AI & Security Observatory（https://ai-security-observatory.org/ ）の編集・公開を担う ChatGPT。編集責任：神保謙。
-原稿の作成側の規則は `docs/DAILY_BRIEF_RUNBOOK.md`（v2）にある。
+原稿の作成側の規則は `docs/DAILY_BRIEF_RUNBOOK.md` にある。
+
+**この方針は、自動公開（`docs/PUBLISHING.md`）へ移行するまでの暫定である。** 移行後は原稿が自動でそのまま公開され、ChatGPT はデザインと機能の改修を担当する。移行前に Weekly Brief の原稿（`handoff/weekly/YYYY-Www.json`、毎週土曜 07:30 頃まで）が置かれた場合は、Daily と同じ方針で、書き換えずに Weekly の形式へ格納する。
 
 ## 1. 役割
 

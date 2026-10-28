@@ -5,11 +5,19 @@
 AIと安全保障の変化を観測し、政策と研究をつなぐ日英二言語の研究情報サイト。
 A bilingual (Japanese / English) research site observing change at the intersection of AI, security and policy.
 
-## 現在の役割（2026-10-28 から） / Current role
+## 現在の役割 / Current role
 
-このリポジトリは、Daily Brief の原稿を受け渡す場所として使う。Claude の定期実行が毎朝 `handoff/daily/YYYY-MM-DD.json` と `.md` を作成し、公開サイトの編集・公開を担う ChatGPT が次のURLから取り込む。手順と執筆規則は `docs/DAILY_BRIEF_RUNBOOK.md`（v2）、検証は `node tools/check-handoff.js YYYY-MM-DD`、公開側の取り込み方針は `docs/EDITOR_INGEST_GUIDE.md`。
-This repository now carries the daily brief manuscripts. A scheduled Claude run writes `handoff/daily/YYYY-MM-DD.json` and `.md` each morning; the public site, edited and published through ChatGPT, imports them from:
-`https://raw.githubusercontent.com/kenj0126-creator/kenj0126-creator.github.io/main/handoff/daily/YYYY-MM-DD.json`
+このリポジトリは、Daily Brief・Weekly Brief の原稿と、公開サイト（https://ai-security-observatory.org 、Xサーバー）への自動公開の仕組みを置く場所である。
+This repository holds the Daily and Weekly Brief manuscripts and the automated publishing pipeline for the public site on Xserver.
+
+| 文書 | 内容 |
+| --- | --- |
+| `docs/PUBLISHING.md` | 公開の流れ、初回設定、失敗時の対応 |
+| `docs/DAILY_BRIEF_RUNBOOK.md` | Daily Brief の手順と執筆規則（毎朝 05:35 JST） |
+| `docs/WEEKLY_BRIEF_RUNBOOK.md` | Weekly Brief の手順と執筆規則（毎週土曜 06:40 JST、08:00 公開） |
+| `docs/EDITOR_INGEST_GUIDE.md` | 自動公開への移行前に ChatGPT が原稿を取り込むための方針（暫定） |
+
+検証：`node tools/check-handoff.js YYYY-MM-DD`、`node tools/check-weekly.js YYYY-Www`、`node tools/check-site.js`。公開データへの変換：`node tools/publish.js daily|weekly …`。
 
 GitHub Pages（https://kenj0126-creator.github.io/ ）での公開は 2026-10-28 に終了し、終了案内（`retired/`）だけを配信している。以下の `dist/` 以降の説明は旧版の記録である。
 Publishing on GitHub Pages ended on 2026-10-28; only a retirement notice (`retired/`) is served. The `dist/` layout below documents the earlier version.

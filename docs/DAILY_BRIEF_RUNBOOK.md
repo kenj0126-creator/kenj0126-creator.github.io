@@ -1,23 +1,24 @@
-# Daily AI × Security Brief — 原稿作成ランブック（v2）
+# Daily AI × Security Brief — 原稿作成ランブック（v3）
 
 対象リポジトリ：`kenj0126-creator/kenj0126-creator.github.io`
 編集責任：神保謙（Ken Jimbo）。本ランブックは、毎朝の自動実行（Claude のスケジュール実行）が従う手順と執筆規則を定める。手順を変えるときはこのファイルを編集する。スケジュール側の指示文は「このファイルを読んで従う」ことを求めている。
 
-## 役割分担（2026-10-28 から）
+## 役割分担と公開の経路
 
-- **Claude（毎朝 05:35 JST の自動実行）**：その日の Daily Brief の原稿（本文・出典・タグ）を作成し、`handoff/daily/YYYY-MM-DD.json` と `handoff/daily/YYYY-MM-DD.md` としてこのリポジトリに置く。原稿がそのまま公開本文になる前提で書く。
-- **ChatGPT（公開サイト AI & Security Observatory の編集・公開）**：原稿を取り込み、原典リンクを確認し、サイトのデータ形式に格納して公開する。原稿にない動向は短信として補う。
+- **Claude（毎朝 05:35 JST の自動実行）**：その日の Daily Brief の原稿（本文・出典・タグ）を作成し、`handoff/daily/YYYY-MM-DD.json` と `.md` としてこのリポジトリに置く。原稿がそのまま公開本文になる。
+- **公開（自動）**：リポジトリに公開サイトの原本 `site/` がある場合、`tools/publish.js` が原稿を書き換えずに公開データへ変換し、`main` への push を受けて GitHub Actions が Xサーバー（ai-security-observatory.org）へ転送する。07:30 JST に公開サイトを自動で確認する（`docs/PUBLISHING.md`）。
+- **移行前の暫定**：`site/` がまだない間は、ChatGPT が次のURLから原稿を取り込んで公開する（`docs/EDITOR_INGEST_GUIDE.md`）。
+  `https://raw.githubusercontent.com/kenj0126-creator/kenj0126-creator.github.io/main/handoff/daily/YYYY-MM-DD.json`
+- **ChatGPT の役割（移行後）**：サイトのデザインと機能の改修。日々の公開には関わらない。
 - **GitHub Pages**（kenj0126-creator.github.io）での公開は 2026-10-28 に終了した。`dist/` は旧版の記録として残し、日次の作業では変更しない。
-
-ChatGPT が読む受け渡しURL：
-`https://raw.githubusercontent.com/kenj0126-creator/kenj0126-creator.github.io/main/handoff/daily/YYYY-MM-DD.json`
 
 ## 0. 成果物
 
 1. `handoff/daily/YYYY-MM-DD.json` — 原稿（日英）。§4 の形式。
 2. `handoff/daily/YYYY-MM-DD.md` — 日本語の読み物版。§5 の形式。
-3. `main` への commit と push。
-4. 実行報告（§6）。
+3. `site/` がある場合は公開データ（`tools/publish.js` が書くファイル）。
+4. `main` への commit と push。
+5. 実行報告（§6）。
 
 日付は **Asia/Tokyo の当日**（`TZ=Asia/Tokyo date +%F`）。ファイル名の日付＝`edition_date`。
 
@@ -33,16 +34,18 @@ test -f handoff/daily/$DAY.json && echo "already exists — skip"   # 同日分�
 1. 調査と選定（§2）。
 2. 原稿 JSON（§3・§4）と読み物版 Markdown（§5）を書く。
 3. 検証：`node tools/check-handoff.js $DAY`。ERROR がなくなるまで直す。WARN は内容を見て判断し、残した理由を報告に書く。
-4. 検証を通った場合のみ、2つのファイルだけを commit・push する。
+4. 公開データへの変換：`FILES=$(node tools/publish.js daily $DAY)`。検証を通らない原稿は変換されない。`site/` がない間は何もせず終わる（FILES は空）。
+5. 原稿の2ファイルと、変換が書いたファイルだけを commit・push する。
 
 ```sh
-git add handoff/daily/$DAY.json handoff/daily/$DAY.md
+git add handoff/daily/$DAY.json handoff/daily/$DAY.md $FILES
 git commit -m "brief: $DAY"
-git push origin main
+git push origin main                   # 失敗したら git pull --rebase origin main の後に1回だけ再試行
 git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを確認する
 ```
 
-5. 報告（§6）。
+6. `site/` がある場合は、push の数分後に `gh run list --workflow deploy-xserver.yml --limit 1` で転送の結果を確かめる（gh が使えない環境では省略し、報告にその旨を書く）。
+7. 報告（§6）。
 
 ## 2. 調査と選定
 
@@ -155,8 +158,8 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
       "publisher": "（発行主体・日本語）",
       "publisher_en": "(Publisher)",
       "sources": [
-        {"title": "（原典の題名）", "url": "https://...", "publisher": "（発行主体）", "date": "2026-10-27", "kind": "primary"},
-        {"title": "（報道の題名）", "url": "https://...", "publisher": "（媒体）", "date": "2026-10-27", "kind": "media"}
+        {"title": "（原典の題名）", "url": "https://...", "publisher": "（発行主体）", "date": "2026-10-27", "kind": "primary", "accessed": true},
+        {"title": "（報道の題名）", "url": "https://...", "publisher": "（媒体）", "date": "2026-10-27", "kind": "media", "accessed": true}
       ],
       "themes": ["c2-decision"],
       "actors": ["US"],
@@ -205,6 +208,7 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 
 - `stage` は `tags.json` の stages（announced, solicitation, awarded, fielded, cancelled）または空文字。
 - `continuation_of` は、過去の原稿の続報である場合にその `id` を書く。
+- `accessed` は、その出典の本文を自分で開いて確認できたかどうか。開けなかった出典は `false` とし、公開サイトの「確認日」は空欄になる。一次資料を開けず報道に依拠した場合は、その旨を `internal.notes_for_editor` にも書く。
 - 使える ID：themes `c2-decision`, `isr-targeting`, `autonomy-laws`, `nuclear-nc3`, `cognitive`, `cyber-ci`, `compute-export`, `frontier-safety`, `industry-procurement`, `governance-norms`／actors `US`, `CN`, `RU`, `JP`, `GB`, `AU`, `KR`, `TW`, `IN`, `IL`, `UA`, `NATO`, `EU`, `UN`, `G7`, `ASEAN`, `QUAD`／doc_type `strategy`, `law-regulation`, `declaration`, `official-report`, `think-tank`, `academic`, `budget-procurement`, `speech-testimony`, `news-analysis`, `dataset`／forums `un-ga`, `ccw-gge`, `reaim`, `political-declaration`, `g7-hiroshima`, `ai-summits`, `nato`, `eu`, `oecd`, `bilateral`／kill_chain `detect`, `decide`, `engage`, `assess`, `sustain`, `cognitive-domain`。
 
 ## 5. 読み物版 Markdown（`handoff/daily/YYYY-MM-DD.md`）
@@ -249,7 +253,7 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 
 1. 結果：作成した／同日分が既にあったため作成しなかった／検証に通らず push しなかった、のいずれか。
 2. 掲載日と件数（主要動向・短信）、各項目の見出し・重要度・一次資料か報道か。
-3. commit ハッシュと、`git ls-remote` で確認した push の結果。
+3. commit ハッシュと、`git ls-remote` で確認した push の結果。公開データへ変換したかどうかと、Xサーバーへの転送の結果（§1 の6）。
 4. 読み物版（`handoff/daily/YYYY-MM-DD.md`）の全文。
 5. 編集者の判断が必要な点（信頼度の低い主張、タグ体系にない概念、検証の WARN を残した理由）。
 6. 採用しなかった主な候補と理由（`internal.dropped` の要約）。
@@ -258,10 +262,11 @@ git ls-remote origin refs/heads/main   # 手元の HEAD と一致することを
 
 ## 7. 日次の作業で変更しないもの
 
-`dist/`、`tools/`、`.github/`、`docs/`（本ランブックの改訂は人が行う）、過去の日付の `handoff/daily/` ファイル。同日ファイルを上書きしない（修正が必要なときは報告に書き、人が判断する）。
+`dist/`、`tools/`、`.github/`、`docs/`（本ランブックの改訂は人が行う）、過去の日付の `handoff/daily/` ファイル、`handoff/weekly/`。同日ファイルを上書きしない（修正が必要なときは報告に書き、人が判断する）。`site/` は `tools/publish.js` を通してだけ変更する。
 
 ## 改訂履歴
 
+- v3（2026-10-29）：公開の自動化。`tools/publish.js` による公開データへの変換と、GitHub Actions による Xサーバーへの転送・公開確認。出典の `accessed`（本文を直接開けたか）を追加。
 - v2.1（2026-10-28）：号の題と副題（edition_title・edition_dek）を追加。
 - v2（2026-10-28）：原稿の受け渡し方式に移行。内容に即した小見出し、主要動向と短信の二層構成、日英の本文を採用。GitHub Pages での公開を終了。
 - v1（2026-10-22）：`dist/data/brief/` への直接公開（GitHub Pages）。

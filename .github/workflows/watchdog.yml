@@ -1,0 +1,43 @@
+name: Check publication
+
+# Confirms that today's Daily Brief (07:30 JST every day) and, on Saturdays, the week's
+# Weekly Brief (08:30 JST) are on the public site. A failed run sends GitHub's failure email.
+# Runs only after the repository variable PUBLIC_SITE_URL is set (docs/PUBLISHING.md).
+on:
+  schedule:
+    - cron: '30 22 * * *'   # 07:30 JST daily
+    - cron: '30 23 * * 5'   # 08:30 JST Saturday
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: vars.PUBLIC_SITE_URL != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      URL: ${{ vars.PUBLIC_SITE_URL }}
+      SITE_BASIC_AUTH: ${{ secrets.SITE_BASIC_AUTH }}
+    steps:
+      - name: Check the public site
+        run: |
+          DAY=$(TZ=Asia/Tokyo date +%F)
+          DOW=$(TZ=Asia/Tokyo date +%u)
+          HOUR=$(TZ=Asia/Tokyo date +%H)
+          WEEK=$(TZ=Asia/Tokyo date +%G-W%V)
+          opts=(-fsS --retry 3 --retry-delay 10 -H 'Cache-Control: no-cache')
+          [ -n "$SITE_BASIC_AUTH" ] && opts+=(-u "$SITE_BASIC_AUTH")
+          idx=$(curl "${opts[@]}" "$URL/data/index.json?ts=$(date +%s)") || { echo "::error::公開サイトに接続できない（$URL）"; exit 1; }
+          fail=0
+          if echo "$idx" | grep -q "data/brief/$DAY.json"; then
+            curl "${opts[@]}" -o /dev/null "$URL/data/brief/$DAY.json" && echo "Daily Brief $DAY: 公開を確認"
+          else
+            echo "::error::Daily Brief $DAY が公開サイトにない"; fail=1
+          fi
+          if [ "$DOW" = 6 ] && [ "$HOUR" -ge 8 ]; then
+            if echo "$idx" | grep -q "data/weekly/$WEEK.json"; then echo "Weekly Brief $WEEK: 公開を確認"
+            else echo "::error::Weekly Brief $WEEK が公開サイトにない"; fail=1; fi
+          fi
+          exit $fail
