@@ -1,0 +1,1550 @@
+{
+  "edition_date": "2026-10-30",
+  "generated_at": "2026-10-30T06:30:00+09:00",
+  "window_from": "2026-10-29T06:50:00+09:00",
+  "edition_title_ja": "チップ迂回捜査の政治化と無人システム調達の次段階",
+  "edition_title_en": "The politics of a chip-diversion probe and the next stage of unmanned procurement",
+  "edition_dek_ja": "Nvidia周辺の防諜報道、EUと独の無人機調達、北朝鮮のAI利用評価を制度と実装の到達点で読む。",
+  "edition_dek_en": "Counter-intelligence reporting around Nvidia, EU and German drone procurement, and an assessment of North Korea's AI use, read at the level of institutions and fielding.",
+  "lead_points_ja": [
+    "この一日の動きを貫くのは、先端チップの迂回輸出をめぐる捜査が防諜と通商政策の交点で政治問題化し、同時に欧州と米国の無人システム調達が公募・認証・初配備という具体の段階に進んだことである。北朝鮮のAI利用に関する評価は、攻撃側の自動化が人間主導の範囲にとどまる現状を示した。",
+    "米紙は、米情報機関がNvidiaのCEOに近いMegaspeed幹部を中国の情報協力者と結論づけ、トランプ大統領が約1年前に報告を受けていたと報じた。Nvidiaは両者の交流は「異例でも予想外でもない」と反論し、商務省の調査は司法省に移管されている。",
+    "欧州委員会はSAFEの残余213億ユーロの第2ラウンドを開き、防空・無人機・対無人機・弾薬を優先分野に掲げた。ピストリウス独国防相はHelsingで徘徊型弾薬の技術認証が数週間以内に完了すると述べ、米海軍は中型無人水上艇の初の実戦配備に入った。",
+    "Microsoftは北朝鮮の8集団のAI利用を4段階で評価し、3集団が「運用段階」にあると判定した。中国国防部は軍学校の学科再編を確認し、日本の無人装備量産を批判した。ウクライナの部隊はAI航法の地上無人車両が20キロの補給路を93%自律で走行したと発表した。"
+  ],
+  "lead_points_en": [
+    "The thread running through the day is that an investigation into diverted AI chips has become a political question at the intersection of counter-intelligence and trade policy, while unmanned-systems procurement in Europe and the United States moved to the concrete stages of calls for applications, qualification and first deployment. An assessment of North Korea's AI use shows attackers' automation still operating under human direction.",
+    "The New York Times reported that US intelligence concluded a Megaspeed executive close to Nvidia's CEO was a Chinese intelligence asset and that President Trump was briefed about a year ago. Nvidia replied that the interactions were 'not unusual or unexpected'; the Commerce Department's investigation has been handed to the Justice Department.",
+    "The European Commission opened a second SAFE round for the remaining €21.3 billion, naming air defence, drones, counter-drone systems and ammunition as priorities. German Defence Minister Pistorius said at Helsing that technical qualification of loitering munitions will be complete within weeks, and the US Navy's medium unmanned surface vessel began its first operational deployment.",
+    "Microsoft rated AI adoption by eight North Korean threat groups on a four-stage scale and placed three at the 'operationalized' stage. China's Ministry of National Defense confirmed a restructuring of military academies and criticised Japan's mass production of unmanned equipment. A Ukrainian unit said an AI-navigated ground robot ran a 20 km supply route 93% autonomously."
+  ],
+  "items": [
+    {
+      "id": "cl-20261030-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "欧州委、SAFE残余213億ユーロの第2ラウンド開始　無人機・対無人機を優先しウクライナ共同調達を奨励",
+      "title_en": "Commission opens a second SAFE round for the remaining €21.3bn, prioritising drones and counter-drone systems and encouraging joint procurement with Ukraine",
+      "lead_ja": "欧州委員会は10月29日、1,500億ユーロの防衛融資制度SAFEのうち未使用の213億ユーロについて、全27加盟国に申請を呼びかける第2ラウンドを開始した。優先分野は防空・ミサイル防衛、無人機・対無人機システム、弾薬・ミサイルで、加盟国の計画にウクライナ企業との共同調達を組み込むことを奨励している。前日の28日にはハンガリーの54億ユーロの計画が承認され、第1ラウンドの19件すべてが承認済みとなった。",
+      "lead_en": "On 29 October the European Commission opened a second round of the €150 billion SAFE defence-loan instrument, inviting all 27 member states to apply for the €21.3 billion left unused. The stated priorities are air and missile defence, drones and counter-drone systems, and ammunition and missiles, and the Commission encourages member states to build joint procurement with Ukrainian companies into their plans. On 28 October it had approved Hungary's €5.4 billion plan, completing approval of all 19 first-round plans.",
+      "sections": [
+        {
+          "heading_ja": "残余213億ユーロと四つの優先分野",
+          "heading_en": "The remaining €21.3bn and four priority areas",
+          "paragraphs_ja": [
+            "残余資金は、イタリア、ハンガリー、フランスが当初の見込みより少ない額を借り入れたことで生じた。欧州委員会は第2ラウンドでも、第1ラウンドに参加しなかったドイツやオランダを含む全加盟国に門戸を開き、提出から2週間以内に暫定配分を通知するとしている。報道によれば申請期限は11月13日とされるが、この日付は欧州メディア1社の報道にとどまり、他の通信社は期限を記していない。",
+            "第1ラウンドで認められていた単一国による調達は5月に受付を終えており、第2ラウンドの融資は国境をまたぐ共同調達に限られる。無人機と対無人機システムが防空・弾薬と並ぶ優先分野に明記されたことで、欧州委員会が9月以来掲げる東側国境の監視と無人機防衛の構想は、融資の配分基準として制度に組み込まれる段階に入った。"
+          ],
+          "paragraphs_en": [
+            "The unspent funds arose because Italy, Hungary and France borrowed less than initially expected. For the second round the Commission is again opening the door to every member state, including Germany and the Netherlands, which stayed out of the first round, and says it will communicate tentative allocations within two weeks of submission. One European outlet reports a deadline of 13 November; the wire agencies give no date, so the deadline rests on a single source.",
+            "Single-country procurement, permitted in the first round, closed in May, so second-round loans are limited to cross-border joint procurement. With drones and counter-drone systems written in as priorities alongside air defence and ammunition, the eastern-flank surveillance and drone-defence concepts the Commission has promoted since September now enter the stage of being built into the allocation criteria of a lending instrument."
+          ]
+        },
+        {
+          "heading_ja": "ウクライナ共同調達の経路と限界",
+          "heading_en": "The channel for joint procurement with Ukraine and its limits",
+          "paragraphs_ja": [
+            "クビリウス委員は各国政府への書簡で、国内計画にウクライナ企業との共同事業を含めるよう促し、フォン・デア・ライエン委員長も9月の施政方針演説で残余資金をウクライナ企業との共同事業に向ける方針を示していた。したがって第2ラウンドは、ウクライナの無人機産業を欧州の調達体系に接続する最初の制度的な経路となる。",
+            "一方で、SAFEの融資を直接ウクライナに回すことは法的に認められておらず、約700億ユーロと見込まれるウクライナの財政不足を埋める手段にはならない。EU当局者は「ウクライナ企業が参加できる保証はない」と述べており、各加盟国が計画にどこまでウクライナ企業を組み込むかが実質を決める。"
+          ],
+          "paragraphs_en": [
+            "Commissioner Kubilius wrote to governments urging them to include joint projects with Ukrainian companies in their national plans, and President von der Leyen had said in her September State of the Union address that the remaining SAFE funds would go to a programme of joint projects with Ukrainian firms. The second round is therefore the first institutional channel connecting Ukraine's drone industry to Europe's procurement system.",
+            "At the same time, SAFE loans cannot legally be passed directly to Ukraine, so the instrument does not close the roughly €70 billion gap in Kyiv's budget. An EU official said 'there is no guarantee' that Ukrainian companies will be included, so the substance will be decided by how far each member state writes Ukrainian firms into its plan."
+          ]
+        },
+        {
+          "heading_ja": "第1ラウンドの到達点",
+          "heading_en": "Where the first round stands",
+          "paragraphs_ja": [
+            "第1ラウンドでは19カ国の計画がすべて承認され、16件の融資契約が署名済みで、11カ国に約135億ユーロの前払いが実行された。最大のポーランドは437.3億ユーロで、その89%が国内調達に充てられる。ハンガリーはマジャル首相の下で申請額を164億ユーロから54億ユーロに縮小し、28日に承認を得たが、理事会の承認と融資契約の署名が残っている。アイルランドは第2ラウンドへの関心を表明している。"
+          ],
+          "paragraphs_en": [
+            "In the first round all 19 national plans were approved, 16 loan agreements have been signed and about €13.5 billion in pre-financing has been disbursed to 11 states. Poland is the largest borrower at €43.73 billion, 89% of it earmarked for domestic procurement. Hungary, under Prime Minister Péter Magyar, cut its request from €16.4 billion to €5.4 billion and won approval on 28 October, with Council approval and a loan agreement still to come. Ireland has signalled interest in the second round."
+          ]
+        }
+      ],
+      "watch_next_ja": "申請期限（報道では11月13日）と各国計画の提出状況。ウクライナ企業を含む共同調達案件の有無。欧州委員会の暫定配分の通知。",
+      "watch_next_en": "The application deadline (reported as 13 November) and which states submit plans. Whether joint procurement projects include Ukrainian companies. The Commission's tentative allocations.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "solicitation",
+      "publisher": "欧州委員会",
+      "publisher_en": "European Commission",
+      "sources": [
+        {
+          "title": "EU urges member states to tap €21.3 billion SAFE fund to boost defence, support Ukraine",
+          "url": "https://cyprus-mail.com/2026/10/29/eu-urges-member-states-to-tap-e21-3-billion-safe-fund-to-boost-defence-support-ukraine",
+          "publisher": "Reuters（Cyprus Mail掲載）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "EU Commission invites member states to use $23.7B in defense funds for joint procurement, Ukraine support",
+          "url": "https://www.aa.com.tr/en/europe/eu-commission-invites-member-states-to-use-237b-in-defense-funds-for-joint-procurement-ukraine-support/4104953",
+          "publisher": "Anadolu Agency",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Brussels hopes unspent defence loans may help plug Ukraine's budget hole",
+          "url": "https://www.euronews.com/2026/10/29/brussels-hopes-unspent-defence-loans-may-help-plug-ukraines-budget-hole",
+          "publisher": "Euronews",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "SAFE instrument: European Commission gives green light to Hungary's plan",
+          "url": "https://agenceurope.eu/en/bulletin/article/13970/10/safe-instrument-european-commission-gives-green-light-to-hungarys-plan",
+          "publisher": "Agence Europe",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "UA"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [
+        "eu"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261029-15"
+    },
+    {
+      "id": "cl-20261030-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Microsoft、北朝鮮の8集団のAI利用を4段階で評価　3集団が「運用段階」、攻撃は人間主導の範囲にとどまると判定",
+      "title_en": "Microsoft rates AI adoption across eight North Korean threat groups on a four-stage scale, placing three at 'operationalized' while judging operations still human-directed",
+      "lead_ja": "Microsoft Threat Intelligenceは10月29日、北朝鮮の脅威主体8集団によるAI利用の進度を「萌芽・拡大・加速・運用」の4段階で評価した報告を公開した。Jade Sleet、Coral Sleet、Jasper Sleetの3集団を「運用段階」、Diamond、Onyx、Pearl、Sapphire Sleetの4集団を「加速段階」と判定し、全体の採用度を「高い」とした。同時に「AIを用いた作戦は人間が指揮しており、完全な自律には至っていない」と結論づけている。",
+      "lead_en": "On 29 October Microsoft Threat Intelligence published a report rating the maturity of AI use by eight North Korean threat groups on a four-stage scale of emerging, expanding, accelerating and operationalized. It places Jade Sleet, Coral Sleet and Jasper Sleet at the operationalized stage and Diamond, Onyx, Pearl and Sapphire Sleet at the accelerating stage, and rates overall adoption as high. It concludes at the same time that 'AI-enabled operations remain human-directed and have not become fully autonomous'.",
+      "sections": [
+        {
+          "heading_ja": "偽装求人から文書量産までの用途",
+          "heading_en": "Uses from fake recruitment to mass-produced lures",
+          "paragraphs_ja": [
+            "報告が挙げる用途は、標的の偵察と個別化した誘引文書の作成、偽の人物像と履歴書の生成（Jasper Sleet）、面接を装ったソーシャルエンジニアリング（Sapphire、Jade、Coral Sleet）、AI支援コーディング環境を使ったマルウェア開発（Jade、Coral、Pearl、Sapphire Sleet）である。Onyx Sleetに帰属する100件以上のPDF誘引文書は2026年8〜9月に短期間で集中的に作成されており、文書量産の速度がAI利用の指標として示されている。",
+            "Jade Sleetは2026年6月8〜12日の1週間に三つのフロント企業を通じて求人を装った標的化を行い、Sapphire Sleetは8月のRustソフトウェアの侵害でAIを用いた可能性が高いとされる。Coral Sleetは4月以降、非公開のGitHubリポジトリにトロイの木馬を仕込む手法を続けており、Emerald Sleetには合成音声・映像の利用の可能性が指摘されている。"
+          ],
+          "paragraphs_en": [
+            "The uses the report lists include reconnaissance and bespoke lures, fabricated personas and resumes (Jasper Sleet), interview-themed social engineering (Sapphire, Jade and Coral Sleet) and malware development in AI-assisted coding environments (Jade, Coral, Pearl and Sapphire Sleet). More than 100 PDF lure files attributed to Onyx Sleet were created in rapid bursts in August and September 2026, with the pace of document production offered as an indicator of AI use.",
+            "Jade Sleet ran job-themed targeting through three front companies in a single week, 8–12 June 2026, and Sapphire Sleet likely used AI in the August compromise of Rust software. Coral Sleet has been trojanizing private GitHub repositories since April, and Emerald Sleet is flagged as a possible user of synthetic voice and video."
+          ]
+        },
+        {
+          "heading_ja": "エージェント型侵入試験ツールへの到達",
+          "heading_en": "Arrival at agentic penetration-testing tools",
+          "paragraphs_ja": [
+            "注目される記述は、Onyx SleetとPearl Sleetが2026年10月下旬からオープンソースのエージェント型侵入試験フレームワーク「ARTEX」を使い始めたという点である。ARTEXは10月21日のMicrosoftの報告で中国系のStorm-0940によるサプライチェーン侵害に使われたとされ、10月27日のTrendAIの報告でも日本を標的とする攻撃基盤に登場していた。したがって、国家主体の間で同一のエージェント型ツールが短期間に横展開している構図が、複数の観測者から独立に示されたことになる。"
+          ],
+          "paragraphs_en": [
+            "The notable passage is that Onyx Sleet and Pearl Sleet began using the open-source agentic penetration-testing framework ARTEX in late October 2026. Microsoft's 21 October report described ARTEX in a supply-chain compromise by the China-linked Storm-0940, and TrendAI's 27 October report found it in attack infrastructure aimed at Japan. The same agentic tool spreading across state actors within weeks has therefore now been shown independently by several observers."
+          ]
+        },
+        {
+          "heading_ja": "人間主導という評価の射程",
+          "heading_en": "What the 'human-directed' verdict covers",
+          "paragraphs_ja": [
+            "Microsoftは、AIが攻撃の速度と効率を高めている一方で、作戦の指揮は人間が握り、完全自律の攻撃には至っていないと評価した。この判定は、防御側がフロンティアモデルの先行提供や自律的対処の実証を急ぐ現状に対し、攻撃側の自動化の現段階を測る基準となる。推奨策は脆弱性管理、EDRのブロックモード、攻撃面縮小規則、人材紹介会社の審査、デバイスコードフローの遮断など従来型の統制に加え、AIエージェントの可視化を含む。"
+          ],
+          "paragraphs_en": [
+            "Microsoft assesses that AI is increasing the speed and efficiency of attacks while humans still direct operations and no fully autonomous attack has occurred. The verdict gives a baseline for the current stage of attacker automation against which defenders' early access to frontier models and pilots of autonomous response can be measured. The recommendations combine conventional controls, including vulnerability management, EDR block mode, attack-surface-reduction rules, vetting of staffing firms and blocking the device-code flow, with visibility into AI agents."
+          ]
+        }
+      ],
+      "watch_next_ja": "ARTEXを用いる国家主体の追加観測。Microsoftの次回のAI脅威報告と、米韓当局の北朝鮮IT労働者対策への反映。",
+      "watch_next_en": "Further observations of state actors using ARTEX. Microsoft's next AI-threat report and whether US and South Korean measures on North Korean IT workers absorb these findings.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "Microsoft Threat Intelligence",
+      "publisher_en": "Microsoft Threat Intelligence",
+      "sources": [
+        {
+          "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+          "publisher": "Microsoft",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Storm-0940 uses ARTEX agentic AI in ConnectWise supply chain compromise",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+          "publisher": "Microsoft",
+          "date": "2026-10-21",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米紙、Nvidia CEOに近いMegaspeed幹部を米情報機関が中国の協力者と結論と報道　商務省の調査は司法省へ",
+      "title_en": "NYT: US intelligence concluded a Megaspeed executive close to Nvidia's CEO was a Chinese asset; Trump briefed about a year ago, Commerce probe passed to DOJ",
+      "lead_ja": "ニューヨーク・タイムズは10月29日、米情報機関がシンガポールのデータセンター企業Megaspeedの幹部で中国籍のアリス・ホアン氏を中国の情報協力者と結論づけ、同氏がNvidiaのジェンスン・フアンCEOと親密な関係を築いていたと報じた。トランプ大統領は約1年前に報告を受けたが対応をとらず、NvidiaのCEOに防諜上の注意喚起も行われなかったとされる。Nvidiaは両者の交流は「異例でも予想外でもない」と反論し、中国大使館は「根拠のない中傷」と否定した。",
+      "lead_en": "The New York Times reported on 29 October that US intelligence agencies concluded Alice Huang, a Chinese national and senior executive at the Singapore data-centre company Megaspeed, was a Chinese intelligence asset who had developed a close relationship with Nvidia chief executive Jensen Huang. President Trump was reportedly briefed about a year ago and took no action, and Nvidia's CEO received no defensive briefing. Nvidia replied that the interactions were 'not unusual or unexpected', and the Chinese embassy called the report 'groundless smears'.",
+      "sections": [
+        {
+          "heading_ja": "匿名当局者に基づく認定と政権の判断",
+          "heading_en": "A finding sourced to anonymous officials, and the administration's choice",
+          "paragraphs_ja": [
+            "報道は匿名の当局者と機密情報に基づき、監視活動がホアン氏とNvidiaのCEOの関係を把握し、2024年6月と2025年5月に台北で両者が同席していたとする。大統領への報告後に措置がとられなかった背景として、同紙はNvidiaの対中販売や通商交渉を乱すことへの慎重さを挙げる。情報機関の認定の内容、どの機関が監視を行ったか、どの情報が渡ったかは、他の報道機関による独立の確認が29日時点で出ていない。"
+          ],
+          "paragraphs_en": [
+            "The report rests on anonymous officials and classified intelligence; it says surveillance tracked the relationship between Ms Huang and Nvidia's CEO, who were photographed together in Taipei in June 2024 and May 2025. As the reason no action followed the presidential briefing, the paper points to reluctance to disrupt Nvidia's China sales and trade negotiations. The substance of the intelligence finding, which agencies ran the surveillance and what information was passed had received no independent confirmation from other outlets as of 29 October."
+          ]
+        },
+        {
+          "heading_ja": "48億ドルの調達と商務省から司法省への移管",
+          "heading_en": "$4.8bn in purchases and a hand-off from Commerce to Justice",
+          "paragraphs_ja": [
+            "貿易記録によれば、Megaspeedのマレーシアの関連会社は2024年6月から2026年2月にかけてNvidia製品を搭載した機器を少なくとも48億ドル分購入し、規制対象のInspurの米国法人を経由して調達し、アリババを含む中国企業に計算資源を貸し出していた。商務省の調査は2024年末、同社のマレーシアのデータセンターで開梱されていないNvidia製機器を当局者が確認したことを機に始まり、今年に入って司法省に移管された。シンガポール当局は2025年にホアン氏を聴取のうえ釈放し、起訴は報じられていない。",
+            "コットン上院議員は2025年10月の書簡でMegaspeedを中国国有企業の分離会社と位置づけ、46億ドル超のNvidia製品の調達について商務省に調査を求めていた。今回の報道は、既知の迂回輸出疑惑に防諜の次元を重ねたものであり、マレーシア税関による先端AIチップ搭載サーバーの押収が続く東南アジアの中継拠点をめぐる執行の文脈に位置する。"
+          ],
+          "paragraphs_en": [
+            "According to trade records, Megaspeed's Malaysian sister company bought at least $4.8 billion of Nvidia-based equipment between June 2024 and February 2026, sourcing through the US arm of Inspur, whose parent is blacklisted, and renting compute to Chinese firms including Alibaba. The Commerce Department's investigation began in late 2024 after an official found Nvidia hardware still boxed at the company's Malaysian data centre, and was handed to the Justice Department this year. Singapore questioned and released Ms Huang in 2025, and no charges have been reported.",
+            "In an October 2025 letter Senator Tom Cotton described Megaspeed as a spin-off of a Chinese state-owned enterprise and asked Commerce to investigate more than $4.6 billion in Nvidia purchases. The new report layers a counter-intelligence dimension onto a known diversion case, and sits within the enforcement effort around South-East Asian transit hubs, where Malaysian customs continue to seize servers carrying advanced AI chips."
+          ]
+        },
+        {
+          "heading_ja": "Nvidiaの反論と議会の反応",
+          "heading_en": "Nvidia's rebuttal and the congressional response",
+          "paragraphs_ja": [
+            "Nvidiaの広報担当ジョン・リッゾ氏は、CEOとホアン氏の交流は「異例でも予想外でもない」とし、地域クラウド事業者が安全保障に関わる情報を得ることはないと述べた。同社は別の取材に「この地域クラウドに対する迂回の疑いは昨年徹底的に調査され否定された」と答えている。Megaspeedは外部弁護士を起用し米政府に協力中とし、ホワイトハウス、CIA、NSAはコメントを控えた。ウォーレン上院議員は「フアン氏とNvidiaの取締役会は議会に説明する義務がある」と述べ、超党派のチップ輸出法案の成立を求めた。"
+          ],
+          "paragraphs_en": [
+            "Nvidia spokesman John Rizzo said Jensen Huang's interactions with Ms Huang were 'not unusual or unexpected' and that regional cloud customers receive no information relevant to national security; the company told another outlet that 'the diversion allegations against this regional cloud were thoroughly investigated and debunked last year'. Megaspeed said it had retained outside counsel and was cooperating with the US government, while the White House, CIA and NSA declined to comment. Senator Elizabeth Warren said 'Huang and NVIDIA's board owe Congress answers' and called for passage of bipartisan chip-export legislation."
+          ]
+        }
+      ],
+      "watch_next_ja": "司法省の捜査の進展と起訴の有無。上院商業・銀行両委員会からの質問書。対中チップ輸出政策と洋上データセンター規制の見直しへの影響。",
+      "watch_next_en": "Progress of the Justice Department probe and any charges. Letters from the Senate Commerce and Banking committees. Effects on chip-export policy toward China and on rules for offshore data centres.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "ニューヨーク・タイムズ",
+      "publisher_en": "The New York Times",
+      "sources": [
+        {
+          "title": "U.S. Intelligence Concluded a Nvidia Executive's Associate Was a Chinese Asset",
+          "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+          "publisher": "The New York Times",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+          "url": "https://gvwire.com/2026/10/29/nvidia-chief-seen-as-target-of-chinese-spy-plot/",
+          "publisher": "GV Wire（NYT配信全文）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "U.S. investigated Chinese spy plot aimed at Nvidia CEO",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "publisher": "TechCrunch",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang may have been the target of a Chinese government spy",
+          "url": "https://www.engadget.com/2301447/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-chinese-government-spy/",
+          "publisher": "Engadget",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Cotton to Lutnick: Investigate Chinese Government Spin-Off Megaspeed for Skirting U.S. Export Laws",
+          "url": "https://www.cotton.senate.gov/news/press-releases/cotton-to-lutnick-investigate-chinese-government-spin-off-megaspeed-for-skirting-us-export-laws",
+          "publisher": "米上院コットン議員事務所",
+          "date": "2025-10-14",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "cyber-ci"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "中国国防部、軍学校の学科再編を確認　無人智能工程学院の新設が問われ、日本の無人装備量産を「新軍国主義」と批判",
+      "title_en": "China's MND confirms a restructuring of military academies as a new Unmanned Intelligence Engineering College is raised, and calls Japan's mass production of unmanned equipment 'neo-militarism'",
+      "lead_ja": "中国国防部の張暁剛報道官は10月29日の月例記者会見で、陸軍工程大学無人智能工程学院などの新設を問われ、中央軍事委員会が軍学校の学科・専攻の配置を調整し、内部学院の新設・再編と軍士学院への改称を行ったと確認した。同じ会見で、日本が作戦様式の転換を掲げて無人装備の量産や弾薬備蓄を進めようとしていると批判し、ADMMプラスへの武官級の出席については「フィリピンの政治家が参加に障害を設けた」と説明した。",
+      "lead_en": "At the monthly press conference on 29 October, Ministry of National Defense spokesman Senior Colonel Zhang Xiaogang, asked about new colleges including an Unmanned Intelligence Engineering College at the Army Engineering University, confirmed that the Central Military Commission has adjusted the academic and specialty layout of military academies, establishing and reorganising internal colleges and renaming NCO schools. At the same briefing he criticised Japan for pursuing mass production of unmanned equipment and munitions stockpiling under the banner of transforming its way of fighting, and explained China's attaché-level attendance at the ADMM-Plus by saying a Philippine politician had 'imposed obstacles' to its participation.",
+      "sections": [
+        {
+          "heading_ja": "無人・智能化に向けた人材育成の制度化",
+          "heading_en": "Institutionalising training for unmanned and intelligent operations",
+          "paragraphs_ja": [
+            "記者の質問は、陸軍工程大学無人智能工程学院、作戦支援軍士学院、国防大学紀検政法学院の3校の新設を挙げたもので、報道官の回答は個別の校名を繰り返さず、「高品質の発展」と「新型の軍事専門人材」の育成のための配置調整と述べた。10月上旬の報道によれば、無人智能工程学院は9月30日に部隊旗を授与され、作戦データ・智能化決定と無人作戦の指揮統制に関する課程を統合する。したがって、無人・智能化作戦の人材養成が士官教育の制度に組み込まれたことが、公式に裏付けられた。"
+          ],
+          "paragraphs_en": [
+            "The reporter's question named three new colleges, the Unmanned Intelligence Engineering College of the Army Engineering University, an Operational Support NCO College and a Discipline Inspection and Political-Legal College of the National Defense University; the spokesman's answer repeated none of the names, describing the change as a layout adjustment for 'high-quality development' and 'new-type professional military talent'. Reports in early October said the unmanned-intelligence college received its unit flag on 30 September and consolidates programmes on operational data and intelligent decision-making and on command and control of unmanned operations. The official confirmation thus establishes that training for unmanned and intelligent operations has been written into the structure of officer education."
+          ]
+        },
+        {
+          "heading_ja": "日本の無人装備量産への批判",
+          "heading_en": "Criticism of Japan's mass production of unmanned equipment",
+          "paragraphs_ja": [
+            "報道官は日本について、作戦様式の転換を正当化する広報を計画し、無人装備の量産や弾薬の備蓄を進めようとしていると述べ、これを「新軍国主義」と批判した。日米共同演習と与那国島への展開にも言及し、日本側が公表した緊急発進442回（うち中国機285回）の数字を取り上げた。日本政府が年内の安保3文書改定で無人機の大量導入を柱の一つに据える中、中国側が無人装備の量産を名指しで批判した点は、今後の日中間の論争の軸を示している。"
+          ],
+          "paragraphs_en": [
+            "On Japan, the spokesman said Tokyo plans a public campaign to justify transforming its operational methods, including mass production of unmanned equipment and stockpiling of munitions, and labelled this 'neo-militarism'. He also referred to the US–Japan exercises and deployments to Yonaguni and cited Japan's own figure of 442 scrambles, 285 of them against Chinese aircraft. With the Japanese government preparing to make large-scale drone acquisition a pillar of this year's revision of the three security documents, Beijing's decision to single out unmanned production marks an axis of the coming dispute."
+          ]
+        },
+        {
+          "heading_ja": "ADMMプラス武官級出席と珠海航展",
+          "heading_en": "Attaché-level attendance at the ADMM-Plus, and the Zhuhai airshow",
+          "paragraphs_ja": [
+            "ADMMプラスには駐フィリピン国防武官の楊磊大校が出席し、環球時報によれば2010年の発足以来最も低い代表レベルとなった。報道官は障害を設けた「政治家」の名前を挙げず、テオドロ国防相は中国の発言の扱いはASEANが決めると応じた。董軍国防部長の欠席は党の中央委員会全体会議と時期が重なった。報道官はまた、11月11日の空軍創設77周年の行事を第16回珠海航展と連動させ、珠海と長春で無人機のライトショーを行うと予告し、KJ-3000早期警戒機については「珠海の公式情報を待て」と述べた。"
+          ],
+          "paragraphs_en": [
+            "China was represented at the ADMM-Plus by its defence attaché in Manila, Senior Captain Yang Lei, the lowest level of representation since the forum began in 2010 according to the Global Times. The spokesman did not name the 'politician' he accused, and Philippine Defence Secretary Teodoro replied that ASEAN itself should decide how China is heard. Defence Minister Dong Jun's absence coincided with the Party's Central Committee plenum. The spokesman also announced that events for the Air Force's 77th anniversary on 11 November will be linked to the 16th Zhuhai Airshow, with drone light shows in Zhuhai and Changchun, and deflected a question on the KJ-3000 early-warning aircraft to 'official Zhuhai information'."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月11日の空軍記念日行事と珠海航展での無人機群・智能化装備の展示。安保3文書改定の記述に対する中国側の反応。",
+      "watch_next_en": "The 11 November Air Force anniversary events and displays of drone swarms and intelligent systems at Zhuhai. Beijing's reaction to the text of Japan's revised security documents.",
+      "japan_relevance": true,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "中国国防部",
+      "publisher_en": "Ministry of National Defense of the People's Republic of China",
+      "sources": [
+        {
+          "title": "国防部举行例行记者会（2026年10月）",
+          "url": "http://www.mod.gov.cn/gfbw/qwfb/16496935.html",
+          "publisher": "中国国防部",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "国防部：中央军委对军队院校学科专业布局进行调整",
+          "url": "https://www.news.cn/politics/20261029/4433bf9dc395450c8486ed35103becf7/c.html",
+          "publisher": "新華社",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "国防部10月例行记者会文字实录",
+          "url": "https://www.163.com/news/article/LAEF31Q30001899O.html",
+          "publisher": "網易（国防部会見全文転載）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "China says Philippine politician 'imposed obstacles' to its participation at ASEAN defence meeting",
+          "url": "https://srnnews.com/china-says-philippine-politician-imposed-obstacles-to-its-participation-at-asean-defence-meeting/",
+          "publisher": "Reuters（SRN News掲載）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "China sends defense attaché to ADMM-Plus in Cebu",
+          "url": "https://www.globaltimes.cn/page/202610/1373100.shtml",
+          "publisher": "環球時報",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "陸軍工程大學成立無人智能工程學院",
+          "url": "https://www.worldjournal.com/wj/story/121339/9800340",
+          "publisher": "世界日報",
+          "date": "2026-10-07",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "CN",
+        "JP",
+        "ASEAN"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ピストリウス独国防相、Helsingで徘徊型弾薬の技術認証は「数週間」で完了と表明　2027年からリトアニア駐留旅団へ",
+      "title_en": "Pistorius, at Helsing, says technical qualification of the Bundeswehr's loitering munitions is 'a few weeks' away, with the Lithuania-based brigade to receive them from 2027",
+      "lead_ja": "ドイツのピストリウス国防相は10月29日、ミュンヘンのHelsing本社を訪れ、連邦軍が導入する徘徊型弾薬の技術認証が「完了直前」で「数週間」のうちに終わると述べた。弾頭は現在試験中で、リトアニアに駐留する第45機甲旅団が新設の無人機連隊を通じて2027年から受領する。国防省は、単一供給者への依存を避け技術革新の速度に追随するため、複数の企業から同時に調達する方針を明確にした。",
+      "lead_en": "German Defence Minister Boris Pistorius visited Helsing's Munich headquarters on 29 October and said technical qualification of the Bundeswehr's planned loitering munitions is 'shortly before completion' and will take 'a few weeks'. The warhead is under test, and Panzerbrigade 45 in Lithuania is to receive the systems from 2027 through a newly formed drone regiment. The ministry set out a policy of buying from several suppliers at once to avoid dependence on a single vendor and keep pace with innovation cycles.",
+      "sections": [
+        {
+          "heading_ja": "認証の最終段階と配備の時間軸",
+          "heading_en": "The final stage of qualification and the fielding timeline",
+          "paragraphs_ja": [
+            "連邦議会予算委員会は2026年2月25日に徘徊型弾薬の調達を承認し、HelsingとStarkへの初回発注は約5.4億ユーロ、枠組み契約の上限は20億ユーロと報じられた。国防省は当初43億ユーロの枠を求めており、各回の発注には委員会の承認が必要となる。今回の発言により、2月の予算承認から約8カ月で技術認証の完了が視野に入り、配備開始の2027年という時間軸が公式に示された。未公表の点は機数、単価、認証の正確な日付、HelsingのHX-2とStarkのVirtusが同時に認証を通るかである。"
+          ],
+          "paragraphs_en": [
+            "The Bundestag budget committee approved the loitering-munition purchase on 25 February 2026; the first order to Helsing and Stark was reported at about €540 million within a framework capped at €2 billion, after the ministry had sought €4.3 billion, and each call-off requires committee approval. The minister's remarks bring completion of technical qualification into view roughly eight months after that approval and set 2027 as the official start of fielding. Still unpublished are the quantities, unit prices, the exact qualification date and whether Helsing's HX-2 and Stark's Virtus will pass at the same time."
+          ]
+        },
+        {
+          "heading_ja": "複数供給者の並行調達という方針",
+          "heading_en": "Parallel procurement from several suppliers",
+          "paragraphs_ja": [
+            "国防相は「企業が光沢のあるパンフレットで兵器システムを提示するのを待たない」と述べ、「我々はウクライナから学んでいる。それが戦略的パートナーシップの核心だ」と位置づけた。国防省の説明によれば、複数社からの同時調達は、供給途絶の回避に加えて、ソフトウェア更新を軸とする無人機の短い革新周期に調達制度を適応させる狙いを持つ。したがって、徘徊型弾薬の調達は、従来の単一主契約者方式からの転換を試す事例となる。"
+          ],
+          "paragraphs_en": [
+            "Pistorius said 'we are not waiting for companies to present weapon systems to us in glossy brochures' and added that 'we are learning from Ukraine; that is the core of our strategic partnership'. According to the ministry, buying from several companies at once is meant both to avoid supply disruption and to adapt the procurement system to the short, software-driven innovation cycles of drones. The loitering-munition purchase therefore serves as a test of moving away from the single prime-contractor model."
+          ]
+        },
+        {
+          "heading_ja": "ヴァルキリー無人戦闘機とパトリオット生産",
+          "heading_en": "The Valkyrie combat drone and Patriot production",
+          "paragraphs_ja": [
+            "同日、国防相はマンヒングのエアバス拠点でKratosとエアバスが共同で進めるU740ヴァルキリー無人戦闘機を視察した。同機は10月12日ごろに欧州での初飛行を行い、両社の協力は2025年7月に始まった。NATOはこの種の無人戦闘機の導入を2035年ごろと見込む。シュロベンハウゼンのMBDAでは、パトリオット迎撃弾の生産工場の進捗と、2029年までの極超音速・長距離精密打撃の計画を確認した。"
+          ],
+          "paragraphs_en": [
+            "The same day the minister viewed the U740 Valkyrie uncrewed combat aircraft developed by Kratos and Airbus at the Airbus site in Manching; the aircraft made its first European flight around 12 October and the two companies have cooperated since July 2025, with NATO expecting such aircraft around 2035. At MBDA in Schrobenhausen he reviewed progress on the Patriot interceptor production plant and plans for hypersonics and deep precision strike to 2029."
+          ]
+        }
+      ],
+      "watch_next_ja": "徘徊型弾薬の技術認証の完了発表と初回発注の機数。連邦議会予算委員会への次回の発注提出。無人機連隊の編成時期。",
+      "watch_next_en": "The announcement that qualification is complete and the size of the first order. The next call-off submitted to the Bundestag budget committee. The timing of the drone regiment's formation.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "awarded",
+      "publisher": "ドイツ連邦国防省",
+      "publisher_en": "German Federal Ministry of Defence",
+      "sources": [
+        {
+          "title": "Pistorius besucht Rüstungsindustrie in Bayern",
+          "url": "https://www.bmvg.de/de/aktuelles/pistorius-besuche-ruestungsindustrie-6167688",
+          "publisher": "ドイツ連邦国防省",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Boris Pistorius besucht Firma Helsing",
+          "url": "https://www.bmvg.de/de/presse/boris-pistorius-besucht-firma-helsing-6166800",
+          "publisher": "ドイツ連邦国防省",
+          "date": "2026-10-23",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Pistorius: Qualifizierung der Kamikazedrohnen steht bevor",
+          "url": "https://ariva.de/news/pistorius-qualifizierung-der-kamikazedrohnen-steht-bevor-12187525",
+          "publisher": "dpa-AFX（ARIVA掲載）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Bund kauft Drohnen von Helsing und Stark",
+          "url": "https://www.boersen-zeitung.de/unternehmen-branchen/bund-kauft-drohnen-von-helsing-und-stark",
+          "publisher": "Reuters（Börsen-Zeitung掲載）",
+          "date": "2026-02-25",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "UA",
+        "NATO"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米海軍、中型無人水上艇を初めて実戦配備　副作戦部長は受け入れ態勢に「満足していない」、30隻は2027年度から納入",
+      "title_en": "US Navy's medium unmanned surface vessel makes its first operational deployment as the Vice Chief says he is 'not satisfied' with readiness to receive them; 30-boat buy delivers from FY2027",
+      "lead_ja": "米海軍の中型無人水上艇（MUSV）1隻が空母セオドア・ルーズベルト打撃群とともに太平洋に展開し、同艇種として初の実戦配備に入ったことが10月29日に報じられた。海軍は試験艇として4隻を運用し、9月に3社を選定して30隻を建造する計画で、初の正式納入は2027会計年度末までを見込む。キルビー副作戦部長は無人システムを受け入れる態勢に「満足していない」と述べ、部隊設計と運用の計画づくりへの支援を求めている。",
+      "lead_en": "A US Navy medium unmanned surface vessel (MUSV) has deployed to the Pacific with the USS Theodore Roosevelt carrier strike group, the platform's first operational deployment, Military Times reported on 29 October. The Navy operates four MUSVs as former test beds, selected three companies in September to build 30 more and expects the first formal delivery by the end of fiscal 2027. Vice Chief of Naval Operations Admiral James Kilby said he is 'not satisfied' with the service's readiness to receive unmanned systems and asked for help with force development and employment planning.",
+      "sections": [
+        {
+          "heading_ja": "試験艇から打撃群の一部へ",
+          "heading_en": "From test bed to part of a strike group",
+          "paragraphs_ja": [
+            "カオ海軍長官は10月16日に今回の展開を確認し、MUSVを「戦力の乗数」と呼んだ。想定される役割は情報・監視・偵察、モジュール式の兵装搭載、前方での持続的なプレゼンスである。約6カ月前に計画は再編され、「ゴールデン・フリート」構想に結び付けられた。初の実戦配備は、試験艇で積み上げた運用実績を、艦隊の編成と認証の手順に組み込む段階に移ったことを意味する。9月に選定された3社による30隻の建造は、試験艇4隻で得た運用経験を設計要求に反映させる最初の量産段階となる。"
+          ],
+          "paragraphs_en": [
+            "Navy Secretary Hung Cao confirmed the deployment on 16 October and called the MUSV a 'force multiplier'. Its stated roles are intelligence, surveillance and reconnaissance, carriage of modular weapons and persistent forward presence. The programme was restructured about six months ago and tied to the 'Golden Fleet' concept. The first operational deployment marks the move from accumulating experience on test craft to folding the vessels into fleet organisation and certification procedures. The 30-vessel build by the three companies selected in September is the first production stage in which operating experience from the four test craft feeds into design requirements."
+          ]
+        },
+        {
+          "heading_ja": "受け入れ態勢をめぐる副作戦部長の証言",
+          "heading_en": "The Vice Chief's testimony on readiness to receive",
+          "paragraphs_ja": [
+            "キルビー大将は10月8日の海軍の将来に関する国家委員会での証言で、MUSVの展開を艦の認証訓練の一部に組み込む可能性に触れつつ、海軍には無人システムの編成・訓練・装備の責任があり、受け入れ態勢には満足していないと述べた。同氏は部隊開発、運用、持続可能な計画への支援を求めており、艇の調達より運用・維持の制度が遅れているという認識を示している。"
+          ],
+          "paragraphs_en": [
+            "Testifying to the National Commission on the Future of the Navy on 8 October, Admiral Kilby said MUSV deployments could become part of ship certification exercises, that the Navy holds man, train and equip responsibilities for unmanned systems, and that he was not satisfied with its readiness to receive them. He asked for help with force development, employment and a sustainable plan, signalling that the institutions for operating and sustaining the craft lag behind their procurement."
+          ]
+        },
+        {
+          "heading_ja": "TOPGUNを模した戦術開発拠点",
+          "heading_en": "A tactics-development centre modelled on TOPGUN",
+          "paragraphs_ja": [
+            "海軍はリトルクリーク・フォートストーリー統合基地に、ロボット・自律システム戦闘開発センターを新設し、戦闘機パイロット養成のTOPGUNを模範として、無人システムの戦術と要員の育成を担わせる。30隻の建造と並行して、人材と教義を整える拠点が置かれたことで、2027年度の納入開始までに運用側の制度を間に合わせられるかが焦点となる。同センターは無人システムの戦術開発の中核拠点と位置づけられ、要員育成の規模と時期が計画の実効性を左右する。"
+          ],
+          "paragraphs_en": [
+            "The Navy has established a Robotic and Autonomous Systems Warfighting Development Center at Joint Expeditionary Base Little Creek–Fort Story, modelled on the TOPGUN fighter-pilot school, to develop tactics and train personnel for unmanned systems. With a centre for people and doctrine now in place alongside the 30-vessel build, the question is whether the operating institutions can be ready by the start of deliveries in fiscal 2027. The centre is positioned as the hub for unmanned-systems tactics development, and the scale and timing of its training output will shape how far the plan is realised."
+          ]
+        }
+      ],
+      "watch_next_ja": "30隻計画の初納入（2027会計年度末まで）と建造3社の進捗。海軍の将来に関する国家委員会の報告。MUSVの艦認証訓練への組み込み。",
+      "watch_next_en": "First delivery under the 30-vessel programme (by end of FY2027) and progress at the three builders. The report of the National Commission on the Future of the Navy. Incorporation of MUSVs into ship certification exercises.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "fielded",
+      "publisher": "米海軍",
+      "publisher_en": "US Navy",
+      "sources": [
+        {
+          "title": "US Navy wants more visible role for drone boats as one deploys for the first time",
+          "url": "https://www.militarytimes.com/news/your-military/2026/10/29/us-navy-wants-more-visible-role-for-drone-boats-as-one-deploys-for-the-first-time/",
+          "publisher": "Military Times",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US Navy deploys unmanned maritime drone to support carrier strike group in historic first",
+          "url": "https://defensescoop.com/2026/10/16/us-navy-deploys-unmanned-maritime-drone-to-support-carrier-strike-group-in-historic-first/",
+          "publisher": "DefenseScoop",
+          "date": "2026-10-16",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-07",
+      "rank": 7,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ウクライナの無人システム連隊、AI航法の地上無人車両が20キロの補給路を93%自律走行と発表",
+      "title_en": "Ukrainian unmanned-systems regiment says an AI-navigated ground robot ran a 20 km supply route 93% autonomously, citing reduced dependence on Starlink links",
+      "lead_ja": "ウクライナ国家親衛隊第2「ハルティア」軍団の第21「ラヴァ」無人システム連隊は10月28日、地上無人車両（UGV）が20キロの補給路を往復し、全行程の93%を完全自律で走行したと発表した。航法ソフトウェアは米独のApex.AIが提供し、事前に偵察車両がライダーで作成した3次元地図とカメラ映像を照合して進路を判断する。大隊長は、Starlinkの速度制限で生じた通信の制約を、車載自律化を急ぐ動機として挙げた。",
+      "lead_en": "The 21st 'Lava' Unmanned Systems Regiment of the National Guard's 2nd 'Khartiia' Corps announced on 28 October that an unmanned ground vehicle completed a 20 km supply run and back, driving 93% of the route fully autonomously. The navigation software comes from the US–German firm Apex.AI and matches camera imagery against a 3D map built beforehand by a lidar-equipped scout vehicle. The battalion commander cited the communications constraints caused by the Starlink speed cap as the motive for pressing on-board autonomy.",
+      "sections": [
+        {
+          "heading_ja": "20キロ路程の93%自律走行という主張",
+          "heading_en": "The claim of 93% autonomy over a 20 km route",
+          "paragraphs_ja": [
+            "連隊の発表によれば、UGVは貨物を届けて出発点に戻り、地形が事前の地図の範囲を超えた1.4キロの区間だけ操作員が手動で介入した。使用車両は写真からDevDroid社のDroid TW 12.7とみられるが、本文で明示されていない。主張は連隊のSNS投稿と広報を経た報道に基づき、独立した確認や外部の映像解析は見当たらないため、信頼度はC3と評価する。「同種で初」という主張も検証できない。"
+          ],
+          "paragraphs_en": [
+            "According to the regiment, the vehicle delivered its cargo and returned to the start point, with the operator taking manual control only on a 1.4 km stretch where the terrain exceeded the pre-built map. Photographs suggest the vehicle is a DevDroid Droid TW 12.7, though the text does not say so. The claim rests on the regiment's social-media post and press-office relays, with no independent confirmation or external video analysis found, so it is rated C3; the 'first of its kind' claim cannot be verified either."
+          ]
+        },
+        {
+          "heading_ja": "ライダー地図と車載認識による航法",
+          "heading_en": "Navigation by lidar map and on-board perception",
+          "paragraphs_ja": [
+            "手順は、偵察用UGVがライダーで経路を走査して3次元モデルを作り、任務車両がカメラ映像を地図と照合して道路端や障害物を認識し、自ら機動を判断するというものである。操作員は経路の編集と区間ごとの速度設定を行い、Apex.AIの車載ソフトウェアは自動車向けの機能安全認証を受けたROS 2系のミドルウェア上で動く。大隊長のアンドリー・コパチ氏は「操作員は運転手から配車係に変わる」と述べ、1人の配車係が複数のUGVを監督する体制と、次段階としての負傷者後送を目標に挙げた。"
+          ],
+          "paragraphs_en": [
+            "The procedure has a scout UGV scan the route with lidar to build a 3D model; the mission vehicle then matches its camera feed against the map, identifies road edges and obstacles and makes its own manoeuvre decisions. The operator edits the route and sets speeds per segment, and Apex.AI's on-board software runs on ROS 2-derived middleware certified to automotive functional-safety standards. Battalion commander Andrii Kopach said 'the operator stops being a driver and becomes a dispatcher', setting as goals one dispatcher supervising several vehicles and, as the next stage, casualty evacuation."
+          ]
+        },
+        {
+          "heading_ja": "Starlink制約が促す自律化",
+          "heading_en": "Autonomy pushed by the Starlink constraint",
+          "paragraphs_ja": [
+            "コパチ氏は、10月14日から24日にかけてStarshield端末の速度が制限され、ジェット無人機を迎撃する無人機の運用に支障が出た経験を引き、継続的な制御リンクへの依存を減らす必要を強調した。車載航法は走行中に無線リンクを必要とせず、電子戦で監視リンクが妨害されても走行を続けられるとされる。一方で、リンクが途絶した場合に手動介入がどのように機能するかは説明されていない。したがって、兵站UGVの自律化は、民間衛星通信への依存という構造的な脆弱性への現場からの対応として位置づけられる。"
+          ],
+          "paragraphs_en": [
+            "Kopach pointed to the 14–24 October period when Starshield terminal speeds were capped and interceptor-drone operations against jet-powered drones suffered, stressing the need to reduce dependence on a continuous control link. On-board navigation is said to need no radio link while driving, so the vehicle keeps moving even if the monitoring link is jammed by electronic warfare; how manual intervention works once the link is lost is left unexplained. The autonomy of logistics UGVs thus appears as a front-line response to the structural vulnerability of relying on a private satellite constellation."
+          ]
+        }
+      ],
+      "watch_next_ja": "連隊による後送任務の発表と外部映像の有無。ウクライナ国防省のUGV調達計画への反映。Starshield制限の原因に関する米側の説明。",
+      "watch_next_en": "Any announced evacuation mission by the regiment and external footage. Whether Ukraine's Ministry of Defence UGV procurement reflects the approach. A US explanation of the cause of the Starshield restriction.",
+      "japan_relevance": false,
+      "date": "2026-10-28",
+      "stage": "",
+      "publisher": "ウクライナ国家親衛隊第21「ラヴァ」無人システム連隊",
+      "publisher_en": "21st 'Lava' Unmanned Systems Regiment, National Guard of Ukraine",
+      "sources": [
+        {
+          "title": "Ukrainian AI-powered UGV autonomously travels 19 km during logistics mission for first time",
+          "url": "https://militarnyi.com/en/news/ukrainian-ai-powered-ugv-autonomously-travels-19-km-during-logistics-mission-for-first-time/",
+          "publisher": "Militarnyi",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Lava Regiment tests AI autonomy on 20 km ground robot mission",
+          "url": "https://censor.net/en/news/4030875/lava-regiment-tests-ai-autonomy-on-20-km-ground-robot-mission",
+          "publisher": "Censor.NET",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "No radio link, no jamming problem: Ukraine UGV runs first AI-navigated combat supply mission",
+          "url": "https://www.techtimes.com/articles/329656/20261029/no-radio-link-no-jamming-problem-ukraine-ugv-runs-first-ai-navigated-combat-supply-mission.htm",
+          "publisher": "TechTimes",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukrainian brigade conducts first successful logistics mission with AI-powered ground drone",
+          "url": "https://gwaramedia.com/en/ukrainian-brigade-conducts-first-successful-logistics-mission-with-ai-powered-ground-drone/",
+          "publisher": "Gwara Media",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ブルガリア沖で海上ドローン3機の攻撃を受けたコンテナ船が沈没　ブルガリア・ルーマニア・トルコが黒海調整メカニズムを発足",
+      "title_en": "Container ship hit by three naval drones off Bulgaria sinks; Bulgaria, Romania and Türkiye launch a Black Sea coordination mechanism",
+      "brief_text_ja": "ブルガリア海事局は10月29日、前日に同国EEZ内のカリアクラ岬沖約21海里で「3機の海上ドローン」（ストヤノフ国防相）の攻撃を受けたリベリア籍コンテナ船CONTSHIP JET（ハイファ発コンスタンツァ行き、乗員18人は救助済み）が沈没し、積載421個のうち約20個のコンテナが流出して航行上の危険になっていると発表した。ミハイロフ海軍司令官はドローンの発射元を特定できないと述べ、ブルガリア・ルーマニア・トルコの3国防相は定期協議、情報共有、海洋監視、早期警戒を柱とする黒海調整メカニズムの発足を共同声明で表明した。今月同海域で5件目の攻撃であり、ロシア国防省が同夜に黒海で「ウクライナ軍が使う貨物船」を攻撃したと主張したが、両者の関係は確認されていない。",
+      "brief_text_en": "Bulgaria's Maritime Administration said on 29 October that the Liberian-flagged container ship CONTSHIP JET (Haifa to Constanța, all 18 crew rescued), struck the previous day about 21 nautical miles off Cape Kaliakra inside Bulgaria's EEZ by 'three naval drones' in the words of Defence Minister Dimitar Stoyanov, had sunk, with some 20 of its 421 containers lost overboard and posing a navigation hazard. Navy commander Rear Admiral Kiril Mihaylov said the origin of the drones could not be determined, and the defence ministers of Bulgaria, Romania and Türkiye announced in a joint statement a Black Sea coordination mechanism built on regular consultations, intelligence sharing, maritime surveillance and early warning. It was the fifth attack in the area this month; Russia's Ministry of Defence claimed to have struck 'a cargo vessel used by the Ukrainian military' in the Black Sea the same night, and no link between the two has been established.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "ブルガリア国防省・海事局",
+      "publisher_en": "Bulgarian Ministry of Defence and Maritime Administration",
+      "sources": [
+        {
+          "title": "Contship Jet sinks after Black Sea drone attack off Bulgaria",
+          "url": "https://greekcitytimes.com/2026/10/29/contship-jet-black-sea",
+          "publisher": "Greek City Times（AP・BTA・Reuters引用）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Naval drones strike ship off Bulgaria as three NATO defense ministers meet",
+          "url": "https://united24media.com/world/naval-drones-strike-ship-off-bulgaria-as-three-nato-defense-ministers-meet-23888",
+          "publisher": "UNITED24 Media",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws"
+      ],
+      "actors": [
+        "NATO",
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "A2",
+      "continuation_of": "cl-20261029-13"
+    },
+    {
+      "id": "cl-20261030-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "NATOのDIANA、ウクライナとパートナー国として初の覚書に署名　試験施設の利用とNATO要件への適合を支援",
+      "title_en": "NATO's DIANA signs its first memorandum with a partner nation, Ukraine, on access to test centres and meeting NATO requirements",
+      "brief_text_ja": "NATOの防衛イノベーション加速機構DIANAは10月29日、ブリュッセルのNATO本部でウクライナと覚書を署名し、パートナー国との初の協定として、ウクライナの技術企業がNATOの要件を満たし、DIANAの試験施設を利用して規模拡大の障壁を越えることを支援するとした。ヒラニ=ドライバー暫定事務局長は「この覚書は始まりであり、扉が開いた」と述べたが、署名者、対象の試験センター、資金、具体的な技術分野はNATOの発表に記されていない。",
+      "brief_text_en": "NATO's Defence Innovation Accelerator for the North Atlantic (DIANA) signed a memorandum of understanding with Ukraine at NATO headquarters on 29 October, the first such agreement with a partner nation, to help Ukrainian innovators meet NATO requirements, use DIANA test centres and overcome barriers to scaling. Acting managing director Jyoti Hirani-Driver said 'this Memorandum of Understanding is a beginning; a door is opening', but NATO's release names no signatory, test centres, funding or specific technology areas.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "announced",
+      "publisher": "NATO",
+      "publisher_en": "NATO",
+      "sources": [
+        {
+          "title": "NATO's DIANA and Ukraine strengthen cooperation on defence innovation",
+          "url": "https://nato.int/en/news-and-events/articles/news/2026/10/29/natos-diana-and-ukraine-strengthen-cooperation-on-defence-innovation",
+          "publisher": "NATO",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "NATO DIANA and Ukraine sign memorandum of understanding",
+          "url": "https://en.interfax.com.ua/news/general/1228357.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "NATO",
+        "UA"
+      ],
+      "doc_type": "declaration",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "英国防省、初の「イノベーション総局長」を任命　無人システムセンターを含む4,800人・16億ポンドを統括",
+      "title_en": "UK MoD names Anthony Reeves its first Director General Innovation, overseeing 4,800 staff and a £1.6bn ringfenced budget including the Defence Uncrewed Systems Centre",
+      "brief_text_ja": "英国防省は10月28日、デロイト英国でNATOデジタル防衛と防衛・安全保障向けAIを率いたアンソニー・リーブス氏を初代イノベーション総局長（3スター相当）に任命したと発表した。同氏は国家兵器局長の下で防衛イノベーション部門、Dstl、防衛無人システムセンター、UK Defence Innovationの約4,800人を統括し、4年間で16億ポンドの専用イノベーション予算と21億ポンドの基幹科学技術予算を担う。",
+      "brief_text_en": "The UK Ministry of Defence announced on 28 October the appointment of Anthony Reeves, previously Deloitte UK's lead for NATO digital defence and its global AI leader for defence and security, as its first Director General Innovation at three-star level. Reporting to the National Armaments Director, he will lead the Defence Innovation Unit, Dstl, the Defence Uncrewed Systems Centre and UK Defence Innovation, some 4,800 staff, with a ringfenced £1.6 billion innovation budget over four years alongside £2.1 billion in core science and technology.",
+      "japan_relevance": false,
+      "date": "2026-10-28",
+      "stage": "",
+      "publisher": "英国防省",
+      "publisher_en": "UK Ministry of Defence",
+      "sources": [
+        {
+          "title": "MOD appoints its first Director General Innovation",
+          "url": "https://www.gov.uk/government/news/mod-appoints-its-first-director-general-innovation",
+          "publisher": "UK Ministry of Defence",
+          "date": "2026-10-28",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "GB"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "第13回ADMMプラス閉幕、議長はシンガポールへ　小泉防衛相は3文書改定を説明し、豪州でのミサイル発射試験を協議",
+      "title_en": "13th ADMM-Plus closes with Singapore taking the chair; Koizumi explains the security-document revision and discusses a missile test in Australia",
+      "brief_text_ja": "第13回ASEAN拡大国防相会議は10月29日、セブで「青年・平和・安全保障に関する共同声明」を採択して閉幕し、2027年の議長国シンガポールに引き継がれた。小泉防衛相は会議で安保3文書の年内改定と「日本への侵攻を阻む能力」を説明し、マールズ豪国防相との会談では豪州の試験場を使う自衛隊のミサイル発射試験に向けて協議を続けることで一致した。28日の日米豪比4カ国国防相会合では防衛政策の調整強化が確認され、米比両国は「同盟指揮統制近代化スプリント」の立ち上げと安全保障協力資金の増額（額は非公表）を発表した。",
+      "brief_text_en": "The 13th ASEAN Defence Ministers' Meeting-Plus closed in Cebu on 29 October after adopting a Joint Statement on Youth, Peace and Security, handing the 2027 chair to Singapore. Defence Minister Koizumi explained Japan's revision of its three security documents this year and the goal of 'a capability to block an invasion of Japan', and agreed with Australian Defence Minister Marles to continue consultations toward a Self-Defense Forces missile firing at an Australian test range. At the 28 October meeting of the Australian, Japanese, Philippine and US ministers, closer defence-policy coordination was confirmed, and the US and the Philippines announced an 'Alliance Command and Control Modernization Sprint' and an increase, of undisclosed size, in security-cooperation funds.",
+      "japan_relevance": true,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "ASEAN国防相会議・防衛省",
+      "publisher_en": "ADMM-Plus / Japan Ministry of Defense",
+      "sources": [
+        {
+          "title": "Joint Statement of the 13th ADMM-Plus on Youth, Peace and Security",
+          "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/29oct26-fs/",
+          "publisher": "シンガポール国防省",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "小泉防衛相 ASEAN拡大国防相会議で3文書の年内改定を説明",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261029de67794",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "小泉防衛相 豪国防相と会談 ミサイル発射試験実施へ協議継続",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261029de68114",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Hegseth, Teodoro: more security cooperation funds, AFP command and control sprint",
+          "url": "https://astig.ph/hegseth-teodoro-security-cooperation-funds-afp-command-control-sprint-2026/",
+          "publisher": "ASTIG.PH",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "ASEAN defense talks yield new initiatives, security agreements",
+          "url": "https://tribune.net.ph/2026/10/29/asean-defense-talks-yield-new-initiatives-security-agreements",
+          "publisher": "Daily Tribune",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "c2-decision"
+      ],
+      "actors": [
+        "ASEAN",
+        "JP",
+        "US",
+        "AU"
+      ],
+      "doc_type": "declaration",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261029-08"
+    },
+    {
+      "id": "cl-20261030-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "日独首脳会談、「プレミアム・パートナー」として半導体・重要鉱物の供給網強靱化とAI・サイバー協力の強化で一致",
+      "title_en": "Japan–Germany summit agrees as 'premium partners' to harden semiconductor and critical-mineral supply chains and deepen AI and cyber cooperation",
+      "brief_text_ja": "高市首相は10月28日夜、訪日したメルツ独首相と会談し、両国関係を「プレミアム・パートナー」と位置づけ、重要鉱物や半導体を含む幅広い物資のサプライチェーン強靱化と、AI・サイバー分野の協力強化で一致した。メルツ首相は29日の講演で半導体やAIでの日独協力の拡大に期待を示した。外務省は29日時点で会談の概要を公表しておらず、無人機や防衛装備協力に関する成果は明らかになっていない。",
+      "brief_text_en": "Prime Minister Sanae Takaichi met visiting German Chancellor Friedrich Merz on the evening of 28 October; the two described the relationship as a 'premium partnership' and agreed to strengthen supply-chain resilience for a broad range of goods including critical minerals and semiconductors, and to deepen cooperation on AI and cyber. In a speech on 29 October Merz voiced hopes for expanded Japan–Germany cooperation in semiconductors and AI. As of 29 October the Foreign Ministry had not published a readout, and no outcome on drones or defence-equipment cooperation has emerged.",
+      "japan_relevance": true,
+      "date": "2026-10-28",
+      "stage": "",
+      "publisher": "日本政府・ドイツ政府",
+      "publisher_en": "Governments of Japan and Germany",
+      "sources": [
+        {
+          "title": "日独首脳会談 サプライチェーン強じん化など協力強化で一致",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261028de67318",
+          "publisher": "NHK",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "ドイツ メルツ首相が講演「半導体 AIなど日独協力拡大に期待」",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261028de67417",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "メルツ・ドイツ連邦共和国首相の訪日",
+          "url": "https://www.mofa.go.jp/mofaj/erp/erp_2/de/pageit_000001_03273.html",
+          "publisher": "外務省",
+          "date": "2026-10-23",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "cyber-ci"
+      ],
+      "actors": [
+        "JP",
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "個人情報保護委、不正アクセスによる漏えいは4月以降のべ約2.6億人分　メール配信基盤の侵害が複数企業に波及",
+      "title_en": "Japan's Personal Information Protection Commission tallies some 260 million records leaked through unauthorised access since April, as a breached email-delivery vendor hits multiple companies",
+      "brief_text_ja": "個人情報保護委員会のまとめで、不正アクセスによる個人情報の漏えいが2026年4月以降のべ約2億6,000万人分に達することが10月29日に報じられた。同日には法人向けメール配信事業者ユミルリンクへの不正アクセスでライフカード約33.9万件、朝日新聞のべ7万件超の情報が漏えいした可能性が公表され、メール配信のアララでも約301万件の登録アドレスの漏えいが明らかになり、委託先を経由して多数の事業者に被害が波及する構図が続いている。政府は来週を目途にサイバー攻撃の緊急対策パッケージを取りまとめる予定である。",
+      "brief_text_en": "A tally by the Personal Information Protection Commission, reported on 29 October, puts personal data leaked through unauthorised access since April 2026 at roughly 260 million records. The same day, a breach at the corporate email-delivery provider Ymirlink led Life Card to disclose a possible leak of about 339,000 customer records and the Asahi Shimbun more than 70,000, while the email-delivery firm Arara reported some 3.01 million registered addresses exposed, continuing a pattern in which compromised vendors spread damage across many companies. The government plans to compile its emergency package of measures against cyber attacks around next week.",
+      "japan_relevance": true,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "個人情報保護委員会",
+      "publisher_en": "Personal Information Protection Commission (Japan)",
+      "sources": [
+        {
+          "title": "不正アクセスによる個人情報漏えい のべ約2億6000万人分 政府",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261029de68067",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "ライフカード 約33万9000人分の情報漏えいの可能性 委託先に不正アクセス",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261029de67594",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "アララ 約301万件のメールアドレス漏えい 不正アクセスで",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261029de67976",
+          "publisher": "NHK",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-14",
+      "rank": 14,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "評価機関Irregular、中国のオープンウェイトモデルGLM-5.3が多段階サイバー攻撃を完遂と報告",
+      "title_en": "Evaluator Irregular reports that Z.AI's open-weight GLM-5.3 completed multi-stage cyberattacks end to end and refused no attack task, Reuters reports",
+      "brief_text_ja": "ロイターの10月28日の報道によれば、AI安全評価企業Irregularは、中国Z.AIが8月に公開したオープンウェイトモデルGLM-5.3を13の多段階攻撃シナリオで試験し、3件で保護されたサービスへの侵入、ネットワーク内の横移動、複数機器の制御までを少なくとも1回完遂し、攻撃任務を一度も拒否しなかったと報告した。報道はAnthropicの9月の脆弱性悪用試験でGLM-5.3が12%（同社の提供制限モデルは14%）を記録したこと、米NISTのCAISIが公開済みオープンウェイトモデルの中で最もサイバー能力が高く米国の最先端から約4カ月遅れと評価したことも伝えており、懸念の中心はウェイト公開による拡散にある。",
+      "brief_text_en": "According to a Reuters report of 28 October, the AI-security evaluator Irregular tested Z.AI's open-weight GLM-5.3, released in August, across 13 multi-stage attack scenarios; in three it at least once gained access to a secured service, pivoted through the network and took control of multiple devices, and it refused no attack task. The report also cites Anthropic's September vulnerability-exploitation tests, in which GLM-5.3 scored 12% against 14% for Anthropic's access-restricted model, and NIST's CAISI rating it the strongest released open-weight model for cyber tasks, about four months behind the US frontier; the concern centres on diffusion through open weights.",
+      "japan_relevance": false,
+      "date": "2026-10-28",
+      "stage": "",
+      "publisher": "Irregular（ロイター報道）",
+      "publisher_en": "Irregular (as reported by Reuters)",
+      "sources": [
+        {
+          "title": "중국 AI 모델 GLM-5.3, 다단계 사이버 공격 수행…공격 요청 거부 '0건'",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008821560",
+          "publisher": "SBS（ロイター引用）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "cyber-ci"
+      ],
+      "actors": [
+        "CN",
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-15",
+      "rank": 15,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシアのジェット無人機がドニプロ駅のホームを攻撃し14人死亡　ウクライナ空軍は4機のうち3機を撃墜と発表",
+      "title_en": "Russian jet-powered drone strikes a Dnipro railway platform, killing 14; Ukraine's air force says three of four were shot down",
+      "brief_text_ja": "10月29日午前11時ごろ、ロシアがドニプロペトロウシク州に向けて発射したジェット推進の無人機4機のうち3機を防空部隊が撃墜し、1機がドニプロ駅で列車の停車するホームに命中して14人が死亡、14人が負傷したとウクライナ鉄道と州知事が発表した。前夜にはウクライナ空軍が無人機112機（うちジェット推進40機）のうち97機を撃墜・抑制したと報告しており、ジェット無人機による昼間の精密攻撃と2〜3割の突破が続いている。無人機の型式は公式に特定されていない。",
+      "brief_text_en": "Around 11:00 on 29 October, Ukrainian air defences shot down three of four jet-powered drones Russia launched toward Dnipropetrovsk Oblast, and the fourth struck a platform at Dnipro station where trains were standing, killing 14 and wounding 14, according to Ukrzaliznytsia and the regional governor. The previous night the air force reported downing or suppressing 97 of 112 drones, 40 of them jet-powered, so daytime precision strikes by jet drones and a leak rate of 20–30% continue. The drone type has not been officially identified.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "ウクライナ鉄道・ドニプロペトロウシク州",
+      "publisher_en": "Ukrzaliznytsia / Dnipropetrovsk Oblast administration",
+      "sources": [
+        {
+          "title": "Russian jet drone hits Dnipro railway platform, killing 14 people",
+          "url": "https://euromaidanpress.com/2026/10/29/russian-jet-drone-hits-dnipro-railway-platform-killing-14-people-next-to-a-zaporizhzhia-bound-train/",
+          "publisher": "Euromaidan Press",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia strikes train at Dnipro station with jet-powered drone",
+          "url": "https://kyivindependent.com/breaking-russia-strikes-train-at-dnipro-station-with-jet-powered-drone-at-least-13-dead/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Jet drone strike on Dnipro station",
+          "url": "https://www.kyivpost.com/post/88526",
+          "publisher": "Kyiv Post",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "A2",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-16",
+      "rank": 16,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア国防省、一夜で1,214機のウクライナ無人機を迎撃と主張　首都方面に613機、バシキール・ソーダ社に被害",
+      "title_en": "Russia's MoD claims a record 1,214 Ukrainian drones intercepted overnight; Moscow's mayor counts 613 aimed at the capital, and the Bashkir Soda plant is hit",
+      "brief_text_ja": "ロシア国防省は10月29日、28日夜から29日朝にかけて過去最多の1,214機のウクライナ無人機を迎撃したと主張し、ソビャニン・モスクワ市長は首都方面に613機が向かい231機を市の接近路で破壊したと述べた。バシコルトスタン共和国ステルリタマクでは産業施設に落下物による軽微な被害が出たと市長が認め、独立系メディアAstraは現場を、防弾繊維の原料を国内で唯一生産するバシキール・ソーダ社と特定した。迎撃数はロシア側の主張で独立には確認できず、大規模攻撃の事実とステルリタマクの被害は複数の情報源が一致している。",
+      "brief_text_en": "Russia's Ministry of Defence claimed on 29 October to have intercepted a record 1,214 Ukrainian drones overnight, and Moscow mayor Sergei Sobyanin said 613 were launched toward the capital region with 231 destroyed on the approaches to the city. The mayor of Sterlitamak in Bashkortostan acknowledged minor debris damage at an industrial site, which the independent outlet Astra identified as the Bashkir Soda Company, Russia's only producer of a precursor for aramid body-armour fibre. The interception figures are Russian claims that cannot be independently verified, while the scale of the raid and the Sterlitamak damage are consistent across sources.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "ロシア国防省・モスクワ市",
+      "publisher_en": "Russian Ministry of Defence / City of Moscow",
+      "sources": [
+        {
+          "title": "Russian military intercepts record 1.2K Ukrainian drones overnight",
+          "url": "https://www.themoscowtimes.com/2026/10/29/russian-military-intercepts-record-12k-ukrainian-drones-overnight-a94117",
+          "publisher": "The Moscow Times",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia says more than 600 drones launched towards Moscow overnight",
+          "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight",
+          "publisher": "Al Jazeera",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-17",
+      "rank": 17,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米インド太平洋軍の首席AI官、太平洋のパートナー国の多くはフロンティアモデルを使っていないと指摘",
+      "title_en": "INDOPACOM's chief AI officer says many Pacific partners are not using frontier models, with differing LLM policies complicating interoperability",
+      "brief_text_ja": "ホノルルで開かれたAFCEA TechNet Indo-Pacific（10月26〜29日）で、米インド太平洋軍のスコット・ブランステッター首席AI官は、太平洋のパートナー国の多くがフロンティアモデルを使わず、一部は小規模な自国能力を構築していると述べ、産業界にパートナーの能力把握への協力を求めた。情報担当副部長のアルダー豪陸軍准将は各国のLLMへの方針の違いが相互運用性を複雑にしていると指摘し、クラーク米太平洋陸軍司令官は暫定予算が実験や任務パートナーネットワークの新規事業を阻む最大の課題だと述べた。",
+      "brief_text_en": "At AFCEA TechNet Indo-Pacific in Honolulu (26–29 October), INDOPACOM chief AI officer Scott Brunstetter said many Pacific partners are not using frontier models and some are building smaller national capabilities, and asked industry to help the command understand partner capabilities. Brigadier Chris Alder of the Australian Army, vice director for intelligence, said allies' differing national approaches to LLMs complicate interoperability, and US Army Pacific commander General Ronald Clark called stopgap funding the biggest obstacle to new starts including experimentation and mission-partner-network efforts.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "米インド太平洋軍",
+      "publisher_en": "US Indo-Pacific Command",
+      "sources": [
+        {
+          "title": "Defense Business Brief: Tech edge, PACFLEET talks cyber, and more",
+          "url": "https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/",
+          "publisher": "Defense One",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US",
+        "AU"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-18",
+      "rank": 18,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Destinus、巡航ミサイル「Ruta」を月約300基生産と表明　欧州の戦前の年間生産量を上回ると主張",
+      "title_en": "Destinus says it builds about 300 Ruta cruise missiles a month, more than Europe's pre-war annual output",
+      "brief_text_ja": "オランダに本社を置くDestinusのミハイル・ココリチCEOは10月29日のロイターのインタビューで、巡航ミサイルRutaの月産が約300基、累計1,750基超に達し、戦前の欧州の年間生産量を上回ると述べた。約1.5kN級のターボジェットの量産と中国製部品を含まない供給網を掲げ、2027年からウクライナを含む欧州のエンジン需要に応えるとするが、顧客、契約額、自律化の仕様は示されていない。",
+      "brief_text_en": "In a Reuters interview on 29 October, Mikhail Kokorich, chief executive of Netherlands-headquartered Destinus, said monthly output of the Ruta cruise missile is near 300 and the total built exceeds 1,750, more than Europe produced in a year before the war. The company points to series production of roughly 1.5 kN-class turbojets and a supply chain free of Chinese parts, and expects to meet European and Ukrainian engine demand from 2027, but gives no customers, contract values or autonomy specifications.",
+      "japan_relevance": false,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "Destinus",
+      "publisher_en": "Destinus",
+      "sources": [
+        {
+          "title": "Destinus' monthly output tops Europe's pre-war annual cruise missile production",
+          "url": "https://www.defensenews.com/global/europe/2026/10/29/destinus-monthly-output-tops-europes-pre-war-annual-cruise-missile-production/",
+          "publisher": "Reuters（Defense News掲載）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-19",
+      "rank": 19,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "独Quantum Systems、日本法人を設立し三菱ケミカル・パナソニックと覚書　メルツ首相訪日に合わせ",
+      "title_en": "Germany's Quantum Systems sets up a Japanese subsidiary and signs MoUs with Mitsubishi Chemical and Panasonic, pitching multi-domain unmanned-systems software during Merz's visit",
+      "brief_text_ja": "ドイツの無人機メーカーQuantum Systemsは10月28日、メルツ首相の訪日に合わせて日本法人Quantum Systems Japan（東京）の設立を発表し、三菱ケミカルおよびパナソニックと覚書を結んだ。クルック共同CEOは「日本の防衛産業基盤の強化に貢献する」と述べ、同社は個別機体より複数ドメインの無人システムを統合運用するソフトウェアMOSAIC UXSを前面に出しているが、覚書の範囲は公表されていない。",
+      "brief_text_en": "German drone maker Quantum Systems announced on 28 October, during Chancellor Merz's visit to Japan, the establishment of Quantum Systems Japan K.K. in Tokyo and memoranda of understanding with Mitsubishi Chemical and Panasonic. Co-CEO Sven Kruck said the company is 'honoured to help strengthen its defence industrial base', and its pitch centres on the MOSAIC UXS software for orchestrating unmanned systems across domains rather than on individual platforms; the scope of the MoUs is undisclosed.",
+      "japan_relevance": true,
+      "date": "2026-10-28",
+      "stage": "",
+      "publisher": "Quantum Systems",
+      "publisher_en": "Quantum Systems",
+      "sources": [
+        {
+          "title": "Quantum Systems establishes Japanese subsidiary and Tokyo office",
+          "url": "https://dronelife.com/2026/10/28/quantum-systems-establishes-japanese-subsidiary-and-tokyo-office/",
+          "publisher": "DroneLife",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Quantum Systems Japan: new subsidiary and Tokyo office",
+          "url": "https://quantum-systems.com/news/quantum-systems-japan-new-subsidiary-and-tokyo-office/",
+          "publisher": "Quantum Systems",
+          "date": "2026-10-28",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "JP",
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-20",
+      "rank": 20,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍、インディアナ州のキャンプ・アタベリーとマスカタタックを商用無人機・対無人機の「許容的試験場」に指定",
+      "title_en": "US Army designates Camp Atterbury and Muscatatuck in Indiana as 'permissive' test sites for commercial drone and counter-drone technology",
+      "brief_text_ja": "米陸軍は10月28日、許容的試験場拡大イニシアチブの下で、制限空域が高度4万フィートまで及ぶキャンプ・アタベリー（3万4,000エーカー超）と、1,000エーカーの都市環境を再現するマスカタタックを、企業が無人機・対無人機技術を試験できる拠点に加えたと発表した。既存のキャンプ・グレイリング、ダグウェイ、ウェスト・シボラ、キャンプ・シェルビー、モロッコのAMTECに続くもので、企業は専用サイトから利用を申請し、試験評価コマンドの窓口がインディアナ州兵と調整するが、枠の保証はない。",
+      "brief_text_en": "On 28 October the US Army announced that, under its Permissive Test Range Expansion Initiative, Camp Atterbury (more than 34,000 acres with restricted airspace to 40,000 feet) and Muscatatuck (a 1,000-acre configurable urban site) have been added as locations where companies can test drone and counter-drone technology. They follow Camp Grayling, Dugway, West Cibola, Camp Shelby and AMTEC in Morocco; vendors apply through a dedicated site and a Test and Evaluation Command concierge team coordinates with the Indiana National Guard, with no guaranteed slots.",
+      "japan_relevance": false,
+      "date": "2026-10-28",
+      "stage": "announced",
+      "publisher": "米陸軍",
+      "publisher_en": "US Army",
+      "sources": [
+        {
+          "title": "Army opens more test ranges to commercial vendors for drone technology",
+          "url": "https://defensescoop.com/2026/10/28/army-test-range-access-commercial-vendors-drone-technology/",
+          "publisher": "DefenseScoop",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261030-21",
+      "rank": 21,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "AP通信、ロシア偵察衛星の軌道がサウジへの攻撃40件と一致と報道　イラン顧問が標的情報を仲介との証言",
+      "title_en": "AP: orbits of Russian reconnaissance satellites matched all 40 Houthi and Iraqi-militia strikes on Saudi Arabia, with officials saying Iranian advisers relay the targeting data",
+      "brief_text_ja": "AP通信は10月27日、ジュネーブの分析企業AURORAHが追跡したロシアの政府・軍用偵察衛星72基の軌道が、7月1日から10月19日までにサウジアラビアを標的としたフーシ派とイラク民兵のミサイル・無人機攻撃40件すべての前後に標的上空を通過していたと報じた。サウジ当局者とフーシ派幹部を含む3人の当局者は、イランの顧問がロシアの衛星情報を分析して同盟勢力に渡していると証言し、サウジ副外相は「ロシアと中国の商業を含む要素」からの情報提供を指摘したが、情報の受け渡しを直接示す証拠は示されていない。",
+      "brief_text_en": "The Associated Press reported on 27 October that the orbits of 72 Russian government and military reconnaissance satellites tracked by the Geneva-based firm AURORAH passed over the target areas before and after all 40 Houthi and Iraqi-militia missile and drone attacks on Saudi Arabia between 1 July and 19 October. Three officials, including a Saudi official and a senior Houthi figure, said Iranian advisers analyse Russian satellite intelligence and pass it to allied groups, and Saudi Deputy Foreign Minister Rayed Krimly pointed to intelligence from 'elements in Russia and China, including commercial ones', but no direct evidence of the transfer has been presented.",
+      "japan_relevance": false,
+      "date": "2026-10-27",
+      "stage": "",
+      "publisher": "AP通信",
+      "publisher_en": "Associated Press",
+      "sources": [
+        {
+          "title": "Russian spy satellites helping Iran's allies target sites in Saudi Arabia – AP",
+          "url": "https://www.themoscowtimes.com/2026/10/28/russian-spy-satellites-helping-irans-allies-target-sites-in-saudi-arabia-ap-a94102",
+          "publisher": "The Moscow Times（AP引用）",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russian satellite activity links Moscow to 40 Iran-backed strikes on Saudi Arabia",
+          "url": "https://united24media.com/world/russian-satellite-activity-links-moscow-to-40-iran-backed-strikes-on-saudi-arabia-23870",
+          "publisher": "UNITED24 Media",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russian satellite data helped Yemen's Houthis target Saudi Arabia: what to know",
+          "url": "https://www.al-monitor.com/originals/2026/10/russian-satellite-data-helped-yemens-houthis-target-saudi-arabia-what-know",
+          "publisher": "Al-Monitor",
+          "date": "2026-10-28",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-03",
+      "text_ja": "米中間選挙。OpenAIの選挙運用センターは開票終了まで稼働",
+      "text_en": "US midterm elections; OpenAI's election operations centre runs until counting ends"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "国連総会第1委員会の会期終了。LAWS・軍事AI・ICT安全保障の決議案の採決は11月上旬の見込み",
+      "text_en": "UNGA First Committee session ends; votes on LAWS, military-AI and ICT-security drafts expected in early November"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "日本政府のサイバー攻撃「緊急対策パッケージ」の取りまとめ（来週中を目途、日付は見込み）",
+      "text_en": "Japan's emergency package of measures against cyber attacks (targeted for next week; date indicative)"
+    },
+    {
+      "date": "2026-11-09",
+      "text_ja": "NATO通信情報局（NCIA）のNATO統合サイバー防衛センター技術基盤に関する情報提供依頼の回答期限",
+      "text_en": "Deadline for responses to NCIA's RFI on the NATO Integrated Cyber Defence Centre technology pillar"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限",
+      "text_en": "Deadline for five frontier-AI companies to answer the House Democratic ranking members' letter"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "中国空軍創設77周年の行事。珠海と長春で無人機ライトショー、第16回珠海航展と連動（国防部予告）",
+      "text_en": "PLA Air Force 77th anniversary events, with drone light shows in Zhuhai and Changchun linked to the 16th Zhuhai Airshow (per MND)"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "EUのSAFE第2ラウンドの申請期限（Euronews報道、日付は見込み）",
+      "text_en": "Reported deadline for second-round SAFE applications (per Euronews; date indicative)"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と交渉マンデートを審議",
+      "text_en": "CCW Seventh Review Conference (16–20 November, Geneva), considering the LAWS GGE final report and a negotiating mandate"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, 17–19 November), including NCIA's industry workshop on the Integrated Cyber Defence Centre"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。異機種無人機群やAIサイバー製品の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 December), with heterogeneous drone swarms and AI cyber products announced"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, 8–11 December), five themes including drones and counter-drone"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（NYTのMegaspeed報道、Microsoft北朝鮮AI報告、海軍MUSV、陸軍試験場、インド太平洋軍CAIO発言、米比C2スプリント。国防総省・DARPA・DIU・商務省BIS・CISAの29日付発表は確認できず）、中国（国防部月例会見、外交部会見にAI・チップ関連の質疑なし、ADMMプラス武官級出席）、日本（日独首脳会談、小泉防衛相のADMMプラス発言と日豪会談、個人情報保護委員会の集計、Quantum Systems日本法人。防衛省・外務省・首相官邸のページは開けず、NHKの見出しと冒頭段落で確認）、韓国（米韓国防相会談はAI要素なし、KRIT所長就任と防衛事業庁の化生防セミナーは規模小で不採用）、台湾（立法院国防委員会の無指部視察は見出しのみで本文を開けず不採用）、欧州・NATO（SAFE第2ラウンド、DIANA・ウクライナ覚書、ピストリウス視察、英DG Innovation任命、Destinus、Saab Ocean Barrierは不採用）、英国（DG Innovation任命。予算は前号で既出）、ロシア・ウクライナ（ラヴァ連隊UGV、ドニプロ攻撃、モスクワ方面の大規模攻撃、黒海コンテナ船沈没。ISW 29日分は取得できず）、イスラエル・中東（29日付のAI・防衛の新規事実なし。AP／AURORAHの衛星報道は27日付で短信末尾に収録）、インド（ラジナート国防相のADMMプラス発言はAI要素なし）、豪州（マールズ発言と4カ国会合はADMMプラス短信に収録、演習DugongのAUV8機はニューズレター経由のみで不採用）、ASEAN（第13回ADMMプラス閉幕、米比合意）。国連第1委員会の29日分はpress.un.orgの閲覧制限により確認できず、28日分は大量破壊兵器クラスターでAI要素なし。シンクタンク報告とarXivの28〜29日分は検索上限により未確認。",
+      "japan": "防衛省（報道発表一覧と29日の会見録、日豪防衛相会談ページは開けず）、外務省（ドイツ国別ページを確認、28日の首脳会談概要は29日時点で未掲載）、首相官邸（28〜29日の総理の動きページは開けず）、個人情報保護委員会（NHK報道で集計を確認、委員会のページは未閲覧）、経産省・国家サイバー統括室・AISI・国会審議・政党提言（検索上限により29日分を確認できず）。GMOの続報（攻撃者特定につながる情報を警察に提出）はAI要素がなく不採用。"
+    },
+    "dropped": [
+      {
+        "title": "Gemini 4 Carbon: cyber defenders first (TNW follow-up)",
+        "url": "https://thenextweb.com/news/gemini-4-carbon-google-cybersecurity-model",
+        "reason": "前号（cl-20261029-03）で既出。新規の事実はベンチマーク数値の再掲にとどまる"
+      },
+      {
+        "title": "Alphabet Q3 2026 earnings",
+        "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+        "reason": "安全保障に関わる開示がなく、本文も開けず"
+      },
+      {
+        "title": "AI agents hack Anthropic business systems in 12 hours (Cathedral)",
+        "url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours",
+        "reason": "10月26日公表で対象期間外。政府への正式な通報は未確認"
+      },
+      {
+        "title": "Putin calls Musk 'genius' as Ukraine recovers from Starshield throttling",
+        "url": "https://kyivindependent.com/putin-calls-musk-genius-as-ukraine-recovers-from-starshield-throttling/",
+        "reason": "前号で不採用。Starshield制限の影響はラヴァ連隊の項で扱った"
+      },
+      {
+        "title": "Saab launches Ocean Barrier",
+        "url": "https://defence-industry.eu/saab-launches-ocean-barrier-to-monitor-underwater-threats-to-ports-and-critical-infrastructure/",
+        "reason": "顧客・契約額・AI仕様の記載がない製品発表"
+      },
+      {
+        "title": "Avenger Triad 26 assesses command and control gaps",
+        "url": "https://defence-industry.eu/avenger-triad-26-assesses-command-and-control-gaps-in-large-scale-european-combat-scenario/",
+        "reason": "AI要素が薄く、評価結果の公表もない"
+      },
+      {
+        "title": "Canada–EU summit security cooperation",
+        "url": "https://www.defensenews.com/global/europe/2026/10/29/at-pivotal-summit-canadian-european-security-cooperation-is-a-central-focus/",
+        "reason": "共同声明の草案段階で、AI・無人機の要素がない"
+      },
+      {
+        "title": "Exercise Dugong 2026 employs eight AUVs",
+        "url": "https://edsnews.substack.com/p/defense-tech-intelligence-brief-october-9a3",
+        "reason": "ニューズレターの要約のみで豪国防省の発表を開けず"
+      },
+      {
+        "title": "國軍採購21萬架無人機受阻 立院國防委員會29日考察陸軍「無指部」",
+        "url": "https://def.ltn.com.tw/article/breakingnews/5486009",
+        "reason": "見出しのみで本文を開けず、内容を確認できない"
+      },
+      {
+        "title": "국방기술진흥연구소 조훈희 신임 소장 취임",
+        "url": "https://www.newspim.com/news/view/20261029000763",
+        "reason": "人事で、AI・無人化は就任挨拶の方針表明にとどまる"
+      },
+      {
+        "title": "Rajnath Singh proposes India-ASEAN Youth Bridge at ADMM-Plus",
+        "url": "https://www.tribuneindia.com/news/world/india-asean-youth-bridge-will-foster-people-to-people-connection-digital-innovation-capacity-building-rajnath-singh-at-admm-plus-meet",
+        "reason": "AI・無人機の要素がない"
+      },
+      {
+        "title": "Ex-Unmanned Systems Forces commander Sukharevskyi to lead Ukraine's Marines (media reports)",
+        "url": "https://kyivindependent.com/ex-unmanned-systems-forces-commander-sukharevskyi-to-lead-ukraines-marines-media-reports/",
+        "reason": "匿名情報源の人事報道で公式発表がない"
+      },
+      {
+        "title": "Concurrent Technologies Corp wins ~$2M DARPA contract for AI assurance",
+        "url": "https://www.globenewswire.com/",
+        "reason": "原典を開けず、DARPAのプログラム名も不明"
+      },
+      {
+        "title": "First Committee approves 3 draft resolutions, 2 decisions on other weapons of mass destruction (GA/DIS/3779)",
+        "url": "https://press.un.org/en/2026/gadis3779.doc.htm",
+        "reason": "本文を開けず、クラスターにAI・LAWSの要素がない。採決は今後の予定に記載"
+      },
+      {
+        "title": "Firehawk Defense raises $150M Series D",
+        "url": "https://www.defenseone.com/business/2026/10/defense-business-brief-tech-edge-pacfleet-talks-cyber-and-more/416906/",
+        "reason": "エネルギー材料の資金調達でAI要素がない"
+      },
+      {
+        "title": "高市首相 来年度予算編成で指示",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261029de68099",
+        "reason": "本文を開けず、防衛費・AI関連の指示の有無を確認できない"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261030-01：欧州委員会の一次発表（プレスリリース）を特定できず、Reuters・Anadolu・Euronews・Agence Europeの報道4本に依拠した。申請期限11月13日はEuronews単独の記載。",
+      "cl-20261030-02：北朝鮮を示すactorタグがないためUSのみを付した。Microsoftの報告は本文の約7割を直接確認し、残りは要約で確認した。",
+      "cl-20261030-03：NYT本文は閲覧できず、GV Wireに配信された全文とTechCrunch・Engadgetに依拠した。単一媒体の調査報道で、情報機関の認定は他媒体の独立確認がない。当局の確認や起訴があれば重要度3への引き上げを検討する余地がある。",
+      "cl-20261030-04：国防部公式サイトの会見録は開けず、新華社の記事と網易の全文転載に依拠した。学院名は記者の質問に出たもので、報道官の回答は校名を繰り返していない。環球時報の「2010年以来最低」は同紙の評価。",
+      "cl-20261030-05：ドイツを示すactorタグがないためEUを付した。2月の契約額（約5.4億ユーロ、上限20億ユーロ）はReuters報道。",
+      "cl-20261030-06：Military Timesの単一報道に依拠。DefenseScoopの10月16日記事は未閲覧で、本文の長官発言は Military Times の引用に基づく。",
+      "cl-20261030-07：戦場関連の主張で単一情報源（連隊のSNS投稿）。信頼度C3。公表は10月28日で対象期間の境界にあたるが、前号で扱っていないため本号に収めた。",
+      "cl-20261030-08：攻撃と沈没はブルガリア政府の確認（A2）。攻撃主体は未特定。cl-20261029-13の続報。",
+      "cl-20261030-11〜13：防衛省・外務省・首相官邸のページを開けず、NHKの見出しと冒頭段落のみで確認した。日独首脳会談の共同文書の有無は未確認。cl-20261030-13はAI要素のない純粋なサイバー項目で、緊急対策パッケージの前提数値として収録した。",
+      "cl-20261030-14：韓国SBSによるロイター報道の転載のみに依拠。ロイター原文、Irregularの報告、CAISIの評価文書は未確認。重要度は内容上2相当だが、確認の度合いから短信に置いた。",
+      "cl-20261030-15・16・21：戦場関連の主張。ドニプロ攻撃はウクライナ当局の発表で複数媒体が報じた（A2、機種未特定）。モスクワ方面の迎撃数はロシア側の主張（C3）。AP／AURORAHの衛星報道は相関分析と匿名証言に基づく（B3）、公表日は10月27日で遅れて確認した資料として末尾に置いた。",
+      "調査範囲の制約：検索回数の上限に達し、国連第1委員会の29日分（press.un.orgは閲覧制限）、シンクタンク・arXivの28〜29日付、CISA・NCSC等の29日付勧告、経産省・国家サイバー統括室・国会審議の29日分は確認できていない。"
+    ]
+  }
+}
