@@ -1,0 +1,1523 @@
+{
+  "edition_date": "2026-11-02",
+  "generated_at": "2026-11-02T07:45:00+09:00",
+  "window_from": "2026-11-01T06:45:00+09:00",
+  "edition_title_ja": "審査制で開く二重用途モデルと無人機消耗戦の適応",
+  "edition_title_en": "Gated Dual-Use Models and Adaptation in the Drone War of Attrition",
+  "edition_dek_ja": "拒否境界を緩めた生物学モデル、曇天を突く433機、国家関与が問われる国内の侵害。",
+  "edition_dek_en": "A biology model with a looser refusal boundary, 433 drones under cloud cover, and a domestic intrusion where state involvement is now the question.",
+  "lead_points_ja": [
+    "週末の動きは、能力そのものより「誰に、どの条件で開くか」という利用の設計に重心が移った。OpenAIは同じ重みのモデルを審査制で生物学研究者に開き、ウクライナとロシアは天候と画像認識を巡って迎撃の条件を競い、日本では侵害事件の帰属が政府の制度判断に接続し始めている。",
+    "OpenAIはGPT-6 Astraと同一の重みを持つGPT-Rosalind-6を、生物学の二重用途の問いに対する拒否を減らした設定で、審査を通った組織だけに提供する。生物・化学は「High」、サイバーは「Critical」の判定を据え置いた。",
+    "ロシアは一夜で433機を投入し、ウクライナ空軍は371機を無力化したと発表した。ジェット型中心だった前夜から、曇天下でピストン型を主体とする構成に切り替えており、迎撃無人機の視認条件を突いた選択だと分析されている。",
+    "GMOインターネットグループが北朝鮮系集団の関与の可能性を政府に報告したと共同通信が伝えた。2日午後の記者会見は、能動的サイバー防御の初適用判断と帰属公表の扉になる。",
+    "米インド太平洋軍の高官は、日本が初めてMaven Smart Systemを使用して統合打撃に貢献したと述べた。日本側の説明はまだ確認できず、演習限定か恒常運用かが論点として残る。"
+  ],
+  "lead_points_en": [
+    "The weekend's developments shifted the centre of gravity from raw capability to the design of use: who gets access and under what conditions. OpenAI opened a same-weights model to vetted biologists, Ukraine and Russia contested the conditions of interception around weather and computer vision, and in Japan the attribution of an intrusion began to connect with the government's institutional decisions.",
+    "OpenAI released GPT-Rosalind-6, which shares weights with GPT-6 Astra but refuses fewer dual-use biology queries, to approved organisations only. The Preparedness classifications stay at High for biological and chemical risk and Critical for cybersecurity.",
+    "Russia launched 433 drones in a single night and Ukraine's Air Force reported neutralising 371. The mix switched from the jet-heavy raid of the previous night to piston-engined Shaheds under overcast skies, a choice analysts read as targeting the visual acquisition conditions of interceptor drones.",
+    "Kyodo reports that GMO Internet Group has told the government that a North Korea-linked group is likely behind the intrusion. The first press conference on Monday afternoon opens the door to a decision on the first use of active cyber defence and to public attribution.",
+    "A senior INDOPACOM officer said Japanese partners used the Maven Smart System for the first time and contributed to joint strikes. No Japanese account has yet been found, leaving open whether this was exercise-bound or routine use."
+  ],
+  "items": [
+    {
+      "id": "cl-20261102-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "OpenAI、生物学向けGPT-Rosalind-6を審査制で提供　重みは同一で拒否境界だけを緩め、サイバーはCritical",
+      "title_en": "OpenAI releases GPT-Rosalind-6 under trusted access: same weights, looser biology refusals, cyber still rated Critical",
+      "lead_ja": "OpenAIは10月30日、生物学研究向けモデル「GPT-Rosalind-6」のシステムカード補遺を公表した。最上位推論モデルGPT-6 Astraと同一の重みを用い、追加の学習や事後調整を施さずに、二重用途の生物学的な問いへの拒否を減らした設定で提供する。利用は審査を通った組織に限られ、生物・化学の能力は「High」、サイバーは「Critical」と判定されている。",
+      "lead_en": "On 30 October OpenAI published the system card addendum for GPT-Rosalind-6, a model for biological research. It uses the same weights as the flagship reasoning model GPT-6 Astra, with no added training data or post-training, and refuses fewer dual-use biology queries. Access is limited to approved organisations, and the model is rated High in biological and chemical capability and Critical in cybersecurity.",
+      "sections": [
+        {
+          "heading_ja": "追加学習なしで動く拒否の境界",
+          "heading_en": "A refusal boundary that moves without retraining",
+          "paragraphs_ja": [
+            "補遺は「GPT-Rosalind-6はGPT-6 Astraと同じ重みを使う」と明記し、「このリリースのために学習データの追加や追加の事後学習は行っていない」と述べる。したがって両モデルの差は、二重用途の生物学的な問いに対してどこまで答えるかという運用上の境界と、誰に提供するかという配布の条件に置かれており、重みそのものは共通である。正規の高度な生物学研究で有用になるよう設計する一方、「深刻な生物兵器化を実質的に可能にする」要求は引き続き拒否するとしている。",
+            "この構成は、同一の能力を持つモデルを、一般向けには保守的な拒否設定で、審査済みの研究者には緩い設定で配る二層の提供を意味する。モデルの能力評価と提供先の審査を切り分ける発想は、輸出管理におけるエンドユーザー審査に近い。能力は固定し、アクセスの設計で危険を管理するという判断が、フロンティアAIの二重用途の扱いの一つの型として示された。"
+          ],
+          "paragraphs_en": [
+            "The addendum states that GPT-Rosalind-6 uses the same weights as GPT-6 Astra and that no training data was added and no additional post-training was performed for the release. The difference between the two models therefore lies in the operational boundary of how far the model answers dual-use biology questions and in the distribution condition of who receives it, rather than in the weights. The model is designed to be more useful for legitimate advanced research while still refusing requests that would meaningfully enable severe biological weaponisation.",
+            "The arrangement amounts to a two-tier release of a single capability: conservative refusals for the public, looser ones for vetted researchers. Separating the capability assessment from the vetting of recipients resembles end-user screening in export controls. Holding capability fixed and managing risk through access design has now been set out as one template for handling dual-use frontier AI."
+          ]
+        },
+        {
+          "heading_ja": "High判定の根拠と未達のCritical指標",
+          "heading_en": "The basis for the High rating and the unmet Critical thresholds",
+          "paragraphs_ja": [
+            "能力評価では、拒否を補正した後に4つのHigh水準の評価のうち3つで目安の閾値を超えた。トラブルシューティング評価は832問中491問の正答で、目安の36.4%を大きく上回る。生物リスク知識の評価は78.3%で目安の80%を下回るが、拒否補正後は85.0%に達する。前世代のGPT-Rosalind-5.5との比較では、MedChemBench v7が28.9%から49.6%、GeneBench Pro v13が16.7%から37.7%、LifeSciBench Goldが44.0%から61.3%へ伸びた。",
+            "一方で、Critical水準を測る4つの評価（AAVカプシドの設計、SHP2、コロナウイルスとACE2の結合、ファージとプラスミドの予測）はいずれも目安の閾値に達しておらず、OpenAIは「Criticalの閾値を下回るHigh」と位置づけた。サイバー領域はGPT-6 Astraの評価を引き継いでCriticalのまま据え置かれ、同モデルのリアルタイム遮断を含む標準の保護措置を保持する。既知の脱獄手法に対する攻撃成功率は14.3%で、Astraの15.7%とほぼ同水準だった。"
+          ],
+          "paragraphs_en": [
+            "In the capability evaluations the model exceeded the indicative High thresholds on three of four evaluations after adjusting for refusals. On the troubleshooting benchmark it answered 491 of 832 items, far above the indicative 36.4%. On biorisk knowledge it scored 78.3% against an 80% threshold, rising to 85.0% after refusal adjustment. Against GPT-Rosalind-5.5, MedChemBench v7 rose from 28.9% to 49.6%, GeneBench Pro v13 from 16.7% to 37.7% and LifeSciBench Gold from 44.0% to 61.3%.",
+            "None of the four Critical-level evaluations, covering AAV capsid design, SHP2, coronavirus–ACE2 binding and phage–plasmid prediction, met its indicative threshold, so OpenAI placed the launch at High, below Critical. In cybersecurity the model inherits GPT-6 Astra's Critical rating and retains that model's standard safeguards including real-time blocking. Task success under historical jailbreak attacks was 14.3%, close to Astra's 15.7%."
+          ]
+        },
+        {
+          "heading_ja": "審査・最小権限・人の確認を課す利用条件",
+          "heading_en": "Conditions of use: vetting, least privilege and human review",
+          "paragraphs_ja": [
+            "提供先の審査では、正規の生命科学の任務、信頼できる利用目的、研究と運用の統治、アクセスを安全に管理する能力が確認される。政府以外の申請者は事業者確認とコンプライアンス審査を経る。政府機関には、承認されたバイオセキュリティ、バイオセーフティ、公衆衛生の備え、生物防衛の用途に限って別の信頼アクセス経路が設けられた。補遺は「この提供は従来の告知を超えて対象を広げるものではない」と述べ、学術向けのRosalind Academic Planを先例として挙げる。",
+            "承認された組織には、正当な必要を持つ利用者に限定する最小権限の管理、オンボーディング、内部者リスク対策が義務づけられる。さらに「モデルの出力が実験、出版、重要な意思決定に影響する前に、資格のある人による確認を行う」ことが求められ、必要が消えた利用者のアクセスを除去する手順も要件に含まれる。OpenAIは悪用があれば制限または取り消しができるとした。料金と採用組織の名前は補遺に記載がなく、一部の報道が伝える価格や製薬企業名は未確認である。"
+          ],
+          "paragraphs_en": [
+            "Vetting checks for a legitimate life-sciences or related mission, a credible use case, appropriate research and operational governance, and the ability to control access safely. Non-government applicants undergo business verification and compliance screening. For government entities a separate trusted-access pathway covers approved biosecurity, biosafety, public-health preparedness and biodefense work. The addendum says the release does not broaden eligibility beyond prior announcements such as the Rosalind Academic Plan.",
+            "Approved customers must restrict access to authorised users with a legitimate need, apply least-privilege controls, onboarding and insider-risk controls, and apply qualified human review before outputs inform experiments, publications or consequential decisions. They also need processes to remove access when a user no longer needs it, and OpenAI can restrict or revoke access for misuse. Pricing and customer names do not appear in the addendum; the prices and pharmaceutical partners cited in some coverage remain unconfirmed."
+          ]
+        },
+        {
+          "heading_ja": "評価機関と各国の規制が向き合う論点",
+          "heading_en": "Questions for evaluators and regulators",
+          "paragraphs_ja": [
+            "この提供形態は、フロンティアモデルの安全枠組みが「訓練と公開の可否」から「配布の条件と監査」へと重心を移していることを示す。同じ重みがCriticalと判定されたサイバー能力を持つ以上、生物学の研究者に渡るモデルはサイバー面でも最上位の能力を持つことになる。したがって審査の実効性、内部者リスクの管理、取り消しの運用が、能力評価と同じ重さを持つ。評価は社内の指標に基づき、第三者による再現は公表されていないため、米英の評価機関がどの範囲で検証するかが次の焦点になる。"
+          ],
+          "paragraphs_en": [
+            "The release shows frontier safety frameworks shifting their weight from whether to train and publish toward the conditions and auditing of distribution. Because the same weights carry a cyber capability rated Critical, the model handed to biologists also carries top-tier cyber capability, so the effectiveness of vetting, insider-risk management and revocation now matter as much as the capability assessment itself. The evaluations rest on internal metrics without published third-party replication, so the scope of verification by the US and UK evaluation bodies is the next question."
+          ]
+        }
+      ],
+      "watch_next_ja": "米CAISI・英AISIによる独立評価の有無。政府向け信頼アクセス経路の採用機関の公表。システムカード補遺PDFの全表（Critical評価の実測値）の確認。",
+      "watch_next_en": "Whether US CAISI or UK AISI publish independent evaluations; disclosure of government adopters on the trusted-access pathway; the full tables in the addendum PDF, including measured values on the Critical evaluations.",
+      "japan_relevance": false,
+      "date": "2026-10-30",
+      "stage": "fielded",
+      "publisher": "OpenAI",
+      "publisher_en": "OpenAI",
+      "sources": [
+        {
+          "title": "GPT-Rosalind-6 System Card Addendum",
+          "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+          "publisher": "OpenAI",
+          "date": "2026-10-30",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "GPT-6 Rosalind shows OpenAI now sells access, not just models",
+          "url": "https://www.i-scoop.eu/gpt-6-rosalind-trusted-access/",
+          "publisher": "i-SCOOP",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GPT-6 Rosalind Research Puts Access Choices at the Center",
+          "url": "https://forkast.news/gpt-6-rosalind-research-access-boundaries/",
+          "publisher": "Forkast",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "GMO不正アクセス、北朝鮮系集団の関与の可能性を政府に報告と報道　被害者を集める偽サイトも浮上、2日に初の会見",
+      "title_en": "GMO reported to have told the government a North Korea-linked group is likely behind the intrusion; a fake victim forum surfaces ahead of Monday's first press conference",
+      "lead_ja": "共同通信は11月1日夜、GMOインターネットグループが一連の不正アクセスについて、マルウェアの特徴など複数の痕跡から北朝鮮系のハッカー集団が関与している可能性が高いと分析し、政府側に報告したと伝えた。同日には、被害者に情報提供を呼びかける不審なサイトが攻撃者側と関連する可能性も報じられた。熊谷正寿会長兼社長は2日午後に事件後初の記者会見を開く。",
+      "lead_en": "Kyodo reported on the night of 1 November that GMO Internet Group has told the government that, judging from traces including the characteristics of the malware used, a North Korea-linked hacking group is likely involved in the intrusion. The same day brought reports that a suspicious site soliciting information from victims may be linked to the attackers. Chairman and CEO Masatoshi Kumagai holds the first press conference since the incident on Monday afternoon.",
+      "sections": [
+        {
+          "heading_ja": "5つのIPアドレスの一致が示す範囲",
+          "heading_en": "What five matching IP addresses do and do not show",
+          "paragraphs_ja": [
+            "共同通信によれば、GMOは攻撃に使われたマルウェアの特徴など複数の痕跡から北朝鮮系集団の関与の可能性が高いと分析し、政府側に報告した。共同がセキュリティ専門家と行った独自の分析では、10月27日に攻撃側の犯行声明サイトが公開された直後に接続した5つのIPアドレスが、過去に北朝鮮系集団が使ったIPアドレスと一致した。GMOは10月29日に攻撃者に関する有力情報を警察に提出している。",
+            "声明サイトには米国や日本など複数の国に関連する痕跡があり、専門家は捜査を混乱させるための混入の可能性を指摘する。IPアドレスの一致だけでは同一集団の犯行と断定できないことは共同自身も注記しており、現時点の帰属は当事者と報道機関の分析の段階にある。公的な帰属判断は警察と内閣サイバー官房の調査を待つ。"
+          ],
+          "paragraphs_en": [
+            "According to Kyodo, GMO assessed from multiple traces, including the characteristics of the malware, that a North Korea-linked group is likely involved and reported this to the government. In Kyodo's own analysis with security experts, five IP addresses that connected immediately after the attackers' claim site went up on 27 October matched addresses previously used by North Korea-linked groups. GMO handed substantive information on the attackers to police on 29 October.",
+            "The claim site contained traces pointing to several countries including the United States and Japan, which experts read as possible noise inserted to confuse investigators. Kyodo itself notes that matching IP addresses alone cannot establish that the same group was responsible, so attribution currently rests on the analysis of the victim and the press. An official judgement awaits the police and the National Cyber Office."
+          ]
+        },
+        {
+          "heading_ja": "被害者を集める偽フォーラムと2年前の内部指摘",
+          "heading_en": "A fake victim forum and a warning from two years ago",
+          "paragraphs_ja": [
+            "NHKと共同通信は11月1日、被害者に情報提供を呼びかける「情報共有フォーラム」というサイトが、GMOが被害を公表した10月21日より前に準備されていたと報じた。ソースコードが犯行声明サイトと部分的に一致し、ホスティング事業者、日本語のコード、フォルダ名、アクセス設定が共通するという。訪問者がほとんどいない状態で既に閉鎖されており、攻撃者が被害者を通じてGMOに圧力をかけようとした可能性がある。",
+            "あわせて日本経済新聞は10月31日、グループ会社のGMOサイバーセキュリティ byイエラエが2024年4月にシステムの根本的な見直しを求めていたと報じ、熊谷氏も自身のブログで対応の深さと速さが十分でなかったと認めた。懸賞金制度への情報提供は10月30日18時時点で428件に達し、見舞金と補償の申請期限は11月6日である。"
+          ],
+          "paragraphs_en": [
+            "NHK and Kyodo reported on 1 November that a site called the “information sharing forum,” which solicited information from victims, had been prepared before GMO disclosed the breach on 21 October. Its source code partially matched the attackers' claim site, and the hosting provider, Japanese-language code, folder names and access settings were common to both. The site has already closed with almost no visitors, and the attackers may have intended to use victims to pressure GMO.",
+            "Nikkei reported on 31 October that group company GMO Cybersecurity by Ierae had called for a fundamental review of the systems in April 2024, and Kumagai acknowledged on his blog that the depth and speed of the response had been insufficient. Tips under the bounty scheme reached 428 by 18:00 on 30 October, and applications for condolence payments and compensation close on 6 November."
+          ]
+        },
+        {
+          "heading_ja": "別件の9年間の設定ミスと会見で問われる統治",
+          "heading_en": "A separate nine-year misconfiguration and the governance questions for the press conference",
+          "paragraphs_ja": [
+            "11月1日には別件も表面化した。電子認証子会社GMOグローバルサインのID管理サービス「GMOトラスト・ログイン」で、ロゴ画像配信用の公開ストレージに非公開ファイルが置かれ、2017年11月から2026年9月15日まで外部から取得可能だった。10月30日の第3報で対象は2,492社・45,030人分に拡大し、第三者による取得も確認された。外部攻撃による侵害とは別の設定ミスであるが、個人情報保護委員会への最終報告は11月12日、主要対策の完了は11月30日とされる。",
+            "したがって2日の会見では、デスクトップクラウドの侵入経路と帰属に加えて、2年前の内部指摘への対応、グループ横断の設定管理、見舞金と補償の規模が問われる。帰属に関する発言は、政府が10月26日のサイバー閣僚会議で示した方針と、能動的サイバー防御の初適用要請への判断に直接つながる。"
+          ],
+          "paragraphs_en": [
+            "A separate matter surfaced on 1 November. In GMO Trust Login, an identity-management service of certificate subsidiary GMO GlobalSign, non-public files had been placed in a public storage bucket used to serve logo images and were retrievable from outside from November 2017 until 15 September 2026. The third notice on 30 October widened the scope to 2,492 companies and 45,030 individuals and confirmed retrieval by third parties. This was a misconfiguration distinct from the intrusion, with a final report to the Personal Information Protection Commission due on 12 November and main countermeasures by 30 November.",
+            "Monday's press conference will therefore face questions on the intrusion route and attribution in the Desktop Cloud case, on the response to the internal warning two years ago, on group-wide configuration management and on the scale of payments and compensation. Any statement on attribution feeds directly into the policy the government set at the 26 October ministerial meeting on cyber and into its decision on the first request for active cyber defence."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月2日午後のGMO記者会見での帰属・侵入経路・補償の説明。警察と内閣サイバー官房の公的帰属。11月6日の見舞金・補償の申請期限と、政府の緊急対策パッケージの公表。",
+      "watch_next_en": "GMO's account of attribution, intrusion route and compensation at Monday's press conference; official attribution by police and the National Cyber Office; the 6 November deadline for compensation claims and publication of the government's emergency package.",
+      "japan_relevance": true,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "共同通信／NHK",
+      "publisher_en": "Kyodo News / NHK",
+      "sources": [
+        {
+          "title": "【独自】ＧＭＯ攻撃、北朝鮮ハッカーか　複数の痕跡、政府に報告",
+          "url": "https://www.oanda.jp/lab-education/market_news/kn_2026110101000928/",
+          "publisher": "共同通信（OANDA転載）",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GMOの被害者情報集める不審サイト　ハッカー側と関連か",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261031de69043",
+          "publisher": "NHK",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GMOトラスト・ログイン　2,492社・45,030人分が約9年間外部から取得可能",
+          "url": "https://www.oanda.jp/lab-education/market_news/kn_2026110101000863/",
+          "publisher": "共同通信（OANDA転載）",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GMO被害者向け不審サイトの解説",
+          "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119600/",
+          "publisher": "innovatopia",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "governance-norms"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-13"
+    },
+    {
+      "id": "cl-20261102-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ロシアが一夜で433機を投入、371機を無力化とウクライナ発表　曇天下でピストン型主体に転換、3日で3製油所を攻撃",
+      "title_en": "Ukraine says Russia launched 433 drones in one night and 371 were neutralised; a switch to piston Shaheds under cloud cover, and a third refinery struck in three days",
+      "lead_ja": "ウクライナ空軍は11月1日、10月31日18時以降にロシアがシャヘド型とおとり機を合わせて433機を投入し、371機を撃墜または抑止したと発表した。前夜の134機のうち72機がジェット型だった構成から、曇天下でピストン型を主体とする構成に戻しており、迎撃無人機の視認条件を突いた選択だと分析されている。同じ夜、ウクライナの無人機はロシア第4位のクストヴォ製油所を攻撃し、3日で3か所目の製油所攻撃となった。",
+      "lead_en": "Ukraine's Air Force said on 1 November that from 18:00 on 31 October Russia launched 433 Shahed-type drones and decoys, of which 371 were shot down or suppressed. The mix returned to piston-engined Shaheds under overcast skies after a raid the previous night in which 72 of 134 drones were jet-powered, a choice analysts read as exploiting the visual acquisition conditions of interceptor drones. The same night Ukrainian drones struck the Kstovo refinery, Russia's fourth largest, the third refinery hit in three days.",
+      "sections": [
+        {
+          "heading_ja": "433機の内訳と16か所の着弾",
+          "heading_en": "The composition of the 433 and impacts at 16 sites",
+          "paragraphs_ja": [
+            "空軍の発表によれば、433機のうち64機がジェット推進型で、発射地点はオリョール、クルスク、シャタロヴォ、ブリャンスク、ミレロヴォと占領下のドネツクである。7時30分の時点で371機（うちジェット型47機）が航空機、地対空ミサイル、電子戦、無人システム部隊、機動射撃班によって撃墜または抑止され、16か所で着弾、14か所で落下物が確認された。発表の時点で40機以上がなお飛行中とされ、ミサイルの使用は報告されていない。",
+            "被害はヴィンニツャとキーウ州のエネルギー施設、リウネの負傷者4人、ポルタヴァの子どもの負傷、リヴィウの住宅5棟などに及び、エネルギー省は1日朝の時点で8州の一部が停電したと発表した。ゼレンスキー大統領は週間の総括で、過去1週間にほぼ2,000機の無人機と44発のミサイルが使われたと述べた。撃墜数と「抑止」の内訳は空軍の自己申告であり、独立の検証はない。"
+          ],
+          "paragraphs_en": [
+            "According to the Air Force, 64 of the 433 were jet-powered, launched from Oryol, Kursk, Shatalovo, Bryansk, Millerovo and occupied Donetsk. By 07:30, 371 drones including 47 jets had been shot down or suppressed by aircraft, surface-to-air missiles, electronic warfare, unmanned-systems units and mobile fire groups, with impacts at 16 locations and debris at 14. More than 40 drones were still airborne at the time of the statement, and no missiles were reported.",
+            "Damage included energy infrastructure in Vinnytsia and Kyiv regions, four injured in Rivne, a child injured in Poltava and five houses in Lviv, and the Energy Ministry said parts of eight regions were without power on Saturday morning. President Zelensky said in his weekly summary that almost 2,000 drones and 44 missiles had been used in the past week. The kill and suppression figures are the Air Force's own and remain unverified independently."
+          ]
+        },
+        {
+          "heading_ja": "曇天が削ぐ迎撃の視認と画像認識で追うZIRKA",
+          "heading_en": "Cloud cover against interceptor crews, and an upgraded ZIRKA that tracks by computer vision",
+          "paragraphs_ja": [
+            "Defense Expressと電子戦専門家のセルヒー・ベスクレストノフは、この夜の構成がピストン型中心だった点に注目する。迎撃無人機の操縦者は目標の目視取得に依存する部分が大きく、厚い雲は低速の目標を追う条件を悪化させる。したがってロシアは天候を利用して迎撃無人機の効果を下げようとしたと見られる。これは一人の分析者の推論であり、ロシア側の意図は確認されていないが、ジェット型の投入とピストン型の大量投入を天候に応じて使い分ける兆候として注目される。",
+            "対抗の側では、無人システム軍第412「ネメシス」旅団の部隊が、改良型の迎撃無人機ZIRKAで時速約400kmのジェット型ゲラン5を高度約3,500mで撃墜したと11月1日に公表された。機体はRaspberry Pi 5上で学習済みの画像認識モデルを動かし、約1km先でシャヘド型の特徴を自動検出し、操縦者の確認後に自律追尾する。撃墜の日時と場所は示されておらず、映像による主張の段階である。曇天への対応と機上の自律追尾は、迎撃側の次の課題を同時に示している。"
+          ],
+          "paragraphs_en": [
+            "Defense Express and electronic-warfare specialist Serhii Beskrestnov point to the piston-heavy composition of this raid. Interceptor-drone pilots rely heavily on visually acquiring the target, and thick cloud degrades the conditions for chasing slow targets, so Russia appears to have used the weather to blunt interceptor effectiveness. This is one analyst's inference and Russian intent is unconfirmed, but it suggests a pattern of alternating jet raids and mass piston raids according to weather.",
+            "On the defending side, a unit of the 412th “Nemesis” Brigade of the Unmanned Systems Forces was reported on 1 November to have downed a jet-powered Geran-5 flying at about 400 km/h at roughly 3,500 m with an upgraded ZIRKA interceptor. The aircraft runs a trained computer-vision model on a Raspberry Pi 5 that detects Shahed-type features at about 1 km and tracks autonomously after operator confirmation. Date and place of the intercept were not given, so the claim rests on footage. Coping with cloud and onboard autonomous tracking define the interceptors' next tasks at once."
+          ]
+        },
+        {
+          "heading_ja": "クストヴォ製油所攻撃と民間企業による犯行声明",
+          "heading_en": "The Kstovo strike and a private company claiming it",
+          "paragraphs_ja": [
+            "11月1日未明、ニジニ・ノヴゴロド州クストヴォのルクオイル系NORSI製油所（年間処理能力1,500万〜1,700万トン）で爆発と火災が発生した。ニキチン州知事は「大規模な無人機攻撃」で産業施設が「著しく損傷」したとし、100機以上を撃墜したと主張した。長距離無人機FP-1の製造企業Fire Pointは自社の攻撃だと表明したが、使用機数や被害は示していない。参謀本部による公式の確認は1日夜の時点で見つからず、攻撃の発生は州知事の認知と複数の監視チャンネルで裏づけられるが、被害の程度は衛星画像を待つ。",
+            "この攻撃はWSJが10月29日に報じた「米政権の要請による製油所攻撃の一時停止」と重なる。キーウの当局者はキーウ・インディペンデントに対し、そのような命令は出ておらず短い休止があっただけだと述べ、ロシアのノヴァク副首相はウクライナが攻撃を再開し製油所3か所とガス化学施設を攻撃したと述べた。衛星画像の分析では、10月30日の攻撃でサマラ州のノヴォクイビシェフスク製油所の一次蒸留装置2基が損傷し、一次処理が全面停止したと評価されている。"
+          ],
+          "paragraphs_en": [
+            "In the early hours of 1 November explosions and fire hit the Lukoil NORSI refinery at Kstovo in Nizhny Novgorod region, with a capacity of 15–17 million tonnes a year. Governor Gleb Nikitin described a massive drone attack that significantly damaged an industrial facility and claimed more than 100 drones were downed. Fire Point, maker of the FP-1 long-range drone, claimed the strike without giving numbers or damage. No General Staff confirmation had been found by Saturday evening; the strike itself is corroborated by the governor and multiple monitoring channels, while the extent of damage awaits satellite imagery.",
+            "The strike overlaps with the Wall Street Journal's 29 October report of a pause in refinery strikes at the US administration's request. Kyiv officials told the Kyiv Independent that no such order existed and only a brief pause occurred, while Russian Deputy Prime Minister Novak said Ukraine had resumed attacks on three refineries and a gas-chemical complex. Satellite analysis assesses that the 30 October strike on the Novokuibyshevsk refinery in Samara region damaged both primary distillation units and halted all primary processing."
+          ]
+        },
+        {
+          "heading_ja": "10月の約60件の長距離攻撃と中央値551km",
+          "heading_en": "About 60 deep strikes in October at a median 551 km",
+          "paragraphs_ja": [
+            "Militarnyiの地理空間分析は、10月に位置が特定された長距離攻撃を約60件と集計し、石油・ガス20件、軍事施設10件、防衛産業9件、インフラ9件、化学6件、物流4件、電力2件と分類した。前線からの距離の中央値は551.5km、最大はオムスクの2,508kmで、戦闘機8機以上（Su-34が7機、Su-35が1機）の破壊が確認され、ロシア側も10月に11機の航空機損失を認めた。ネプチューンは3件、ストームシャドウはオリョールとイェレツで使われた。製油所への連続攻撃は、この分布の延長線上にある。"
+          ],
+          "paragraphs_en": [
+            "Militarnyi's geospatial tally counts about 60 geolocated deep strikes in October: 20 on oil and gas, 10 on military sites, 9 on defence industry, 9 on infrastructure, 6 on chemicals, 4 on logistics and 2 on power. The median distance from the front was 551.5 km and the maximum 2,508 km at Omsk; at least eight combat aircraft (seven Su-34 and one Su-35) were confirmed destroyed, and Russia acknowledged eleven aircraft lost in October. Neptune was used in three strikes and Storm Shadow at Oryol and Yelets. The run of refinery strikes extends this distribution."
+          ]
+        }
+      ],
+      "watch_next_ja": "クストヴォ製油所の衛星画像による被害評価と参謀本部の公式確認。次の曇天時のロシアの機種構成と迎撃率。米中間選挙（11月3日）後の製油所攻撃と米側の対応。",
+      "watch_next_en": "Satellite-based damage assessment of Kstovo and any General Staff confirmation; the Russian drone mix and interception rate on the next overcast night; refinery strikes and the US response after the 3 November midterms.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "ウクライナ空軍／ニジニ・ノヴゴロド州政府",
+      "publisher_en": "Ukrainian Air Force / Nizhny Novgorod regional government",
+      "sources": [
+        {
+          "title": "Russia Attacks Ukraine With 433 Drones: Air Defences Neutralise 371",
+          "url": "https://en.lb.ua/news/2026/11/01/47526_russia_attacks_ukraine_433.html",
+          "publisher": "LB.ua",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukrainian Drones Strike LUKOIL Oil Refinery in Kstovo, Fire Breaks Out",
+          "url": "https://militarnyi.com/en/news/ukrainian-drones-strike-lukoil-oil-refinery-in-kstovo-fire-breaks-out/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Fire Point confirmed the strike on the Kstovo Oil Refinery",
+          "url": "https://unn.ua/en/news/fire-point-confirmed-the-strike-on-the-kstovo-oil-refinery-one-of-russias-largest-oil-refineries",
+          "publisher": "UNN",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Upgraded ZIRKA Interceptor Drone Destroys Geran-5 at 400 km/h",
+          "url": "https://militarnyi.com/en/news/upgraded-zirka-interceptor-drone-destroys-geran-5-at-400-km-h/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine war latest: Russian oil refinery in Kstovo ablaze after reported overnight drone strike",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukrainian Strike Damaged All Primary Refining Units at Novokuybyshevsky Oil Refinery",
+          "url": "https://militarnyi.com/en/news/ukraine-damaged-all-units-novokuybyshevsky-oil-refinery/",
+          "publisher": "Militarnyi",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Deep Strikes in October: Missile Production, Oil Refineries, and Russian Aircraft",
+          "url": "https://militarnyi.com/en/news/deep-strikes-in-october-missile-production-oil-refineries-and-russian-aircraft/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU",
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261101-18"
+    },
+    {
+      "id": "cl-20261102-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "AP、イランの攻撃が米軍26拠点を損傷と衛星分析　初動でレーダーを狙い、安価な無人機の大量使用が固定基地の前提を揺らす",
+      "title_en": "AP satellite analysis finds Iranian strikes damaged 26 US sites, hitting radars first; cheap mass drones unsettle the premise of fixed bases",
+      "lead_ja": "AP通信は10月31日、商用衛星画像と地域の当局者4人の証言に基づき、2月の開戦以降8月までにイランと代理勢力の無人機・ミサイル攻撃115件超が、米軍の基地と施設26か所の構造物を損傷または破壊したと分析した。攻撃は開戦2日でレーダー施設を狙い、次に航空機と格納庫、さらに居住施設へと移った。国防省は「部隊と基地は十分に守られている」と反論している。",
+      "lead_en": "Drawing on commercial satellite imagery and four regional officials, the Associated Press reported on 31 October that more than 115 Iranian and proxy drone and missile strikes between the outbreak of war in February and August damaged or destroyed structures at 26 US bases and sites. The strikes went for radars in the first two days, then aircraft and hangars, then housing. The Pentagon responds that forces and bases are well protected.",
+      "sections": [
+        {
+          "heading_ja": "レーダー、航空機、建物の順に狙われた115件超",
+          "heading_en": "More than 115 strikes in the order of radars, aircraft, buildings",
+          "paragraphs_ja": [
+            "APの分析によれば、開戦から2日以内にクウェートのキャンプ・アリフジャンとバーレーンの海軍支援施設のレーダー施設が破壊され、サウジアラビアのプリンス・スルタン基地とヨルダンのムワファク・サルティ基地では可搬式レーダーが被弾した。ヨルダンのレーダーは米陸軍が世界に13基しか持たない型で1基約5億ドル、カタールのレーダーは2013年に11億ドルで契約されたものだという。武器研究機関ARESのジェンゼン・ジョーンズは、イランが「米防空の背骨」を優先したと評した。",
+            "最初の1か月には18か所で50件超の攻撃が航空機を狙い、E-3早期警戒機が損傷し、議会調査局は米航空機15機の損傷を数える。クウェートのアリ・アル・サレム基地は30回以上攻撃され、格納庫15棟以上が破壊された。3月1日のシュアイバ港への無人機攻撃では米兵6人が死亡した。損害額は国防省の推計で50億ドル以上、CSISは構造物の再建だけで40億ドル超と見積もる。中央軍は作戦保全を理由に被害の詳細を明らかにしていない。"
+          ],
+          "paragraphs_en": [
+            "According to AP, radar enclosures at Camp Arifjan in Kuwait and the naval support activity in Bahrain were destroyed within the first two days, and portable radars were hit at Prince Sultan Air Base in Saudi Arabia and Muwaffaq Salti Air Base in Jordan. The Jordan radar was one of only 13 of its type in the US Army at about half a billion dollars each, and the Qatar radar came from a 1.1 billion dollar contract in 2013. N.R. Jenzen-Jones of ARES said Iran prioritised the backbone of US air defence.",
+            "In the first month more than 50 strikes at 18 locations targeted aircraft, damaging an E-3 early-warning aircraft, and the Congressional Research Service counts 15 US aircraft damaged. Ali Al Salem Air Base in Kuwait was struck more than 30 times, with at least 15 hangars destroyed. A drone attack on Port Shuaiba on 1 March killed six US soldiers. The Pentagon estimates damage above 5 billion dollars and CSIS puts structural rebuilding alone above 4 billion. CENTCOM declines to detail damage on operational-security grounds."
+          ]
+        },
+        {
+          "heading_ja": "画像提供の抑制と国防省の反論",
+          "heading_en": "Withheld imagery and the Pentagon's rebuttal",
+          "paragraphs_ja": [
+            "APは、米政府と契約する主要な画像提供企業が米側の要請で画像の公開を止めたり遅らせたりしたため、エアバスのOneAtlasなど別の供給源で空白を埋めたと記す。国防省報道官ショーン・パーネルは部隊と基地が十分に守られ「かつてなく強い」と反論した。一方で地域の当局者2人は、米軍が航空機、防空システム、通信機材の多くを湾岸から移したと述べ、WSJは基地のイラン射程外への移転が検討されていると報じている。被害の全体像は、こうした情報統制と再配置の中で、独立の画像分析に依存している。"
+          ],
+          "paragraphs_en": [
+            "AP notes that major imagery providers with US government contracts blocked or delayed releases at Washington's request, so the gap was filled from other suppliers such as Airbus OneAtlas. Pentagon spokesman Sean Parnell replied that forces and bases are well protected and stronger than ever. Two regional officials said the US has moved many aircraft, air-defence systems and communications equipment out of the Gulf, and the Wall Street Journal reports that relocating bases beyond Iranian range is under consideration. The overall picture of damage thus rests on independent imagery analysis amid information control and repositioning."
+          ]
+        },
+        {
+          "heading_ja": "安価な無人機の大量攻撃が問う固定基地の前提",
+          "heading_en": "What cheap mass drone attacks ask of fixed bases",
+          "paragraphs_ja": [
+            "RANDのラファエル・コーエンは、現代の軍が「大規模で安価な無人機攻撃に脆弱」であり、「固定インフラに依拠できるという考えは終わった」と述べた。センサーを先に無力化し、次に航空機、最後に兵員の施設を狙う順序は、防空制圧の教科書的な手順を安価な無人機で実行した形である。したがって対無人機の層状防御と基地の分散・強靭化が、インド太平洋を含む前方展開の基地設計に直結する論点となる。APの記事はAIに言及しておらず、使用された機種の内訳も示されていないため、自律性の程度は未確認である。"
+          ],
+          "paragraphs_en": [
+            "Raphael Cohen of RAND said modern forces are susceptible to large-scale, cheap drone attacks and that the idea of relying on fixed infrastructure is over. The sequence of blinding sensors first, then aircraft, then personnel facilities is a textbook suppression-of-air-defence pattern executed with inexpensive drones. Layered counter-drone defence and the dispersal and hardening of bases therefore bear directly on the design of forward bases, including in the Indo-Pacific. The AP piece does not mention AI and gives no breakdown of the systems used, so the degree of autonomy involved is unverified."
+          ]
+        }
+      ],
+      "watch_next_ja": "中央軍・国防省による被害の公式開示。基地の射程外への移転と対無人機防御の予算化（FY27要求）。11月3日の中間選挙後の対イラン作戦の再開と湾岸諸国の基地使用の可否。",
+      "watch_next_en": "Official damage disclosure by CENTCOM or the Pentagon; relocation of bases beyond Iranian range and FY27 funding for counter-drone defence; whether operations against Iran resume after the 3 November midterms and whether Gulf states permit base use.",
+      "japan_relevance": false,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "AP通信",
+      "publisher_en": "Associated Press",
+      "sources": [
+        {
+          "title": "Iran targeted US air defenses before hitting aircraft and buildings, AP analysis finds",
+          "url": "https://abcnews.com/US/wireStory/iran-targeted-us-air-defenses-hit-aircraft-buildings-137733589",
+          "publisher": "AP（ABC News配信）",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Iran blinded US bases before striking military assets, AP analysis finds",
+          "url": "https://tribune.com.pk/story/2638020/",
+          "publisher": "The Express Tribune（AP配信）",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Satellite images reveal billions in damage to US bases from Iranian attacks",
+          "url": "https://www.theweek.in/news/middle-east/2026/11/01/satellite-images-reveal-billions-in-damage-to-us-bases-from-iranian-attacks.html",
+          "publisher": "The Week",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米中間選挙2日前、連邦と州の脅威情報共有は「2016年以来最弱」と報道　対話型AIが引用する自動生成の偽地方紙網も確認",
+      "title_en": "Two days before the US midterms, federal–state threat sharing is reported at its weakest since 2016, and chatbots are citing an AI-generated fake local-news network",
+      "lead_ja": "CNNは11月1日、選挙安全保障の専門家約12人の証言として、外国の脅威情報を連邦から州・地方の選挙当局へ伝える経路が2016年以来最も弱くなっていると報じた。ロシアはAIで加工した動画で民主党候補を攻撃し、中国は反中姿勢の下院候補に照準を絞っていると情報機関は評価する。並行して、AI生成の偽地方紙37サイトが対話型AIの回答に引用される実態が報じられ、選挙情報の層にAIが入り込む構図が明らかになった。",
+      "lead_en": "CNN reported on 1 November, citing about a dozen election-security experts, that the channels for passing foreign-threat intelligence from federal to state and local election officials are at their weakest since 2016. Intelligence assessments say Russia is attacking Democratic candidates with AI-altered videos while China targets anti-China House candidates. In parallel, a network of 37 AI-generated fake local-news sites has been found in chatbot answers, showing how AI has entered the information layer of the election.",
+      "sections": [
+        {
+          "heading_ja": "縮小したCISAと動かない共有の経路",
+          "heading_en": "A shrunken CISA and channels that no longer move",
+          "paragraphs_ja": [
+            "CNNによれば、10月中旬に行われた2024年以来初の機密ブリーフィングは技術的な不具合で中断し、日程が組み直された。国土安全保障省が直前に立ち上げたオンラインの脅威共有基盤は「信頼性に欠ける」と評され、選挙研究イノベーションセンターのデビッド・ベッカーは、今回のサイクルで連邦当局とサイバー情報を積極的に共有している選挙当局者を一人も知らないと述べた。CISAは職員の約3分の1を失い、選挙安全保障の補助金は2024年の5,500万ドルから2025年に1,500万ドル、2026年に4,500万ドルと推移した。",
+            "CISAの報道官は、要請に応じて利用できる情報共有ツールを提供しており「十分な備えがある」と反論する。一方、26州で使われる投票機メーカーLiberty Voteのスコット・ライエンデッカーは連邦のサイバー支援を「期待外れ」と呼び、アリゾナ州のCISOマイケル・ムーアは「脅威情報の共有を政治化すれば人々は共有を止める」と警告した。マリン国土安全保障長官による選挙システムの脆弱性に関する根拠の示されていない発言も、州側の不信を強めている。"
+          ],
+          "paragraphs_en": [
+            "According to CNN, a mid-October classified briefing, the first since 2024, was interrupted by technical failures and rescheduled. A last-minute DHS online threat-sharing platform was described as lacking credibility, and David Becker of the Center for Election Innovation and Research said he knows of no election official actively sharing cybersecurity information with federal authorities this cycle. CISA has lost about a third of its staff, and election-security grants moved from 55 million dollars in 2024 to 15 million in 2025 and 45 million in 2026.",
+            "A CISA spokesperson countered that an information-sharing tool is available on request and that the agency remains fully equipped. Scott Leiendecker of Liberty Vote, whose machines are used in 26 states, called federal cyber support disappointing, and Arizona CISO Michael Moore warned that politicising threat-intelligence sharing will make people stop sharing. Unsubstantiated remarks by DHS Secretary Markwayne Mullin about election-system vulnerabilities have further deepened state-level distrust."
+          ]
+        },
+        {
+          "heading_ja": "ロシアはAI加工動画、中国は特定候補に照準",
+          "heading_en": "Russia with AI-altered video, China with targeted candidates",
+          "paragraphs_ja": [
+            "情報機関の評価では、ロシアは民主党候補を貶める偽情報を展開しており、Graphikaなどはロシアの工作員と疑われるアカウントがXでAI加工動画を投稿したことを追跡した。その中にはテキサス州の民主党上院候補ジェームズ・タラリコに対する性的暴行の捏造された告発が含まれる。下院情報委員会のジム・ハイムズ議員はロシアが「あらゆるものを投げ込んでいる」と述べ、中国は反中姿勢の下院候補に「極めて絞った」工作を行い、2月に始まった米イラン戦争後初の大型選挙でイランは「比較的静か」だと説明した。"
+          ],
+          "paragraphs_en": [
+            "Intelligence assessments say Russia is deploying disinformation to denigrate Democratic candidates, and Graphika and others tracked accounts suspected of being Russian operatives posting AI-altered videos on X, including a fabricated sexual-assault allegation against Texas Democratic Senate nominee James Talarico. Rep. Jim Himes of the House Intelligence Committee said Russia is throwing everything out there, that China is extremely targeted at anti-China House candidates, and that Iran has been relatively quiet in the first major election since the US–Iran war began in February."
+          ]
+        },
+        {
+          "heading_ja": "対話型AIが引用する37サイトの偽地方紙網",
+          "heading_en": "A 37-site fake local-news network cited by chatbots",
+          "paragraphs_ja": [
+            "NPRが10月30日に報じたセキュリティ企業VisionHeightの調査では、地方紙やブログ、州・全国メディアを装う37サイトが、主に民主党の下院候補10人を推す内容を掲載していた。37ドメインのうち36は9月15日に8分以内に登録され、9月30日に約10万語の定型文が一斉に投稿され、「より強い選択」という句が360回以上使われた。全サイトが17種のAIクローラーを許可しllms.txtを備えており、OpenAIの対話型AIはNPRの37件の質問のうち19件でこの網を引用した。候補の陣営と民主党下院選挙委員会は関与を否定し、運営者は特定されていない。",
+            "ワシントン・ポストの別の検証では、6つの対話型AIに全郡の住所で投票ガイドを作らせたところ、下院選挙区を答えられない例が48%、答えても誤りが22%に達し、マイクロソフトのCopilotは回答の75%で元Rumble幹部が運営する「The Ballot Brief」を引用した。右派メディアは37サイトを「民主党の工作」と断じたが、NPRは運営者を確認していない。選挙当局の情報共有の弱体化と、AIが媒介する情報層の汚染が同時に進んでいる点が、今回の選挙の特徴である。"
+          ],
+          "paragraphs_en": [
+            "In research by the security firm VisionHeight reported by NPR on 30 October, 37 sites posing as local newspapers, blogs and state or national outlets carried content promoting ten mostly Democratic House candidates. Thirty-six of the 37 domains were registered within eight minutes on 15 September, about 100,000 words of templated text were posted on 30 September, and the phrase “the stronger choice” appeared more than 360 times. All sites allowed 17 AI crawlers and carried llms.txt, and OpenAI's chatbot cited the network in 19 of NPR's 37 queries. The campaigns and the DCCC deny involvement, and the operator is unidentified.",
+            "In a separate Washington Post test asking six chatbots to build voter guides for an address in every county, the bots failed to name the House district 48% of the time and were wrong 22% of the time when they did, and Microsoft's Copilot cited The Ballot Brief, run by a former Rumble executive, in 75% of answers. Right-leaning outlets branded the 37 sites a Democratic scheme, though NPR did not establish the operator. The weakening of official information sharing and the contamination of an AI-mediated information layer are advancing together, which marks this election."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月3日の投開票と、CISA・ODNIによる外国干渉の公式評価。偽地方紙網の運営者の特定。OpenAIの選挙運用センターと各社の投票情報の扱いに関する事後報告。",
+      "watch_next_en": "Election day on 3 November and official CISA/ODNI assessments of foreign interference; identification of the operator of the fake local-news network; post-election reports from OpenAI's election operations centre and other companies on handling voting information.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "CNN／NPR",
+      "publisher_en": "CNN / NPR",
+      "sources": [
+        {
+          "title": "Election officials brace for foreign threats and an unpredictable Washington",
+          "url": "https://localnews8.com/politics/cnn-us-politics/2026/11/01/election-officials-brace-for-foreign-threats-and-an-unpredictable-washington/",
+          "publisher": "CNN（LocalNews8配信）",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Pro-Dem phony news sites built to fool AI chatbots",
+          "url": "https://yahoo.com/news/politics/articles/pro-dem-phony-news-sites-213028540.html",
+          "publisher": "New York Post（Yahoo配信）",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "AI voter guides riddled with errors",
+          "url": "https://jewishworldreview.com/1026/ai-voter-guides-errors.php",
+          "publisher": "The Washington Post（Jewish World Review配信）",
+          "date": "2026-10-29",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Foreign Threats to US Elections Are Maturing as US Defenses Erode",
+          "url": "https://www.justsecurity.org/161370/foreign-threats-us-elections-maturing/",
+          "publisher": "Just Security",
+          "date": "2026-10-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cognitive",
+        "cyber-ci"
+      ],
+      "actors": [
+        "US",
+        "RU",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "cognitive-domain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米インド太平洋軍、日本が初めてMaven Smart Systemを使い統合打撃に貢献と説明　日米豪が単一の共通作戦画面で連接",
+      "title_en": "INDOPACOM says Japan used the Maven Smart System for the first time and contributed to joint strikes, as the US, Japan and Australia share a single common operational picture",
+      "lead_ja": "米インド太平洋軍のC4・サイバー部長マイケル・スミス准将は10月29日、ホノルルのTechNet Indo-Pacificで、2026年は米軍と同盟国が初めて多国間で単一の共通作戦画面上の作戦アプリを運用した年であり、「日本のパートナーが初めてMaven Smart Systemを使用し、統合打撃に貢献してキルチェーンを閉じた」と述べた。基盤はPACOMミッションネットワーク（PMN）で、9月のヤマサクラ91では日米豪が1日200件のデジタル火力要求を処理した。",
+      "lead_en": "Brig. Gen. Michael Smith, INDOPACOM's director for C4 and cyber, told TechNet Indo-Pacific in Honolulu on 29 October that 2026 was the first year in which US forces and allies ran warfighting applications multilaterally on a single common operational picture, and that Japanese partners used the Maven Smart System for the first time, contributing to joint strikes and closing kill chains. The backbone is the PACOM Mission Network; at Yama Sakura 91 in September the US, Japan and Australia processed 200 digital fire missions in a day.",
+      "sections": [
+        {
+          "heading_ja": "PMN上で初めての多国間運用",
+          "heading_en": "First multilateral operation on the PACOM Mission Network",
+          "paragraphs_ja": [
+            "スミス准将によれば、PMNは秘密区分をまたぐゼロトラスト型のネットワークで、従来は二国間に限られていたデータ共有を多国間に広げた。副司令官のジョージ・ロウェル中将は、過去1年に17の演習を9つのホスト国で35か国と実施し、共通のツール、共通のデータの流れ、言語翻訳を初めて使ったと述べ、「確実な指揮統制は太平洋における抑止の概念と不可分である」と位置づけた。Mavenの使用は、この共通基盤の上でAIによる目標処理を同盟国が共有した事例として語られた。"
+          ],
+          "paragraphs_en": [
+            "According to Smith, the PMN is a zero-trust network spanning classification levels that has widened data sharing from bilateral to multilateral. Deputy commander Lt. Gen. George Rowell said that over the past year 17 exercises were run in nine host nations with 35 countries, using common tools, common data flows and language translation for the first time, and that assured command and control is inseparable from the concept of deterrence in the Pacific. The use of Maven was presented as a case of allies sharing AI-enabled target processing on this common backbone."
+          ]
+        },
+        {
+          "heading_ja": "ヤマサクラ91で1日200件のデジタル火力要求",
+          "heading_en": "Two hundred digital fire missions a day at Yama Sakura 91",
+          "paragraphs_ja": [
+            "AFCEAのSIGNAL誌が10月27日に伝えた米太平洋陸軍のロナルド・クラーク大将の説明では、9月10日に終了した9日間のヤマサクラ91で、PMNが日米豪の実時間の三国間火力を可能にし、6日目には200件のデジタル火力要求が処理された。Mavenは5日目に拡張され、第25歩兵師団は週45機の無人機を自前で製造した。したがって日本側の使用は、少なくとも演習環境での火力調整の工程に組み込まれた段階にあると読める。"
+          ],
+          "paragraphs_en": [
+            "In the account of Gen. Ronald Clark of US Army Pacific, reported by AFCEA's SIGNAL on 27 October, the nine-day Yama Sakura 91 that ended on 10 September saw the PMN enable real-time trilateral fires among the US, Japan and Australia, with 200 digital fire missions processed on day six. Maven was scaled on day five, and the 25th Infantry Division printed 45 drones a week. Japan's use can therefore be read as already embedded in the fire-coordination workflow, at least in an exercise setting."
+          ]
+        },
+        {
+          "heading_ja": "日本側の説明が待たれる運用の位置づけ",
+          "heading_en": "A placement in Japanese operations that awaits Tokyo's account",
+          "paragraphs_ja": [
+            "この発言を伝える日本語の報道と防衛省の公表は、11月1日までに確認できていない。8月の報道では、防衛省は指揮統制へのMavenの導入を検討する段階にあると伝えられていた。したがって「初めての使用」が演習限定の試行か、共同の火力調整における恒常的な運用の始まりかは、日本側の説明によって初めて定まる。AIによる目標処理を同盟国の共通基盤で共有することは、情報保全、交戦規則、国内法上の武力行使の判断の所在に関わるため、国会での説明の対象になりうる論点である。"
+          ],
+          "paragraphs_en": [
+            "No Japanese-language coverage or Ministry of Defense statement on these remarks had been found by 1 November. Reports in August described the ministry as still considering Maven for command and control. Whether this first use was an exercise-bound trial or the start of routine use in joint fire coordination will therefore be settled only by Japan's own account. Sharing AI-enabled target processing on an allied common backbone touches on information security, rules of engagement and where decisions on the use of force sit under domestic law, making it a likely subject for parliamentary explanation."
+          ]
+        }
+      ],
+      "watch_next_ja": "防衛省・統合幕僚監部による説明の有無。11月2日のPalantir決算での政府部門とMavenの言及。次回の日米豪共同演習でのPMN・Maven運用の公表。",
+      "watch_next_en": "Any explanation from the Ministry of Defense or Joint Staff; references to the government segment and Maven in Palantir's 2 November earnings; disclosure of PMN and Maven use at the next US–Japan–Australia exercise.",
+      "japan_relevance": true,
+      "date": "2026-10-29",
+      "stage": "fielded",
+      "publisher": "米インド太平洋軍（TechNet Indo-Pacificでの発言）",
+      "publisher_en": "US Indo-Pacific Command (remarks at TechNet Indo-Pacific)",
+      "sources": [
+        {
+          "title": "Bilateral no more: PACOM officials highlight multi-national data sharing network",
+          "url": "https://breakingdefense.com/2026/10/bilateral-no-more-pacom-officials-highlight-multi-national-data-sharing-network/",
+          "publisher": "Breaking Defense",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "USARPAC, Allies Deploy Long-Awaited PACOM Mission Network",
+          "url": "https://www.afcea.org/signal-media/usarpac-allies-deploy-long-awaited-pacom-mission-network",
+          "publisher": "AFCEA SIGNAL",
+          "date": "2026-10-27",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "isr-targeting"
+      ],
+      "actors": [
+        "US",
+        "JP",
+        "AU"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [
+        "detect",
+        "decide",
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-07",
+      "rank": 7,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "中国系集団、AIで組んだ探索基盤でPAN-OS機器25台を掌握と報告　日本・台湾・韓国にも被害、米政府関連の環境を含む",
+      "title_en": "China-nexus actors reported to have rooted 25 PAN-OS servers using an AI-built scanning platform, with victims in Japan, Taiwan and South Korea and a US government-affiliated environment",
+      "lead_ja": "セキュリティ企業Dreamは10月29日、中国系と見られる攻撃者がDeepSeekとKimiのモデルで構築した探索基盤「aiscan」を使い、PHPの脆弱性「PHP2Shell」とLinuxカーネルの権限昇格「Fragnesia」を連鎖させて、米国、日本、台湾、韓国のPAN-OSファイアウォールと管理サーバー25台の管理者権限を得たと報告した。Palo Alto Networksは同日、露出した管理インターフェースへの実際の悪用を確認した。",
+      "lead_en": "On 29 October the security firm Dream reported that attackers assessed as China-linked used an AI-enabled scanning platform called “aiscan,” built with DeepSeek and Kimi models, to chain the PHP vulnerability PHP2Shell with the Linux kernel privilege-escalation flaw “Fragnesia” and gain root on 25 PAN-OS firewalls and management servers in the United States, Japan, Taiwan and South Korea. Palo Alto Networks confirmed active exploitation of exposed management interfaces the same day.",
+      "sections": [
+        {
+          "heading_ja": "AIで組んだ探索基盤と19,000台の指紋採取",
+          "heading_en": "“aiscan” built on DeepSeek and Kimi, and 19,000 fingerprinted firewalls",
+          "paragraphs_ja": [
+            "Dreamの分析では、作戦は10月8日に攻撃者がAIを組み込んだ基盤「aiscan」を構築したことから始まり、10月23日までに約19,000台のファイアウォールの指紋を採取して240の標的に絞り込んだ。侵入後はウェブシェルの設置、内部へのトンネリング、LDAPからの認証情報の抽出、Active Directoryの列挙が行われた。被害25台のうち3台は米政府関連の環境にあり、Dreamのクフィル・フライシャーは少なくとも2台が米政府のサーバーだと述べる。帰属は命名規則や中国の認証局による認証の存在などの指標で補強されているが、公的機関による確認はない。"
+          ],
+          "paragraphs_en": [
+            "In Dream's analysis the operation began on 8 October when the attackers built the AI-enabled platform “aiscan”; by 23 October they had fingerprinted about 19,000 firewalls and narrowed the list to 240 targets. After intrusion they installed webshells, tunnelled internally, extracted credentials from LDAP and enumerated Active Directory. Three of the 25 compromised servers sat in a US government-affiliated environment, and Dream's Kfir Fleischer says at least two were US government servers. Attribution is bolstered by indicators such as naming conventions and the presence of authentication tied to a Chinese certificate authority, without confirmation from any public authority."
+          ]
+        },
+        {
+          "heading_ja": "PHP2Shellとカーネル脆弱性の連鎖",
+          "heading_en": "Chaining PHP2Shell with a kernel flaw",
+          "paragraphs_ja": [
+            "PHP2Shellは共通脆弱性評価で9.2の深刻度を持つPHPの脆弱性で、Fragnesiaは10月28日にCISAの悪用済み脆弱性カタログに登録されたLinuxカーネルの権限昇格の欠陥である。Palo Alto Networksは10月29日の更新で、インターネットに露出したPAN-OS管理インターフェースへの悪用を確認し、各系列の修正版を提供した。露出している機器は設置台数の約0.02%とされる。",
+            "一方、Unit 42はPHP2Shellを欧州の政府機関と結びつけた10月23日の記述を撤回した。PHPの潜在的な脆弱インスタンスは2,260万件超と推計され、修正済みの割合は約2.6%にとどまるとの観測もあるため、同じ連鎖が他のアプライアンスへ波及する余地は大きい。"
+          ],
+          "paragraphs_en": [
+            "PHP2Shell is a PHP vulnerability with a CVSS severity of 9.2, and Fragnesia is a Linux kernel privilege-escalation flaw added to CISA's Known Exploited Vulnerabilities catalogue on 28 October. In a 29 October update Palo Alto Networks confirmed exploitation of internet-exposed PAN-OS management interfaces and shipped hotfixes for each release line, estimating that about 0.02% of the installed base is exposed.",
+            "Unit 42 meanwhile retracted its 23 October statement linking PHP2Shell to a European government agency. With potentially vulnerable PHP instances estimated above 22.6 million and only about 2.6% patched by one count, the same chain has ample room to spread to other appliances."
+          ]
+        },
+        {
+          "heading_ja": "日本を含む被害地と「AI支援型」の位置づけ",
+          "heading_en": "Victims including Japan, and the “AI-assisted” label",
+          "paragraphs_ja": [
+            "被害地に日本、台湾、韓国が含まれる点は、10月下旬にTrendAIやCrowdStrikeが報告した日本を標的とするAI利用の攻撃基盤と重なる。Dreamは今回の作戦を自律型の攻撃とは区別し、AIが偵察と標的の絞り込みを支援した「AI支援型」と位置づける。中国のオープンウェイトモデルが攻撃の道具として使われた事実は、輸出管理や公開重みモデルの規制を巡る議論に実例を加える。日本の組織では、露出した管理インターフェースの点検と、カーネル脆弱性の修正適用の確認が直近の課題となる。"
+          ],
+          "paragraphs_en": [
+            "The inclusion of Japan, Taiwan and South Korea among the victims overlaps with the AI-enabled attack infrastructure targeting Japan reported in late October by TrendAI and CrowdStrike. Dream distinguishes this operation from autonomous attacks, calling it AI-assisted, with models supporting reconnaissance and target selection. The use of Chinese open-weight models as attack tooling adds a concrete case to debates over export controls and the regulation of open-weight models. For Japanese organisations the immediate tasks are checking exposed management interfaces and confirming that kernel fixes have been applied."
+          ]
+        }
+      ],
+      "watch_next_ja": "CISAと日本のJPCERT/CCによる注意喚起の有無。Palo Alto Networksの追加の侵害範囲の開示。日本国内の被害組織の特定と公表。",
+      "watch_next_en": "Advisories from CISA and Japan's JPCERT/CC; further disclosure by Palo Alto Networks of the scope of compromise; identification and disclosure of victim organisations in Japan.",
+      "japan_relevance": true,
+      "date": "2026-10-29",
+      "stage": "",
+      "publisher": "Dream／Palo Alto Networks",
+      "publisher_en": "Dream / Palo Alto Networks",
+      "sources": [
+        {
+          "title": "Palo Alto Networks firewalls compromised in chained attacks using PHP2Shell",
+          "url": "https://www.cybersecuritydive.com/news/palo-alto-networks-firewalls-compromised-chained-attacks-php2shell/873323/",
+          "publisher": "Cybersecurity Dive",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Palo Alto Confirms Active PHP2Shell Exploitation",
+          "url": "https://cybersecuritynews.com/palo-alto-php2shell-exploitation/",
+          "publisher": "Cybersecurity News",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Chained PHP2Shell exploit roots 25 servers",
+          "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+          "publisher": "Dream",
+          "date": "2026-10-29",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "CN",
+        "US",
+        "JP",
+        "TW",
+        "KR"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "台湾の亞拓科技事件、創業者夫妻を国家安全法違反の疑いで拘束　移民署は未納入の30機の受け入れを拒否",
+      "title_en": "Taiwan's Asia Tech case: founder and wife detained on National Security Act suspicions as the immigration agency refuses delivery of 30 drones",
+      "brief_text_ja": "台中地検は、陸軍の受入検査で「CN」の刻印がある部品が見つかったことを端緒に10月中旬に同社と関係者宅を捜索し、創業者の杜大森氏と妻を国家安全法違反の疑いで拘束したと明らかにした。内政部が確認した32機のうち30機は移民署が速源科技から275万台湾ドルで調達した未納入分で、同署は同社製と中国製の納入を拒み、内政部は損害賠償の請求も排除しないとした。顧立雄国防部長は陸軍に点検を指示し、確定後に公表するとしている。",
+      "brief_text_en": "Taichung prosecutors said the case began when Army acceptance inspection found parts stamped “CN,” leading to mid-October searches of the company and homes and the detention of founder Tu Ta-sen and his wife on National Security Act suspicions. Of the 32 units identified by the Interior Ministry, 30 are an undelivered National Immigration Agency order from Su Yuan Technology worth NT$2.75 million; the agency will refuse the company's and any Chinese-made products, and the ministry has not ruled out claiming damages. Defense Minister Wellington Koo has ordered an Army review and will announce results once confirmed.",
+      "japan_relevance": false,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "台中地方検察署／内政部",
+      "publisher_en": "Taichung District Prosecutors Office / Ministry of the Interior",
+      "sources": [
+        {
+          "title": "亞拓科技無人機涉混用陸製晶片！內政部清查3機關有32架：不排除求償",
+          "url": "https://www.ctwant.com/article/504647/",
+          "publisher": "CTWANT",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "顧部長：精進心輔作為 釐清無人機晶片來源",
+          "url": "https://www.chinatimes.com/realtimenews/20261031000184-260417",
+          "publisher": "中國時報",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "compute-export"
+      ],
+      "actors": [
+        "TW",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-02"
+    },
+    {
+      "id": "cl-20261102-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ラザルスの「FlashHole」作戦、韓国の学会サイトを中継拠点に利用と報道　耐量子暗号とAI生成の履歴書を使用",
+      "title_en": "Korean press reports Lazarus “Operation FlashHole” used Korean academic and media websites as C2, with post-quantum encryption and AI-generated résumés",
+      "brief_text_ja": "Kasperskyが10月21日に公表した報告によれば、ラザルスは偽の履歴書サイトで韓国企業に接触し、金融セキュリティソフトINISAFE CrossWeb EXを悪用した多段のメモリ常駐型の侵入を行い、通信経路の暗号化にML-KEM-1024の耐量子鍵交換を用いた。11月1日に韓国の報道は、公開された指標の中に大韓産婦人科学会のページが指令サーバーとして含まれると伝え、同学会が侵害を確認中である。履歴書の写真はAI生成の可能性が高いとされ、2025年7月以降に少なくとも3社が被害を受けた。",
+      "brief_text_en": "Kaspersky's report of 21 October describes Lazarus approaching Korean firms through fake résumé sites, abusing the financial security software INISAFE CrossWeb EX for a multi-stage in-memory intrusion, and using ML-KEM-1024 post-quantum key exchange to protect its channels. On 1 November Korean outlets reported that the published indicators include a page of the Korean Society of Obstetrics and Gynecology used as a command server, which the society is now checking. The résumé photo is assessed as likely AI-generated, and at least three companies have been hit since July 2025.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "Kaspersky／韓国各紙",
+      "publisher_en": "Kaspersky / Korean press",
+      "sources": [
+        {
+          "title": "Lazarus Operation FlashHole",
+          "url": "https://securelist.com/lazarus-operation-flashhole/121541/",
+          "publisher": "Kaspersky Securelist",
+          "date": "2026-10-21",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "북한 해킹조직, 국내 학회·언론사 웹사이트 악용 정황",
+          "url": "https://www.sentv.co.kr/article/view/sentv202611010010",
+          "publisher": "서울경제TV",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "가짜 이력서로 접근한 北 해킹조직 기업 홈피 장악해 '통신거점' 사용",
+          "url": "https://www.kmib.co.kr/article/20261101501274",
+          "publisher": "국민일보",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア統計局に数日間のサイバー攻撃　ベラルーシのサイバー・パルチザンらが23TBの窃取を主張、統計局は漏えいを否定",
+      "title_en": "Russia's statistics agency hit by a multi-day cyberattack; Belarusian Cyber Partisans and Silent Crow claim 23 TB, Rosstat denies any leak",
+      "brief_text_ja": "ロシア連邦統計局は、10月29日から11月1日にかけて本部と地方のサイトが多数の地点から「計画的に調整された」攻撃を受けたと認め、1日には主サイトが停止した。ベラルーシのサイバー・パルチザンとSilent Crowは、戦時の損失や人口・経済統計、部内限りの文書を含む23TBを取得したと主張し、改ざんされたページには「誰も責任を逃れられない」との文言が掲げられた。統計局は監視で早期に検知しデータベースや法的保護情報の流出はないとしており、窃取の主張は現時点で自己申告の段階にある。",
+      "brief_text_en": "Rosstat acknowledged that its main and regional websites came under a coordinated, carefully planned attack from many locations between 29 October and 1 November, with the main site down on Saturday. The Belarusian Cyber Partisans and Silent Crow claim to have taken 23 TB including wartime losses, demographic and economic statistics and restricted documents, and defaced pages read “No one will escape accountability.” Rosstat says monitoring caught the attack early and that no databases or legally protected information leaked, so the theft claim remains self-reported for now.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "ロシア連邦統計局／The Moscow Times",
+      "publisher_en": "Rosstat / The Moscow Times",
+      "sources": [
+        {
+          "title": "Russia's Statistics Agency Hit by Cyberattack as Hackers Claim Massive Data Theft",
+          "url": "https://www.themoscowtimes.com/2026/11/01/russias-statistics-agency-hit-by-cyberattack-as-hackers-claim-massive-data-theft-a94146",
+          "publisher": "The Moscow Times",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Cisco Talos、盗んだ情報をフロンティアモデルに格付けさせる情報窃取マルウェアを報告　拒否されると別モデルへ切替",
+      "title_en": "Cisco Talos reports an infostealer that has frontier models appraise stolen data to rank victims, switching models when refused",
+      "brief_text_ja": "Talosが10月31日に公表した「VOLTA-AUTODOXER」は、ブラウザの認証情報、各種サービスのセッション、SSHやクラウドの鍵、ウォレットなどを収集し、OpenRouter経由でAnthropic社の最上位モデルに「標的評価を作成する分析官」として送り、拒否の文言を検知するとMoonshotのKimi、次いでGoogleのGeminiへ切り替える。出力は「価値」と「運用上の弱点」の節を持つ文書として保存され、格付けされた被害者情報がTelegramで販売される構造が示された。検体は10月11日に初観測され、政府や防衛関連の被害は特定されていない。",
+      "brief_text_en": "“VOLTA-AUTODOXER,” described by Talos on 31 October, harvests browser credentials, service sessions, SSH and cloud keys and wallets, then sends the bundle via OpenRouter to Anthropic's top model cast as an analyst drafting a target assessment, falling back to Moonshot's Kimi and then Google's Gemini when it detects refusal phrases. The output is saved as a document with sections on worth and operational weaknesses, and ranked dossiers appear to be sold via Telegram. The sample was first seen on 11 October, and no government or defence victims have been identified.",
+      "japan_relevance": false,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "Cisco Talos",
+      "publisher_en": "Cisco Talos",
+      "sources": [
+        {
+          "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+          "publisher": "Cisco Talos",
+          "date": "2026-10-31",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米海軍、次期攻撃型潜水艦SSN(X)の艤装配置設計に「スーパーインテリジェンス」を求める事前公告　関心表明は11月6日まで",
+      "title_en": "US Navy presolicitation seeks “Super Intelligence” for SSN(X) arrangement design; expressions of interest due 6 November",
+      "brief_text_ja": "海軍海洋システム司令部のSSN(X)計画室は10月30日、推進プラント、兵装、センサー、機械、居住区の配置を支援するソフトウェアの事前公告を出し、AIを指す用語として海軍が10月に定めた「Super Intelligence」を用いた。非専有の関心表明は11月6日が期限で、その後に他取引権限を含む正式な公募が続く可能性がある。資金規模や契約件数は示されておらず、SSN(X)の1番艇は2040会計年度に遅れ、議会予算局は1隻約87億ドルと見積もる。",
+      "brief_text_en": "NAVSEA's SSN(X) program office posted a presolicitation on 30 October for software to support the arrangement of propulsion plant, weapons, sensors, machinery and crew spaces, using the term “Super Intelligence” that the Navy mandated in October for AI. Non-proprietary expressions of interest are due 6 November, possibly followed by a formal call including an other-transaction authority. No funding or award count is stated; the first SSN(X) has slipped to FY2040 and CBO estimates about 8.7 billion dollars per boat.",
+      "japan_relevance": false,
+      "date": "2026-10-30",
+      "stage": "solicitation",
+      "publisher": "米海軍海洋システム司令部",
+      "publisher_en": "Naval Sea Systems Command",
+      "sources": [
+        {
+          "title": "US Navy seeks 'Super Intelligence' for SSN(X) submarine design",
+          "url": "https://interestingengineering.com/military/us-navy-super-intelligence-ssnx-submarine-design",
+          "publisher": "Interesting Engineering",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "U.S. Navy seeks AI for SSN(X) submarine design as American shipyards struggle to build its fleet",
+          "url": "https://www.armyrecognition.com/news/navy-news/2026/u-s-navy-seeks-ai-for-ssn-x-submarine-design-as-american-shipyards-struggle-to-build-its-fleet",
+          "publisher": "Army Recognition",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米FCC、800MHz帯の無人機開放の規則本文を公表　SpaceXの隣接帯域取得申請への脚注を追加",
+      "title_en": "FCC releases the final text of its 800 MHz drone order with a footnote on SpaceX's adjacent-band application; effective 30 days after Federal Register publication",
+      "brief_text_ja": "FCCは10月29日の採決の翌日に報告・命令FCC 26-72の本文を公表し、824〜849MHzと869〜894MHzでの1991年以来の航空機搭載の禁止を無人機について解除した。新たな脚注は、SpaceXが10月9日に申請したGrainとT-Mobileの817〜824MHzと862〜869MHzの免許取得に触れ、無人機が将来の移動通信や端末直接接続と共存することを想定する。11月19日の会合では450MHz帯の無人機リンクと24.45〜24.65GHz帯の対無人機レーダーを採決する。",
+      "brief_text_en": "A day after its 29 October vote, the FCC released the text of Report and Order FCC 26-72 lifting the 1991 airborne ban in 824–849 and 869–894 MHz for drones. A new footnote notes SpaceX's 9 October application to acquire Grain and T-Mobile licences at 817–824 and 862–869 MHz and expects drones to coexist with potential mobile and direct-to-device operations. The 19 November meeting will vote on 450 MHz drone links and 24.45–24.65 GHz counter-drone radar.",
+      "japan_relevance": false,
+      "date": "2026-10-30",
+      "stage": "announced",
+      "publisher": "米連邦通信委員会",
+      "publisher_en": "Federal Communications Commission",
+      "sources": [
+        {
+          "title": "FCC 800 MHz drone order final text adds SpaceX Starlink footnote",
+          "url": "https://dronexl.co/2026/11/01/fcc-800-mhz-drone-order-final-text-spacex-starlink-footnote/",
+          "publisher": "DroneXL",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Report and Order FCC 26-72",
+          "url": "https://docs.fcc.gov/public/attachments/FCC-26-72A1.pdf",
+          "publisher": "FCC",
+          "date": "2026-10-30",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261031-11"
+    },
+    {
+      "id": "cl-20261102-14",
+      "rank": 14,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "パキスタン軍広報局長「我々は技術に通じた軍」　AI・量子・サイバーの導入を語り、標的選定へのAI使用は明言を避ける",
+      "title_en": "Pakistan's ISPR chief calls the army “technology-savvy,” citing AI, quantum and cyber while declining to say whether AI picks targets in Afghanistan",
+      "brief_text_ja": "アハメド・シャリフ・チョードリー中将は10月30日に収録され11月1日に放映されたロイターとの会見で、陸軍がAI、サイバー、無人機運用、長射程火力を取り込んでいると述べ、アフガニスタンでAIが標的を特定しているかという問いには具体的な回答を避けつつ、AI・量子・サイバーは「使えるし使うべきだ」と語った。2025年5月にインドの高性能無人機を「数十機」撃墜したと主張し、アフガニスタンから飛来する無人機はインドの支援によるものだとしたが、インド側は否定している。",
+      "brief_text_en": "In a Reuters interview recorded on 30 October and broadcast on 1 November, Lt. Gen. Ahmed Sharif Chaudhry said the army is incorporating AI, cyber, drone operations and long-range fires; asked whether AI identifies targets in Afghanistan he declined specifics but said AI, quantum and cyber can and should be used. He claimed Pakistan shot down dozens of sophisticated Indian drones in May 2025 and that drones from Afghanistan come with Indian sponsorship, claims India denies.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "パキスタン軍統合広報局",
+      "publisher_en": "Inter-Services Public Relations, Pakistan",
+      "sources": [
+        {
+          "title": "'We're a tech-savvy army': DG ISPR voices confidence in Pakistan's capabilities",
+          "url": "https://www.dawn.com/news/2041391/",
+          "publisher": "Dawn",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Pakistan capable of intercepting any drones sent from Afghanistan, India: DG ISPR",
+          "url": "https://tribune.com.pk/story/2638130/",
+          "publisher": "The Express Tribune",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "IN"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-15",
+      "rank": 15,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "サウジアラビア、リヤド周辺と南部でフーシ派と疑われる無人機2機を迎撃　エジプト議会は軍事支援を承認、仏英は部隊展開",
+      "title_en": "Saudi Arabia intercepts two suspected Houthi drones over Riyadh and the south; Egypt's parliament authorises military support and France and the UK deploy forces",
+      "brief_text_ja": "連合軍のトルキ・アル・マルキ報道官は10月31日、リヤド地域で敵対的な無人機1機を迎撃・破壊し、その後に南部へ向けて発射された1機も迎撃したと発表した（負傷者なし、リヤドの無人機の発射主体は未公表）。フーシ派はリヤド空港への攻撃後にサウジへの海上封鎖を宣言しており、エジプト議会はサウジへの軍事支援を承認し、フランスは石油ターミナル防護に部隊を、英国は戦闘機を派遣する。米大使館は非常勤職員の退避を命じた。",
+      "brief_text_en": "Coalition spokesman Turki al-Malki said on 31 October that air defences intercepted and destroyed a hostile drone over the Riyadh region and later a second launched toward the Southern Region, with no injuries and no stated launcher for the Riyadh drone. The Houthis declared a maritime blockade of Saudi Arabia after striking Riyadh airport; Egypt's parliament has authorised military support to the kingdom, France is sending troops to protect an oil terminal, the UK is deploying fighters, and the US embassy ordered non-emergency staff out.",
+      "japan_relevance": false,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "サウジ主導連合軍",
+      "publisher_en": "Saudi-led coalition",
+      "sources": [
+        {
+          "title": "Saudi Arabia says at least 2 suspected Houthi drones shot down over kingdom",
+          "url": "https://www.timesofisrael.com/saudi-arabia-says-at-least-2-suspected-houthi-drones-shot-down-over-kingdom/",
+          "publisher": "The Times of Israel（AFP）",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws"
+      ],
+      "actors": [
+        "GB"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-16",
+      "rank": 16,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "イラン革命防衛隊、米無人標的機MQM-170の鹵獲と無人水上艇の破壊を主張　中央軍は無人水上艇は全艇健在と否定",
+      "title_en": "Iran's IRGC claims to have captured a US MQM-170 target drone and destroyed an unmanned surface vessel; CENTCOM says all USVs are accounted for",
+      "brief_text_ja": "イラン革命防衛隊海軍は10月30日、ホルムズ海峡でタンカー4隻が爆発し、うち1隻は水雷によるものだと主張し、あわせて米軍のMQM-170無人機を撃墜して鹵獲し、無人水上艇1隻を破壊したと発表した。英国海事貿易機関はラヴァン島の南約40海里で船舶1隻が不明の飛翔体に被弾したことを確認したが、米中央軍は無人水上艇は全艇が把握されているとして破壊の主張を否定した。10月31日にはモジタバ・ハメネイ師が「地理的制約のない」対応を命じたと伝えられた。",
+      "brief_text_en": "On 30 October the IRGC Navy claimed four tankers exploded in the Strait of Hormuz, one from a mine, and that it had shot down and captured a US MQM-170 drone and destroyed an unmanned surface vessel. UKMTO confirmed one vessel was struck by an unknown projectile about 40 nautical miles south of Lavan Island, while CENTCOM denied the USV claim, saying all its unmanned surface vessels are accounted for. On 31 October Mojtaba Khamenei was reported to have ordered a response without geographic limits.",
+      "japan_relevance": false,
+      "date": "2026-10-30",
+      "stage": "",
+      "publisher": "イラン革命防衛隊／米中央軍",
+      "publisher_en": "IRGC / US Central Command",
+      "sources": [
+        {
+          "title": "After talks in Tehran, Pakistan military 'cautiously optimistic' on US-Iran mediation",
+          "url": "https://www.timesofisrael.com/after-talks-in-tehran-pakistan-military-cautiously-optimistic-on-us-iran-mediation/",
+          "publisher": "The Times of Israel",
+          "date": "2026-10-30",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Khamenei said to order military response without 'geographic limits' if US, Israel attack",
+          "url": "https://www.timesofisrael.com/khamenei-orders-military-response-without-geographic-limits-if-us-israel-attacks/",
+          "publisher": "The Times of Israel",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "cognitive"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "D5",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-17",
+      "rank": 17,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "防衛産業の新法人は経産省と共同設立の独立行政法人が有力と産経が報道　当初約300人、将来600人、法案は来年の通常国会へ",
+      "title_en": "Sankei reports the planned defence-industry corporation will likely be an independent administrative agency co-founded with METI, starting at about 300 staff and growing to 600, with legislation next year",
+      "brief_text_ja": "産経新聞は11月1日、政府が3文書改定で掲げる半官半民の新法人について、産業政策に強い経済産業省と共同で設立する独立行政法人が有力だと報じた。「防衛産業基盤戦略」を年内に策定し、法案を来年の通常国会に提出して来年度中の発足を目指す。職員は当初約300人、将来約600人で、有事の増産、同志国との共同生産・整備を含む装備移転の拡大、無人機とAIを使う新しい戦い方への対応を担う。",
+      "brief_text_en": "Sankei reported on 1 November that the semi-public corporation envisaged in the revision of the three security documents will most likely be an independent administrative agency co-founded with the Ministry of Economy, Trade and Industry, chosen for its strength in industrial policy. A defence industrial base strategy is to be drafted by year-end, with a bill in next year's ordinary Diet session and launch within the next fiscal year. Staffing would start at about 300 and grow to 600, covering wartime surge production, expanded transfers including co-production and maintenance with like-minded countries, and new ways of fighting with drones and AI.",
+      "japan_relevance": true,
+      "date": "2026-11-01",
+      "stage": "announced",
+      "publisher": "産経新聞",
+      "publisher_en": "Sankei Shimbun",
+      "sources": [
+        {
+          "title": "防衛産業の新法人、経産省と共同設立の独法が有力　来年度中の発足目指す",
+          "url": "https://jp.headtopics.com/news/3845034907299871003158-89426168",
+          "publisher": "産経新聞（Head Topics転載）",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-03"
+    },
+    {
+      "id": "cl-20261102-18",
+      "rank": 18,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "クラブツーリズムで会員約432万件、NTTデータ委託先のSaaSで社債購入者情報の漏えいの可能性　委託先経由の侵害が続く",
+      "title_en": "Club Tourism reports a possible leak of about 4.32 million member records and an NTT Data subcontractor's SaaS exposes bond-buyer data, as supply-chain breaches continue in travel and finance",
+      "brief_text_ja": "クラブツーリズムは10月31日、10月30日早朝に検知した不正アクセスで、氏名、国籍、生年月日、住所、電話、メール、緊急連絡先など約432万件の会員情報が漏えいした可能性があると公表し、ウェブサイトを停止した。同日NTTデータは、委託先が運用するデジタル証券基盤SaaSが不正アクセスを受けたと発表し、社債購入者向け特典サービスを停止した。楽天証券は延べ362件、近鉄グループホールディングスは2,678件、JR西日本は2件の購入者情報に影響の可能性があるとし、委託先の名称は公表されていない。",
+      "brief_text_en": "Club Tourism said on 31 October that an intrusion detected early on 30 October may have exposed about 4.32 million member records including names, nationality, dates of birth, addresses, phone numbers, emails and emergency contacts, and took its website offline. The same day NTT Data said a digital-securities SaaS operated by a subcontractor was accessed without authorisation and suspended its bondholder benefits service; Rakuten Securities cites 362 records, Kintetsu Group Holdings 2,678 and JR West two, with the subcontractor unnamed.",
+      "japan_relevance": true,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "クラブツーリズム／NTTデータ",
+      "publisher_en": "Club Tourism / NTT Data",
+      "sources": [
+        {
+          "title": "クラブツーリズム、不正アクセスで会員約432万件の情報漏えいの可能性",
+          "url": "https://www.traicy.com/posts/20261101386570/",
+          "publisher": "TRAICY",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "クラブツーリズム不正アクセスの解説",
+          "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119597/",
+          "publisher": "innovatopia",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "楽天証券・JR西日本・近鉄GHDの社債購入者情報、NTTデータ委託先への不正アクセスで漏えいの可能性",
+          "url": "https://www.inatei.com/entry/rakuten-securities-data-leak-ntt-data",
+          "publisher": "本家いなてい",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261102-19",
+      "rank": 19,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ゼレンスキー大統領、ロストフ州の推進薬工場攻撃でパンツィリS2とS-400指揮車両も破壊と発表　損害約7,000万ドル",
+      "title_en": "Zelensky says the strike on the Rostov solid-propellant plant also hit a Pantsir-S2 and an S-400 command vehicle, estimating about 70 million dollars in damage",
+      "brief_text_ja": "ゼレンスキー大統領は11月1日、10月31日のネプチューンと無人機によるカメンスク化学工場への攻撃で、パンツィリS2防空システムとS-400「トリウームフ」の指揮統制車両も打撃を受けたと述べ、損害を約7,000万ドルと見積もった。参謀本部は倉庫の火災と生産棟4棟の損傷を発表しており、ロシア側の論評はない。同日の参謀本部の集計では、10月のロシア側の人員損失は54,400人で月間最多とされる。",
+      "brief_text_en": "On 1 November President Zelensky said that the 31 October Neptune and drone strike on the Kamensk chemical combine also hit a Pantsir-S2 air-defence system and a command-and-control vehicle of the S-400 Triumf, estimating damage at about 70 million dollars. The General Staff had reported a warehouse fire and damage to four production units, and Russian officials have not commented. The General Staff's tally the same day puts Russian personnel losses in October at 54,400, the highest monthly figure.",
+      "japan_relevance": false,
+      "date": "2026-11-01",
+      "stage": "",
+      "publisher": "ウクライナ大統領府",
+      "publisher_en": "Office of the President of Ukraine",
+      "sources": [
+        {
+          "title": "Ukraine war latest (1 November live blog)",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russian-oil-refinery-in-kstovo-ablaze-after-reported-overnight-drone-strike/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Головне за ніч та ранок неділі, 1 листопада",
+          "url": "https://lb.ua/society/2026/11/01/777756_golovne_nich_ranok_nedili_1.html",
+          "publisher": "LB.ua",
+          "date": "2026-11-01",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261101-16"
+    },
+    {
+      "id": "cl-20261102-20",
+      "rank": 20,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Binanceの約63億ドル流出、約30億ドルを凍結し準備金で補填と説明　秘密鍵漏えいの証拠はないとし事後報告を予告",
+      "title_en": "Binance says about 3 billion dollars of the 6.3 billion stolen has been frozen and 6.34 billion reserved, with no evidence of a key leak and a post-mortem promised",
+      "brief_text_ja": "10月29日に約20分で約63億ドルが流出した事件について、Binanceは出金を停止し、提携先と協力して約30億ドルを凍結、損失補填に63.4億ドル超を確保したと説明している。11月1日時点で同社はウォレットの秘密鍵が漏えいした証拠はないとし、技術的な事後報告を公表する方針を示した。TRM Labsは北朝鮮のTraderTraitorによるものと高い確度で判定しているが、Binance自身は帰属を公に確認していない。",
+      "brief_text_en": "On the theft of about 6.3 billion dollars in roughly twenty minutes on 29 October, Binance says it suspended withdrawals, froze about 3 billion dollars with partners and reserved more than 6.34 billion to cover losses. As of 1 November the exchange said there was no evidence that wallet private keys had leaked and promised a technical post-mortem. TRM Labs attributes the theft with high confidence to North Korea's TraderTraitor, while Binance itself has not publicly confirmed the attribution.",
+      "japan_relevance": false,
+      "date": "2026-10-31",
+      "stage": "",
+      "publisher": "Binance／Forbes",
+      "publisher_en": "Binance / Forbes",
+      "sources": [
+        {
+          "title": "Cybersecurity Awareness Month Ends With A $6.3 Billion Halloween Scare",
+          "url": "https://www.forbes.com/sites/emilsayegh/2026/10/31/cybersecurity-awareness-month-ends-with-a-63-billion-halloween-scare/",
+          "publisher": "Forbes",
+          "date": "2026-10-31",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-08"
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-02",
+      "text_ja": "GMOインターネットグループの不正アクセスに関する記者会見（午後、東京）",
+      "text_en": "GMO Internet Group press conference on the intrusion (afternoon, Tokyo)"
+    },
+    {
+      "date": "2026-11-02",
+      "text_ja": "CCW運用検討会議の議長団によるジュネーブ代表部との非公開協議の次回会合（交渉マンデート案）",
+      "text_en": "Next round of the CCW Review Conference chairs' closed-door consultations with Geneva missions on the draft negotiating mandate"
+    },
+    {
+      "date": "2026-11-02",
+      "text_ja": "Palantirの2026年第3四半期決算（米市場引け後）。政府部門とMavenの言及",
+      "text_en": "Palantir Q3 2026 earnings (after US market close), with commentary on the government segment and Maven"
+    },
+    {
+      "date": "2026-11-03",
+      "text_ja": "米中間選挙。OpenAIの選挙運用センターは開票終了まで稼働",
+      "text_en": "US midterm elections; OpenAI's election operations centre runs until counting ends"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "米海軍SSN(X)の「Super Intelligence」事前公告への関心表明の期限",
+      "text_en": "Deadline for expressions of interest under NAVSEA's SSN(X) “Super Intelligence” presolicitation"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "GMOの見舞金・補償の申請期限",
+      "text_en": "Deadline for GMO condolence-payment and compensation claims"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "国連総会第1委員会の会期終了。LAWS・軍事AI決議は12月の総会本会議で最終採択",
+      "text_en": "UNGA First Committee session ends; the LAWS and military-AI resolutions go to the December plenary"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "日本政府のサイバー攻撃「緊急対策パッケージ」の取りまとめ（11月第1週を目途、日付は見込み）",
+      "text_en": "Japan's emergency package of measures against cyber attacks (targeted for the first week of November; date indicative)"
+    },
+    {
+      "date": "2026-11-09",
+      "text_ja": "NATO通信情報局（NCIA）のNATO統合サイバー防衛センター技術基盤に関する情報提供依頼の回答期限",
+      "text_en": "Deadline for responses to NCIA's RFI on the NATO Integrated Cyber Defence Centre technology pillar"
+    },
+    {
+      "date": "2026-11-09",
+      "text_ja": "米議会が中間選挙後の会期を再開。ヘグセス国防長官の弾劾決議の採決が見込まれる",
+      "text_en": "US Congress returns for the lame-duck session; a House vote on impeaching Defense Secretary Hegseth is expected"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限",
+      "text_en": "Deadline for five frontier-AI companies to answer the House Democratic ranking members' letter"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "Anthropicの2026年版利用規約（無人機等の誘導・制御ソフトの禁止を明記）の発効",
+      "text_en": "Anthropic's 2026 Usage Policy, which explicitly bars guidance and control software for drones and other autonomous vehicles, takes effect"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "GMOグローバルサインの設定ミスに関する個人情報保護委員会への最終報告",
+      "text_en": "GMO GlobalSign's final report to the Personal Information Protection Commission on the Trust Login misconfiguration"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "UVID Dronetech 2026（テルアビブ）。自律無人機の法的・倫理的論点を含む",
+      "text_en": "UVID Dronetech 2026 (Tel Aviv), including legal and ethical issues of lethal autonomous drones"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "防衛装備庁のUAV用弾頭信管に関する情報提供企業募集の意思表明書提出期限（17時）",
+      "text_en": "Deadline (17:00 JST) for letters of intent under ATLA's RFI on UAV warhead fuzes"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "米下院民主党20議員の書簡に対するOpenAIの回答期限",
+      "text_en": "OpenAI's deadline to answer the letter from twenty House Democrats"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と2028年期限の交渉マンデート案を審議",
+      "text_en": "CCW Seventh Review Conference (16–20 November, Geneva), considering the LAWS GGE final report and the draft negotiating mandate with a 2028 horizon"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, 17–19 November), including NCIA's industry workshop on the Integrated Cyber Defence Centre"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区と異機種無人機群の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 December), with a dedicated unmanned and counter-UAS zone and heterogeneous drone swarms announced"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, 8–11 December), five themes including drones and counter-drone"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "月曜のため72時間（10月30日朝〜11月2日朝JST）を対象とし、10月31日・11月1日の各号で既出の動向は続報に限った。米国（OpenAIのRosalind-6システムカード補遺を一次資料で確認。CNN・NPR・WaPoの選挙関連は配信先で確認、原記事は取得不可。APのイラン攻撃分析はABC配信で確認。NAVSEAのSSN(X)事前公告はSAM.govの原文を特定できず報道2本に依拠。FCC 26-72は本文PDFを開けず。war.gov、DARPA、DIU、CDAOの30日〜1日付の新規公式発表は週末のため確認できず、war.govは全ページ取得不可。Axiosの「OpenAIの中間選挙後の政策方針」は安保との接点が薄く不採用。Talos VOLTAは一次資料で確認）、中国（外交部10月31日会見はThe Paperの転載で確認し、FCCの中国系試験機関排除への「必要な措置」発言は短信化を検討したが新規性が小さく不採用。国防部・外交部の公式ページは開けず。珠海の11月1日無人機ショーは予定欄に反映。CIIEでの察打一体無人機の初展示は宣伝色が強く不採用）、日本（共同・NHK・産経・TRAICY・innovatopia等で確認。防衛省配下の全ページ、cyber.go.jp、日経、時事、共同配信の地方紙は取得不可。11月1日は自衛隊記念日の大臣メッセージのみで新規の公式発表なし。無印良品2,726万件と日本交通29万件は10月30日昼公表で前号の範囲として不採用）、韓国・北朝鮮（Kasperskyの一次資料と韓国3紙で確認。KCNA、国防部、防衛事業庁の公式ページは開けず。亜州経済のDPRK総合記事はMicrosoft報告（10月30日号で既出）の再報で不採用）、台湾（CTWANT・中時・Focus Taiwanで確認。Taipei Times 11月1日「Drone firm raided over Chinese chips」は取得不可。国防部・内政部の公式ページは開けず）、欧州・NATO（検索枠の枯渇により調査が不完全。nato.int、gov.uk、bmvg.de、ncia.nato.intは取得不可。Quantum Systemsのリトアニア拠点拡大はDWNの有料記事で本文を確認できず不採用。NATO空軍司令部のルーマニア対無人機試験は日付不明で取得失敗）、英国（10月28日の秋季予算の無人機4億ポンドは10月29日号で既出）、ロシア・ウクライナ（LB.ua、Militarnyi、UNN、Kyiv Independent、Moscow Timesで確認。ロシア国防省の10月31日・11月1日の撃墜主張、ISWの評価、国防省・情報総局の公式ページは取得できず。参謀本部のクストヴォ攻撃の公式確認は1日夜時点で未確認）、イスラエル・中東（Times of Israel、JPost、Dawn、Express Tribuneで確認。IDF・khamenei.ir・ISPRの公式ページは開けず。シンベトの標的への電話に関するアシャルク・アルアウサト報道はAI要素がなく不採用。イスラエル選挙の外国干渉捜査は買収疑惑でサイバー要素がなく不採用）、インド（idrwの陸軍AIロードマップ記事は集約記事で新規の一次発表を含まず不採用）、豪州・ASEAN（検索枠の枯渇により新規事項を確認できず。defence.gov.au、csa.gov.sgの最新は10月16日以前）。シンクタンク・arXivの30日〜1日付は未確認。UN・CCW関連は11月1日号で交渉マンデート案を扱っており、週末の新規動向はない。",
+      "japan": "防衛省（31日・1日の新規発表なし、公式ページは取得不可）、防衛装備庁（新規公募・RFIは検索で確認できず）、統合幕僚監部（31日〜1日分の公表は取得不可のため未確認）、首相官邸・国家サイバー統括室（特設サイトは10月31日号で既出、緊急対策パッケージは未公表）、個人情報保護委員会（GMOグローバルサインの最終報告は11月12日予定）、経産省・外務省・総務省・デジタル庁・AISI（週末のため新規発表なし）、国会審議・政党提言（該当なし）。日米関係では、Breaking DefenseのMaven初使用発言について日本語報道と防衛省の公表を探索し確認できなかった。"
+    },
+    "dropped": [
+      {
+        "title": "Behind the Curtain: OpenAI's post-midterm policy push (Axios)",
+        "url": "https://www.yahoo.com/news/politics/articles/behind-curtain-openais-post-election-134306408.html",
+        "reason": "国内規制の広報戦略であり安全保障との接点が薄い。原記事は取得不可"
+      },
+      {
+        "title": "Hegseth digs in, confident, as Democrats plan oversight (Washington Post)",
+        "url": "https://yahoo.com/news/politics/articles/hegseth-digs-confident-democrats-plan-122451365.html",
+        "reason": "AI要素がなく政治動向の範囲。予定欄に弾劾採決の見込みのみ反映"
+      },
+      {
+        "title": "Quantum-Systems-Chef in Litauen: Drohnen kann man nicht im Lager anhäufen (DWN)",
+        "url": "https://deutsche-wirtschafts-nachrichten.de/722945/quantum-systems-chef-in-litauen-drohnen-kann-man-nicht-im-lager-anhaeufen-bedrohungen-verandern-sich",
+        "reason": "有料記事で本文を確認できず、契約や規模の数値がない"
+      },
+      {
+        "title": "外交部新闻（2026年10月31日）— FCCの中国系試験機関排除への「必要な措置」発言",
+        "url": "https://www.thepaper.cn/newsDetail_forward_34375767",
+        "reason": "FCCの採決前の定型的な反応で、新規の事実を含まない"
+      },
+      {
+        "title": "兼具大载重和长航时，这架智能无人机将全球首展（極鋒天麟 DRACO-ISR-SXY03）",
+        "url": "https://www.163.com/dy/article/LAKTTALQ0514R9P4.html",
+        "reason": "企業の展示会向け宣伝でAI機能の説明がなく、英国のインキュベータ経由という点も未確認"
+      },
+      {
+        "title": "Operation Sindoor Lessons Drive Indian Army's Push for Data and AI (idrw)",
+        "url": "https://idrw.org/operation-sindoor-lessons-drive-indian-armys-push-for-data-and-ai/",
+        "reason": "既出の計画を集約した記事で、新規の一次発表がない"
+      },
+      {
+        "title": "Shin Bet accused of using threats against families to isolate Gaza targets (JPost)",
+        "url": "https://www.jpost.com/israel-news/defense-news/article-913438",
+        "reason": "標的選定の手法に関わるがAI・自律の要素がなく、パレスチナ側の単一情報源"
+      },
+      {
+        "title": "Pakistani military installation in Balochistan attacked by BRG's new drone unit (IANS)",
+        "url": "https://www.thehansindia.com/news/international/pakistani-military-installation-in-balochistan-attacked-by-brgs-new-drone-unit-1137835",
+        "reason": "武装組織の単一情報源で被害も確認されていない（E5）"
+      },
+      {
+        "title": "세계 최강 해킹 역량 北…칼날은 美 다음 韓으로 (아주경제)",
+        "url": "https://www.ajunews.com/view/20261101141053682",
+        "reason": "Microsoftの北朝鮮AI利用報告（10月30日号で既出）の再報"
+      },
+      {
+        "title": "'主力战机'现身日月贝上空 — 珠海の2,000機の無人機ショー",
+        "url": "https://m.21jingji.com/article/20261101/herald/02f7add585c0bbfe370a995bcc69db81.html",
+        "reason": "演出行事で安全保障上の新規性が小さい。航展の日程と展示区の情報は予定欄に反映"
+      },
+      {
+        "title": "FIU/Brookhaven passive drone detection via motor magnetic field (DroneXL)",
+        "url": "https://dronexl.co/2026/11/01/fiu-passive-drone-detection-motor-magnetic-field/",
+        "reason": "研究段階の単一論文で、原論文を開けず"
+      },
+      {
+        "title": "Anthropic says you can't be mean to Claude (CNN)",
+        "url": "https://www.cnn.com/2026/11/01/business/anthropic-dont-be-mean-claude-ban",
+        "reason": "10月8日に告知済みの利用規約改定（11月12日発効）の特集記事で、新規の決定ではない。発効日を予定欄に反映"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261102-02（GMOの北朝鮮関与）は共同通信の匿名関係者と同社独自のIP分析に基づく報道段階の内容であり、GMOの公式発表と政府の帰属判断はない。2日午後の会見で内容が更新される可能性が高い。",
+      "cl-20261102-03は空軍発表（B2）と、Defense Expressの単一分析者による天候利用の解釈（C3）、ZIRKAの企業・部隊主張（C3）、民間企業Fire Pointの犯行声明（参謀本部の確認なし）を含む。信頼度コードは項目全体としてB2を付けたが、節ごとの確度は本文に明記した。",
+      "cl-20261102-04（AP分析）は本文にAIへの言及がなく、安価な無人機の大量使用と基地防護という観点で採用した。使用された機種の内訳は未公表。",
+      "cl-20261102-06（Maven初使用）は米側の発言のみで、日本側の公表を確認できなかった。防衛省の説明が出た場合は続報が必要。",
+      "cl-20261102-07（Dream報告）は一次資料のdreamgroup.comを開けず、Cybersecurity DiveとCybersecurity Newsに依拠した。CVE番号は媒体間で表記が揺れるため本文では番号を省いた。公表日は10月29日で、月曜の72時間窓の範囲として採用した。",
+      "cl-20261102-13（FCC）とcl-20261102-16（イランの主張）は、それぞれFCC本文PDFとイラン側の原発表を開けず、報道に依拠している。",
+      "検索枠の枯渇により欧州・NATO・英国・豪州・ASEANの調査が不完全であり、該当地域の見落としがありうる。",
+      "check-handoff の WARN として、本文の長さ（importance 2 の目安超過）や出典URLの重複（続報）が残る場合があり、理由は実行報告に記す。"
+    ]
+  }
+}
