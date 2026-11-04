@@ -1,0 +1,1203 @@
+{
+  "edition_date": "2026-11-04",
+  "generated_at": "2026-11-04T15:10:00+09:00",
+  "window_from": "2026-11-03T06:52:00+09:00",
+  "edition_title_ja": "計算資源の囲い込みと軍民の人材往来、電力網への飽和攻撃",
+  "edition_title_en": "Fencing off compute, a revolving door between the Army and AI, and a saturation attack on the grid",
+  "edition_dek_ja": "半導体企業の自主規制、元陸軍長官のAI企業入り、裁判所が正す無人艇調達、侵入経路としての社内AI。",
+  "edition_dek_en": "A chipmaker's self-imposed rule, a former Army secretary joining OpenAI, a court correcting a drone-boat buy, and internal AI as an intrusion path.",
+  "lead_points_ja": [
+    "輸出管理の網が届きにくい海外クラウド経由の計算資源に、米企業の自主規制が先回りした一日である。Nvidiaが提携クラウドに新規契約の51%以上を非中国顧客向けとするよう求めたとの報道は、同社が肯定も否定もしないまま、中国外交部が「公平・透明・非差別」を求める応酬に進んだ。",
+    "8月に辞任したドリスコル元米陸軍長官がOpenAIの「国家安全保障近代化」担当上級顧問に就き、Pentagonと距離を置いたAnthropicの後を追う形で、国防市場での人材と受注の重心移動が続く。",
+    "ロシアは2〜3日夜に無人機289機と巡航ミサイル59発、弾道・極超音速ミサイルを電力網へ同時投入し、ウクライナ空軍は309目標の無力化と23か所の着弾を発表した。ジェット型無人機の比率は夜間で4割、昼間で9割に達した。",
+    "米連邦請求裁判所は海軍の中型無人艇競争からのSaildrone排除を恣意的と判断し、21億ドル計画のうち約6億ドルの支出を凍結した。OT権限による高速調達に、評価の公平性という司法の歯止めがかかった。",
+    "Binanceは63億ドル流出の全経路を公表し、偽の採用面接と社内AIツールの悪用が署名系統への到達を可能にしたと説明した。英独は二国間協定の「サイバー灯台」をAIへ拡張し、米国防省は機密網への商用AI導入を12か月で研究する。"
+  ],
+  "lead_points_en": [
+    "A day on which a US company's self-imposed rule got ahead of export controls that struggle to reach compute accessed through overseas clouds. Reports that Nvidia asked partner clouds to keep at least 51% of new contracts non-Chinese drew neither confirmation nor denial from the company, and a call from China's foreign ministry for a 'fair, transparent and non-discriminatory' environment.",
+    "Dan Driscoll, who resigned as US Army secretary in August, became OpenAI's senior counselor for national security modernization, extending the shift of talent and contracts in the defence market after Anthropic's falling-out with the Pentagon.",
+    "Russia sent 289 drones, 59 cruise missiles and ballistic and hypersonic missiles against Ukraine's power grid on the night of 2–3 November; Ukraine's Air Force reported 309 targets neutralised and impacts at 23 locations. Jet-powered drones made up four in ten of the night wave and nine in ten of the daytime wave.",
+    "The US Court of Federal Claims found the Navy's exclusion of Saildrone from the Medium Unmanned Surface Vessel competition arbitrary and froze about $600 million of the $2.1 billion programme, placing a judicial check on fast procurement under Other Transaction authority.",
+    "Binance published the full path of its $6.3 billion theft, in which a fake job interview and the abuse of an internal AI tool led to the signing systems. The UK and Germany extended their 'Cyber Lighthouse' project to AI, and the Pentagon ordered a twelve-month study of commercial AI on classified networks."
+  ],
+  "items": [
+    {
+      "id": "cl-20261104-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Nvidia、提携クラウドに新規契約の51%以上を非中国顧客向けとするよう要請と報道　同社は否定せず",
+      "title_en": "Nvidia reportedly tells cloud partners to keep at least 51% of new contracts non-Chinese; company neither confirms nor denies, stressing that 'America's AI infrastructure must win worldwide'",
+      "lead_ja": "Financial Timesは3日、Nvidiaがデータセンターの提携先に対し、新規契約の51%以上を中国以外の顧客向けとするよう口頭で求めたと報じた。同社はAFPに対し報道を肯定も否定もせず、「世界のクラウドが外国製チップに依存すれば、モデルと応用の層も外国製になる」と述べた。輸出管理が物理的なチップの移動を中心に組まれてきたため、海外クラウド経由の計算資源アクセスは制度の空白とされてきた。そこに企業の自主規制が先回りした形である。",
+      "lead_en": "The Financial Times reported on 3 November that Nvidia had verbally instructed its data-centre partners to sell at least 51% of their services under new contracts to non-Chinese customers. The company neither confirmed nor denied the report to AFP, saying that 'if the world's clouds rely on foreign-made chips, the model and application layers will be foreign-built as well.' Export controls have been built around the physical movement of chips, leaving compute accessed through overseas clouds as a gap in the regime, and a corporate rule has now stepped into it.",
+      "sections": [
+        {
+          "heading_ja": "書面を伴わない新規契約の比率条件",
+          "heading_en": "A ratio for new contracts, delivered without paperwork",
+          "paragraphs_ja": [
+            "FTが5人の関係者の話として伝えた内容によれば、条件は新規契約に適用され、既存の合意は対象外である。Nvidiaは書面を交わさず、営業部門と地域チームを通じて口頭で伝えたとされ、同社がこの種の制約を提携先に課すのは初めてとされる。「51%以上を非中国企業向け」という比率が売上、計算容量、契約件数のいずれを基準とするか、違反時にどの措置が取られるかは報じられていない。",
+            "Nvidiaの声明は報道の内容に触れず、「米国製チップの上に築かれたデータセンターとクラウドは、米国のモデルと応用の開発者が世界で競争するための基盤である」と述べ、「米国の長年の政策はあらゆるクラウドが米国のインフラの上に築かれ、どこでも事業を獲得することを奨励している」と続けた。否定を避けつつ、措置の論理を米国の産業政策に重ねる言い回しである。"
+          ],
+          "paragraphs_en": [
+            "According to the FT, which cited five people familiar with the matter, the condition applies to new contracts and leaves existing agreements untouched. Nvidia is said to have communicated it verbally through its sales force and regional teams rather than in writing, and this is described as the first time the company has imposed such a restriction on partners. The reports do not say whether the '51% non-Chinese' threshold is measured by revenue, capacity or contract count, or what happens on a breach.",
+            "Nvidia's statement did not address the report's substance. It said that 'datacenters and clouds built on American chips are the foundation that American model and application makers need to compete worldwide,' adding that 'longstanding U.S. policy encourages every cloud to build on American infrastructure and to win business everywhere they can.' The wording avoids a denial while folding the measure into US industrial policy."
+          ]
+        },
+        {
+          "heading_ja": "輸出管理の空白を埋める企業側の線引き",
+          "heading_en": "A corporate line drawn where export controls stop",
+          "paragraphs_ja": [
+            "米国の対中半導体規制は先端チップの輸出と第三国経由の迂回を主な対象とし、海外のクラウド事業者が中国企業に計算資源を貸し出す経路は、監督当局が繰り返し課題として挙げながら規則化が進んでいない領域である。今年に入り、Super Micro従業員が約25億ドル相当のNvidia製AIサーバーを中国へ密輸したとして起訴され、シンガポールではMegaspeedをめぐる捜査が続く。提携先に顧客構成の上限を求める措置は、この経路を企業の契約条件で狭める試みと読める。",
+            "北京側は1年前から国家資金によるデータセンターでの外国製AIチップ使用を禁じており、中国市場でのNvidiaの立ち位置は既に縮小していた。したがって今回の条件は中国本土向けの販売よりも、東南アジアや中東などの第三国クラウドを通じた中国企業の利用に効く。台湾の立法院でも2日、民進党議員が半導体製造装置・材料の対中輸出規制を広げる法改正を提案し、経済部が支持を表明したばかりである。"
+          ],
+          "paragraphs_en": [
+            "US chip controls on China have focused on exports of advanced chips and on transshipment through third countries, while the renting of compute to Chinese firms by overseas cloud providers has been flagged repeatedly by regulators without being codified. Earlier this year Super Micro employees were charged with smuggling about $2.5 billion of Nvidia AI servers into China, and an investigation into Megaspeed continues in Singapore. A cap on partners' customer mix reads as an attempt to narrow that channel through contract terms.",
+            "Beijing banned foreign AI chips from state-funded data centres a year ago, so Nvidia's position inside China had already shrunk. The new condition therefore bites less on mainland sales than on Chinese firms' use of third-country clouds in Southeast Asia or the Gulf. In Taiwan's legislature on 2 November, DPP lawmakers proposed amendments widening export controls on chipmaking equipment and materials to China, and the Ministry of Economic Affairs voiced support."
+          ]
+        },
+        {
+          "heading_ja": "中国外交部の留保と残る不確定要素",
+          "heading_en": "Beijing's reserved reply and what remains unknown",
+          "paragraphs_ja": [
+            "中国外交部の毛寧報道官は3日の定例会見でAFPの質問に「具体的な状況は把握していない」と答え、「各方面が公平、透明、非差別の原則に基づいて協力すべきだと考える」と述べた。同じ会見で世界インターネット大会に触れ、「デジタルの鉄のカーテンを築くことに反対する」とも語っている。強い反発を避けつつ、米側の措置を差別的扱いの文脈に置く定型の応答である。今後の焦点は、Nvidiaが条件を書面化するか、米商務省がクラウドの顧客確認義務を規則として追うか、そして提携先のネオクラウド各社が契約構成をどう開示するかにある。"
+          ],
+          "paragraphs_en": [
+            "At the 3 November regular briefing, foreign ministry spokesperson Mao Ning told AFP she was 'not familiar with the specifics' and that 'all parties should engage in cooperation based on the principles of fairness, transparency and non-discrimination.' In the same briefing, speaking of the World Internet Conference, she said China opposes 'erecting digital iron curtains.' It is a formulaic reply that avoids escalation while framing the US measure as discriminatory. The questions ahead are whether Nvidia puts the condition in writing, whether the Commerce Department pursues know-your-customer rules for clouds, and how partner neoclouds disclose their contract mix."
+          ]
+        }
+      ],
+      "watch_next_ja": "Nvidiaによる条件の書面化や公式説明の有無。米商務省BISのクラウド顧客確認（KYC）規則の動向。台湾立法院での半導体輸出規制改正案の審議日程。",
+      "watch_next_en": "Whether Nvidia formalises or explains the condition; movement on BIS know-your-customer rules for cloud providers; the schedule for Taiwan's export-control amendment in the Legislative Yuan.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "",
+      "publisher": "Financial Times（報道）／Nvidia／中国外交部",
+      "publisher_en": "Financial Times (report) / Nvidia / China MFA",
+      "sources": [
+        {
+          "title": "Nvidia tells cloud partners to cap Chinese business at 49%, FT reports",
+          "url": "https://thenextweb.com/news/nvidia-cloud-partners-cap-china-business",
+          "publisher": "The Next Web",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia orders data center clients to reduce China exposure: FT (AFP)",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-orders-data-center-clients-080911859.html",
+          "publisher": "AFP via Yahoo Finance",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Foreign Ministry Spokesperson Mao Ning's Regular Press Conference on November 3, 2026",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202611/t20261103_12052547.html",
+          "publisher": "Ministry of Foreign Affairs of the PRC",
+          "date": "2026-11-03",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Taiwan lawmakers push to tighten chip controls to China",
+          "url": "https://www.taiwannews.com.tw/news/6470981",
+          "publisher": "Taiwan News",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US",
+        "CN",
+        "TW"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ロシアが一夜で無人機289機・巡航ミサイル59発に弾道・ジルコンを重ねて電力網を攻撃　ウクライナ空軍は309目標を無力化",
+      "title_en": "Russia sends 289 drones, 59 cruise missiles plus ballistic and Zircon missiles at Ukraine's grid in one night; Air Force reports 309 neutralised and impacts at 23 locations",
+      "lead_ja": "ウクライナ空軍は3日朝、2日18時以降の攻撃でロシアが無人機289機、巡航ミサイル59発に加え、イスカンデルM・KN-23型の弾道ミサイルとジルコン極超音速ミサイルを投入したと発表した。09時時点の暫定値で309目標を無力化し、23か所で着弾、14か所で残骸落下を記録したという。標的は変電所と発電所に集中し、キーウでは緊急停電と断水が発生した。ウクライナ側は今年最大規模のエネルギー攻撃と位置づけている。",
+      "lead_en": "Ukraine's Air Force said on the morning of 3 November that, from 18:00 on 2 November, Russia had launched 289 drones and 59 cruise missiles together with Iskander-M/KN-23 ballistic missiles and Zircon hypersonic missiles. Preliminary figures at 09:00 put 309 targets neutralised, with impacts at 23 locations and debris falling at 14. Substations and power plants were the main targets, and Kyiv saw emergency outages and water cuts. Ukraine describes it as the largest attack on its energy system this year.",
+      "sections": [
+        {
+          "heading_ja": "ジェット型120機と弾道・巡航の同時投入",
+          "heading_en": "120 jet drones launched alongside ballistic and cruise missiles",
+          "paragraphs_ja": [
+            "空軍の内訳では、無人機289機はシャヘド型（うちジェット推進120機）とゲルベラ、囮の「パロディヤ」で構成され、巡航ミサイル59発はKh-101、Kh-59、Kh-69、イスカンデルKである。弾道ミサイルとジルコンの発射数は空軍の発表に含まれず、エスプレソTVを引くウクライナ媒体が弾道17発と伝えている。無力化は無人機257機（ジェット型89機）、巡航ミサイル49発（3発は確認中）、弾道・ジルコン3発で、インタファクス・ウクライナは迎撃率を無人機89%、巡航ミサイル83%と計算した。",
+            "発射地点は弾道がロストフ、ボロネジ、クルスク、巡航がボログダ、オレンブルク、オリョール、無人機がオリョール、クルスク、ミレロボ、プリモルスコ・アフタルスク、占領下ドネツク、クリミアのフバルジイスケとチャウダと公表され、主攻撃方向はキーウ、ハルキウ、ビンニツァ、ドニプロペトロウシクの各州であった。弾道弾のどれが防空網を抜けてどこに着弾したかは発表されていない。数値はすべてウクライナ側の主張であり、独立した検証は限定的である。"
+          ],
+          "paragraphs_en": [
+            "In the Air Force's breakdown, the 289 drones comprised Shahed-type craft (120 of them jet-powered), Gerberas and 'Parodiya' decoys; the 59 cruise missiles were Kh-101, Kh-59, Kh-69 and Iskander-K. The count of ballistic and Zircon missiles was left out of the Air Force statement; a Ukrainian outlet citing Espreso TV put the ballistic figure at 17. Neutralisations were 257 drones (89 jet-powered), 49 cruise missiles (three under clarification) and three ballistic or Zircon missiles; Interfax-Ukraine computed interception rates of 89% for drones and 83% for cruise missiles.",
+            "Launch points were given as Rostov, Voronezh and Kursk for ballistic missiles, Vologda, Orenburg and Oryol for cruise missiles, and Oryol, Kursk, Millerovo, Primorsko-Akhtarsk, occupied Donetsk and Hvardiiske and Chauda in Crimea for drones, with the main axes toward Kyiv, Kharkiv, Vinnytsia and Dnipropetrovsk regions. Which ballistic missiles penetrated the defences and where they struck was left unstated. All figures are Ukrainian claims with limited independent verification."
+          ]
+        },
+        {
+          "heading_ja": "送電網と原発周辺の変電所に移った標的",
+          "heading_en": "Targets shift to the grid and substations around nuclear plants",
+          "paragraphs_ja": [
+            "DTEKは火力発電所3か所が被弾して発電を停止したと発表し、エネルギー省は24時間で10州のエネルギー施設に20件を超える攻撃があったとした。キーウ市のクリチコ市長は「キーウ地域のエネルギー拠点施設の損傷」を理由に市と州で緊急停電を実施し、給水と電気交通にも支障が出たと述べた。ウクレネルゴのザイチェンコCEOはキーウ・インディペンデントに、重要インフラに対する弾道ミサイルの波としては最大級の一つだと語り、原発の運転に不可欠な変電所が攻撃を受けたとも報じられている。",
+            "ゼレンスキー大統領は、ロシアが今年は発電所だけでなく送電網と配電網を狙う戦術に転じたと述べ、ベルリン安全保障会議では「弾道ミサイルの数に対して単独で空域を守れる欧州の国はない」「無人機防御の体系を一国で築ける国はない」と訴えた。シュミハリ首相は欧州全体の原子力安全への脅威を強調し、約8億ユーロの残高を持つエネルギー支援基金に追加4.5億ユーロが必要だとして支援を求めた。前日2日にはザポリージャ州コミシュワハで人道支援の配布場所が航空爆弾の連続攻撃を受け、3日時点で31人の死亡と約50人の行方不明が報告されている。"
+          ],
+          "paragraphs_en": [
+            "DTEK said three of its thermal power plants were hit and halted generation, and the Energy Ministry counted more than twenty attacks on energy facilities in ten regions within 24 hours. Kyiv's mayor Vitali Klitschko ordered emergency outages in the city and region 'due to damage caused by enemy attacks on facilities of the Kyiv regional energy hub,' with water supply and electric transport also disrupted. Ukrenergo CEO Vitalii Zaichenko told the Kyiv Independent that the attack included one of the largest waves of Russian ballistic missiles against critical infrastructure, and a substation critical to a nuclear plant was reported hit.",
+            "President Zelensky said Russia had changed tactics this year to target transmission and distribution networks as well as generation, and told the Berlin Security Conference that 'no European country can single-handedly defend its airspace against the number of ballistic missiles' and 'no country can build an effective drone defense system on its own.' Prime Minister Shmyhal stressed the threat to nuclear safety across Europe and asked partners for an additional €450 million on top of the roughly €800 million in the Energy Support Fund. On 2 November, an aid distribution point in Komyshuvakha, Zaporizhzhia region, was hit by successive aerial bombs; by 3 November, 31 deaths and about 50 missing were reported."
+          ]
+        },
+        {
+          "heading_ja": "昼間はジェット型が9割、迎撃負荷は時間帯で偏る",
+          "heading_en": "Daytime waves nine-tenths jet-powered; the defence load stays uneven",
+          "paragraphs_ja": [
+            "夜間攻撃の終了後も投入は続き、空軍は3日06時30分から19時までに無人機81機が飛来し、うち74機がジェット推進であったと発表した。62機（ジェット型56機）を撃墜または無力化したとする。1〜2日夜の193機（ジェット型75機）、2日昼の171機（ジェット型6割）と合わせると、ロシアは夜間に大量のピストン型と囮を混ぜ、昼間はジェット型を主体に迎撃側の高速目標対処能力を試す配分を続けている。ジェット型の迎撃率は夜間74%、昼間76%で、プロペラ型を含む全体より低い。"
+          ],
+          "paragraphs_en": [
+            "Launches continued after the night wave. The Air Force said that between 06:30 and 19:00 on 3 November, 81 drones arrived, 74 of them jet-powered, and 62 (56 jet-powered) were shot down or neutralised. Together with the 193 drones of the night of 1–2 November (75 jet-powered) and the 171 of the daytime on 2 November (about 60% jet-powered), the pattern is that Russia mixes large numbers of piston-engined craft and decoys at night and leads with jets by day, probing the defenders' capacity against fast targets. Interception rates for jet drones were 74% at night and 76% by day, below the overall figures that include propeller types."
+          ]
+        }
+      ],
+      "watch_next_ja": "ウクレネルゴ・DTEKの復旧状況と計画停電の規模。空軍発表におけるジェット型無人機の比率と迎撃率の推移。11月中の追加防空支援（パトリオット弾、迎撃無人機）の表明。",
+      "watch_next_en": "Ukrenergo and DTEK restoration status and the scale of scheduled outages; the share and interception rate of jet drones in Air Force statements; announcements of additional air-defence support (Patriot interceptors, interceptor drones) during November.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "",
+      "publisher": "ウクライナ空軍（インタファクス・ウクライナ、UNN経由）",
+      "publisher_en": "Ukrainian Air Force (via Interfax-Ukraine, UNN)",
+      "sources": [
+        {
+          "title": "Air defense downs 49 of 59 cruise missiles, 257 of 289 drones overnight; strikes recorded at 23 locations",
+          "url": "https://en.interfax.com.ua/news/general/1230251.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "3 ballistic and 49 cruise missiles neutralized during Russia's massive attack - details from Air Force",
+          "url": "https://unn.ua/en/news/3-ballistic-and-49-cruise-missiles-were-neutralized-during-russias-massive-attack-details-from-the-ukrainian-air-force",
+          "publisher": "UNN",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Defence Forces neutralise 56 of 74 jet-powered drones attacking Ukraine since morning",
+          "url": "https://en.interfax.com.ua/news/general/1230782.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia's Massive Strike on Ukraine's Energy Infrastructure on November 3",
+          "url": "https://112.ua/en/rosia-atakuvala-energeticnu-infrastrukturu-ukraini-3-listopada-ponad-360-raket-i-droniv-195764",
+          "publisher": "112.ua",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Klitschko: emergency outages in Kyiv due to damage to regional energy hub",
+          "url": "https://en.interfax.com.ua/news/general/1230651.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Komyshuvakha death toll rises to 31",
+          "url": "https://en.interfax.com.ua/news/general/1230412.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261103-06"
+    },
+    {
+      "id": "cl-20261104-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "OpenAI、8月に辞任したドリスコル元陸軍長官を「国家安全保障近代化」担当の上級顧問に起用　同盟国との協業を担務に",
+      "title_en": "OpenAI hires Dan Driscoll, who resigned as Army secretary in August, as senior counselor for national security modernization with a brief to work with allies",
+      "lead_ja": "OpenAIは2日夕（米国時間）、8月に米陸軍長官を辞任したダン・ドリスコル氏を新設の「国家安全保障近代化担当上級顧問」に迎えると発表した。先端AIが国家安全保障とサイバー安全保障をどう強化するかについて経営陣と外部パートナーに助言し、同盟国との責任ある利用の推進を重点とする。ヘグセス国防長官との関係悪化が報じられて政府を離れた陸軍改革の推進者が、Pentagonの主要AI供給者の一つへ移る人事である。",
+      "lead_en": "OpenAI announced on the evening of 2 November (US time) that Dan Driscoll, who resigned as US Army secretary in August, would join as its first senior counselor for national security modernization. He will advise senior leadership and external partners on how advanced AI can strengthen national and cyber security, with a particular focus on responsible use alongside US allies. A champion of Army reform who left government after a reported falling-out with Defense Secretary Hegseth is moving to one of the Pentagon's principal AI suppliers.",
+      "sections": [
+        {
+          "heading_ja": "新設ポストの担務と本人の言葉",
+          "heading_en": "The brief of the new post, in Driscoll's words",
+          "paragraphs_ja": [
+            "発表文によれば、同氏は「各国政府、産業界、学界、同盟国の機関の指導者と協働し、民主的AIの構築を支える実務的な近代化の取り組みを進める」とともに、「世界の国家安全保障機関の運用上の要請を社内のチームが理解する」手助けを担う。ドリスコル氏は「国家安全保障上の要請は過去半世紀のどの時期よりも速く変化している」と述べ、AIが軍に「書類仕事を切り抜け、より多くの情報を理解し、正しい答えをより速く正しい人に届ける」ことを可能にするとした。",
+            "アルトマンCEOは「米国のリーダーシップを強化し」、他国と協力して「民主的AIの採用を広げる」ために同氏を迎えると歓迎した。「同盟国」と「責任ある利用」を前面に出す担務は、米政府との単独取引から同盟国市場への展開へと重心を広げる同社の政府事業の方向を示している。本人は「米国と同盟国がこの技術を、私たちを守る人々のために責任を持って活用する」手助けをすると述べた。"
+          ],
+          "paragraphs_en": [
+            "According to the release, he will 'work with OpenAI teams and leaders across governments, industry, academia, and allied institutions to advance practical modernization initiatives that support the buildout of democratic AI,' and help internal teams 'understand the operational needs of global national security institutions.' Driscoll said national security requirements 'are changing faster than at any time in the past half century,' and that AI would let the military 'keep pace by cutting through paperwork, making sense of more information, and getting the right answer to the right person faster.'",
+            "CEO Sam Altman said he was excited to welcome Driscoll 'to strengthen American leadership' and to work with other countries to 'spread the adoption of democratic AI.' A brief that foregrounds allies and responsible use signals a government business widening from deals with the US government toward allied markets. Driscoll himself said he was joining 'to help the United States and our allies put this technology to work responsibly, for the people who keep us safe.'"
+          ]
+        },
+        {
+          "heading_ja": "陸軍改革の推進者からAI企業へ",
+          "heading_en": "From Army transformation to an AI company",
+          "paragraphs_ja": [
+            "ドリスコル氏は陸軍長官として陸軍変革構想（Army Transformation Initiative）、無人機と対無人機の調達市場、そして「作戦ジェイルブレイク」と呼ばれる調達慣行の見直しを推し進めた。8月下旬にヘグセス長官との数か月にわたる緊張関係が報じられた末に辞任し、その後は対無人機企業Perennial Autonomyと広報戦略会社Watchtower Strategyの顧問を務めていた。無人システムの大量調達を主導した当事者が、その調達先の一角を占めるAI企業に入る回転ドアである。"
+          ],
+          "paragraphs_en": [
+            "As Army secretary, Driscoll drove the Army Transformation Initiative, the Army's drone and counter-drone marketplaces, and the procurement overhaul known as Operation Jailbreak. He resigned in late August after months of reported strain with Secretary Hegseth, and has since advised the counter-drone company Perennial Autonomy and the public-affairs firm Watchtower Strategy. The move is a revolving door: the official who led the mass buy of uncrewed systems joins an AI company that sits among the department's suppliers."
+          ]
+        },
+        {
+          "heading_ja": "Anthropic排除後の政府事業の広がり",
+          "heading_en": "OpenAI's government business after Anthropic's exclusion",
+          "paragraphs_ja": [
+            "OpenAIは2025年6月に国防省の首席デジタル・AI局（CDAO）から最大2億ドルの試作契約を獲得し、今年8月には政府向け生成AI基盤GenAI.milで同社の承認済みモデルが利用可能になった。Breaking Defenseによれば、軍がAnthropicのモデルの無制限の利用を求め、同社が拒否した対立の後、国防省は機密ネットワークへのAI統合をOpenAIを含む他社へ振り向けた。利用条件をめぐりPentagonと距離を置いた企業と、元長官級を迎えて同盟国へ展開する企業という対比が、国防AI市場の構図として固まりつつある。"
+          ],
+          "paragraphs_en": [
+            "OpenAI won a prototype Other Transaction agreement worth up to $200 million from the Pentagon's Chief Digital and AI Office in June 2025, and approved ChatGPT models became available on the GenAI.mil platform in August this year. Breaking Defense reports that after the dispute in which the military sought unrestricted access to Claude and Anthropic refused, the department shifted its classified-network AI integrations toward other providers, including OpenAI. The contrast between a company that kept its distance from the Pentagon over usage terms and one that hires a former secretary to expand with allies is hardening into the shape of the defence AI market."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月13日の米下院民主党書簡へのOpenAIの回答。GenAI.milと機密ネットワークでのOpenAIモデルの適用範囲の公表。同盟国政府との新たなOpenAI for Government契約。",
+      "watch_next_en": "OpenAI's 13 November reply to the House Democrats' letter; disclosure of the scope of OpenAI models on GenAI.mil and classified networks; new OpenAI for Government agreements with allied governments.",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "announced",
+      "publisher": "OpenAI",
+      "publisher_en": "OpenAI",
+      "sources": [
+        {
+          "title": "Dan Driscoll joins OpenAI",
+          "url": "https://openai.com/index/dan-driscoll-joins-openai/",
+          "publisher": "OpenAI",
+          "date": "2026-11-02",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "Former Army secretary heads to OpenAI",
+          "url": "https://breakingdefense.com/2026/11/former-army-secretary-heads-to-openai/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Former Army boss Dan Driscoll joins OpenAI as senior counselor",
+          "url": "https://defensescoop.com/2026/11/03/dan-driscoll-openai-strategic-counselor",
+          "publisher": "DefenseScoop",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米連邦請求裁判所、海軍の中型無人艇競争からのSaildrone排除を「恣意的」と判断　約6億ドルの支出を凍結",
+      "title_en": "US Court of Federal Claims finds the Navy's exclusion of Saildrone from the MUSV competition 'arbitrary and capricious', freezing about $600 million of the $2.1 billion programme",
+      "lead_ja": "米連邦請求裁判所のフィリップ・ハジ判事は、海軍が中型無人水上艇（MUSV）計画の洋上試験段階からSaildroneを排除した評価について、他社に適用しない基準を同社にだけ当てた「差別的な扱い」であり「恣意的かつ気まぐれ」だと判断した。海軍は再評価を終えるまで21億ドルの計画のうち15億ドルを超えて支出できない。Saildroneは2日の発表で「不法に排除された」との判断を得たと述べ、意見書は3日付とされる。",
+      "lead_en": "Judge Philip Hadji of the US Court of Federal Claims ruled that the Navy's exclusion of Saildrone from the at-sea testing phase of the Medium Unmanned Surface Vessel (MUSV) programme applied criteria to the company that it applied to no other bidder, 'disparate treatment' that was 'arbitrary and capricious'. The Navy may not obligate more than $1.5 billion of the $2.1 billion programme until it completes a reevaluation. Saildrone said in a 2 November release that the court found it 'unlawfully excluded'; the opinion is dated 3 November.",
+      "sections": [
+        {
+          "heading_ja": "3項目すべて「不適合」とした評価の崩れ方",
+          "heading_en": "How a finding of non-compliance on all three criteria fell apart",
+          "paragraphs_ja": [
+            "海軍は2026年3月26日、2025年7月の財政調整法で手当てされた資金を使い、「その他の取引（OT）」試作権限でMUSVの公募を出した。40フィートコンテナ2個と25トンの搭載物を積み、海況4で25ノット、2,500海里を航行できる量産可能な艇が要件である。5月に7社が洋上試験に選ばれ、SaildroneとBlue Water Autonomyは外れた。海軍はSaildroneを3つの評価項目のすべてで不適合としたが、同社の異議申立て後に2項目の判定を撤回し、残る1項目について裁判所は、他のどの応札者にも適用していない基準を当てたと認定した。",
+            "併合審理されたBlue Water Autonomyの異議は、排除に合理性があるとして退けられた。裁判所は10月29日に管轄権を争う政府の申立てを却下しており、本案でも政府側の主張を認めなかった。判決の核心は無人艇の技術評価そのものよりも、同じ基準を全応札者に等しく適用したかという手続きの公平性にある。"
+          ],
+          "paragraphs_en": [
+            "The Navy issued the MUSV solicitation on 26 March 2026 under Other Transaction prototype authority, funded from the July 2025 reconciliation bill. It called for a production-ready boat carrying two 40-foot containers and a 25-tonne payload for 2,500 nautical miles at 25 knots in sea state 4. Seven bidders were chosen for at-sea testing in May; Saildrone and Blue Water Autonomy were left out. The Navy had rated Saildrone non-compliant on all three evaluation criteria, dropped two findings after the company protested, and on the third the court found that the Navy had applied a standard to Saildrone that it applied to no other bidder.",
+            "Blue Water Autonomy's protest, heard in the consolidated case, was denied as the court found its elimination reasonable. The court had rejected the government's jurisdictional motion on 29 October and ruled against it again on the merits. The heart of the decision concerns procedural fairness, whether the same criteria were applied equally to every bidder, rather than the technical merits of the boats."
+          ]
+        },
+        {
+          "heading_ja": "生産契約済みの3社と凍結された6億ドル",
+          "heading_en": "Three production awards and $600 million on hold",
+          "paragraphs_ja": [
+            "海軍は9月29日にGalliano Marine Services、HII、Saronic Technologiesの3社へ各10艇、1艇約4,000万ドルの生産合意を与え、試験を通過したLeidos、PacMar Technologies、Sea Machinesには各1,500万ドルを配分していた。Birdonは試験に通らなかった。判決により海軍はMUSV建造に15億ドルまでしか支出できず、約6億ドルが凍結される。Saildroneは洋上実証の機会を改めて得るが、再評価の期限は示されていない。両社は9月23日に出た第2次MUSV公募への参加資格を保持する。",
+            "創業者のリチャード・ジェンキンスCEOは「海戦の未来は法廷の外、海上で争われる」と述べ、「公正な競争、納税者、国家安全保障にとっての勝利」と評した。海軍はNew York Timesの取材に即答せず、10月時点でも訴訟へのコメントを避けていた。"
+          ],
+          "paragraphs_en": [
+            "On 29 September the Navy had awarded production agreements for ten MUSVs each, at roughly $40 million a boat, to Galliano Marine Services, HII and Saronic Technologies, and $15 million each to Leidos, PacMar Technologies and Sea Machines, which passed testing; Birdon did not pass. Under the ruling the Navy may spend no more than $1.5 billion on MUSV construction, leaving about $600 million frozen. Saildrone gets another chance at an at-sea demonstration, with no deadline set for the reevaluation. Both excluded firms remain eligible for the second MUSV solicitation published on 23 September.",
+            "Founder and CEO Richard Jenkins said that 'the future of naval warfare will be fought on the water, not in a courtroom,' calling the ruling 'a win for fair competition, for taxpayers, and for national security.' A Navy spokeswoman did not immediately respond to the New York Times, and the service had declined to discuss the litigation in October."
+          ]
+        },
+        {
+          "heading_ja": "OT権限による高速調達への司法の歯止め",
+          "heading_en": "A judicial check on fast procurement under OT authority",
+          "paragraphs_ja": [
+            "MUSVは海軍が無人艇の量産を急ぐ看板計画で、OT権限は連邦調達規則の手続きを省いて民間の新規参入者を取り込むために使われている。今回の判決は、OT契約であっても応札者間の平等な取扱いが司法審査の対象になることを示し、スピードを優先する調達改革に手続き面の制約を課した。生産合意を受けた3社の建造は15億ドルの枠内で続くため、計画全体の遅れは限定的と見込まれるが、再評価の結果次第で第2次公募の構図は変わりうる。"
+          ],
+          "paragraphs_en": [
+            "MUSV is a flagship of the Navy's push to mass-produce uncrewed vessels, and OT authority is used to bring in commercial newcomers while skipping Federal Acquisition Regulation procedures. The ruling shows that equal treatment of bidders remains open to judicial review even under OT agreements, imposing a procedural constraint on reforms that prize speed. Construction by the three awardees continues within the $1.5 billion ceiling, so the delay to the programme as a whole is expected to be limited, but the outcome of the reevaluation could reshape the second solicitation."
+          ]
+        }
+      ],
+      "watch_next_ja": "海軍による再評価の実施時期と結果。第2次MUSV公募（9月23日公表）の選定日程。海軍が連邦巡回区控訴裁判所へ上訴するか。",
+      "watch_next_en": "Timing and outcome of the Navy's reevaluation; the selection schedule for the second MUSV solicitation (published 23 September); whether the Navy appeals to the Federal Circuit.",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "awarded",
+      "publisher": "米連邦請求裁判所／Saildrone",
+      "publisher_en": "US Court of Federal Claims / Saildrone",
+      "sources": [
+        {
+          "title": "Saildrone Beats the Navy in Court Over a $2.1 Billion Drone Boat Snub",
+          "url": "https://dronexl.co/2026/11/03/saildrone-wins-navy-musv-court-ruling/",
+          "publisher": "DroneXL",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Court Orders Navy to Reevaluate Saildrone in MUSV Competition",
+          "url": "https://oceannews.com/news/defense/court-orders-navy-to-reevaluate-saildrone-in-musv-competition",
+          "publisher": "Ocean News & Technology",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Judge Finds For Saildrone In Lawsuit Over MUSV Rejection, Directs Navy To Reevaluate",
+          "url": "https://www.defensedaily.com/judge-finds-for-saildrone-in-lawsuit-over-musv-rejection-directs-navy-to-reevaluate/navy-usmc/",
+          "publisher": "Defense Daily",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "英独国防相理事会、トリニティ・ハウス協定の「サイバー灯台」をAIへ拡張　少数の軍事ユースケースで開発・実験・導入を共同化",
+      "title_en": "UK–Germany Defence Ministerial Council extends the Trinity House 'Cyber Lighthouse' to AI, pooling development, experimentation and adoption on a few military use cases",
+      "lead_ja": "英国のストリーティング国防相とドイツのピストリウス国防相は2日、ベルリンでトリニティ・ハウス協定に基づく第2回国防相理事会を開き、共同声明で同協定の「サイバー灯台プロジェクト」を人工知能へ拡張すると表明した。「少数の共有する軍事ユースケース」での協力を通じ、能力開発、実験、導入の二国間協力を深めるという。具体的なシステムや予算は示されず、両国の官民代表が2027年春に会合して計画を具体化する。",
+      "lead_en": "UK Defence Secretary Wes Streeting and German Defence Minister Boris Pistorius held the second Defence Ministerial Council under the Trinity House Agreement in Berlin on 2 November and announced in a joint statement that the agreement's Cyber Lighthouse Project would be expanded to incorporate artificial intelligence. Through 'collaboration on a small number of shared military use cases,' the two countries will deepen cooperation in capability development, experimentation and adoption. No systems or budgets were named; government and industry representatives will meet in spring 2027 to shape the plan.",
+      "sections": [
+        {
+          "heading_ja": "共同声明のAI条項と2027年春の官民会合",
+          "heading_en": "The AI clause and the spring 2027 meeting",
+          "paragraphs_ja": [
+            "共同声明のAIに関する記述は2文である。「この領域の発展の速さを認識し、トリニティ・ハウス協定のサイバー灯台プロジェクトを人工知能を取り込む形で拡張する」「少数の共有する軍事ユースケースでの協力を通じ、能力開発、実験、導入における二国間協力を深める」。ストリーティング国防相は会談前にフランクフルター・アルゲマイネ紙へ寄稿し、「軍におけるAIの共同の試験、開発、そして最終的な導入を通じて協力を深め、我々に害を及ぼそうとする者に歩調を合わせる」と書いた。",
+            "Euronewsによれば、両国の政府・産業界の代表は2027年春に会合する予定で、現時点で特定のAIシステム、計画、予算は公表されていない。声明は「2027年を通じてこの勢いを維持する」よう両国の担当部局に指示したとも記す。2024年10月の協定締結以来、ドイツ企業は英国の防衛産業に8億ポンド（約9.56億ユーロ）を投じており、ミュンヘンのHelsingはプリマスでAI搭載の水中グライダーを製造する工場を開いた。"
+          ],
+          "paragraphs_en": [
+            "The statement's AI content runs to two sentences: 'Recognising the speed of development in this domain, we will expand the Trinity House Agreement's Cyber Lighthouse Project to incorporate Artificial Intelligence,' and 'Through collaboration on a small number of shared military use cases, we will deepen bilateral cooperation in capability development, experimentation and adoption.' Writing in the Frankfurter Allgemeine Zeitung before the talks, Streeting said that 'through joint testing, development and ultimately the introduction of AI in our armed forces we will deepen our cooperation and keep pace with those who seek to harm us.'",
+            "According to Euronews, government and industry representatives from both countries are due to meet in spring 2027, and no specific AI systems, programmes or budgets have yet been announced. The statement also directs officials 'to maintain this momentum through 2027.' Since the agreement was signed in October 2024, German companies have committed £800 million (about €956 million) to the UK defence industry, including Helsing's Plymouth factory building AI-enabled underwater gliders."
+          ]
+        },
+        {
+          "heading_ja": "2,000km超の長距離打撃と無人システムの並走",
+          "heading_en": "Deep precision strike beyond 2,000 km, with uncrewed systems alongside",
+          "paragraphs_ja": [
+            "声明の中心は射程2,000kmを超える「長距離精密打撃（DPS）」能力を10年以内に実現する「画期的な計画」であり、AIはその横に置かれた新規項目である。陸上では「将来能力と無人システムの協力を探る」とし、航空では二国間「フライト・プラン」に「将来の無人・協調戦闘能力」を含めた。海洋ではスティングレイ魚雷の調達に関する実施取決めに同日署名し、ドイツのP-8A哨戒機が英ロシーマス基地から演習に参加した実績を挙げた。宇宙協力の深化は先月の首脳合意を受けたものである。両国はウクライナ防衛連絡グループの共同議長を務め、「有志連合」の安全の保証にも言及した。"
+          ],
+          "paragraphs_en": [
+            "The centrepiece of the statement is a 'landmark project' to deliver Deep Precision Strike capabilities with ranges over 2,000 km within the decade; AI sits beside it as a new line. On land the two sides will 'explore cooperation on future capabilities and uncrewed systems,' and in the air the bilateral 'Flight Plan' includes 'future uncrewed and collaborative combat capabilities.' At sea, an Implementing Arrangement on Sting Ray torpedo procurement was signed the same day, and German P-8A aircraft flew from RAF Lossiemouth on exercises. Deeper space cooperation follows last month's leaders' agreement. The two countries co-chair the Ukraine Defence Contact Group and referred to the 'Coalition of the Willing' security guarantees."
+          ]
+        },
+        {
+          "heading_ja": "二国間枢軸で先行する欧州のAI実装",
+          "heading_en": "Bilateral axes as the fast lane for AI adoption in Europe",
+          "paragraphs_ja": [
+            "サイバー灯台は2024年の協定で情報共有と演習を目的に設けられた枠組みで、そこへAIを載せる選択は、NATOや欧州連合の合意形成を待たずに二国間で実験と導入を進める経路を選んだことを意味する。ユースケースを「少数」に絞る書き方は、汎用的なAI戦略よりも、標的識別や兵站など特定の機能で相互運用可能な成果を出す狙いを示している。英国が9月に米国と結んだAI・自律性の防衛協力と並び、英国を軸とする二国間の重層構造が欧州の軍事AI実装の前線を形づくりつつある。"
+          ],
+          "paragraphs_en": [
+            "Cyber Lighthouse was created under the 2024 agreement for information sharing and exercises; grafting AI onto it chooses a path of bilateral experimentation and adoption that does not wait for consensus in NATO or the EU. Limiting the scope to a 'small number' of use cases points to interoperable results in specific functions such as target recognition or logistics rather than a general AI strategy. Together with the UK–US defence AI and autonomy partnership of September, a layered set of UK-centred bilateral arrangements is forming the front line of military AI adoption in Europe."
+          ]
+        }
+      ],
+      "watch_next_ja": "2027年春の英独官民会合で示される具体的ユースケースと予算。英国の国防投資計画（Defence Investment Plan）におけるAI項目の配分。NATO Edge（11月17〜19日）でのNCIA統合サイバー防衛センターとの接続。",
+      "watch_next_en": "The use cases and budgets set out at the spring 2027 UK–Germany government-industry meeting; AI allocations in the UK Defence Investment Plan; links to NCIA's Integrated Cyber Defence Centre at NATO Edge (17–19 November).",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "announced",
+      "publisher": "英国国防省・ドイツ連邦国防省",
+      "publisher_en": "UK Ministry of Defence / German Federal Ministry of Defence",
+      "sources": [
+        {
+          "title": "UK Germany Defence Ministerial Council Joint Statement",
+          "url": "https://www.gov.uk/government/news/uk-germany-defence-ministerial-council-joint-statement--2",
+          "publisher": "UK Ministry of Defence",
+          "date": "2026-11-02",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "UK and Germany to jointly develop military AI",
+          "url": "https://www.euronews.com/2026/11/02/uk-and-germany-to-jointly-develop-military-ai-in-2027",
+          "publisher": "Euronews",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "cyber-ci"
+      ],
+      "actors": [
+        "GB",
+        "EU"
+      ],
+      "doc_type": "declaration",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米国防次官、科学技術革新委員会に機密ネットワークへの商用AI・クラウド導入の研究を指示　結論は12か月以内",
+      "title_en": "US under secretary tasks the Science, Technology and Innovation Board with a study of commercial AI and cloud on classified networks, due in twelve months with options on rules and organisation",
+      "lead_ja": "エミル・マイケル米国防次官（研究・工学担当）は10月27日付の覚書で、国防省の科学技術革新委員会（STIB）に対し、商用AIとクラウドサービスを機密ネットワークへ導入する方法と、デジタルソリューション工学・ソフトウェア提供の組織の在り方を研究するよう指示した。覚書は10月30日に公開され、3日に報道された。研究は11月26日までに開始し、延長がなければ12か月以内に終える。",
+      "lead_en": "In a memo dated 27 October, Under Secretary of Defense for Research and Engineering Emil Michael directed the Pentagon's Science, Technology and Innovation Board (STIB) to study how the department can adopt commercial AI and cloud services on classified networks, and how it should organise digital solutions engineering and software delivery. The memo was published on 30 October and reported on 3 November. The study is to begin by 26 November and conclude within twelve months unless extended.",
+      "sections": [
+        {
+          "heading_ja": "研究の問い：共通の認可、調達規則、小企業の障壁",
+          "heading_en": "The questions: common authorisations, procurement rules, barriers to small firms",
+          "paragraphs_ja": [
+            "研究は委員会の国家安全保障イノベーション常設小委員会が担う。覚書が挙げる論点は、共通のセキュリティ認可の実現可能性、国防連邦調達規則補足（DFARS）と財務管理規則がこうした購入を支えているか、小企業と非伝統的契約者にとっての障壁、ベンダーの認可・ネットワークアクセス・施設とインフラの要件、そしてベンダーが機密環境を横断して顧客データにどうアクセスするかである。根拠は2026年度国防授権法第907条とされる。",
+            "問いの立て方は、機密網でのAI利用を妨げているのがモデルの性能よりも認可と契約の制度だという認識を映している。とりわけ「ベンダーの顧客データへのアクセス」を正面から問う点は、商用AI企業が機密環境で学習や運用のためにデータへ触れる条件をどう定めるかという、利用条件の対立の核心に触れている。"
+          ],
+          "paragraphs_en": [
+            "The study falls to the board's Permanent Subcommittee on National Security Innovation. The memo's questions cover the feasibility of common security authorisations; whether the DFARS and the Financial Management Regulation support such purchases; barriers facing small businesses and nontraditional contractors; vendor authorisation, network access, facility and infrastructure requirements; and how vendors access customer data across classified environments. The authority cited is Section 907 of the FY2026 NDAA.",
+            "The framing reflects a judgment that what holds back AI on classified networks is the regime of authorisation and contracting rather than model performance. The explicit question of vendor access to customer data goes to the heart of the dispute over usage terms: the conditions under which commercial AI firms touch data in classified environments for training or operations."
+          ]
+        },
+        {
+          "heading_ja": "組織の選択肢と「硬直した構造」への警告",
+          "heading_en": "Organisational options and a warning against 'hidebound' structures",
+          "paragraphs_ja": [
+            "覚書は組織面で4つの選択肢を検討対象とする。新たな国防機関または現場活動組織の設立、既存組織への機能統合、既存の幕僚組織への開発機能の集約、現行構造の改善である。「過度に縦割りで、階層的で、煩雑な手続きに縛られた組織構造」は「この要請に応えられないことが明らかになりうる」と記し、1月に国防省のイノベーション関連組織の監督をマイケル次官の下に集約した再編の延長線にある。国防省は5月以降、複数のAI・クラウド企業と機密ネットワーク向けの合意を公表してきたが、個別契約の積み上げを制度へ置き換える作業はこれからである。"
+          ],
+          "paragraphs_en": [
+            "On organisation, the memo puts four options on the table: a new defence agency or field activity, integrating functions into an existing organisation, consolidating development within existing staff organisations, or improving current structures. It warns that 'organizational structures that are excessively siloed, hierarchical, or hidebound by cumbersome processes' may 'prove unequal to this imperative,' extending January's realignment that centralised oversight of the department's innovation offices under Michael. Since May the department has announced agreements with several AI and cloud companies for classified networks; turning that stack of individual deals into an institution is the work still ahead."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月26日までの研究開始と小委員会の構成の公表。2027年度国防授権法協議（11月9日の議会再開後）での機密網AI条項。GenAI.milと機密ネットワークへの追加モデル承認。",
+      "watch_next_en": "The study's start by 26 November and the subcommittee's membership; classified-network AI provisions in FY2027 NDAA talks after Congress returns on 9 November; further model approvals for GenAI.mil and classified networks.",
+      "japan_relevance": false,
+      "date": "2026-10-30",
+      "stage": "announced",
+      "publisher": "米国防省（研究・工学担当国防次官）",
+      "publisher_en": "US Department of Defense (USD R&E)",
+      "sources": [
+        {
+          "title": "Terms of Reference: Digital Solutions and Software-as-a-Service study (signed Oct 2026)",
+          "url": "https://stib.cto.mil/wp-content/uploads/2026/11/ToR_DS-SaaS_Signed_Oct2026.pdf",
+          "publisher": "Science, Technology and Innovation Board",
+          "date": "2026-10-30",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "Pentagon Orders Review of Commercial AI, Cloud on Classified Networks",
+          "url": "https://www.meritalk.com/articles/pentagon-orders-review-of-commercial-ai-cloud-on-classified-networks/",
+          "publisher": "MeriTalk",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "The INSIDER daily digest -- November 3, 2026",
+          "url": "https://insidedefense.com/insider/insider-daily-digest-november-3-2026",
+          "publisher": "Inside Defense",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-07",
+      "rank": 7,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Binance、63億ドル流出の経緯を公表　偽の採用面接で感染した端末と社内AIツールを踏み台に、署名系統へ到達",
+      "title_en": "Binance publishes how $6.3 billion was taken: a laptop infected through a fake job interview and an internal AI tool served as the springboard to the signing systems",
+      "lead_ja": "Binanceは3日、約63.4億ドルが流出した侵害の初期報告を公表し、6月の改ざんされた開発ツールの導入と9月の偽の採用面接を起点に、10月20日に社内AIツールを使って別の技術者2人の端末を掌握し、約9日後にコンテナ展開権限を使って署名系統へ到達する不正取引を実行したと説明した。FBIは10月31日に北朝鮮のTraderTraitorの犯行と判定し、北朝鮮側は2日に「重大な政治的挑発」と反発した。",
+      "lead_en": "On 3 November Binance published an initial incident report on the breach in which about $6.34 billion was taken. It traces the campaign from a tampered developer tool in June and a fake recruitment process in September, through the use of an internal AI tool on 20 October to take control of two more engineers' devices, to the deployment of a container about nine days later that reached the wallet-signing systems and authorised the transactions. The FBI attributed the attack to North Korea's TraderTraitor on 31 October; Pyongyang called the claim a 'grave political provocation' on 2 November.",
+      "sections": [
+        {
+          "heading_ja": "6月の初期侵入から10月末の資金移動まで",
+          "heading_en": "From a June foothold to the late-October transfers",
+          "paragraphs_ja": [
+            "報告によれば、攻撃者は6月にウォレットのDevOps技術者を狙い、AIコーディングツールの導入時に改ざんされたHomebrewインストーラーを取り込ませた。Binanceは異常を検知して端末を交換し資格情報を更新したが、この露出で技術者の役割と同僚が攻撃者に知られた。9月には別の従業員が「会社の幹部を装った不正な採用プロセス」で悪意あるコーディング課題をダウンロードし、業務用端末が感染した。",
+            "10月20日、攻撃者はこの感染端末と社内AIツールを使って別の技術者2人の端末を掌握し、一方でコンテナ展開権限を見つけた。約9日後、盗んだ資格情報でコンテナを展開し、悪意あるスクリプトがウォレット署名システムに到達して不正取引を承認させた。Binanceは約28.5億ドルを凍結または差し押さえ、被害資産の98%を補填したと述べ、3日04時（UTC）から段階的に出金を再開した。"
+          ],
+          "paragraphs_en": [
+            "According to the report, the attackers first targeted a Wallet DevOps engineer in June through a tampered Homebrew installation downloaded while installing an AI coding tool. Binance detected the anomaly, replaced the device and rotated credentials, but the exposure revealed the engineer's role and colleagues. In September another employee was lured through 'a fraudulent recruitment process, posing as company executives' into downloading a malicious coding assignment that infected his work computer.",
+            "On 20 October the attackers used that compromised machine and an internal AI tool to take control of two other engineers' devices, finding a container deployment permission on one. About nine days later they used the stolen credentials to deploy a container whose malicious script reached the wallet-signing systems and authorised the transactions. Binance says it has frozen or intercepted about $2.85 billion, replenished 98% of affected assets and reopened withdrawals in phases from 04:00 UTC on 3 November."
+          ]
+        },
+        {
+          "heading_ja": "社内AIツールが横展開の道具になった",
+          "heading_en": "An internal AI tool became the instrument of lateral movement",
+          "paragraphs_ja": [
+            "Binanceは手口を「偽の採用面接によるソーシャルエンジニアリング、悪意あるソフトウェアのダウンロード、侵害された社内AIツール、端末の掌握、そして高度な取引承認手法」の組み合わせと総括した。AIツールの正体と悪用の仕組みは公表されていないが、感染端末から他の技術者の端末へ到達する経路として機能した点は、業務支援のAIが持つ横断的なアクセス権限が攻撃面になることを示す。対策として、新環境でのウォレット系統の再構築、社内AIツールとアクセス制御の再設計、端末の交換、関係する資格情報とトークンの廃止、AIによる行動異常検知の拡充、独立したセキュリティレビューの委託を挙げた。",
+            "テン共同CEOは「これは一つのミスや一つの侵害にとどまらず、数か月にわたる作戦だった」と述べ、「教訓はBinanceの枠を超えるため全報告を公表する」とした。同社は2026年に北朝鮮関連とみられる攻撃57件を検知・阻止したとも説明している。"
+          ],
+          "paragraphs_en": [
+            "Binance summarised the methods as 'social engineering by fake recruitment interviews, malicious software downloads, compromised internal AI tooling, endpoint compromise and an advanced transaction-authorisation method.' It has not disclosed what the AI tool was or how it was abused, but its role as the path from one infected device to other engineers' machines shows how the cross-cutting access of workplace AI becomes an attack surface. Remediation includes rebuilding the wallet system in a new environment, redesigning internal AI tools and access controls, replacing devices, decommissioning related credentials and tokens, expanding AI-based behavioural anomaly detection and commissioning an independent security review.",
+            "Co-CEO Richard Teng said 'this wasn't one mistake or one breach — it was a months-long campaign,' and that the company was publishing the full report 'because the lessons go far beyond Binance.' Binance also said it detected and prevented 57 suspected North Korea-linked attacks in 2026."
+          ]
+        },
+        {
+          "heading_ja": "FBIの帰属判定と北朝鮮の否定",
+          "heading_en": "The FBI's attribution and Pyongyang's denial",
+          "paragraphs_ja": [
+            "FBIは10月31日、北朝鮮の国家支援集団TraderTraitorによる犯行と判定し、実行者が盗んだ資産をイーサに換えているのを法執行機関が観測したとして、関連技術を通じた更なる資金洗浄を予想した。北朝鮮側は2日、金正恩総書記の妹である金与正氏がFBIの主張を「重大な政治的挑発」と呼んで否定し、中国外交部も同日「状況を把握していない」と距離を置いた。帰属はFBIの判定と民間の追跡（TRM Labs）に依拠し、北朝鮮の否定と並置される段階にある。"
+          ],
+          "paragraphs_en": [
+            "On 31 October the FBI attributed the attack to TraderTraitor, a North Korean state-sponsored unit, saying law enforcement had observed the perpetrators converting stolen assets into ether and expecting further laundering through related technology. On 2 November Kim Yo Jong, sister of Kim Jong Un, rejected the FBI's claims as a 'grave political provocation,' and China's foreign ministry said the same day it was not aware of the situation. Attribution rests on the FBI's finding and private tracing (TRM Labs), set against Pyongyang's denial."
+          ]
+        }
+      ],
+      "watch_next_ja": "Binanceの全報告書と独立レビューの公表時期。FBI・財務省OFACによる追加の指定や資金凍結。社内AIツールの悪用手法に関する技術的詳細の開示。",
+      "watch_next_en": "Timing of Binance's full report and the independent review; further FBI or Treasury OFAC designations and asset freezes; technical disclosure of how the internal AI tool was abused.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "",
+      "publisher": "Binance／FBI",
+      "publisher_en": "Binance / FBI",
+      "sources": [
+        {
+          "title": "Binance initial incident report (X post)",
+          "url": "https://x.com/binance/status/2117626126214504729",
+          "publisher": "Binance",
+          "date": "2026-11-03",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "Binance says hackers used fake job interview, internal AI tool in $6.3 billion breach",
+          "url": "https://www.theblock.co/news/business/2026-11-03-binance-hack-incident-report-north-korea-fake-job-interview-ai-tool-432406",
+          "publisher": "The Block",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Binance says fake job interviews and internal AI tool used in $6.3bn heist",
+          "url": "https://www.thenationalnews.com/business/money/2026/11/03/binance-says-fake-job-interviews-and-internal-ai-tool-used-in-63bn-heist/",
+          "publisher": "The National",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261103-19"
+    },
+    {
+      "id": "cl-20261104-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "プーチン大統領、民間データセンターに容量の10%を国家向けに確保させる大統領令　ウクライナの無人機攻撃を受けた「緊急措置」",
+      "title_en": "Putin orders private data centres to reserve 10% of capacity for the state, an 'urgent measure' after Ukrainian drone strikes",
+      "brief_text_ja": "プーチン大統領は2日、「ロシアにおける情報資源の運用を支える措置」に関する大統領令に署名し、民間データセンターの所有者に空間と容量の10%を国家の必要に備えて確保するよう義務づけた。特別政府委員会が必要と判断した場合に使用し、連邦保安庁の同意があれば国外のデータセンターの利用も認める内容で、「一部の外国の非友好的行為に対する緊急措置の必要」を理由とし、所有者には10日の履行期限が課された。ウクライナは10月にヤンデックス、Sber、VKのデータセンターを無人機で攻撃しており、ロシアのデジタル発展省は無人機防御を備えた地下データセンターを提案している。",
+      "brief_text_en": "On 2 November President Putin signed a decree 'on measures to support the operation of information resources in Russia' requiring owners of private data centres to reserve 10% of their space and capacity for state needs. A special government commission decides when to use it, and with the FSB's consent may authorise use of data centres abroad; the decree cites 'the need to take urgent measures in response to unfriendly actions by certain foreign states' and gives owners ten days to comply. Ukrainian drones struck Yandex, Sber and VK data centres in October, and Russia's digital development ministry has proposed underground data centres with drone defences.",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "",
+      "publisher": "ロシア大統領府",
+      "publisher_en": "Kremlin",
+      "sources": [
+        {
+          "title": "Putin orders private data centers in Russia to reserve 10% of their capacity for the state",
+          "url": "https://meduza.io/en/news/2026/11/02/putin-orders-private-data-center-owners-to-reserve-10-of-capacity-for-the-state",
+          "publisher": "Meduza",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Putin orders Russian data centers to reserve capacity to assist state IT infrastructure",
+          "url": "https://kyivindependent.com/putin-orders-russian-data-centers-to-reserve-capacity-to-assist-state-it-infrastructure/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Указ Президента Российской Федерации (publication.pravo.gov.ru 0001202611020038)",
+          "url": "http://publication.pravo.gov.ru/document/0001202611020038",
+          "publisher": "Official Internet Portal of Legal Information (Russia)",
+          "date": "2026-11-02",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "compute-export"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "小泉防衛相、都内の講演で防衛省のAI活用推進基本方針を見直す考えを改めて表明　先端技術の急速な進展を理由に",
+      "title_en": "Koizumi, speaking in Tokyo, reiterates plan to review the MoD's basic policy on AI use, citing the pace of advanced technology",
+      "brief_text_ja": "小泉防衛相は3日、東京都内で講演し、安全保障分野でAIをはじめとした先端技術の領域が急速に進んでいるとして、防衛省が2024年7月に定めた「防衛省AI活用推進基本方針」を見直す考えを示した。同氏は10月19日の参院予算委員会で見直しに際し「AIに単独で判断させず、人間の判断を介在させることが重要」と述べ、翌20日の会見では意思決定の速度が「バトルリズム」を変えているとして、年内を目途とする安保3文書改定の議論を踏まえて見直すと説明していた。同日の講演では非核三原則をめぐり「議論の環境づくりが重要」とも述べたと共同通信が伝えている。",
+      "brief_text_en": "Speaking in Tokyo on 3 November, Defence Minister Koizumi Shinjiro said that advanced technologies including AI are advancing rapidly in the security field and that the Ministry of Defense's July 2024 basic policy on promoting AI use would be reviewed. On 19 October he had told the upper house budget committee that any review must keep human judgment in the loop rather than letting AI decide alone, and at his 20 October press conference he said faster decision-making was changing the 'battle rhythm' and that the review would track the revision of the three security documents due by year-end. Kyodo reports that in the same speech he called it important to create an environment for debate on the three non-nuclear principles.",
+      "japan_relevance": true,
+      "date": "2026-11-03",
+      "stage": "",
+      "publisher": "防衛省（小泉防衛相講演、NHK・共同通信経由）",
+      "publisher_en": "Ministry of Defense (minister's speech, via NHK and Kyodo)",
+      "sources": [
+        {
+          "title": "小泉防衛相 防衛省のAI活用に関する基本方針見直す考え",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261103de70050",
+          "publisher": "NHK",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "防衛相「議論の環境づくり重要」 非核三原則巡り",
+          "url": "https://www.tokyo-np.co.jp/article/525812",
+          "publisher": "共同通信（東京新聞）",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "小泉大臣、防衛省の“AI基本方針”の見直し検討へ",
+          "url": "https://news.cube-soft.jp/article/4108111",
+          "publisher": "TBS NEWS DIG",
+          "date": "2026-10-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "governance-norms"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "監視団体3団体、マスク・ラッキーらが率いる国防長官の「未来の戦争」パネルの停止を連邦地裁に申立て",
+      "title_en": "Three watchdogs ask a federal court to halt Hegseth's 'future of warfare' panel led by Musk, Luckey and Gingrich, alleging FACA violations",
+      "brief_text_ja": "CREW、Public Citizen、POGOの3団体は2日、ワシントンの連邦地裁に国防省、ヘグセス長官、マイケル国防次官を相手に提訴し、9月30日の長官覚書で設置された「プロジェクト・メリディアン」の停止を求めた。訴状はパネルの参加者21人のうち19人が民間人で、政府側はマイケル次官と空軍主任科学者のビクトリア・コールマン氏のみだとし、憲章・公開告知・記録公開・「公正な均衡」を求める連邦諮問委員会法に反する違法な諮問委員会だと主張する。パネルはMITREを事務局とし、2027年1月28日までに最大30ページの報告と機密付属書を出す予定で、国防省とMITREは取材に回答していない。",
+      "brief_text_en": "On 2 November CREW, Public Citizen and POGO sued the Department of Defense, Secretary Hegseth and Under Secretary Emil Michael in federal court in Washington, seeking to shut down 'Project Meridian', the panel created by a 30 September memo. The complaint says 19 of 21 participants are from the private sector, with Michael and Air Force chief scientist Victoria Coleman the only government members, and that the body is an unlawful advisory committee under the Federal Advisory Committee Act, which requires a charter, public notice, available records and a 'fairly balanced' membership. The panel, run with MITRE, is due to deliver a report of up to 30 pages plus classified annexes by 28 January 2027; the Pentagon and MITRE did not respond to requests for comment.",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "",
+      "publisher": "CREW・Public Citizen・POGO（連邦地裁への訴状）",
+      "publisher_en": "CREW, Public Citizen and POGO (complaint in federal court)",
+      "sources": [
+        {
+          "title": "Hegseth's 'Future of Warfare' Panel Stacked With Contractors Who Stand to Profit: Lawsuit",
+          "url": "https://www.military.com/hegseths-future-of-warfare-panel-is-stacked-with-contractors-who-stand-to-profit-lawsuit-says",
+          "publisher": "Military.com",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "CREW v. Hegseth — Complaint (redacted)",
+          "url": "https://www.citizensforethics.org/wp-content/uploads/2026/11/CREW-v-Hegseth-Complaint_Redacted.pdf",
+          "publisher": "Citizens for Responsibility and Ethics in Washington",
+          "date": "2026-11-02",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "KNDSとSeaOwl、海上徘徊弾を搭載する無人水上艇の共同開発でユーロナバルで提携　交戦判断は操作員に限定",
+      "title_en": "KNDS and SeaOwl team at Euronaval on a surface drone with a next-generation naval loitering munition; final engagement decision rests with the remote operator",
+      "brief_text_ja": "KNDSとフランスのSeaOwl Technology Solutionsは3日、パリ郊外のユーロナバル2026で、KNDSが開発した認証済み弾頭を統合する無人水上艇（USV）の開発・試験に関する戦略協力協定を発表した。公表仕様は最大35ノット、搭載30kg、戦闘行動半径200kmで、レーダー・光学の低シグネチャとサイバー防護された射撃系統を備え、「争われた海域を自律的に航行する一方で、システムは厳格かつ継続的な人間の管理を保証し、交戦と射撃の最終決定は遠隔操作員にのみ属する」とする。KNDSは弾薬の設計・安全・認証、SeaOwlは海洋ロボティクスと自律航法・遠隔運用を担い、生産時期や契約額は示されていない。",
+      "brief_text_en": "On 3 November at Euronaval 2026 outside Paris, KNDS and France's SeaOwl Technology Solutions announced a strategic cooperation agreement to develop and test an unmanned surface vehicle integrating a qualified warhead developed by KNDS. Stated specifications are a top speed of 35 knots, a 30 kg payload and a combat range of up to 200 km, with reduced radar and optical signatures and a cyber-secured firing chain; the vessel is to navigate 'autonomously and seamlessly in contested areas, while the system guarantees strict and continuous human control,' with the final decision to engage and fire resting 'exclusively with the remote operator.' KNDS brings munition design, safety and qualification; SeaOwl brings maritime robotics, autonomous navigation and remote operation. No production timeline or contract value was given.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "announced",
+      "publisher": "KNDS N.V.",
+      "publisher_en": "KNDS N.V.",
+      "sources": [
+        {
+          "title": "EURONAVAL 2026: KNDS and SeaOwl partner to develop a surface drone equipped with a next-generation naval loitering munition",
+          "url": "https://www.webdisclosure.com/press-release/knds-nv-etr-euronaval-2026-knds-and-seaowl-partner-to-develop-a-surface-drone-equipped-with-a-next-generation-naval-loitering-munition-aFk56GkTswc",
+          "publisher": "KNDS N.V. (EQS/WebDisclosure)",
+          "date": "2026-11-03",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Euronaval 2026 Opens in Paris as France Unveils Naval Technology for Future High-Intensity Warfare",
+          "url": "https://defencematters.eu/euronaval-2026-opens-in-paris-as-france-unveils-naval-technology/",
+          "publisher": "Defence Matters",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Naval Group、無人機母艦と指揮艦を兼ねる2040年代向けコンセプト艦SCX 26を公開　レールガンとレーザーを搭載",
+      "title_en": "Naval Group unveils SCX 26, a 2040s concept combining drone carrier and command ship, with a railgun, a 100 kW laser and over 100 VLS cells",
+      "brief_text_ja": "Naval Groupは3日、ユーロナバルで次世代戦闘艦のコンセプト「SCX 26」を発表した。全長170m、満載1万トン、速力30ノット、航続8,000海里超で、電磁レールガン、100kWレーザー、艦首尾に100セルを超える垂直発射装置を備え、ミサイル駆逐艦、無人機母艦、空中・水上・水中プラットフォームの指揮センターの役割を兼ねる構想であり、船体後部約3分の1を無人機の格納・整備区画として大型エレベーターで飛行甲板と結び、艦上3Dプリンターでの部品製造も想定する。乗員約150人に加え幕僚と無人機操作員など最大100人を収容し、同社は2040年代の技術を狙う研究開発構想で「量産への移行を伴わない」と説明している。",
+      "brief_text_en": "On 3 November at Euronaval, Naval Group presented SCX 26, a concept for a next-generation combat ship: 170 m long, about 10,000 tonnes at full load, 30 knots and a range of over 8,000 nautical miles, armed with an electromagnetic railgun, a 100 kW laser and more than 100 vertical launch cells fore and aft, and intended to combine the roles of missile destroyer, drone carrier and command centre for air, surface and underwater platforms. Roughly the aft third of the hull is a hangar for storing and maintaining drones, linked to the flight deck by a large elevator, with on-board 3D printing of drone parts envisaged. The ship would carry about 150 sailors plus up to 100 staff officers and drone operators; the company describes it as an R&D initiative aimed at 2040s technology that 'does not currently entail a mandatory transition to serial production.'",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "",
+      "publisher": "Naval Group",
+      "publisher_en": "Naval Group",
+      "sources": [
+        {
+          "title": "Two Superstructures, Railgun, and Drones: Naval Group Unveils the SCX 26",
+          "url": "https://militarnyi.com/en/news/railgun-drones-naval-group-unveils-scx-26/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "c2-decision"
+      ],
+      "actors": [
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ノルウェー、ロシア国境のキルケネスにNASAMSセンサーを運用する30人の新部隊　迷い込む無人機の探知を目的とする予防措置",
+      "title_en": "Norway stands up a 30-strong unit operating NASAMS sensors at Kirkenes on the Russian border as a precaution against stray drones",
+      "brief_text_ja": "ノルウェーのサンドビク国防相は3日、キルケネスの国境警備レンジャー大隊（GSV）にNASAMSのセンサーを運用する特別部隊を新設し、30人の隊員が対ロシア国境沿いの航空監視を強化すると発表した。同相は「他国で無人機が迷い込む事例を見てきた。ノルウェーはこれを深刻に受け止める」と述べる一方、「現時点でノルウェーやフィンマルクの住民に対する航空脅威の高まりは見ていない」として予防措置と位置づけ、脅威度は変わらないとした。トロムス・フィンマルク県知事はロシアのGPS妨害でコラ半島を狙うウクライナの無人機がノルウェー側に逸れる可能性を挙げてそのリスクを「非常に低い」と評価しており、センサーの型式や数、費用は公表されていない。",
+      "brief_text_en": "Norwegian Defence Minister Tore O. Sandvik announced on 3 November a new special unit within the Ranger Battalion GSV at Kirkenes to operate NASAMS sensors, with 30 personnel strengthening air surveillance along the border with Russia. 'We have seen in other countries that drones can go astray. This is something Norway takes seriously,' he said, while adding that 'we do not currently see an elevated air threat to Norway or the population of Finnmark'; the deployment is described as preventative and the threat level unchanged. The County Governor of Troms and Finnmark noted that Ukrainian drones aimed at the Kola Peninsula could drift into Norway because of Russian GPS jamming, rating the risk 'very low'. Sensor type, numbers and cost were not disclosed.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "fielded",
+      "publisher": "ノルウェー国防省",
+      "publisher_en": "Norwegian Ministry of Defence",
+      "sources": [
+        {
+          "title": "NASAMS sensors to be deployed along Norway's border with Russia",
+          "url": "https://www.thebarentsobserver.com/security/nasams-sensors-to-be-deployed-along-norways-border-with-russia/461203",
+          "publisher": "The Barents Observer",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Norway deploys additional air defense sensors, troops near Russia border",
+          "url": "https://kyivindependent.com/norway-deploys-additional-air-defense-sensors-troops-near-russia-border/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "NATO",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261104-14",
+      "rank": 14,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Shield AI、垂直離着陸ジェット無人機X-BATの初号試作機の組立てを完了　テキサスからカンザスへ移して飛行試験へ",
+      "title_en": "Shield AI completes assembly of the first X-BAT VTOL jet prototype, moving it from Texas to Kansas for flight testing",
+      "brief_text_ja": "Shield AIは3日、レール発射と垂直離着陸の両方に対応する単発ジェット無人機X-BATの初号試作機の組立てを、テキサス州フリスコのX-Forge 1施設で完了したと発表した。機体はカンザス州へ移送して飛行試験に入り、同社は試験を支えるため試作機3機を製造する計画である。垂直離着陸試験の開始時期、性能、顧客に関する詳細は確認できていない。",
+      "brief_text_en": "Shield AI said on 3 November that it had completed assembly of the first prototype of X-BAT, a single-engine jet drone designed for both rail launch and vertical take-off and landing, at its X-Forge 1 site in Frisco, Texas. The aircraft moves to Kansas for flight testing, and the company plans three prototypes to support the test campaign. Details of the VTOL test schedule, performance and customers could not be confirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-03",
+      "stage": "announced",
+      "publisher": "Shield AI",
+      "publisher_en": "Shield AI",
+      "sources": [
+        {
+          "title": "Shield AI completes assembly of first X-Bat prototype",
+          "url": "https://www.flightglobal.com/defence/2026/11/shield-ai-completes-assembly-of-first-x-bat-prototype/",
+          "publisher": "FlightGlobal",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Shield AI to begin VTOL testing on first X-BAT prototype",
+          "url": "https://insidedefense.com/ai-news/shield-ai-begin-vtol-testing-first-x-bat-prototype",
+          "publisher": "Inside Defense",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-06",
+      "text_ja": "ユーロナバル2026（パリ・ヴィルパント、3〜6日）閉幕。仏DGAの自律水上艇計画DANAÉとUCUVの展示を含む",
+      "text_en": "Euronaval 2026 (Paris-Villepinte, 3–6 November) closes, including DGA's DANAÉ armed autonomous surface vessel programme and the UCUV"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "GMOのFX不正損失の補償手続きの公表期限、見舞金・補償の申請期限",
+      "text_en": "GMO's deadline to publish compensation procedures for FX fraud losses; deadline for condolence-payment and compensation claims"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "米海軍SSN(X)の「Super Intelligence」事前公告への関心表明の期限",
+      "text_en": "Deadline for expressions of interest under NAVSEA's SSN(X) 'Super Intelligence' presolicitation"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "国連総会第1委員会の会期終了。LAWS・軍事AI決議は12月の総会本会議で最終採択",
+      "text_en": "UNGA First Committee session ends; the LAWS and military-AI resolutions go to the December plenary"
+    },
+    {
+      "date": "2026-11-06",
+      "text_ja": "日本政府のサイバー攻撃「緊急対策パッケージ」の取りまとめ（11月第1週を目途、日付は見込み）",
+      "text_en": "Japan's emergency package of measures against cyber attacks (targeted for the first week of November; date indicative)"
+    },
+    {
+      "date": "2026-11-09",
+      "text_ja": "NATO通信情報局（NCIA）のNATO統合サイバー防衛センター技術基盤に関する情報提供依頼の回答期限",
+      "text_en": "Deadline for responses to NCIA's RFI on the NATO Integrated Cyber Defence Centre technology pillar"
+    },
+    {
+      "date": "2026-11-09",
+      "text_ja": "米議会が中間選挙後の会期を再開。2027年度NDAAの協議と、ヘグセス長官の弾劾決議の採決が見込まれる",
+      "text_en": "US Congress returns for the lame-duck session; FY2027 NDAA talks and an expected House vote on impeaching Defense Secretary Hegseth"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限",
+      "text_en": "Deadline for five frontier-AI companies to answer the House Democratic ranking members' letter"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "Anthropicの2026年版利用規約（無人機等の誘導・制御ソフトの禁止を明記）の発効",
+      "text_en": "Anthropic's 2026 Usage Policy, which explicitly bars guidance and control software for drones and other autonomous vehicles, takes effect"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "MITREによる「プロジェクト・メリディアン」（未来の戦争パネル）向けアイデア募集の締切",
+      "text_en": "Deadline for MITRE's call for future-of-warfare ideas for Project Meridian"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "GMOグローバルサインの設定ミスに関する個人情報保護委員会への最終報告",
+      "text_en": "GMO GlobalSign's final report to the Personal Information Protection Commission on the Trust Login misconfiguration"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "UVID Dronetech 2026（テルアビブ）。自律無人機の法的・倫理的論点を含む",
+      "text_en": "UVID Dronetech 2026 (Tel Aviv), including legal and ethical issues of lethal autonomous drones"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "防衛装備庁のUAV用弾頭信管に関する情報提供企業募集の意思表明書提出期限（17時）",
+      "text_en": "Deadline (17:00 JST) for letters of intent under ATLA's RFI on UAV warhead fuzes"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "米下院民主党20議員の書簡に対するOpenAIの回答期限",
+      "text_en": "OpenAI's deadline to answer the letter from twenty House Democrats"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と2028年期限の交渉マンデート案を審議",
+      "text_en": "CCW Seventh Review Conference (16–20 November, Geneva), considering the LAWS GGE final report and the draft negotiating mandate with a 2028 horizon"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）。マカティ市は11月中の無人機飛行を全面禁止",
+      "text_en": "49th ASEAN Summit and related summits (Manila, 16–18 November); Makati City bans all drone flights for the month"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, 17–19 November), including NCIA's industry workshop on the Integrated Cyber Defence Centre"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the Pentagon's STIB to begin its study of commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区と異機種無人機群の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 December), with a dedicated unmanned and counter-UAS zone and heterogeneous drone swarms announced"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, 8–11 December), five themes including drones and counter-drone"
+    },
+    {
+      "date": "2027-01-27",
+      "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）",
+      "text_en": "Deadline for US federal civilian agencies to remove Acronis software under the DHS order"
+    },
+    {
+      "date": "2027-01-28",
+      "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。最大30ページと機密付属書",
+      "text_en": "Project Meridian (the Defense Secretary's future-of-warfare panel) due to report: up to 30 pages plus classified annexes"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "対象期間は11月3日06:52〜11月4日15:00 JST（前号のgenerated_atから。本号の実行は定刻より遅れ、11月4日午後に行った）。米国（Driscoll人事はBreaking Defense・DefenseScoopで確認、OpenAI原文はopenai.comが取得不可。Saildrone判決はDroneXL・Ocean News・Defense Daily（有料で冒頭のみ）で確認、裁判所の意見書原文は未取得。STIB覚書はMeriTalkとInside Defense要約で確認、stib.cto.milのPDFは取得不可。Project Meridian訴訟はMilitary.comで確認、CREW訴状PDFは取得不可。Axiosの州の選挙防護記事、National DefenseのM&S戦略記事、FDD Overnight Brief、CNBCは取得不可。中間選挙当日のサイバー・AI関連の公式発表（CISA・FBI）は確認できず。Inside Defense経由でArmy自律突破無人機試験とMQ-9B/SAABレーダーの見出しのみ確認、本文は有料）、中国（外交部3日会見を原文で確認、Nvidia報道に「状況を把握していない」。国防部の定例会見なし。SCMPのHQ系列迎撃試験は本文未確認で不採用）、日本（小泉防衛相の3日講演はNHKのリードのみ確認、共同配信の東京新聞・Yahoo・北日本新聞はrobots拒否。産経の核をめぐる発言記事も取得不可。防衛省・装備庁・統幕・NSS・内閣官房の3日付（祝日）新規発表は確認できず。緊急対策パッケージは未公表のまま。GMOの続報なし）、韓国・北朝鮮（国防ドローン本部の続報はSBS英語版の論評のみで不採用。金与正の2日のFBI非難はThe Block経由で確認、朝鮮中央通信原文は未取得）、台湾（立法院経済委員会2日公聴会の輸出管理改正提案はTaiwan Newsで確認し第1項に統合。国防部の中国軍動態49機はTaipei Timesで確認、無人機の言及なしで不採用。AFPの台湾無人艇産業記事はHKFP・France24・Japan Timesいずれも取得不可）、欧州・NATO（英独共同声明はgov.uk原文で確認。KNDS発表はEQS原文で確認。Naval Group SCX 26はMilitarnyiのみ。ノルウェーはBarents Observerで確認、regjeringen.no原文は未取得。仏DGAのユーロナバル向けページは未取得）、英国（上記英独に統合。Defence Investment Planの新規発表なし）、ロシア・ウクライナ（空軍の2〜3日夜と3日昼の発表はInterfax-Ukraine・UNNで確認、pravda.com.uaとKyiv Independentの個別記事は取得不可。弾道17発はEspreso経由の媒体報道で空軍発表に含まれず。プーチン大統領令はMeduza・Kyiv Independentで確認、pravo.gov.ru原文は未取得。3〜4日夜の空軍発表は本号作成時点で未確認）、イスラエル・中東（新規なし。FDDは取得不可）、インド（新規なし）、豪州・ASEAN（新規なし）、国連・規範（第1委員会の3日の動きは未確認）、シンクタンク・arXiv（3日付の新規報告は確認できず）。",
+      "japan": "防衛省（3日は祝日で定例会見なし。小泉防衛相の都内講演はNHKリードで確認、講演の主催者・全文は未確認）、防衛装備庁（新規公募・RFIなし）、統合幕僚監部（未確認）、首相官邸・国家サイバー統括室（緊急対策パッケージは未公表）、個人情報保護委員会・経産省・外務省・総務省・AISI（新規なし）、国会審議（閉会中）、政党提言（該当なし）。Palantir CEOの日本防衛に関する発言（CommonWealth 11月3日）は取得不可で不採用。"
+    },
+    "dropped": [
+      {
+        "title": "Sea drone makers compete in Taiwan for soaring investment (AFP)",
+        "url": "https://hongkongfp.com/2026/11/03/sea-drone-makers-compete-in-taiwan-for-soaring-investment/",
+        "reason": "HKFP・France24・Japan Timesのいずれも本文を開けず、企業名・数値を確認できなかった"
+      },
+      {
+        "title": "States secure 2026 midterm vote after federal pullback (Axios)",
+        "url": "https://www.axios.com/2026/11/03/2026-election-security-states",
+        "reason": "本文を開けず。前号のCISA縮小報道の続報として扱える内容を確認できなかった"
+      },
+      {
+        "title": "Pentagon Studies Role of AI in New Modeling, Simulation Strategy (National Defense)",
+        "url": "https://www.nationaldefensemagazine.org/articles/2026/11/3/pentagon-studies-role-of-ai-in-new-modeling-simulation-strategy",
+        "reason": "ページ本文が空で、担当部署・発言者・日付を確認できなかった"
+      },
+      {
+        "title": "Palantir CEO Sees AI as Japan's Next Defense Advantage (CommonWealth)",
+        "url": "https://english.cw.com.tw/article/article.action?id=5100",
+        "reason": "本文を開けず、発言の場と文言を確認できなかった。前号のPalantir決算（cl-20261103-04）の派生でもある"
+      },
+      {
+        "title": "Heightened Chinese activity detected — 49 PLA sorties around Taiwan (Taipei Times)",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/04/2003867122",
+        "reason": "無人機・AIへの言及がなく、通常の軍事動態報道の範囲"
+      },
+      {
+        "title": "China's HQ series intercepts 2 new missile types as PLA tests weapon platform (SCMP)",
+        "url": "https://scmp.com/news/china/military/article/3373094/chinas-hq-series-intercepts-2-new-missile-types-pla-tests-weapon-platform",
+        "reason": "本文未確認で、AI・無人機との関連も不明"
+      },
+      {
+        "title": "AI Agents Enter The Battlefield As NATO Prepares For Future Warfare (Daily Caller)",
+        "url": "https://dailycaller.com/2026/11/03/openai-ai-agents-battlefield-nato/",
+        "reason": "一次情報（NATOまたはOpenAIの発表）を特定できず、論評の性格が強い"
+      },
+      {
+        "title": "Army tests autonomous breaching drones, eyes early 2027 for potential contract awards (Inside Defense)",
+        "url": "https://insidedefense.com/ai-news/army-tests-autonomous-breaching-drones-eyes-early-2027-potential-contract-awards",
+        "reason": "有料記事で見出しのみ確認。7月の4社選定（Overland AI等）の続報と見られるが、試験の内容を確認できなかった"
+      },
+      {
+        "title": "Death toll hits 29 after Russian strike on Ukrainian aid site (NPR)",
+        "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+        "reason": "航空爆弾による攻撃で無人機・AIの範囲外。第2項の本文で1文に言及し、独立項目とはしなかった"
+      }
+    ],
+    "notes_for_editor": [
+      "本号の実行は定刻（05:35 JST）から遅れ、11月4日午後に行った。generated_atは実際の作成時刻を記録している。3〜4日夜のウクライナ空軍発表は未収録で、次号で扱う。",
+      "第1項（Nvidia）はFT報道が起点で、FT原文は未取得。TNW（AFP配信を含む）とYahoo Finance掲載のAFP記事の2つの報道と、中国外交部の原文で構成した。51%の算定基準は未公表。",
+      "第3項（Driscoll）のOpenAI原文（openai.com/index/dan-driscoll-joins-openai/）は取得不可。発表内容はBreaking DefenseとDefenseScoopの引用に依拠した。「2日夕（米国時間）」の発表時刻はBreaking Defenseの記述による。",
+      "第4項（Saildrone）の裁判所意見書は未取得。DroneXLがNYTを引いて意見書の日付を11月3日としており、Ocean Newsの記事日付（11月2日）とSaildroneの発表（月曜＝2日）との間に1日のずれがある。dateは発表日の11月2日とした。",
+      "第6項（STIB覚書）は10月27日付・10月30日公開の文書で、3日の報道により把握した。ランブック§2に従い公表日（10月30日）で記録し、当日の新規動向より下に置いた。覚書PDFは取得不可。",
+      "第7項（Binance）の一次資料はX上の投稿で、取得不可。The BlockとThe Nationalの要約に依拠した。「高度な取引承認手法」の中身と社内AIツールの正体は未公表。",
+      "第9項（小泉防衛相）はNHKのリード1文のみで講演内容を確認し、10月19〜20日の発言で補った。講演の主催者・AI以外の発言の全文は未確認で、共同配信記事（東京新聞）はaccessed falseとした。",
+      "第13項（ノルウェー）のactorsにノルウェー単独のIDがないためNATOとRUを付した。",
+      "check-handoffのWARNは1件（第13項の短信が4文と数えられる）。引用文中の句点を文として数えたもので、本文は3文であり修正していない。"
+    ]
+  }
+}
