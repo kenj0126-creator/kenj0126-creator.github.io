@@ -1,0 +1,778 @@
+{
+  "week": "2026-W45",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:46:30+09:00",
+  "coverage_from": "2026-11-02",
+  "coverage_to": "2026-11-06",
+  "title_ja": "無人機戦の優劣は、迎撃を量産し統合する制度の速さで決まる",
+  "title_en": "Advantage in drone warfare now turns on how fast institutions can mass-produce and integrate interception",
+  "lead_ja": "今週の調達と戦場の数字は、無人機をめぐる競争の重心が攻撃機の数から迎撃の量産と統合へ移りつつあることを示した。米国防総省が中央軍に納入した2万5,000超の無人・対無人システムのうち2万4,000超は対無人機で、NATOは5社16種の対無人機システムを入札なしで発注できる枠組みを開き、Shield AIは対無人機レーダーのEchodyneを53億ドルで買収すると発表した。一方でウクライナの10月の集計では、ジェット型シャヘドの無力化率は66%にとどまり、ロシアは天候と時間帯に応じて機種構成を変え、迎撃の条件を突き続けている。迎撃側の優位は個々の装備の性能より、認証・資金・要求を束ねて改良を回し続ける制度の速さに左右されると考えられる。日本は年内に策定する防衛産業基盤戦略で、対無人機の量産と同盟国との共通調達を中核に据えるかが問われる。",
+  "lead_en": "This week's procurement and battlefield figures show the centre of gravity in drone competition shifting from the number of attack drones toward the mass production and integration of interception. Of the more than 25,000 uncrewed and counter-uncrewed systems the Pentagon delivered to CENTCOM this year, over 24,000 were counter-drone systems; NATO opened a framework that lets allies order 16 counter-drone systems from five firms without a new tender; and Shield AI announced a $5.3 billion purchase of counter-drone radar maker Echodyne. Yet Ukraine's October data show only 66% of jet-powered Shaheds neutralised, and Russia keeps changing its mix by weather and time of day to exploit the conditions interceptors need. The edge on the defending side appears to depend less on any single system than on how fast institutions can bundle certification, finance and requirements and keep iterating. Japan's year-end defence industrial base strategy will show whether counter-drone mass production and common procurement with allies sit at its core.",
+  "themes": [
+    "autonomy-laws",
+    "industry-procurement",
+    "isr-targeting",
+    "c2-decision"
+  ],
+  "sections": [
+    {
+      "id": "procurement-tilts-to-counter-drone",
+      "title_ja": "調達の重心は迎撃側へ傾いた",
+      "title_en": "Procurement has tilted toward the interceptor side",
+      "claim_ja": "今週の米国とNATOの発表は、無人機関連の資金と調達の大部分が対無人機の側に流れ始めたことを数字で示した。",
+      "claim_en": "US and NATO announcements this week showed in numbers that most drone-related money and procurement has begun to flow to the counter-drone side.",
+      "paragraphs_ja": [
+        "米国防総省（戦争省）は11月4日、無人システム直轄ポートフォリオ管理官（DRPM-UxS）が本年、約7億8,200万ドルの取り組みで中央軍管区に2万5,000を超える無人・対無人システムを納入したと発表した。内訳は片道攻撃型航空機1,300機超、無人水上・水中艇100隻超に対し、統合省庁間任務部隊401を通じた対無人機システムが2万4,000超で、数量の9割超を占める。発表は2027年10月の自律戦争軍創設に向けた実績と位置づけられた。陸軍の初の量産型高出力レーザーE-HELにも、11月2日にLeonardo DRSが下請けとして加わると発表している。",
+        "NATOは11月5日、加盟国が追加の入札なしに選定済みの対無人機システムを発注できるマーケットプレイスを開設した。NATO通信情報局がAlta Ares、Axon、Northrop Grumman、OSL UK、Quantum Systemsの5社から16種を選び、基地などの面防護、国境、車列、要点の四つの想定で評価したと報じられている。これは7月に示された「ドローン・エッジ」の一環であり、加盟国は5年で対無人機に400億ドル超を投じると約束している。民間ではShield AIが11月5日、レーダー企業Echodyneを総額53億ドルで買収すると発表し、自律飛行ソフトと探知センサーを一社に束ねる方向を示した。",
+        "ただし、これらの数字の段階はそろっていない。米国の2万4,000超は納入の実績である一方、NATOの枠組みは18か月の枠組み契約で、発注そのものは各国の後続の契約に委ねられる。Shield AIの買収は2027年初頭の完了を見込む発表の段階にあり、規制当局の審査を残す。したがって今週示されたのは迎撃能力の配備の効果より調達の経路と資本の向きであり、納入された対無人機システムの型式と単価、迎撃の実績は今後の開示を待つ必要がある。"
+      ],
+      "paragraphs_en": [
+        "On 4 November the Department of Defense (War) said its Direct Reporting Portfolio Manager for uncrewed systems had delivered more than 25,000 uncrewed and counter-uncrewed systems to the CENTCOM area this year in an effort worth about $782 million. Alongside more than 1,300 one-way attack aircraft and over 100 surface and undersea vessels, more than 24,000 were counter-drone systems fielded through JIATF 401, over 90% of the total. The release framed this as groundwork for an Autonomous Warfare Command due in October 2027. Leonardo DRS also said on 2 November it would join the Army's first production high-energy laser, E-HEL, as a subcontractor.",
+        "On 5 November NATO opened a marketplace that lets allies order preselected counter-drone systems without a further tender. The NATO Communications and Information Agency chose 16 solutions from five firms — Alta Ares, Axon, Northrop Grumman, OSL UK and Quantum Systems — evaluated against area, border, convoy and point protection scenarios, according to reporting. It is part of the Drone Edge initiative launched in July, under which allies pledged more than $40 billion for counter-drone capability over five years. In industry, Shield AI announced on 5 November a $5.3 billion acquisition of radar maker Echodyne, pointing to autonomy software and detection sensors being combined in one firm.",
+        "These figures sit at different stages. The 24,000-plus US systems are deliveries, whereas NATO's arrangement is an 18-month framework under which actual orders depend on later national contracts. Shield AI's deal is an announcement expected to close in early 2027, subject to regulatory review. What the week revealed, therefore, is the direction of procurement channels and capital rather than the battlefield effect of interception; the types, unit costs and performance of the delivered systems still await disclosure."
+      ],
+      "item_ids": [
+        "cl-20261105-02",
+        "cl-20261106-06",
+        "cl-20261106-05",
+        "cl-20261103-15"
+      ],
+      "source_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W23",
+        "W25"
+      ]
+    },
+    {
+      "id": "attackers-exploit-interception-limits",
+      "title_ja": "攻撃側は迎撃の条件を突いて形を変える",
+      "title_en": "Attackers reshape their raids to exploit the limits of interception",
+      "claim_ja": "ウクライナと中東の数字は、迎撃の網が厚くなるほど攻撃側が機種・時間帯・天候を選び、迎撃を支えるセンサーを先に狙うことを示している。",
+      "claim_en": "Figures from Ukraine and the Middle East show that as interception thickens, attackers choose airframes, timing and weather to find gaps and strike the sensors that interception depends on.",
+      "paragraphs_ja": [
+        "ウクライナ国防省は11月4日、10月に無人機とミサイル8,000以上を破壊したと発表し、うちジェット推進型シャヘドは2,688機だった。参謀本部の集計では、10月のシャヘド系6,473機のうち4,859機を撃破し、無力化率はプロペラ型89%に対しジェット型66%にとどまる。今週の攻撃も構成を変え続けた。10月31日夜からの433機は曇天下でピストン型が主体となり、11月2日昼間の171機はジェット型が6割を占め、2〜3日夜には無人機289機と巡航ミサイル59発に弾道・極超音速ミサイルを重ねて電力網を狙った。",
+        "攻撃と迎撃の双方で、機上の画像認識が適応の道具になっている。ウクライナの部隊は11月1日、Raspberry Pi 5上の画像認識で約1km先のシャヘド型を自動検出し、操縦者の確認後に自律追尾する迎撃無人機ZIRKAでジェット型ゲラン5を撃墜したと映像で主張した。反対にウクライナ国防情報総局が11月2日に公表した囮機ゲルベラ2の分析では、迎撃無人機を検知するための二重カメラが確認された。電子戦の専門家は、ロシアが曇天を選んで迎撃無人機の目視取得を妨げたと分析している。これは一人の分析者の推論であるが、天候と機種の使い分けを示す兆候とは整合する。",
+        "中東の事例は、迎撃網そのものが最初の標的になることを示す。AP通信が10月31日に公表した衛星分析によれば、2月から8月までにイランと代理勢力の115件超の攻撃が米軍の基地と施設26か所を損傷させ、開戦から2日以内にレーダー施設が狙われた。損害は国防省の推計で50億ドル以上とされる。撃墜数はウクライナ空軍の自己申告であり、APの分析も中央軍の開示を欠いた商用画像に依拠するという限界はある。それでも、迎撃の量を増やすだけでは、センサーの脆弱性と攻撃側の適応の速さに追いつけないと考えられる。"
+      ],
+      "paragraphs_en": [
+        "Ukraine's defence ministry said on 4 November that it destroyed more than 8,000 drones and missiles in October, including 2,688 jet-powered Shaheds. The General Staff's count shows 4,859 of 6,473 Shahed-family drones downed in October, with a neutralisation rate of 89% for propeller types but only 66% for jets. The raids this week kept shifting. The 433 drones launched from the night of 31 October were mostly piston-engined and flew under heavy cloud; jets made up 60% of the 171 drones in the daytime attack of 2 November; and on the night of 2–3 November 289 drones and 59 cruise missiles were combined with ballistic and hypersonic missiles against the power grid.",
+        "On-board image recognition has become a tool of adaptation on both sides. A Ukrainian unit claimed on video on 1 November that its ZIRKA interceptor, which runs image recognition on a Raspberry Pi 5 to detect Shahed-type targets about 1 km away and then tracks them autonomously after operator confirmation, shot down a jet-powered Geran-5. Conversely, Ukraine's defence intelligence analysis of the Gerbera-2 decoy, published on 2 November, found dual cameras intended to detect interceptor drones. An electronic-warfare specialist argued that Russia chose cloudy conditions to impair visual acquisition by interceptor drones; this is one analyst's inference, but it fits the pattern of tailoring airframes to weather.",
+        "The Middle East shows that the air-defence network itself is the first target. An AP satellite analysis published on 31 October found that more than 115 attacks by Iran and its proxies between February and August damaged 26 US bases and facilities, with radar sites struck within two days of the war's start. The Pentagon estimates damage at more than $5 billion. Ukrainian shoot-down figures are self-reported, and AP relied on commercial imagery in the absence of CENTCOM disclosure. Even so, adding interceptors alone seems unlikely to keep pace with sensor vulnerability and the speed of attacker adaptation."
+      ],
+      "item_ids": [
+        "cl-20261105-07",
+        "cl-20261102-03",
+        "cl-20261103-06",
+        "cl-20261104-02",
+        "cl-20261103-13",
+        "cl-20261102-04",
+        "cl-20261106-09"
+      ],
+      "source_ids": [
+        "W5",
+        "W6",
+        "W7",
+        "W8",
+        "W9",
+        "W10",
+        "W21",
+        "W22",
+        "W26"
+      ]
+    },
+    {
+      "id": "institutions-for-mass",
+      "title_ja": "量を支える司令塔と資本の作り直し",
+      "title_en": "Rebuilding the command posts and capital behind mass",
+      "claim_ja": "各国は攻撃と迎撃の量を支えるため、認証・資金・要求を一か所で回す制度を作り直しており、その速さが能力の差になりつつある。",
+      "claim_en": "States are rebuilding institutions that run certification, finance and requirements in one place to sustain mass in attack and interception, and the speed of that rebuilding is becoming a capability gap.",
+      "paragraphs_ja": [
+        "韓国国防部は11月2日、2023年創設のドローン作戦司令部を解体し、国防部直轄の「国防ドローン本部」を約100人体制で発足させた。本部は運用概念、所要の審査、商用機の軍用認証、部品の標準化を担い、米国のBlue UAS制度に倣った認証で電池やモーターの中国依存を下げるとしている。韓国メディアによれば、2030年までに低価格の消耗型無人機を2万機以上確保する目標を掲げる。台湾軍も沿岸攻撃無人機20万機超、片道攻撃型無人艇1,320隻の所要を示したと、AFPが11月4日に報じた。",
+        "米国では資金の側が動いた。国防省の戦略資本局は11月2日、小型無人機メーカーNerosと最大4億5,000万ドルの条件付き融資を結び、機体から電動機・無線機・電池までの国内生産を支えると発表した。契約や補助金と並ぶ第三の経路として、融資で供給網の量を作る手法である。韓国の本部、米国の融資、台湾の大量所要はいずれも、少数の高価な装備を長期で調達してきた従来の経路より速い周期で、部品から運用までを束ねる試みと読める。",
+        "一方で、速さを優先する制度には歯止めもかかった。米連邦請求裁判所は、海軍が中型無人水上艇の競争からSaildroneを外した評価を「恣意的」と判断し、再評価が終わるまで21億ドルの計画のうち約6億ドルの支出を止めた。韓国の本部も防衛事業庁との所掌の重複が指摘され、Nerosへの融資は最終実行前の条件付きの段階にある。したがって制度の速さは、評価の公平性と所掌の整理を伴って初めて持続すると考えられる。"
+      ],
+      "paragraphs_en": [
+        "On 2 November South Korea's defence ministry disbanded the Drone Operations Command created in 2023 and launched a Defense Drone Headquarters of about 100 staff reporting directly to the ministry. It will handle operating concepts, requirements review, military certification of commercial drones and parts standardisation, and plans a Blue UAS-style certification to reduce dependence on Chinese batteries and motors. Korean media report a goal of more than 20,000 low-cost attritable drones by 2030. AFP reported on 4 November that Taiwan's military has set requirements for more than 200,000 coastal strike drones and 1,320 one-way attack surface vessels.",
+        "In the United States, finance moved. On 2 November the Office of Strategic Capital announced a conditional loan commitment of up to $450 million to small-drone maker Neros to support domestic production from airframes down to motors, radios and batteries. It is a third channel alongside contracts and grants: using loans to build supply-chain volume. Korea's headquarters, the US loan and Taiwan's mass requirements can each be read as attempts to bind components through operations on a faster cycle than the traditional path of buying small numbers of costly systems over long periods.",
+        "Speed also met a brake. The US Court of Federal Claims found the Navy's exclusion of Saildrone from the medium uncrewed surface vessel competition 'arbitrary', freezing roughly $600 million of the $2.1 billion programme pending re-evaluation. Korea's headquarters faces questions about overlap with the Defense Acquisition Program Administration, and the Neros loan is conditional, pending financial close. Institutional speed therefore seems sustainable only when paired with fair evaluation and clear lines of responsibility."
+      ],
+      "item_ids": [
+        "cl-20261103-01",
+        "cl-20261105-12",
+        "cl-20261105-10",
+        "cl-20261103-03",
+        "cl-20261104-04"
+      ],
+      "source_ids": [
+        "W11",
+        "W12",
+        "W13",
+        "W14",
+        "W15"
+      ]
+    },
+    {
+      "id": "ai-role-sensing-and-linking",
+      "title_ja": "AIの寄与は探知と連接に集中する",
+      "title_en": "AI's contribution is concentrated in sensing and linking",
+      "claim_ja": "迎撃の制度化でAIが担う役割は、現時点では目標認識とセンサーと射手の連接に集中しており、判断の自律化は限定的な段階にとどまる。",
+      "claim_en": "In institutionalised interception, AI's role is for now concentrated in target recognition and sensor-to-shooter linking, while autonomy in judgement remains limited.",
+      "paragraphs_ja": [
+        "今週の軍当局者の発言は、AIの役割を限定的に描いた。11月5日のフォーラムで米陸軍情報部門の担当者は、自動目標認識は運用に定着したが、情報分野での自律的な分析は「今は存在しない」と述べた。NATO変革連合軍が10月29〜30日にラトビアで行った実験FUSEも、交戦判断の人の権限を保ったまま、情報から決心までの遅延を50%超縮めることを目標に掲げ、調達計画とは別の実験と位置づけられている。仏KNDSとSeaOwlが11月3日に発表した徘徊弾搭載の無人艇も、交戦の最終判断を遠隔操作員に限るとした。",
+        "撃墜の手段の内訳も同じ方向を示す。ウクライナ空軍の発表では、撃墜は航空機、地対空ミサイル、電子戦、無人システム部隊、機動射撃班の組み合わせで行われ、画像認識を使う迎撃無人機はその一層にあたる。したがって迎撃の量産と統合で争われているのは、AIの判断能力そのものより、センサーの情報を多数の射手へ短時間で配る連接の設計だと考えられる。米インド太平洋軍が日米豪の共通ネットワーク上で1日200件のデジタル火力要求を処理したと説明した事例も、この連接の層に属する。",
+        "反対の見方として、迎撃の拡大より基地の分散と強靭化を優先すべきだとする議論がある。RANDのラファエル・コーエンはAPに対し、現代の軍は大規模で安価な無人機攻撃に脆弱で、固定インフラに依拠できるという考えは終わったと述べた。迎撃一発の費用が攻撃側を上回り続ければ、量産した迎撃も消耗戦で不利になる。この見方に立てば、迎撃の制度化は分散・隠蔽・修復の能力と組み合わせて初めて意味を持ち、本稿の主張は迎撃の費用が攻撃側に近づく条件の下で成り立つと限定される。"
+      ],
+      "paragraphs_en": [
+        "Military officials this week described AI's role in limited terms. At a 5 November forum, a US Army intelligence official said automatic target recognition is now established in operations but that autonomous analysis in intelligence 'doesn't exist right now'. NATO's FUSE experiment in Latvia on 29–30 October aimed to cut the time from information to decision by more than 50% while keeping human authority over engagement, and was framed as an experiment separate from procurement plans. The loitering-munition surface drone that KNDS and SeaOwl announced on 3 November also reserves the final engagement decision for a remote operator.",
+        "How targets are downed points the same way. Ukraine's air force attributes shoot-downs to a combination of aircraft, surface-to-air missiles, electronic warfare, uncrewed systems units and mobile fire groups, with image-recognition interceptor drones forming one layer. What is contested in mass-producing and integrating interception, then, appears to be the design of links that push sensor data to many shooters quickly, more than AI's capacity for judgement. INDOPACOM's account of processing 200 digital fire requests a day on a common US–Japan–Australia network belongs to the same linking layer.",
+        "A dissenting view holds that dispersal and hardening of bases should take priority over more interception. RAND's Raphael Cohen told AP that modern militaries are vulnerable to large, cheap drone attacks and that the idea of relying on fixed infrastructure is over. If each interception keeps costing more than each attacking drone, even mass-produced interceptors lose in attrition. On this view, institutionalised interception matters only when combined with dispersal, concealment and repair, and the argument here holds under the condition that interception costs approach those of the attacker."
+      ],
+      "item_ids": [
+        "cl-20261106-13",
+        "cl-20261105-11",
+        "cl-20261104-11",
+        "cl-20261102-06",
+        "cl-20261102-04"
+      ],
+      "source_ids": [
+        "W16",
+        "W17",
+        "W18",
+        "W20",
+        "W10",
+        "W7"
+      ]
+    }
+  ],
+  "japan_paragraphs_ja": [
+    "小泉防衛相は11月4日、AIや無人機を使う「新しい戦い方」に対応する防衛産業基盤戦略を年内に策定すると表明し、有事の予備生産力、政府所有・民間運営（GOCO）、輸出を前提とした開発を柱に挙げた。今週の各国の動きに照らせば、問われるのは対無人機の探知・迎撃装備を予備生産力の対象に明示し、韓国の本部のように認証・所要・部品の調達を一つの窓口で回せるかである。施策を担う新法人の設置法案は来年の通常国会に提出される予定で、その所掌に部品の認証と消耗型装備の継続的な改良を含めるかが、制度の速さを左右すると考えられる。",
+    "同盟の運用では、在日米軍と自衛隊の基地防護が直接の論点になる。中東でレーダーが最初に狙われた事例は、日本の基地でもセンサーの防護と分散、修復の体制を平時から整える必要を示唆する。米インド太平洋軍は日本がMaven Smart Systemを使って統合打撃に貢献したと説明したが、日本側の説明はまだ確認できない。センサーと射手の連接を同盟で共有するなら、NATOのカタログ調達に倣って日米豪で共通の評価基準と調達の枠組みを持つか、防衛省が見直すAI活用推進基本方針で人の判断の所在をどう定めるかを、あわせて詰める必要がある。"
+  ],
+  "japan_paragraphs_en": [
+    "On 4 November Defence Minister Koizumi said Japan will adopt a defence industrial base strategy by year-end to meet the 'new way of fighting' with AI and drones, built on reserve wartime production capacity, government-owned contractor-operated (GOCO) arrangements and export-oriented development. In light of this week, the question is whether counter-drone detection and interception equipment will be named explicitly as a target of reserve capacity, and whether certification, requirements and component sourcing can run through a single window as in Korea's new headquarters. A bill to create a new agency to carry out these measures is due in next year's ordinary Diet session, and whether its remit covers component certification and continuous upgrading of attritable equipment is likely to shape institutional speed.",
+    "In alliance operations, protecting US and Japanese bases in Japan is the immediate issue. The Middle East experience, in which radars were struck first, suggests that sensor protection, dispersal and repair need to be organised in peacetime at bases in Japan as well. INDOPACOM said Japan used the Maven Smart System for the first time to contribute to a joint strike, but no Japanese explanation has yet been confirmed. If sensor-to-shooter links are to be shared within the alliance, Japan needs to settle both whether the US, Japan and Australia adopt common evaluation criteria and procurement frameworks along the lines of NATO's catalogue, and how the defence ministry's revised AI policy defines where human judgement sits."
+  ],
+  "verification": [
+    {
+      "text_ja": "12月初旬：ウクライナ国防省・参謀本部の11月の月次集計で、ジェット型シャヘドの比率と無力化率（10月は66%）が改善するか。",
+      "text_en": "Early December: whether Ukraine's November monthly data show a change in the share of jet-powered Shaheds and an improvement on October's 66% neutralisation rate."
+    },
+    {
+      "text_ja": "11月19日：米FCC公開会合での24.45〜24.65GHz帯の対無人機レーダーと450MHz帯無人機データリンクの採決結果。",
+      "text_en": "19 November: the US FCC open meeting vote on the 24.45–24.65 GHz band for counter-drone radar and the 450 MHz band for drone data links."
+    },
+    {
+      "text_ja": "年末：日本の防衛産業基盤戦略と安全保障3文書の改定案に、対無人機の予備生産力、部品認証、新法人の所掌が明記されるか。",
+      "text_en": "Year-end: whether Japan's defence industrial base strategy and revised security documents explicitly cover counter-drone reserve capacity, component certification and the new agency's remit."
+    },
+    {
+      "text_ja": "NATO対無人機マーケットプレイスの最初の発注国と金額、ならびにJIATF 401が納入した対無人機システムの型式・単価の公表。",
+      "text_en": "Disclosure of the first allied orders and amounts under NATO's counter-drone marketplace, and of the types and unit costs of systems JIATF 401 delivered."
+    },
+    {
+      "text_ja": "韓国2027年度国防予算の国会審議での消耗型無人機・K-LUCAS・認証制度の計上と、米海軍によるSaildrone再評価の結果。",
+      "text_en": "Funding for attritable drones, K-LUCAS and the certification scheme in Korea's FY2027 defence budget debate, and the outcome of the US Navy's re-evaluation of Saildrone."
+    }
+  ],
+  "developments": [
+    {
+      "date": "2026-10-31",
+      "title_ja": "AP衛星分析、イランの攻撃が米軍26拠点を損傷、初動でレーダーを標的",
+      "title_en": "AP satellite analysis: Iranian strikes damaged 26 US sites, hitting radars first",
+      "actor_ja": "AP通信",
+      "actor_en": "Associated Press",
+      "stage_ja": "報道分析",
+      "stage_en": "Media analysis",
+      "source_ids": [
+        "W10"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261102-04"
+    },
+    {
+      "date": "2026-11-01",
+      "title_ja": "ロシアが433機を投入、曇天下でピストン型主体。371機を無力化と発表",
+      "title_en": "Russia launches 433 drones, mostly piston types under cloud; 371 reported neutralised",
+      "actor_ja": "ウクライナ空軍",
+      "actor_en": "Ukrainian Air Force",
+      "stage_ja": "戦場の主張",
+      "stage_en": "Battlefield claim",
+      "source_ids": [
+        "W7"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261102-03"
+    },
+    {
+      "date": "2026-11-01",
+      "title_ja": "画像認識で自律追尾する迎撃無人機ZIRKAがジェット型ゲラン5を撃墜と主張",
+      "title_en": "ZIRKA interceptor with image-recognition tracking claims Geran-5 jet kill",
+      "actor_ja": "ウクライナ無人システム軍",
+      "actor_en": "Ukrainian Unmanned Systems Forces",
+      "stage_ja": "戦場の主張",
+      "stage_en": "Battlefield claim",
+      "source_ids": [
+        "W8"
+      ],
+      "confidence": "C3",
+      "item_id": "cl-20261102-03"
+    },
+    {
+      "date": "2026-11-02",
+      "title_ja": "韓国、国防部直轄の国防ドローン本部を発足。Blue UAS型認証と消耗型2万機",
+      "title_en": "South Korea launches Defense Drone HQ with Blue UAS-style certification, 20,000 attritables goal",
+      "actor_ja": "韓国国防部",
+      "actor_en": "ROK Ministry of National Defense",
+      "stage_ja": "組織新設",
+      "stage_en": "Organisation established",
+      "source_ids": [
+        "W12",
+        "W13"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261103-01"
+    },
+    {
+      "date": "2026-11-02",
+      "title_ja": "米戦略資本局、Nerosに最大4.5億ドルの条件付き融資",
+      "title_en": "US Office of Strategic Capital commits up to $450m conditional loan to Neros",
+      "actor_ja": "米国防省戦略資本局",
+      "actor_en": "US DoW Office of Strategic Capital",
+      "stage_ja": "条件付き融資",
+      "stage_en": "Conditional loan",
+      "source_ids": [
+        "W11"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261103-03"
+    },
+    {
+      "date": "2026-11-02",
+      "title_ja": "昼間の171機のうちジェット型が6割",
+      "title_en": "Jets make up 60% of 171 drones in daytime raid",
+      "actor_ja": "ウクライナ空軍",
+      "actor_en": "Ukrainian Air Force",
+      "stage_ja": "戦場の主張",
+      "stage_en": "Battlefield claim",
+      "source_ids": [
+        "W22"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261103-06"
+    },
+    {
+      "date": "2026-11-02",
+      "title_ja": "Leonardo DRS、陸軍初の量産型高出力レーザーE-HELに下請け参加",
+      "title_en": "Leonardo DRS joins Army's first production high-energy laser E-HEL",
+      "actor_ja": "Leonardo DRS",
+      "actor_en": "Leonardo DRS",
+      "stage_ja": "下請け契約",
+      "stage_en": "Subcontract",
+      "source_ids": [
+        "W25"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261103-15"
+    },
+    {
+      "date": "2026-11-02",
+      "title_ja": "囮機ゲルベラ2の分析、迎撃無人機を検知する二重カメラを搭載",
+      "title_en": "Gerbera-2 decoy analysis finds dual cameras to detect interceptor drones",
+      "actor_ja": "ウクライナ国防情報総局",
+      "actor_en": "Defence Intelligence of Ukraine",
+      "stage_ja": "鹵獲機分析",
+      "stage_en": "Captured-system analysis",
+      "source_ids": [
+        "W9"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261103-13"
+    },
+    {
+      "date": "2026-11-03",
+      "title_ja": "無人機289機・巡航ミサイル59発に弾道・ジルコンを重ね電力網を攻撃",
+      "title_en": "289 drones, 59 cruise missiles plus ballistic and Zircon missiles hit power grid",
+      "actor_ja": "ウクライナ空軍",
+      "actor_en": "Ukrainian Air Force",
+      "stage_ja": "戦場の主張",
+      "stage_en": "Battlefield claim",
+      "source_ids": [
+        "W21"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261104-02"
+    },
+    {
+      "date": "2026-11-03",
+      "title_ja": "米連邦請求裁判所、海軍MUSV競争からのSaildrone排除を恣意的と判断",
+      "title_en": "Court of Federal Claims finds Navy's exclusion of Saildrone from MUSV arbitrary",
+      "actor_ja": "米連邦請求裁判所",
+      "actor_en": "US Court of Federal Claims",
+      "stage_ja": "司法判断",
+      "stage_en": "Court ruling",
+      "source_ids": [
+        "W14"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261104-04"
+    },
+    {
+      "date": "2026-11-03",
+      "title_ja": "KNDSとSeaOwl、徘徊弾搭載の無人艇を共同開発。交戦判断は操作員に限定",
+      "title_en": "KNDS and SeaOwl to co-develop loitering-munition USV with operator-only engagement decisions",
+      "actor_ja": "KNDS／SeaOwl",
+      "actor_en": "KNDS / SeaOwl",
+      "stage_ja": "提携発表",
+      "stage_en": "Partnership announced",
+      "source_ids": [
+        "W18"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261104-11"
+    },
+    {
+      "date": "2026-11-03",
+      "title_ja": "小泉防衛相、防衛省AI活用推進基本方針の見直しを改めて表明",
+      "title_en": "Defence Minister Koizumi reiterates review of MOD's basic AI policy",
+      "actor_ja": "防衛省",
+      "actor_en": "Japan Ministry of Defense",
+      "stage_ja": "方針表明",
+      "stage_en": "Policy statement",
+      "source_ids": [
+        "W24"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261104-09"
+    },
+    {
+      "date": "2026-11-04",
+      "title_ja": "米国防総省、中央軍に無人・対無人2.5万超を納入、うち対無人機2.4万超",
+      "title_en": "Pentagon delivers 25,000+ uncrewed and counter-drone systems to CENTCOM, 24,000+ counter-drone",
+      "actor_ja": "米国防省DRPM-UxS",
+      "actor_en": "US DoW DRPM-UxS",
+      "stage_ja": "配備",
+      "stage_en": "Fielded",
+      "source_ids": [
+        "W1",
+        "W23"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261105-02"
+    },
+    {
+      "date": "2026-11-04",
+      "title_ja": "ウクライナ国防省の10月集計、ジェット型シャヘド2,688機、無力化率66%",
+      "title_en": "Ukraine's October tally: 2,688 jet Shaheds, 66% neutralised",
+      "actor_ja": "ウクライナ国防省・参謀本部",
+      "actor_en": "Ukraine MoD / General Staff",
+      "stage_ja": "公式集計",
+      "stage_en": "Official tally",
+      "source_ids": [
+        "W5",
+        "W6",
+        "W26"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261105-07"
+    },
+    {
+      "date": "2026-11-04",
+      "title_ja": "小泉防衛相、防衛産業基盤戦略を年内に策定と表明",
+      "title_en": "Koizumi says defence industrial base strategy will be set by year-end",
+      "actor_ja": "防衛省",
+      "actor_en": "Japan Ministry of Defense",
+      "stage_ja": "方針表明",
+      "stage_en": "Policy statement",
+      "source_ids": [
+        "W19"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261105-03"
+    },
+    {
+      "date": "2026-11-04",
+      "title_ja": "台湾軍、沿岸攻撃無人機20万機超・片道攻撃無人艇1,320隻の所要とAFP",
+      "title_en": "AFP: Taiwan sets requirements for 200,000+ coastal strike drones, 1,320 one-way USVs",
+      "actor_ja": "台湾国防部",
+      "actor_en": "Taiwan Ministry of National Defense",
+      "stage_ja": "所要提示",
+      "stage_en": "Requirement",
+      "source_ids": [
+        "W15"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261105-10"
+    },
+    {
+      "date": "2026-11-05",
+      "title_ja": "NATO、対無人機マーケットプレイスを開設。5社16種を選定",
+      "title_en": "NATO opens counter-drone marketplace with 16 systems from five firms",
+      "actor_ja": "NATO／NCIA",
+      "actor_en": "NATO / NCIA",
+      "stage_ja": "枠組み契約",
+      "stage_en": "Framework contracts",
+      "source_ids": [
+        "W2",
+        "W3"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261106-06"
+    },
+    {
+      "date": "2026-11-05",
+      "title_ja": "Shield AI、対無人機レーダーのEchodyneを53億ドルで買収へ",
+      "title_en": "Shield AI to buy counter-drone radar maker Echodyne for $5.3bn",
+      "actor_ja": "Shield AI",
+      "actor_en": "Shield AI",
+      "stage_ja": "買収発表",
+      "stage_en": "Acquisition announced",
+      "source_ids": [
+        "W4"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261106-05"
+    },
+    {
+      "date": "2026-11-05",
+      "title_ja": "米軍当局者、自動目標認識は定着も自律的な分析は「今は存在しない」",
+      "title_en": "US officials: ATR established, autonomous analysis 'doesn't exist right now'",
+      "actor_ja": "米陸軍・空軍",
+      "actor_en": "US Army / Air Force",
+      "stage_ja": "発言",
+      "stage_en": "Statement",
+      "source_ids": [
+        "W16"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261106-13"
+    },
+    {
+      "date": "2026-10-30",
+      "title_ja": "NATOのFUSE実験、人の権限を保ちつつ決心までの遅延を半減以下に",
+      "title_en": "NATO FUSE experiment aims to halve decision latency while keeping human authority",
+      "actor_ja": "NATO変革連合軍",
+      "actor_en": "NATO ACT",
+      "stage_ja": "実験",
+      "stage_en": "Experiment",
+      "source_ids": [
+        "W17"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261105-11"
+    },
+    {
+      "date": "2026-10-29",
+      "title_ja": "米インド太平洋軍、日本がMavenを初使用し統合打撃に貢献と説明",
+      "title_en": "INDOPACOM says Japan used Maven for the first time to contribute to a joint strike",
+      "actor_ja": "米インド太平洋軍",
+      "actor_en": "US INDOPACOM",
+      "stage_ja": "発言（日本側未確認）",
+      "stage_en": "Statement (unconfirmed by Japan)",
+      "source_ids": [
+        "W20"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261102-06"
+    }
+  ],
+  "reading": [
+    {
+      "source_id": "W1",
+      "reason_ja": "対無人機が数量の9割超を占める納入の内訳と、自律戦争軍への道筋が一次資料で確認できる。",
+      "reason_en": "Primary source for the delivery breakdown, over 90% counter-drone, and the path to the Autonomous Warfare Command."
+    },
+    {
+      "source_id": "W2",
+      "reason_ja": "NATOが入札を省いたカタログ調達をどう設計したかを示し、同盟の共通調達の先例になる。",
+      "reason_en": "Shows how NATO designed tender-free catalogue procurement, a precedent for allied common buying."
+    },
+    {
+      "source_id": "W5",
+      "reason_ja": "ジェット型とプロペラ型を分けた月次の迎撃集計で、攻撃側の適応を数字で追える。",
+      "reason_en": "Monthly interception data split by jet and propeller types make attacker adaptation measurable."
+    },
+    {
+      "source_id": "W10",
+      "reason_ja": "センサーが最初に狙われた順序を示し、前方基地の防護設計を考える材料になる。",
+      "reason_en": "Documents that sensors were struck first, informing forward base protection design."
+    },
+    {
+      "source_id": "W23",
+      "reason_ja": "自律戦争軍の創設構想を示す長官覚書で、納入実績が向かう先の制度を読める。",
+      "reason_en": "The Secretary's memo on the Autonomous Warfare Command shows the institution the deliveries feed into."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W1",
+      "title": "DRPM-UxS Deliver Over 25,000 Autonomous and Counter-Unmanned Systems to CENTCOM AOR",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4641098/drpm-uxs-deliver-over-25000-autonomous-and-counter-unmanned-systems-to-centcom/",
+      "date": "2026-11-04",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W2",
+      "title": "NATO accelerates procurement for counter-drone technologies",
+      "publisher": "NATO",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/11/05/nato-accelerates-procurement-for-counter-drone-technologies",
+      "date": "2026-11-05",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W3",
+      "title": "NATO opens counter-drone marketplace with 16 systems from five companies",
+      "publisher": "AeroTime",
+      "url": "https://www.aerotime.aero/articles/nato-counter-drone-marketplace-16-systems",
+      "date": "2026-11-06",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W4",
+      "title": "Shield to Acquire Echodyne in a Transaction Valued at $5.3 Billion and Raise $2.5 Billion at a $28.8 Billion Valuation",
+      "publisher": "Shield AI (PR Newswire)",
+      "url": "https://www.prnewswire.com/news-releases/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation-302930012.html",
+      "date": "2026-11-05",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W5",
+      "title": "Ukrainian air defense intercepted more than 8,000 air targets in October",
+      "publisher": "Ministry of Defence of Ukraine",
+      "url": "https://mod.gov.ua/en/news/ukraine-air-defense-intercepted-8000-targets-october-2026",
+      "date": "2026-11-04",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W6",
+      "title": "Ukraine downs two out of three jet-powered Shaheds, General Staff says",
+      "publisher": "LIGA.net",
+      "url": "https://news.liga.net/en/politics/news/ukraine-downs-two-out-of-three-jet-powered-shaheds-general-staff-says",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W7",
+      "title": "Russia Attacks Ukraine With 433 Drones: Air Defences Neutralise 371",
+      "publisher": "LB.ua",
+      "url": "https://en.lb.ua/news/2026/11/01/47526_russia_attacks_ukraine_433.html",
+      "date": "2026-11-01",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W8",
+      "title": "Upgraded ZIRKA Interceptor Drone Destroys Geran-5 at 400 km/h",
+      "publisher": "Militarnyi",
+      "url": "https://militarnyi.com/en/news/upgraded-zirka-interceptor-drone-destroys-geran-5-at-400-km-h/",
+      "date": "2026-11-01",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W9",
+      "title": "Gerbera-2 — War&Sanctions",
+      "publisher": "Defence Intelligence of Ukraine",
+      "url": "https://war-sanctions.gur.gov.ua/page-gerbera-2",
+      "date": "2026-11-02",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W10",
+      "title": "Iran targeted US air defenses before hitting aircraft and buildings, AP analysis finds",
+      "publisher": "AP (ABC News)",
+      "url": "https://abcnews.com/US/wireStory/iran-targeted-us-air-defenses-hit-aircraft-buildings-137733589",
+      "date": "2026-10-31",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W11",
+      "title": "Department of War's Office of Strategic Capital Signs Conditional Loan Commitment of up to $450 Million with Neros",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4638926/department-of-wars-office-of-strategic-capital-signs-conditional-loan-commitmen/",
+      "date": "2026-11-02",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W12",
+      "title": "軍「調達・技術コントロールタワー」国防ドローン本部発足",
+      "publisher": "Financial News（韓国）",
+      "url": "https://www.fnnews.com/news/202611020825099825",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W13",
+      "title": "Seoul launches drone agency, plans phaseout of Chinese parts",
+      "publisher": "Korea JoongAng Daily",
+      "url": "https://www.koreajoongangdaily.com/korea/seoul-launches-drone-agency-plans-phaseout-of-chinese-parts/12950477",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W14",
+      "title": "Judge Finds For Saildrone In Lawsuit Over MUSV Rejection, Directs Navy To Reevaluate",
+      "publisher": "Defense Daily",
+      "url": "https://www.defensedaily.com/judge-finds-for-saildrone-in-lawsuit-over-musv-rejection-directs-navy-to-reevaluate/navy-usmc/",
+      "date": "2026-11-03",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W15",
+      "title": "Sea drone makers compete for investment in Taiwan",
+      "publisher": "AFP / The Manila Times",
+      "url": "https://www.manilatimes.net/2026/11/04/world/asia-oceania/sea-drone-makers-compete-for-investment-in-taiwan/2460671",
+      "date": "2026-11-04",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W16",
+      "title": "Where AI is — and isn't — accelerating military missions today",
+      "publisher": "DefenseScoop",
+      "url": "https://defensescoop.com/2026/11/05/where-ai-is-and-isnt-accelerating-military-missions-today/",
+      "date": "2026-11-05",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W17",
+      "title": "NATO Is Testing AI To Speed up Targeting While Searching for Cheaper Ways To Stop Inexpensive Drones",
+      "publisher": "IBTimes UK",
+      "url": "https://www.ibtimes.co.uk/nato-testing-ai-speed-targeting-while-searching-cheaper-ways-stop-inexpensive-drones-1829549",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W18",
+      "title": "EURONAVAL 2026: KNDS and SeaOwl partner to develop a surface drone equipped with a next-generation naval loitering munition",
+      "publisher": "KNDS N.V.",
+      "url": "https://www.webdisclosure.com/press-release/knds-nv-etr-euronaval-2026-knds-and-seaowl-partner-to-develop-a-surface-drone-equipped-with-a-next-generation-naval-loitering-munition-aFk56GkTswc",
+      "date": "2026-11-03",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W19",
+      "title": "防衛産業基盤戦略を年内に策定へ 小泉防衛大臣",
+      "publisher": "KSB（ANN）",
+      "url": "https://news.ksb.co.jp/ann/article/17022514",
+      "date": "2026-11-04",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W20",
+      "title": "Bilateral no more: PACOM officials highlight multi-national data sharing network",
+      "publisher": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/10/bilateral-no-more-pacom-officials-highlight-multi-national-data-sharing-network/",
+      "date": "2026-10-30",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W21",
+      "title": "Air defense downs 49 of 59 cruise missiles, 257 of 289 drones overnight",
+      "publisher": "Interfax-Ukraine",
+      "url": "https://en.interfax.com.ua/news/general/1230251.html",
+      "date": "2026-11-03",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W22",
+      "title": "Air defense destroys, suppresses 154 enemy UAVs overnight",
+      "publisher": "Interfax-Ukraine",
+      "url": "https://en.interfax.com.ua/news/general/1229524.html",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W23",
+      "title": "Project Agincourt: Pathway to the Autonomous Warfare Command",
+      "publisher": "U.S. Department of War",
+      "url": "https://media.defense.gov/2026/Sep/30/2004009304/-1/-1/1/PROJECT-AGINCOURT-PATHWAY-TO-THE-AUTONOMOUS-WARFARE-COMMAND.PDF",
+      "date": "2026-09-30",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W24",
+      "title": "小泉防衛相 防衛省のAI活用に関する基本方針見直す考え",
+      "publisher": "NHK",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261103de70050",
+      "date": "2026-11-03",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W25",
+      "title": "Leonardo DRS tapped to support Army's high-energy laser program",
+      "publisher": "DefenseScoop",
+      "url": "https://defensescoop.com/2026/11/02/army-high-energy-laser-program-leonardo-drs-av/",
+      "date": "2026-11-02",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W26",
+      "title": "Air defense downs 272 of 310 Russian UAVs overnight – Air Force",
+      "publisher": "Interfax-Ukraine",
+      "url": "https://en.interfax.com.ua/news/general/1230906.html",
+      "date": "2026-11-04",
+      "kind": "media",
+      "accessed": true
+    }
+  ],
+  "item_ids": [
+    "cl-20261102-03",
+    "cl-20261102-04",
+    "cl-20261102-06",
+    "cl-20261103-01",
+    "cl-20261103-03",
+    "cl-20261103-06",
+    "cl-20261103-13",
+    "cl-20261103-15",
+    "cl-20261104-02",
+    "cl-20261104-04",
+    "cl-20261104-09",
+    "cl-20261104-11",
+    "cl-20261105-02",
+    "cl-20261105-03",
+    "cl-20261105-07",
+    "cl-20261105-10",
+    "cl-20261105-11",
+    "cl-20261105-12",
+    "cl-20261106-05",
+    "cl-20261106-06",
+    "cl-20261106-09",
+    "cl-20261106-13"
+  ],
+  "internal": {
+    "scan": "2026-11-02〜11-06の Daily Brief（handoff/daily）全号を読んだ。11-07号は実行時点で未作成。補足として NATO対無人機マーケットプレイスの参加5社・枠組み期間（AeroTime、本文確認）を追加。11月6日の日本政府サイバー緊急対策パッケージ決定は時事通信の見出しで確認したが本文を開けず、本稿では扱わなかった。11月6日夜〜7日朝のウクライナ空軍発表は検索で確認できなかった。",
+    "notes_for_editor": [
+      "主張の選定：前週（W44）がAIサイバー能力の配布の時間差を論じたため、今週は日次で最も厚かった無人機・対無人機の調達と制度を軸にした。OpenAIのGPT-Rosalind-6・GPT-6 Cyber、日本のサイバー緊急対策パッケージは本稿では扱っていない。",
+      "ジェット型の無力化率66%は参謀本部の数値（LIGA.net経由）。撃墜数はいずれもウクライナ側の自己申告で、確度コードB2とした。ZIRKAの撃墜は映像による主張で日時・場所不明のためC3。",
+      "NATOマーケットプレイスの5社名・四つの評価想定・18か月の枠組み期間はAeroTimeの報道に基づく（NATO本文は日次で確認済み）。",
+      "日本がMavenを使用したとの説明は米インド太平洋軍の発言のみで、日本側の確認はない。",
+      "韓国の消耗型2万機の目標は韓国メディアの報道に基づき、国防部の公式発表文は日次の時点で未確認。"
+    ]
+  }
+}
