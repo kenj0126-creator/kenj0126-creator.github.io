@@ -1,0 +1,521 @@
+{
+  "edition_date": "2026-11-07",
+  "generated_at": "2026-11-07T06:15:00+09:00",
+  "window_from": "2026-11-06T06:10:00+09:00",
+  "edition_title_ja": "無人機の量産体制と、AI統治の主導権を取り戻す政府",
+  "edition_title_en": "Mass-producing drones, and governments reclaiming the lead on AI governance",
+  "edition_dek_ja": "緊急対策の決定、法案攻勢の予告、ソースコードの国家所有、工場契約が同じ日に並んだ。",
+  "edition_dek_en": "An emergency package, a legislative offensive, state-owned source code and a factory contract landed on the same day.",
+  "lead_points_ja": [
+    "政府がAIとサイバーの被害対応で主導権を取り戻す動きと、低コスト無人機を量産する体制づくりが同じ日に進んだ一日である。制度の側では緊急対策と法案攻勢、産業の側では工場契約とソフトの国家所有が並んだ。",
+    "日本政府は11月6日の関係閣僚会議でサイバーセキュリティ緊急対策パッケージを決定し、予備費約100億円の支出とサイバー対処能力強化法の改正検討の指示を同日にそろえた。複数の高性能AIで弱点を洗い出す検査と、月内のアウトリーチ・チーム新設が柱に入る。",
+    "米民主党は来年1月の議会掌握を前に、先進AIモデルの独立評価、AIによる被害の企業責任、データセンター電力料金からの消費者保護を柱とする法案群を準備していると報じられ、市場は新議会の規制を織り込んで売られた。",
+    "米国防総省はMachina LabsにLUCAS攻撃無人機の金属機体をAIロボット工場で製造する900万ドルの試験契約を与え、ドイツではHelsingが将来無人戦闘機のミッションOSのソースコードを国家へ引き渡した。量産と所有の条件が調達の争点になっている。",
+    "ウクライナ参謀本部は1週間で7,947機のLancet・Molniyaを記録し91%を無力化したと発表し、中国のMoonshot AIは欧州のクラウド経由でBlackwell 8,000基超の利用を模索したと報じられた。いずれも当事者の発表や関係者の話にとどまり、独立の検証は示されていない。"
+  ],
+  "lead_points_en": [
+    "Governments moved to retake the initiative on AI-era cyber harm while the machinery for mass-producing cheap drones took shape on the same day: an emergency package and a legislative offensive on the institutional side, a factory contract and state-owned software on the industrial side.",
+    "Japan's cabinet-level council adopted a Cyber Security Emergency Package on 6 November, pairing it with roughly 10 billion yen from the reserve fund and an instruction to study amending the Active Cyber Defence law. Vulnerability sweeps using several high-end AI models and an outreach team to be set up this month are among its pillars.",
+    "US Democrats, ahead of taking control of Congress in January, are reported to be preparing bills on independent evaluation of frontier models, corporate liability for AI harms and consumer protection from data-centre power costs; markets sold off on the prospect of a regulating Congress.",
+    "The Pentagon gave Machina Labs a $9 million trial contract to build LUCAS attack-drone airframes in AI-driven robotic factories, and in Germany Helsing handed the state the source code of a mission operating system for future combat drones. The terms of mass production and ownership have become procurement issues.",
+    "Ukraine's General Staff logged 7,947 Lancet and Molniya drones in a week and claimed a 91% neutralisation rate, while China's Moonshot AI was reported to have sought 8,000-plus Blackwell GPUs through European clouds. Both rest on party statements or sourced reporting without independent verification."
+  ],
+  "items": [
+    {
+      "id": "cl-20261107-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "政府、サイバー緊急対策パッケージを決定　予備費100億円を支出、AIで弱点を洗い出し法改正の検討も指示",
+      "title_en": "Japan adopts Cyber Security Emergency Package: 10 billion yen from reserves, AI-driven vulnerability sweeps and a study of amending the Active Cyber Defence law",
+      "lead_ja": "政府は11月6日、高市早苗首相が出席するサイバーセキュリティに関する関係閣僚会議で「サイバーセキュリティ緊急対策パッケージ」を決定した。同日午前の閣議では今年度予算の予備費から約100億円の支出を決め、首相は「サイバー対処能力強化法」の改正に向けた検討を新たに指示した。10月26日の首相指示から12日で、財政措置と実施体制に落とし込む段階に至った。",
+      "lead_en": "On 6 November Japan's government adopted a Cyber Security Emergency Package at a ministerial council chaired by Prime Minister Sanae Takaichi. The morning cabinet meeting approved roughly 10 billion yen from this year's reserve fund, and the prime minister newly instructed ministers to study amending the Active Cyber Defence law. Twelve days after her 26 October instruction, the measures now have funding and an implementation structure.",
+      "sections": [
+        {
+          "heading_ja": "四つの柱と予備費100億円の使途",
+          "heading_en": "The four pillars and the 10 billion yen reserve",
+          "paragraphs_ja": [
+            "首相は会議の冒頭で、パッケージが「AIも活用した基本的な対策の徹底」「情報収集・集約、捜査・分析体制の強化」「サイバー攻撃への対処の戦略的な実施」「被害者支援・被害拡大防止策の強化」の四つの柱からなると説明した。会議は17時15分に始まり、官房長官を中心に出席した全閣僚で早期に実施すべき施策を取りまとめたとする。首相は、不正アクセスや情報漏えいが今この瞬間にも相次ぎ国民生活と企業活動に影響が出ているとして、政府の総力を挙げて我が国全体の対処能力を高めると述べた。",
+            "財政面では、同日午前の閣議で今年度予算の予備費から約100億円の支出を決定した。片山さつき財務相は閣議後会見で、速やかにセキュリティ対策を進めるため総額100億円の予備費使用を決めたと述べた。使途として報じられているのは警察のシステム整備などであり、内訳の全体は現時点で公表されていない。10月に政府へ寄せられたサイバー攻撃等の被害報告は前月比で10倍以上に増えたとされ、政府はその背景にAIの悪用が疑われると分析している。"
+          ],
+          "paragraphs_en": [
+            "Opening the council, the prime minister said the package rests on four pillars: thorough basic measures that also use AI; stronger intelligence gathering, consolidation, investigation and analysis; strategic implementation of responses to cyber attacks; and stronger victim support and containment. The meeting began at 17:15, and she said every minister present, led by the chief cabinet secretary, had assembled measures to be carried out early. Unauthorised access and data leaks were happening at this very moment and affecting daily life and business, she said, and the whole government would raise the nation's response capacity.",
+            "On funding, the morning cabinet meeting approved roughly 10 billion yen from this year's reserve fund. Finance Minister Satsuki Katayama told her post-cabinet press conference that the total of 10 billion yen was approved to move security measures forward quickly. Reported uses include police systems; a full breakdown has not been published. Reports of cyber damage reaching the government in October are said to have risen more than tenfold from the previous month, and the government assesses that misuse of AI is suspected behind the surge."
+          ]
+        },
+        {
+          "heading_ja": "AIで弱点を洗い出す検査とアウトリーチ",
+          "heading_en": "AI-driven vulnerability sweeps and outreach",
+          "paragraphs_ja": [
+            "第1の柱では、複数の高性能AIを用いて官民のシステムの弱点を洗い出し、防御策に適用する方針を示した。5日に判明していた概要案では、高度な専門人材による「トップガン人材チーム」を月内に立ち上げ、AIを用いた模擬攻撃で守りを点検するとしていた。国家サイバー統括室が5日に出した事業者向けの注意喚起も、攻撃経路の探索やテストケース生成、ログとアラートの横断分析にAIを使い、最終判断は人が担うよう促している。",
+            "攻撃を受けやすい企業などに政府側から対策を促す「アウトリーチ・チーム」を今月中に新設する。概要案にあった官民の専門人材による「官民サイバー救援隊（仮称）」は、被害組織の要請と緊急性を条件に派遣して初動を支える仕組みで、事務局は年度内に統括室へ置くとされていた。したがってパッケージは、AIを脅威の源と位置づけると同時に、検査と早期警戒の手段として組み込む構成を取る。"
+          ],
+          "paragraphs_en": [
+            "Under the first pillar, several high-end AI models will be used to sweep public and private systems for weaknesses and feed the findings into defences. The outline reported on 5 November called for a 'top gun' team of specialists to be stood up within the month to test defences with AI-assisted simulated attacks. The National Cyber Office's advisory to businesses on 5 November likewise encourages AI for attack-path exploration, test-case generation and cross-analysis of logs and alerts, with humans making the final call.",
+            "An outreach team that approaches companies likely to be attacked and prompts them to act will be set up this month. The public-private cyber rescue corps (provisional name) in the outline would be dispatched, on request and where urgency is high, to support initial response, with a secretariat in the National Cyber Office within the fiscal year. The package therefore treats AI both as a source of threat and as an instrument of inspection and early warning."
+          ]
+        },
+        {
+          "heading_ja": "能動的サイバー防御の戦略的実施と法改正",
+          "heading_en": "Strategic use of active cyber defence and the law amendment",
+          "paragraphs_ja": [
+            "第3の柱は、10月1日に本格運用が始まった能動的サイバー防御を含む手段の戦略的な実施である。報道では、重要インフラ事業者が攻撃を受けた場合に数時間以内、遅くとも同日中に統括室へ情報が届く体制を目指し、民間企業への不審な通信を統括室が検知・分析する仕組みを主要国の制度を参考に検討するとされる。悪用されている通信の強制遮断の検討を加速するとも報じられた。国家安全保障局はIT機器のサプライチェーンリスクに必要な体制を検討する。",
+            "首相はあわせて、我が国を狙う攻撃の情報収集を強めるため「サイバー対処能力強化法」の改正の検討を進めるよう指示した。法改正は検討指示の段階であり、提出時期と条文は示されていない。捜査面では警察庁長官が同日、警察法第61条の3に基づき、2026年1月1日以降に確認された高度な不正アクセスによる大規模な個人情報漏えいについて、関東管区警察局サイバー特別捜査部に合同捜査本部を設ける指示を出した。"
+          ],
+          "paragraphs_en": [
+            "The third pillar is the strategic use of measures including active cyber defence, which entered full operation on 1 October. Reports say the aim is for information on an attack against a critical-infrastructure operator to reach the National Cyber Office within hours, and at the latest the same day, and that a mechanism for the office to detect and analyse suspicious communications to private companies will be studied with reference to other major countries. Faster study of forcibly cutting off abused communications was also reported. The National Security Secretariat will examine the structure needed for IT supply-chain risk.",
+            "The prime minister also instructed ministers to pursue a study of amending the Active Cyber Defence law to strengthen intelligence gathering on attacks aimed at Japan. The amendment is at the instruction stage, with no bill timing or text. On the investigative side, the Commissioner General of the National Police Agency ordered the same day, under Article 61-3 of the Police Act, a joint investigation headquarters at the Kanto Regional Police Bureau's Cyber Special Investigation Department covering large-scale personal-data leaks from sophisticated intrusions confirmed since 1 January 2026."
+          ]
+        },
+        {
+          "heading_ja": "12日間で指示から財政措置へ、残る制度設計",
+          "heading_en": "From instruction to funding in twelve days, with the design still open",
+          "paragraphs_ja": [
+            "10月26日の首相の取りまとめ指示から12日で、閣僚会議の決定、予備費の支出、法改正の検討指示までそろった。速度の面では、能動的サイバー防御の法体系を、被害が急増する局面で運用と資金に接続した点に意味がある。一方で、救援隊の人員規模、派遣の判断基準、通信の検知・遮断の法的根拠、AIによる検査の対象範囲はいずれも今後の設計に委ねられている。パッケージの本文は官邸と統括室の公表資料で確認する必要がある。"
+          ],
+          "paragraphs_en": [
+            "Within twelve days of the prime minister's 26 October instruction, the council decision, reserve-fund spending and an instruction to study the law amendment are all in place. The speed matters because it connects the active cyber defence legal framework to operations and money at a moment of sharply rising damage. The size of the rescue corps, the criteria for dispatch, the legal basis for detecting and cutting communications and the scope of AI-driven inspection are all left to later design, and the package text itself should be checked against the Kantei and National Cyber Office releases."
+          ]
+        }
+      ],
+      "watch_next_ja": "パッケージ本文の公表と予備費約100億円の内訳。アウトリーチ・チームと「トップガン人材チーム」の月内立ち上げ。サイバー対処能力強化法改正案の提出時期と、通信の検知・遮断の法的根拠。",
+      "watch_next_en": "Publication of the package text and the breakdown of the 10 billion yen. Stand-up of the outreach and 'top gun' teams within the month. Timing of an Active Cyber Defence law amendment and the legal basis for detecting and cutting communications.",
+      "japan_relevance": true,
+      "date": "2026-11-06",
+      "stage": "announced",
+      "publisher": "首相官邸・内閣官房国家サイバー統括室",
+      "publisher_en": "Prime Minister's Office / National Cyber Office",
+      "sources": [
+        {"title": "サイバーセキュリティに関する関係閣僚会議（令和8年11月6日）", "url": "https://www.kantei.go.jp/jp/105/actions/202611/06kaigi_cyber.html", "publisher": "首相官邸", "date": "2026-11-06", "kind": "primary", "accessed": false},
+        {"title": "首相官邸：高市総理発言要旨（速報版）サイバーセキュリティに関する関係閣僚会議", "url": "https://x.com/kantei/status/2118671075013968185", "publisher": "首相官邸（X）", "date": "2026-11-06", "kind": "primary", "accessed": false},
+        {"title": "「総力を挙げて対処能力を高める」相次ぐ不正アクセスに政府が“緊急対策パッケージ”　防御策などへ予備費から約100億円支出", "url": "https://news.cube-soft.jp/article/4113028", "publisher": "TBS NEWS DIG（JNN）", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "政府がサイバー対策の緊急対応に約100億円「緊急対策パッケージ」とりまとめへ　AI活用した対策の徹底など“概要案”判明", "url": "https://news.cube-soft.jp/article/4112924", "publisher": "TBS NEWS DIG（JNN）", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "不正アクセス対策 政府が予備費100億円の支出を決定 警察のシステム整備など 緊急対策パッケージに合わせ", "url": "https://news.web.nhk/newsweb/na/nd-20261106de71363", "publisher": "NHK", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "不正アクセス相次ぎ“能動的サイバー防御含む手段を戦略的に実行”政府が緊急対策パッケージ決定", "url": "https://news.web.nhk/newsweb/na/nd-20261106de71754", "publisher": "NHK", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "AIにはAIで対抗を。日本政府が推奨、サイバー攻撃「緊急対策パッケージ」", "url": "https://smhn.info/202611-japan-cyber-emergency-package-npa-joint-investigation-ai-defense", "publisher": "すまほん!!", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "政府がサイバー攻撃の「緊急対策パッケージ」 強制遮断の検討加速、被害防止へ新チーム", "url": "https://www.jiji.com/jc/article?k=2026110600989&g=pol", "publisher": "時事通信", "date": "2026-11-06", "kind": "media", "accessed": false}
+      ],
+      "themes": ["cyber-ci", "governance-norms"],
+      "actors": ["JP"],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": ["detect", "assess"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261106-02"
+    },
+    {
+      "id": "cl-20261107-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米民主党、来年1月の議会掌握を前にAI法案攻勢を予告　モデルの独立評価、企業責任、データセンター電力料金が柱",
+      "title_en": "US Democrats signal a wave of AI bills before taking Congress in January: independent model evaluation, corporate liability and data-centre power costs",
+      "lead_ja": "ロイターは11月6日、中間選挙で議会の多数を得た米民主党が、来年1月の議会掌握後にAI関連法案を相次いで提出する準備を進めていると報じた。先進AIモデルの独立評価、AIによる被害の企業責任、データセンター拡大に伴う電力料金からの消費者保護が柱である。トランプ大統領の在任中は成立の壁が高い一方、必須法案への付帯と公聴会での追及が現実的な経路となる。",
+      "lead_en": "Reuters reported on 6 November that Democrats, who won control of Congress in the midterms, are preparing a series of AI bills for when they take over in January. The pillars are independent evaluation of frontier models, corporate liability for harms caused by AI, and consumer protection from power costs tied to data-centre expansion. Enactment faces steep odds while President Trump is in office, so riders on must-pass bills and oversight hearings are the realistic routes.",
+      "sections": [
+        {
+          "heading_ja": "三つの法案群と提出者の顔ぶれ",
+          "heading_en": "Three families of bills and their sponsors",
+          "paragraphs_ja": [
+            "次期上院多数党院内総務が見込まれるチャック・シューマー氏は5日、ワシントンでの行事で、データセンター拡大に伴う電力料金上昇から消費者を守ることを来年の最優先課題の一つに挙げた。下院のロリ・トラハン議員は、主要AIモデルを独立した専門家が安全基準に照らして評価する法案と、AIが有害に作動した場合に企業が責任を負うことを明確にする法案を準備している。下院科学委員長を目指すゾーイ・ロフグレン議員は、革新を促しつつ責任あるAI規制に取り組むと述べた。",
+            "上院選で当選したアブドゥル・エルサイード氏は選挙中にAIを監督する独立機関の設置を訴え、進歩派議員連盟のグレッグ・カサール議長はAI企業幹部の宣誓証言を求めた。10月にはロフグレン氏ら下院委員会の民主党筆頭委員がOpenAI、Anthropic、Meta、Google、SpaceXに安全対策と、設計者の意図を外れたAIの行動の事例の報告を求めている。11日と13日の回答期限が、新議会での追及の出発点となる。"
+          ],
+          "paragraphs_en": [
+            "Chuck Schumer, expected to become Senate majority leader, told a Washington event on 5 November that protecting consumers from higher energy costs tied to data-centre expansion would be a top priority next year. Rep. Lori Trahan is preparing a bill requiring independent experts to evaluate leading AI models against safety standards and another clarifying that companies can be held responsible when AI systems act harmfully. Rep. Zoe Lofgren, who is seeking the House Science Committee chair, said Democrats would pursue responsible AI regulation while fostering innovation.",
+            "Senator-elect Abdul El-Sayed campaigned for an independent agency to oversee AI, and Rep. Greg Casar, chair of the Congressional Progressive Caucus, said AI executives should testify under oath. In October, Lofgren and other House Democratic committee leaders asked OpenAI, Anthropic, Meta, Google and SpaceX to detail their security practices and report cases of AI tools acting outside their designers' intent. The reply deadlines of 11 and 13 November will be the starting point for scrutiny in the new Congress."
+          ]
+        },
+        {
+          "heading_ja": "成立の壁と必須法案への付帯という経路",
+          "heading_en": "The veto wall and the must-pass-bill route",
+          "paragraphs_ja": [
+            "トランプ大統領はAIへの強制的な規則づくりを繰り返し退けており、法案は拒否権の壁に直面する。レイモンド・ジェームズのエド・ミルズ氏は、立法の確率は市場の想定より高いと述べ、危機が起きれば大統領の反対を覆す支持が集まりうるとし、民主党が年次の必須法案にAI規制を付帯させる可能性を指摘した。ロイターの10月の調査では、多くの有権者が政府と議会のAIリスクへの取り組みを不十分と見ている。",
+            "市場は5日、新議会がAI開発を遅らせるとの懸念とAI投資の回収への疑念から大きく売られ、6日のアジアと欧州の市場にも下げが広がった。ブルームバーグは同日、NvidiaのAIチップ輸出が民主党議会の標的として浮上すると報じた。したがって規制の争点は安全評価と責任にとどまらず、計算資源の輸出管理にも広がる見通しである。"
+          ],
+          "paragraphs_en": [
+            "President Trump has repeatedly dismissed calls for mandatory AI rules, so any bill faces a veto. Ed Mills of Raymond James said the probability of legislation is higher than markets assume, that a crisis could build enough support to overcome presidential opposition, and that Democrats could attach AI provisions to annual must-pass bills. A Reuters poll in October found most voters think the administration and Congress are not taking AI risks seriously enough.",
+            "Technology shares sold off sharply on 5 November on concern that the new Congress would slow AI development and on doubts about the payoff from AI capital spending, and the slide extended to Asian and European markets on 6 November. Bloomberg reported the same day that Nvidia's AI chip exports are emerging as a target in the Democratic Congress. The regulatory contest therefore extends beyond safety evaluation and liability to export controls on compute."
+          ]
+        },
+        {
+          "heading_ja": "国防AI政策との接点",
+          "heading_en": "Where it meets defence AI policy",
+          "paragraphs_ja": [
+            "民主党が重視する独立評価と企業責任は、米国防総省が月内に示すとするAI研究所に適用される法規制の一覧と重なる領域にある。国防総省側は既存規則の整理にとどめる方針を示しており、新議会が義務づけを求めれば、民間フロンティアAIの軍事利用の条件をめぐる調整が立法と調達の両面で進むことになる。9日に再開する現議会の会期では2027年度NDAAの協議が続き、政権交代前の最後の決着点となる。"
+          ],
+          "paragraphs_en": [
+            "The independent evaluation and liability that Democrats emphasise overlap with the inventory of laws and regulations applying to AI labs that the Pentagon says it will publish this month. The department has framed that work as a tidy-up of existing rules, so if the new Congress seeks binding obligations, the terms for military use of commercial frontier AI will be negotiated through both legislation and procurement. The current Congress resumes on 9 November with the FY2027 NDAA still under negotiation, the last decision point before the handover."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月11日・13日のフロンティアAI企業の回答期限。2027年1月の新議会での法案提出の順序と委員会人事。現議会のNDAA協議でのAI条項と、チップ輸出管理をめぐる民主党の提案。",
+      "watch_next_en": "The 11 and 13 November reply deadlines for frontier AI companies. The order of bills and committee assignments in the new Congress in January 2027. AI provisions in the current NDAA negotiations and Democratic proposals on chip export controls.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "ロイター",
+      "publisher_en": "Reuters",
+      "sources": [
+        {"title": "Democrats Planning Flood of AI Bills When They Take Control of Congress", "url": "https://www.claimsjournal.com/news/national/2026/11/06/341154.htm", "publisher": "Reuters（Claims Journal配信）", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "Democrats planning flood of AI bills when they take control of Congress", "url": "https://ca.finance.yahoo.com/news/democrats-planning-flood-ai-bills-111226869.html", "publisher": "Reuters（Yahoo Finance配信）", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "Nvidia Faces Congressional Scrutiny Over AI Chip Sales, Export Controls", "url": "https://www.bloomberg.com/news/articles/2026-11-06/nvidia-s-ai-chip-exports-emerge-as-target-in-democratic-congress", "publisher": "Bloomberg", "date": "2026-11-06", "kind": "media", "accessed": false}
+      ],
+      "themes": ["governance-norms", "frontier-safety", "compute-export"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261105-04"
+    },
+    {
+      "id": "cl-20261107-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "国防総省、AIロボット工場のMachina LabsにLUCAS無人機の機体製造を900万ドルで委託　1機1.5万ドルを目標",
+      "title_en": "Pentagon gives Machina Labs a $9 million contract to build LUCAS attack-drone airframes in AI-driven robotic factories, targeting $15,000 a drone",
+      "lead_ja": "米国防総省は、ロサンゼルスのロボット製造スタートアップMachina Labsと、低コスト無人攻撃機LUCASの金属製機体を製造する18か月・900万ドルの契約を結んだ。ブルームバーグが11月6日に報じた。AIで制御するロボットアームで安価な板金を成形し、約1か月で立ち上がるモジュール工場で量産する構想で、1機あたり約1万5,000ドルを目標とする。",
+      "lead_en": "The US Department of Defense has signed an 18-month, $9 million contract with Los Angeles robotics start-up Machina Labs to build metal airframes for the Low-Cost Uncrewed Combat Attack System (LUCAS), Bloomberg reported on 6 November. The concept uses AI-controlled robotic arms to form cheap sheet metal and modular factories that can be set up in about a month, with a target cost of around $15,000 per drone.",
+      "sections": [
+        {
+          "heading_ja": "板金成形ロボットによる機体製造の試験",
+          "heading_en": "A trial of robotic sheet-metal airframes",
+          "paragraphs_ja": [
+            "Machina Labsはロボットアームが板金を段階的に成形する方式を用い、複合材を使う従来の無人機機体製造と異なる工程を提案する。エド・メア最高経営責任者はブルームバーグに、今回の契約は技術を実証するためのもので大量購入を意味するものと異なると述べ、将来の発注は保証されていないとした。同社はいずれ年間数万機の規模を支えうると説明する。ロッキード・マーティンのベンチャー部門が同社に出資している。",
+            "LUCASはイランのShahed型を参考に設計された片道攻撃型無人機で、国防総省が中東で急ぐ安価な攻撃無人機の調達の中核に位置づけられる。今回の契約は機体の製造方法に関する試験契約であり、配備機数や調達単価の決定とは段階が異なる。したがって1機1万5,000ドルという数字は、量産時の目標値として読む必要がある。"
+          ],
+          "paragraphs_en": [
+            "Machina Labs uses robotic arms that incrementally form sheet metal, a process distinct from the composite construction common in drone airframes. Chief executive Ed Mehr told Bloomberg the contract is meant to prove the technology rather than to buy large numbers, and that future orders are not guaranteed. The company says the approach could eventually support tens of thousands of drones a year. Lockheed Martin's venture arm is an investor.",
+            "LUCAS is a one-way attack drone reverse-engineered from Iran's Shahed and sits at the centre of the Pentagon's rush to field cheap attack drones in the Middle East. This contract is a trial of a manufacturing method, a different stage from decisions on fleet size or unit procurement price, so the $15,000 figure should be read as a target for series production."
+          ]
+        },
+        {
+          "heading_ja": "量産拠点の分散と産業基盤への含意",
+          "heading_en": "Distributed production and the industrial base",
+          "paragraphs_ja": [
+            "モジュール工場を約1か月で設置できるとの主張は、無人機の生産を特定の工場に集中させず、需要地や前方に分散する構想につながる。中東でイランの無人機が米軍基地、湾岸のエネルギー施設、ホルムズ海峡の商船を攻撃している状況が、安価な攻撃無人機の国内量産を急ぐ背景にある。ソフトウェアで工程を書き換えられる工場が、ミサイルや航空機修理にも転用できるかが試される。",
+            "国防総省は2027年10月の自律戦争軍の創設を掲げ、低コスト無人機の大量調達を予告している。製造能力の確保はその前提であり、今回の小規模な契約は供給側の実験として位置づけられる。18か月後の評価が、量産契約へ進むかどうかの分岐点となる。"
+          ],
+          "paragraphs_en": [
+            "The claim that a modular factory can be set up in about a month points toward dispersing drone production to where demand is, including forward locations, rather than concentrating it in a few plants. Iranian drone attacks on US bases, Gulf energy infrastructure and shipping in the Strait of Hormuz form the backdrop to the push for domestic mass production of cheap attack drones. The test is whether a software-reprogrammable factory can also be turned to missiles and aircraft repair.",
+            "The Pentagon has set October 2027 for standing up an Autonomous Warfare Command and has signalled large purchases of low-cost drones. Securing manufacturing capacity is the precondition, and this small contract is an experiment on the supply side. The evaluation at the end of the 18 months will decide whether it leads to a production contract."
+          ]
+        }
+      ],
+      "watch_next_ja": "18か月の試験期間の中間成果。LUCASの量産契約と調達単価の公表。モジュール工場の設置場所と設置期間の実績。",
+      "watch_next_en": "Interim results during the 18-month trial. A LUCAS production contract and published unit prices. Where the modular factories are set up and how long they actually take.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "awarded",
+      "publisher": "米国防総省／Machina Labs",
+      "publisher_en": "US Department of Defense / Machina Labs",
+      "sources": [
+        {"title": "Pentagon Taps Robotics Startup in Push for Cheap Attack Drones", "url": "https://www.bloomberg.com/news/articles/2026-11-06/pentagon-taps-robotics-startup-in-push-for-cheap-attack-drones", "publisher": "Bloomberg", "date": "2026-11-06", "kind": "media", "accessed": false},
+        {"title": "Machina Labs wins Pentagon drone contract on AI manufacturing - Bloomberg", "url": "https://www.investing.com/news/stock-market-news/machina-labs-wins-pentagon-drone-contract-on-ai-manufacturing--bloomberg-93CH-5008663", "publisher": "Investing.com（Bloomberg配信）", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "Pentagon gives Machina Labs $9M to try building LUCAS airframes in modular factories", "url": "https://runtimewire.com/article/machina-labs-pentagon-lucas-drone-airframes-contract", "publisher": "RuntimeWire", "date": "2026-11-06", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage", "sustain"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261107-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "中国Moonshot AI、欧州クラウド経由でBlackwell 8,000基超の利用を模索と報道　遠隔アクセスは規制の外",
+      "title_en": "China's Moonshot AI reported to have sought 8,000-plus Nvidia Blackwell GPUs through European clouds, outside the reach of export controls",
+      "lead_ja": "CNBCは11月5日、中国のAI企業Moonshot AIが欧州のネオクラウド事業者と、Nvidiaの最新世代Blackwell GPUを8,000基以上備えたクラスターを借りる協議を行っていたと報じた。協議は推論用途を中心に訓練用の容量にも及び、欧州側は中国以外の顧客より30〜50%高い前払いを求めたとされる。契約の成立は確認されておらず、米国の輸出管理が物理的な出荷を対象とし遠隔アクセスを対象外とする構造が改めて焦点となる。",
+      "lead_en": "CNBC reported on 5 November that China's Moonshot AI had discussed renting clusters of 8,000 or more of Nvidia's latest Blackwell GPUs from European neocloud providers. The talks centred on inference and also covered training capacity, and the European operators reportedly sought 30–50% more upfront than from non-Chinese clients. No signed deal has been confirmed, and the episode again highlights that US controls cover physical shipments while leaving remote access largely untouched.",
+      "sections": [
+        {
+          "heading_ja": "協議の内容と成立の有無",
+          "heading_en": "What was discussed and whether it closed",
+          "paragraphs_ja": [
+            "報道は事情に詳しい4人の話として、Moonshotが8,000基以上のBlackwell GPUを備えたクラスターの借用を欧州の複数のネオクラウド事業者と協議したと伝える。事業者名と所在国は示されていない。欧州側は中国企業との取引に伴うリスクを織り込み、30〜50%の上乗せを前払いで求めたという。署名された契約や実際の利用は報じられておらず、Nvidiaは個別顧客についてのコメントを避け、適用される全ての輸出規制を遵守していると述べた。Moonshotは取材に応じていない。"
+          ],
+          "paragraphs_en": [
+            "Citing four people familiar with the talks, the report says Moonshot discussed leasing clusters of 8,000 or more Blackwell GPUs from several European neocloud operators; neither the providers nor their countries are named. The operators priced in the risk of dealing with a Chinese firm and asked for 30–50% more upfront. No signed lease or actual use has been reported. Nvidia declined to comment on specific customers and said it complies with all applicable export regulations; Moonshot did not respond to requests for comment."
+          ]
+        },
+        {
+          "heading_ja": "物理チップを縛る規制と遠隔アクセスの隙間",
+          "heading_en": "Rules that bind chips, and the remote-access gap",
+          "paragraphs_ja": [
+            "米国の輸出管理は最上位の加速器を中国へ物理的に出荷することを禁じる一方、国境を越えるクラウドの貸借は規制の射程からおおむね外れている。Institute for AI Policy and StrategyのCassia King氏は、現行制度は物理的なAIチップを管理し遠隔アクセスを管理対象としていないと指摘し、合法性は契約の構造と所在国の規則に左右されると述べた。下院は遠隔アクセスを対象に加えるRemote Access Security Actを可決しているが、上院は取り上げていない。",
+            "ホワイトハウスは7月、Moonshotがタイの基盤を通じてBlackwellシステムへ遠隔アクセスしたと主張していた。NvidiaはFTの報道によれば、クラウド提携先に容量の51%以上を中国以外の顧客に確保するよう求めている。したがって今回の協議は、企業の自主ルールと各国制度の隙間を中国のフロンティアAI企業が探る動きとして、新議会でのチップ輸出管理の議論に材料を加える。"
+          ],
+          "paragraphs_en": [
+            "US export controls forbid physically shipping top-tier accelerators to China, while cross-border cloud leasing remains largely outside their reach. Cassia King of the Institute for AI Policy and Strategy noted that the existing regime controls physical AI chips rather than remote access, and that legality depends on the deal structure and host-country rules. The House has passed the Remote Access Security Act, which would extend controls to remote access, but the Senate has not taken it up.",
+            "In July the White House alleged that Moonshot had remotely tapped Blackwell systems through infrastructure in Thailand. According to earlier FT reporting, Nvidia has told cloud partners to reserve at least 51% of capacity for non-Chinese customers. The talks therefore show a Chinese frontier lab probing the seams between corporate self-restraint and national rules, and add material to the chip export-control debate in the incoming Congress."
+          ]
+        }
+      ],
+      "watch_next_ja": "Remote Access Security Actの上院での扱い。欧州各国のクラウド貸与に関する規則整備。Moonshotの香港上場準備に伴う計算資源調達の開示。",
+      "watch_next_en": "Senate handling of the Remote Access Security Act. Rules on cloud leasing in European jurisdictions. Disclosures on compute sourcing as Moonshot prepares a Hong Kong listing.",
+      "japan_relevance": false,
+      "date": "2026-11-05",
+      "stage": "",
+      "publisher": "CNBC",
+      "publisher_en": "CNBC",
+      "sources": [
+        {"title": "China's Moonshot AI sought Nvidia chip access in Europe amid U.S. curbs", "url": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html", "publisher": "CNBC", "date": "2026-11-05", "kind": "media", "accessed": false},
+        {"title": "China's Moonshot AI seeks Nvidia Blackwell access in Europe, CNBC reports", "url": "https://finance.yahoo.com/technology/ai/articles/china-moonshot-ai-seeks-nvidia-155140723.html", "publisher": "Investing.com（Yahoo Finance配信）", "date": "2026-11-05", "kind": "media", "accessed": true},
+        {"title": "Moonshot sought 8,000-GPU Blackwell clusters in Europe to skirt US chip curbs", "url": "https://dealroom.co/news/170092-moonshot-sought-8-000-gpu-blackwell-clusters-in-europe-to-skirt-us-chip/", "publisher": "Dealroom", "date": "2026-11-05", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export"],
+      "actors": ["CN", "US", "EU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261107-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ウクライナ参謀本部、1週間で戦術無人機7,947機を記録し91%を無力化と発表　6日未明は227機中196機",
+      "title_en": "Ukraine's General Staff logs 7,947 Russian Lancet and Molniya drones in a week and claims 91% neutralised; 196 of 227 downed overnight on 6 November",
+      "lead_ja": "ウクライナ軍参謀本部は11月6日、10月29日から11月4日の1週間にロシアが戦術レベルで投入したLancetとMolniyaの攻撃無人機が7,947機にのぼり、うち7,225機（約91%）を無力化したと発表した。空軍は同日、5日夜から6日朝にかけての227機の攻撃無人機のうち196機を撃墜または抑制したと報告した。いずれも当事者の発表であり、独立の検証は示されていない。",
+      "lead_en": "Ukraine's General Staff said on 6 November that Russia used 7,947 Lancet and Molniya attack drones at the tactical level between 29 October and 4 November, of which 7,225, or about 91%, were neutralised. The Air Force reported the same day that 196 of 227 attack drones launched overnight on 5–6 November were shot down or suppressed. Both are party statements without independent verification.",
+      "sections": [
+        {
+          "heading_ja": "1日1,100機超の戦術無人機という規模",
+          "heading_en": "More than 1,100 tactical drones a day",
+          "paragraphs_ja": [
+            "参謀本部の集計では、Molniyaは1日平均1,100機以上が発射され、10月30日には1,609機と1週間で最多となった。Lancetは砲兵、車両、防空装備を狙う徘徊型弾薬で、Molniyaは安価な固定翼の戦術攻撃無人機である。長距離のShahed型とは別の区分であり、前線の陣地、装備、兵站に向けられる。したがってこの集計は、迎撃の対象が長距離型にとどまらず、前線の数千機規模の戦術無人機に広がっていることを示す。",
+            "空軍の報告では、5日18時に始まった攻撃は227機で、ジェット推進型のShahedが86機含まれ、GerberaとParodiya型の囮も混じっていた。6日8時時点で196機（ジェット型70機）を撃墜または抑制し、14か所で着弾、8か所で破片の落下があった。対処には航空機、地対空ミサイル部隊、電子戦部隊、無人システム部隊、機動射撃班が関与したとする。前夜の128機中105機、その前の310機中272機に続き、ジェット型の比率が高い攻撃が続いている。"
+          ],
+          "paragraphs_en": [
+            "By the General Staff's count, more than 1,100 Molniya drones were launched per day on average, peaking at 1,609 on 30 October. Lancet is a loitering munition aimed at artillery, vehicles and air-defence equipment; Molniya is a cheap fixed-wing tactical strike drone. Both are a separate category from the long-range Shahed type and are directed at front-line positions, equipment and logistics. The tally therefore shows the interception problem extending beyond long-range drones to thousands of tactical drones a week at the front.",
+            "The Air Force said the attack that began at 18:00 on 5 November involved 227 drones, including 86 jet-powered Shaheds and Gerbera and Parodiya decoys. By 08:00 on 6 November, 196 (70 of them jet-powered) had been shot down or suppressed, with hits at 14 locations and debris at eight. Aviation, surface-to-air missile units, electronic-warfare units, unmanned-systems units and mobile fire groups took part. After 105 of 128 the night before and 272 of 310 before that, attacks with a high share of jet-powered drones are continuing."
+          ]
+        },
+        {
+          "heading_ja": "集計の読み方と検証の限界",
+          "heading_en": "How to read the figures, and their limits",
+          "paragraphs_ja": [
+            "7,947機という数字は参謀本部が公表したもので、探知と無力化の定義、電子戦による抑制と物理的撃墜の内訳、各部隊の報告の重複処理は示されていない。したがって91%という比率は能力の方向を示す指標として読むべきであり、個別の交戦の結果を裏づける資料とは性質が異なる。ロシア側はKometa衛星航法モジュールに大型の対妨害アンテナを導入しており、電子戦による抑制の効果が今後も続くかは不確定である。"
+          ],
+          "paragraphs_en": [
+            "The 7,947 figure is the General Staff's own, with no stated definitions of detection and neutralisation, no split between electronic suppression and physical kills, and no account of how overlapping unit reports were handled. The 91% rate is best read as an indicator of direction, a different kind of evidence from documentation of individual engagements. Russia is fitting larger anti-jamming antenna arrays to its Kometa satellite-navigation modules, so whether electronic suppression keeps its effect is an open question."
+          ]
+        }
+      ],
+      "watch_next_ja": "参謀本部の週次集計の継続と、抑制と撃墜の内訳の公表。ジェット型Shahedの比率と迎撃率の推移。無人システム部隊による迎撃無人機の運用実績。",
+      "watch_next_en": "Whether the General Staff keeps publishing weekly tallies and breaks out suppression versus kills. The share of jet-powered Shaheds and the interception rate over time. Operational results of interceptor drones used by unmanned-systems units.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "ウクライナ軍参謀本部・空軍",
+      "publisher_en": "General Staff and Air Force of Ukraine",
+      "sources": [
+        {"title": "Over 7,000 Molniyas and Lancets in a week: air defence also protects frontline communities", "url": "https://www.zsu.gov.ua/en/news/over-7-000-molniyas-and-lancets-in-a-week-air-defence-also-protects-frontline-communities", "publisher": "ウクライナ軍参謀本部", "date": "2026-11-06", "kind": "primary", "accessed": false},
+        {"title": "ウクライナ空軍の公式Telegram（11月6日朝の集計）", "url": "https://t.me/kpszsu/93571", "publisher": "ウクライナ空軍", "date": "2026-11-06", "kind": "primary", "accessed": false},
+        {"title": "Defense Forces neutralize more than 90% of Russian Lancet and Molniya drones in one week", "url": "https://www.ukrinform.net/rubric-ato/4181958-defense-forces-neutralize-more-than-90-of-russian-lancet-and-molniya-drones-in-one-week.html", "publisher": "Ukrinform", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "ADF neutralizes 196 Russian drones used to attack Ukraine overnight", "url": "https://www.ukrinform.net/rubric-ato/4181994-adf-neutralizes-196-russian-drones-used-to-attack-ukraine-overnight.html", "publisher": "Ukrinform", "date": "2026-11-06", "kind": "media", "accessed": true}
+      ],
+      "themes": ["c2-decision", "isr-targeting"],
+      "actors": ["UA", "RU"],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261106-09"
+    },
+    {
+      "id": "cl-20261107-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Helsing、将来無人戦闘機のミッションOSのソースコードを独調達庁へ引き渡し　政府所有のソフトとして開発",
+      "title_en": "Helsing hands Germany's procurement agency the source code of MissionOSBw, a mission operating system for future combat drones, to be developed as state-owned software",
+      "lead_ja": "ドイツの防衛AI企業Helsingは11月4日、将来の無人戦闘機などの空戦システム向けミッションOS「MissionOSBw」の初版をソースコード、技術文書、SDKとともに連邦装備・情報技術・運用支援庁（BAAINBw）へ引き渡したと発表した。ソフトの所有権はドイツ国家に残り、政府のオープンソースとして開発を続ける。主契約企業が中核ソフトを握る従来の産業構造からの転換を示す引き渡しである。",
+      "lead_en": "German defence-AI company Helsing said on 4 November that it had delivered the first release of MissionOSBw, a mission operating system for future combat drones and other air-warfare systems, to the federal procurement agency BAAINBw along with its source code, documentation and SDK. Ownership stays with the German state, and the software will be developed as government open source. The handover marks a break from the model in which primes keep control of core software.",
+      "sections": [
+        {
+          "heading_ja": "CFSNの早期成果物としての引き渡し",
+          "heading_en": "An early deliverable under CFSN",
+          "paragraphs_ja": [
+            "引き渡しは、連邦議会の予算委員会が2026年7月に承認したCombat Fighter System of Systems Nucleus（CFSN）の一部である。契約の範囲は実験用の無人戦闘機2機、地上管制所2基、地上セグメント、自律ソフト、政府所有のリファレンス・アーキテクチャ、MissionOSBwで、ロイターがPoliticoの既報を引いて伝える業界資料では規模は約5億8,000万ユーロとされる。コンソーシアムはHelsingが率い、Hensoldt、Rohde & Schwarz、MBDA、Diehl Defenceが加わる。"
+          ],
+          "paragraphs_en": [
+            "The delivery is part of the Combat Fighter System of Systems Nucleus (CFSN), approved by the Bundestag's budget committee in July 2026. The contract covers two experimental uncrewed combat aircraft, two ground control stations, a ground segment, autonomy software, a government-owned reference architecture and MissionOSBw; industry documents previously reported by Politico and cited by Reuters put its value at about 580 million euros. Helsing leads the consortium, with Hensoldt, Rohde & Schwarz, MBDA and Diehl Defence."
+          ]
+        },
+        {
+          "heading_ja": "ソフトの国家所有が狙う統合速度",
+          "heading_en": "State ownership in pursuit of integration speed",
+          "paragraphs_ja": [
+            "Helsingはモジュール型オープンシステム・アプローチに従い、異なる供給者のモジュールを差し替えられる構造を掲げる。閉じたアーキテクチャでは新たなセンサーやアルゴリズムの統合に数か月を要してきたと説明し、ロベルト・フィンク最高技術責任者はCFSNを将来空戦システムのモジュール型開発と位置づけ、「ソフトウェア定義防衛の実践」と述べた。政府がソースコードを所有すれば、供給者の交代や他プログラムへの転用が契約上の障壁を伴わずに進む。",
+            "政府が所有するリファレンス・アーキテクチャと組み合わせれば、将来の無人戦闘機の自律機能を国家が審査し更新する余地が広がる。一方で、所有権の移転が保守と更新の責任をどう配分するか、知的財産の扱いをどう定めるかは公表資料に示されていない。実験機2機の飛行時期とMissionOSBwの他プログラムへの適用が次の確認点となる。"
+          ],
+          "paragraphs_en": [
+            "Helsing follows a Modular Open Systems Approach so that modules from different suppliers can be swapped. It says closed architectures have typically taken months to integrate a new sensor or algorithm, and chief technology officer Robert Fink described CFSN as a modular approach to future air combat systems and 'Software Defined Defence in practice'. With the state owning the source code, changing suppliers or reusing the software in other programmes can proceed without contractual barriers.",
+            "Combined with a government-owned reference architecture, state ownership widens the scope for the government to audit and update the autonomy functions of future combat drones. How maintenance and update responsibilities are allocated after the transfer, and how intellectual property is handled, are not set out in the published material. The first flights of the two experimental aircraft and the reuse of MissionOSBw in other programmes are the next things to check."
+          ]
+        }
+      ],
+      "watch_next_ja": "実験用無人戦闘機2機の初飛行時期。MissionOSBwの他プログラムへの適用と政府オープンソースの運用規則。CFSNの契約額の公式公表。",
+      "watch_next_en": "First flights of the two experimental uncrewed combat aircraft. Reuse of MissionOSBw in other programmes and the rules for government open source. Official publication of the CFSN contract value.",
+      "japan_relevance": false,
+      "date": "2026-11-04",
+      "stage": "awarded",
+      "publisher": "Helsing／ドイツ連邦装備・情報技術・運用支援庁",
+      "publisher_en": "Helsing / BAAINBw",
+      "sources": [
+        {"title": "Helsing hands Germany ownership of combat-system software", "url": "https://www.thestar.com.my/tech/tech-news/2026/11/04/helsing-hands-germany-ownership-of-combat-system-software", "publisher": "Reuters（The Star配信）", "date": "2026-11-04", "kind": "media", "accessed": true},
+        {"title": "Helsing delivers mission software source code to Germany for future air combat systems", "url": "https://defence-industry.eu/helsing-delivers-mission-software-source-code-to-germany-for-future-air-combat-systems", "publisher": "Defence Industry Europe", "date": "2026-11-04", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws", "c2-decision"],
+      "actors": ["EU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["decide", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261107-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "カナダ、2026年度予算案で無人機・対無人機に5年で23億カナダドルを計上　生産の3分の1をウクライナへ",
+      "title_en": "Canada's 2026 budget earmarks C$2.3 billion over five years for drones and counter-drone systems, with a third of production for Ukraine",
+      "brief_text_ja": "カナダ政府が11月5日に議会へ提出した2026年度予算案は、国防無人機イニシアティブを通じて軍用無人機と対無人機能力の開発・調達・配備に5年間で少なくとも23億カナダドル（約18億米ドル）を充て、資金は2027〜28年度から始まる。優先分野は偵察・攻撃無人機、自律プラットフォーム、低コストの対空迎撃機、長距離精密打撃技術で、カーニー首相はカナダ製無人機の3分の1をウクライナへ供給すると表明している。ウクライナのBrave1を参考に約400社をつなぐ国内無人機マーケットプレイスも計画する。",
+      "brief_text_en": "Canada's 2026 federal budget, tabled on 5 November, allocates at least C$2.3 billion (about US$1.8 billion) over five years through a Defence Drone Initiative for developing, procuring and fielding military drones and counter-drone capabilities, with funding starting in fiscal 2027–28. Priorities are reconnaissance and strike drones, autonomous platforms, low-cost air-target interceptors and long-range precision strike, and Prime Minister Carney has pledged a third of Canadian-made drones to Ukraine. A national drone marketplace modelled on Ukraine's Brave1, linking some 400 suppliers, is also planned.",
+      "japan_relevance": false,
+      "date": "2026-11-05",
+      "stage": "announced",
+      "publisher": "カナダ政府",
+      "publisher_en": "Government of Canada",
+      "sources": [
+        {"title": "Budget 2026, Chapter 5", "url": "https://budget.canada.ca/2026/report-rapport/chap5-en.html", "publisher": "Government of Canada", "date": "2026-11-05", "kind": "primary", "accessed": false},
+        {"title": "Canada Plans $1.8 Billion Drone Investment, Ukraine to Receive Production Share", "url": "https://www.kyivpost.com/post/89291", "publisher": "Kyiv Post", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "Canada Plans to Invest $1.8 Billion in Equipping Army with Drones", "url": "https://militarnyi.com/en/news/canada-invest-1-8-billion-army-with-drones/", "publisher": "Militarnyi", "date": "2026-11-06", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws"],
+      "actors": ["UA"],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261107-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "英海軍、空母クイーン・エリザベスから片道攻撃無人機Nyan 4機を初めて発射　Tekever AR5の離着艦も実施",
+      "title_en": "Royal Navy launches four Nyan one-way effectors from HMS Queen Elizabeth for the first time, and lands a Tekever AR5 on deck",
+      "brief_text_ja": "英海軍は11月5日、北大西洋での演習ネプチューン・リーチBで、空母クイーン・エリザベスの甲板からCallen-Lenz製の片道攻撃無人機Nyan 4機をレール発射したと発表した。機体は事前にプログラムした海上の目標区域へ飛行して意図的に着水させたと報じられ、同演習ではTekever AR5多用途無人機の離着艦も行われた。6月の実験艇XVパトリック・ブラケットからの初発射に続く段階で、英海軍はProject Vantageの下で海上片道攻撃兵器を空母打撃群へ組み込む検討を進める。",
+      "brief_text_en": "The Royal Navy said on 5 November that four Callen-Lenz Nyan one-way effectors were rail-launched from the deck of HMS Queen Elizabeth during Exercise Neptune Reach B in the North Atlantic. The drones reportedly flew to a pre-programmed target area at sea and were intentionally ditched, and the exercise also saw a Tekever AR5 multi-role drone land and launch from the carrier. Following the first launch from the experimentation vessel XV Patrick Blackett in June, the Navy is studying under Project Vantage how maritime one-way effectors fit into a carrier strike group.",
+      "japan_relevance": false,
+      "date": "2026-11-05",
+      "stage": "",
+      "publisher": "英海軍",
+      "publisher_en": "Royal Navy",
+      "sources": [
+        {"title": "Royal Navy (X): Nyan one-way effectors launched from HMS Queen Elizabeth", "url": "https://x.com/RoyalNavy/status/2118474189565001816", "publisher": "Royal Navy", "date": "2026-11-05", "kind": "primary", "accessed": false},
+        {"title": "HMS Queen Elizabeth Hosts Tekever AR5 and Nyan Strike Drones During New Trials", "url": "https://theaviationist.com/2026/11/06/hms-qnlz-new-drone-trials", "publisher": "The Aviationist", "date": "2026-11-06", "kind": "media", "accessed": true},
+        {"title": "Royal Navy completes one-way effector launches from HMS Queen Elizabeth aircraft carrier", "url": "https://www.defenceconnect.com.au/naval/19093-royal-navy-completes-one-way-effector-launches-from-hms-queen-elizabeth-aircraft-carrier", "publisher": "Defence Connect", "date": "2026-11-06", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "industry-procurement"],
+      "actors": ["GB"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261107-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米GPS業界団体、軍のGPS妨害・欺瞞試験が民間航空に及ぶ危険を警告　5月の救急搬送機墜落は調査中",
+      "title_en": "US GPS industry group warns military jamming and spoofing tests endanger civil aviation; May medevac crash still under investigation",
+      "brief_text_ja": "GPS Innovation Allianceのリサ・ダイアー事務局長は、国防輸送協会の会合で、軍のGPS妨害・欺瞞試験が民間のGPS依存システムに干渉する危険を指摘し、航空情報（NOTAM）の未発出事例とホワイトサンズ射場の試験範囲の拡大を問題視した。5月14日にニューメキシコ州で救急搬送機が墜落し4人が死亡した事案では、国家運輸安全委員会の8月の予備報告が軍の電子戦試験に伴うGPSの急な喪失を示しているが、原因の特定には至っていない。陸軍は調査中と述べ、国防総省はコメントを控えた。",
+      "brief_text_en": "Lisa Dyer, executive director of the GPS Innovation Alliance, told a National Defense Transportation Association meeting that military GPS jamming and spoofing tests risk interfering with civilian GPS-dependent systems, citing tests without NOTAMs and testing that spills beyond White Sands Missile Range. In the 14 May crash of a medical evacuation aircraft in New Mexico that killed four, the NTSB's August preliminary report shows an abrupt GPS loss tied to military electronic-warfare testing but reaches no probable cause. The Army says the incident is under investigation; the Pentagon declined to comment.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "DefenseScoop",
+      "publisher_en": "DefenseScoop",
+      "sources": [
+        {"title": "Director of GPS Innovation Alliance warns of risks to civilians from military testing of jamming and spoofing technologies", "url": "https://defensescoop.com/2026/11/06/gps-jamming-risks-to-civilians-from-military-testing", "publisher": "DefenseScoop", "date": "2026-11-06", "kind": "media", "accessed": true}
+      ],
+      "themes": ["cyber-ci", "governance-norms"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["detect"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {"date": "2026-11-09", "text_ja": "米議会が中間選挙後の会期を再開。2027年度NDAAの協議と、ヘグセス長官の弾劾決議の採決が見込まれる", "text_en": "US Congress returns after the midterms; FY2027 NDAA negotiations and a vote on the Hegseth impeachment resolution expected"},
+    {"date": "2026-11-09", "text_ja": "NATO通信情報局（NCIA）のNATO統合サイバー防衛センター技術基盤に関する情報提供依頼の回答期限", "text_en": "Deadline for responses to NCIA's RFI on the technical foundation of the NATO Integrated Cyber Defence Centre"},
+    {"date": "2026-11-11", "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限", "text_en": "Reply deadline for five frontier AI companies to the letter from House Democratic ranking members"},
+    {"date": "2026-11-12", "text_ja": "Anthropicの2026年版利用規約（無人機等の誘導・制御ソフトの禁止を明記）の発効", "text_en": "Anthropic's 2026 usage policy, which bars guidance and control software for drones, takes effect"},
+    {"date": "2026-11-12", "text_ja": "MITREによる「プロジェクト・メリディアン」（未来の戦争パネル）向けアイデア募集の締切", "text_en": "MITRE's deadline for ideas submitted to Project Meridian (future of warfare panel)"},
+    {"date": "2026-11-13", "text_ja": "防衛装備庁のUAV用弾頭信管に関する情報提供企業募集の意思表明書提出期限（17時）", "text_en": "ATLA deadline (17:00) for expressions of interest in the RFI on UAV warhead fuzes"},
+    {"date": "2026-11-13", "text_ja": "米下院民主党20議員の書簡に対するOpenAIの回答期限", "text_en": "OpenAI's reply deadline to the letter from 20 House Democrats"},
+    {"date": "2026-11-16", "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と2028年期限の交渉マンデート案を審議", "text_en": "CCW Seventh Review Conference (16–20 Nov, Geneva): final GGE LAWS report and a proposed negotiating mandate with a 2028 deadline"},
+    {"date": "2026-11-16", "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）", "text_en": "49th ASEAN Summit and related meetings (Manila, 16–18 Nov)"},
+    {"date": "2026-11-17", "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ", "text_en": "NATO Edge (Izmir, 17–19 Nov), with an NCIA industry workshop on the Integrated Cyber Defence Centre"},
+    {"date": "2026-11-19", "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決", "text_en": "FCC open meeting votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"},
+    {"date": "2026-11-26", "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限", "text_en": "Deadline for the Pentagon's Science, Technology and Innovation Board to start its study on commercial AI and cloud in classified networks"},
+    {"date": "2026-11-30", "text_ja": "欧州の極超音速迎撃ミサイル（MBDAのHydisとスペインのHydef）に対する約1億ユーロの資金配分の決定見込み（11月末）", "text_en": "Decision expected at the end of November on about EUR 100 million in European funding between MBDA's Hydis and Spain's Hydef hypersonic interceptors"},
+    {"date": "2026-12-07", "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区と異機種無人機群の展示が予告", "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 Dec), with a dedicated unmanned and counter-unmanned zone"},
+    {"date": "2026-12-08", "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ", "text_en": "K-DEX 2026 (Goyang, 8–11 Dec), five themes including drones and counter-drone"},
+    {"date": "2027-01-27", "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）", "text_en": "Deadline for US civilian agencies to remove Acronis software under the DHS directive"},
+    {"date": "2027-01-28", "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。最大30ページと機密付属書", "text_en": "Report deadline for Project Meridian (the Secretary's future-of-warfare panel): up to 30 pages plus a classified annex"},
+    {"date": "2027-10-01", "text_ja": "米国防総省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日", "text_en": "Pentagon's target date for standing up the Autonomous Warfare Command (a four-star functional combatant command)"}
+  ],
+  "internal": {
+    "scan": {
+      "regions": "対象期間は11月6日06:10〜11月7日06:00 JST（前号のgenerated_atから）。本号は定刻（05:35 JST）に実行。取得環境の制約で、検索結果に現れたURL以外の一次資料ページ（官邸、cas.go.jp、zsu.gov.ua、royalnavy.mod.uk等）は本文を開けず、報道と配信記事で補った。米国（ロイターの民主党AI法案記事はClaims Journal・Yahoo Finance配信で確認、Bloombergの2本（Machina Labs契約、Nvidia輸出）は原文未取得でInvesting.com配信とRuntimeWireで補完。DefenseScoopのGPS妨害記事は原文で確認。国防総省CTOの法規制一覧の公表は確認できず続報なし）、中国（Moonshot AIのCNBC報道はYahoo Finance・Dealroomで確認。外交部・国防部の11月6日付のAI関連新規発言は検索で該当なし。SCMPの「PLAのAI攻撃連鎖」記事は9月既報のため不採用）、日本（緊急対策パッケージは官邸X・TBS NEWS DIG配信2本・NHK2本（本文は一部）・すまほん!!で確認、官邸原文・統括室PDFは未取得。防衛省・防衛装備庁・経産省・外務省の11月6日付AI関連新規発表は検索で該当なし）、欧州・NATO（Helsingのソースコード引き渡しはロイター（The Star配信）とDefence Industry Europeで確認、11月4日付のため主要動向の末尾に配置。カナダ予算案はKyiv Post・Militarnyiで確認、予算文書原文は未取得）、英国（Nyanの空母発射はAviationist・Defence Connectで確認、英海軍原文は未取得）、ロシア・ウクライナ（参謀本部の週次集計と空軍の夜間集計はUkrinform2本で確認、参謀本部原文・空軍Telegramは未取得。Kometa対妨害アンテナの報道は11月2日付で背景として言及のみ）、韓国・台湾・インド・豪州・イスラエル・ASEAN（11月6日付のAI関連新規動向は検索で該当なし。台湾のAI研究室設置記事は2025年11月付と判明し不採用）、国連・規範（CCW運用検討会議は16日開始で新規動向なし）。",
+      "japan": "首相官邸（関係閣僚会議の開催と総理発言要旨＝主要動向1に採用、原文ページは未取得）、内閣官房・国家サイバー統括室（5日付注意喚起PDFの存在を確認、本文未取得）、財務省（片山財務相の閣議後会見での予備費100億円発言＝報道経由で採用、原文未取得）、警察庁（6日の合同捜査本部設置指示＝報道経由で採用）、防衛省・防衛装備庁・統合幕僚監部・NSS・経産省・外務省・AISI（11月6日付の新規発表は検索で該当なし）、国会（閉会中）、政党提言（該当なし）。"
+    },
+    "dropped": [
+      {"title": "Chinese military's AI attack chain lags foreign models: researchers（SCMP）", "url": "https://www.scmp.com/news/china/military/article/3366256/chinese-militarys-ai-attack-chain-lags-foreign-models-researchers", "reason": "検索上位に出たが2026年9月3〜4日付の既報で、対象期間外"},
+      {"title": "Taiwan launches AI office to boost smart defense tech（Taiwan News）", "url": "https://www.taiwannews.com.tw/news/6237731", "reason": "本文を確認したところ2025年11月6日付の記事で、対象期間外"},
+      {"title": "Department of the Air Force MAMBA（電磁波戦闘管理）に関する情報提供依頼（SAM.gov、11月4日掲載、回答期限11月11日）", "url": "https://sam.gov/opp/f280dc14f3e04d05afea129ba1a15f39/view", "reason": "二次的な要約でのみ確認し、原文と報道の本文を開けなかったため、市場調査段階の案件として今回は見送った"},
+      {"title": "Anthropic、Claude Enterpriseにセキュリティ管理機能（プロンプト・ツール呼び出しのフック等）を追加（11月5日）", "url": "https://claude.com/news", "reason": "企業向け製品の管理機能の更新で、安全保障上の新規性が薄く、原文の直接リンクも確認できなかった"},
+      {"title": "Pentagon expands uncrewed ground vehicle use after Ukraine lessons（Defense One、11月3日）", "url": "https://www.defenseone.com/defense-systems/2026/11/pentagon-ukraine-ground-robots/417011/", "reason": "11月3日付で対象期間外。約1.15億ドルの集計は公開記録の推計で、新規の決定を伴わない"},
+      {"title": "Russia is giving its drones bigger antennas to beat Ukrainian jamming（Defense News、11月2日）", "url": "https://www.defensenews.com/global/europe/2026/11/02/russia-is-giving-its-drones-bigger-antennas-to-beat-ukrainian-jamming/", "reason": "11月2日付で対象期間外。主要動向5の検証の限界の文脈で背景として言及"},
+      {"title": "OpenAI hires former Army Secretary Dan Driscoll（11月3日）", "url": "https://www.cnbc.com/2026/11/03/openai-hires-dan-driscoll-national-security.html", "reason": "11月4日号（cl-20261104）で既報"},
+      {"title": "日経平均・KOSPIがAI規制懸念で急落（11月6日）", "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280674", "reason": "市場動向であり本観測所の範囲外。主要動向2の文脈で売りの波及として簡潔に言及するにとどめた"}
+    ],
+    "notes_for_editor": [
+      "主要動向1（日本の緊急対策パッケージ）：官邸ページと国家サイバー統括室の原文は取得環境の制約で開けず、総理発言要旨は官邸Xの投稿を引いた報道で、四つの柱・予備費・法改正指示はTBS NEWS DIG配信とNHK（本文は冒頭のみ）で確認した。重要インフラの数時間以内の報告目標、不審通信の検知・分析、強制遮断の検討加速、NSSのサプライチェーン検討はすまほん!!と時事の見出しに依拠しており、パッケージ本文での確認を要する。「トップガン人材チーム」「官民サイバー救援隊」「年度内に事務局」は5日の概要案（前号）からの引き継ぎで、6日の決定文での名称・時期は未確認。",
+      "主要動向2（米民主党のAI法案）：ロイター記事（Claims Journal・Yahoo Finance配信）で確認。Bloombergの「Nvidia輸出が民主党議会の標的」記事は見出しのみで本文未取得のため、本文では報道の存在の言及にとどめた。上下両院の議席数はロイター本文に示されていないため記していない。",
+      "主要動向3（Machina Labs）：Bloomberg原文は未取得で、Investing.comのBloomberg配信（AI支援で生成し編集者が確認と明記）とRuntimeWireの要約で確認した。1機1.5万ドル、年間数万機、工場設置約1か月はいずれも同社の説明。",
+      "主要動向4（Moonshot AI）：CNBC原文は未取得で、Yahoo Finance（Investing.com配信）とDealroomで確認。Remote Access Security Actの下院可決時期は両記事で「1月」と「8月」に分かれており、本文では時期を書かなかった。",
+      "主要動向5（ウクライナ）：参謀本部の原文とウクライナ空軍のTelegramは未取得で、Ukrinformの2本で確認。当事者の自己申告で抑制と撃墜の内訳が示されていないため、信頼度は前号のB2から一段下げてB3とした。",
+      "主要動向6（Helsing）：11月4日付の遅れた確認のため主要動向の末尾に置いた。Helsingの一次発表（プレスリリース）のURLを特定できず、ロイター配信とDefence Industry Europeの2報道に依拠。契約額約5.8億ユーロはPoliticoの既報を引くロイターの記述で、公式な契約額は未公表。ドイツはactorsのタグ体系にないため「EU」を付した。",
+      "短信8（Nyan）：4機の結果について、The Aviationistは「目標区域で意図的に着水」、Defence Connectは「4機全てが指定の打撃点に命中」と記述が分かれる。本文はAviationistの記述に沿い、命中の主張は採らなかった。",
+      "短信7（カナダ）：actorsにカナダのタグがないため、無人機生産の3分の1の供給先であるUAを付した。23億カナダドルはKyiv Postの換算で、予算文書原文は未取得。",
+      "upcomingに、MBDA Hydis／スペインHydefの欧州資金（約1億ユーロ）の11月末の配分決定（Defense News 11月5日報道、本文未取得）を追加した。確度が低ければ削除してよい。"
+    ]
+  }
+}
