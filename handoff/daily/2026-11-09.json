@@ -1,0 +1,905 @@
+{
+  "edition_date": "2026-11-09",
+  "generated_at": "2026-11-09T06:45:00+09:00",
+  "window_from": "2026-11-08T05:55:00+09:00",
+  "edition_title_ja": "監督と追跡に移る半導体管理、戦場に届き始めた衛星リンク",
+  "edition_title_en": "Chip controls shift to oversight and tracking; satellite links reach the battlefield",
+  "edition_dek_ja": "議会の召喚と企業自身の位置追跡、Rassvetの実戦使用、太平洋と中東の軍が進める実装の到達点。",
+  "edition_dek_en": "A congressional summons and a vendor's own location tracking, Rassvet in combat use, and how far the Pacific and Middle East militaries have taken implementation.",
+  "lead_points_ja": [
+    "週末の動きは、AIをめぐる管理の重心が新しい規則の制定から、既存の手段の執行と監督へ移っていることを示した。半導体では議会の監督と企業自身の追跡が前面に出て、戦場ではロシアの衛星網が無人機の制御に使われ始めたという主張が出た。",
+    "米下院の3委員長はエヌビディアのフアンCEOに11月18日の非公開ブリーフィングを求め、回答期限を11日に置いた。同じ週にブルームバーグは、同社が東南アジアのクラウド提携先に個々のGPUの所在を記録できる管理ツールへの登録を義務づけると報じた。",
+    "ウクライナ情報総局は、ロシアの低軌道衛星網Rassvetが無人機の双方向データリンクに既に使われていると説明した。30機が軌道上にあり、覆域は断続的で、独立した確認はない。",
+    "米インド太平洋軍は1日1,000以上の移動目標の追跡にAIを使い、マウイ島に前方の計算拠点を建設している。イスラエル国防軍は「人と機械の統合戦」の運用概念を示し、無人システム・AI部門を12月初めまでに発足させる。",
+    "日本では、安保3文書改定に向けた有識者会議の提言が12月上旬となる見通しと報じられ、国家防衛戦略に「継戦能力」の強化を明記する方向が伝えられた。"
+  ],
+  "lead_points_en": [
+    "The weekend showed the centre of gravity in AI governance moving from writing new rules to enforcing and overseeing existing ones. On chips, congressional oversight and vendor-side tracking came to the fore; on the battlefield, Ukraine claimed Russia's satellite network has begun controlling drones.",
+    "Three House committee chairs asked Nvidia CEO Jensen Huang for a closed-door briefing on 18 November, with a reply due on the 11th. The same week, Bloomberg reported Nvidia will require Southeast Asian cloud partners to enrol in a management tool that can log the location of individual GPUs.",
+    "Ukraine's Defence Intelligence said Russia's low-orbit Rassvet constellation is already being used for two-way drone data links. Thirty satellites are in orbit, coverage is intermittent, and there is no independent confirmation.",
+    "US Indo-Pacific Command is using AI to track more than 1,000 mobile targets a day and is building a forward compute site on Maui. The IDF set out a concept of integrated human-machine warfare and will stand up its Unmanned Systems and AI Branch by early December.",
+    "In Japan, the expert panel on revising the three security documents is reported to deliver its recommendations in early December, and the National Defense Strategy is expected to specify strengthening 'war-sustaining capability'."
+  ],
+  "items": [
+    {
+      "id": "cl-20261109-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米下院3委員長がNvidia CEOに18日の非公開説明を要請　同社は東南アジアのクラウド提携先にGPU位置追跡を義務化へ",
+      "title_en": "Three House chairs summon Nvidia's Huang to a closed-door briefing on 18 November; Nvidia to require GPU location tracking of Southeast Asian cloud partners",
+      "lead_ja": "下院外交委員会のマスト、中国特別委員会のムーレナー、情報特別委員会のクロフォードの3委員長は11月4日付の書簡で、エヌビディアのジェンスン・フアンCEOに対し、外国勢力の諜報活動への同社の防護体制と、シンガポールのMegaspeed幹部アリス・ホアン氏との接触について11月18日に非公開で説明するよう求めた。回答期限は11月11日である。同じ週にブルームバーグは、同社が東南アジアのクラウド事業者に対し、公式パートナー資格の条件として個々のGPUの所在を記録できる管理ツールへの登録を義務づけると報じ、輸出管理の執行が議会の監督と企業自身の追跡へ広がる構図が見えてきた。",
+      "lead_en": "In a letter dated 4 November, House Foreign Affairs chair Brian Mast, Select Committee on China chair John Moolenaar and Intelligence chair Rick Crawford asked Nvidia CEO Jensen Huang to brief them behind closed doors on 18 November about the company's safeguards against foreign espionage and his contacts with Alice Huang, an executive of Singapore-based Megaspeed. A reply is due by 11 November. The same week, Bloomberg reported that Nvidia will require Southeast Asian cloud providers to enrol in a management tool that can record the location of individual GPUs as a condition of official partner status, showing export-control enforcement spreading to congressional oversight and to the vendor's own tracking.",
+      "sections": [
+        {
+          "heading_ja": "書簡の要求と11月18日という日程",
+          "heading_en": "What the letter asks and the 18 November date",
+          "paragraphs_ja": [
+            "書簡は11月4日付で、レイバーン下院議員会館2172号室での合同の非公開ブリーフィングを11月18日に設定し、フアン氏に同日を受け入れるか代替日を提案するよう11月11日までに求めた。対象は、外国の敵対勢力による諜報からNvidiaを守るための「安全保障上の手順」と、米情報機関が中国の情報機関の協力者と疑うアリス・ホアン氏とフアン氏の接触である。書簡は報道機関が画像として掲載したもので、全文の公式な公表は確認できていない。",
+            "3委員長はいずれも共和党で、要請は民主党が上下両院の多数を得た中間選挙の直後に出された。ソウル経済新聞はブルームバーグを引き、1月以降は民主党が委員会の召喚権限を使う構えで、AI Overwatch法案、MATCH法案、Chip Security法案が審議の対象になると伝えた。Nvidiaは前週の声明を繰り返し、「顧客との面会はCEOの職務の一部」であり、地域のクラウド顧客に国家安全保障に関わる情報を渡していないと述べた。"
+          ],
+          "paragraphs_en": [
+            "The letter, dated 4 November, sets a joint closed-door briefing for 18 November in Room 2172 of the Rayburn House Office Building and asks Huang to accept the date or propose an alternative by 11 November. Its subjects are Nvidia's 'security protocols' against espionage by foreign adversaries and Huang's contacts with Alice Huang, whom US intelligence reportedly suspects of being an asset of Chinese intelligence. The letter has circulated as an image published by news outlets; no official release of the full text has been confirmed.",
+            "All three chairs are Republicans, and the request came immediately after the midterms gave Democrats both chambers. Seoul Economic Daily, citing Bloomberg, reported that Democrats intend to use committee subpoena powers from January and that the AI Overwatch Act, the MATCH Act and the Chip Security Act will be on the agenda. Nvidia repeated last week's statement that 'meetings with customers are part of a CEO's job' and that regional cloud customers receive no information relevant to national security."
+          ]
+        },
+        {
+          "heading_ja": "GPU位置追跡の登録義務と密輸対策",
+          "heading_en": "Mandatory Fleet Intelligence enrolment as an anti-smuggling measure",
+          "paragraphs_ja": [
+            "ブルームバーグが11月6日に関係者の話として報じたところでは、Nvidiaは東南アジアのクラウド事業者が公式の「Nvidia Cloud Partner」資格を得る条件として、データセンター管理ツール「Fleet Intelligence」への登録を求める。昨年12月に導入された同ツールは個々のアクセラレータの所在を記録でき、これまで参加は任意で、同社が自動的に位置情報を得る仕組みにはなっていなかった。既存のパートナーに遡って適用されるか、東南アジア以外へ広がるかは明らかにされていない。",
+            "背景には、調査団体C4ADSがMegaspeedに結びつけた46億ドル規模のハードウェア購入と、中国向け密輸の経路としてシンガポールやマレーシアに向けられた監視がある。輸出管理の執行は、商務省の許可審査や司法省の捜査に加え、企業が自社製品の所在を把握して示す段階へ移りつつある。これは、議会で議論されてきたチップの位置確認機能の法制化（Chip Security法案）を、企業が先回りして部分的に実装する動きとも読める。"
+          ],
+          "paragraphs_en": [
+            "According to people familiar with the requirements cited by Bloomberg on 6 November, Nvidia will require Southeast Asian cloud providers to enrol in its Fleet Intelligence data-centre management tool to qualify as official Nvidia Cloud Partners. The tool, introduced last December, can record the location of individual accelerators; participation had been voluntary and did not automatically give Nvidia location data. It is unclear whether existing partners must enrol or whether the rule will extend beyond Southeast Asia.",
+            "The backdrop is the $4.6 billion in hardware purchases that the research group C4ADS linked to Megaspeed, and scrutiny of Singapore and Malaysia as transit routes for smuggling to China. Enforcement is moving beyond Commerce licensing reviews and Justice Department investigations to a stage where the vendor itself must know and show where its products are. That can be read as the company pre-empting, in part, the chip location-verification mandate debated in Congress under the Chip Security Act."
+          ]
+        },
+        {
+          "heading_ja": "未確認の情報文書をめぐる報道と中国側の反応",
+          "heading_en": "Reports of an unverified intelligence document and China's response",
+          "paragraphs_ja": [
+            "イスラエル・ハヨムなどは、NYTとFTが週末に報じたとして、政権高官に回覧された情報文書がフアン氏とホアン氏の関係を業務の範囲を超えるものと記し、中国国家安全部が同氏を通じて輸出政策への影響を図ったと米当局が疑っていると伝えた。これらは未公表の情報文書に関する報道で、独立に確認された事実とは区別して扱う必要がある。Nvidiaは文書の内容への直接の言及を避け、「機密情報は保有しておらず顧客に共有もしていない」と述べ、中国外交部は一連の報道を「中国を貶めるための虚偽」と批判した。"
+          ],
+          "paragraphs_en": [
+            "Israel Hayom and others, citing weekend reports by the New York Times and the Financial Times, said an intelligence document circulated to senior administration officials characterised the relationship between Huang and Alice Huang as going beyond business and that US agencies suspect China's Ministry of State Security sought to influence export policy through her. These are reports about an unpublished intelligence document and must be kept distinct from independently confirmed facts. Nvidia declined to address the document directly, saying it 'holds no classified information and shares none with customers', while China's Foreign Ministry called the reports 'false and baseless slander meant to smear China'."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月11日：フアン氏の回答期限。11月17日：Nvidia決算。11月18日：下院3委員会の合同非公開ブリーフィング。1月：民主党多数の新議会での召喚とAI Overwatch・MATCH・Chip Security各法案の審議。Fleet Intelligence登録義務の適用範囲（既存提携先、東南アジア以外）の明確化。",
+      "watch_next_en": "11 November: Huang's reply deadline. 17 November: Nvidia earnings. 18 November: joint closed-door briefing of the three House committees. January: subpoenas and consideration of the AI Overwatch, MATCH and Chip Security Acts in the Democratic-led Congress. Clarification of the scope of mandatory Fleet Intelligence enrolment (existing partners, regions beyond Southeast Asia).",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "米下院外交委員会・中国特別委員会・情報特別委員会／報道各社",
+      "publisher_en": "House Foreign Affairs, Select Committee on China and Intelligence committees / media",
+      "sources": [
+        {
+          "title": "NVIDIA's Jensen Huang Summoned By U.S. Congress For A Closed Door Briefing",
+          "url": "https://wccftech.com/nvidia-ceo-jensen-huang-congress-closed-door-briefing-china-spying-national-security/",
+          "publisher": "Wccftech",
+          "date": "2026-11-06",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia's Jensen Huang officially called to Congress due to reports of a Chinese spy plot",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidias-jensen-huang-officially-called-to-congress-due-to-reports-of-a-chinese-spy-plot-officials-mention-growing-concerns-over-national-security",
+          "publisher": "Tom's Hardware",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+          "publisher": "Tom's Hardware（ブルームバーグ報道を引用）",
+          "date": "2026-11-06",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia's Huang Faces Scrutiny Over H200 China Sales, Alleged Spy Link",
+          "url": "https://en.sedaily.com/international/2026/11/08/nvidias-huang-faces-scrutiny-over-h200-china-sales-alleged",
+          "publisher": "Seoul Economic Daily",
+          "date": "2026-11-08",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Jensen Huang and Nvidia in spy storm",
+          "url": "https://www.israelhayom.com/2026/11/08/jensen-huang-nvidia-megaspeed-intelligence-report/",
+          "publisher": "Israel Hayom",
+          "date": "2026-11-08",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+          "url": "https://cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+          "publisher": "CNBC",
+          "date": "2026-11-08",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "cyber-ci"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-10"
+    },
+    {
+      "id": "cl-20261109-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ウクライナ情報総局、ロシアの衛星網Rassvetが無人機の双方向リンクに既に使用と説明　30機が軌道上",
+      "title_en": "Ukraine's Defence Intelligence says Russia's low-orbit Rassvet network is already carrying two-way drone links; 30 satellites in orbit, commercial service slated for 2027",
+      "lead_ja": "ウクライナ国防省情報総局（HUR）の報道官アンドリー・ユソフ氏は11月7日、ロイターに対し、ロシアの低軌道衛星通信網「Rassvet」がウクライナ上空で無人機の双方向データリンクに既に使われていると述べた。11月3日時点で2回の打ち上げによる30機が軌道にあり、うち26機は計画の800kmより低い約508kmの軌道にある。Starlinkに相当する常時接続を欠くロシアの無人機運用にとって、覆域が断続的であっても衛星経由の制御が始まったという主張は、10月に同総局が示した「292機で軍事利用が始まる」という見立てを前倒しするものである。",
+      "lead_en": "Andrii Yusov, spokesman for Ukraine's Defence Intelligence (HUR), told Reuters on 7 November that Russia's low-orbit Rassvet satellite network is already being used over Ukraine for two-way drone data links. As of 3 November, 30 satellites from two launches are in orbit, 26 of them at about 508 km rather than the planned 800 km. For a Russian drone force without Starlink-class persistent connectivity, the claim that satellite control has begun, even with intermittent coverage, brings forward HUR's October assessment that military use would start at 292 satellites.",
+      "sections": [
+        {
+          "heading_ja": "断続的な覆域での実戦使用という主張",
+          "heading_en": "A claim of combat use under intermittent coverage",
+          "paragraphs_ja": [
+            "ユソフ氏によれば、Rassvetは衛星が上空を通過する時間帯に限られるものの、既に無人機との双方向通信に使われている。情報総局は9月にも、7月末までに第1群の衛星が数時間にわたりウクライナ上空で衛星通信に使われたとジェーンズに説明しており、今回の発言はそれを「試験」から「断続的な運用」へ進めた位置づけになる。同氏は「長期的には打撃・偵察無人機の効果を高めうる」と述べた。ロシア側の確認はなく、独立した検証も報じられていない。",
+            "衛星の展開は3月に16機、7月に16機の2回で、年内にさらに打ち上げが予定され、公式の商用運用開始は2027年とされる。情報総局の8月の説明では、2027年に292機、2035年に924機の計画である。ロシア軍で使われていたStarlink端末が2月以降遮断されたことを踏まえれば、ロシアは自前の衛星網で長距離無人機の中継経路を確保しようとしており、打ち上げが進むごとに月単位で覆域が広がる可能性がある。"
+          ],
+          "paragraphs_en": [
+            "According to Yusov, Rassvet is already used for two-way communication with drones, although only during the windows when a satellite passes overhead. HUR told Janes in September that the first group of satellites had been used for satcom over Ukraine for several hours by the end of July, so the new statement moves the assessment from 'tests' to 'intermittent operational use'. Yusov said that 'in the long term, this could increase the effectiveness of strike and reconnaissance UAVs'. There is no Russian confirmation and no independent verification has been reported.",
+            "Deployment has come in two launches of 16 satellites each, in March and July, with more planned before year-end and commercial service officially slated for 2027. HUR said in August that the plan calls for 292 satellites by 2027 and 924 by 2035. Given that Starlink terminals used by Russian forces have been blocked since February, Russia is trying to secure its own satellite relay path for long-range drones, and coverage could expand month by month as launches continue."
+          ]
+        },
+        {
+          "heading_ja": "電子戦と制裁という対抗手段",
+          "heading_en": "Electronic warfare and sanctions as countermeasures",
+          "paragraphs_ja": [
+            "ウクライナ側は二つの対抗策を進めている。一つは電子戦で、低軌道衛星のリンクを妨害する能力を早期に整える必要があると専門家が指摘してきた。もう一つは制裁で、情報総局は10月28日にRassvetの開発に関わる49事業体を公開し、うち23がどの国の制裁も受けていないとして、米議会と政権に制裁対象の情報を提供する方針を示している。衛星網の軍事利用の確認は、制裁の対象範囲を宇宙企業や部品供給網へ広げる論拠になる。",
+            "検証の焦点は、ロシアの無人機がRassvet端末を搭載している物証が撃墜機体の解析で得られるかにある。情報総局の評価は軌道投入数と電波の観測に基づくとみられ、同総局が以前示した292機という軍事利用の閾値と今回の発言との整合も問われる。ロシア国防省は一連の報道に論評していない。"
+          ],
+          "paragraphs_en": [
+            "Ukraine is pursuing two countermeasures. One is electronic warfare: experts have argued that the capability to jam low-orbit satellite links must be built quickly. The other is sanctions: on 28 October HUR published 49 entities involved in developing Rassvet, said 23 of them are under no country's sanctions, and signalled that it will give the US Congress and administration details for designation. Confirmation of military use of the network strengthens the case for extending sanctions to space companies and their component supply chains.",
+            "The verification question is whether physical evidence of Rassvet terminals on Russian drones will emerge from the analysis of downed airframes. HUR's assessment appears to rest on orbital counts and signals observation, and it will have to be reconciled with the 292-satellite threshold for military use that the agency itself set earlier. Russia's Ministry of Defence has not commented on the reports."
+          ]
+        }
+      ],
+      "watch_next_ja": "年内：Rassvetの追加打ち上げ（情報総局は7回を予定と説明）。撃墜機体からの衛星端末の回収と公開。49事業体に対する米欧の制裁指定の有無。2027年：商用運用開始の公式予定。",
+      "watch_next_en": "Before year-end: further Rassvet launches (HUR cites seven planned). Recovery and disclosure of satellite terminals from downed drones. Whether the US and Europe designate any of the 49 entities. 2027: official start of commercial service.",
+      "japan_relevance": false,
+      "date": "2026-11-07",
+      "stage": "",
+      "publisher": "ウクライナ国防省情報総局（報道官発言、ロイター経由）",
+      "publisher_en": "Defence Intelligence of Ukraine (spokesman, via Reuters)",
+      "sources": [
+        {
+          "title": "Ukrainian Intelligence: Russia Already Using Rassvet Satellite System Over Ukraine",
+          "url": "https://militarnyi.com/en/news/diu-russia-using-rassvet-satellite-ukraine/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine's Defence Intelligence says Russian forces used Rassvet satellites for several hours",
+          "url": "https://www.janes.com/defence-intelligence-insights/defence-news/air/ukraines-defence-intelligence-says-russian-forces-used-rassvet-satellites-for-several-hours",
+          "publisher": "Janes",
+          "date": "2026-09-04",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia is quietly building its own Starlink rival to power a new generation of attack drones, Ukrainian intelligence warns",
+          "url": "https://defence-industry.eu/russia-is-quietly-building-its-own-starlink-rival-to-power-a-new-generation-of-attack-drones-ukrainian-intelligence-warns/",
+          "publisher": "Defence Industry Europe",
+          "date": "2026-08-10",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine urges US sanctions on Russia's Starlink knockoff amid drone threat",
+          "url": "https://kyivindependent.com/ukraine-urges-us-sanctions-on-russias-starlink-knockoff-amid-drone-threat/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-10-02",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "detect"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261029-12"
+    },
+    {
+      "id": "cl-20261109-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米インド太平洋軍、1日1,000超の移動目標の追跡にAIを導入　マウイ島に前方の計算拠点、本土依存を懸念",
+      "title_en": "US Indo-Pacific Command brings AI to tracking more than 1,000 mobile targets a day; builds a forward compute site on Maui amid concern over dependence on mainland data centres",
+      "lead_ja": "ホノルル・スター・アドバタイザーは11月7日、10月28日のTechNet Indo-Pacificでの米インド太平洋軍（USINDOPACOM）幹部の発言を伝えた。情報部長のジェフリー・ブッシュマン少将は、同軍が毎日「少なくとも1,000の移動目標」を追跡し、その処理にAIを使っていると述べ、主任AI責任者のスコット・ブランステッター氏は「AIを採用しない運用上のリスクが採用するリスクを上回る」と語った。マウイ島キヘイでは約5,200平方メートルの実験施設とデータセンターが建設中で、完成は来年初めの見込みである。",
+      "lead_en": "The Honolulu Star-Advertiser reported on 7 November on remarks by US Indo-Pacific Command officials at TechNet Indo-Pacific on 28 October. Rear Adm. Jeffrey Buschmann, the command's intelligence director, said it tracks 'at least a thousand mobile targets' every day and uses AI to process them, and chief AI officer Scott Brunstetter said 'the operational risk of not adopting AI exceeds the fundamental risk of adopting AI'. A 56,000-square-foot laboratory and data centre is under construction in Kihei, Maui, with completion expected early next year.",
+      "sections": [
+        {
+          "heading_ja": "目標追跡と演習での実装",
+          "heading_en": "Target tracking and use in exercises",
+          "paragraphs_ja": [
+            "ブッシュマン少将によれば、同軍の情報部門は毎日少なくとも1,000の移動目標を追跡し、AIは分析官が追いきれない量の情報の整理に使われている。演習「Lightning Surge II」などで実際に運用されており、同軍は2月のAIサミットで「戦闘機能へのAI適用、強靭な基盤、高品質なデータ」の三つを課題として設定し、優先事業を選んで持続的な訓練環境へ組み込む方針を示していた。記事によれば、ブランステッター氏の肩書は大統領令を受けて「主任超知能責任者」に改められたという。",
+            "太平洋での実装は、中央軍への無人・対無人システム2万5,000超の納入や自律戦争軍の創設方針と並び、国防総省がAI加速戦略で掲げた現場導入が戦域ごとに具体化していることを示す。一方で、予算や契約の規模は公表されておらず、どのモデルがどの機密区分で動いているかも明らかにされていない。"
+          ],
+          "paragraphs_en": [
+            "According to Buschmann, the command's intelligence directorate tracks at least 1,000 mobile targets a day and uses AI to organise volumes of information that analysts cannot keep up with. The tools are in actual use in exercises such as Lightning Surge II. At its AI Summit in February, the command set three core challenges, AI for warfighting functions, resilient infrastructure and high-quality data, and said it would select pace-setting projects and fold them into a persistent training ecosystem. The article says Brunstetter's title was changed to 'Chief Super Intelligence Officer' following an executive order.",
+            "Alongside the delivery of more than 25,000 unmanned and counter-drone systems to Central Command and the plan for an Autonomous Warfare Command, the Pacific implementation shows the field adoption set out in the Pentagon's AI Acceleration Strategy taking concrete shape theatre by theatre. Budget and contract figures have not been disclosed, nor which models run at which classification levels."
+          ]
+        },
+        {
+          "heading_ja": "本土のデータセンターへの依存という制約",
+          "heading_en": "Dependence on mainland data centres as the constraint",
+          "paragraphs_ja": [
+            "情報部門の情報システム課長リッキー・ブキャナン氏は、「本土のデータセンターに依存する道具に将兵が依存する状況は容認できない」と述べ、太平洋の距離と通信の脆弱性を前提に、前方で動く計算資源が必要だと強調した。キヘイの約5,200平方メートルの施設はこの要請に応えるもので、来年初めの完成を見込む。請負企業のTagupとSigma Defenseは、既存装備の更新周期が6〜10年に及ぶなかでソフトウェアの更新速度をどう確保するかを課題に挙げた。"
+          ],
+          "paragraphs_en": [
+            "Ricky Buchanan, chief of the intelligence directorate's information systems division, said 'we cannot have our warriors become dependent on a tool that is dependent on the mainland data centers', stressing that Pacific distances and vulnerable communications require compute that runs forward. The 56,000-square-foot Kihei facility answers that need and is expected to be complete early next year. Contractors Tagup and Sigma Defense pointed to the challenge of keeping software updates fast when hardware replacement cycles run six to ten years."
+          ]
+        }
+      ],
+      "watch_next_ja": "来年初め：キヘイの実験施設・データセンターの完成。国防総省CTOが月内に公表するとしたAI研究所に適用される法規制の一覧。2027年10月1日：自律戦争軍の創設目標。",
+      "watch_next_en": "Early next year: completion of the Kihei lab and data centre. The list of laws applying to AI labs that the Pentagon CTO said would be published this month. 1 October 2027: target date for the Autonomous Warfare Command.",
+      "japan_relevance": false,
+      "date": "2026-11-07",
+      "stage": "fielded",
+      "publisher": "米インド太平洋軍（幹部発言、報道経由）",
+      "publisher_en": "US Indo-Pacific Command (officials' remarks, via media)",
+      "sources": [
+        {
+          "title": "U.S. military accelerates AI push across Pacific as China tensions grow",
+          "url": "https://www.staradvertiser.com/2026/11/07/hawaii-news/u-s-military-accelerates-ai-push-across-pacific-as-china-tensions-grow/",
+          "publisher": "Honolulu Star-Advertiser",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "USINDOPACOM AI Summit Focuses on Practical Integration",
+          "url": "https://www.pacom.mil/Media/News/News-Articles/Article/4506117/usindopacom-ai-summit-focuses-on-practical-integration/",
+          "publisher": "U.S. Indo-Pacific Command",
+          "date": "2026-05-18",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "イスラエル国防軍参謀総長、「人と機械の統合戦」の運用概念を提示　無人システム・AI部門は12月初めまでに発足",
+      "title_en": "IDF Chief of Staff sets out a concept of integrated human-machine warfare; Unmanned Systems and AI Branch to stand up by early December",
+      "lead_ja": "イスラエル国防軍のエヤル・ザミル参謀総長は11月2日、ベエルシェバの通信・サイバー防衛キャンパスで開いたAIの軍事統合に関する会議で、有人部隊が無人システムとともに戦う「人と機械の統合戦」の運用概念を示した。9月に設置が発表された無人システム・AI部門は12月初めまでに発足する予定で、通信・サイバー防衛局内にはAI部とスペクトラム部が置かれる。一連の措置は多年度の戦力整備計画「ホシェン」の一部である。",
+      "lead_en": "At a conference on integrating AI into military operations held on 2 November at the Communications and Cyber Defense Campus in Be'er Sheva, IDF Chief of Staff Lt. Gen. Eyal Zamir set out an operational concept of integrated human-machine warfare in which manned units fight alongside unmanned systems. The Unmanned Systems and AI Branch announced in September is to be established by early December, with an AI division and a spectrum division inside the Communications and Cyber Defense Directorate. The measures are part of the multi-year force-building programme 'Hoshen'.",
+      "sections": [
+        {
+          "heading_ja": "参謀本部と旅団長を集めた運用概念の提示",
+          "heading_en": "An operational concept presented to the General Staff and brigade commanders",
+          "paragraphs_ja": [
+            "会議には参謀本部と旅団長が参加し、ザミル氏は国防軍が「革新と変革で世界をリードする責任と義務」を負うと述べ、「技術を十分に使いこなせない指揮官は成功しない」と指揮官の責務に言及した。運用概念の中心は、歩兵・機甲部隊が地上ロボットや無人機と一体で戦う編成で、同氏は7月にも「防御と攻撃の両面で無人システムの世界的リーダーになる」という目標を掲げていた。",
+            "国防軍は5月にも、戦闘職種の兵士と技術者、情報研究者、AI専門家を束ねる技術・作戦ハブ「アルモット」を通信・サイバー防衛局に新設しており、今回の部門はそれを参謀本部レベルの組織へ引き上げる。部門の発足は、兵員の損耗を抑えつつ多正面での作戦を継続するという「ホシェン」計画の目標に沿う。"
+          ],
+          "paragraphs_en": [
+            "The General Staff and brigade commanders attended. Zamir said the IDF 'has a responsibility and an obligation to be a global leader in innovation and transformation' and that 'commanders who do not know how to make full use of technology to their advantage will not succeed'. The core of the concept is formations in which infantry and armour fight as one with ground robots and drones; in July he had already set the goal of becoming 'a global leader in unmanned systems in both defense and offense'.",
+            "In May the IDF had already created 'Alumot', a technological-operational hub in the Communications and Cyber Defense Directorate that brings together combat soldiers, technologists, information researchers and AI specialists; the new branch elevates that approach to General Staff level. Standing up the branch fits the Hoshen programme's aim of sustaining multi-front operations while limiting personnel losses."
+          ]
+        },
+        {
+          "heading_ja": "部門の発足と組織の位置づけ",
+          "heading_en": "Standing up the branch and where it sits",
+          "paragraphs_ja": [
+            "新部門は参謀本部直轄の部門として9月に発表され、報道では12月初めの発足が予定される。通信・サイバー防衛局の中に新設されるAI部とスペクトラム部は、既存の情報・サイバー組織と並んで戦場データの処理と電磁波領域の管理を担う。一連の措置は、ガザ・レバノン・イランでの作戦を通じて蓄積した標的処理のデータと、無人機の損耗を前提とした部隊運用を制度に組み込む段階にあることを示す。組織の規模や予算は公表されていない。",
+            "イスラエルの措置は、米国の自律戦争軍の創設方針や日本の無人機・AIを柱とする装備計画と同じく、無人システムを個別の装備から部隊編成と指揮系統の単位へ引き上げる流れにある。参謀本部直轄の部門が各軍種の無人機部隊とどのように指揮関係を結ぶか、またAI部が標的処理の判断にどこまで関与するかは、公表された情報からは読み取れず、発足後の編成表と運用規程の公開が判断材料になる。"
+          ],
+          "paragraphs_en": [
+            "The new branch, announced in September as a General Staff-level body, is reported to be due in early December. The AI division and spectrum division inside the Communications and Cyber Defense Directorate will handle battlefield data processing and management of the electromagnetic domain alongside existing intelligence and cyber organisations. The measures show the IDF institutionalising the targeting data accumulated in operations in Gaza, Lebanon and Iran, and a style of unit operations that assumes attrition of drones. The branch's size and budget have not been disclosed.",
+            "Like the US plan for an Autonomous Warfare Command and Japan's equipment programme built around drones and AI, the Israeli measures lift unmanned systems from individual pieces of equipment to the level of unit organisation and the chain of command. How the General Staff-level branch will relate to each service's drone units, and how far the AI division will be involved in targeting decisions, cannot be read from the published information; the organisation chart and operating rules released after the branch stands up will be the basis for judgement."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月初め：無人システム・AI部門の発足。部門長の人事と参謀本部内の位置づけ。「ホシェン」計画における無人システム・AIへの予算配分。",
+      "watch_next_en": "Early December: establishment of the Unmanned Systems and AI Branch. Appointment of its commander and its place within the General Staff. Budget allocation for unmanned systems and AI under the Hoshen programme.",
+      "japan_relevance": false,
+      "date": "2026-11-02",
+      "stage": "announced",
+      "publisher": "イスラエル国防軍（参謀総長発言、報道経由）",
+      "publisher_en": "Israel Defense Forces (Chief of Staff remarks, via media)",
+      "sources": [
+        {
+          "title": "AI Revolution: IDF Chief Unveils New Branch For Artificial Intelligence And Unmanned Systems",
+          "url": "https://www.theyeshivaworld.com/news/israel-news/2618250/ai-revolution-idf-chief-unveils-new-branch-for-artificial-intelligence-and-unmanned-systems.html",
+          "publisher": "The Yeshiva World",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "IDF Chief of Staff Says Military Has Obligation to Lead Globally in AI and Robotics",
+          "url": "https://vinnews.com/2026/11/02/idf-chief-of-staff-says-military-has-obligation-to-lead-globally-in-ai-and-robotics/",
+          "publisher": "VINnews",
+          "date": "2026-11-02",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "IDF to develop AI battlefield operations with newest tech division, military announces",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-897000",
+          "publisher": "The Jerusalem Post",
+          "date": "2026-05-22",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "IL"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "decide",
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-05",
+      "rank": 5,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ空軍、8日未明の無人機164機のうち137機を無力化　ジェット型112機中88機、Kh-59/69は3発",
+      "title_en": "Ukrainian Air Force neutralises 137 of 164 drones overnight on 8 November; 88 of 112 jet-powered, plus three Kh-59/69 missiles",
+      "brief_text_ja": "ウクライナ空軍は11月8日朝、7日18時以降にロシアがジェット型112機を含むシャヘド型・ゲルベラ・パロディヤ計164機とアゾフ海からのKh-59/69誘導ミサイル3発で攻撃し、8時時点で137機（ジェット型88機）を撃墜・制圧したと発表した。23か所で着弾、6か所で残骸の落下が記録され、ドニプロペトロウシク州では60万超の需要家が停電した。ジェット型の比率は68%で、キーウ圏を狙った前夜の約8割から下がった。",
+      "brief_text_en": "The Ukrainian Air Force said on the morning of 8 November that from 18:00 on the 7th Russia attacked with 164 Shahed-type, Gerbera and Parodiya drones, 112 of them jet-powered, and three Kh-59/69 guided missiles from the Sea of Azov, and that 137 drones (88 jet-powered) had been shot down or suppressed as of 08:00. Hits were recorded at 23 locations and debris at six, and more than 600,000 customers lost power in Dnipropetrovsk region. Jet-powered drones made up 68 per cent of the wave, down from about 80 per cent in the previous night's attack on the Kyiv area.",
+      "japan_relevance": false,
+      "date": "2026-11-08",
+      "stage": "",
+      "publisher": "ウクライナ空軍（Ukrinform経由）",
+      "publisher_en": "Ukrainian Air Force (via Ukrinform)",
+      "sources": [
+        {
+          "title": "ADF neutralises 137 of 164 Russian drones overnight",
+          "url": "https://www.ukrinform.net/rubric-ato/4182552-adf-neutralises-137-of-164-russian-drones-overnight.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-08",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine desk note — 8 November 2026",
+          "url": "https://oskarhallgrimsson.substack.com/p/ukraine-desk-note-8-november-2026",
+          "publisher": "Óskar Hallgrímsson (Substack)",
+          "date": "2026-11-08",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261108-04"
+    },
+    {
+      "id": "cl-20261109-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "独連邦軍、約5,000万ユーロのAI「インターネット偵察」ツールを調達へ　連邦議会予算委員会が来週審査と報道",
+      "title_en": "Bundeswehr to procure a roughly €50 million AI 'internet reconnaissance' tool; Bundestag budget committee to review next week, report says",
+      "brief_text_ja": "独メディアHartpunktの報道をMilitarnyiが伝えたところでは、連邦軍はテキスト・画像・動画を解析するAI型の公開情報収集ツール「インターネット偵察」をIT企業BWI経由で約5,000万ユーロで調達する計画で、2,500万ユーロ超の案件として連邦議会予算委員会が来週審査する。連邦国防省の公式発表は出ていない。",
+      "brief_text_en": "According to Militarnyi, relaying a report by the German outlet Hartpunkt, the Bundeswehr plans to buy an AI-based open-source intelligence tool called 'Internet Reconnaissance', which analyses text, images and video, through the IT company BWI for about €50 million; as a procurement above €25 million it goes before the Bundestag budget committee next week. The Defence Ministry has issued no official announcement.",
+      "japan_relevance": false,
+      "date": "2026-11-07",
+      "stage": "",
+      "publisher": "独連邦軍（報道経由）",
+      "publisher_en": "Bundeswehr (via media)",
+      "sources": [
+        {
+          "title": "Germany to Invest €50 Million in AI-Powered OSINT Intelligence",
+          "url": "https://militarnyi.com/en/news/germany-invest-in-ai-osint-intelligence/",
+          "publisher": "Militarnyi（Hartpunkt報道を引用）",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "安保3文書改定の有識者会議、提言は12月上旬に　国家防衛戦略に「継戦能力」の強化を明記へと共同通信",
+      "title_en": "Japan's expert panel on the three security documents to report in early December; Kyodo says the National Defense Strategy will specify strengthening 'war-sustaining capability'",
+      "brief_text_ja": "共同通信は11月7日、改定作業が進む国家防衛戦略に「継戦能力」の強化を明記する方向で、表現には慎重論もあると報じた。安保3文書改定に向けた有識者会議の提言は12月上旬となる見通しで、毎日新聞は減税と増税の同時議論への配慮から12月に先送りされたと伝えた。",
+      "brief_text_en": "Kyodo reported on 7 November that the National Defense Strategy under revision is set to specify strengthening 'war-sustaining capability', with some caution over the wording. The expert panel's recommendations on revising the three security documents are now expected in early December; the Mainichi reported the timing was pushed back to December in consideration of the simultaneous debate over tax cuts and tax increases.",
+      "japan_relevance": true,
+      "date": "2026-11-07",
+      "stage": "",
+      "publisher": "共同通信・毎日新聞",
+      "publisher_en": "Kyodo News / Mainichi Shimbun",
+      "sources": [
+        {
+          "title": "【独自】「継戦能力」の強化を明記へ　国家防衛戦略、表現に慎重論も",
+          "url": "https://kahoku.news/articles/knp2026110701001031.html",
+          "publisher": "河北新報（共同通信配信）",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "安保３文書の有識者会議、１２月上旬提言へ",
+          "url": "https://www.niigata-nippo.co.jp/articles/-/929263",
+          "publisher": "新潟日報（共同通信配信）",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "安保3文書の提言、12月に先送り　減税と増税の同時議論考慮か",
+          "url": "https://news.yahoo.co.jp/articles/a4a662d056a0878038e29dbfd812bf39965489d3",
+          "publisher": "毎日新聞（Yahoo!ニュース）",
+          "date": "2026-11-07",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "フィンランド海軍、パトリアの多領域無人機群を2拠点から統制する実証　沿岸旅団に来年初め無人機中隊を新設",
+      "title_en": "Finnish Navy demonstrates a Patria multi-domain drone swarm controlled from two sites; drone company to be formed in the Coastal Brigade early next year",
+      "brief_text_ja": "パトリアは、フィンランド海軍のウピンニエミでの実証で、ジェフ級揚陸艇から発進した回転翼機Patria ONE、固定翼無人機、無人水上艇からなる多領域の無人機群を国内2か所から統制して任務を完遂したと発表した。海軍のトゥオマス・ティーリカイネン司令官は、無人システムを海上防衛体系に組み込むとし、沿岸旅団に来年初め無人機中隊を設けると述べた。",
+      "brief_text_en": "Patria said that in a demonstration for the Finnish Navy at Upinniemi, a multi-domain swarm of its drones, a Patria ONE quadcopter launched from a Jehu-class landing craft, a fixed-wing UAV and unmanned surface vessels, completed its mission while being controlled from two locations in Finland. Navy commander Rear Adm. Tuomas Tiilikainen said the Navy aims to integrate unmanned systems into the maritime defence system and will set up a drone company in the Coastal Brigade early next year.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "パトリア／フィンランド海軍（報道経由）",
+      "publisher_en": "Patria / Finnish Navy (via media)",
+      "sources": [
+        {
+          "title": "Finland Tested Patria's Multi-Domain Drone Control System",
+          "url": "https://militarnyi.com/en/news/finland-tested-patria-drone-control-system/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-06",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "EU",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "デンマーク、ストアベルト橋に無人機探知レーダーを設置へ　運営会社スン＆ベルトが開発者に選定、年内運用を見込む",
+      "title_en": "Denmark to fit drone-detection radar on the Great Belt Bridge; operator Sund & Bælt selected to develop it, operational by year-end",
+      "brief_text_ja": "バルト海と北海を結ぶ海峡に架かるストアベルト橋の運営会社スン＆ベルトは、橋の上と周辺にレーダーマストを設置して無人機を探知する監視システムの開発者に選ばれ、年内の運用開始を見込む。同橋周辺では2026年春から無人機の全面飛行禁止が施行されており、重要インフラの対無人機監視を運営事業者自身が担う例になる。契約額は公表されていない。",
+      "brief_text_en": "Sund & Bælt, operator of the Great Belt Bridge spanning the strait between the Baltic and North Seas, has been selected to develop a drone-detection radar system with masts on and around the bridge, expected to be operational by the end of 2026. A total drone ban near the bridge has been in force since spring 2026, making this a case of an infrastructure operator itself taking on counter-drone surveillance. No contract value was disclosed.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "awarded",
+      "publisher": "スン＆ベルト（報道経由）",
+      "publisher_en": "Sund & Bælt (via media)",
+      "sources": [
+        {
+          "title": "Denmark to Install Radar System on Bridge over Strait between Baltic and North Seas to Detect Drones",
+          "url": "https://militarnyi.com/en/news/denmark-radar-system-bridge-strait-between-baltic-and-north-seas/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-06",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "EU",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナPhantom Defense、対FPVアクティブ防護「Mangal」10セットを部隊試験中　量産を準備",
+      "title_en": "Ukraine's Phantom Defense has ten 'Mangal' anti-FPV active protection systems in combat trials and is preparing mass production",
+      "brief_text_ja": "ウクライナのPhantom Defenseは、FPV無人機を樹木を背景に約40m、空を背景に60m超で自動探知し0.2秒以内に対処するアクティブ防護システム「Mangal」について、約1,000発の試射を経て10セットを部隊に引き渡し実戦試験中で、量産を準備中と説明した。1発あたり約2,000フリヴニャ、連続稼働12時間以上とする性能値と、実戦で2回の攻撃を撃退したという説明は開発側の主張で、独立の確認はない。",
+      "brief_text_en": "Ukraine's Phantom Defense said its 'Mangal' active protection system, which automatically detects FPV drones at about 40 m against trees and over 60 m against the sky and reacts within 0.2 seconds, has completed about 1,000 test firings, with ten systems delivered to units for combat trials and mass production being prepared. The performance figures, about UAH 2,000 per shot and at least 12 hours of autonomy, and the claim of two attacks repelled in combat are the developer's own and have not been independently confirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-05",
+      "stage": "",
+      "publisher": "Phantom Defense（報道経由）",
+      "publisher_en": "Phantom Defense (via media)",
+      "sources": [
+        {
+          "title": "Ukrainian Mangal Active Protection System Prepares for Mass Production",
+          "url": "https://militarnyi.com/en/news/ukrainian-mangal-active-protection-system/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-05",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws"
+      ],
+      "actors": [
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261109-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "中国の700億ドル規模のRTX Pro 5500注文、Nvidiaの数か月の供給は約1%とブルームバーグ",
+      "title_en": "Bloomberg: Nvidia can deliver only about 1% of China's $70 billion RTX Pro 5500 order in the coming months; company blames 'outdated export controls' and Chinese import limits",
+      "brief_text_ja": "ブルームバーグは11月4日、ByteDance・アリババ・テンセントなど中国企業による輸出規制対象外のRTX Pro 5500の注文が300万基超・約700億ドル規模に膨らむ一方、Nvidiaが今後数か月に納入できるのは数万基、約1%にとどまると報じた。2027年末までに70万基が見込まれるが変更の可能性がある。同社は出荷数への言及を避けつつ、ゲーム用製品にまで及ぶ「時代遅れの米輸出管理」と中国側の輸入制限を批判した。",
+      "brief_text_en": "Bloomberg reported on 4 November that orders from Chinese firms including ByteDance, Alibaba and Tencent for the export-eligible RTX Pro 5500 have grown to more than 3 million units worth about $70 billion, while Nvidia is expected to deliver only some tens of thousands, roughly 1 per cent, in the coming months, with 700,000 projected by end-2027 subject to change. Nvidia declined to comment on shipment figures but criticised 'outdated US export controls' that extend to gaming products and China's own import restrictions.",
+      "japan_relevance": false,
+      "date": "2026-11-04",
+      "stage": "",
+      "publisher": "ブルームバーグ（Tom's Hardware経由）",
+      "publisher_en": "Bloomberg (via Tom's Hardware)",
+      "sources": [
+        {
+          "title": "Nvidia can only fulfill 1% of China's massive $70 billion GPU order for AI chips, report claims",
+          "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+          "publisher": "Tom's Hardware（ブルームバーグ報道を引用）",
+          "date": "2026-11-04",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-09",
+      "text_ja": "米議会が中間選挙後の会期を再開。2027年度NDAAの協議と、ヘグセス長官の弾劾決議の採決が見込まれる",
+      "text_en": "US Congress returns for the lame-duck session; FY2027 NDAA talks and an expected House vote on impeaching Defense Secretary Hegseth"
+    },
+    {
+      "date": "2026-11-10",
+      "text_ja": "米・ウクライナ・ロシアの実務レベル協議（アブダビ、11月10〜11日）。迎撃弾供給と電力網攻撃が前提条件として浮上",
+      "text_en": "US-Ukraine-Russia working-level talks in Abu Dhabi (10–11 November), with interceptor supply and grid strikes emerging as preconditions"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "Nvidiaのフアン CEOが下院3委員長の非公開ブリーフィング要請（11月18日）を受諾または代替日を提案する期限",
+      "text_en": "Deadline for Nvidia CEO Jensen Huang to accept the three House chairs' 18 November closed-door briefing or propose another date"
+    },
+    {
+      "date": "2026-11-11",
+      "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限",
+      "text_en": "Deadline for five frontier-AI companies to answer the House Democratic ranking members' letter"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "Anthropicの2026年版利用規約（無人機等の誘導・制御ソフトの禁止を明記）の発効",
+      "text_en": "Anthropic's 2026 Usage Policy, which explicitly bars guidance and control software for drones and other autonomous vehicles, takes effect"
+    },
+    {
+      "date": "2026-11-12",
+      "text_ja": "MITREによる「プロジェクト・メリディアン」（未来の戦争パネル）向けアイデア募集の締切",
+      "text_en": "Deadline for MITRE's call for future-of-warfare ideas for Project Meridian"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "防衛装備庁のUAV用弾頭信管に関する情報提供企業募集の意思表明書提出期限（17時）",
+      "text_en": "Deadline (17:00 JST) for letters of intent under ATLA's RFI on UAV warhead fuzes"
+    },
+    {
+      "date": "2026-11-13",
+      "text_ja": "米下院民主党20議員の書簡に対するOpenAIの回答期限",
+      "text_en": "OpenAI's deadline to answer the letter from twenty House Democrats"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と2028年期限の交渉マンデート案を審議",
+      "text_en": "CCW Seventh Review Conference (16–20 November, Geneva), considering the LAWS GGE final report and the draft negotiating mandate with a 2028 horizon"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）",
+      "text_en": "49th ASEAN Summit and related summits (Manila, 16–18 November)"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "エヌビディアの2027年度第3四半期決算。対中H200許可先の審査、香港での滞留、RTX Pro 5500の供給制約をめぐる質疑が焦点",
+      "text_en": "Nvidia's Q3 FY2027 earnings, with questions expected on vetting of China H200 licensees, inventory held in Hong Kong and RTX Pro 5500 supply constraints"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, 17–19 November), including NCIA's industry workshop on the Integrated Cyber Defence Centre"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "米下院外交・中国特別・情報の3委員会によるNvidiaフアンCEOの合同非公開ブリーフィング（要請ベース、レイバーン2172号室）",
+      "text_en": "Requested joint closed-door briefing of Nvidia CEO Jensen Huang by the House Foreign Affairs, Select Committee on China and Intelligence committees (Rayburn 2172)"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the Pentagon's STIB to begin its study of commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。外国干渉事件の捜査と選挙期間中の偽情報・サイバー攻撃の推移",
+      "text_en": "Taiwan local elections; progress of foreign-interference prosecutions and the course of disinformation and cyberattacks during the campaign"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：国家サイバー統括室のアウトリーチ・チーム新設とIPA「トップガン人材チーム」立ち上げの期限（11月中）",
+      "text_en": "Japan: November deadline for standing up the National Cyber Office's Outreach Team and the IPA 'Top Gun' talent team"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "日本：安保3文書改定に向けた有識者会議の提言（12月上旬の見通しと報道）",
+      "text_en": "Japan: recommendations of the expert panel on revising the three security documents (reported as due in early December)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "イスラエル国防軍の無人システム・AI部門の発足（12月初めまでの予定と報道）",
+      "text_en": "IDF Unmanned Systems and AI Branch to be established (reported as due by early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区と異機種無人機群の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 December), with a dedicated unmanned and counter-UAS zone and heterogeneous drone swarms announced"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, 8–11 December), five themes including drones and counter-drone"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：国内の踏み台機器対策の取りまとめと、サイバー協議会を通じた脅威ハンティング用マニュアル・検知ツールの提供（年内目途）",
+      "text_en": "Japan: year-end target for the plan on domestic relay devices and for threat-hunting manuals and detection tools via the Cybersecurity Council"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "ロシアの低軌道衛星網Rassvetの年内の追加打ち上げ（ウクライナ情報総局は7回を予定と説明）",
+      "text_en": "Further launches of Russia's Rassvet low-orbit constellation before year-end (Ukraine's HUR cites seven planned)"
+    },
+    {
+      "date": "2027-01-27",
+      "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）",
+      "text_en": "Deadline for US federal civilian agencies to remove Acronis software under the DHS order"
+    },
+    {
+      "date": "2027-01-28",
+      "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。最大30ページと機密付属書",
+      "text_en": "Project Meridian (the Defense Secretary's future-of-warfare panel) due to report: up to 30 pages plus classified annexes"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "日本：サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）の運用開始（3月頃）",
+      "text_en": "Japan: launch of the Supply Chain Security (SCS) evaluation scheme (around March)"
+    },
+    {
+      "date": "2027-10-01",
+      "text_ja": "米国防総省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日",
+      "text_en": "Target date for establishing the Pentagon's Autonomous Warfare Command (a four-star functional combatant command)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（議会・国防総省・インド太平洋軍・輸出管理）：該当あり。中国：Nvidia関連の報道以外に新規の公式発表は確認できず。日本：共同・毎日の安保3文書報道のみ（本文未取得）。韓国：11月6〜8日の新規動向は確認できず（10月29日の北朝鮮無人機展示は既報扱いで不採用）。台湾：F-16V第2陣到着、SinoPac銀行の不正送金、ASE投資は確認したがAI×安全保障の範囲外で不採用。欧州・NATO：独（AI OSINT調達）、フィンランド（Patria実証）、デンマーク（橋梁レーダー）を採用。英国：新規動向なし。ロシア・ウクライナ：Rassvet、8日未明の攻撃、Mangalを採用。イスラエル・中東：IDF参謀総長の11月2日会議を遅れて確認し採用。インド：新規動向なし。豪州・ASEAN：新規動向なし。国際規範（国連・CCW）：新規動向なし（第1委員会決議は11月1日号で既報）。研究論文・シンクタンク：RAND RR-A4734-2（9月29日公表）を確認したが窓外のため不採用。",
+      "japan": "防衛省の報道発表・大臣会見（11月6日分）、防衛装備庁、首相官邸、経済産業省の各ページは取得できず（自動取得に対する制約とページ構造による）。報道では共同通信（河北新報・新潟日報ほか地方紙配信）、毎日新聞（Yahoo!ニュース）の見出しを確認したが、いずれも本文は取得できなかった。前号で未確認とされた「無人機を使った防衛に1000億円」（テレ東BIZ・共同）は、検索結果の見出しが「26年度予算案」と表記しており公表時期を特定できず、引き続き不採用。"
+    },
+    "dropped": [
+      {
+        "title": "AI Daily Digest Nov 8: OpenAIがHacktronと自社システムの脆弱性探索で提携、Daybreak Redへのアクセス拡大",
+        "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-8-2026-openai-taps-hacktron-for-bug-hunts-muse-wonder-for-everyone-gin",
+        "reason": "OpenAIの一次発表を特定できず、集約サイトの記述のみのため不採用。Daybreak RedのAWS GovCloud提供に関するOpenAIのページも取得できなかった"
+      },
+      {
+        "title": "NVIDIA、NAVERへの10億ドル出資を完了（11月6日の韓国規制当局への届出）",
+        "url": "https://www.navercorp.com/",
+        "reason": "集約サイトの記述のみで届出原文・一次発表を確認できず不採用"
+      },
+      {
+        "title": "Palantir Sinks 10% as Democratic Sweep Deepens AI and Defense Stock Sell-Off（Yahoo Finance／TIKR、11月5日）",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-sinks-10-democratic-sweep-181413168.html",
+        "reason": "公表日が対象期間より前で、市場の値動きの分析記事にとどまるため不採用"
+      },
+      {
+        "title": "Zamir orders faster combat robotics integration; IDF confirms Qabrikha strike（Israel RealTime、11月4日）",
+        "url": "https://israelrealtime.com/2026/11/04/zamir-orders-faster-combat-robotics-integration-idf-confirms-qabrikha-strike/",
+        "reason": "広告提携媒体による記事で、国防軍の公式発表で裏付けられないため、cl-20261109-04の本文からも除外した"
+      },
+      {
+        "title": "Taiwan receives second batch of three F-16V Block 70 fighters（Taiwan News、11月8日）",
+        "url": "https://www.taiwannews.com.tw/en/news/6473506",
+        "reason": "AI・無人・サイバーとの接点がなく範囲外"
+      },
+      {
+        "title": "Hackers exploit Taiwan bank's online system for NT$41.76 million in transfers（Taiwan News、11月6日）",
+        "url": "https://www.taiwannews.com.tw/en/news/6473003",
+        "reason": "海外ベンダーの設定不備を突いた金融犯罪で、国家主体やAIの関与は報じられておらず範囲外"
+      },
+      {
+        "title": "RAND, Adversarial artificial intelligence: Implications for strategic stability of attacks on military AI systems（RR-A4734-2）",
+        "url": "https://www.rand.org/pubs/research_reports/RRA4734-2.html",
+        "reason": "公表日が2026年9月29日で対象期間外。英外務省委託の報告として週報での扱いを検討する価値はある"
+      },
+      {
+        "title": "Kim Jong-un spotlights drones, defense AI in North Korean weapons display（Korea Herald、10月30日）",
+        "url": "https://www.koreaherald.com/article/10920535",
+        "reason": "10月29日の展示に関する記事で対象期間外"
+      },
+      {
+        "title": "Defense Tech Intelligence Brief — November 06, 2026（Substack集約）",
+        "url": "https://edsnews.substack.com/p/defense-tech-intelligence-brief-november-e78",
+        "reason": "掲載8件のうちAIに直接関わるものはなく、無人機関連（Nyan、UGV）は既報。DAF-MAMBAの市場調査通知（11月4日、回答期限11月11日）は内容を特定できず不採用"
+      },
+      {
+        "title": "Massie resolution to oust Hegseth likely to get firm support from Democrats（Washington Times、11月8日）",
+        "url": "https://www.washingtontimes.com/news/2026/nov/8/democratic-outline-plans-begin-impeaching-trumps-cabinet/",
+        "reason": "本文を取得できず、AI×安全保障との直接の接点も薄いため予定欄の既存項目にとどめた"
+      }
+    ],
+    "notes_for_editor": [
+      "本号の執筆環境では、指定URLの直接取得に制約があり、検索結果に現れたURLに限って本文を開けた。防衛省・首相官邸・経産省・防衛装備庁の各ページ、Taipei Times、Inside Defense、ニューヨーク・タイムズ、CNBC、日本の地方紙・Yahoo!ニュースは取得できなかった。日本の公式発表の確認は事実上できておらず、編集者による補完を要する。",
+      "cl-20261109-01：3委員長の書簡はWccftechが画像として掲載したものを同誌の記述で確認した。書簡の日付（11月4日）、場所（レイバーン2172号室）、回答期限（11月11日）は同誌の記述に依拠し、委員会の公式リリースは未取得。Israel Hayomが伝える上院外交委員会（クーンズ議員）の調査着手や、H200取引（政府の利益25%）の凍結は他媒体で確認できず本文・予定欄から外した。情報文書の内容に関する報道は、私人に関わる未確認情報であるため最小限の記述にとどめた。dateは要請が報道で明らかになった11月6日とした。",
+      "cl-20261109-02：ロイター原文は未取得で、Militarnyiによるユソフ報道官の発言の引用に依拠した。衛星数（30機、26機が約508km）はMilitarnyi、8月時点の計画（292機・924機）はDefence Industry Europe、7月末の「数時間の使用」はJanesに基づく。当事者の主張のみで独立の確認はなく、信頼度B3。10月29日号cl-20261029-12の続報。",
+      "cl-20261109-03：Star-Advertiserの記事は10月28日のパネルに基づく11月7日付の報道で、一次資料として挙げたインド太平洋軍のAIサミット記事（5月18日）は背景情報にとどまる。「主任超知能責任者」の肩書は記事の記述で、同軍の公式発表では確認していない。",
+      "cl-20261109-04：11月2日の会議は対象期間より前であり、§2の規則に従い主要動向の末尾に置いた。部門の発足時期について、The Yeshiva Worldは「設置した」と書き、VINnewsは「12月初めまでに発足予定」と書いており、本文は後者を採った。9月の設置発表（Breaking Defense等）は本文で言及したが出典には含めていない。",
+      "cl-20261109-07：共同通信・毎日新聞の記事はいずれも本文を取得できず、見出しの範囲に記述を限定した。記事の日付は河北新報のURL（knp2026110701001031）から11月7日と推定し、新潟日報・毎日の日付も同日とみなしたが未確認。accessedはすべてfalse。日本の主要候補として編集者の確認を要する。",
+      "cl-20261109-06：Hartpunktの原記事は特定できず、Militarnyiの二次報道のみに依拠した。cl-20261109-08・09・10も同様にMilitarnyiの報道に依拠し、Patria・Sund & Bælt・Phantom Defenseの一次発表は未取得。",
+      "検証は ERROR なしで通過させた。WARN が残る場合は実行報告に理由を記す。"
+    ]
+  }
+}
