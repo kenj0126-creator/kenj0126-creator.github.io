@@ -1,0 +1,694 @@
+{
+  "edition_date": "2026-11-10",
+  "generated_at": "2026-11-10T06:40:00+09:00",
+  "window_from": "2026-11-09T06:45:00+09:00",
+  "edition_title_ja": "企業の内側へ向かう半導体の監督、国内へ広がる監視と迎撃の権限",
+  "edition_title_en": "Chip Oversight Turns Inward at the Firm, While Surveillance and Intercept Powers Extend at Home",
+  "edition_dek_ja": "Nvidiaの独立調査、日本のサイバー法改正論議、米欧の対無人機の制度化、中国のステルス無人機公開。",
+  "edition_dek_en": "Nvidia's independent probe, Japan's cyber-law debate, US and European counter-drone institutionalisation, and China's stealth-drone reveal.",
+  "lead_points_ja": [
+    "週明けの動きは、AIと安全保障をめぐる管理の焦点が、企業の内部統治と自国内の権限配分へ移っていることを示した。半導体では取締役会の独立調査と商務省の判断が問われ、日本と欧州では通信監視と無人機迎撃の権限を国内の主体へ広げる制度設計が始まった。",
+    "Nvidiaの取締役会は11月8日、フアンCEOが外国の諜報工作の対象になったとの報道を受け、独立取締役と外部弁護士による調査を始めた。9日にはニューヨーク・タイムズが、商務省のMegaspeed調査が同社法務責任者の接触後に停止し司法省へ移ったと報じ、株価は一時9%近く下げた。",
+    "日本では政府・自民党が能動的サイバー防御法の改正検討を本格化させ、通信監視の対象を「国内間」へ広げる案を軸に、早ければ2027年通常国会への提出を目指す。日経は、政府が大学と国立研究機関に防衛専門の研究拠点を設け、AIと宇宙の基礎研究を装備開発につなぐ方針と報じた。",
+    "米国では運輸・戦争（旧国防）・国土安全保障・エネルギー・司法の5省がホワイトハウス主導の対無人機MOUに署名し、FAAの事前審査を通した配備の手順を定めた。チェコ政府は重要インフラ事業者に無人機撃墜の権限を認める法案を承認した。",
+    "中国空軍は創設77年を前にステルス無人機「攻撃-11」の映像を公開し、内部弾倉と代号「玄龍」を示した。Google DeepMindは11月6日、AIエージェントが旧式の1024ビットRSAへの攻撃費用を下げたと発表し、推定値と実測値の区別をめぐる批判も出ている。"
+  ],
+  "lead_points_en": [
+    "Monday's developments showed the locus of control over AI and security shifting toward corporate governance and the allocation of powers at home. In semiconductors, a board's independent probe and the Commerce Department's judgement came under scrutiny; in Japan and Europe, institutional design began to extend communications monitoring and drone-intercept powers to domestic actors.",
+    "Nvidia's board on 8 November opened an investigation by independent directors and outside counsel after reports that CEO Jensen Huang was the target of a foreign intelligence effort. On 9 November the New York Times reported that the Commerce Department's Megaspeed inquiry was halted after Nvidia's general counsel contacted agents and moved to the Justice Department; shares fell by as much as nearly 9%.",
+    "In Japan, the government and LDP began serious work on revising the active cyber defence laws, centred on extending communications monitoring to domestic-to-domestic traffic, with a bill targeted for the 2027 ordinary Diet session at the earliest. Nikkei reported a plan to establish defence-dedicated research bases at universities and national research institutes to link basic AI and space research to equipment development.",
+    "In the United States, the Departments of Transportation, War, Homeland Security, Energy and Justice signed a White House-led counter-drone MOU setting an FAA-reviewed process for deployment. The Czech government approved a bill granting critical-infrastructure operators the power to shoot down drones.",
+    "China's air force released footage of the GJ-11 stealth drone ahead of its 77th anniversary, showing an internal weapons bay and the codename Xuanlong. Google DeepMind said on 6 November that AI agents had lowered the cost of attacks on legacy 1024-bit RSA, prompting criticism over the gap between estimated and measured gains."
+  ],
+  "items": [
+    {
+      "id": "cl-20261110-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Nvidia取締役会がCEOへの諜報工作で独立調査　商務省のMegaspeed調査は同社接触後に停止とNYT",
+      "title_en": "Nvidia board opens independent probe into intelligence targeting of its CEO; NYT says Commerce halted Megaspeed inquiry after company contact",
+      "lead_ja": "Nvidiaの取締役会は11月8日（米国時間）、フアンCEOが外国の諜報工作の対象になったとの報道を受け、独立取締役の委員会と外部の独立弁護士による調査を始めると発表した。翌9日にはニューヨーク・タイムズが、商務省産業安全保障局（BIS）のMegaspeedに対する調査が2025年8月に同社法務責任者の接触を受けて停止し、司法省へ移ったと報じた。輸出管理の執行をめぐる論点は、密輸経路の解明から、企業と規制当局の距離の適否へ広がっている。",
+      "lead_en": "On 8 November (US time) Nvidia's board said it was opening an investigation, overseen by a committee of independent directors with outside independent counsel, after reports that CEO Jensen Huang had been the target of a foreign intelligence effort. On 9 November the New York Times reported that the Commerce Department's Bureau of Industry and Security had halted its Megaspeed inquiry in August 2025 after contact from Nvidia's general counsel, with the case moving to the Justice Department. The export-control debate is widening from smuggling routes to the propriety of the distance between company and regulator.",
+      "sections": [
+        {
+          "heading_ja": "独立取締役による調査と「CEO職務継続」",
+          "heading_en": "An independent-director probe and a CEO who stays",
+          "paragraphs_ja": [
+            "取締役会の声明は、調査の対象を「フアンCEOが外国の諜報工作の標的になったとの最近の報道」と定め、国家安全保障や同社の機密が損なわれたと「信じる理由はない」と述べた。フアン氏はCEOに留まり、全面的に協力すると約束したという。同氏は従業員向けの電子メールで妻への不貞を認め、相手の女性については会社として名前を示していない。報道は相手をシンガポールのデータセンター企業Megaspeedの元幹部アリス・ホアン氏とし、米情報機関が同氏を中国のために情報を集めていたと結論づけたと伝えている。",
+            "AP通信によれば株価は9日昼に5%近く下げ、ブルームバーグは一時8.8%の下落で約4,000億ドルの時価総額が失われたと報じた。トランプ大統領は8日夜、フアン氏が「何か悪いことをしたとは聞いていない」と述べ、CEO職の継続を支持し、今後の訪中に同行させる考えを示した。中国外交部の郭嘉昆報道官は9日、「いわゆる中国スパイ疑惑は根拠がなく、中国への中傷に過ぎない」と述べた。"
+          ],
+          "paragraphs_en": [
+            "The board's statement defined the scope as the recent reporting that Huang had been targeted by a foreign intelligence effort and said it had no reason to believe national security or Nvidia secrets were compromised. Huang remains CEO and has committed to full cooperation. In an email to employees he admitted infidelity to his wife; the company did not name the woman. Press reports identify her as Alice Huang, a former executive of the Singapore data-centre company Megaspeed, and say US intelligence concluded she was gathering information for Beijing.",
+            "According to the Associated Press the shares fell nearly 5% by midday on 9 November, while Bloomberg reported a drop of as much as 8.8% that at one point erased about $400 billion in market value. President Trump said on the evening of 8 November that he had not heard Huang had done anything wrong, backed him staying as CEO and said he would take him on an upcoming China trip. Chinese foreign ministry spokesperson Guo Jiakun said on 9 November that the so-called Chinese spy allegation was unsubstantiated and nothing but a smear."
+          ]
+        },
+        {
+          "heading_ja": "商務省から司法省への移管と8月のメール",
+          "heading_en": "The August email and the transfer from Commerce to Justice",
+          "paragraphs_ja": [
+            "ニューヨーク・タイムズ（アナ・スワンソン、デブリン・バレット記者）は9日、商務省がMegaspeedによる中国向け半導体の迂回を調べていた2025年8月、Nvidiaのティム・テター法務責任者がBISの捜査官に電子メールを送り、ケスラー産業安全保障担当次官から接触の許可を得ていると伝えたと報じた。捜査官は接触を異例と受け止めて次官に転送し、次官は数時間後に「厳密に規則どおりに」扱うよう返信したとされる。商務省高官は、次官が情報を同社と共有するよう指示した事実はないと説明している。",
+            "記事によれば、その後司法省が商務省に調査の中断を求め、商務省は応じた。司法省は関係者の話として刑事捜査を進めているとされ、Megaspeedは2年間で48億ドル超のNvidia製チップを購入したという。他の省庁がMegaspeedのEntity List掲載を提案したものの実現しておらず、商務省が同リストに企業を追加していない期間は1年を超え、18年で最長とされる。テター氏の接触の経緯と、中断に他の要因が関わったかは記事自身が「明らかでない」としている。"
+          ],
+          "paragraphs_en": [
+            "The New York Times (Ana Swanson and Devlin Barrett) reported on 9 November that in August 2025, while Commerce was examining Megaspeed's suspected routing of chips to China, Nvidia general counsel Tim Teter emailed BIS agents saying Under Secretary Jeff Kessler had given permission for the outreach. The agents found the contact unusual and forwarded it to Kessler, who reportedly replied hours later that the case should be handled strictly by the book. A Commerce official said Kessler never instructed staff to share information with the company.",
+            "The Justice Department then asked Commerce to pause and Commerce complied, according to the report, which cites people familiar with the matter as saying a criminal inquiry is under way and that Megaspeed bought more than $4.8 billion of Nvidia chips over two years. Other agencies have proposed adding Megaspeed to the Entity List without result, and Commerce has gone more than a year without adding any company, the longest gap in 18 years. The Times itself says it is not clear what prompted Teter's outreach or whether other factors contributed to the pause."
+          ]
+        },
+        {
+          "heading_ja": "11日の回答期限と17日の決算へ向かう日程",
+          "heading_en": "Toward the 11 November deadline and the 17 November earnings",
+          "paragraphs_ja": [
+            "下院の3委員長が求めた11月18日の非公開ブリーフィングについて、フアン氏は11日までに受諾か代替日を示す必要がある。17日には2027年度第3四半期決算があり、対中販売の許可先審査や香港での在庫滞留に加え、今回の調査の範囲が質疑の対象となる。レイモンド・ジェームズのアナリストは、疑惑により「ワシントンが対応を避けることは次第に難しくなる」と評した。1月に委員会の召喚権限を握る民主党が、議会監督の手段をどこまで使うかが次の焦点である。"
+          ],
+          "paragraphs_en": [
+            "Huang must accept the three House chairs' 18 November closed-door briefing or propose another date by 11 November. Third-quarter FY2027 results follow on 17 November, when the scope of the probe will join questions on vetting of China licensees and inventory held in Hong Kong. Raymond James analysts wrote that the allegations could make it increasingly difficult for Washington to avoid a response. How far Democrats, who take over committee subpoena power in January, use their oversight tools is the next question."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月11日：下院3委員長への回答期限。11月17日：Nvidia決算。11月18日：下院合同非公開ブリーフィング（要請ベース）。司法省の刑事捜査とMegaspeedのEntity List掲載の有無。",
+      "watch_next_en": "11 Nov: reply deadline to the three House chairs. 17 Nov: Nvidia earnings. 18 Nov: requested joint closed-door House briefing. Status of the DOJ criminal inquiry and any Entity List action on Megaspeed.",
+      "japan_relevance": false,
+      "date": "2026-11-08",
+      "stage": "",
+      "publisher": "Nvidia取締役会／ニューヨーク・タイムズ",
+      "publisher_en": "Nvidia board / The New York Times",
+      "sources": [
+        {"title": "Commerce Department chip inquiry was halted after Nvidia intervention (NYT via The Philadelphia Inquirer)", "url": "https://www.inquirer.com/news/nation-world/nvidia-investigation-commerce-justice-ai-chinese-spy-megaspeed-jensen-huang-trump-jeff-kessler-lutnick-20261109.html", "publisher": "The New York Times / The Philadelphia Inquirer", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "What we know — and what we don't — as Nvidia investigates an alleged spy plot involving its CEO (AP)", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/09/what-we-know-and-what-we-dont-as-nvidia-investigates-an-alleged-spy-plot-involving-its-ceo/", "publisher": "Associated Press / BNN Bloomberg", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Commerce halted its Megaspeed probe after Nvidia stepped in, NYT reports", "url": "https://thenextweb.com/news/megaspeed-probe-commerce-nvidia-lawyer-justice-department-nyt", "publisher": "TNW", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export", "industry-procurement"],
+      "actors": ["US", "CN"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261109-01"
+    },
+    {
+      "id": "cl-20261110-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "政府・自民党、能動的サイバー防御法の改正検討を本格化　通信監視を「国内間」へ拡大、早ければ2027年通常国会に",
+      "title_en": "Japan's government and LDP begin work on revising the active cyber defence laws, centred on extending monitoring to domestic-to-domestic traffic",
+      "lead_ja": "相次ぐサイバー攻撃による個人情報流出を受け、政府と自民党は11月9日、能動的サイバー防御関連法の改正に向けた検討を本格化させた。現行法の通信監視は「外国間」と「外国・国内間」に限られ、与党は「国内間」の通信への拡大を軸に据える。木原官房長官は同日、「情報収集能力を強化する観点から検討を行う」と述べ、ANNは早ければ2027年の通常国会への提出を目指すと伝えた。",
+      "lead_en": "After a string of personal-data breaches, Japan's government and the LDP on 9 November began serious work on revising the active cyber defence laws. Monitoring under the current law covers only foreign-to-foreign and foreign-to-domestic communications, and the ruling party wants it extended to domestic-to-domestic traffic. Chief Cabinet Secretary Minoru Kihara said the same day that the government would examine the issue from the standpoint of strengthening information-gathering capability, and ANN reported a bill is targeted for the 2027 ordinary Diet session at the earliest.",
+      "sections": [
+        {
+          "heading_ja": "外国関係に限られた監視対象の拡張",
+          "heading_en": "Extending a monitoring remit limited to foreign traffic",
+          "paragraphs_ja": [
+            "能動的サイバー防御の法制は、通信監視、侵入・無害化、官民連携の3本柱からなり、時事通信によれば後者2つは10月に施行済みで、通信監視は来年秋までの運用開始が予定されている。与党側は、外国関係の通信だけでは情報が足りないと主張する。自民党国家サイバーセキュリティ戦略本部の平将明本部長は記者団に「国内間の通信がブラックボックスのままで対応できるのか、議論の余地がある」と述べ、外国の攻撃者が国内の機器を乗っ取り、そこから別の国内機器を攻撃する経路を例に挙げた。",
+            "同本部の大野敬太郎幹事長は「法改正は今の状況を考えれば当然だ。しっかり対策できるよう内容をつくる」と述べた。11月6日に決定された緊急対策パッケージは、踏み台となる国内機器への対処やAIによる脆弱性診断を盛り込んでおり、国内間の監視はその延長線上にある。したがって改正論議は、国内に置かれた中継機器の可視化を、通信事業者の協力と行政の分析能力のどちらで担うかという設計の問題でもある。"
+          ],
+          "paragraphs_en": [
+            "The active cyber defence framework has three pillars: communications monitoring, intrusion and neutralisation, and public-private cooperation. According to Jiji the latter two took effect in October, while monitoring is due to start by next autumn. The ruling party argues that foreign-related traffic alone yields too little information. Taira Masaaki, head of the LDP's National Cybersecurity Strategy Headquarters, told reporters there was room to debate whether Japan could respond while domestic-to-domestic traffic remained a black box, citing attackers abroad who hijack domestic devices to attack other domestic devices.",
+            "Ono Keitaro, the headquarters' secretary-general, said revision was natural given the situation and that the content would be built so countermeasures work. The emergency package adopted on 6 November already covers domestic relay devices and AI-assisted vulnerability scanning, and domestic monitoring sits on that trajectory. The debate is therefore also a design question: whether visibility over relay devices inside Japan rests on carrier cooperation or on the government's own analytic capacity."
+          ]
+        },
+        {
+          "heading_ja": "通信の秘密との調整と有識者の関与",
+          "heading_en": "Reconciling secrecy of communications, with expert input",
+          "paragraphs_ja": [
+            "憲法が保障する「通信の秘密」との関係は、現行法の立案時にも最大の争点であった。政府・自民党は有識者の意見を聴きつつ慎重に議論する方針を示し、政府関係者は「与党の主張を念頭に置きながら法改正を検討する必要がある」と述べたという。国内間への拡大は、監視の対象となる通信量と対象者の範囲を質的に変えるため、独立機関による事前承認や、取得情報の利用目的の限定をどこまで厳格にするかが法案の骨格を決める。ANNによれば、監視に基づく情報収集は2027年秋からの開始が予定されている。"
+          ],
+          "paragraphs_en": [
+            "The constitutional guarantee of secrecy of communications was the central dispute when the current law was drafted. The government and LDP say they will deliberate cautiously and hear experts, and a government official was quoted as saying the revision must be examined with the ruling party's position in mind. Extending coverage to domestic traffic changes the volume of communications and the population affected in kind, so the strictness of prior approval by an independent body and limits on the use of acquired data will shape the bill. According to ANN, information gathering based on monitoring is scheduled to begin in autumn 2027."
+          ]
+        },
+        {
+          "heading_ja": "11月6日の指示から法案提出までの時間軸",
+          "heading_en": "From the 6 November instruction to a bill",
+          "paragraphs_ja": [
+            "高市首相は11月6日のサイバーセキュリティ関係閣僚会議で、緊急対策パッケージと併せて法改正の検討を指示した。9日午後には自民党本部で同本部の会合が開かれ、政府からパッケージの説明を受けた。改正案を2027年通常国会に出すには、年内の安保3文書改定や2027年度予算編成と並行して条文作業を進める必要があり、有識者会議の設置時期と中間整理の有無が進度の指標となる。",
+            "海外では英国家サイバーセキュリティセンターが11月3日の年次報告で、2028年までに重要インフラへのランサムウェア攻撃にAI搭載マルウェアが使われる可能性が「非常に高い」と警告している。日本の改正論議も、攻撃側のAI利用を前提に監視の射程を再設計する流れの中に位置づけられる。"
+          ],
+          "paragraphs_en": [
+            "Prime Minister Takaichi instructed on 6 November, at the ministerial meeting on cybersecurity, that revision be examined alongside the emergency package. On the afternoon of 9 November the LDP headquarters met at party HQ and heard the government's explanation of the package. Submitting a bill to the 2027 ordinary session means drafting in parallel with the year-end revision of the three security documents and the FY2027 budget; the timing of any expert panel and of an interim summary will indicate progress.",
+            "Abroad, the UK National Cyber Security Centre warned in its 3 November annual review that AI-enabled malware is very likely to be used in ransomware attacks on critical infrastructure by 2028. Japan's revision debate sits within the same move to redesign the reach of monitoring on the assumption that attackers use AI."
+          ]
+        }
+      ],
+      "watch_next_ja": "有識者会議の設置と論点整理の時期。安保3文書改定（12月上旬の提言）との整合。2027年通常国会への改正案提出の可否。",
+      "watch_next_en": "Timing of an expert panel and issue paper; alignment with the revision of the three security documents (panel recommendations due early December); whether a bill reaches the 2027 ordinary Diet session.",
+      "japan_relevance": true,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "政府・自民党（時事通信・ANN報道）",
+      "publisher_en": "Government of Japan / LDP (as reported by Jiji and ANN)",
+      "sources": [
+        {"title": "通信監視「国内間」拡大軸＝サイバー防御法改正へ検討本格化―政府・与党", "url": "https://www.nippon.com/ja/articles/-/57134", "publisher": "時事通信（nippon.com）", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "自民党「能動的サイバー防御」法改正へ 国内通信の分析も検討", "url": "https://news.ksb.co.jp/ann/article/17036128", "publisher": "テレビ朝日系（ANN）", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Japan Mulling Expanding Cyberdefense Monitoring to Domestic Comms", "url": "https://www.nippon.com/en/articles/-/57135", "publisher": "Jiji Press (nippon.com)", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["cyber-ci", "governance-norms"],
+      "actors": ["JP"],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": ["detect"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261108-01"
+    },
+    {
+      "id": "cl-20261110-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米5省がホワイトハウス主導の対無人機MOUに署名　FAAが事前審査を担い、既評価システムは24時間で承認も",
+      "title_en": "Five US departments sign a White House-led counter-drone MOU, with FAA pre-review and 24-hour approval for previously evaluated systems",
+      "lead_ja": "米運輸省は11月9日、運輸・戦争（旧国防）・国土安全保障・エネルギー・司法の5省が、対無人機技術の評価と配備に関する省庁間の覚書（MOU）に署名したと発表した。覚書はホワイトハウスの「米国の空の主権回復タスクフォース」が主導し、無人機の検知・追跡・停止・制御奪取のシステムを連邦航空局（FAA）と連邦通信委員会（FCC）の要件に照らして審査する手順を定める。資金も新たな法的権限も伴わず、既存の権限の運用を速める合意である。",
+      "lead_en": "The US Department of Transportation announced on 9 November that the Departments of Transportation, War, Homeland Security, Energy and Justice had signed an interagency memorandum of understanding on evaluating and deploying counter-drone technology. Led by the White House Task Force to Restore American Airspace Sovereignty, the MOU sets a process for reviewing systems that detect, track, stop or take control of drones against FAA and FCC requirements. It brings no new money or legal authority; it speeds the operation of existing powers.",
+      "sections": [
+        {
+          "heading_ja": "検知・制御・無害化のシステムをFAA審査に接続",
+          "heading_en": "Routing detect, control and defeat systems through FAA review",
+          "paragraphs_ja": [
+            "覚書によれば、各省は無人機を検知・追跡・停止・制御するシステムを開発する際にFAAとFCCと協働し、運輸省・FAA・FCCの要件と試験データを考慮する。技術要件、実地試験、データ共有で協力し、FAAは技術要件や基準、指針を出すことができる。FAAは提案されたシステムの安全リスク評価を迅速に行い、追加の緩和策が必要と判断すれば空域制限を含む独自の保護措置を実施できる。ドローンライフが引くFAA当局者の説明では、過去に評価済みのシステムの審査は「24時間程度」に短縮される可能性がある。",
+            "FAAはこれまで国防総省と国土安全保障省に関わる1,000件超の対無人機の調整要請を承認してきたとされる。ダフィー運輸長官は「21世紀の新たな脅威から米国の空域を守る、能動的で政府全体のアプローチ」と述べ、ヘグセス戦争長官は南部国境に高エネルギーレーザーを配備したと説明した。FBIのパテル長官はワールドカップ期間中に700機超の無人機を押収したと述べ、ブランシュ司法長官は今夏、ホワイトハウス行事の近くで爆発物搭載の無人機を計画した5人を逮捕した事件に触れた。"
+          ],
+          "paragraphs_en": [
+            "Under the MOU, the departments work with the FAA and FCC when developing systems that detect, track, stop or take control of drones, taking account of DOT, FAA and FCC requirements and test data. They cooperate on technical requirements, field testing and data sharing, and the FAA may issue requirements, standards and guidance. The FAA will conduct rapid safety risk assessments and, where it judges further mitigation necessary, may impose its own protective measures including airspace restrictions. An FAA official cited by DroneLife said reviews of previously evaluated systems could take as little as 24 hours.",
+            "The FAA is said to have approved more than 1,000 counter-drone coordination requests involving the Pentagon and DHS. Transportation Secretary Sean Duffy called it a proactive, whole-of-government approach to protecting American airspace from emerging 21st-century threats; War Secretary Pete Hegseth said high-energy lasers had been deployed on the southern border. FBI Director Kash Patel said the Bureau seized more than 700 drones during the World Cup, and Attorney General Todd Blanche referred to the summer arrest of five men planning explosive-armed drones near a White House event."
+          ]
+        },
+        {
+          "heading_ja": "レーザー配備と空港閉鎖が示した運用上の摩擦",
+          "heading_en": "Friction revealed by laser deployment and an airport shutdown",
+          "paragraphs_ja": [
+            "覚書は、FAAが南部国境に設けた一時飛行制限と、戦争省の高エネルギーレーザー対無人機システムの「包括的な安全評価」の完了を土台とする。ドローンライフによれば、FAAと国防総省は4月にレーザー系の対無人機について合意に達しており、2月にはFAAの安全審査を終えていないレーザーが使用されたためエルパソ国際空港の便が止められた。軍と治安機関が運用する対無人機と民間航空の共存は、権限の問題と同時に電波と空域の調整の問題であり、今回の手順はその摩擦を事前審査で吸収する設計である。"
+          ],
+          "paragraphs_en": [
+            "The MOU builds on an FAA temporary flight restriction along the southern border and on the completed comprehensive safety assessment of the Department of War's high-energy laser counter-drone system. According to DroneLife, the FAA and the Pentagon reached agreement on laser counter-UAS in April, and in February the FAA halted flights at El Paso International Airport after a laser was used without a completed FAA safety review. Coexistence between counter-drone systems run by the military and law enforcement and civil aviation is a question of spectrum and airspace coordination as much as of authority; the new process is designed to absorb that friction through prior review."
+          ]
+        },
+        {
+          "heading_ja": "予算も権限も増やさない合意の射程",
+          "heading_en": "The reach of an agreement that adds no money or authority",
+          "paragraphs_ja": [
+            "この合意は新たな予算を伴わず、法的権限を拡大せず、航空安全の要件を外すものでもない。配備の期限や承認済みシステムの名称も示されていない。したがって効果は、既存の権限の下で各省が持ち込む要請をFAAが処理する速度と、技術要件の共有が調達側の仕様に反映される度合いに依存する。関連して、FEMAの2027年度対無人機助成（2.5億ドル）は11月16日が申請期限とされ、州・地方の警察が配備する機材の審査にもこの手順が及ぶかが次の論点となる。"
+          ],
+          "paragraphs_en": [
+            "The agreement provides no new funding, expands no legal authority and removes no aviation-safety requirement; it names no deployment timetable or approved systems. Its effect therefore depends on how fast the FAA processes requests brought under existing authorities and how far shared technical requirements feed into procurement specifications. Relatedly, FEMA's FY2027 counter-UAS grant programme ($250 million) has an application deadline of 16 November, and whether this process extends to equipment deployed by state and local police is the next question."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月16日：FEMA対無人機助成の申請期限。11月19日：FCC公開会合（無人機探知レーダー帯）。FAAが公表する技術要件・指針と、承認済みシステムの一覧の有無。",
+      "watch_next_en": "16 Nov: FEMA counter-UAS grant deadline. 19 Nov: FCC open meeting on drone-detection radar bands. Whether the FAA publishes technical requirements and a list of approved systems.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "announced",
+      "publisher": "米運輸省",
+      "publisher_en": "US Department of Transportation",
+      "sources": [
+        {"title": "Trump Administration Deepens Interagency Collaboration to Protect the Nation's Skies From Unmanned Threats", "url": "https://www.transportation.gov/briefing-room/trump-administration-deepens-interagency-collaboration-protect-nations-skies-unmanned", "publisher": "US Department of Transportation", "date": "2026-11-09", "kind": "primary", "accessed": true},
+        {"title": "Trump Administration Deepens Interagency Collaboration to Protect the Nation's Skies From Unmanned Threats", "url": "https://www.dhs.gov/news/2026/11/09/trump-administration-deepens-interagency-collaboration-protect-nations-skies", "publisher": "US Department of Homeland Security", "date": "2026-11-09", "kind": "primary", "accessed": false},
+        {"title": "Federal Agreement Could Cut Counter-Drone Reviews to 24 Hours", "url": "https://dronelife.com/2026/11/09/federal-agreement-counter-uas-deployment/", "publisher": "DroneLife", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "US announces expanded interagency programme to coordinate C-UAS efforts and evaluate technologies", "url": "https://www.unmannedairspace.info/counter-uas-systems-and-policies/us-announces-expanded-interagency-programme-to-coordinate-c-uas-efforts-and-evaluate-technologies/", "publisher": "Unmanned Airspace", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "industry-procurement"],
+      "actors": ["US"],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "中国空軍、ステルス無人機「攻撃-11」の映像を公開　内部弾倉と代号「玄龍」、創設77年を前に配備を示唆",
+      "title_en": "China's air force releases GJ-11 stealth drone footage showing an internal weapons bay and the codename Xuanlong ahead of its 77th anniversary",
+      "lead_ja": "中国人民解放軍空軍は11月9日、無尾翼全翼型のステルス無人機「攻撃-11」（GJ-11）の新たな映像を公開し、国営中央テレビ（CCTV）が配信した。映像は機体上部の空気取入口、平らな後部、機体下面の内部弾倉を示し、代号が「玄龍」であることが伝えられた。11月11日の空軍創設77周年を前にした公開であり、2019年の国慶節パレードで初公開された機体が実任務の段階にあることを対外的に示す意図が読める。",
+      "lead_en": "The PLA Air Force on 9 November released new footage of the GJ-11 tailless flying-wing stealth drone, distributed by state broadcaster CCTV. The footage shows the dorsal intake, flattened rear fuselage and internal weapons bay in the belly, and the codename Xuanlong was reported. Released ahead of the air force's 77th anniversary on 11 November, it signals that an aircraft first shown at the 2019 National Day parade has reached an operational stage.",
+      "sections": [
+        {
+          "heading_ja": "公開された機体と「玄龍」の意味",
+          "heading_en": "What the footage shows, and the meaning of Xuanlong",
+          "paragraphs_ja": [
+            "CCTV軍事チャンネルの報道によれば、攻撃-11は瀋陽飛機設計研究所が設計し、洪都航空工業集団が生産する全翼機で、翼幅は約14mとされる。兵装はすべて内部弾倉に収め、複数の弾薬を搭載できると説明された。香港の東網は、同機が昨年11月に空軍に配備されたと伝え、空軍が「空天一体、攻防兼備」の戦略転換の途上にあるとの公式メディアの文言を引いた。性能に関する数値（搭載量約2t、巡航マッハ0.9、滞空6時間超、戦闘行動半径2,000km、上昇限度12,000m）は外部の推定であり、公式発表には含まれていない。",
+            "機体の存在自体は2019年以来知られていたため、今回の新規性は、弾倉の開口部や地上での運用場面を含む映像の粒度と、公式の代号を伴って公開された点にある。中国側は、空軍記念日に合わせた映像公開を装備の成熟を示す定期的な手段として用いており、昨年のステルス戦闘機の公開と同じ型に当たる。"
+          ],
+          "paragraphs_en": [
+            "According to CCTV's military channel, the GJ-11 is a flying-wing design by the Shenyang Aircraft Design and Research Institute, produced by Hongdu Aviation Industry Group, with a wingspan of about 14 m. All weapons are carried internally and the bay can hold several munitions. Hong Kong's on.cc reported that the aircraft entered air force service last November and quoted official media describing the force as in a strategic transition toward integrated air-space operations with both offensive and defensive capability. Performance figures circulating (about 2 t payload, Mach 0.9, over six hours' endurance, 2,000 km combat radius, 12,000 m ceiling) are outside estimates absent from any official release.",
+            "Since the airframe has been known since 2019, the novelty lies in the granularity of the footage, including the open bay and ground handling, and in the official codename. Beijing uses anniversary releases as a regular means of signalling maturity, in the same pattern as last year's stealth-fighter disclosures."
+          ]
+        },
+        {
+          "heading_ja": "J-20Sとの有人・無人連携という解釈",
+          "heading_en": "The reading of manned-unmanned teaming with the J-20S",
+          "paragraphs_ja": [
+            "中国メディアの解説は、複座型J-20Sの後席が前方の複数の無人機を指揮し、攻撃-11が偵察・目標指示と対地攻撃の先鋭を担う構図を描く。騰訊の論評は、環球時報が伝えた軍事専門家・張学峰氏の分析を引き、J-20が制空、J-16Dが電子制圧、攻撃-11が開かれた窓で対地攻撃に入るという分業を示した。ただしこれらは専門家の解釈であり、公開映像が連携飛行を実証したわけではない。2025年9月3日のパレードで登場した2種の制空型無人機については、開発主体や配備状況は公表されていない。"
+          ],
+          "paragraphs_en": [
+            "Chinese commentary sketches a formation in which the rear seat of the two-seat J-20S directs several drones ahead of it, with the GJ-11 taking forward reconnaissance, target designation and the leading edge of ground attack. A Tencent column cites analysis by military expert Zhang Xuefeng, relayed by the Global Times, in which the J-20 provides air cover, the J-16D electronic suppression, and the GJ-11 enters for ground strike once the window opens. These remain expert interpretations; the footage itself demonstrates no teaming flight. For the two air-superiority drones shown at the 3 September 2025 parade, developer, timeline and service status remain undisclosed."
+          ]
+        },
+        {
+          "heading_ja": "076型「四川」の攻撃-21との連続性",
+          "heading_en": "Continuity with the GJ-21 aboard the Type 076 Sichuan",
+          "paragraphs_ja": [
+            "台湾の中時新聞網は、CCTVが10月末に発表した攻撃-21の076型両用強襲揚陸艦「四川」での発着艦と今回の公開を並べ、艦載型と陸上型のステルス無人機が軍種をまたぐ網を形づくり始めたと評した。攻撃-21は攻撃-11の艦載派生型とされる。日本周辺では、11月5日に統合幕僚監部がTB-001偵察攻撃型無人機の飛行を公表するなど、中国の無人機活動は既に常態化しており、ステルス型の運用開始は防空の探知要件を変える。"
+          ],
+          "paragraphs_en": [
+            "Taiwan's China Times set the release alongside CCTV's late-October announcement that the GJ-21 had landed on and taken off from the Type 076 amphibious assault ship Sichuan, arguing that ship-based and land-based stealth drones are beginning to form a cross-service network. The GJ-21 is described as the carrier derivative of the GJ-11. Around Japan, Chinese drone activity is already routine, with the Joint Staff publishing a TB-001 flight on 5 November; the entry of stealth types changes the detection requirements for air defence."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月11日：空軍創設77周年に伴う追加公開の有無。12月7〜13日：珠海航空ショーの無人機展示。統合幕僚監部の中国無人機飛行公表に新型が加わるか。",
+      "watch_next_en": "11 Nov: any further disclosures for the air force's 77th anniversary. 7–13 Dec: unmanned exhibits at the Zhuhai airshow. Whether new types appear in Japan's Joint Staff reports on Chinese drone flights.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "中国人民解放軍空軍／中央テレビ",
+      "publisher_en": "PLA Air Force / CCTV",
+      "sources": [
+        {"title": "人民空军\"新家伙\"来了，我国攻击-11无尾飞翼布局无人机大大方方展示（IT之家／新浪）", "url": "https://finance.sina.com.cn/tech/digi/2026-11-09/doc-iniyazea3084788.shtml", "publisher": "IT之家／新浪科技", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "空軍發最新畫面 全方位展示攻擊11隱身無人機", "url": "https://hk.on.cc/hk/bkn/cnt/news/20261109/bkn-20261109132755084-1109_00822_001.html", "publisher": "東網（on.cc）", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "攻擊-21才上艦 「玄龍」代號就跟進 陸隱身無人機跨軍種網路成形", "url": "https://www.chinatimes.com/realtimenews/20261109003883-260409", "publisher": "中時新聞網", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "央視披露攻擊-11無人機新細節 內置彈艙代號「玄龍」", "url": "https://www.singtaousa.com/2026/11/09/news/china/attack-11-drone-details-disclosed/", "publisher": "星島日報", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "c2-decision"],
+      "actors": ["CN"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "政府、大学・国立研究機関に防衛専門の研究拠点を設置と日経　AI・宇宙の基礎研究を装備開発に、2027年度に公募",
+      "title_en": "Nikkei reports Japan will set up defence-dedicated research bases at universities and national institutes, with calls for proposals in FY2027",
+      "lead_ja": "日本経済新聞は11月9日、政府が大学と国立研究開発法人に防衛専門の研究拠点を設け、AIと宇宙の基礎研究を将来の装備開発につなぐ方針だと報じた。防衛省が2027年度予算に費用を計上し、同年度に国公私立大学と国立研究開発法人から数か所を公募し、2031年度までに拠点を整える。年内に改定する安保3文書のうち防衛力整備計画に、外部の研究成果を装備開発に活用する方向を書き込むという。",
+      "lead_en": "Nikkei reported on 9 November that the government plans to establish defence-dedicated research bases at universities and national research and development agencies, linking basic research in AI and space to future equipment development. The Ministry of Defense would budget the cost in FY2027, solicit several sites that year from national, public and private universities and national R&D agencies, and complete the bases by FY2031. The Defense Buildup Program, one of the three security documents to be revised by year-end, would state the use of external research results in equipment development.",
+      "sections": [
+        {
+          "heading_ja": "2031年度までの常設拠点と5〜10年の評価周期",
+          "heading_en": "Permanent bases by FY2031 on a five-to-ten-year evaluation cycle",
+          "paragraphs_ja": [
+            "韓国のニューススピムが日経の報道を引いて伝えた内容によれば、拠点の設置は政府が防衛産業支援のために新設する法人が担い、各拠点に研究施設と研究者のポストを置く。研究対象は無人機や衛星通信など自衛隊が将来使う可能性のある装備に向けた基礎研究で、成果は原則として公開を制限せず、研究者の学術的業績として扱う。評価は5〜10年の周期で定期的に行う。日本には中長期の科学研究を担う防衛分野の国立研究開発法人がないため、既存機関の内部に常設の拠点を置き、短期の開発事業では確保しにくい技術を積み上げる狙いがある。",
+            "防衛省は2026年に装備研究所を再編し、AI・サイバー・宇宙・電磁波を所掌する新世代装備研究所を発足させている。今回の構想は省内の研究体制の再編を、大学と国立研究機関を含む外部の基礎研究へ延ばすものであり、段階としては報道された方針であって、予算要求や公募要領はまだ示されていない。"
+          ],
+          "paragraphs_en": [
+            "According to the Nikkei report as relayed by South Korea's Newspim, a corporation the government is newly creating to support the defence industry would set up the bases, each with research facilities and researcher posts. The focus is basic research toward equipment the Self-Defense Forces may use, such as drones and satellite communications; results would in principle be unrestricted and count as researchers' academic achievements, with periodic evaluation every five to ten years. Japan has no national R&D agency for medium- to long-term defence science, so the aim is permanent bases inside existing institutions to build technology that short-term development projects cannot secure.",
+            "The ministry reorganised its equipment research in 2026, creating the New Generation Equipment Research Institute covering AI, cyber, space and the electromagnetic spectrum. The new plan extends that internal reorganisation to external basic research at universities and national institutes. It is at the stage of a reported policy; neither a budget request nor solicitation guidelines have been published."
+          ]
+        },
+        {
+          "heading_ja": "学術会議の慎重姿勢とAPLモデルの対比",
+          "heading_en": "The Science Council's caution versus the APL model",
+          "paragraphs_ja": [
+            "報道は、学術研究の安全保障利用が日本で進みにくかった背景として、戦時の反省と日本学術会議の慎重な姿勢を挙げ、米ジョンズ・ホプキンス大学応用物理研究所（APL）のような大学内の恒常的な国防研究拠点との差を対比している。成果の公開を原則とし、業績として評価する設計は、大学側の受容を意識したものと読める。一方で、AIと宇宙の基礎研究は民生との境界が薄く、公募に応じる大学が学内規程や研究者の合意をどう整えるかが、拠点の数と質を左右する。"
+          ],
+          "paragraphs_en": [
+            "The report attributes the slow pace of security use of academic research in Japan to wartime reflection and the cautious stance of the Science Council of Japan, contrasting it with standing defence research centres inside US universities such as the Johns Hopkins Applied Physics Laboratory. Making results open by default and counting them as academic achievements reads as a design aimed at acceptance by universities. At the same time, basic research in AI and space has a thin boundary with civilian work, and how applicant universities align internal rules and faculty consent will shape the number and quality of bases."
+          ]
+        },
+        {
+          "heading_ja": "防衛力整備計画と産業基盤戦略への接続",
+          "heading_en": "Linking to the Defense Buildup Program and the industrial base strategy",
+          "paragraphs_ja": [
+            "政府は年内に安保3文書を改定し、防衛力整備計画に外部の研究成果の活用を明記する方針とされ、併せて策定する防衛産業基盤戦略にも大学・研究機関の技術の活用を反映するという。有識者会議の提言は12月上旬の見通しであり、研究拠点の構想がそこでどのような表現を取るかが、2027年度予算の規模と公募の時期を占う材料となる。"
+          ],
+          "paragraphs_en": [
+            "The government is reported to intend, in revising the three security documents by year-end, to write the use of external research results into the Defense Buildup Program, and to reflect the use of university and research-institute technology in the accompanying defence industrial base strategy. With the expert panel's recommendations expected in early December, the wording given to the research-base concept there will indicate the scale of the FY2027 budget line and the timing of the call for proposals."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月上旬：安保3文書改定に向けた有識者会議の提言。12月下旬：2027年度予算案での計上額。公募要領と新設法人の制度設計。",
+      "watch_next_en": "Early December: expert panel recommendations on the three security documents. Late December: the FY2027 budget line. Solicitation guidelines and the design of the new support corporation.",
+      "japan_relevance": true,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "日本経済新聞（報道）",
+      "publisher_en": "Nikkei (report)",
+      "sources": [
+        {"title": "政府、大学に防衛専門研究所 AI・宇宙など先端技術いかし装備品開発", "url": "https://www.nikkei.com/article/DGXZQOUA091EZ0Z01C26A1000000/", "publisher": "日本経済新聞", "date": "2026-11-09", "kind": "media", "accessed": false},
+        {"title": "日, 대학·국립연구기관에 방위전문연구소 신설...AI·우주 기초연구 강화", "url": "https://newspim.com/news/view/20261109001188", "publisher": "뉴스핌（Newspim）", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["JP"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "チェコ政府、重要インフラ事業者に無人機撃墜の権限を認める法案を承認　特別保護区域を指定、議会審議へ",
+      "title_en": "Czech government approves a bill letting critical-infrastructure operators shoot down drones in designated protected zones; parliament next",
+      "lead_ja": "チェコ政府は11月9日、重要インフラの運営者に飛行禁止区域へ侵入した無人機を破壊する権限を認める法改正案を承認した。内務省と運輸省が起草し、施設の管理者が「特別保護区域」の指定を申請し、訓練を受けた自社職員が違反機を無害化できる仕組みである。現在は警察と軍だけに認められている権限を民間の運営者へ広げる点で、8月に成立したフランスの法律に続く欧州の制度化の動きである。",
+      "lead_en": "The Czech government on 9 November approved amendments allowing critical-infrastructure operators to destroy drones that enter no-fly zones over their sites. Drafted by the Interior and Transport ministries, the scheme lets facility managers apply for designation of special protected zones in which their own trained staff may neutralise violating drones. By extending a power now held only by police and the military to private operators, it follows France's law passed in August as a step in European institutionalisation.",
+      "sections": [
+        {
+          "heading_ja": "警察・軍に限られた権限の民間への拡張",
+          "heading_en": "Extending a police-and-military power to private operators",
+          "paragraphs_ja": [
+            "内務省の発表によれば、重要インフラの運営者と警察は、保護対象施設の飛行禁止区域に入った無人機に対し、より広い権限を得る。権限の対象は戦略施設の職員に加え、情報機関、刑務所庁、治安部隊総監察局に及び、消防は救助活動中で無人機が救助隊員や航空機を直接脅かす場合に限って介入できる。警察と軍警察には要件の簡素化が適用され、破壊は単一のデジタル地図に登録されたすべての飛行禁止・制限区域で認められる。メトナル内相は「無人機への対応の速さが重要インフラ防護の鍵である」と述べ、ベドナーリク運輸相は合法な飛行を過度に制約すべきではないと付け加えた。",
+            "ロイターによれば、措置の発効には議会の承認が必要で、日程は示されていない。運営者の権限は「厳格に定義された規則の下」で非協力的な無人機を排除するものとされ、エネルギーや交通の施設の周辺侵害に「迅速かつ比例的な対応」を可能にする。"
+          ],
+          "paragraphs_en": [
+            "According to the Interior Ministry, critical-infrastructure operators and police gain wider powers against drones entering no-fly zones over protected sites. The powers extend to staff of strategic facilities, the intelligence services, the Prison Service and the General Inspectorate of Security Forces; firefighters may intervene only during rescue work when a drone directly threatens rescuers or aircraft. Police and military police get simplified conditions, and destruction is permitted in every no-fly and restricted zone registered on a single digital map. Interior Minister Lubomir Metnar said speed of response to a drone is key to protecting critical infrastructure, and Transport Minister Ivan Bednarik added that the rules should not unduly restrict lawful flights.",
+            "Reuters reports that the measures need parliamentary backing before taking effect, with no date given. Operators would eliminate uncooperative drones under strictly defined rules, enabling a swift and proportionate response to perimeter breaches at energy and transport sites."
+          ]
+        },
+        {
+          "heading_ja": "空港・エネルギー拠点・原発という対象",
+          "heading_en": "Airports, energy hubs and nuclear plants as the targets",
+          "paragraphs_ja": [
+            "対象施設としては国際空港、エネルギー拠点、原子力発電所が挙げられている。チェコではドゥコバニとテメリンの原発、プラハ空港が中核であり、5月のプラハ空港での運航混乱が検討の契機の一つと報じられている。民間職員に破壊権限を与える設計は、迎撃の手段（電波妨害、ネット捕獲、射撃）と周辺住民への危険の評価を運営者に委ねることを意味し、訓練基準と責任の所在が議会審議の焦点になる。"
+          ],
+          "paragraphs_en": [
+            "International airports, energy hubs and nuclear power plants are named as candidate sites. In Czechia the Dukovany and Temelin plants and Prague Airport are central, and disruption at Prague Airport in May is reported as one trigger for the review. Giving private staff destructive powers entrusts operators with choosing the means of interception (jamming, net capture, kinetic fire) and assessing risk to people nearby, so training standards and liability will be the focus of parliamentary debate."
+          ]
+        },
+        {
+          "heading_ja": "フランスの8月法に続く欧州の制度化",
+          "heading_en": "European institutionalisation after France's August law",
+          "paragraphs_ja": [
+            "フランスは8月、認可を受けた運営者が指定施設の近くで無人機を検知・妨害・撃墜できる法律を成立させ、ドイツも連邦軍に国内での撃墜権限を与える法改正を進めてきた。NATOは11月5日に対無人機の調達カタログを開き、各国の発注を待つ段階にある。装備の調達経路が整う一方で、誰がどの区域で迎撃してよいかという国内法の整備が欧州各国で並行して進み、チェコ案はその中で民間運営者への委任を最も明示的に書いた例の一つである。"
+          ],
+          "paragraphs_en": [
+            "France passed a law in August allowing approved operators to detect, jam and shoot down drones near designated facilities, and Germany has pursued amendments giving the Bundeswehr domestic shoot-down powers. NATO opened its counter-drone procurement catalogue on 5 November and awaits national orders. As procurement channels take shape, domestic law on who may intercept in which zones is advancing in parallel across Europe, and the Czech bill is among the most explicit in delegating to private operators."
+          ]
+        }
+      ],
+      "watch_next_ja": "法案の下院提出時期と審議日程。特別保護区域の指定基準と訓練要件を定める政令。ドイツの航空保安法改正の進展。",
+      "watch_next_en": "Timing of submission to the Chamber of Deputies; implementing rules on protected-zone criteria and training; progress of Germany's aviation-security amendments.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "announced",
+      "publisher": "チェコ内務省",
+      "publisher_en": "Czech Ministry of the Interior",
+      "sources": [
+        {"title": "Правительство Чехии одобрило законопроект о защите критической инфраструктуры от дронов", "url": "https://ruski.radio.cz/pravitelstvo-chehii-odobrilo-zakonoproekt-o-zashchite-kriticheskoy-8902169", "publisher": "Radio Prague International", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Czech Critical Infrastructure Could Get New Drone Breach Powers (Reuters)", "url": "https://www.globalbankingandfinance.com/czech-critical-infrastructure-operators-get-new-powers/", "publisher": "Reuters / Global Banking & Finance Review", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Czechia Plans to Allow Critical Infrastructure Operators to Shoot Down Drones", "url": "https://militarnyi.com/en/news/czechia-plans-to-allow-critical-infrastructure-operators-to-shoot-down-drones/", "publisher": "Militarnyi", "date": "2026-11-08", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "governance-norms"],
+      "actors": ["EU"],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-07",
+      "rank": 7,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "DeepMind、AIエージェントで旧式1024ビットRSAの2つの弱点を提示　2048ビットは安全と説明",
+      "title_en": "DeepMind says AI agents exposed two weaknesses in legacy 1024-bit RSA; a forgery reproduction took 391 core-years, with 2048-bit called safe",
+      "lead_ja": "Google DeepMindは11月6日、人の監督下のAIエージェントが旧式の1024ビットRSAに対する2つの攻撃の費用を下げたと発表した。署名オラクルを使う署名偽造の再現と、多数の鍵を同時に因数分解するバッチ処理の効率化である。同社科学担当のプシュミート・コーリ氏は、影響は旧式システムに限られ、2048ビット以上の現行方式は安全だと説明した。一方で、発表された倍率の多くが実測を伴わない推定であるとの指摘が出ており、AIによる暗号解析の到達点をどう評価するかが問われている。",
+      "lead_en": "Google DeepMind said on 6 November that AI agents working under human supervision had lowered the cost of two attacks on legacy 1024-bit RSA: reproducing a signature forgery that relies on a signing oracle, and making batch factoring of many keys more efficient. Pushmeet Kohli, its head of science, said the results touch only obsolete systems and that current 2048-bit and larger schemes remain secure. Critics note that most of the published multipliers are estimates rather than measured runs, raising the question of how to assess where AI-driven cryptanalysis stands.",
+      "sections": [
+        {
+          "heading_ja": "署名オラクルを使う偽造と再現の規模",
+          "heading_en": "Oracle-based forgery and the scale of the reproduction",
+          "paragraphs_ja": [
+            "第一の成果は、2026年9月にIACR ePrint 2026/2131として公表された論文「Forging 1024-bit RSA signatures in nearly SNFS time」の攻撃をAIエージェントが再現したものである。対象はPKCS#1 v1.5署名で、ハードウェア・セキュリティ・モジュールにPKCS#11経由で署名を求める形態を想定し、事前に約40億回の署名問い合わせを必要とする。攻撃の成果は鍵の復元に至らない署名の偽造であり、メッセージを内部でハッシュする機器には効かない。再現に要した計算は391コア年で、原論文の1,380コア年に対して約3.5分の1であった。",
+            "DeepMindによれば、研究はUCサンディエゴとInriaの暗号研究者（ナディア・ヘニンガー氏、エマニュエル・トメ氏）との共同で、担当研究者はエージェントに約20件の短い指示を送り、デバッグは4日未満で済んだという。発表はAIがハッシュ長32バイトの条件で従来法の約1,600倍速いと述べているが、この数値は解析的な見積もりであり、実行された計算に基づく値とは区別される。"
+          ],
+          "paragraphs_en": [
+            "The first result reproduces the attack in the September 2026 paper Forging 1024-bit RSA signatures in nearly SNFS time (IACR ePrint 2026/2131). It targets PKCS#1 v1.5 signatures in the setting where a hardware security module is asked to sign via PKCS#11, and requires roughly four billion signing queries in advance. It is a forgery rather than key recovery and does not work against devices that hash messages internally. The reproduction took 391 core-years against 1,380 in the original, about 3.5 times less.",
+            "DeepMind says the work was done with cryptographers at UC San Diego and Inria (Nadia Heninger and Emmanuel Thome); the supervising researcher sent about twenty short messages to the agents and debugging took under four days. The announcement states the method is about 1,600 times faster than the previous best with a 32-byte hash, but that figure is an analytic estimate rather than an executed computation."
+          ]
+        },
+        {
+          "heading_ja": "複数鍵の同時因数分解で約30倍の効率",
+          "heading_en": "Roughly thirtyfold efficiency in batch factoring",
+          "paragraphs_ja": [
+            "第二の成果は、多数の1024ビット鍵を同時に攻撃する際に共通の前計算を分担させる方法で、追加の鍵1本あたりの費用が従来の最良のバッチ手法より平均約30倍下がると推定された。論文題は「Fan Factories: Multiple Number Fields in Factorization Factories and Batch NFS」とされる。鍵を直接因数分解する費用は50万〜100万コア年と見積もられており、依然として国家級の資源を要する。DeepMindはこの結果を、過去の計算量の仮定に依拠し続けることはできず、暗号標準を継続的にストレステストする必要があるという主張の根拠として位置づけた。"
+          ],
+          "paragraphs_en": [
+            "The second result spreads shared precomputation across many 1024-bit keys attacked together, with the per-additional-key cost estimated at about thirty times lower on average than the best prior batch approach; the paper is titled Fan Factories: Multiple Number Fields in Factorization Factories and Batch NFS. Factoring a key outright is still estimated at 500,000 to one million core-years, a state-level resource. DeepMind frames the work as evidence that historical hardness assumptions can no longer be relied upon and that cryptographic standards need continuous stress-testing."
+          ]
+        },
+        {
+          "heading_ja": "推定値と実測値の区別をめぐる批判",
+          "heading_en": "Criticism over estimates versus measurements",
+          "paragraphs_ja": [
+            "開発者コミュニティでは、公表された1,600倍と30倍の数値を論文の計算量定数から再導出し、算術としては正しいが、実装も実行もされていない漸近的な見積もりであり、実測は3.5倍のみだとする検証が11月9日に公開された。同じ指摘は、署名オラクルの下での脆弱性が9月の論文で既に示されていた点に触れ、エージェントの寄与は既知の警告を安価に実行可能にしたことだと整理する。安全保障上の含意は、旧式鍵を残す組込み機器やHSMの運用者に移行を迫る点と、AIが暗号解析の労力を圧縮する速度を評価機関がどう測るかという点にある。"
+          ],
+          "paragraphs_en": [
+            "A developer-community check published on 9 November re-derived the 1,600x and 30x figures from the papers' complexity constants, found the arithmetic correct, but argued they are asymptotic estimates never implemented or run, with 3.5x the only measured result. The same critique notes that the oracle-model vulnerability was already shown in the September paper and characterises the agents' contribution as making a known warning cheaper to act on. The security implications lie in pressure on operators of embedded devices and HSMs still holding legacy keys to migrate, and in how evaluation bodies measure the pace at which AI compresses cryptanalytic effort."
+          ]
+        }
+      ],
+      "watch_next_ja": "2本の論文の査読版公開。NIST・NCSC等による旧式RSA鍵の移行指針の更新。フロンティアAI評価機関による暗号解析能力の評価枠組みへの反映。",
+      "watch_next_en": "Peer-reviewed versions of the two papers; updated migration guidance on legacy RSA keys from NIST, NCSC and others; incorporation of cryptanalytic capability into frontier-AI evaluation frameworks.",
+      "japan_relevance": false,
+      "date": "2026-11-06",
+      "stage": "",
+      "publisher": "Google DeepMind",
+      "publisher_en": "Google DeepMind",
+      "sources": [
+        {"title": "Pushmeet Kohli: The Google DeepMind Science team is sharing two key cryptographic advances today (X post)", "url": "https://x.com/pushmeet/status/2118753824194408683", "publisher": "Google DeepMind (X)", "date": "2026-11-06", "kind": "primary", "accessed": false},
+        {"title": "AI agents cut the cost of attacking old 1024-bit RSA keys, DeepMind reports", "url": "https://pulse.adyog.com/insights/deepmind-ai-agents-cut-rsa-1024-attack-cost", "publisher": "Adyog Pulse", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "1,600x is arithmetic, not an attack: I checked DeepMind RSA", "url": "https://dev.to/frankchu/1600x-is-arithmetic-not-an-attack-i-checked-deepmind-rsa-12di", "publisher": "DEV Community", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["frontier-safety", "cyber-ci"],
+      "actors": ["US", "GB"],
+      "doc_type": "academic",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ空軍、9日未明の無人機317機のうち276機を撃墜・制圧と発表　ジェット型81機、31か所で着弾",
+      "title_en": "Ukraine's air force says 276 of 317 drones were downed or suppressed overnight on 9 November, including 81 jet-powered; impacts at 31 sites",
+      "brief_text_ja": "ウクライナ空軍は11月9日、ロシアがシャヘド型、S8000バンデロール／ダンT、ゲルベラ、パロディヤ型の計317機で攻撃し、8時時点でシャヘド型271機（ジェット型81機）とバンデロール等5機を航空機、対空ミサイル、電子戦、無人システム部隊、機動射撃班で撃墜・制圧したと発表した。31か所で着弾、9か所で残骸の落下が記録され、クレメンチュクでは16階建て住宅とホテルが被害を受けた。数値は暫定で、独立の確認はない。",
+      "brief_text_en": "Ukraine's air force said on 9 November that Russia attacked with 317 drones of Shahed, S8000 Banderol/Dan-T, Gerbera and Parodiya types, and that by 08:00 271 Shahed-type (81 jet-powered) and five Banderol and other drones had been downed or suppressed by aircraft, air-defence missiles, electronic warfare, unmanned-systems units and mobile fire groups. Impacts were recorded at 31 sites and debris at nine; a 16-storey residential block and a hotel were hit in Kremenchuk. Figures are preliminary and independently unconfirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "ウクライナ空軍（インターファクス・ウクライナ報道）",
+      "publisher_en": "Ukrainian Air Force (via Interfax-Ukraine)",
+      "sources": [
+        {"title": "Air defense downs 276 of 317 enemy targets", "url": "https://en.interfax.com.ua/news/general/1233155.html", "publisher": "Interfax-Ukraine", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Ukraine desk note — 9 November 2026", "url": "https://oskarhallgrimsson.substack.com/p/ukraine-desk-note-9-november-2026", "publisher": "Óskar Hallgrímsson (Substack)", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261109-05"
+    },
+    {
+      "id": "cl-20261110-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア第2位のキリシ製油所で無人機攻撃後に火災と報道　レニングラード州知事は113機を撃墜と説明、処理装置3基が損傷か",
+      "title_en": "Fire reported at Russia's second-largest refinery at Kirishi after a drone attack; Leningrad governor says 113 drones downed, three units damaged",
+      "brief_text_ja": "11月9日未明、レニングラード州キリシのKINEF製油所（スルグトネフチェガス傘下、年間処理量約1,800〜2,000万t）で無人機攻撃後に大規模な爆発と火災が報じられた。ドロズデンコ州知事は州上空で113機を撃墜したと述べ、ロシア国防省は14地域とクリミアで430機を撃墜したと主張している。ユーロニュースは主要処理装置3基が損傷したと伝え、NASA FIRMSは施設での複数の熱源を検出したが、ウクライナ側の公式な攻撃声明と損害の独立確認はなく、ロシア各地では燃料の販売制限が広がっている。",
+      "brief_text_en": "Large explosions and fire were reported early on 9 November at the KINEF refinery in Kirishi, Leningrad region (owned by Surgutneftegaz, processing about 18–20 million tonnes a year) after a drone attack. Governor Alexander Drozdenko said 113 drones were shot down over the region, and Russia's defence ministry claimed 430 downed across 14 regions and Crimea. Euronews reported three main processing units damaged and NASA FIRMS detected multiple hotspots at the site, but there is no official Ukrainian claim and no independent damage assessment, while fuel-sales caps are spreading across Russia.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "キーウ・インディペンデント／ユーロニュース",
+      "publisher_en": "Kyiv Independent / Euronews",
+      "sources": [
+        {"title": "Ukrainian forces reportedly strike Russia's second-largest oil refinery in overnight drone attack", "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-russias-second-largest-oil-refinery-in-overnight-drone-attack/", "publisher": "Kyiv Independent", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Ukraine hits Russia's second-largest refinery as fuel rationing spreads", "url": "https://www.euronews.com/2026/11/09/ukraine-hits-russias-second-largest-refinery-as-fuel-rationing-spreads", "publisher": "Euronews", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "isr-targeting"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage", "assess"],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ参謀本部、ルビコンの拠点を含むロシアの無人機指揮所4か所を攻撃と発表　ベルジャンシク、オレシュキ、ブリャンスク州",
+      "title_en": "Ukraine's General Staff says it struck four Russian drone command posts, including a Rubikon site in Berdiansk and one in Bryansk region",
+      "brief_text_ja": "ウクライナ軍参謀本部は11月8日、占領下ベルジャンシクのロシア無人システム部隊「ルビコン」の一時展開地点と無人機指揮所、ヘルソン州オレシュキ、ドネツク州ビリツケ、ロシア・ブリャンスク州アレクサンドロフスコエの無人機指揮所計4か所を攻撃したと発表した。損害は「評価中」とされ、攻撃時刻や独立の確認は示されていない。無人機作戦の指揮結節を狙う攻撃は、ルビコンの戦術的成功に対するウクライナ側の対抗手段として続いている。",
+      "brief_text_en": "Ukraine's General Staff said on 8 November it had struck four Russian drone command posts: a temporary deployment site and UAV command post of the Rubikon unmanned-systems unit in occupied Berdiansk, and posts at Oleshky (Kherson region), Bilytske (Donetsk region) and Aleksandrovskoye in Russia's Bryansk region. Losses are described as still being assessed, with no strike times or independent confirmation. Strikes on command nodes continue as Ukraine's counter to Rubikon's tactical successes.",
+      "japan_relevance": false,
+      "date": "2026-11-08",
+      "stage": "",
+      "publisher": "ウクライナ軍参謀本部（ディフェンス・エクスプレス報道）",
+      "publisher_en": "General Staff of the Armed Forces of Ukraine (via Defense Express)",
+      "sources": [
+        {"title": "Ukraine Strikes Four Russian Drone Command Posts, Including Rubikon Facility in Berdiansk", "url": "https://en.defence-ua.com/news/ukraine_strikes_four_russian_drone_command_posts_including_rubikon_facility_in_berdiansk_video-20363.html", "publisher": "Defense Express", "date": "2026-11-09", "kind": "media", "accessed": true},
+        {"title": "Ukrainian Forces Strike Four Russian Drone Command Posts, Including One Linked to Rubicon Center", "url": "https://militarnyi.com/en/news/ukrainian-forces-strike-four-russian-drone-command-posts-including-one-linked-to-rubicon-center/", "publisher": "Militarnyi", "date": "2026-11-08", "kind": "media", "accessed": false}
+      ],
+      "themes": ["c2-decision", "isr-targeting"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "AeroVironment、米顧客から上限9.4億ドルのIDIQ契約　初回発注3.15億ドル、顧客名と品目は非公表",
+      "title_en": "AeroVironment wins a multi-year IDIQ worth up to $940 million from a US customer, with an initial $315 million order; customer and products undisclosed",
+      "brief_text_ja": "AeroVironmentは11月9日、米国の顧客から上限9億4,000万ドルの複数年IDIQ（数量未定）契約を受注し、初回に約3億1,500万ドルの製品納入と支援が確定したと発表した。契約は自律システム（AxS）部門の既存製品群を対象とし、米政府の安全保障審査により顧客と対象プログラムの名称は示されていない。AxS部門のトレース・スティーブンソン社長は、先進能力が開発から配備へ移る中で既に規模を伴って実行していると述べ、株価は約13%上昇した。",
+      "brief_text_en": "AeroVironment said on 9 November it had received a multi-year indefinite delivery, indefinite quantity contract worth up to $940 million from a US customer, with an initial obligation of about $315 million for product delivery and support. The award covers existing product lines in its Autonomous Systems (AxS) segment; US government security review bars naming the customer or programme. AxS president Trace Stevenson said the company is already executing at scale as advanced capabilities move from development to fielding, and the shares rose about 13%.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "awarded",
+      "publisher": "AeroVironment",
+      "publisher_en": "AeroVironment",
+      "sources": [
+        {"title": "エアロバイロンメント、上限9億4000万ドルの防衛契約を獲得", "url": "https://jp.investing.com/news/company-news/article-93CH-1748745", "publisher": "Investing.com（ロイター配信）", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws"],
+      "actors": ["US"],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261110-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "NATO対無人機カタログ、仏新興Alta Aresが16ロット中6を獲得と主張　資金は加盟国の発注時に初めて付く",
+      "title_en": "French start-up Alta Ares claims six of 16 lots in NATO's counter-drone catalogue; funds attach only when a member places an order",
+      "brief_text_ja": "2024年創業の仏Alta Aresは、NATOが11月5日に開設した対無人機マーケットプレイス（5社16システム）のうち6ロットを獲得したと発表した。NATO側はロット別の配分を公表しておらず、この数字は同社の説明に基づくもので、NCIAの2025年12月19日の入札公告には85社が登録し、同盟国の部隊に既に配備済みのシステムだけが対象とされた。契約は署名から18か月で、金額は各国またはNATO司令部の発注時に初めて確定し、共通の資金は試験用の310万ユーロにとどまる。",
+      "brief_text_en": "Alta Ares, a French company founded in 2024, says it won six of the 16 lots in the NATO counter-drone marketplace (five suppliers, 16 systems) opened on 5 November. NATO has not published the lot-by-lot split, so the figure rests on the company's account. The NCIA tender notice of 19 December 2025 listed 85 prospective bidders and admitted only systems already deployed with allied forces. Contracts run 18 months from signature; money is committed only when a nation or NATO command orders, and the single common pot is EUR 3.1 million for testing.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "awarded",
+      "publisher": "Alta Ares／NCIA（ドローンXL報道）",
+      "publisher_en": "Alta Ares / NCIA (via DroneXL)",
+      "sources": [
+        {"title": "NATO Counter-Drone Catalog: 2024 Startup Says It Won 6 of 16 Lots", "url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots/", "publisher": "DroneXL", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["NATO"],
+      "doc_type": "budget-procurement",
+      "forums": ["nato"],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261106-06"
+    },
+    {
+      "id": "cl-20261110-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Palantir出身者のOnodrim、欧州防衛サプライヤー買収へ3億ドル調達　評価額13億ドル、Lux主導",
+      "title_en": "Palantir alumni's Onodrim raises $300 million at a $1.3 billion valuation to buy European defence suppliers, led by Lux Capital",
+      "brief_text_ja": "アムステルダムに拠点を置くOnodrimは11月9日、Lux Capital主導でGeneral Catalyst、Lakestar、Altimeterなどが参加する3億ドルのシリーズAを発表し、評価額は13億ドルとなった。Palantir出身のアイスティス・シマイティスCEOとアレクサンダー・ブレッシングCTOが率い、防衛・航空宇宙・製造業の既存サプライヤーの過半数株を取得し、資本とソフトウェア、技術者チームを投入して生産を電子化する計画で、最初の買収は数か月内という。設立約1年の企業を各国国防省が信頼するかには疑問も報じられている。",
+      "brief_text_en": "Amsterdam-based Onodrim announced on 9 November a $300 million Series A led by Lux Capital with General Catalyst, Lakestar, Altimeter and others, valuing it at $1.3 billion. Led by Palantir alumni Aistis Simaitis (CEO) and Alexander Blessing (CTO), it plans to take majority stakes in established defence, aerospace and manufacturing suppliers and inject capital, software and engineering teams to digitise production, with first acquisitions expected within months. Doubts have been reported over whether defence ministries will trust a company founded about a year ago.",
+      "japan_relevance": false,
+      "date": "2026-11-09",
+      "stage": "",
+      "publisher": "Onodrim",
+      "publisher_en": "Onodrim",
+      "sources": [
+        {"title": "Onodrim Raises $300 Million to Buy Europe's Defense Suppliers", "url": "https://www.trendingtopics.eu/onodrim-raises-300-million-series-a-defense/", "publisher": "Trending Topics", "date": "2026-11-09", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["EU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {"date": "2026-11-10", "text_ja": "米・ウクライナ・ロシアの実務レベル協議（アブダビ、11月10〜11日）。ウクライナ側はウメロフ氏が率いる", "text_en": "US-Ukraine-Russia working-level talks in Abu Dhabi (10–11 November), with Rustem Umerov leading Ukraine's team"},
+    {"date": "2026-11-11", "text_ja": "Nvidiaのフアン CEOが下院3委員長の非公開ブリーフィング要請（11月18日）を受諾または代替日を提案する期限", "text_en": "Deadline for Nvidia CEO Jensen Huang to accept the three House chairs' 18 November closed-door briefing or propose another date"},
+    {"date": "2026-11-11", "text_ja": "米下院民主党筆頭委員の書簡に対するフロンティアAI5社の回答期限", "text_en": "Deadline for five frontier-AI companies to answer the House Democratic ranking members' letter"},
+    {"date": "2026-11-11", "text_ja": "中国人民解放軍空軍の創設77周年。攻撃-11に続く装備公開の有無", "text_en": "77th anniversary of the PLA Air Force; whether further equipment disclosures follow the GJ-11 footage"},
+    {"date": "2026-11-12", "text_ja": "Anthropicの2026年版利用規約（無人機等の誘導・制御ソフトの禁止を明記）の発効", "text_en": "Anthropic's 2026 Usage Policy, which explicitly bars guidance and control software for drones and other autonomous vehicles, takes effect"},
+    {"date": "2026-11-12", "text_ja": "MITREによる「プロジェクト・メリディアン」（未来の戦争パネル）向けアイデア募集の締切", "text_en": "Deadline for MITRE's call for future-of-warfare ideas for Project Meridian"},
+    {"date": "2026-11-13", "text_ja": "防衛装備庁のUAV用弾頭信管に関する情報提供企業募集の意思表明書提出期限（17時）", "text_en": "Deadline (17:00 JST) for letters of intent under ATLA's RFI on UAV warhead fuzes"},
+    {"date": "2026-11-13", "text_ja": "米下院民主党20議員の書簡に対するOpenAIの回答期限", "text_en": "OpenAI's deadline to answer the letter from twenty House Democrats"},
+    {"date": "2026-11-16", "text_ja": "米FEMA 2027年度対無人機助成（2.5億ドル）の申請期限", "text_en": "Application deadline for FEMA's FY2027 Counter-UAS Grant Program ($250 million)"},
+    {"date": "2026-11-16", "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告と2028年期限の交渉マンデート案を審議", "text_en": "CCW Seventh Review Conference (16–20 November, Geneva), considering the LAWS GGE final report and the draft negotiating mandate with a 2028 horizon"},
+    {"date": "2026-11-16", "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）", "text_en": "49th ASEAN Summit and related summits (Manila, 16–18 November)"},
+    {"date": "2026-11-17", "text_ja": "エヌビディアの2027年度第3四半期決算。取締役会の独立調査の範囲、対中H200許可先の審査、香港での滞留をめぐる質疑が焦点", "text_en": "Nvidia's Q3 FY2027 earnings, with questions expected on the board's independent probe, vetting of China H200 licensees and inventory held in Hong Kong"},
+    {"date": "2026-11-17", "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ", "text_en": "NATO Edge (Izmir, 17–19 November), including NCIA's industry workshop on the Integrated Cyber Defence Centre"},
+    {"date": "2026-11-18", "text_ja": "米下院外交・中国特別・情報の3委員会によるNvidiaフアンCEOの合同非公開ブリーフィング（要請ベース、レイバーン2172号室）", "text_en": "Requested joint closed-door briefing of Nvidia CEO Jensen Huang by the House Foreign Affairs, Select Committee on China and Intelligence committees (Rayburn 2172)"},
+    {"date": "2026-11-19", "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決", "text_en": "FCC open meeting votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"},
+    {"date": "2026-11-26", "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限", "text_en": "Deadline for the Pentagon's STIB to begin its study of commercial AI and cloud on classified networks"},
+    {"date": "2026-11-28", "text_ja": "台湾統一地方選挙。外国干渉事件の捜査と選挙期間中の偽情報・サイバー攻撃の推移", "text_en": "Taiwan local elections; progress of foreign-interference prosecutions and the course of disinformation and cyberattacks during the campaign"},
+    {"date": "2026-11-30", "text_ja": "日本：国家サイバー統括室のアウトリーチ・チーム新設とIPA「トップガン人材チーム」立ち上げの期限（11月中）", "text_en": "Japan: November deadline for standing up the National Cyber Office's Outreach Team and the IPA 'Top Gun' talent team"},
+    {"date": "2026-12-01", "text_ja": "日本：安保3文書改定に向けた有識者会議の提言（12月上旬の見通しと報道）。大学・国立研究機関への防衛研究拠点の構想が反映されるか", "text_en": "Japan: recommendations of the expert panel on revising the three security documents (reported as due in early December), including whether the university research-base plan is reflected"},
+    {"date": "2026-12-01", "text_ja": "イスラエル国防軍の無人システム・AI部門の発足（12月初めまでの予定と報道）", "text_en": "IDF Unmanned Systems and AI Branch to be established (reported as due by early December)"},
+    {"date": "2026-12-07", "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区と異機種無人機群の展示が予告", "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, 7–13 December), with a dedicated unmanned and counter-UAS zone and heterogeneous drone swarms announced"},
+    {"date": "2026-12-08", "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ", "text_en": "K-DEX 2026 (Goyang, 8–11 December), five themes including drones and counter-drone"},
+    {"date": "2026-12-31", "text_ja": "日本：国内の踏み台機器対策の取りまとめと、サイバー協議会を通じた脅威ハンティング用マニュアル・検知ツールの提供（年内目途）", "text_en": "Japan: year-end target for the plan on domestic relay devices and for threat-hunting manuals and detection tools via the Cybersecurity Council"},
+    {"date": "2026-12-31", "text_ja": "ロシアの低軌道衛星網Rassvetの年内の追加打ち上げ（ウクライナ情報総局は7回を予定と説明）", "text_en": "Further launches of Russia's Rassvet low-orbit constellation before year-end (Ukraine's HUR cites seven planned)"},
+    {"date": "2027-01-18", "text_ja": "日本：2027年通常国会の召集（1月中旬〜下旬の見込み）。能動的サイバー防御法改正案の提出は「早ければ」この会期と報道", "text_en": "Japan: convening of the 2027 ordinary Diet session (expected mid-to-late January); a bill revising the active cyber defence laws is reported as targeted for this session at the earliest"},
+    {"date": "2027-01-27", "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）", "text_en": "Deadline for US federal civilian agencies to remove Acronis software under the DHS order"},
+    {"date": "2027-01-28", "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。最大30ページと機密付属書", "text_en": "Project Meridian (the Defense Secretary's future-of-warfare panel) due to report: up to 30 pages plus classified annexes"},
+    {"date": "2027-03-31", "text_ja": "日本：サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）の運用開始（3月頃）", "text_en": "Japan: launch of the Supply Chain Security (SCS) evaluation scheme (around March)"},
+    {"date": "2027-10-01", "text_ja": "米国防総省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日", "text_en": "Target date for establishing the Pentagon's Autonomous Warfare Command (a four-star functional combatant command)"}
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（運輸省・DHS・FAA、議会、Nvidia関連報道）：該当あり。中国：空軍の攻撃-11映像公開（CCTV配信）を採用、外交部の9日定例記者会見は原文を取得できず報道引用。日本：時事・ANN・日経（韓国メディア経由）を採用、防衛省・官邸・装備庁の公式ページは取得できず。韓国：聯合ニュースは取得不可、他媒体で9日の新規動向は確認できず。台湾：中央社の9日分に該当なし（F-16V第2陣到着は8日で範囲外）。欧州・NATO：チェコ政府の法案承認を採用、NATO公式ニュース一覧は描画されず、Alta Aresの主張をDroneXL経由で短信に。英国：gov.uk国防省の9日分なし、NCSC年次報告（11月3日）は既報扱い。ロシア・ウクライナ：空軍発表、キリシ製油所、無人機指揮所攻撃を採用。イスラエル・中東：9日の新規動向なし。インド：PIBは9日分を表示できず（JS依存）、該当なし。豪州：国防省リリース一覧が古い状態で取得され確認できず。ASEAN：該当なし。国際規範（国連・CCW）：新規動向なし。研究・シンクタンク：DeepMindのRSA発表（11月6日）を遅れて確認し最下位の主要動向に置いた。CSIS「Defining Autonomy」は6月公表で範囲外。",
+      "japan": "防衛省報道発表・大臣会見・統合幕僚監部・防衛装備庁・首相官邸の各ページは取得できず。時事通信（nippon.com転載）とテレビ朝日系（KSB転載）の本文を確認。日経の防衛研究拠点報道は原文を開けず、韓国ニューススピムの引用記事で内容を確認した。時事の富士通防衛スタートアップ支援報道は原文もプレスリリースも取得できず不採用。"
+    },
+    "dropped": [
+      {"title": "富士通、防衛分野の新興企業を支援 27年3月からサービス提供（時事通信、11月9日）", "url": "https://www.jiji.com/jc/article?k=2026110900882&g=pol&m=rss", "reason": "時事の本文と富士通のプレスリリース一覧を取得できず、内容を確認できないため不採用。富士通サイトで確認できたのは3月開始の防衛テック・アクセラレーターの採択企業（フツパー）の発表のみ"},
+      {"title": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy（NPR、11月8日）", "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy", "reason": "本文を取得できず、AP・NYT転載・TNWで同内容を確認できたため出典から外した"},
+      {"title": "Defining Autonomy: Why Software, Not Drones, Will Decide the Next War（CSIS）", "url": "https://www.csis.org/analysis/defining-autonomy-why-software-not-drones-will-decide-next-war", "reason": "公表日が2026年6月10日で対象期間外"},
+      {"title": "Axon Invests $1.2 Billion in Skydio（11月5〜6日）", "url": "https://dronexl.co/2026/11/06/axon-skydio-1-2-billion-exclusive-police-distributor/", "reason": "公共安全向け無人機の商業提携で、公表日も対象期間より前"},
+      {"title": "It Is Unclear Whether Ukraine Used Ruta Missiles With Hivemind（Defense Express、11月8日）", "url": "https://en.defence-ua.com/industries/it_is_unclear_whether_ukraine_used_ruta_missiles_with_hivemind_brains_to_strike_russia_but_ai_will_also_be_integrated_into_leonardo_helicopters-20353.html", "reason": "Leonardo・Shield AIのProteus提携は10月29日発表で既知、Rutaへの搭載は未確認のため不採用"},
+      {"title": "防衛省、中国軍TB-001無人機の画像を公開（乗りものニュース、11月9日）", "url": "https://trafficnews.jp/post/725814", "reason": "統合幕僚監部の公表は11月5日で対象期間外。攻撃-11の項の背景として言及"},
+      {"title": "Czechia Plans to Allow Critical Infrastructure Operators to Shoot Down Drones（Militarnyi、11月8日）", "url": "https://militarnyi.com/en/news/czechia-plans-to-allow-critical-infrastructure-operators-to-shoot-down-drones/", "reason": "9日の政府承認の項に統合"},
+      {"title": "Senator Blumenthal to introduce legislation supporting Ukraine, calls for Starlink controls（Kyiv Independent、11月8日）", "url": "https://kyivindependent.com/senator-blumenthal-to-introduce-legislation-supporting-ukraine-call-for-new-us-negotiators-starlink-controls/", "reason": "法案の内容が未公表で、本文を確認できなかった"},
+      {"title": "Defense Tech Intelligence Brief — November 09, 2026（EDS News）", "url": "https://edsnews.substack.com/p/defense-tech-intelligence-brief-november-9ae", "reason": "自動生成の集約記事で、掲載項目は11月4〜6日の既報が中心"}
+    ],
+    "notes_for_editor": [
+      "cl-20261110-01：Nvidia取締役会の声明原文（同社サイト）を特定できず、AP・NYT転載・TNWの報道に依拠した。商務省の調査停止はNYTの匿名情報源に基づく報道で、ケスラー次官はコメントしていない。",
+      "cl-20261110-05：日経の原文を開けず、韓国ニューススピムの引用記事で内容を確認した。両出典は同一の報道に由来するため、独立した2媒体の裏付けには当たらない。防衛省の公式発表はなく、段階は「報道された方針」である。",
+      "cl-20261110-07：DeepMindの発表（11月6日）は原文ページを取得できず、X投稿（未取得）と二次記事2本に依拠した。倍率1,600倍・30倍は推定値である点を本文で明記した。公表日が対象期間より前のため主要動向の最下位に置いた。",
+      "cl-20261110-04：攻撃-11の配備時期（昨年11月）は香港メディアの記述で、空軍の公式発表では確認できない。性能数値はすべて外部推定として扱った。stage は空欄とした。",
+      "cl-20261110-09：キリシ製油所の損害は報道と衛星熱源検出に基づき、ウクライナ側の公式声明がないため信頼度をC3とした。",
+      "cl-20261110-11：AeroVironmentの発表原文（投資家向けサイト）を取得できず、Investing.comのロイター配信記事に依拠した。",
+      "検証のWARNとして、cl-20261110-08・09・10のウクライナ関連の出典URLは新規だが、cl-20261110-12のDroneXLはcl-20261106-06の続報として continuation_of を設定した。"
+    ]
+  }
+}
