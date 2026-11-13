@@ -1,0 +1,812 @@
+{
+  "week": "2026-W46",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T06:47:09+09:00",
+  "coverage_from": "2026-11-09",
+  "coverage_to": "2026-11-13",
+  "title_ja": "軍事AIの実効性は、民間が握る回線・更新・部品の管理点で決まる",
+  "title_en": "The effectiveness of military AI is set at control points—links, updates and parts—held by private firms",
+  "lead_ja": "今週の動きは、AIと無人機を組み込んだ戦力の実効性が、機体やモデルの性能に加えて、民間企業が握る衛星回線・ソフトウェア更新・部品という管理点に左右されることを具体的に示した。ウクライナはStarshieldに時速161kmの速度制限が再び課され迎撃に失敗した例があると主張し、ドイツ連邦軍は地上管制ソフトの更新サーバーに偽の更新が置かれたQuantum Systems製無人機の運用を予防的に止め、台湾は無人機の供給企業10社に中国製部品の疑いを示した。各国はこれに対し、管理点を自国の手に取り戻す主権化と、企業に統制の機能を負わせる立法という二つの方向で応じ始めている。ただし主権化は規模と速度の代価を伴い、企業に負わせる統制は企業の統治そのものを安全保障の変数に変える。日本は年内に改定する安保3文書とその後の調達契約に、更新・回線・部品の管理権限を誰が持つかを書き込む必要がある。",
+  "lead_en": "This week showed concretely that the effectiveness of forces built around AI and drones depends not only on airframe and model performance but on control points held by private companies: satellite links, software updates and components. Ukraine said a 161 km/h speed cap had again been imposed on Starshield, causing failed interceptions; the Bundeswehr precautionarily grounded Quantum Systems drones after a malicious update was planted on the ground-control software's update server; and Taiwan flagged ten drone suppliers over suspected Chinese parts. States are responding in two directions: sovereignty, pulling control points back into national hands, and legislation that makes companies carry control functions. Sovereignty, however, costs scale and speed, and control delegated to firms turns corporate governance itself into a security variable. Japan needs to write into its revised security documents, due by year-end, and into the procurement contracts that follow, who holds authority over updates, links and parts.",
+  "themes": [
+    "autonomy-laws",
+    "cyber-ci",
+    "industry-procurement",
+    "compute-export"
+  ],
+  "sections": [
+    {
+      "id": "link-throttle",
+      "title_ja": "速度設定一つで変わる迎撃の上限",
+      "title_en": "One speed setting can cap interception",
+      "claim_ja": "Starshieldをめぐる今週の応酬は、民間衛星回線の設定が迎撃網の上限を決め得ること、そしてその設定の決定者が外から見えにくいことを示した。",
+      "claim_en": "This week's Starshield dispute showed that the configuration of a commercial satellite link can cap an air-defence network, and that whoever decides that configuration is hard to see from outside.",
+      "paragraphs_ja": [
+        "ゼレンスキー大統領は11月12日、軍の調査の結果、通信の途絶は偶発的な誤りを超えた「組織的な速度制限」であり、上限は時速161km（100マイル）だと表明した。迎撃無人機の多くは衛星回線で映像と制御を中継しており、上限を超えると回線が切れる設計は、時速400〜500kmで巡航するジェット型Shahedの追尾を直接に妨げる。10月13〜14日に始まった前回の制限は24日に解除されたとウクライナ国防省は説明していた。今回の制限の範囲については、「前線全体と占領地」とする報道と、「一時的に占領された全領域」に限るとする国防省関係者の説明が食い違っている。",
+        "確認できる事実は、ウクライナ側の公式な主張、SpaceXの「誤りで、変更はない」との否定、米政府の沈黙という三者の配置にとどまる。10月の制限について、マスク氏は速度の制限は米軍と最終的には大統領が決めると述べ、ロイターはホワイトハウスの指示、ウォール・ストリート・ジャーナルはマスク氏の指示と報じた。国防総省監察官は10月末に上院議員の調査要請を見送り、シャヒーン、ティリス両上院議員は13日、記録の保全と契約・通信の議会への提出を求めた。設定を変える技術的な能力は企業にあり、命じる権限は政府にあるとされながら、その結び目を説明する主体は現れていない。",
+        "ただし、迎撃率の低下を速度制限だけに帰するのは早い。参謀本部の集計では11月1〜10日のジェット型の無力化率は約83%で、ハドソン研究所のカサポール氏は、ジェット型の比率上昇に伴う迎撃率の低下が10月から続いていると整理している。13日未明のジェット型63機中39機という数字は12日日中の66機中60機を下回ったが、一晩の数値は天候や攻撃の方向にも左右される。したがって今週の事例から言えるのは、迎撃の成否を左右する変数の一つがウクライナの手の届かない場所で設定され得るという構造であり、効果の大きさは11月の月次集計を待って判断すべきである。"
+      ],
+      "paragraphs_en": [
+        "On 12 November President Zelensky said a military investigation had found that the outages were a 'systematic speed restriction', beyond random error, capped at 161 km/h (100 mph). Many interceptor drones relay video and control over satellite links, and a design that drops the link above the cap directly hinders tracking of jet-powered Shaheds cruising at 400–500 km/h. Ukraine's defence ministry had said the previous restriction, which began on the night of 13–14 October, was lifted on the 24th. Accounts of the current scope differ: some reports say the whole front line and occupied areas, while ministry officials say it is limited to temporarily occupied territory.",
+        "What can be confirmed is a three-way configuration: an official Ukrainian claim, SpaceX's denial ('this is false, nothing has changed'), and silence from the US government. On the October restriction, Musk said limits are decided by the US military and ultimately the President; Reuters reported a White House directive, while the Wall Street Journal attributed it to Musk. The Pentagon inspector general declined senators' request for an inquiry in late October, and on the 13th Senators Shaheen and Tillis demanded preservation of records and delivery of contracts and communications to Congress. The technical ability to change the setting sits with the company and the authority to order it reportedly with the government, yet no one has explained the link between the two.",
+        "Attributing falling interception rates to the cap alone would be premature. The General Staff's tally put the jet-drone neutralisation rate at about 83% for 1–10 November, and Hudson Institute's Can Kasapoğlu notes that the rate has been declining since October as the share of jet types rises. The overnight figure of 39 of 63 jet drones on the 13th was below the 60 of 66 recorded during the day on the 12th, but single-night numbers also depend on weather and attack axes. What this week establishes is a structure in which one variable governing interception can be set outside Ukraine's reach; the size of the effect should be judged against the November monthly tally."
+      ],
+      "item_ids": [
+        "cl-20261113-02",
+        "cl-20261114-05",
+        "cl-20261112-12",
+        "cl-20261114-07"
+      ],
+      "source_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W7"
+      ]
+    },
+    {
+      "id": "update-and-parts",
+      "title_ja": "更新サーバーと部品に潜む停止点",
+      "title_en": "Stop points in update servers and parts",
+      "claim_ja": "ドイツと台湾の事例は、無人機の可用性が地上管制ソフトの更新経路と部品の出自に依存し、そこへの一撃や疑いが部隊の運用停止に直結することを示した。",
+      "claim_en": "The German and Taiwanese cases showed that drone availability depends on the ground-control software's update path and the provenance of parts, and that a blow to—or doubt about—either translates directly into grounded units.",
+      "paragraphs_ja": [
+        "Quantum Systemsは11月12日、10月末に侵入を検知し当局と連携して封じ込めたと説明し、フィナンシャル・タイムズによれば顧客に対し、任務計画ソフトQBaseの更新配信に使うサーバーから「悪意ある更新ファイル」が配布されたと伝えた。連邦軍は偵察機Vector（連邦軍名Falke）の運用を予防的に止め、13日に再開が伝えられた。ドイツは2026年に520システムの納入を予定しており、軍防諜局、連邦憲法擁護庁、連邦情報セキュリティ庁が捜査に当たる。マルウェアの機能、侵入と飛行停止の正確な日付、攻撃者の帰属は公表されていない。",
+        "台湾では国家中山科学研究院が13日、無人機の供給企業10社に中国製部品の疑いを示し、原産地を証明できない部品の即時交換を求め、是正を拒む企業を供給網から除外するとした。顧立雄国防部長は納入される無人機の全機分解検査を指示し、台中地検は契約で禁じられた中国製チップを使い原産地証明を偽ったとして無人機企業の経営者夫婦を起訴した。ドイツ国防省も11日、連邦軍での中国製無人機の使用を停止し国産・欧州製へ置き換えると確認している。部品の確認の方法は、供給者の自己申告から試料と工程の実地検査へ移りつつある。",
+        "二つの事例に共通するのは、機体の性能が変わらないまま、配信経路と部品の出自への疑いだけで戦力が止まり得る点である。Recorded Futureが11日に公表した報告は、AIが関与した悪性事案103件を分析してAIを攻撃の「増幅器」と位置づけ、認可された侵入テストを装ってAIの拒否応答を回避した政府機関への侵入を記録した。攻撃の手段が安価に増幅されるなら、更新経路と供給網の弱点が狙われる頻度は高まると考えられる。他方で、Quantum Systemsの件では検知から封じ込め、予防的な停止と再開までが短期間で進み、同社は運用上の危険はなかったと主張する。止める仕組みが働いたこと自体を防御の成果と読む見方も成り立つ。"
+      ],
+      "paragraphs_en": [
+        "On 12 November Quantum Systems said it had detected an intrusion in late October and contained it with the authorities; according to the Financial Times it told customers that a 'malicious update file' had been distributed from the server used to deliver updates for its QBase mission-planning software. The Bundeswehr precautionarily grounded its Vector reconnaissance drones (designated Falke), and flights were reported to have resumed on the 13th. Germany expects delivery of 520 systems in 2026, and the military counter-intelligence service, the domestic intelligence service and the federal IT security agency are investigating. The malware's function, the exact dates of intrusion and grounding, and attribution have not been disclosed.",
+        "In Taiwan, the National Chung-Shan Institute of Science and Technology flagged ten drone suppliers on the 13th over suspected Chinese parts, demanding immediate replacement of components whose origin cannot be proven and exclusion of firms that refuse to remedy. Defence Minister Wellington Koo ordered full teardown inspection of every delivered drone, and Taichung prosecutors indicted a drone company's owners for using Chinese chips banned by contract and falsifying certificates of origin. Germany's defence ministry also confirmed on the 11th that the Bundeswehr will stop using Chinese-made drones and replace them with domestic or European models. Verification is shifting from supplier self-declaration to physical inspection of samples and processes.",
+        "What the two cases share is that forces can be stopped by doubts about the delivery path and the provenance of parts while airframe performance is unchanged. A Recorded Future report released on the 11th analysed 103 AI-involved malicious incidents, described AI as an 'amplifier' of attacks, and documented an intrusion into a government agency in which the attacker evaded model refusals by posing as an authorised penetration test. If attack tools are amplified cheaply, update paths and supply chains are likely to be targeted more often. On the other hand, in the Quantum Systems case detection, containment, precautionary grounding and resumption moved quickly, and the company says there was no operational risk. One can also read the fact that the stop mechanism worked as a defensive success."
+      ],
+      "item_ids": [
+        "cl-20261114-03",
+        "cl-20261114-04",
+        "cl-20261112-14",
+        "cl-20261113-16"
+      ],
+      "source_ids": [
+        "W8",
+        "W9",
+        "W10",
+        "W11",
+        "W12",
+        "W13",
+        "W28"
+      ]
+    },
+    {
+      "id": "sovereignty-cost",
+      "title_ja": "主権化という処方と、その代価",
+      "title_en": "Sovereignty as a remedy, and its price",
+      "claim_ja": "各国は管理点を自国の手に取り戻す主権化で応じ始めたが、その処方は規模と速度の代価を伴い、依存の構造を一度に解消するものにはならない。",
+      "claim_en": "States have begun to respond by reclaiming control points, but that remedy carries costs in scale and speed and will not dissolve dependence in one step.",
+      "paragraphs_ja": [
+        "Helsingは11日、数百のAIエージェントが衛星画像や電子情報を統合し、人間の確認を経て武器側に渡す標的化情報を整える基盤「Clarity」をベルリンで発表した。同社の技術責任者は、顧客が保有するインフラで稼働し、米CLOUD法の適用対象外で、供給者による遠隔アクセスや外部からの停止機能を持たないと述べた。ロイターによれば連邦軍は当面PalantirのMaven Smart Systemを調達せず、2027年から独自のAIシステムを導入し2028年に全面展開する計画で、Helsingは11月4日に空戦プログラムのソースコード全体を連邦軍に引き渡している。供給者が止められない設計を売り物にする製品の登場は、今週の論点が既に市場の言葉になったことを示す。",
+        "韓国空軍は13日、有人機に随伴する無人機を、F-35Aなど向けの海外製とKF-21向けの国産に分ける二本立ての構想を示した。F-35Aの運用ソフトとデータリンクは米政府とロッキード・マーチンの管理下にあり、国産無人機をつなぐには米側の承認とソースコードの協力を要するためである。米国内でも、無人機メーカーのNerosは政府融資を受けて来年末までに機体価値の約8割を自社工場で内製する目標を掲げた。管理点を手元に置く動きは、欧州の対米依存への対応にとどまらず、同盟の中核国の産業でも並行して進んでいる。",
+        "これに対する反対の見方も有力である。Palantirは、顧客が完全な運用管理権を持ち、遠隔で停止する「キルスイッチ」は存在しないと説明しており、問題を供給者の国籍に置く議論は契約と技術の実態を単純化しているとも言える。Clarityの性能はいずれも同社の説明で、顧客名と導入時期は示されておらず、連邦軍の全面展開も2028年の計画である。台湾の全機分解検査は納入の遅れと費用を伴い、ウクライナはStarshieldに代わる規模の回線を当面持たず、現行契約は2027年半ばに期限を迎える。主権化は依存の相手を選び直す作業であり、移行の期間には古い依存と新しい費用が重なると考えられる。"
+      ],
+      "paragraphs_en": [
+        "On the 11th Helsing unveiled 'Clarity' in Berlin, a platform in which hundreds of AI agents fuse satellite imagery and signals intelligence and, after human confirmation, prepare targeting data for weapons. Its CTO said it runs on customer-owned infrastructure, falls outside the US CLOUD Act, and has no vendor remote access or external kill function. According to Reuters, the Bundeswehr will not buy Palantir's Maven Smart System for now and plans to introduce its own AI system from 2027 with full roll-out in 2028; Helsing handed the full source code of its air-combat programme to the Bundeswehr on 4 November. The arrival of products marketed on the premise that the vendor cannot switch them off shows that this week's issue has already entered the language of the market.",
+        "On the 13th the Republic of Korea Air Force set out a two-track plan for loyal-wingman drones: foreign-made aircraft for the F-35A and others, and domestic ones for the KF-21. The reason is that the F-35A's operational software and data links are controlled by the US government and Lockheed Martin, so connecting domestic drones would need US approval and source-code cooperation. In the United States, too, drone maker Neros, backed by a government loan, aims to make about 80% of airframe value in-house by the end of next year. The move to keep control points close is not confined to Europe's response to dependence on the US; it is advancing in parallel in the industries of core allies.",
+        "There is a strong opposing view. Palantir says customers have full operational control and that no remote 'kill switch' exists, so framing the problem around a supplier's nationality can oversimplify contractual and technical realities. Clarity's performance claims are all the company's own, no customer or timeline has been named, and the Bundeswehr's full roll-out is a 2028 plan. Taiwan's full teardown inspections bring delays and costs, Ukraine has no link of comparable scale to replace Starshield for now, and the current contract expires in mid-2027. Sovereignty is a process of re-choosing whom to depend on, and during the transition old dependencies and new costs are likely to overlap."
+      ],
+      "item_ids": [
+        "cl-20261112-02",
+        "cl-20261111-09",
+        "cl-20261114-10",
+        "cl-20261111-10",
+        "cl-20261114-05"
+      ],
+      "source_ids": [
+        "W14",
+        "W15",
+        "W16",
+        "W17",
+        "W30",
+        "W2"
+      ]
+    },
+    {
+      "id": "firms-as-controllers",
+      "title_ja": "企業に統制を負わせる立法の行方",
+      "title_en": "Where laws that make firms carry control are heading",
+      "claim_ja": "Nvidiaをめぐる一連の動きは、企業に統制の機能を負わせる立法を加速させる一方で、企業の統治そのものが安全保障の変数になったことを示した。",
+      "claim_en": "The Nvidia affair is accelerating legislation that makes companies carry control functions, while showing that corporate governance itself has become a security variable.",
+      "paragraphs_ja": [
+        "Nvidiaの取締役会は11月11日（米国時間）、フアン氏のCEO・取締役からの辞任を受理し、12日に8-K様式で公表した。ジョンソン下院議長は同日、対中先端半導体の輸出制限に「議会で合意が形成されつつある」と述べた。ロイターの解説によれば、国防授権法への付加が狙われる法案は、輸出規則の変更に議会審査を求めるAI Overwatch法、先端チップの位置追跡を義務づけるChip Security法、製造装置の販売・保守の制限を促すMATCH法、海外計算資源の遠隔利用を規制するRemote Access Security法の4本である。下院3委員長は12月1日の非公開聴取を求め、上院銀行委員会はラトニック商務長官の証言も求めた。",
+        "注目すべきは、統制の担い手として企業自身が前面に出たことである。ブルームバーグによれば、同社は東南アジアのクラウド事業者に、公式パートナー資格の条件として個々のGPUの所在を記録できる管理ツール「Fleet Intelligence」への登録を求める。Chip Security法が求める位置追跡を、企業が先回りして部分的に実装する形である。他方でベセント財務長官は13日、Megaspeedの実体リスト掲載が商務省産業安全保障局で止まっていたと公然と批判し、商務省は先に報じられた閣僚間の会話を虚偽と否定した。政府の執行が遅れる局面で、企業の追跡機能と経営陣の判断が統制の実効性を左右している。",
+        "同じ構図はAIの統治全般に広がる。日本政府は、高性能AIによる重大事案で協議を拒む事業者に拘束力のある命令を出し、違反に罰則を設ける法改正を検討しており、米大手IT企業を実効的に対象に含められるかが課題とされる。米国防省は13日、最高デジタル・AI室を「超知能室」に改称したが、予算・人員・権限の変更は示しておらず、Mavenや商用モデルの提供基盤は民間との契約の上に成り立つ。企業に統制を負わせる設計は、企業の協力と統治が健全である限りで機能する。今週の出来事は、その前提が一人の経営者の進退や一つの省の判断で揺らぎ得ることを示したと考えられる。"
+      ],
+      "paragraphs_en": [
+        "Nvidia's board accepted Jensen Huang's resignation as CEO and director on 11 November (US time) and disclosed it in a Form 8-K on the 12th. The same day House Speaker Johnson said a 'consensus is developing' in Congress on limiting advanced chip exports to China. Reuters' explainer lists four bills that backers hope to attach to the NDAA: the AI Overwatch Act requiring congressional review of export-rule changes, the Chip Security Act mandating location tracking of advanced chips, the MATCH Act urging limits on sales and servicing of chipmaking tools, and the Remote Access Security Act regulating remote use of overseas compute. The three House chairs requested a closed-door interview on 1 December, and the Senate Banking Committee also sought testimony from Commerce Secretary Lutnick.",
+        "What stands out is that the company itself has moved to the front as an agent of control. According to Bloomberg, Nvidia will require Southeast Asian cloud providers to enrol in 'Fleet Intelligence', a management tool that can record the location of individual GPUs, as a condition of official partner status—partially implementing, ahead of legislation, the tracking the Chip Security Act would require. Meanwhile, on the 13th Treasury Secretary Bessent publicly criticised the Commerce Department's Bureau of Industry and Security for holding up Megaspeed's Entity List designation, and Commerce called the previously reported cabinet exchange false. Where government enforcement lags, corporate tracking functions and management decisions shape how effective control is.",
+        "The same pattern extends to AI governance broadly. Japan's government is considering legal amendments to issue binding orders, backed by penalties, to operators that refuse consultations when serious incidents involving high-performance AI occur; whether large US tech firms can effectively be covered is seen as the key challenge. The Pentagon renamed its Chief Digital and AI Office the 'Super Intelligence Office' on the 13th without announcing changes in budget, staff or authority, and Maven and its commercial-model platforms rest on contracts with private firms. Designs that delegate control to companies work only as long as those companies cooperate and are soundly governed. This week suggests that premise can be shaken by one executive's fate or one department's decision."
+      ],
+      "item_ids": [
+        "cl-20261113-01",
+        "cl-20261114-02",
+        "cl-20261109-01",
+        "cl-20261111-03",
+        "cl-20261113-11",
+        "cl-20261114-01"
+      ],
+      "source_ids": [
+        "W18",
+        "W19",
+        "W20",
+        "W21",
+        "W22",
+        "W25",
+        "W23",
+        "W24"
+      ]
+    }
+  ],
+  "japan_paragraphs_ja": [
+    "日本政府は年内に改定する安保3文書で、AIと無人機による「新しい戦い方」を柱に据え、国有民営（GOCO）方式で弾薬と無人機を増産する体制を明記する方針を示した。今週の事例を踏まえれば、増産する機体の数と同じ重みで、地上管制ソフトの更新経路、データリンクと衛星回線、主要部品の出自を誰が管理するかを文書と調達契約に書き込む必要がある。具体的には、ソースコードの開示や引き渡しの条件、更新ファイルの署名検証と配信経路の分離、代替回線の確保、部品の原産地の実地検査が論点となる。部品の確認を自己申告に頼る限り、台湾が直面した偽装の経路は日本の小口調達にも開いていると考えられる。",
+    "同盟の運用でも問いは具体的である。韓国がF-35Aのソフトとデータリンクの管理を理由に随伴無人機を二本立てにしたように、F-35を運用し有人・無人の連携を構想する日本も、米国の管理下にある基盤と国産無人機をどうつなぐかを早期に詰める必要がある。Starshieldの事例は、同盟国の民間回線の設定がどの権限で変更され得るかを平時に確認しておく必要も示した。半導体では、MATCH法案が日本とオランダに製造装置の販売・保守の制限を促す内容を含み、国防授権法の両院協議の結果は日本の装置産業に直接及ぶ。高性能AIの事業者に命令と罰則を課す日本の法改正も、米企業の協力を引き出せる設計になるかが実効性を決める。"
+  ],
+  "japan_paragraphs_en": [
+    "Japan's government has said its security documents, to be revised by year-end, will put 'new ways of fighting' with AI and drones at their core and specify a government-owned, contractor-operated (GOCO) model to surge production of munitions and drones. In light of this week, it needs to write into those documents and into procurement contracts, with the same weight as airframe numbers, who controls ground-control software update paths, data links and satellite communications, and the provenance of key parts. Concrete issues include conditions for disclosure or hand-over of source code, signature verification of updates and separation of delivery paths, alternative links, and on-site verification of component origin. As long as parts checks rely on self-declaration, the falsification route Taiwan encountered is likely open in Japan's small-lot procurement too.",
+    "Alliance operations raise equally concrete questions. Just as Korea split its loyal-wingman plans because of control over F-35A software and data links, Japan, which operates the F-35 and envisages crewed-uncrewed teaming, needs to settle early how domestic drones will connect to US-controlled systems. The Starshield case also shows the need to confirm in peacetime under what authority the settings of an ally's commercial links can be changed. On semiconductors, the MATCH Act would urge Japan and the Netherlands to restrict sales and servicing of chipmaking tools, so the NDAA conference outcome bears directly on Japan's equipment industry. Japan's planned orders and penalties for high-performance AI operators will likewise be effective only if designed to secure the cooperation of US firms."
+  ],
+  "verification": [
+    {
+      "text_ja": "11月17日：Nvidiaの2027年度第3四半期決算（クレス暫定CEO体制で初）で、Fleet Intelligenceの適用範囲と輸出管理法案への姿勢が示されるか。",
+      "text_en": "17 November: whether Nvidia's fiscal Q3 2027 results, the first under interim CEO Kress, clarify the scope of Fleet Intelligence and the company's stance on export-control bills."
+    },
+    {
+      "text_ja": "12月1日・12月10日（報道）：フアン氏の下院非公開聴取とラトニック商務長官の上院銀行委員会証言、および国防授権法の両院協議案にAI Overwatch法とChip Security法が残るか。",
+      "text_en": "1 and 10 December (reported): Huang's closed-door House interview and Lutnick's Senate Banking testimony, and whether the AI Overwatch and Chip Security Acts survive in the NDAA conference text."
+    },
+    {
+      "text_ja": "12月上旬：ウクライナ国防省・参謀本部の11月の月次集計で、ジェット型無人機の無力化率が10日までの約83%からどう動くか。Starshieldの制限の解除時期と決定者が説明されるか。",
+      "text_en": "Early December: how the jet-drone neutralisation rate in Ukraine's November monthly tally moves from about 83% through the 10th, and whether the lifting and the decision-maker of the Starshield cap are explained."
+    },
+    {
+      "text_ja": "年内：Quantum Systemsの事案について、ドイツの捜査当局が侵入の経路、更新ファイルの署名検証の扱い、攻撃者の帰属を公表するか。台湾・中科院が10社の社名と対象契約を示すか。",
+      "text_en": "By year-end: whether German investigators disclose the intrusion path, the handling of update signature verification and attribution in the Quantum Systems case, and whether Taiwan's NCSIST names the ten suppliers and affected contracts."
+    },
+    {
+      "text_ja": "12月中旬：安保3文書の閣議決定で、無人機・AIの調達における更新・回線・部品の管理（ソースコード、原産地検査、代替回線）が記述されるか。",
+      "text_en": "Mid-December: whether the Cabinet-approved security documents address control over updates, links and parts (source code, origin checks, alternative links) in drone and AI procurement."
+    }
+  ],
+  "developments": [
+    {
+      "date": "2026-11-09",
+      "title_ja": "ウォーレン・バンクス両上院議員、NDAAでのAI Overwatch Act成立を要求",
+      "title_en": "Senators Warren and Banks demand the AI Overwatch Act in the NDAA",
+      "actor_ja": "米上院議員",
+      "actor_en": "US senators",
+      "stage_ja": "声明・立法",
+      "stage_en": "Statement / legislation",
+      "source_ids": [
+        "W20"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261111-03"
+    },
+    {
+      "date": "2026-11-09",
+      "title_ja": "Neros、政府融資と自己資金で総額6.15億ドル、機体価値の8割を内製へ",
+      "title_en": "Neros commits $615m including a government loan to make 80% of airframe value in-house",
+      "actor_ja": "Neros／米戦略資本局",
+      "actor_en": "Neros / US Office of Strategic Capital",
+      "stage_ja": "融資・生産拡張",
+      "stage_en": "Loan / production expansion",
+      "source_ids": [
+        "W30"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261111-10"
+    },
+    {
+      "date": "2026-11-10",
+      "title_ja": "自民・維新、安保3文書改定の与党協議を開始　AI・無人機の「新しい戦い方」",
+      "title_en": "LDP and Ishin open coalition talks on the security documents, featuring AI and drone 'new ways of fighting'",
+      "actor_ja": "自民党・日本維新の会／政府",
+      "actor_en": "LDP, Ishin / Government of Japan",
+      "stage_ja": "与党協議",
+      "stage_en": "Coalition consultations",
+      "source_ids": [
+        "W26"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261111-01"
+    },
+    {
+      "date": "2026-11-10",
+      "title_ja": "Palantir、Mavenに遠隔停止の「キルスイッチ」はないと説明　独軍は当面Mavenを調達せず",
+      "title_en": "Palantir says Maven has no remote kill switch; Bundeswehr will not buy Maven for now",
+      "actor_ja": "Palantir／ドイツ連邦軍",
+      "actor_en": "Palantir / Bundeswehr",
+      "stage_ja": "方針（報道）",
+      "stage_en": "Policy (reported)",
+      "source_ids": [
+        "W16"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261111-09"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "防衛省、GOCO方式による弾薬・無人機の増産体制を安保3文書に明記へ",
+      "title_en": "Japan's MOD to write GOCO-based munitions and drone surge production into the security documents",
+      "actor_ja": "防衛省",
+      "actor_en": "Ministry of Defense of Japan",
+      "stage_ja": "方針表明",
+      "stage_en": "Policy announcement",
+      "source_ids": [
+        "W27"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261112-01"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "Helsing、供給者の停止機能を持たないAI標的化基盤「Clarity」を発表",
+      "title_en": "Helsing unveils 'Clarity', an AI targeting-intelligence platform with no vendor kill function",
+      "actor_ja": "Helsing",
+      "actor_en": "Helsing",
+      "stage_ja": "製品発表",
+      "stage_en": "Product launch",
+      "source_ids": [
+        "W14",
+        "W15"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261112-02"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "独国防省、連邦軍での中国製無人機の使用停止を確認",
+      "title_en": "German MoD confirms the Bundeswehr will stop using Chinese-made drones",
+      "actor_ja": "ドイツ連邦国防省",
+      "actor_en": "German Federal Ministry of Defence",
+      "stage_ja": "運用方針",
+      "stage_en": "Operational policy",
+      "source_ids": [
+        "W13"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261112-14"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "Nvidia取締役会、フアン氏のCEO・取締役辞任を受理（12日公表）",
+      "title_en": "Nvidia's board accepts Huang's resignation as CEO and director (disclosed on the 12th)",
+      "actor_ja": "Nvidia",
+      "actor_en": "Nvidia",
+      "stage_ja": "企業統治（法定開示）",
+      "stage_en": "Corporate governance (statutory filing)",
+      "source_ids": [
+        "W18",
+        "W19"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261113-01"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "Recorded Future、AI関与の悪性事案103件を分析　AIは攻撃の「増幅器」",
+      "title_en": "Recorded Future analyses 103 AI-involved malicious incidents, calling AI an 'amplifier'",
+      "actor_ja": "Recorded Future",
+      "actor_en": "Recorded Future",
+      "stage_ja": "研究報告",
+      "stage_en": "Research report",
+      "source_ids": [
+        "W28"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261113-16"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "政府、高性能AIの重大事案で協議を拒む事業者への命令と罰則を検討",
+      "title_en": "Japan weighs binding orders and penalties for AI operators that refuse consultations in serious incidents",
+      "actor_ja": "日本政府",
+      "actor_en": "Government of Japan",
+      "stage_ja": "制度検討（報道）",
+      "stage_en": "Policy study (reported)",
+      "source_ids": [
+        "W25"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261113-11"
+    },
+    {
+      "date": "2026-11-11",
+      "title_ja": "ウクライナ参謀本部、11月1〜10日のジェット型無人機の無力化率は約83%",
+      "title_en": "Ukraine's General Staff puts jet-drone neutralisation at about 83% for 1–10 November",
+      "actor_ja": "ウクライナ軍参謀本部",
+      "actor_en": "General Staff of the Armed Forces of Ukraine",
+      "stage_ja": "戦果集計（当事者発表）",
+      "stage_en": "Combat tally (party claim)",
+      "source_ids": [
+        "W5",
+        "W6"
+      ],
+      "confidence": "B3",
+      "item_id": "cl-20261112-12"
+    },
+    {
+      "date": "2026-11-12",
+      "title_ja": "ゼレンスキー大統領、Starshieldに時速161kmの速度制限が再び課されたと表明　SpaceXは否定",
+      "title_en": "Zelensky says Starshield is again capped at 161 km/h; SpaceX denies any change",
+      "actor_ja": "ウクライナ大統領／SpaceX",
+      "actor_en": "President of Ukraine / SpaceX",
+      "stage_ja": "当事者の主張と否定",
+      "stage_en": "Claim and denial",
+      "source_ids": [
+        "W1"
+      ],
+      "confidence": "B3",
+      "item_id": "cl-20261113-02"
+    },
+    {
+      "date": "2026-11-12",
+      "title_ja": "ゼレンスキー氏、ルッテ事務総長に対弾道ミサイル迎撃弾の不足とStarshieldの制約を訴え",
+      "title_en": "Zelensky tells Rutte of anti-ballistic interceptor shortages and Starshield constraints",
+      "actor_ja": "ウクライナ大統領／NATO",
+      "actor_en": "President of Ukraine / NATO",
+      "stage_ja": "首脳会談",
+      "stage_en": "Leaders' meeting",
+      "source_ids": [
+        "W31"
+      ],
+      "confidence": "B3",
+      "item_id": "cl-20261113-17"
+    },
+    {
+      "date": "2026-11-12",
+      "title_ja": "Quantum Systems、QBase更新サーバー経由の侵入を公表　連邦軍は予防的に運用停止、13日に再開",
+      "title_en": "Quantum Systems discloses intrusion via QBase update server; Bundeswehr grounds drones, resuming on the 13th",
+      "actor_ja": "Quantum Systems／ドイツ連邦軍",
+      "actor_en": "Quantum Systems / Bundeswehr",
+      "stage_ja": "サイバー事案・運用停止",
+      "stage_en": "Cyber incident / grounding",
+      "source_ids": [
+        "W8",
+        "W9",
+        "W10"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261114-03"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "台湾・中科院、無人機の供給企業10社に中国製部品の疑い　全機分解検査と経営者夫婦の起訴",
+      "title_en": "Taiwan's NCSIST flags ten drone suppliers; full teardown inspections and indictment of a firm's owners",
+      "actor_ja": "国家中山科学研究院／国防部／台中地検",
+      "actor_en": "NCSIST / MND / Taichung prosecutors",
+      "stage_ja": "検査方針・起訴",
+      "stage_en": "Inspection policy / indictment",
+      "source_ids": [
+        "W11",
+        "W12"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261114-04"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "米上院2議員、Starshield速度制限の命令者の特定と記録の提出を要求",
+      "title_en": "Two US senators demand to know who ordered the Starshield cap and seek records",
+      "actor_ja": "米上院議員",
+      "actor_en": "US senators",
+      "stage_ja": "議会の監督",
+      "stage_en": "Congressional oversight",
+      "source_ids": [
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": "B3",
+      "item_id": "cl-20261114-05"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "ウクライナ空軍、13日未明のジェット型無人機63機のうち39機を無力化と発表",
+      "title_en": "Ukrainian Air Force says 39 of 63 jet drones were neutralised overnight on the 13th",
+      "actor_ja": "ウクライナ空軍",
+      "actor_en": "Ukrainian Air Force",
+      "stage_ja": "戦果集計（当事者発表）",
+      "stage_en": "Combat tally (party claim)",
+      "source_ids": [
+        "W7"
+      ],
+      "confidence": "B2",
+      "item_id": "cl-20261114-07"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "下院3委員長、フアン氏に12月1日の非公開聴取を要求　財務長官は商務省を批判",
+      "title_en": "House chairs demand a 1 December interview with Huang; Bessent criticises Commerce",
+      "actor_ja": "米議会／財務省",
+      "actor_en": "US Congress / Treasury",
+      "stage_ja": "議会の監督",
+      "stage_en": "Congressional oversight",
+      "source_ids": [
+        "W22"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261114-02"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "米国防省、CDAOを「超知能室」に改称　任務と事業は継続",
+      "title_en": "Pentagon renames CDAO the 'Super Intelligence Office', with mission and programmes unchanged",
+      "actor_ja": "米国防省",
+      "actor_en": "US Department of War",
+      "stage_ja": "組織改称",
+      "stage_en": "Organisational redesignation",
+      "source_ids": [
+        "W23",
+        "W24"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261114-01"
+    },
+    {
+      "date": "2026-11-13",
+      "title_ja": "韓国空軍、随伴無人機をF-35向け海外製とKF-21向け国産の二本立てに",
+      "title_en": "ROK Air Force splits loyal-wingman plans: foreign-made for F-35, domestic for KF-21",
+      "actor_ja": "韓国空軍／国防科学研究所",
+      "actor_en": "ROK Air Force / ADD",
+      "stage_ja": "構想提示",
+      "stage_en": "Concept presentation",
+      "source_ids": [
+        "W17"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261114-10"
+    }
+  ],
+  "reading": [
+    {
+      "source_id": "W14",
+      "reason_ja": "供給者が停止できない設計と人間の確認手順を、販売の論理としてどう説明しているかが一次資料で読める。",
+      "reason_en": "Shows, in the vendor's own words, how a no-vendor-kill-switch design and human confirmation steps are pitched as a selling point."
+    },
+    {
+      "source_id": "W18",
+      "reason_ja": "CEO辞任の法定開示で、暫定体制と取締役会の説明の範囲、輸出管理への言及の有無を確かめられる。",
+      "reason_en": "The statutory disclosure of the resignation shows the interim arrangements, what the board chose to say, and what it left out on export controls."
+    },
+    {
+      "source_id": "W28",
+      "reason_ja": "AIが攻撃を増幅する具体的な手口を103件の事案で整理し、更新経路や認証の弱点が狙われる理由を示す。",
+      "reason_en": "Organises 103 incidents showing concretely how AI amplifies attacks and why update paths and authentication weaknesses are targeted."
+    },
+    {
+      "source_id": "W29",
+      "reason_ja": "軍のソフトウェア供給網のリスクを4類型に整理し、供給者に構成情報の提出を求める政策を論じており、今週の更新サーバー事案を読む枠組みになる。",
+      "reason_en": "Classifies military software supply-chain risk into four types and argues for requiring suppliers to provide composition data—a framework for reading this week's update-server incident."
+    },
+    {
+      "source_id": "W1",
+      "reason_ja": "速度制限をめぐるウクライナ側の主張、SpaceXの否定、独立の確認の範囲が整理されている。",
+      "reason_en": "Sets out Ukraine's claim, SpaceX's denial and the limits of independent confirmation on the speed cap."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W1",
+      "title": "Ukraine Says Starshield Disruptions Are Back As U.S. Negotiators Meet With Putin",
+      "publisher": "The War Zone",
+      "url": "https://www.twz.com/news-features/ukraine-says-starshield-disruptions-are-back-as-u-s-negotiators-meet-with-putin",
+      "date": "2026-11-12",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W2",
+      "title": "Starshield speed limits return in Ukraine as senators demand to know who ordered them",
+      "publisher": "Scripps News",
+      "url": "https://www.newschannel5.com/world/europe/starshield-speed-limits-return-in-ukraine-as-senators-demand-to-know-who-ordered-them",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W3",
+      "title": "Starshield problems: Defense Ministry in contact with Musk's company and the Pentagon",
+      "publisher": "LIGA.net",
+      "url": "https://news.liga.net/en/politics/news/starshield-problems-defense-ministry-in-contact-with-musks-company-and-the-pentagon-source",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W4",
+      "title": "Zelenskyy Says Ukraine Is Still Seeking Clarity From U.S. On Renewed SpaceX Starshield Speed Limits",
+      "publisher": "Forbes",
+      "url": "https://www.forbes.com/sites/fionariley/2026/11/13/zelenskyy-says-ukraine-is-still-seeking-clarity-from-us-on-renewed-spacex-starshield-speed-limits/",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W5",
+      "title": "General Staff: 3,068 of 3,519 attack drones neutralized on 1–10 November",
+      "publisher": "Interfax-Ukraine",
+      "url": "https://en.interfax.com.ua/news/general/1235036.html",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W6",
+      "title": "Ukraine Military Situation Report, November 11",
+      "publisher": "Hudson Institute (Can Kasapoğlu)",
+      "url": "https://www.hudson.org/national-security-defense/ukraine-military-situation-report-november-11-can-kasapoglu",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W7",
+      "title": "Air defense downs 80 of 117 Russian drones launched overnight",
+      "publisher": "Ukrinform",
+      "url": "https://www.ukrinform.net/rubric-ato/4184168-air-defense-downs-80-of-117-russian-drones-launched-overnight.html",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W8",
+      "title": "Cyberattack defeated (company statement)",
+      "publisher": "Quantum Systems",
+      "url": "https://quantum-systems.com/news/cyberattack-defeated/",
+      "date": "2026-11-12",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W9",
+      "title": "Quantum Systems drones back in the air after malware scare",
+      "publisher": "The Register",
+      "url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W10",
+      "title": "Quantum Systems Hack: Fake Update Got German Military Drones Grounded",
+      "publisher": "DroneXL",
+      "url": "https://dronexl.co/2026/11/12/quantum-systems-qbase-malware-bundeswehr-grounds-drones/",
+      "date": "2026-11-12",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W11",
+      "title": "Ten drone suppliers flagged over suspected Chinese components",
+      "publisher": "Taipei Times",
+      "url": "https://taipeitimes.com/News/taiwan/archives/2026/11/13/2003867685",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W12",
+      "title": "Prosecutors indict couple over Chinese chips in drones",
+      "publisher": "Focus Taiwan (CNA)",
+      "url": "https://focustaiwan.tw/society/202611130017",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W13",
+      "title": "Spionagerisiko: Bundeswehr verbannt chinesische Drohnen",
+      "publisher": "CORRECTIV",
+      "url": "https://correctiv.org/aktuelles/sicherheit-und-verteidigung/2026/11/11/spionagerisiko-bundeswehr-verbannt-chinesische-drohnen/",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W14",
+      "title": "Helsing unveils Clarity, a sovereign software platform for military intelligence",
+      "publisher": "Helsing",
+      "url": "https://helsing.ai/newsroom/helsing-unveils-clarity-a-sovereign-software-platform-for-military-intelligence",
+      "date": "2026-11-11",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W15",
+      "title": "Helsing enters market for battlefield software built on combat data",
+      "publisher": "Reuters (via Yahoo News)",
+      "url": "https://ca.news.yahoo.com/helsing-enters-market-battlefield-software-103148434.html",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W16",
+      "title": "Germany's Helsing to unveil AI-based military software as a rival to Palantir",
+      "publisher": "Reuters (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/articles/germanys-helsing-unveil-ai-based-134714259.html",
+      "date": "2026-11-10",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W17",
+      "title": "공군 '로열 윙맨' 투트랙…F-35엔 외산, KF-21엔 국산 무인기 붙인다",
+      "publisher": "Newspim",
+      "url": "https://www.newspim.com/news/view/20261113001426",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W18",
+      "title": "Jensen Huang Resigns (Form 8-K, Exhibit 99.1)",
+      "publisher": "Nvidia / U.S. Securities and Exchange Commission",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "date": "2026-11-12",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W19",
+      "title": "Explainer: Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns",
+      "publisher": "Reuters (via 104.9 The Wolf)",
+      "url": "https://www.1049thewolf.com/2026/11/12/explainer-tougher-curbs-on-ai-chip-sales-to-china-likely-after-nvidia-ceo-resigns/",
+      "date": "2026-11-12",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W20",
+      "title": "Sens. Banks, Warren Statement on National Security Concerns Surrounding NVIDIA",
+      "publisher": "Office of Senator Jim Banks",
+      "url": "https://www.banks.senate.gov/news/press-releases/sens-banks-warren-statement-on-national-security-concerns-surrounding-nvidia/",
+      "date": "2026-11-09",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W21",
+      "title": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+      "publisher": "Tom's Hardware (citing Bloomberg)",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+      "date": "2026-11-06",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W22",
+      "title": "GOP lawmakers push Jensen Huang and Howard Lutnick to appear before Congress amid Nvidia controversy",
+      "publisher": "CBS News",
+      "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W23",
+      "title": "Department of War Redesignates CDAO as Super Intelligence Office",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4647618/department-of-war-redesignates-cdao-as-super-intelligence-office/",
+      "date": "2026-11-13",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W24",
+      "title": "Pentagon rebrands principle AI shop as 'Super Intelligence Office'",
+      "publisher": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
+      "date": "2026-11-13",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W25",
+      "title": "政府、高性能AI暴走に罰則検討　悪質事業者に対抗手段へ法改正",
+      "publisher": "共同通信（OANDA掲載）",
+      "url": "https://www.oanda.jp/lab-education/market_news/kn_2026111101001329/",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W26",
+      "title": "核政策転換、初の検討へ＝安保３文書改定、与党協議入り",
+      "publisher": "時事通信（nippon.com）",
+      "url": "https://www.nippon.com/ja/articles/-/57179",
+      "date": "2026-11-10",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W27",
+      "title": "有事に備え防衛装備品増産＝政府「国有民営」推進―安保文書改定",
+      "publisher": "時事通信（リスク対策.com転載）",
+      "url": "https://www.risktaisaku.com/articles/-/117095",
+      "date": "2026-11-11",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W28",
+      "title": "AI Cyber Threat Trends 2026",
+      "publisher": "Recorded Future (Insikt Group)",
+      "url": "https://www.recordedfuture.com/research/ai-cyber-threat-trends-2026",
+      "date": "2026-11-11",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W29",
+      "title": "An Achilles Heel of Today's Armed Forces: Managing Software Supply Chain Risk in the Military Sector",
+      "publisher": "SWP (Alexandra Paulus)",
+      "url": "https://www.swp-berlin.org/10.18449/2025RP06/",
+      "date": "2025-11-17",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W30",
+      "title": "Neros to expand domestic drone production with $450M Pentagon loan",
+      "publisher": "Defense News",
+      "url": "https://www.defensenews.com/industry/techwatch/2026/11/09/neros-to-expand-domestic-drone-production-with-450m-pentagon-loan/",
+      "date": "2026-11-09",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W31",
+      "title": "Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions",
+      "publisher": "Ukrinform",
+      "url": "https://www.ukrinform.net/amp/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html",
+      "date": "2026-11-12",
+      "kind": "media",
+      "accessed": true
+    }
+  ],
+  "item_ids": [
+    "cl-20261113-02",
+    "cl-20261114-05",
+    "cl-20261112-12",
+    "cl-20261114-07",
+    "cl-20261114-03",
+    "cl-20261114-04",
+    "cl-20261112-14",
+    "cl-20261113-16",
+    "cl-20261112-02",
+    "cl-20261111-09",
+    "cl-20261114-10",
+    "cl-20261111-10",
+    "cl-20261113-01",
+    "cl-20261114-02",
+    "cl-20261109-01",
+    "cl-20261111-03",
+    "cl-20261113-11",
+    "cl-20261114-01",
+    "cl-20261111-01",
+    "cl-20261112-01",
+    "cl-20261113-17"
+  ],
+  "internal": {
+    "scan": "handoff/daily の 2026-11-09〜11-14 号（6号）を全部読んだ。補う調査として、Starshield の10月の制限の経緯、Quantum Systems の事案の続報、自衛隊の商用衛星通信の利用、軍のソフトウェア供給網リスクの研究（SWP 2025RP06）を検索した。SWP論文以外の新しい事実は本文に加えていない。",
+    "notes_for_editor": [
+      "SWP論文（W29）は本文の一部を直接読み、残りは要約で確認した。精読資料としてのみ使い、本文の事実には使っていない。",
+      "自衛隊の商用衛星通信（Starlink等）の利用状況は防衛省の発表を開けず確認できなかったため、日本にとっての論点では具体的な利用実態に触れず、一般的な論点として書いた。",
+      "Starshield の現行契約が2027年半ばに期限を迎える点は、11月14日号の記述（ウクライナ駐米臨時代理大使の11月5日の発言）に依拠している。",
+      "Quantum Systems の声明（W8）は日次の段階で本文を直接開けていない（accessed: false）。",
+      "顧立雄国防部長の氏名は日次原稿では「顧部長」と表記されている。現職の国防部長として氏名を補った。"
+    ]
+  }
+}
