@@ -1,0 +1,1049 @@
+{
+  "edition_date": "2026-11-14",
+  "generated_at": "2026-11-14T06:25:00+09:00",
+  "window_from": "2026-11-13T07:20:00+09:00",
+  "edition_title_ja": "「超知能」を名乗る国防省と、揺らぐ無人機の供給網",
+  "edition_title_en": "A Pentagon Office Called 'Super Intelligence' and the Fragile Drone Supply Chain",
+  "edition_dek_ja": "米AI統括組織の改称、独軍無人機の飛行停止、台湾の中国製部品調査が同じ日に重なった。",
+  "edition_dek_en": "The renaming of the Pentagon's AI office, the grounding of German military drones and Taiwan's probe into Chinese components landed on the same day.",
+  "lead_points_ja": [
+    "AIを軍事力に組み込む競争は、組織の看板と、無人機を支える供給網という二つの層で同時に進んでいる。13日は米国防省がAI統括組織を「超知能室」と改称した一方で、ドイツと台湾では無人機の更新ソフトと部品の供給網の弱さが表面化した。",
+    "米国防省は最高デジタル・AI室（CDAO）をSuper Intelligence Office（SIO）に改称し、新ドメインSI.milを開設した。任務の変更はないと説明し、Maven Smart SystemやGenAI.milは新名称の下で継続する。",
+    "Nvidiaをめぐる議会の追及は両院で聴取の日程設定に進み、下院3委員長はフアン前CEOに12月1日の非公開聴取を、上院銀行委員会はフアン氏とラトニック商務長官の証言を求めた。ベセント財務長官は商務省がMegaspeedの実体リスト掲載を止めていたと公然と批判した。",
+    "独Quantum Systemsは地上管制ソフトQBaseの更新サーバーへの侵入を確認し、連邦軍は予防的に同社機の運用を停止した後、13日に運用再開が伝えられた。台湾の中科院は無人機供給企業10社に中国製部品の疑いを示し、台中地検は亞拓の経営者夫婦を起訴した。",
+    "Starshieldの速度制限をめぐり、ゼレンスキー大統領は米政府とSpaceXへの接触強化を指示し、米上院の2議員は「誰が命じたか」の特定を求めた。ウクライナ空軍の13日未明の発表では、ジェット型無人機63機のうち39機が無力化された。"
+  ],
+  "lead_points_en": [
+    "The race to fold AI into military power is running on two layers at once: the signage of institutions and the supply chains beneath drones. On the 13th the Pentagon renamed its AI office the 'Super Intelligence Office', while in Germany and Taiwan the weakness of drone update software and component supply chains came to the surface.",
+    "The Department of War redesignated the Chief Digital and AI Office (CDAO) as the Super Intelligence Office (SIO) and launched SI.mil. It says the mission is unchanged; Maven Smart System and GenAI.mil continue under the new name.",
+    "Congressional scrutiny of Nvidia moved to scheduling hearings in both chambers: three House chairs asked former CEO Huang for a closed-door interview on December 1, and the Senate Banking Committee sought testimony from Huang and Commerce Secretary Lutnick. Treasury Secretary Bessent publicly blamed Commerce for stalling Megaspeed's Entity List designation.",
+    "Germany's Quantum Systems confirmed an intrusion into the update server for its QBase ground-control software; the Bundeswehr grounded its aircraft as a precaution before flights reportedly resumed on the 13th. Taiwan's NCSIST flagged ten drone suppliers over suspected Chinese components, and Taichung prosecutors indicted the owners of Align.",
+    "On the Starshield speed cap, President Zelensky ordered intensified contacts with the US government and SpaceX, and two US senators demanded to know who ordered it. Ukraine's Air Force reported 39 of 63 jet-powered drones neutralized overnight on the 13th."
+  ],
+  "items": [
+    {
+      "id": "cl-20261114-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米国防省、AI統括組織CDAOを「超知能室」に改称　任務は変わらず、Maven・GenAI.milを新名称で継承",
+      "title_en": "Pentagon Renames CDAO the 'Super Intelligence Office'; Mission Unchanged, Maven and GenAI.mil Continue Under the New Banner",
+      "lead_ja": "米国防省（Department of War）は11月13日、最高デジタル・AI室（CDAO）を「超知能室（Super Intelligence Office、SIO）」に改称したと発表し、新ドメインSI.milを開設した。省は任務の変更を伴わないと説明し、Maven Smart System、War Data Platform、GenAI.milなどの既存事業は新名称の下で継続する。9月に大統領が連邦機関に「人工知能」を「超知能」と呼び替えるよう指示した流れを、軍の中核組織の名称に定着させた動きである。",
+      "lead_en": "On November 13 the Department of War announced that the Chief Digital and Artificial Intelligence Office (CDAO) has been redesignated the Super Intelligence Office (SIO) and launched SI.mil as its primary domain. The department says the mission does not change; existing programs such as Maven Smart System, the War Data Platform and GenAI.mil continue under the new name. The move fixes in the military's core AI organization the terminology the President ordered for all federal agencies in September.",
+      "sections": [
+        {
+          "heading_ja": "看板の変更と中断なき事業の継続",
+          "heading_en": "A New Banner, Programs Continue Uninterrupted",
+          "paragraphs_ja": [
+            "発表によれば、改称は今後数週間で省内のデジタルシステム、業務アプリケーション、各部局の本部に順次反映される。既存の運用プログラム、産業界への公募、防衛協力は「新たな旗の下で中断なく継続する」とされる。CDAOの長を務めてきたキャメロン・スタンリー氏が引き続きSIOを率い、「我々は実験的な試作段階を越えた」と述べ、組織の任務を「主権的な超知能の力を最大限に引き出すこと」と表現した。",
+            "Breaking Defenseは、情報・標的化基盤のMaven Smart System、旧AdvanaのWar Data Platform、商用モデルを省内に提供するGenAI.mil、各種の演習・実験事業を同室の主要な資産として挙げる。これらはいずれも2025〜26年に契約上限の引き上げや機密網への展開が進んだ事業であり、改称はその運用段階への移行を自己認識として示したものと読める。"
+          ],
+          "paragraphs_en": [
+            "According to the announcement, the transition will roll out across digital systems, enterprise applications and component headquarters over the coming weeks. Existing operational programs, industry solicitations and defense partnerships 'will continue uninterrupted under the new banner.' Cameron Stanley, who has led the CDAO, continues to head the SIO; he said 'we have moved beyond experimental prototypes' and described the mission as harnessing 'the full power of sovereign Super Intelligence.'",
+            "Breaking Defense lists the Maven Smart System intelligence and targeting platform, the War Data Platform (formerly Advana), GenAI.mil, which provides commercial models inside the department, and the office's exercise and experimentation efforts as its main assets. All saw contract-ceiling increases or classified-network deployments in 2025–26, so the renaming reads as a statement that the portfolio has moved into operations."
+          ]
+        },
+        {
+          "heading_ja": "9月の大統領指示から部局名への定着",
+          "heading_en": "From the September Presidential Order to an Office Name",
+          "paragraphs_ja": [
+            "Breaking Defenseは改称の背景として、トランプ大統領が9月に全連邦機関へ「AI」の表記を「超知能（SI）」に置き換えるよう指示したことを挙げる。大統領は「人工」という語が技術を偽物のように響かせると論じていた。空軍・宇宙軍はすでに10〜11月に「15の任務領域で運用可能なSIを実装する」計画と「SIリテラシー」教育を同じ語で説明しており、今回の改称で省全体の用語が揃う。",
+            "同紙は一方で、「超知能」が従来は人間の総合的知能を超える仮説上のAIを指し、現在は存在しない概念であることから、技術界で疑問が出ていると記す。発表に議員や外部専門家の反応は含まれていない。名称の選択は、能力の実態と政治的な語彙の間の距離を広げる危険と、AIを戦力の中核に置くという意思表示の双方を帯びている。"
+          ],
+          "paragraphs_en": [
+            "Breaking Defense ties the renaming to President Trump's September instruction that all federal agencies replace references to 'AI' with 'super intelligence' (SI), arguing that the word 'artificial' made the technology sound fake. The Air Force and Space Force had already used the term in October and November for a plan to field 'operational SI across 15 mission areas' and for 'SI literacy' training, so the department's vocabulary is now aligned.",
+            "The same report notes that 'superintelligence' has historically meant a hypothetical AI exceeding overall human intelligence, which does not currently exist, and that the shift has raised questions in the tech community. No lawmaker or outside expert reaction is included in the announcement. The choice of name carries both the risk of widening the gap between actual capability and political vocabulary and a declaration that AI sits at the core of the force."
+          ]
+        },
+        {
+          "heading_ja": "未公表の資源配分と自律戦争軍との関係",
+          "heading_en": "Unstated Resources and the Relationship with Autonomous Warfare Command",
+          "paragraphs_ja": [
+            "発表には予算、人員、権限の変更は含まれていない。Mavenの契約上限、機密網への商用AI・クラウド導入の研究（科学技術革新委員会の開始期限は11月26日）、10月に発表された自律戦争軍（2027年10月の創設目標）との役割分担といった実質的な論点は、組織規程の改定と2027年度予算要求で決まる。公式リリースはwar.govに掲載され、新ドメインSI.milとともに、省の対外的な呼称がこの日から切り替わった。"
+          ],
+          "paragraphs_en": [
+            "The announcement contains no change in budget, staffing or authority. The substantive questions, Maven's contract ceiling, the study on commercial AI and cloud on classified networks (the Science and Technology Innovation Board's start deadline is November 26) and the division of labor with the Autonomous Warfare Command announced in October (target stand-up October 2027), will be settled in revised charters and the FY2027 budget request. The official release was posted on war.gov, and with the new SI.mil domain the department's public nomenclature switched over from this day."
+          ]
+        }
+      ],
+      "watch_next_ja": "SIOの組織規程の改定と2027年度予算要求での位置づけ。war.gov公式リリース（Release 4647618）の本文。自律戦争軍（2027年10月目標）との役割分担。",
+      "watch_next_en": "Revision of the SIO charter and its place in the FY2027 budget request; the text of the war.gov release (Release 4647618); the division of labor with the Autonomous Warfare Command (target October 2027).",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "announced",
+      "publisher": "米国防省（Breaking Defense、USPress転載の報道）",
+      "publisher_en": "US Department of War (reported by Breaking Defense; USPress syndicated copy)",
+      "sources": [
+        {
+          "title": "Department of War Redesignates CDAO as Super Intelligence Office",
+          "url": "https://www.war.gov/News/Releases/Release/Article/4647618/department-of-war-redesignates-cdao-as-super-intelligence-office/",
+          "publisher": "US Department of War",
+          "date": "2026-11-13",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "Pentagon rebrands principle AI shop as 'Super Intelligence Office'",
+          "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Department of War Redesignates CDAO as Super Intelligence Office (syndicated release)",
+          "url": "https://www.uspress.news/department-of-war-redesignates-cdao-as-super-intelligence-office/",
+          "publisher": "USPress.News",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "下院3委員長、Nvidiaフアン氏に12月1日の非公開聴取を要求　上院は商務長官も、財務長官は商務省を批判",
+      "title_en": "Three House Chairs Demand a December 1 Closed-Door Interview with Former Nvidia CEO Huang; Senate Banking Summons Lutnick as Bessent Blames Commerce",
+      "lead_ja": "米下院の外交、中国特別、情報の3委員長は11月12日付の書簡で、Nvidiaを辞したジェンスン・フアン氏に12月1日の非公開・記録付き聴取を求め、13日20時（東部時間）を回答期限とし、応じなければ召喚令状を発すると通告した。上院銀行委員会のスコット委員長はフアン氏とラトニック商務長官に来月の証言を求め、ベセント財務長官は13日、Megaspeedの実体リスト掲載が商務省産業安全保障局で止まっていたと公然と批判した。中国外交部は同日、輸出管理の「乱用」に反対すると述べた。",
+      "lead_en": "In a letter dated November 12, the chairs of the House Foreign Affairs, China Select and Intelligence committees asked former Nvidia CEO Jensen Huang for a closed-door, transcribed interview on December 1, set a deadline of 8 p.m. ET on the 13th and warned of a subpoena if he declined. Senate Banking Chair Tim Scott sought testimony from Huang and Commerce Secretary Lutnick next month, and on the 13th Treasury Secretary Bessent publicly blamed Commerce's Bureau of Industry and Security for stalling Megaspeed's Entity List designation. China's foreign ministry said the same day that it opposes the 'abuse' of export controls.",
+      "sections": [
+        {
+          "heading_ja": "両院が並行して設ける聴取の場",
+          "heading_en": "Both Chambers Set Up Parallel Hearings",
+          "paragraphs_ja": [
+            "下院の書簡はマスト外交委員長、ムーレナー中国特別委員長、クロフォード情報委員長の連名で、12月1日の「非公開で記録される面談」を求めた。マスト氏はフアン氏が出席の意向を示していると述べ、ムーレナー氏は辞任で「力学が変わった」として早期の実現を目指すとした。外交委員会は産業安全保障局（BIS）を率いるケスラー商務次官の証言も要請した。TechCrunchは感謝祭（11月26日）前の証言をフアン氏が確認したと伝えており、書簡の12月1日と日程の説明が食い違う。",
+            "上院では銀行委員会のスコット委員長（共和）が12日夜、フアン氏に12月第1週の自発的な証言を、ラトニック長官に来月の公開聴聞会への出席を求め、応じなければ召喚もあり得るとした。米政府関係者はラトニック氏が12月10日の証言に同意したと述べたと報じられるが、確認は1つの情報源に依っている。ケネディ上院議員（共和）は事態を「動脈瘤のように深刻だ」と形容し、ラトニック、ベセント両長官からも話を聞きたいと述べた。"
+          ],
+          "paragraphs_en": [
+            "The House letter, signed by Foreign Affairs Chair Brian Mast, China Select Committee Chair John Moolenaar and Intelligence Chair Rick Crawford, requested a 'closed-door, transcribed interview' on December 1. Mast said Huang had indicated he is willing to appear; Moolenaar said the resignation 'does change the dynamic' and the aim is to bring him in as soon as possible. The committee also requested testimony from Under Secretary Jeffrey Kessler, who leads BIS. TechCrunch reports Huang confirmed he would testify before Thanksgiving (November 26), which does not match the December 1 date in the letter.",
+            "In the Senate, Banking Chair Tim Scott (R-SC) wrote on the evening of the 12th asking Huang to testify voluntarily in the first week of December and Lutnick to appear at a public hearing next month, noting the committee could subpoena. A US official was reported as saying Lutnick agreed to testify on December 10, a single-source claim. Senator Kevin Cramer (R-ND) said he would support subpoenaing Huang, and Senator John Kennedy (R-LA) wanted to hear from Lutnick and Bessent, calling the matter 'serious as an aneurysm.'"
+          ]
+        },
+        {
+          "heading_ja": "財務長官が公然と指摘した商務省の遅れ",
+          "heading_en": "The Treasury Secretary Publicly Points at Commerce",
+          "paragraphs_ja": [
+            "ベセント財務長官は13日朝のCNBCのインタビューで、「財務省、国防省、国務省、USTRは何か月もMegaspeedを実体リストに載せることに賛成していた」と述べ、「商務省BISがペンを握っている。内部手続きは彼らに聞くべきだ」と語った。TechCrunchがまとめた経緯によれば、シンガポールのMegaspeedは2年間で48億ドル相当のNvidia製チップを購入し、BISの調査は昨年中断され、現在は司法省が連邦の捜査を引き継いでいる。商務省は各社の取材に回答していない。",
+            "ニール下院議員とワイデン上院議員（いずれも民主）はラトニック氏に書簡を送り、2025年12月にH200の対中販売が「輸出売上の一部を納める条件で」認められた経緯の調査を求めた。トランプ大統領は12日、フアン氏が「素晴らしい仕事をした」と述べ、相手の女性が情報員だと知らなかったと考えていると語り、後任にティム・クックApple CEOを推す投稿をした。ホワイトハウス関係者はAxiosに大統領がラトニック氏を支持していると述べた。"
+          ],
+          "paragraphs_en": [
+            "In a CNBC interview on the morning of the 13th, Bessent said 'they were in favor of putting Megaspeed on the Entity List for months,' referring to Treasury, Defense, State and USTR, and added that 'Commerce BIS has the pen, and you will have to ask them about their internal processes.' According to TechCrunch's timeline, Singapore-based Megaspeed bought $4.8 billion of Nvidia chips over two years, a BIS probe was halted last year, and the Justice Department has taken over the federal investigation. Commerce did not respond to requests for comment.",
+            "Representative Richard Neal and Senator Ron Wyden (both Democrats) wrote to Lutnick seeking an investigation into how H200 sales to China were approved in December 2025 'in exchange for a cut of the export sales.' On the 12th President Trump said Huang 'has done a fantastic job,' said he does not believe Huang knew the woman was a spy, and posted that Apple CEO Tim Cook should replace him. A White House official told Axios the President stands by Lutnick."
+          ]
+        },
+        {
+          "heading_ja": "北京の反応と12月に集まる節目",
+          "heading_en": "Beijing's Response and the December Milestones",
+          "paragraphs_ja": [
+            "中国外交部の毛寧報道官は13日の定例会見で、議会での輸出規制強化の動きについて、中国は「安定を乱す輸出管理措置の乱用に一貫して反対してきた」と述べ、米中は「重要な共通認識の実施に協力すべきだ」と語った。前日には「中国スパイ」の物語を技術制限の口実にすることをやめるよう求めていた。議会側では、ジョンソン下院議長が輸出制限に「合意が形成されつつある」と述べた流れが続き、国防授権法の両院協議にAI Overwatch法やChip Security法を載せる動きと12月の聴聞会が重なる。Nvidiaの13日付の新たな声明は確認されず、17日の決算が暫定CEO体制で初の公の説明の場となる。"
+          ],
+          "paragraphs_en": [
+            "At the regular briefing on the 13th, foreign ministry spokesperson Mao Ning said China 'has consistently opposed the abuse of export control measures, which disrupts the stability' of supply chains, and that the two countries 'should work together to implement the important consensus' of their leaders. The day before she had urged Washington to stop fabricating 'Chinese spy' narratives as a pretext for technology restrictions. In Congress, Speaker Johnson's remark that a 'growing consensus' favors tighter controls carries into the NDAA conference, where the AI Overwatch and Chip Security acts are candidates for inclusion, and overlaps with the December hearings. No new Nvidia statement dated the 13th was found; the November 17 earnings call will be the first public account under the interim CEO."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月13日20時（東部時間）のフアン氏の回答期限と12月1日の下院聴取。上院銀行委員会の12月聴聞会（ラトニック氏は12月10日と報道）。11月17日のNvidia決算と国防授権法の両院協議。",
+      "watch_next_en": "Huang's 8 p.m. ET deadline on November 13 and the December 1 House interview; the Senate Banking hearings in December (Lutnick reportedly on December 10); Nvidia's November 17 earnings and the NDAA conference.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "米下院外交・中国特別・情報委員会、上院銀行委員会、財務長官（Euronews、CBS、TechCrunch、AFPの報道）、中国外交部",
+      "publisher_en": "House Foreign Affairs, China Select and Intelligence committees; Senate Banking Committee; Treasury Secretary (reported by Euronews, CBS, TechCrunch, AFP); China's Ministry of Foreign Affairs",
+      "sources": [
+        {
+          "title": "Ex-Nvidia CEO Huang and US Commerce Secretary Lutnick summoned to testify before Congress",
+          "url": "https://www.euronews.com/2026/11/13/ex-nvidia-ceo-huang-and-us-commerce-secretary-howard-lutnick-summoned-to-testify-before-co",
+          "publisher": "Euronews",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GOP lawmakers push Jensen Huang and Howard Lutnick to appear before Congress amid Nvidia controversy",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/",
+          "publisher": "CBS News",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "publisher": "TechCrunch",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "China warns against new U.S. export controls on computer chips",
+          "url": "https://www.yahoo.com/news/politics/articles/china-warns-against-u-export-151938457.html",
+          "publisher": "AFP (via Yahoo News)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Tim Scott summons Jensen Huang, Howard Lutnick to testify over Nvidia saga",
+          "url": "https://www.politico.com/live-updates/2026/11/12/congress/tim-scott-summons-jensen-huang-howard-lutnick-to-testify-over-nvidia-saga-01164124",
+          "publisher": "POLITICO",
+          "date": "2026-11-12",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "governance-norms"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261113-01"
+    },
+    {
+      "id": "cl-20261114-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "独Quantum Systemsにサイバー攻撃　QBase更新サーバーに偽の更新、連邦軍は予防的に運用停止し13日に再開",
+      "title_en": "Cyberattack on Germany's Quantum Systems: Malicious Update Planted on the QBase Server, Bundeswehr Grounds Drones as a Precaution and Resumes on the 13th",
+      "lead_ja": "ドイツの無人機メーカーQuantum Systemsは11月12日、「敵対的な主体による能動的なサイバー攻撃」を受けたと確認し、連邦軍が同社機の運用を予防的に停止したとシュピーゲルとフィナンシャル・タイムズが報じた。シュピーゲルによれば、攻撃者は社内の更新サーバーに地上管制ソフトQBaseの通常更新を装ったマルウェアを置き、ファイルは連邦軍と他の顧客のサーバーに達したが機体には届かず、点検で発見された。同社は13日、ロイターに「艦隊はドイツと連邦軍を含め世界で通常運用している」と述べた。",
+      "lead_en": "On November 12 German drone maker Quantum Systems confirmed 'an active cyber attack by hostile actors,' and Der Spiegel and the Financial Times reported that the Bundeswehr had grounded its aircraft as a precaution. According to Spiegel, the attackers placed malware disguised as a routine update to the QBase ground-control software on an internal update server; the file reached Bundeswehr and other customers' servers but not the drones, and a check caught it. On the 13th the company told Reuters that 'the fleet is operating normally around the globe, including Germany and the Bundeswehr.'",
+      "sections": [
+        {
+          "heading_ja": "更新サーバー経由の侵入と点検で止まった拡散",
+          "heading_en": "Intrusion Through the Update Server, Spread Halted by a Check",
+          "paragraphs_ja": [
+            "報道を総合すると、同社は10月末に侵入を検知し、当局と連携して封じ込めたと説明している。フィナンシャル・タイムズによれば同社は顧客に対し、QBaseの更新配信に使うサーバーから「悪意ある更新ファイル」が配布されたと伝えた。マルウェアの機能、ファイルを受信したサーバーと顧客の全容、侵入と飛行停止の正確な日付は公表されていない。QBaseは偵察機Vector（連邦軍名「Falke」）の任務計画ソフトで、ドイツは2026年に520システムの納入を予定している。",
+            "同社は連邦軍のほかに運用を停止した顧客はないと述べ、「迅速な措置と事案の性質から、エンドユーザーと運用者にとって運用上の危険はない」としている。Handelsblattは同社の説明として、飛行禁止はドイツ国内に限られ、国外の機体は通常運用が続いたと伝え、フィナンシャル・タイムズは飛行停止で同社が直近の軍事演習に参加できなかったと報じている。"
+          ],
+          "paragraphs_en": [
+            "Taken together, the reports say the company detected the intrusion at the end of October and contained it in cooperation with the authorities. The Financial Times reports that the company told customers a 'malicious update file' had been distributed from the server used to deliver QBase updates. The malware's function, the full set of servers and customers that received the file, and the exact dates of the intrusion and the grounding have not been disclosed. QBase is the mission-planning software for the Vector reconnaissance drone (Bundeswehr designation 'Falke'); Germany plans delivery of 520 systems in 2026.",
+            "The company says the Bundeswehr was the only customer to ground its systems and that 'through the quick measures taken and the characteristics of the incident, there is no risk in operating' its unmanned systems for end users and operators. Handelsblatt, citing the company, reported that the flight ban applied inside Germany while the fleet abroad remained in regular use. The Financial Times reports the grounding kept the company out of a recent military exercise."
+          ]
+        },
+        {
+          "heading_ja": "国防省の沈黙と3機関の捜査",
+          "heading_en": "The Defense Ministry's Silence and a Three-Agency Investigation",
+          "paragraphs_ja": [
+            "連邦国防省はフィナンシャル・タイムズに「装備の即応性については論じない」と答え、他社の取材にも応じていない。シュピーゲルは軍防諜局（MAD）、連邦憲法擁護庁（BfV）、連邦情報セキュリティ庁（BSI）が捜査に当たっていると伝える。攻撃者について同社は「敵対的な主体」と述べるにとどまり、公的な帰属はない。BfVは7月、ウクライナを支援する防衛企業へのロシアのサイバー攻撃・諜報・破壊工作の危険が高まっていると警告していたが、本件との結び付けはどの情報源も行っていない。",
+            "時系列にも未解決の点が残る。シュピーゲルは連邦軍が「先月、一時的に」全機を止めたと記し、12日の報道が示す直近の飛行停止と整合しない。飛行停止の開始日と終了日、再開の正確な時刻はいずれの情報源にもなく、Falkeが13日時点で飛行していることを示す政府の公式な発言も13日夜の時点では見当たらない。"
+          ],
+          "paragraphs_en": [
+            "The Federal Ministry of Defence told the Financial Times it 'does not discuss the readiness of military equipment' and declined comment to dpa-AFX and The Register. Spiegel reports that the Military Counterintelligence Service (MAD), the Federal Office for the Protection of the Constitution (BfV) and the Federal Office for Information Security (BSI) are investigating. The company refers only to 'hostile actors' and no official attribution has been made. In July the BfV warned of a heightened risk of Russian cyberattacks, espionage and sabotage against defense companies supporting Ukraine; DroneXL cites this as context while noting that none of its sources link it to this case.",
+            "The timeline also leaves open questions. Spiegel writes that the Bundeswehr grounded the fleet 'last month, for a time,' which does not fit the recent grounding described in the November 12 reports. No source gives the start or end date of the grounding or the exact time flights resumed, and as of the night of the 13th no official government statement confirming that the Falkes are flying had been found."
+          ]
+        },
+        {
+          "heading_ja": "ウクライナ支援の供給網への含意",
+          "heading_en": "Implications for the Supply Chain Supporting Ukraine",
+          "paragraphs_ja": [
+            "同社はウクライナに200人超の従業員と3つの合弁事業（小型攻撃無人機、迎撃機、無人地上車両）を持ち、10月にはジェット型迎撃機の供給契約を結び、メルツ首相は10月初めに同社の迎撃無人機数万機をウクライナ向けに資金拠出すると表明していた。ウクライナでの運用への影響は「不明」とフィナンシャル・タイムズは記す。企業価値約70億ユーロの同社はスペインとオランダにも軍契約を持ち、欧州の防衛産業とウクライナ支援企業が「長年にわたる執拗なサイバー攻撃」に直面していると述べる。",
+            "本件は、無人機の可用性が機体より地上管制ソフトとその更新経路に依存し、ソフトの供給網への一撃が軍の運用停止に直結することを示した。偽の更新ファイルという手口は2017年のNotPetya以来の更新経路攻撃の系譜にあり、無人機の大量導入を進める各国軍にとって、更新の署名検証と配信サーバーの分離が機体の調達数と同じ重みを持つ論点となる。"
+          ],
+          "paragraphs_en": [
+            "The company has more than 200 staff in Ukraine and three joint ventures there (small attack drones, interceptors and ground robots); it signed a deal in October to supply jet interceptors, and in early October Chancellor Merz said Germany would fund tens of thousands of the company's interceptor drones for Ukraine. The Financial Times writes that the effect on Ukrainian operations is 'not clear.' Valued at about €7 billion, the company also holds military contracts in Spain and the Netherlands and says Europe's defense industry and firms supporting Ukraine have faced 'persistent cyberattacks for years.'",
+            "The case shows that drone availability depends less on airframes than on ground-control software and its update path, and that a single blow to the software supply chain can translate directly into a military stand-down. A forged update file belongs to the lineage of update-channel attacks since NotPetya in 2017; for militaries buying drones in volume, signature verification of updates and segregation of distribution servers now weigh as much as airframe counts."
+          ]
+        }
+      ],
+      "watch_next_ja": "連邦国防省・BSIの公式説明の有無とマルウェアの機能の公表。Falke 520システムの2026年納入日程への影響。ウクライナ向け迎撃機合弁への影響。",
+      "watch_next_en": "Any official statement from the Defence Ministry or BSI and disclosure of the malware's function; effects on the 2026 delivery schedule for 520 Falke systems; effects on the interceptor joint ventures for Ukraine.",
+      "japan_relevance": false,
+      "date": "2026-11-12",
+      "stage": "",
+      "publisher": "Quantum Systems、ドイツ連邦軍（シュピーゲル、フィナンシャル・タイムズ、ロイター、The Register、DroneXL、Euronewsの報道）",
+      "publisher_en": "Quantum Systems; German Bundeswehr (reported by Der Spiegel, Financial Times, Reuters, The Register, DroneXL, Euronews)",
+      "sources": [
+        {
+          "title": "Cyberattack defeated (company statement)",
+          "url": "https://quantum-systems.com/news/cyberattack-defeated/",
+          "publisher": "Quantum Systems",
+          "date": "2026-11-12",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "Quantum Systems drones back in the air after malware scare",
+          "url": "https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658",
+          "publisher": "The Register",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Quantum Systems says grounded German military drones flying again after cyberattack",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/11/13/quantum-systems-says-grounded-german-military-drones-flying-again-after-cyberattack",
+          "publisher": "Reuters (via The Star)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Quantum Systems Hack: Fake Update Got German Military Drones Grounded",
+          "url": "https://dronexl.co/2026/11/12/quantum-systems-qbase-malware-bundeswehr-grounds-drones/",
+          "publisher": "DroneXL",
+          "date": "2026-11-12",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Germany Grounds Quantum Systems Drones After Cyberattack on Ukraine-Linked Defense Firm",
+          "url": "https://united24media.com/world/one-of-europes-top-drone-startups-hit-by-cyberattack-grounding-german-military-fleet-24360",
+          "publisher": "United24 Media",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Bundeswehr besorgt nach Cyberangriff auf deutschen Drohnen-Hersteller Quantum",
+          "url": "https://de.euronews.com/2026/11/13/bundeswehr-besorgt-nach-cyberangriff-auf-deutschen-drohnen-hersteller-quantum",
+          "publisher": "Euronews (German)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "台湾・中科院、無人機の供給企業10社に中国製部品の疑い　国防部長は納入全機の分解検査を指示、亞拓の経営者夫婦を起訴",
+      "title_en": "Taiwan's NCSIST Flags Ten Drone Suppliers Over Suspected Chinese Components; Defense Minister Orders Full Teardown Inspections as Align's Owners Are Indicted",
+      "lead_ja": "台湾の国家中山科学研究院（中科院）は11月13日、最近の検査で国内の無人機供給企業10社に中国製部品を使用した疑いがあると明らかにし、非中国製への交換と、量産案件での試料提出・製造工程検査の義務化を発表した。顧立雄国防部長は2〜4機規模の小口購入に抜け穴があったと認め、全軍での総点検と納入時の全機分解検査を指示した。同日、台中地方検察署は陸軍向け訓練用無人機などに中国製チップを使い原産地証明を偽ったとして、Align（亞拓）の経営者夫婦を国家安全法違反などで起訴した。",
+      "lead_en": "On November 13 Taiwan's National Chung-Shan Institute of Science and Technology (NCSIST) said a recent inspection found ten domestic drone suppliers suspected of using Chinese-made components, and announced mandatory replacement with non-Chinese parts plus sample submission and production-process inspections for mass-production programs. Defense Minister Wellington Koo acknowledged loopholes in small purchases of two to four drones and ordered a military-wide review with full teardown inspection of every drone on delivery. The same day the Taichung District Prosecutors Office indicted the owner of Align Corp. and his wife under the National Security Act for using Chinese chips in army training drones and falsifying certificates of origin.",
+      "sections": [
+        {
+          "heading_ja": "10社の洗い出しと供給網からの排除規定",
+          "heading_en": "Ten Suppliers Identified and Rules for Exclusion from the Supply Chain",
+          "paragraphs_ja": [
+            "中科院は10社の名称、該当する部品、対象契約を公表していない。方針として、中国製と疑われる部品の原産地を証明できない場合は即時交換か設計変更を求め、試料提出や是正を拒む企業は同院の供給網から除外して関係機関に通知するとし、「特定の企業を意図的に排除するものではない」と説明した。契約の時期に応じて、2024年以前に納入済みの契約は同型機の提出と中核部品の個別確認、納入中・量産準備中の案件は試料と工程の検査、今後の契約は納入時の全機分解と原製造元の原産地証明の照合を求める。",
+            "顧部長は、年次予算、特別予算、小規模予算のいずれで購入した無人機も納入時に全機を分解して検査するよう指示した。背景として台北タイムズは、陸軍の調達契約で中国製チップとフライトコントローラーを使った企業と、訓練用無人機に中国製チップを組み込んだ別の企業の経営者がいずれも拘束されたことを挙げている。"
+          ],
+          "paragraphs_en": [
+            "NCSIST did not name the ten companies, the components or the contracts involved. It said that where the origin of suspected Chinese parts cannot be verified, manufacturers must replace them immediately or revise their designs; suppliers that refuse sample submission or fixes will be excluded from its supply chain and reported to the relevant agencies, and the checks are 'not intended to deliberately exclude any particular companies.' Depending on contract timing, programs delivered before 2024 must provide same-model drones for individual checks of core components, programs in delivery or preparing for mass production must submit samples and undergo process inspections, and future contracts require full teardown on delivery and verification of the original manufacturers' certificates of origin.",
+            "Koo ordered that every drone, whether bought through annual, special or small-scale budgets, be fully disassembled and inspected on delivery. As background, the Taipei Times notes that the heads of a company that used Chinese chips and flight-control boards under an army procurement contract and of another that installed Chinese chips in training drones have both been detained."
+          ]
+        },
+        {
+          "heading_ja": "起訴状が示した偽装の手口",
+          "heading_en": "The Indictment's Account of the Deception",
+          "paragraphs_ja": [
+            "台中地検によれば、Alignの創業者で経営者の杜氏は、契約条件で中国製品・部品が禁じられていることを知りながら中国製チップを使い、原産地証明と保証書に台湾での設計・製造と虚偽の記載をした。副社長として入札と契約履行を統括していた妻の黄氏も起訴され、検察は両名に5年以上の実刑を求めている。チップは納入検査で発見され、陸軍軍官学校の訓練用機には北京の「T31」系チップ、陸軍後勤指揮部の投下型無人機には「China」の刻印のあるチップが見つかり、軍が検察に通報した。",
+            "杜氏は捜査で軍用無人機に中国製部品を使ったことを認め、従業員にネット上や外部で口外しないよう指示していたという。同社は陸軍軍官学校と陸軍後勤指揮部への訓練用無人機、海軍左営後勤支援指揮部への遠隔操縦ヘリの納入実績を持つ。中科院の10社の発表とAlignの事案が同一かどうかは、いずれの報道も明示していない。"
+          ],
+          "paragraphs_en": [
+            "According to the Taichung prosecutors, Align's founder and owner, surnamed Tu, knowingly used Chinese-made chips despite contract terms banning Chinese products and components, and falsely stated on certificates of origin and warranties that the products were designed and made in Taiwan. His wife, surnamed Huang, who as vice president oversaw bids and contract fulfillment, was also indicted; prosecutors seek at least five years' imprisonment for each. The chips were found during delivery inspections: Beijing 'T31'-series chips in training drones at the Military Academy and chips marked 'China' in bomb-dropping drones at the Army Logistics Command, after which the military reported the case.",
+            "Tu admitted during the investigation that Chinese components were used in military drones and told employees not to disclose the matter online or to others. The company has supplied training drones to the Military Academy and the Army Logistics Command and remote-controlled helicopters to the Navy's Zuoying Logistics Support Command. Neither report states whether the Align case is among the ten suppliers flagged by NCSIST."
+          ]
+        },
+        {
+          "heading_ja": "「非紅供応鏈」の実効性を試す検査体制",
+          "heading_en": "An Inspection Regime That Tests the 'Non-Red Supply Chain'",
+          "paragraphs_ja": [
+            "台湾は中国製部品を排した「非紅色供応鏈」を無人機産業育成の柱としてきたが、今回の事案は小口の訓練用途から中国製チップが入り込む経路を示した。中科院の新たな要件は、原産地証明の自己申告から試料と工程の実地検査へ確認の方法を移すものである。中国製フライトコントローラーやチップは情報漏えいや遠隔からの機能停止の懸念と結び付けられており、全機分解検査は納入の遅れと費用を伴う。10社の社名と対象契約の公表、そして米国製V-BATの大量購入を含む調達計画への影響が次の論点となる。"
+          ],
+          "paragraphs_en": [
+            "Taiwan has made a 'non-red supply chain' free of Chinese components a pillar of its drone-industry policy; this case shows how Chinese chips entered through small training-drone purchases. NCSIST's new requirements move verification from self-declared certificates of origin to physical inspection of samples and processes. Chinese flight controllers and chips are associated with concerns about data leakage and remote disablement, and full teardown inspections bring delivery delays and costs. The next questions are whether the ten companies and the affected contracts will be named, and how the procurement plan, including the large V-BAT purchase from the United States, is affected."
+          ]
+        }
+      ],
+      "watch_next_ja": "中科院による10社の社名・対象契約の公表の有無。台中地方法院での審理日程。国防部の全軍総点検の結果と立法院外交及国防委員会への報告。",
+      "watch_next_en": "Whether NCSIST names the ten suppliers and the affected contracts; the trial schedule at the Taichung District Court; results of the Defense Ministry's military-wide review and its report to the Legislative Yuan's Foreign and National Defense Committee.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "国家中山科学研究院、国防部、台中地方検察署（台北タイムズ、中央社の報道）",
+      "publisher_en": "NCSIST; Ministry of National Defense; Taichung District Prosecutors Office (reported by Taipei Times, CNA/Focus Taiwan)",
+      "sources": [
+        {
+          "title": "Ten drone suppliers flagged over suspected Chinese components",
+          "url": "https://taipeitimes.com/News/taiwan/archives/2026/11/13/2003867685",
+          "publisher": "Taipei Times",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Prosecutors indict couple over Chinese chips in drones",
+          "url": "https://focustaiwan.tw/society/202611130017",
+          "publisher": "Focus Taiwan (CNA)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Drone firm director indicted over Chinese chips",
+          "url": "https://taipeitimes.com/News/taiwan/archives/2026/11/13/2003867692",
+          "publisher": "Taipei Times",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "cyber-ci"
+      ],
+      "actors": [
+        "TW",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Starshield速度制限、ゼレンスキー氏が米政府・SpaceXへの接触強化を指示　米上院2議員は命令者の特定を要求",
+      "title_en": "Starshield Speed Cap: Zelensky Orders Intensified Contacts with State, the Pentagon and SpaceX; Two US Senators Demand to Know Who Ordered It",
+      "lead_ja": "ゼレンスキー大統領は11月13日、Starshieldの時速161kmの速度制限について「明確な説明がまだない」として、外務省と国防省に米国務省、国防省、SpaceXとの接触を強めるよう指示した。ウクライナ国防省の関係者は、制限が占領地全域で記録され、ウクライナ支配地域では観測されず、問題はないと複数の媒体に述べた。米上院のシャヒーン（民主）、ティリス（共和）両議員は12日の共同声明で「誰が中断を命じ、承認したかを議会が特定し、責任を問わねばならない」と述べ、国防省とSpaceXに記録の保全と契約・通信の提出を求めた。",
+      "lead_en": "On November 13 President Zelensky said there are still 'no clear explanations' for the 161 km/h Starshield speed cap and instructed the foreign and defense ministries to intensify contacts with the State Department, the Pentagon and SpaceX. Ukrainian defense ministry officials told several outlets that the cap is recorded across occupied territory and has not been detected over Ukrainian-controlled areas. In a joint statement on the 12th, Senators Jeanne Shaheen (D) and Thom Tillis (R) said 'Congress must determine who ordered or approved these disruptions and hold those responsible accountable,' and called on the Pentagon and SpaceX to preserve records and hand over contracts and communications.",
+      "sections": [
+        {
+          "heading_ja": "「系統的な制限」と地理的範囲の食い違い",
+          "heading_en": "A 'Systematic Restriction' and Conflicting Accounts of Its Reach",
+          "paragraphs_ja": [
+            "ゼレンスキー氏は12日の動画とダブリンの欧州政治共同体首脳会議で、軍の調査により制限が偶発的な誤りを超えた「系統的な速度制限」だと判明したと述べ、「速度の制限のために、我々は単に時間内に追いつけない」と語った。Scrippsは制限の範囲を「前線全体と占領地」と報じるが、Kyiv PostとLIGA.netに語った国防省関係者は「一時的に占領された全領域」に限られ、支配地域では問題がないと述べており、範囲の説明は媒体間で食い違う。",
+            "LIGA.netによれば、機体に搭載した端末は時速161kmに達すると接続を失い、迎撃機に加えて中距離攻撃型無人機にも影響が出ている。Axiosに語った匿名のウクライナ当局者は「影響を受けたStarshieldの無人機任務はすべて失敗している」と述べたが、対象部隊や期間の裏付けはなく、Kyiv Postの見出しにある「100%」はこの発言の言い換えである。"
+          ],
+          "paragraphs_en": [
+            "In a video on the 12th and at the European Political Community summit in Dublin, Zelensky said a military investigation had found the limits were 'not random errors' but a 'systematic speed restriction,' and that 'because of the speed restrictions, we simply cannot catch up with them in time.' Scripps reports the cap applies to 'the entire front line and in Russian-occupied territory,' while defense ministry officials speaking to the Kyiv Post and LIGA.net said it covers 'all temporarily occupied Ukrainian territory' with no problem over controlled areas; the accounts of its reach do not match.",
+            "According to LIGA.net, a drone-mounted terminal loses connection once the aircraft reaches 161 km/h, and medium-range strike drones are affected alongside interceptors. An unnamed Ukrainian official told Axios that 'all affected Starshield drone missions in Ukraine are failing,' a statement without supporting detail on units or time span; the '100%' in the Kyiv Post headline is a paraphrase of that remark."
+          ]
+        },
+        {
+          "heading_ja": "SpaceXの否定と、宙に浮く決定者",
+          "heading_en": "SpaceX's Denial and the Unidentified Decision-Maker",
+          "paragraphs_ja": [
+            "SpaceXは12日、「これは誤りであり、変更はない」と繰り返した。マスク氏は10月の前回の制限について、Starshieldの制限は「米軍と最終的には大統領が決める」と述べており、ロイターはトランプ政権の指示だったと報じ、トランプ氏は関与を否定していた。国防省と国務省からの公式な説明は今回も出ていない。",
+            "シャヒーン、ティリス両議員は10月の中断後に国防省監察総監の調査を超党派で求めたが、監察総監は10月末に省内で扱うべき事項だとして調査を見送った。両議員の今回の声明はStarshieldサービスの回復と記録の保全、契約・通信の議会への提出を求めるもので、監察から議会による直接の監督へ軸足を移している。声明に宛先の明示はない。"
+          ],
+          "paragraphs_en": [
+            "On the 12th SpaceX repeated, 'This is false. There has been no change.' Of the October restriction, Musk had said Starshield limits are 'decided by the US military and ultimately POTUS'; Reuters reported the order came from the Trump administration, and Trump denied involvement. No on-record explanation from the Pentagon or the State Department has been found this time either.",
+            "After the October disruption Shaheen and Tillis led a bipartisan request for a Pentagon inspector general investigation, which the IG declined in late October as a matter better handled by the department. Their new statement demands restoration of Starshield service, preservation of records and the handover of contracts and communications to Congress, shifting from an IG review to direct congressional oversight. The statement names no addressee."
+          ]
+        },
+        {
+          "heading_ja": "迎撃網の民間回線依存という構造的な問い",
+          "heading_en": "The Structural Question of an Interceptor Network Riding on One Commercial Link",
+          "paragraphs_ja": [
+            "10月14日に始まった前回の制限は24日に解除され、端末は時速400km超で機能したと国防省は説明していた。今回は12日時点で「数日間」続いているとされ、解除の報告はない。ウクライナの駐米臨時代理大使は11月5日、現行のStarshield契約が2027年半ばに期限を迎えると述べており、ジェット型Shahedへの迎撃網が単一の民間回線に依存する構造は、契約更新と並行して代替回線の整備を迫る。13日未明の空軍発表ではジェット型63機のうち39機が無力化され、12日日中の66機中60機を下回った。"
+          ],
+          "paragraphs_en": [
+            "The previous restriction began on October 14 and was lifted on the 24th, after which the defense ministry said terminals worked at speeds above 400 km/h. The current one had lasted 'several days' as of the 12th, with no report of its lifting. Ukraine's chargé d'affaires in Washington said on November 5 that the current Starshield contract expires around mid-2027; an interceptor network against jet-powered Shaheds that depends on a single commercial link presses Kyiv to build alternative links alongside the renewal. The Air Force's report for the night of the 13th shows 39 of 63 jet-powered drones neutralized, below the 60 of 66 reported for the daytime of the 12th."
+          ]
+        }
+      ],
+      "watch_next_ja": "国防省・国務省の公式説明の有無。シャヒーン、ティリス両議員が求める記録・契約の提出。空軍日次発表のジェット型無人機の迎撃率の推移。",
+      "watch_next_en": "Any on-record explanation from the Pentagon or State; the records and contracts Shaheen and Tillis are demanding; the trend in jet-drone interception rates in the Air Force's daily reports.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "ウクライナ大統領府、ウクライナ国防省、米上院シャヒーン・ティリス両議員（Scripps、Kyiv Post、LIGA.net、Forbes、APの報道）",
+      "publisher_en": "Office of the President of Ukraine; Ukrainian Ministry of Defence; Senators Shaheen and Tillis (reported by Scripps News, Kyiv Post, LIGA.net, Forbes, AP)",
+      "sources": [
+        {
+          "title": "Starshield speed limits return in Ukraine as senators demand to know who ordered them",
+          "url": "https://www.newschannel5.com/world/europe/starshield-speed-limits-return-in-ukraine-as-senators-demand-to-know-who-ordered-them",
+          "publisher": "Scripps News",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Musk's Starshield Missions Face 100% Failure Rate in Ukraine After Renewed Restrictions",
+          "url": "https://www.kyivpost.com/post/90036",
+          "publisher": "Kyiv Post",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Starshield problems: Defense Ministry in contact with Musk's company and the Pentagon",
+          "url": "https://news.liga.net/en/politics/news/starshield-problems-defense-ministry-in-contact-with-musks-company-and-the-pentagon-source",
+          "publisher": "LIGA.net",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Zelenskyy Says Ukraine Is Still Seeking Clarity From U.S. On Renewed SpaceX Starshield Speed Limits",
+          "url": "https://www.forbes.com/sites/fionariley/2026/11/13/zelenskyy-says-ukraine-is-still-seeking-clarity-from-us-on-renewed-spacex-starshield-speed-limits/",
+          "publisher": "Forbes",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine fires nearly 1,200 drones at Russia as US-led talks consider Europe security",
+          "url": "https://abcnews.com/International/wireStory/ukraine-fires-1200-drones-russia-us-led-talks-138104516",
+          "publisher": "AP (via ABC News)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "UA",
+        "US",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261113-02"
+    },
+    {
+      "id": "cl-20261114-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ、ロシア本土に大規模無人機攻撃　ロシア国防省は1,198機撃墜を主張、ボルゴグラード製油所で火災",
+      "title_en": "Ukraine Mounts a Mass Drone Attack on Russia: Moscow Claims 1,198 Downed, Fires at the Volgograd Refinery and in Rostov, 105 Drones Over the Capital",
+      "brief_text_ja": "AP通信によれば、ロシア国防省は12日夜から13日早朝にウクライナの長距離無人機1,198機を撃墜したと発表し、APはこれを開戦以来最大級の空襲の一つと位置づけた。モスクワのソビャニン市長は21時34分から2時08分の間に首都へ向かう105機を迎撃したと述べ、ロシア航空局はシェレメチェボ、ドモジェドボ、ジュコフスキーの各空港の運航を制限した。Kyiv Independentは、年間処理能力1,500万トンのLukoilボルゴグラード製油所とロストフ・ナ・ドヌの生産施設で火災が起きたと監視チャンネルの映像と両州知事の発表に基づき報じており、ウクライナ側の公式な攻撃声明は同記事の時点で確認されず、ロシア国防省の撃墜数も独立に検証されていない。",
+      "brief_text_en": "According to AP, Russia's defense ministry said it downed 1,198 Ukrainian long-range drones between late on the 12th and early on the 13th, which AP calls one of the biggest aerial attacks of the war. Moscow Mayor Sobyanin said 105 drones bound for the capital were intercepted between 21:34 and 02:08, and the aviation authority restricted flights at Sheremetyevo, Domodedovo and Zhukovsky. The Kyiv Independent, citing monitoring-channel footage and the two regional governors, reported fires at Lukoil's Volgograd refinery (capacity 15 million tonnes a year) and at a production facility in Rostov-on-Don; no official Ukrainian claim had been issued at the time of the report, and the Russian shoot-down figure is unverified.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "ロシア国防省、モスクワ市長、ボルゴグラード州・ロストフ州知事（AP、Kyiv Independentの報道）",
+      "publisher_en": "Russian Ministry of Defense; Mayor of Moscow; governors of Volgograd and Rostov (reported by AP, Kyiv Independent)",
+      "sources": [
+        {
+          "title": "Ukraine fires nearly 1,200 drones at Russia as US-led talks consider Europe security",
+          "url": "https://abcnews.com/International/wireStory/ukraine-fires-1200-drones-russia-us-led-talks-138104516",
+          "publisher": "AP (via ABC News)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Mass drone attack on Moscow grounds flights at region's airports",
+          "url": "https://kyivindependent.com/mass-drone-attack-on-moscow-grounds-flights-at-regions-airports/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Volgograd oil refinery, Rostov-on-Don production facility in flames following Ukrainian drone attack",
+          "url": "https://kyivindependent.com/volgograd-oil-refinery-rostov-on-don-production-facility-in-flames-following-ukrainian-drone-attack/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ空軍、13日未明は無人機117機のうち80機を無力化と発表　ジェット型は63機中39機",
+      "title_en": "Ukraine's Air Force Says 80 of 117 Drones Were Neutralized Overnight on November 13, Including 39 of 63 Jet-Powered",
+      "brief_text_ja": "空軍によれば、ロシアは12日18時以降、オリョール、クルスク、ミレロヴォ、シャタロヴォ、プリモルスコ・アフタルスク、クリミアのフヴァルディイスケから攻撃型無人機117機（ジェット型63機。Shahed、Gerbera、模擬機Parodiyaを含む）を発射し、7時30分時点の暫定集計で航空、対空ミサイル部隊、電子戦・無人システム部隊、機動火力班が80機（ジェット型39機）を撃墜・制圧した。24か所で着弾、10か所で残骸の落下があり、ミサイルの発射は報告に含まれず、ジェット型の無力化数は12日日中の66機中60機から63機中39機へ下がり、速度制限をめぐる議論と時期が重なる。",
+      "brief_text_en": "The Air Force says that from 18:00 on the 12th Russia launched 117 attack drones (63 jet-powered; Shahed, Gerbera and Parodiya decoys) from Oryol, Kursk, Millerovo, Shatalovo, Primorsko-Akhtarsk and Hvardiiske in Crimea; by the preliminary count at 07:30, aviation, anti-aircraft missile troops, electronic-warfare and unmanned-systems units and mobile fire groups shot down or suppressed 80, including 39 jet-powered. Hits were recorded at 24 locations and debris fell at 10 more; no missile launches were reported. The jet-drone count fell from 60 of 66 in the daytime of the 12th to 39 of 63, coinciding with the dispute over speed limits.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "ウクライナ空軍（Ukrinform、Glavnoeの報道）",
+      "publisher_en": "Ukrainian Air Force (reported by Ukrinform, Glavnoe)",
+      "sources": [
+        {
+          "title": "Air defense downs 80 of 117 Russian drones launched overnight",
+          "url": "https://www.ukrinform.net/rubric-ato/4184168-air-defense-downs-80-of-117-russian-drones-launched-overnight.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine attacked overnight by 117 UAVs, including 63 jet-powered Shaheds",
+          "url": "https://glavnoe.in.ua/en/news-en/ukraine-attacked-overnight-by-117-uavs-including-63-jet-powered-shaheds",
+          "publisher": "Glavnoe",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261113-07"
+    },
+    {
+      "id": "cl-20261114-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍犯罪捜査部、ダークネットと暗号化メッセージを監視するAI搭載の商用脅威情報基盤で情報提供要請　12月9日締切",
+      "title_en": "US Army CID Issues RFI for an AI-Enabled Commercial Platform to Monitor the Darknet and Encrypted Messaging; Responses Due December 9",
+      "brief_text_ja": "DefenseScoopによれば、陸軍犯罪捜査部（CID）は今週、Signal、Telegram、Discord、ダークネット、代替SNSを対象に「自動化された行動分析、機械学習、人工知能」を用いるクラウド型の商用脅威情報・捜査基盤の情報提供要請（RFI）をSAM.govに掲出し、回答期限を12月9日とした。要件には自然言語処理と画像認識による自動翻訳・記号認識、匿名アカウントの人物像への統合、ブロックチェーン取引の可視化、削除された投稿の自動保全、捜査官の政府発信元を隠す経路制御が含まれ、要員・施設への「暴力への動員」の早期兆候を捕捉して「事後対応型から事前対応型へ」移ることを目的に掲げる。RFIは警報の検証に人間の分析官を関与させる方法も尋ねている。",
+      "brief_text_en": "According to DefenseScoop, Army Criminal Investigation Division this week posted a request for information on SAM.gov for a cloud-hosted commercial threat-intelligence and investigative platform using 'automated behavioral analytics, machine learning, and artificial intelligence' across Signal, Telegram, Discord, the darknet and alt-tech platforms, with responses due December 9. Requirements include NLP and computer vision for automated translation and symbol recognition, correlation of pseudonymous accounts into unified subject profiles, blockchain transaction graphing, automated preservation of deleted content, and network routing that masks investigators' government origin; the stated aim is to catch early indicators of 'mobilization to violence' against personnel and installations and move from a 'reactive footing' to a 'proactive model.' The RFI also asks how human analysts would validate alerts.",
+      "japan_relevance": false,
+      "date": "2026-11-12",
+      "stage": "solicitation",
+      "publisher": "米陸軍犯罪捜査部（DefenseScoopの報道）",
+      "publisher_en": "US Army Criminal Investigation Division (reported by DefenseScoop)",
+      "sources": [
+        {
+          "title": "Army CID looking for new commercial software tools to monitor darknet, encrypted messaging platforms",
+          "url": "https://defensescoop.com/2026/11/12/army-cid-software-darknet-encrypted-messaging/",
+          "publisher": "DefenseScoop",
+          "date": "2026-11-12",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Request for Information (SAM.gov opportunity)",
+          "url": "https://sam.gov/workspace/contract/opp/529e78e20f254721b8ab15d729df81a6/view",
+          "publisher": "SAM.gov",
+          "date": "2026-11-12",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "cognitive"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国国家AI戦略委の分科委員長、独自基盤モデル第3次版の国防への即時適用を提言　2028年までに非戦闘分野を完成",
+      "title_en": "Korea's National AI Strategy Committee Defense Chair Urges Immediate Military Tuning of the Government's Third Sovereign Foundation Model Next Year, with Non-Combat AI Largely Complete by 2028",
+      "brief_text_ja": "13日にソウル龍山で開かれた第5回コナンテクノロジー国防AIサミットで、国家人工知能戦略委員会国防安保分科のシム・スンベ委員長は、政府の独自AI基盤モデル事業の第3次モデルが来年初めに出れば「直ちに国防内部でチューニングする作業に着手すべきだ」と述べ、国防を独自基盤モデル、安保特化モデル、フロンティアAI事業の共通需要先に位置づける案を示した。2027年上半期に「みんなのAI」の将兵版を提供し、2028年までに非戦闘分野のAI適用をほぼ完成させ、2030年までに兵器体系ソフトの更新周期を6か月以内に短縮するため国防先端戦略技術関連法にソフト中心の取得例外を設けるよう求めた。国防部は2026年1月にAI局を新設して次官を最高AI責任者（CAIO）とし、各軍本部もCAIOの指定を進めているという。",
+      "brief_text_en": "At the 5th Konan Technology Defense AI Summit in Yongsan, Seoul, on the 13th, Shim Seung-bae, chair of the defense and security subcommittee of the National AI Strategy Committee, said that once the third-round model of the government's sovereign AI foundation model project appears early next year, 'work to tune it inside defense must start immediately,' and proposed making defense the common demand site for that project, a security-specialized model and the Frontier AI project. He called for a soldier version of 'AI for everyone' in the first half of 2027, near-complete AI adoption in non-combat areas by 2028, and a software-centered acquisition exception in the defense advanced strategic technology law to cut weapon-system software update cycles to within six months by 2030. The defense ministry created an AI bureau in January 2026 and named the vice minister chief AI officer; each service headquarters is designating its own.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "国家人工知能戦略委員会国防安保分科（イーデイリーの報道）",
+      "publisher_en": "National AI Strategy Committee, defense and security subcommittee (reported by Edaily)",
+      "sources": [
+        {
+          "title": "“내년 독파모 3차 모델 나오면 국방에 즉시 적용해야”",
+          "url": "https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03217686645645392",
+          "publisher": "Edaily",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261114-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国空軍、ロイヤルウィングマンを二本立てで整備　F-35には海外製、KF-21には国産無人機　海外機の要求性能は来年決定",
+      "title_en": "ROK Air Force Takes a Two-Track Loyal Wingman Approach: Foreign CCAs for F-35A, F-15K and KF-16, Domestic Drones for KF-21 and FA-50, with the Foreign Requirement to Be Set Next Year",
+      "brief_text_ja": "ニューズピムの軍事コラムによれば、空軍と国防科学研究所（ADD）が13日に大田で共催した韓国軍事科学技術学会秋季大会の特別シンポジウムで、空軍は有人機に随伴する無人機を、F-35A・F-15K・KF-16向けの海外製協業戦闘機（CCA）とKF-21ブロック1・FA-50向けの国産機に分ける二本立ての構想を示し、海外製CCAの要求性能を来年決めるとした。F-35Aの運用ソフトとデータリンクは米政府とロッキード・マーチンの管理下にあり、国産無人機の連接には米側の承認とソースコード協力を要するためである。KAIはKF-21 1機にCCA 4機と空中発射型小型無人機8機を組み合わせる二層編隊を提案し、Shield AIのHivemind Enterpriseで自社AIパイロット「Kpilot」を検証中で、ADDと大韓航空の低被探知無人編隊機（LOWUS）は2027年に有人・無人の編隊飛行試験を目標とし、パネルにはShield AI KoreaとAnduril Koreaも参加した。",
+      "brief_text_en": "According to a Newspim military column, at a special symposium of the Korean Military Science and Technology Society's autumn conference co-hosted by the Air Force and the Agency for Defense Development (ADD) in Daejeon on the 13th, the Air Force presented a two-track loyal-wingman concept: foreign collaborative combat aircraft (CCA) for the F-35A, F-15K and KF-16 and domestic drones for KF-21 Block 1 and FA-50, with the foreign CCA requirement to be decided next year. The F-35A's operating software and data link are controlled by the US government and Lockheed Martin, so pairing a Korean drone would need US approval and source-code cooperation. KAI proposed a two-tier formation of one KF-21 with four CCAs and eight air-launched small drones and is validating its 'Kpilot' AI pilot with Shield AI's Hivemind Enterprise; ADD and Korean Air's low-observable LOWUS targets manned-unmanned formation flight tests in 2027. Shield AI Korea and Anduril Korea also sat on the panel.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "韓国空軍、国防科学研究所（ニューズピムのコラム）",
+      "publisher_en": "ROK Air Force; Agency for Defense Development (Newspim column)",
+      "sources": [
+        {
+          "title": "[오동룡의 밀리터리 인사이드] 공군 '로열 윙맨' 투트랙…F-35엔 외산, KF-21엔 국산 무인기 붙인다",
+          "url": "https://www.newspim.com/news/view/20261113001426",
+          "publisher": "Newspim",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "KR",
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告の「文書の要素」と議定書交渉マンデート案を審議",
+      "text_en": "CCW Seventh Review Conference (Geneva, Nov 16–20): the GGE final report's 'elements for an instrument' and a draft mandate to negotiate a protocol"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "米FEMA 2027年度対無人機助成（2.5億ドル）の申請期限",
+      "text_en": "Application deadline for FEMA's FY2027 counter-drone grants ($250 million)"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）。トランプ大統領が出席し、その後深圳のAPEC首脳会議で習主席と会談の見通し",
+      "text_en": "49th ASEAN Summit and related meetings (Manila, Nov 16–18); President Trump attends before meeting Xi at APEC in Shenzhen"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "Nvidiaの2027年度第3四半期決算（クレス暫定CEO体制で初）。取締役会の独立調査、対中H200許可、輸出管理法案への姿勢が焦点",
+      "text_en": "Nvidia's Q3 FY2027 earnings, the first under interim CEO Kress; the board's independent investigation, H200 licenses for China and the company's stance on export-control bills in focus"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, Nov 17–19); NCIA industry workshop on the Integrated Cyber Defence Centre"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "米中経済・安全保障調査委員会（USCC）の2026年年次報告書の公表",
+      "text_en": "Release of the US-China Economic and Security Review Commission's 2026 annual report"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "APEC首脳会議（深圳、11月18〜19日）に合わせたトランプ・習会談。「超知能」対話の前進とAI事故通報経路が議題とベセント長官",
+      "text_en": "Trump–Xi meeting alongside the APEC summit in Shenzhen (Nov 18–19); Bessent says progress on the 'superintelligence' dialogue and an AI-incident reporting channel are on the agenda"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting voting on the 450 MHz drone data link and 24.45–24.65 GHz drone-detection radar items"
+    },
+    {
+      "date": "2026-11-21",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの質問締切（回答は12月4日）",
+      "text_en": "Question deadline for the Air Force's cislunar autonomy AI/ML software RFI (responses due Dec 4)"
+    },
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for the Commerce, Justice and State secretaries and the DNI to answer Senator Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the Pentagon's Science and Technology Innovation Board to start its study on commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。外国干渉事件の捜査と選挙期間中の偽情報・サイバー攻撃の推移",
+      "text_en": "Taiwan's local elections; foreign-interference investigations and disinformation and cyber activity during the campaign"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：与党実務者協議で安保3文書の骨子案の議論を開始（11月下旬以降）",
+      "text_en": "Japan: ruling-party working-level talks begin on an outline of the three security documents (from late November)"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：国家サイバー統括室のアウトリーチ・チーム新設とIPA「トップガン人材チーム」立ち上げの期限（11月中）",
+      "text_en": "Japan: deadline (within November) for the National Cyber Office's outreach team and IPA's 'top gun' talent team"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院外交・中国特別・情報の3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取（書簡の指定日。TechCrunchは感謝祭前の証言と報道）",
+      "text_en": "Closed-door, transcribed interview of former Nvidia CEO Huang by the House Foreign Affairs, China Select and Intelligence committees (date set in the letter; TechCrunch reports testimony before Thanksgiving)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米上院銀行委員会でのフアン氏の証言（スコット委員長は12月第1週を要請）",
+      "text_en": "Huang's testimony before Senate Banking (Chair Scott requested the first week of December)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "日本：安保3文書改定に向けた有識者会議の報告書（12月上旬の見通し）",
+      "text_en": "Japan: expert panel report on the revision of the three security documents (expected early December)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "国連総会本会議でのLAWS決議（第1委員会で10月29日に163対5で採択）の採択（12月上旬の見通し）",
+      "text_en": "UN General Assembly plenary adoption of the LAWS resolution (adopted 163–5 in the First Committee on Oct 29), expected early December"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "韓国：防衛事業庁の「国防革新ラボ」事業の着手（12月）",
+      "text_en": "Korea: DAPA's 'Defense Innovation Lab' project begins (December)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "イスラエル国防軍の無人システム・AI部門の発足（12月初めまでの予定と報道）",
+      "text_en": "IDF unmanned-systems and AI directorate to stand up (reported for early December)"
+    },
+    {
+      "date": "2026-12-04",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの回答期限",
+      "text_en": "Response deadline for the Air Force's cislunar autonomy AI/ML software RFI"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。規則案は2026年7月10日からOIRA審査中",
+      "text_en": "Statutory deadline for the FAA's Part 108 (BVLOS) final rule; the draft has been under OIRA review since July 10, 2026"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区、CSSCの500トン級無人艇、人型ロボットを含む空軍の「デジタル・インテリジェント」展示が予告",
+      "text_en": "Airshow China (Zhuhai, Dec 7–13): dedicated unmanned and counter-drone zone, CSSC's 500-tonne-class unmanned vessel and a PLAAF 'digital and intelligent' section with humanoid robots announced"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, Korea, Dec 8–11), five themes including drones and counter-drone"
+    },
+    {
+      "date": "2026-12-09",
+      "text_ja": "米陸軍犯罪捜査部のダークネット・暗号化メッセージ監視AI基盤RFIの回答期限",
+      "text_en": "Response deadline for Army CID's RFI on an AI-enabled darknet and encrypted-messaging monitoring platform"
+    },
+    {
+      "date": "2026-12-10",
+      "text_ja": "ラトニック商務長官の上院銀行委員会での証言（米政府関係者の説明として報道。日程は未確認）",
+      "text_en": "Commerce Secretary Lutnick's testimony before Senate Banking (reported via a US official; date unconfirmed)"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）",
+      "text_en": "Japan: Cabinet decision on the revised three security documents (mid-December target, per reports)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：国内の踏み台機器対策の取りまとめと、サイバー協議会を通じた脅威ハンティング用マニュアル・検知ツールの提供（年内目途）",
+      "text_en": "Japan: compilation of measures against compromised domestic devices and provision of threat-hunting manuals and tools via the Cyber Council (by year-end)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：AI法制度の見直しの全体像（法改正を含む）の提示（年内目途）",
+      "text_en": "Japan: presentation of the overall review of the AI legal framework, including amendments (by year-end)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "ロシアの低軌道衛星網Rassvetの年内の追加打ち上げ（ウクライナ情報総局は7回を予定と説明）",
+      "text_en": "Further launches of Russia's Rassvet LEO constellation within the year (Ukraine's HUR says seven are planned)"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "日本：2027年通常国会の召集（1月中旬〜下旬の見込み）。能動的サイバー防御法改正案の提出は「早ければ」この会期と報道",
+      "text_en": "Japan: the 2027 ordinary Diet session convenes (mid-to-late January); an Active Cyber Defense Act amendment could be submitted 'as early as' this session"
+    },
+    {
+      "date": "2027-01-27",
+      "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）",
+      "text_en": "Deadline for US civilian agencies to remove Acronis software (DHS directive)"
+    },
+    {
+      "date": "2027-01-28",
+      "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限",
+      "text_en": "Reporting deadline for 'Project Meridian' (the Secretary of War's future-of-warfare panel)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "欧州委員会のドローン戦略2.0実施ロードマップの提示（2027年春）",
+      "text_en": "European Commission implementation roadmap for Drone Strategy 2.0 (spring 2027)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "日本：サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）の運用開始（3月頃）",
+      "text_en": "Japan: launch of the Supply Chain Security evaluation scheme (around March)"
+    },
+    {
+      "date": "2027-10-01",
+      "text_ja": "米国防省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日",
+      "text_en": "Target date for the Pentagon's Autonomous Warfare Command (a four-star functional combatant command)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国：国防省のCDAO→SIO改称（Breaking Defense・配信サービス転載。war.gov本文は取得不可）、下院3委員長書簡・上院銀行委・ベセント長官CNBC・トランプ発言（Euronews/CBS/TechCrunch/AFP）、Army CID RFI（DefenseScoop 12日）、JIATF-401のIC評価要請（DefenseScoop 12日、AI要素なしで不採用）、ヘグセス長官のOSS改称メモ（12日公表、AI要素なしで不採用）、B-21兵装分離試験（13日、AI要素なし）、Starshieldに関するシャヒーン・ティリス声明（12日）。空軍・宇宙軍の「15任務領域SI」計画とSIリテラシー教育は10月27日・11月6日の発言で範囲外（主要動向1の文脈として言及）。宇宙軍AtlasX「Fight Tonight」の採択8件の発表（13日宇宙軍ボール）は13日夜（米国時間）時点で公表を確認できず。中国：外交部13日定例会見の毛寧発言（AFP経由）を主要動向2に組み込み。習主席の「智能化軍事体系」発言は7月30日の政治局集団学習で範囲外。cellcog.aiの「中国6モデルにBlackwellの数値痕跡」は検証コード未公開で不採用。日本：防衛大臣会見（13日08:44〜08:52）と報道資料は取得権限の制約で開けず、二次報道での代替も確認できなかった。NHK13日付は独Quantum Systems（11:07）、安保3文書与党協議の解説（15:29、本文は閲覧制限）、古川デジタル相と業界団体の面会（20:53、AI要素なし）、内閣府沖縄関連サイトの漏えい（AI要素なし）。共同の「小泉防衛相、無人機企業を視察」は2026年1月14日の記事で範囲外。官邸・外務省・経産省・総務省の13日付にAI・安保の該当なし。韓国：イーデイリー（国防AIサミット）、ニューズピム（空軍ロイヤルウィングマン）を短信に。DAPA/ADDの13日付公式発表は検索で確認できず。台湾：中科院10社・顧立雄部長指示・台中地検起訴（台北タイムズ・中央社）を主要動向4に。国家科学技術委員会の保護技術46項目案は12日公表で範囲外。欧州・NATO：Quantum Systems（The Register/ロイター/DroneXL/United24/Euronews DE。会社声明とシュピーゲルは取得不可）を主要動向3に。欧州委DG DEFISの13日付EDF記事は回顧的な連載総括で不採用。英海軍とノースロップのProject Vanquish意向書（12日、HMSプリンス・オブ・ウェールズ）は機種の報道が食い違い、一次資料未確認で不採用。英国：13日付の国防省新規発表は確認できず。ロシア・ウクライナ：空軍13日未明発表（Ukrinform/Glavnoe）、ロシア本土への大規模攻撃（AP/Kyiv Independent）、Starshield続報（Scripps/Kyiv Post/LIGA/Forbes/AP）を採用。イスラエル・中東：13日付のAI・無人機の新規発表は確認できず。インド：13日付の新規なし（DRDO音響探知は10日既報）。豪州：APRAのフロンティアAI警告（ABC 13日）は金融監督で安保の接点が薄く不採用。ASEAN：13日付の該当なし。規範：UNジュネーブのCCW運用検討会議プレスリリースはrobotsで取得不可、HRW等の共同声明は前号既報。研究：13日付の該当なし。",
+      "japan": "防衛省大臣会見ページ（13日08:44〜08:52の会見が存在することは検索結果で確認、本文は取得権限の制約で開けず）、防衛省報道資料・防衛装備庁（同じく取得不可）、首相官邸・外務省・経産省・総務省の13日付（AI・安保の該当なし）、NHK NEWS WEB 13日付（独Quantum Systems、安保3文書解説、古川デジタル相、内閣府沖縄サイト漏えい）、共同通信（小泉防衛相の無人機企業視察は1月14日付と判明）、国会（13日の安全保障委員会・外交防衛委員会でのAI・無人機質疑は確認できず）。"
+    },
+    "dropped": [
+      {
+        "title": "Counter-UAS task force turns to Intelligence Community for input on real-world threat assessments (DefenseScoop, Nov 12)",
+        "url": "https://defensescoop.com/2026/11/12/counter-drone-task-force-intelligence-community-threat-assessments/",
+        "reason": "JIATF-401ロス局長の11月9日の発言の報道で、AI・自律の要素がなく、評価の内容も非公表。"
+      },
+      {
+        "title": "The Pentagon brings back World War II-era OSS for special operations missions, funding (Task & Purpose, Nov 13)",
+        "url": "https://taskandpurpose.com/news/hegseth-oss-special-operations/",
+        "reason": "特殊作戦担当国防次官補の「戦略事務局」への改称と100人・4,500万ドルの増強で、AI・無人機・サイバーへの言及がない。"
+      },
+      {
+        "title": "Air Force validates B-21 Raider weapons release after test (DefenseScoop, Nov 13)",
+        "url": "https://defensescoop.com/2026/11/13/air-force-b-21-raider-weapons-release-test/",
+        "reason": "デジタルツインによる試験の記述はあるが、AI・自律への言及がない。"
+      },
+      {
+        "title": "From advanced sensors to Next-Generation Communications: How the European Defence Fund helps (European Commission DG DEFIS, Nov 13)",
+        "url": "https://defence-industry-space.ec.europa.eu/advanced-sensors-next-generation-communications-how-european-defence-fund-helps-european-defence-2026-11-13_en",
+        "reason": "ファクトシート連載の総括で、新たな採択・契約の発表を含まない。AI対応センシングとレーザー（TALOS等、2027年試作目標）の記述は背景情報。"
+      },
+      {
+        "title": "Royal Navy to trial Northrop Grumman test aircraft on carrier in 2027 (USNI News, Nov 12)",
+        "url": "https://news.usni.org/2026/11/12/royal-navy-to-trial-northrop-grumman-test-aircraft-on-carrier-in-2027",
+        "reason": "意向書であり資金を伴う開発契約ではなく、対象機（YFQ-48A Talon BlueかTalon IQか）の報道が食い違う。本文も取得できなかった。"
+      },
+      {
+        "title": "U.S. Air Force and Space Force plan to use 'super intelligence' in 15 areas (defence-industry.eu, Nov 7 / GovCIO Media, Nov 6)",
+        "url": "https://defence-industry.eu/u-s-air-force-and-space-force-plan-to-use-super-intelligence-in-15-areas-including-nuclear-operations/",
+        "reason": "発言は10月27日と11月6日で対象期間外。主要動向1の文脈として言及した。"
+      },
+      {
+        "title": "Xi Jinping urges PLA to 'strengthen military application' of unmanned intelligent technologies (Xinhua via secondary reports)",
+        "url": "https://aiweekly.co/alerts/xi-tells-pla-to-strengthen-ai-and-unmanned-systems-by-2027",
+        "reason": "2026年7月30日の政治局集団学習での発言で、対象期間外。"
+      },
+      {
+        "title": "Chinese AI models carry numerical traces of Nvidia Blackwell chips (cellcog.ai)",
+        "url": "https://cellcog.ai/blog/chinese-ai-models-blackwell-fingerprints/",
+        "reason": "単一の研究者ブログで検証コードが未公開。輸出規制違反を示すものではないと筆者自身が留保している。"
+      },
+      {
+        "title": "Regulator warns of 'interruptions' as AI models developed by Anthropic, OpenAI and others evolve (ABC Australia, Nov 13)",
+        "url": "https://abc.net.au/news/2026-11-13/regulator-apra-warns-of-interruptions-as-frontier-ai-evolves/107378944",
+        "reason": "金融監督当局（APRA）の警告で、安全保障・防衛との接点が薄い。"
+      },
+      {
+        "title": "不正アクセス 基本的な対策徹底で官民連携確認 古川デジタル相（NHK、11月13日）",
+        "url": "https://news.web.nhk/newsweb/na/nd-20261113de75690",
+        "reason": "ソフトの脆弱性解消など基本対策の官民連携で、AI・防衛との接点がない。本文も閲覧制限で確認できなかった。"
+      },
+      {
+        "title": "Former Nvidia CEO Huang had relationship with second employee, sources say (Reuters, Nov 12)",
+        "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+        "reason": "企業統治の話題で、輸出管理・安全保障の論点を加えない。"
+      },
+      {
+        "title": "Ukrainian-founded drone maker UForce raises $700 million at $6 billion valuation (Kyiv Independent, Nov 12)",
+        "url": "https://kyivindependent.com/ukrainian-founded-drone-maker-uforce-raises-700-million-at-6-billion-valuation/",
+        "reason": "前号（cl-20261113-03）で英国国富ファンドの出資とともに既報。"
+      }
+    ],
+    "notes_for_editor": [
+      "主要動向1：war.govの公式リリース（Release 4647618）は取得権限の制約で開けず、Breaking Defenseと配信サービスの転載で内容を確認した。accessedはfalse。",
+      "主要動向2：ラトニック長官の12月10日の証言は米政府関係者1人の発言に基づく報道で、日程は未確認。フアン氏の聴取日は書簡の12月1日とTechCrunchの「感謝祭前」が食い違うため、両方を記した。POLITICOのスコット委員長書簡の記事は本文を開けず、Just Securityの要約で確認した。",
+      "主要動向3：Quantum Systemsの声明本文とシュピーゲルの記事は取得できず、The Register・ロイター・DroneXL・United24・Euronews DEの引用に依拠した。シュピーゲルの「先月、一時的に」と12日の飛行停止報道の時系列の不一致は本文に明記した。",
+      "主要動向4：台北タイムズの起訴記事（2003867692）は開けず、中央社（Focus Taiwan）の記事で起訴内容を確認した。中科院の10社とAlign事案の関係は報道が明示していない。",
+      "主要動向5：Kyiv Postの「100%失敗」はAxiosに語った匿名当局者の「影響を受けた任務はすべて失敗」の言い換えで、本文ではそのように扱った。制限の地理的範囲はScrippsと国防省関係者の説明が食い違う。信頼度B3。",
+      "短信6：ロシア国防省の1,198機とソビャニン市長の105機は当事者の主張で独立の検証はない。ウクライナ参謀本部の公式声明は執筆時点で確認できず、信頼度C3とした。",
+      "短信9：韓国の심승배委員長の漢字表記が確認できず、カタカナ（シム・スンベ）で記した。",
+      "日本：防衛省の大臣会見（13日）・報道資料はいずれも取得権限の制約で開けず、二次報道でも内容を確認できなかったため、日本の主要発表源の確認は官邸・外務省・経産省・総務省・NHKに限られた。",
+      "宇宙軍AtlasX「Fight Tonight」の採択8件（13日宇宙軍ボールで発表予定）は執筆時点で公表を確認できず、次号で確認する。",
+      "WARNとして残した項目：主要動向2・4・5の見出しは45字を超えるが、聴取の日程や当事者を一文で示すために残した。短信8・9・10の見出しも同様。"
+    ]
+  }
+}
