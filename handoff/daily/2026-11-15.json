@@ -1,0 +1,1518 @@
+{
+  "edition_date": "2026-11-15",
+  "generated_at": "2026-11-15T07:20:00+09:00",
+  "window_from": "2026-11-14T06:25:00+09:00",
+  "edition_title_ja": "AI化する基盤への疑念と、資本・部品に広がる統制の射程",
+  "edition_title_en": "Suspicion of AI-enabled infrastructure, and controls that reach capital and components",
+  "edition_dek_ja": "航空管制の停止で疑われたAI、IPOに及ぶ輸出管理、無人機部品の国産化を阻む価格の壁。",
+  "edition_dek_en": "An air-traffic halt that put AI under suspicion, export controls reaching an IPO, and the price wall facing drone-parts localization.",
+  "lead_points_ja": [
+    "米国の航空管制停止で新しいAIツールが最初に疑われ、政府が否定に回った経緯は、AIを組み込んだ基盤が障害のたびに真っ先に問われる段階に入ったことを示す。同じ日に輸出管理はAI企業のIPOの投資家選別に及び、韓国と日本では無人機・AIへの投資が供給網と財源の制約に直面した。",
+    "米FAAは13日に約4時間20分の全国離陸停止を実施し、9,100便超が欠航した。国土安全保障長官はAI型空域管理ツールSMARTとの関係をCISAが「見ている」と述べたが、運輸長官とFAA長官は14日、AIや悪意ある行為の証拠はないとして、L3Harrisの回線更新中に2001年製ルーターが異常動作したことを原因に挙げた。",
+    "政府は2027〜31年度の防衛力整備計画の総額を60兆円程度で検討し、無人機とAIを最優先に置く一方、防衛省の積算70〜80兆円と財務省の60兆円未満の間で攻防が続く。米国は在日米軍駐留経費を5年で3兆円へ約3倍にするよう求めていると報じられ、同じ財政枠の中で競合する。",
+    "英ラケンヒース米空軍基地では13日夜、無人機の報告で要員が退避し、韓国では「ドローン兵50万人」計画が中国製部品への依存と価格差に直面している。基地防護と供給網の双方で、無人機をめぐる脆弱性の所在が具体化した。",
+    "14日未明の対ウクライナ攻撃では無人機96機のうち61機がジェット型で、防空は52機を無力化した。スウェーデン製RBS-70による初撃墜とロシアのDan-T地上発射映像は、速度を上げる脅威と携行型・低価格の対抗手段の競争を映す。"
+  ],
+  "lead_points_en": [
+    "The first suspect in the US air-traffic halt was a newly deployed AI tool, and the government then had to rule it out: AI-enabled infrastructure is now the first thing questioned whenever a system fails. On the same day export controls reached the investor screening of an AI company's IPO, while in Korea and Japan investment in drones and AI ran into supply-chain and fiscal constraints.",
+    "The FAA halted departures nationwide for about 4 hours 20 minutes on Nov 13 and more than 9,100 flights were cancelled. The DHS secretary said CISA was 'taking a look' at the SMART airspace-management tool; on Nov 14 the transportation secretary and the FAA administrator said there was no evidence of AI or malicious causes and blamed a 2001-vintage router that misbehaved during an L3Harris line upgrade.",
+    "Japan's government is weighing about ¥60 trillion for the FY2027–31 defense program with drones and AI as the top priority, while the Defense Ministry's estimate of ¥70–80 trillion and the Finance Ministry's sub-¥60 trillion position remain in contest. The US is reported to seek roughly a tripling of host-nation support to ¥3 trillion over five years, competing within the same fiscal frame.",
+    "Personnel sheltered at RAF Lakenheath on the night of Nov 13 after drone reports, and Korea's plan to train 500,000 'drone soldiers' faces dependence on Chinese parts and a price gap. Both base defense and the supply chain made drone vulnerabilities concrete.",
+    "Of 96 Russian drones launched overnight Nov 14, 61 were jet-powered and air defense neutralized 52 of them. A first kill with a Swedish RBS-70 and Russia's footage of a ground-launched Dan-T show the race between faster threats and portable, low-cost countermeasures."
+  ],
+  "items": [
+    {
+      "id": "cl-20261115-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米FAAの全国離陸停止、運輸長官は新AI管制ツールの関与を否定　原因は回線更新中の2001年製ルーターと説明",
+      "title_en": "FAA nationwide ground stop: transportation secretary rules out new AI tool, blames 2001-vintage router during L3Harris line upgrade",
+      "lead_ja": "米連邦航空局（FAA）は11月13日午後、航空路管制センターなどでレーダーと通信が不安定になったとして全国の離陸を約4時間20分停止し、9・11以降2度目の全国規模の停止となった。前週に展開が始まったAI型の空域管理ツールSMARTとの関係について、マリン国土安全保障長官はCISAを通じて「見ている」と述べた。ダフィー運輸長官とベッドフォードFAA長官は14日、AIや悪意ある行為の証拠はないと述べ、通信事業者L3Harrisが遠隔施設の回線を銅線から光ファイバーへ更新する作業中に2001年製のルーターが異常な接続要求を繰り返したことを原因に挙げた。",
+      "lead_en": "On the afternoon of Nov 13 the FAA halted departures nationwide for about 4 hours 20 minutes after radar and communications became unstable at en-route centers, only the second nationwide stop since 9/11. DHS Secretary Markwayne Mullin said CISA was 'taking a look' at whether the AI-based SMART airspace-management tool, rolled out that week, had contributed. On Nov 14 Transportation Secretary Sean Duffy and FAA Administrator Bryan Bedford said there was no evidence of AI or malicious causes and blamed a router manufactured in 2001 that flooded other routers with connection requests while contractor L3Harris was converting a remote site from copper to fiber.",
+      "sections": [
+        {
+          "heading_ja": "4時間20分の停止と9,100便超の欠航",
+          "heading_en": "A 4-hour-20-minute halt and more than 9,100 cancellations",
+          "paragraphs_ja": [
+            "停止は東部時間13日15時36分に始まり、ダフィー長官によれば開始時点で約3,500機が飛行中であった。解除は同20時15分ごろで、FlightAwareの集計では13日の欠航は9,100便超、遅延は約25,000便に達した。14日も4,000便超（出発便の約14%）が欠航し、ベッドフォード長官は約41,000便のうち4,000〜5,000便の欠航を見込み、15日の業務終了までに通常運航へ戻すと述べた。全国規模の停止は2023年1月のNOTAMシステム障害以来である。"
+          ],
+          "paragraphs_en": [
+            "The stop began at 3:36 p.m. ET on Nov 13 with about 3,500 aircraft airborne, according to Duffy, and was lifted around 8:15 p.m. FlightAware counted more than 9,100 cancellations and about 25,000 delays on Friday; Saturday saw more than 4,000 cancellations (about 14% of departures), and Bedford expected 4,000–5,000 of roughly 41,000 flights to be cancelled with normal schedules by close of business Sunday Nov 15. The only other nationwide stop since 9/11 was the January 2023 NOTAM failure."
+          ]
+        },
+        {
+          "heading_ja": "最初に疑われたAI空域管理ツールSMART",
+          "heading_en": "The AI airspace tool SMART was the first suspect",
+          "paragraphs_ja": [
+            "疑いが向いたSMART（Strategic Management of Airspace, Routes and Trajectories）は、Air Space Intelligence社が2026年6月に約8億7,500万ドルで受注し、9月21日にワシントン周辺で試験運用を始め、全22か所の航空路管制センターへ拡大中であった。",
+            "マリン長官は13日、国土安全保障省がCISAを通じてSMARTの関与を「見ている」としつつ、サイバー攻撃やAIによる攻撃の証拠は「ゼロ」だと述べた。ダフィー長官はSMARTが管制表示システムのSTARSやERAMと接続されておらず、「影響を与え得る経路はなかった」と説明し、同社も停止は自社ツールに「起因するものではない」と声明した。",
+            "SMARTに対する警戒は障害の前から議会にあった。下院議員20人超は10月13日、政府監査院（GAO）にSMARTの独立した審査を要請していた。したがって、今回の障害でAIツールが最初の容疑者となった構図は、新技術の導入手続きへの不信が障害時に表面化したものと読める。"
+          ],
+          "paragraphs_en": [
+            "SMART (Strategic Management of Airspace, Routes and Trajectories) was awarded to Air Space Intelligence in June 2026 for about $875 million, soft-launched around Washington on Sept 21 and was being expanded to all 22 en-route centers.",
+            " Mullin said DHS 'through CISA' was looking at whether SMART contributed while asserting 'zero evidence' of a cyber or AI-driven attack. Duffy said SMART is not connected to the STARS or ERAM controller systems and that 'there was no possible way' it could have affected what happened; the vendor said the stop 'was not based on or caused by' its tool.",
+            "Congressional wariness predated the outage: more than 20 House members asked the GAO on Oct 13 for an independent review of SMART. The AI tool's role as first suspect therefore reads as distrust of the adoption process surfacing at the moment of failure."
+          ]
+        },
+        {
+          "heading_ja": "旧型ルーターの異常と500億ドルの緊急予算要求",
+          "heading_en": "A legacy router fault and a $50 billion emergency request",
+          "paragraphs_ja": [
+            "ダフィー長官は13日夜のホワイトハウスでの会見で、原因を「1980年代の銅線」に依存する旧型のスイッチとルーターの過負荷に求め、管制近代化のために500億ドルの緊急予算を要求した。政府の既存要求は約300億ドルで、2025年に成立した額は125億ドルである。",
+            "14日の説明では、FAAの「旧来の事業者」として20年以上回線を担うL3Harrisが遠隔施設の銅線を光ファイバーへ切り替える作業中に、2001年製のルーターが4〜5秒ごとに1,000件超の接続要求で他のルーターを圧迫したとされる。事業者の作業ミスか機器の故障かは「まだ特定していない」と長官は述べ、BloombergはFBIがサイバー攻撃や犯罪行為によるものとは見ていないと報じた。",
+            "議会ではダックワース上院議員が調査を、キャントウェル上院議員が商業委員会での検証を求め、ジェフリーズ下院少数党院内総務は「前例のない崩壊」と評した。ホークル・ニューヨーク州知事は長官の辞任を要求した。L3Harrisは各社の取材に回答しておらず、根本原因の確定はこれからである。AIツールの排除と旧型機器の特定が同時に進んだ経緯は、基盤のAI化が疑いの初期配分を変えつつ、障害の実体は依然として老朽化した通信層にあることを示す。"
+          ],
+          "paragraphs_en": [
+            "At a White House briefing on Friday night Duffy blamed overloaded legacy switches and routers running on '1980s copper lines' and demanded $50 billion in emergency funding for air-traffic modernization, against an existing request of about $30 billion and $12.5 billion enacted in 2025.",
+            " On Saturday he said that while L3Harris, the FAA's 'legacy provider' for more than 20 years, was converting a remote site from copper to fiber, a router manufactured in 2001 began flooding other routers with more than 1,000 connection attempts every four to five seconds; whether contractor error or faulty equipment was at fault 'we haven't determined,' he said. Bloomberg reported the FBI does not believe a cyberattack or criminal act was responsible.",
+            "Sen. Tammy Duckworth called for an investigation, Sen. Maria Cantwell said the Commerce Committee would review the event, House Minority Leader Hakeem Jeffries called it an 'unprecedented breakdown,' and New York Gov. Kathy Hochul demanded Duffy's resignation. L3Harris had not responded to media inquiries and the root cause remains to be fixed. The simultaneous clearing of the AI tool and identification of legacy hardware shows how AI adoption reshapes the initial allocation of suspicion while the actual fault still lies in the aging communications layer."
+          ]
+        }
+      ],
+      "watch_next_ja": "FAAとL3Harrisによる根本原因の報告。CISA・FBIがサイバー関与を正式に否定するか。GAOによるSMART審査とダックワース、キャントウェル両議員の監督。年末の歳出法案での管制近代化の緊急予算の扱い。",
+      "watch_next_en": "Root-cause statement from the FAA and L3Harris; whether CISA and the FBI formally close the cyber question; the GAO review of SMART and oversight by Sens. Duckworth and Cantwell; treatment of emergency ATC modernization funding in year-end spending legislation.",
+      "japan_relevance": false,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "米運輸省・連邦航空局",
+      "publisher_en": "U.S. Department of Transportation / FAA",
+      "sources": [
+        {
+          "title": "FAA ground stop latest updates: Duffy blames contractor L3Harris, thousands more flights canceled Saturday, no sign of cyberattack",
+          "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
+          "publisher": "Yahoo News",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FAA blames Friday's ground stop on equipment issue during telecoms network upgrade",
+          "url": "https://www.wunc.org/2026-11-14/faa-blames-fridays-ground-stop-on-equipment-issue-during-telecoms-network-upgrade",
+          "publisher": "NPR (WUNC)",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nationwide ground stop ordered at airports by FAA",
+          "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+          "publisher": "ABC News",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FAA investigating whether new AI technology contributed to nationwide ground stop",
+          "url": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/",
+          "publisher": "KPRC",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Duffy sounds alarm over aging FAA system after nationwide air travel shutdown",
+          "url": "https://www.foxbusiness.com/politics/duffy-sounds-alarm-over-aging-faa-system-after-nationwide-air-travel-shutdown",
+          "publisher": "Fox Business",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FAA groundings follow congressional warnings on AI tool",
+          "url": "https://www.yahoo.com/news/politics/articles/faa-groundings-congressional-warnings-ai-030224082.html",
+          "publisher": "KXAN via Yahoo News",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FAA ground stop: flights resume with delays",
+          "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+          "publisher": "CNBC",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "政府、次期防衛力整備計画の総額を5年60兆円程度で検討　無人機・AIを最優先、米は駐留経費の約3倍化を要求と報道",
+      "title_en": "Japan weighs about ¥60 trillion for the FY2027–31 defense program with drones and AI as top priority; US reportedly seeks a tripling of host-nation support",
+      "lead_ja": "時事通信は11月14日、政府が年末の安保3文書改定で定める2027〜31年度の防衛力整備計画の総額を60兆円程度とする案を検討していると報じた。防衛省の積算は70〜80兆円で、財務省は60兆円未満を求めており、無人機とAIが最優先の投資分野に挙げられている。同通信は13日、米国が在日米軍駐留経費負担を2027年度からの5年間で計3兆円へと約3倍に引き上げるよう求めているとも報じた。",
+      "lead_en": "Jiji Press reported on Nov 14 that the government is considering a total of about ¥60 trillion for the FY2027–31 Defense Buildup Program to be fixed in the year-end revision of the three security documents. The Defense Ministry's estimate of need is ¥70–80 trillion, the Finance Ministry wants the figure held below ¥60 trillion, and drones and AI are named as the top investment priority. Jiji also reported on Nov 13 that the United States is asking Japan to roughly triple host-nation support to ¥3 trillion over the five years from FY2027.",
+      "sections": [
+        {
+          "heading_ja": "70〜80兆円の積算と「60兆円未満」の攻防",
+          "heading_en": "A ¥70–80 trillion estimate against a sub-¥60 trillion line",
+          "paragraphs_ja": [
+            "現行計画（2023〜27年度）の43兆円に対し、防衛省は次期計画の所要を70〜80兆円と見積もる。財務省幹部はこれを「天文学的な数字」で「論外」と評し、60兆円未満に抑える姿勢である。官邸幹部は、為替変動を織り込めば60兆円を下回る額は実質的な削減となり「国際的に説明しがたい」と反論し、自民党の防衛政策に関わる議員も低い数字に反対している。60兆円未満は年10〜12兆円に相当し、2026年度の名目GDP約690兆円に対して2%を下回る水準で、米国が同盟国に求める3.5%との距離は大きい。",
+            "財源については、政府幹部が増税と追加の国債発行の双方が必要になり得ると述べる一方、食料品の消費税減税を控える高市首相は増税に慎重と伝えられ、経済界は法人税率の引き上げに反対している。共同通信は10月17日に法人増税案が浮上し年間防衛費が10兆円を超える公算だと報じており、総額の攻防は税制の議論と不可分である。段階としては政府内の検討であり、決定事項はまだない。"
+          ],
+          "paragraphs_en": [
+            "Against ¥43 trillion in the current FY2023–27 program, the Defense Ministry puts the next program's needs at ¥70–80 trillion. A senior Finance Ministry official called that 'an astronomical figure' and 'out of the question,' seeking to hold the total below ¥60 trillion. A senior Kantei official countered that a sub-¥60 trillion figure would amount to a real cut once exchange-rate shifts are counted and would be 'hard to justify internationally,' and LDP defense-policy lawmakers also oppose the lower number. Below ¥60 trillion equals ¥10–12 trillion a year, under 2% of FY2026 nominal GDP of about ¥690 trillion and far from the 3.5% Washington asks of allies.",
+            "On funding, a senior official said both tax increases and additional bond issuance may be needed, while Prime Minister Takaichi, with a food consumption-tax cut pending, is reported to be reluctant to raise taxes and business groups oppose a higher corporate rate. Kyodo reported on Oct 17 that a corporate tax increase had surfaced as an option and that annual defense spending was likely to exceed ¥10 trillion. The contest over the total is inseparable from the tax debate; the stage is internal deliberation, with nothing decided."
+          ]
+        },
+        {
+          "heading_ja": "無人機・AI・拒否力が投資の柱",
+          "heading_en": "Drones, AI and denial capability as the pillars of investment",
+          "paragraphs_ja": [
+            "報道が挙げる優先分野は、大量調達が見込まれる無人機とAI、ミサイル、継戦能力、そして相手の侵攻を「拒否」する能力である。自民・維新の実務者協議は11月10日の初会合で、防衛力の変革を侵攻の拒否力の向上と位置づけ、AIの活用をその中核に置くと政府から説明を受けた。したがって、60兆円の総額は無人機・AIの調達規模を直接左右し、「国有民営」方式による無人機・弾薬の増産体制や自衛隊によるAI脅威探知の構想にも配分の裏付けを与えるかどうかが問われる。"
+          ],
+          "paragraphs_en": [
+            "The priorities reported are drones and AI, for which large purchases are expected, missiles, sustainment, and the capability to 'deny' an adversary's invasion. At the first LDP–Ishin working-level meeting on Nov 10 the government explained that defense transformation aims at denial capability with AI use as its central pillar. The ¥60 trillion total therefore directly determines the scale of drone and AI procurement and decides whether the state-owned, privately operated production of drones and munitions and the SDF's planned AI threat detection get budget backing."
+          ]
+        },
+        {
+          "heading_ja": "駐留経費3兆円の要求と年内の交渉期限",
+          "heading_en": "A ¥3 trillion host-nation support demand and a year-end deadline",
+          "paragraphs_ja": [
+            "米側は特別協定の次期5年間（2027〜31年度）で計3兆円を求めており、2026年度までの5年間の1兆551億円（年平均約2,100億円）の約3倍にあたる。日本側は円安と物価上昇を反映した所要を約1.5兆円（年平均約3,000億円）と見積もり、攻撃を受けた際に米軍基地の機能を維持するためのシェルター整備も検討している。両政府は年内の合意を目指し、日本政府関係者は「高い要求に応じて調整に努めている」と述べた。トランプ第1期には当時の水準の4倍超が求められた経緯がある。",
+            "駐留経費と防衛力整備計画は同じ5年の財政枠に並ぶため、3兆円の要求は60兆円の総額の内側で無人機・AI投資と競合する。11月17日のマニラでの日米首脳会談とクアッド首脳会合、18日の深圳APECでの日中首脳接触が続く中、財源の配分は同盟管理と装備投資のどちらを優先するかの選択となる。"
+          ],
+          "paragraphs_en": [
+            "The US request totals ¥3 trillion over the next five-year special measures agreement (FY2027–31), about three times the ¥1.0551 trillion (about ¥210 billion a year) paid over the five years through FY2026. Japan's own estimate, reflecting yen depreciation and inflation, is about ¥1.5 trillion (about ¥300 billion a year), and Tokyo is also weighing shelters and other measures to keep US bases functioning if attacked. Both governments aim for agreement by the end of 2026; a Japanese official said officials were 'working hard to make adjustments in response to the high demands.' In Trump's first term the US sought more than four times the then-prevailing level.",
+            "Because host-nation support and the buildup program sit in the same five-year fiscal frame, the ¥3 trillion demand competes with drone and AI investment inside the ¥60 trillion total. With the Japan–US summit and Quad leaders' meeting in Manila on Nov 17 and a Japan–China encounter at the Shenzhen APEC on Nov 18 ahead, the allocation becomes a choice between alliance management and equipment investment."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月上旬の有識者会議報告と自民・維新協議での防衛費目標。11月17日の高市・トランプ会談で駐留経費が取り上げられるか。12月中旬の3文書閣議決定と年内の特別協定合意。",
+      "watch_next_en": "The expert panel report in early December and the defense-spending target in LDP–Ishin talks; whether host-nation support comes up at the Takaichi–Trump meeting on Nov 17; the mid-December cabinet decision on the three documents and a year-end special measures agreement.",
+      "japan_relevance": true,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "日本政府（時事通信報道）",
+      "publisher_en": "Government of Japan (Jiji Press reports)",
+      "sources": [
+        {
+          "title": "Japan Eyes 60 T. Yen in Defense Spending over Next 5 Years",
+          "url": "https://english.adnkronos.com/2026/11/14/japan-eyes-60-t-yen-in-defense-spending-over-next-5-years/",
+          "publisher": "Jiji Press via Adnkronos",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "U.S. Seen Demanding Tripling of Japan's Host Nation Support",
+          "url": "https://english.adnkronos.com/2026/11/13/u-s-seen-demanding-tripling-of-japans-host-nation-support/",
+          "publisher": "Jiji Press via Adnkronos",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "自維、安保3文書改定へ協議　防衛変革で「拒否力」向上図る",
+          "url": "https://kumanichi.com/articles/2056014",
+          "publisher": "共同通信（熊本日日新聞）",
+          "date": "2026-11-10",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "【独自】防衛財源に法人増税浮上　年間10兆円超へ膨張公算",
+          "url": "https://kumanichi.com/articles/2047661",
+          "publisher": "共同通信（熊本日日新聞）",
+          "date": "2026-10-17",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "governance-norms"
+      ],
+      "actors": [
+        "JP",
+        "US"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261112-01"
+    },
+    {
+      "id": "cl-20261115-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "英ラケンヒース米空軍基地上空に無許可の無人機　要員に退避警報、英国防省と警察が出動し「解決」と発表",
+      "title_en": "Unauthorized drones over RAF Lakenheath send US personnel to shelters; UK MoD and police deploy and declare the situation resolved",
+      "lead_ja": "英サフォーク州のラケンヒース空軍基地（米空軍第48戦闘航空団、F-35AとF-15Eを運用）で11月13日夜、無許可の無人機活動の報告を受け、要員に「REAL WORLD（実事象）」の警報が出て防護区域への退避が指示された。米空軍は「要員、航空機、インフラへの影響はなかった」と述べ、英国防省は14日、国防省警察とサフォーク警察が出動し基地は通常の警備態勢に戻ったと説明した。無人機の操作者と出自は公表されていない。",
+      "lead_en": "On the evening of Nov 13 personnel at RAF Lakenheath in Suffolk, home to the US Air Force's 48th Fighter Wing with F-35As and F-15Es, received a 'REAL WORLD' alert to move to protected areas after reports of unauthorized drone activity. The US Air Force said 'no personnel, aircraft or infrastructure were affected,' and on Nov 14 the UK Ministry of Defence said MoD Police and Suffolk Police had deployed and the base had returned to normal security measures. The operator and origin of the drones have not been disclosed.",
+      "sections": [
+        {
+          "heading_ja": "退避警報から「解決」までの経過",
+          "heading_en": "From shelter alert to 'resolved'",
+          "paragraphs_ja": [
+            "Sky Newsが最初に報じたところでは、基地要員は最寄りの防護区域へ移動し待機するよう求める緊急警報を受けた。米空軍の広報は、警備部隊が無人機活動の報告に対応し、受け入れ国の関係機関と連携していると述べた。英国防省は13日に「無許可の無人機活動の報告について関係各所と調整している」とし、状況は「解決した」と説明した。14日の追加説明で、国防省警察とサフォーク警察が支援に入ったことが明らかになった。機数、飛行の経路、探知の手段、対処の有無は公表されていない。"
+          ],
+          "paragraphs_en": [
+            "Sky News first reported that personnel received an urgent alert to go to the nearest protected area and remain there. A US Air Force spokesperson said security forces responded to reports of drone activity and were working with host-nation partners. The UK MoD said on Nov 13 that it was 'coordinating with all relevant parties regarding reports of unauthorised drone activity' and that the situation was resolved; on Nov 14 it added that MoD Police and Suffolk Police had assisted. The number of drones, their track, the means of detection and any countermeasures have not been made public."
+          ]
+        },
+        {
+          "heading_ja": "イラン関連の警戒引き上げと重なる時期",
+          "heading_en": "Coinciding with an Iran-related alert posture",
+          "paragraphs_ja": [
+            "今回の事案は、米軍が11月9〜10日にラケンヒースとミルデンホールの両基地の警戒水準をFPCONチャーリーに引き上げ、イランに関連する脅威を理由にミルデンホールから12機超の航空機を移動させた直後に起きた。10月にはフェアフォード基地から爆撃機が移され、基地周辺での不審な行動をめぐり2人が訴追され、うち1人はイラン情報機関との関係が疑われている。2024年11月にもラケンヒース、ミルデンホール、フェルトウェルで無人機の目撃が続いた前例がある。したがって、出自が特定されるまでは、偵察目的の国家関与から愛好家の飛行まで複数の可能性が残る。"
+          ],
+          "paragraphs_en": [
+            "The incident came days after US forces raised Lakenheath and Mildenhall to FPCON Charlie on Nov 9–10 and moved more than a dozen aircraft out of Mildenhall over an Iran-linked threat. In October bombers were relocated from RAF Fairford, and two men were charged over suspicious activity near a base, one of them suspected of links to Iranian intelligence. Drone sightings over Lakenheath, Mildenhall and Feltwell in November 2024 set a precedent. Until attribution is made, possibilities range from state-directed reconnaissance to hobbyist flights."
+          ]
+        },
+        {
+          "heading_ja": "探知から対処までの間隙が基地防護の焦点",
+          "heading_en": "The gap between detection and engagement is the base-defense question",
+          "paragraphs_ja": [
+            "バルト3国では11月11〜12日、国境を越えた無人機にNATO戦闘機が撃墜を試みて失敗し、ラトビア軍は「撃墜に適した条件がなかった」と説明した。英国の基地上空でも、探知と退避は機能した一方で、対処と帰属の情報は公表されていない。人口密集地に近い本土の基地では、電波妨害や物理的な撃墜に伴う落下物の危険が交戦の判断を縛るため、探知後の選択肢は限られる。英国と米国が今後、探知の手段と対処の権限をどこまで公表するかが、同様の事案を抱える同盟国の制度設計の参照点となる。"
+          ],
+          "paragraphs_en": [
+            "In the Baltic states on Nov 11–12 NATO fighters failed to down a drone that crossed borders, and the Latvian military said there had been 'no suitable conditions' for a shoot-down. Over the UK base, detection and sheltering worked, while information on engagement and attribution remains unpublished. At bases near populated areas the hazards of jamming or falling debris constrain engagement decisions, leaving few options after detection. How far the UK and US disclose their means of detection and their engagement authorities will serve as a reference for allies facing similar incidents."
+          ]
+        }
+      ],
+      "watch_next_ja": "英米による無人機の出自の特定と公表。英国の軍事施設向け対無人機権限の発動の有無。イラン関連の脅威評価に基づく英国内米軍基地の警戒水準の推移。",
+      "watch_next_en": "Whether the UK and US attribute the drones; any invocation of UK counter-drone powers for military sites; the FPCON posture at US bases in Britain under the Iran-related threat assessment.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "米空軍・英国防省",
+      "publisher_en": "U.S. Air Force / UK Ministry of Defence",
+      "sources": [
+        {
+          "title": "US military responds to suspected unauthorised drone activity at RAF Lakenheath",
+          "url": "https://uk.news.yahoo.com/us-military-responds-suspected-unauthorised-163200402.html",
+          "publisher": "Sky News via Yahoo UK",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US Air Force responds to suspected drone activity at military base in UK",
+          "url": "https://kyivindependent.com/us-air-force-responds-to-suspected-drone-activity-at-military-base-in-uk/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Unidentified drones over RAF Lakenheath air base",
+          "url": "https://militarnyi.com/en/news/unidentified-drones-raf-lakenheath-air-base/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US investigates suspected unauthorized drone activity at RAF Lakenheath",
+          "url": "https://www.washingtonpost.com/topics/2026/11/14/us-investigates-suspected-unauthorized-drone-activity-raf-lakenheath/",
+          "publisher": "The Washington Post",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "GB",
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "韓国「ドローン兵50万人」計画に中国製部品の壁　モーター国産化率26%、Blue UAS型の認証制度を構想",
+      "title_en": "Chinese parts bottleneck Korea's plan to train 500,000 'drone soldiers'; motors 26% and flight controllers 38% domestic, a Blue UAS-style certification planned",
+      "lead_ja": "ソウル経済新聞は11月14日、国防部が推進する「ドローン兵50万人」育成計画が中国製部品への依存に直面していると報じた。国会国防委員会の資料では国内約600社の無人機企業の7割超が中国製部品を使い、国産化率はバッテリー約21%、モーター約26%、飛行制御装置約38%にとどまる。国防部は米Blue UASに準じた認証・調達制度と約1万1,000機の低価格機の導入を計画するが、同じ推力のモーターで中国製約10万ウォンに対し国産は20万ウォン超という価格差が壁となっている。",
+      "lead_en": "Seoul Economic Daily reported on Nov 14 that the Defense Ministry's program to train 500,000 'drone soldiers' is running into dependence on Chinese components. National Assembly Defense Committee data show more than 70% of some 600 domestic drone firms use Chinese parts, with domestic shares of about 21% for batteries, 26% for motors and 38% for flight controllers. The ministry plans a Blue UAS-style certification and procurement system and about 11,000 low-cost drones, but a motor of the same thrust costs about ₩100,000 from China against more than ₩200,000 domestically.",
+      "sections": [
+        {
+          "heading_ja": "2026年予算205億ウォンと無人機司令部の発足",
+          "heading_en": "A ₩20.5 billion 2026 budget and a new Drone Command",
+          "paragraphs_ja": [
+            "計画は2025年9月に安圭伯国防部長官が陸軍第36師団（原州）で表明したもので、2026年予算に205億ウォンが計上された。常備部隊と教育機関の各分隊に訓練用無人機を少なくとも1機配備し、民間機を基盤に中核部品を国産化した訓練機を大量に導入する。使い捨て前提の低価格小型機を約1万1,000機調達し、2030年までに自爆型を含む低価格機2万機とK-LUCASの配備を目標とする。11月2日には国防部直轄の国防無人機司令部が抱川で発足し、金得奉司令官に部隊旗が手渡された。2027年の無人機・対無人機予算は8,061億ウォンで前年比18.8%増と報じられている。"
+          ],
+          "paragraphs_en": [
+            "The program was announced by Defense Minister Ahn Gyu-back at the Army's 36th Division in Wonju in September 2025 and carries ₩20.5 billion in the 2026 budget. It aims to field at least one training drone per squad across standing Army units and schools, using commercial airframes with localized core parts; to buy about 11,000 low-cost expendable small drones; and by 2030 to field 20,000 low-cost drones including loitering munitions along with K-LUCAS. On Nov 2 the Defense Drone Command, reporting directly to the ministry, was launched at Pocheon with Kim Deuk-bong as commander. The 2027 drone and counter-drone budget is reported at ₩806.1 billion, up 18.8%."
+          ]
+        },
+        {
+          "heading_ja": "バックドア懸念と価格差の二重の壁",
+          "heading_en": "The double wall of backdoor risk and price",
+          "paragraphs_ja": [
+            "国防部が国産化を急ぐ理由は、飛行制御装置、操縦器、カメラ、データリンク、通信モジュール、GPSにバックドアが潜む危険であり、実際の製造者と供給経路の確認を調達の条件にしようとしている。しかし価格差は大きく、国防科学研究所の高徳坤所長代行は「価格競争力を確保するには量産規模を上げる必要がある」と述べた。産業界は設備投資への支援と、「防衛革新企業100」の対象に部品企業を含めることを求めている。部品の標準化と、米国や友好国との供給網協力の拡大も計画に含まれる。制度の段階は予算化と構想であり、認証リストはまだ存在しない。"
+          ],
+          "paragraphs_en": [
+            "The ministry's rationale is the risk of backdoors in flight controllers, controllers, cameras, data links, communications modules and GPS, which is why it wants verification of the actual manufacturer and supply route as a procurement condition. The price gap is wide, however, and Ko Deok-gon, acting head of the Agency for Defense Development, said 'to secure price competitiveness, mass-production volumes have to rise.' Industry is asking for facility-investment support and for component suppliers to be included in the 'Defense Innovation Companies 100' scheme. Parts standardization and supply-chain cooperation with the US and friendly nations are also planned. The stage is budgeting and design; no certification list exists yet."
+          ]
+        },
+        {
+          "heading_ja": "台湾・ドイツと同じ問いに向かう東アジアの調達",
+          "heading_en": "East Asian procurement faces the same question as Taiwan and Germany",
+          "paragraphs_ja": [
+            "台湾では11月13日に中科院の供給企業10社に中国製部品の疑いが浮上し、国防部長が納入全機の分解検査を命じた。ドイツ国防省も11日に連邦軍での中国製無人機の使用停止を確認している。韓国の答えは認証制度と量産による単価の引き下げであるが、2030年の目標年までの移行期には中国製部品を含む民間機への依存が残る。したがって、認証リストの公表時期と、国会での2027年予算の審議が、計画が訓練規模を優先するのか供給網の純化を優先するのかを示す指標となる。"
+          ],
+          "paragraphs_en": [
+            "In Taiwan, suspicion of Chinese parts at ten NCSIST drone suppliers surfaced on Nov 13 and the defense minister ordered the teardown of every delivered unit; Germany's defense ministry confirmed on Nov 11 that it had stopped using Chinese drones in the Bundeswehr. Korea's answer is certification plus volume to bring unit costs down, but during the transition to the 2030 target year dependence on commercial drones with Chinese parts will persist. The timing of the certification list and the National Assembly's handling of the 2027 budget will show whether the program prioritizes training scale or supply-chain purity."
+          ]
+        }
+      ],
+      "watch_next_ja": "国防部・防衛事業庁による韓国版Blue UAS認証リストの公表時期。国会での2027年予算（無人機・対無人機8,061億ウォン）の審議。台湾・中科院の全機分解検査の結果との比較。",
+      "watch_next_en": "When the MND/DAPA publish a Korean Blue UAS-style certification list; National Assembly deliberation of the 2027 budget (₩806.1 billion for drones and counter-drone); comparison with the results of Taiwan's NCSIST teardown inspections.",
+      "japan_relevance": false,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "韓国国防部（ソウル経済新聞報道）",
+      "publisher_en": "ROK Ministry of National Defense (Seoul Economic Daily report)",
+      "sources": [
+        {
+          "title": "Chinese Parts Slow Korea's Push to Train 500,000 Drone Soldiers",
+          "url": "https://en.sedaily.com/politics/2026/11/14/chinese-parts-slow-koreas-push-to-train-500000-drone",
+          "publisher": "Seoul Economic Daily",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "현대전 핵심 '드론'…한국은 걸음마 단계",
+          "url": "https://newstomato.com/readnews.aspx?no=1317205",
+          "publisher": "뉴스토마토",
+          "date": "2026-10-19",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "cyber-ci"
+      ],
+      "actors": [
+        "KR",
+        "CN",
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "14日未明の露無人機96機のうち61機がジェット型　RBS-70でGeran-5初撃墜、ロシアはDan-T地上発射を公開",
+      "title_en": "Jet-powered drones were 61 of 96 launched at Ukraine overnight Nov 14; 52 downed, a first Geran-5 kill with RBS-70, and Russia shows a ground-launched Dan-T",
+      "lead_ja": "ウクライナ空軍は11月14日朝、13日18時以降にロシアが発射した攻撃型無人機96機のうち61機がジェット推進のShahed型で、防空が81機（ジェット型52機）を撃墜または抑止し、8か所で着弾を記録したと発表した。前2夜の63機／117機、72機／123機に続き、ジェット型が一晩の発射数の過半を占める状態が定着している。参謀本部は13日、キーウ州でスウェーデン製携行式地対空ミサイルRBS-70によるジェット型Geran-5の初撃墜を発表し、ロシア側は同日、小型巡航ミサイルDan-Tの地上発射映像を公開した。",
+      "lead_en": "The Ukrainian Air Force said on the morning of Nov 14 that of 96 strike drones Russia launched from 18:00 on Nov 13, 61 were jet-powered Shahed types; air defense shot down or suppressed 81, including 52 jet drones, with hits recorded at eight locations. After 63 of 117 and 72 of 123 on the two preceding nights, jet-powered drones now make up the majority of each night's salvo. On Nov 13 the General Staff announced the first shoot-down of a jet-powered Geran-5 in Kyiv region with a Swedish RBS-70 MANPADS, and Russian channels published the first footage of a ground-launched Dan-T small cruise missile.",
+      "sections": [
+        {
+          "heading_ja": "ジェット型の比率64%と迎撃率85%",
+          "heading_en": "A 64% jet share and an 85% interception rate",
+          "paragraphs_ja": [
+            "空軍の発表によれば、発射地点はブリャンスク、オリョール、プリモルスコ・アフタルスク、占領下ドネツク州、クリミアのフヴァルジイスケで、機種はShahed型にGerberaと「Parodiya」のおとり機が混在した。ジェット型61機のうち52機が無力化され、迎撃率は約85%で、前夜の63機中39機（約62%）を上回った。日中にはオデーサ州北部のDTEKのエネルギー施設が攻撃され約5万件の需要家が停電し、スーミ州でも緊急停電が生じた。キーウ市ホロシーイウ地区では午前に2か所で無人機の破片が落下し、うち1か所は医療施設の敷地であった。これらは当事者の発表であり、独立の確認は限られる（信頼度B2）。"
+          ],
+          "paragraphs_en": [
+            "According to the Air Force, launches came from Bryansk, Oryol, Primorsko-Akhtarsk, occupied Donetsk region and Hvardiiske in Crimea, with Shahed types mixed with Gerbera and 'Parodiya' decoys. Of 61 jet drones 52 were neutralized, an interception rate of about 85%, above the previous night's 39 of 63 (about 62%). During the day a DTEK energy facility in northern Odesa region was hit, leaving about 50,000 customers without power, and an emergency outage occurred in Sumy region; drone debris fell at two sites in Kyiv's Holosiivskyi district in the morning, one of them on the grounds of a medical facility. These are the parties' statements with limited independent confirmation (reliability B2)."
+          ]
+        },
+        {
+          "heading_ja": "RBS-70初撃墜と再設計Geran-5の中身",
+          "heading_en": "A first RBS-70 kill and the inside of the redesigned Geran-5",
+          "paragraphs_ja": [
+            "参謀本部は13日夜、第1027対空ミサイル・砲兵連隊がキーウ州で「初めて」RBS-70でジェット型Geran-5を撃墜したと発表し、スウェーデンに謝意を示した。レーザー誘導のRBS-70は電波妨害の影響を受けにくく、交戦の距離や高度は公表されていない。",
+            "ウクライナ国防省情報総局の分解調査を伝えたFDDの分析（11月11日）によれば、アラブガで生産される再設計型「Geran-5 K5-K」は全長4mの機体にV字尾翼、90kgのサーモバリック弾頭TBBCh-90、中国製部品で組まれたTRD-200ターボジェットを備え、巡航速度450km/h超、終末降下で最大1,000km/h、上昇限度6km、シーンマッチング航法「Susanin」と16素子の対妨害アンテナを持つ。部品93点のうち52点は米企業製、10点が中国製、10点がスイス製と数えられた。",
+            "同分析はウクライナのジェット型Geran-4/5への迎撃率を約60%、プロペラ型を約90%とし、ロシアの月産を推定でGeran-2約2,000機、Geran-4/5約4,000機、Banderol・Dan-T級の小型巡航ミサイル350〜400発とするウクライナ情報機関の数字を引くが、生産数は独立に確認されていない。14日未明の85%はこの平均を上回り、携行型ミサイルの投入が一時的な押し上げ要因かどうかは数夜の推移で判断する必要がある。"
+          ],
+          "paragraphs_en": [
+            "On the night of Nov 13 the General Staff said the 1027th Anti-Aircraft Missile and Artillery Regiment was the first in Kyiv region to down a jet-powered Geran-5 with the RBS-70 and thanked Sweden; the laser beam-riding RBS-70 is resistant to jamming, and engagement range and altitude were not released.",
+            " An FDD Long War Journal analysis (Nov 11) of a Ukrainian military-intelligence teardown describes the redesigned Alabuga-built 'Geran-5 K5-K' as a 4 m airframe with a V-tail, a 90 kg TBBCh-90 thermobaric warhead, a TRD-200 turbojet assembled from Chinese components, cruise above 450 km/h, up to 1,000 km/h in a terminal dive, a 6 km ceiling, 'Susanin' scene-matching navigation and a 16-element anti-jam antenna; of 93 components counted, 52 came from US firms, 10 were Chinese and 10 Swiss.",
+            "The same analysis puts Ukraine's interception rate for jet Geran-4/5s at about 60% versus about 90% for propeller types and cites Ukrainian intelligence estimates of monthly Russian output of about 2,000 Geran-2s, 4,000 Geran-4/5s and 350–400 Banderol/Dan-T-class small cruise missiles, figures not independently verified. The 85% achieved overnight Nov 14 exceeds that average; whether MANPADS employment is a lasting or temporary boost will take several nights to judge."
+          ]
+        },
+        {
+          "heading_ja": "地上発射Dan-Tが広げる低価格巡航ミサイル",
+          "heading_en": "A ground-launched Dan-T widens the low-cost cruise-missile tier",
+          "paragraphs_ja": [
+            "ロシア側のチャンネルが13日に公開した映像は、固体ロケットブースターを用いたレール式の地上発射装置からのDan-T発射を初めて示した。従来はMi-28ヘリコプターからの発射に限られていた。Rostecの公称値は発射重量268kg、弾頭最大130kg、速度約500km/h、空中発射時の射程450kmで、GNSS／慣性航法と低高度飛行を特徴とするが、いずれも企業の主張である。",
+            "ウクライナ情報総局のスキビツキー副局長は8月にSu-25SM3、Su-34、Su-30SM、Su-57への統合計画を指摘し、9月のエル・アラメイン航空ショーで公開、10月の演習「ツェントル2026」で地上発射機が示された。Militarnyiは2027年に約1万発の生産計画との推定を引くが確認はない。500km/hの速度は電動の迎撃無人機の追尾限界を超え、Starshieldの速度制限で迎撃網が揺らぐ中、安価な巡航ミサイル層の厚みが防空の設計を圧迫する。"
+          ],
+          "paragraphs_en": [
+            "Footage published by Russian channels on Nov 13 showed for the first time a Dan-T launched from a ground rail with a solid-fuel booster; previously it had been launched only from Mi-28 helicopters. Rostec's stated figures are a launch weight of 268 kg, a warhead of up to 130 kg, about 500 km/h and a 450 km range when air-launched, with GNSS/INS navigation and terrain-hugging flight, all company claims.",
+            " HUR deputy chief Vadym Skibitsky noted in August plans to integrate it on the Su-25SM3, Su-34, Su-30SM and Su-57; it was unveiled at the El Alamein airshow in September and a ground launcher appeared at the Center-2026 exercise in October. Militarnyi cites an unverified estimate of about 10,000 planned for 2027. At 500 km/h it outruns electric interceptor drones, and with the Starshield speed limit unsettling the interceptor network, a thickening tier of cheap cruise missiles presses on air-defense design."
+          ]
+        }
+      ],
+      "watch_next_ja": "15日朝の空軍発表でのジェット型の比率と迎撃率。RBS-70の対ジェット型戦果の統計が公表されるか。地上発射型Dan-Tの実戦使用の初確認。",
+      "watch_next_en": "The jet share and interception rate in the Air Force's Nov 15 statement; whether RBS-70 kill statistics against jet drones are published; the first confirmed combat use of a ground-launched Dan-T.",
+      "japan_relevance": false,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "ウクライナ空軍・参謀本部",
+      "publisher_en": "Ukrainian Air Force / General Staff",
+      "sources": [
+        {
+          "title": "Air defenses neutralize 81 of 96 drones launched by Russia against Ukraine since evening",
+          "url": "https://www.ukrinform.net/rubric-ato/4184585-air-defenses-neutralize-81-of-96-drones-launched-by-russia-against-ukraine-since-evening.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia attacked Ukraine with 96 drones, 85% of the neutralized ones were jet-powered",
+          "url": "https://unn.ua/en/news/russia-attacked-ukraine-with-96-drones-85percent-of-the-neutralized-ones-were-jet-powered",
+          "publisher": "UNN",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russian forces attack energy facility in Odesa region, nearly 50,000 consumers left without power",
+          "url": "https://www.ukrinform.net/rubric-ato/4184613-russian-forces-attack-energy-facility-in-odesa-region-nearly-50000-consumers-left-without-power.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Debris from Russian drone falls on medical facility grounds in Kyiv's Holosiivskyi district",
+          "url": "https://www.ukrinform.net/rubric-ato/4184663-debris-from-russian-drone-falls-on-medical-facility-grounds-in-kyivs-holosiivskyi-district.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine's air defenders down Russian Geran-5 jet drone for first time using Swedish RBS-70 MANPADS",
+          "url": "https://www.ukrinform.net/rubric-ato/4184527-ukraines-air-defenders-down-russian-geran5-jet-drone-for-first-time-using-swedish-rbs70-manpads.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia's redesigned Geran-5 missile expands threat to Ukrainian skies",
+          "url": "https://www.longwarjournal.org/archives/2026/11/russias-redesigned-geran-5-missile-expands-threat-to-ukrainian-skies.php",
+          "publisher": "FDD's Long War Journal",
+          "date": "2026-11-11",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia adapts Dan-T missile for ground launch",
+          "url": "https://militarnyi.com/en/news/russia-adapts-dan-t-missile-ground-launch/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Three killed in Russia as Ukraine claims US floated NATO membership option",
+          "url": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option",
+          "publisher": "Al Jazeera",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261114-07"
+    },
+    {
+      "id": "cl-20261115-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Anthropic IPOで幹事銀行が中国本土・香港の投資家を排除と報道　根拠はITAR、届出書はモデルが輸出規制対象となり得ると記載",
+      "title_en": "Banks said to rebuff mainland China and Hong Kong orders for Anthropic's IPO, citing ITAR; the filing says its models may be export-controlled",
+      "lead_ja": "Bloombergは11月13日、Anthropicの新規株式公開（IPO）で、ゴールドマン・サックスとモルガン・スタンレーを主幹事とする引受団が、中国本土と香港の機関投資家からの注文を国際武器取引規則（ITAR）を理由に拒否または抑制していると報じた。修正届出書はモデルやプラットフォームが商務省の輸出管理規則（EAR）または国務省のITARの管理対象となり得ると記していると伝えられる。同日ロイターは、輸出規制対象のNvidia製H100・H200・H800に依拠する中国のAI計算案件が30億ドル超に及ぶと、調達文書の分析から報じた。",
+      "lead_en": "Bloomberg reported on Nov 13 that the syndicate for Anthropic's IPO, led by Goldman Sachs and Morgan Stanley, has refused or discouraged orders from mainland China and Hong Kong institutional investors, citing the International Traffic in Arms Regulations. The amended registration statement is reported to say that the company's models and platform 'may be controlled' under the Commerce Department's EAR or the State Department's ITAR. The same day Reuters reported, from a review of procurement documents, that Chinese AI computing projects worth more than $3 billion rely on export-restricted Nvidia H100, H200 and H800 chips.",
+      "sections": [
+        {
+          "heading_ja": "約1兆ドル評価の公開で投資家を選別",
+          "heading_en": "Screening investors in a roughly $1 trillion listing",
+          "paragraphs_ja": [
+            "報道によれば、仮条件は1株70〜78ドル、調達額は約610億ドル、中間値での評価額は約1兆ドルで、需要は約6倍、価格決定は11月18日、Nasdaqでの取引開始は19日（ティッカー「ANT」）とされる。関係者はITARを根拠に挙げ、同様の扱いは2026年前半のSpaceXの862億ドルのIPOでも採られたという。Anthropicはコメントを控え、各銀行も声明を出していない。",
+            "同社の製品は中国本土と香港では提供されておらず、中国資本の支配下にある企業の利用も遮断してきた。国防省による「供給網リスク」指定は2026年9月にコロンビア特別区巡回控訴裁が支持したままである。届出書の該当文言は本稿では直接確認できておらず、Bloombergの報道を引いた複数媒体に依拠している。"
+          ],
+          "paragraphs_en": [
+            "As reported, the price range is $70–78 a share, the raise about $61 billion and the midpoint valuation about $1 trillion, with demand about six times the offering, pricing on Nov 18 and Nasdaq trading on Nov 19 under 'ANT.' People involved cited ITAR, and the same approach was reportedly used in SpaceX's $86.2 billion IPO earlier in 2026. Anthropic declined to comment and no bank has issued a statement.",
+            " The company's products are not offered in mainland China or Hong Kong and it has blocked use by Chinese-controlled firms; the Pentagon's 'supply chain risk' designation stands after the D.C. Circuit upheld it in September 2026. The filing's wording has not been confirmed directly here and rests on outlets relaying Bloomberg."
+          ]
+        },
+        {
+          "heading_ja": "30億ドルの中国AI案件と商務省をめぐる人事",
+          "heading_en": "$3 billion of Chinese AI projects and the Commerce personnel question",
+          "paragraphs_ja": [
+            "ロイターは150件超の調達公告、契約、開示資料を精査し、H100・H200・H800の上に組まれた中国のAI計算案件が計画中と完成済みを合わせて30億ドル超に達すると報じた。分析は機材が利用者に届いた経路を特定しておらず、中国外交部は13日、上海のデータセンターをめぐる報道は「承知していない」と述べた。",
+            "韓国の裵慶勲副首相兼科学技術情報通信部長官は13日、フアン氏の辞任後もNvidiaが韓国への最大26万基のGPU供給の約束を確認したと述べ、同盟国側の供給継続の確認が並行した。CNNは13日、トランプ政権の一部の側近がラトニック商務長官の解任を議論したと報じたが、ホワイトハウスは12日に「完全な信頼」を表明している。ラトニック氏の12月10日の上院銀行委員会での証言は1つの情報源に依っている。"
+          ],
+          "paragraphs_en": [
+            "Reuters reviewed more than 150 procurement notices, contracts and disclosures and found Chinese AI computing projects built on H100, H200 and H800 processors worth more than $3 billion, counting planned and completed projects. The review does not establish how the hardware reached its users, and China's foreign ministry said on Nov 13 it was 'not aware' of reports about a Shanghai data center.",
+            " On the allied side, Korea's Deputy Prime Minister and Science Minister Bae Kyung-hoon said on Nov 13 that Nvidia had confirmed its commitment to supply up to 260,000 GPUs to Korea despite Huang's exit. CNN reported on Nov 13 that some Trump advisers had discussed whether to dismiss Commerce Secretary Howard Lutnick, while the White House expressed 'complete confidence' on Nov 12; Lutnick's Dec 10 Senate Banking testimony rests on a single source."
+          ]
+        },
+        {
+          "heading_ja": "資本市場に移る輸出管理の線引き",
+          "heading_en": "Export-control lines move into the capital markets",
+          "paragraphs_ja": [
+            "IPOの配分段階で国籍により投資家を選別する手法は、半導体の物理的な流通を対象としてきた輸出管理が、AIサービスの所有関係にも及ぶことを意味する。モデルがITARの「防衛物品・役務」に該当し得るという届出書の記載が確認されれば、フロンティアAI企業は商務省の規則に加えて国務省の武器輸出の枠組みを前提に事業を設計することになる。議会では輸出規制法案を国防授権法に載せる動きが続いており、株式公開、調達文書の精査、閣僚の責任追及が同じ週に重なった。したがって、12月の聴聞会までの焦点は、EDGARで公開される届出書の文言と、商務省がMegaspeedの実体リスト掲載に踏み切るかどうかに移る。"
+          ],
+          "paragraphs_en": [
+            "Screening investors by nationality at the IPO allocation stage means export controls, long aimed at the physical movement of chips, now reach the ownership of AI services. If the filing's statement that models may qualify as ITAR 'defense articles or services' is confirmed, frontier AI firms will have to design their businesses around the State Department's arms-export framework as well as Commerce rules. With Congress moving to attach chip-export bills to the NDAA, a listing, a procurement-document review and a cabinet accountability fight converged in the same week. Until the December hearings, attention turns to the filing's language on EDGAR and to whether Commerce adds Megaspeed to the Entity List."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月18日の価格決定と19日のNasdaq上場。EDGARで公開される修正届出書の輸出規制に関する記述。商務省によるMegaspeedの実体リスト掲載の有無と、12月10日と報じられるラトニック長官の証言。",
+      "watch_next_en": "Pricing on Nov 18 and the Nasdaq debut on Nov 19; the export-control language in the amended registration statement on EDGAR; whether Commerce adds Megaspeed to the Entity List, and Lutnick's testimony reported for Dec 10.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "Bloomberg・ロイター報道",
+      "publisher_en": "Bloomberg and Reuters reports",
+      "sources": [
+        {
+          "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+          "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+          "publisher": "The Decoder",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Banks shut China, Hong Kong investors out of Anthropic IPO",
+          "url": "https://aiweekly.co/alerts/banks-shut-china-hong-kong-investors-out-of-anthropic-ipo",
+          "publisher": "AI Weekly",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Anthropic IPO share orders from China are said to be rebuffed",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed",
+          "publisher": "Bloomberg",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "Huang exit, US scrutiny imperil $3 billion of Chinese AI projects reliant on Nvidia",
+          "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/",
+          "publisher": "Reuters",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "publisher": "TechCrunch",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia confirms planned supply of GPUs to S. Korea despite Jensen Huang's resignation: science minister",
+          "url": "https://www.koreaherald.com/article/10936791",
+          "publisher": "The Korea Herald (Yonhap)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Bessent points finger at Lutnick over Nvidia chip exports as Trump advisers discuss possible Commerce secretary ouster",
+          "url": "https://www.nbcpalmsprings.com/business-finance-and-tech/2026/11/13/bessent-points-finger-at-lutnick-over-nvidia-chip-exports-as-trump-advisers-discuss-possible-commerce-secretary-ouster",
+          "publisher": "CNN via NBC Palm Springs",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US",
+        "CN",
+        "KR"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261114-02"
+    },
+    {
+      "id": "cl-20261115-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米上院のシャヒーン、クーンズ両議員、マスク氏にStarshield関連記録の保全を要求　11月30日が期限",
+      "title_en": "Sens. Shaheen and Coons ask Musk to preserve Starlink and Starshield records on Ukraine, with written confirmation due Nov 30",
+      "brief_text_ja": "上院外交委員会のシャヒーン、クーンズ両議員（民主）は11月13日公表の書簡で、SpaceXのマスクCEOにウクライナでのStarlinkとStarshieldに関する文書・通信・電子記録の保全を求め、対象を9月1日以降のホワイトハウスや国防省との通信を含むものとした。書簡は10月と11月の制限が「重要な防空能力を妨げ、米国人要員を危険にさらした」と述べ、11月30日までに保全措置の書面確認を求めている。ゼレンスキー大統領は14日、占領地でのStarshieldの制限を「あらゆるレベルで」提起すると述べた。",
+      "brief_text_en": "In a letter published Nov 13, Sens. Jeanne Shaheen and Chris Coons of the Senate Foreign Relations Committee asked SpaceX CEO Elon Musk to preserve all documents, communications and electronically stored information relating to Starlink and Starshield in Ukraine, including communications with the White House and the Pentagon since Sept 1. The letter says the October and November restrictions 'disrupted critical air defense capabilities, endangered American personnel' and asks for written confirmation of preservation measures by Nov 30. President Zelensky said on Nov 14 that Ukraine would raise the Starshield restrictions in occupied territories 'at every level.'",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "米上院外交委員会（民主党議員）",
+      "publisher_en": "U.S. Senate Foreign Relations Committee members",
+      "sources": [
+        {
+          "title": "Democrats urge Musk to preserve records on Starlink operations in Ukraine – media",
+          "url": "https://www.ukrinform.net/rubric-polytics/4184601-democrats-urge-musk-to-preserve-records-on-starlink-operations-in-ukraine-media.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Democrats ask Musk to preserve documents on Starlink in Ukraine",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-14/democrats-ask-musk-to-preserve-documents-on-starlink-in-ukraine",
+          "publisher": "Bloomberg",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "Zelensky: Putin personally does not support ceasefire",
+          "url": "https://www.ukrinform.net/rubric-ato/4184662-zelensky-putin-personally-does-not-support-ceasefire.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US",
+        "UA"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261114-05"
+    },
+    {
+      "id": "cl-20261115-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ、サマラ州の原油ブレンド拠点とリペツク2飛行場を無人機で攻撃　ロシアは29機撃墜を主張",
+      "title_en": "SBU long-range drones hit a Samara crude-blending station; General Staff confirms three targets at Lipetsk-2 airfield as Russia claims 29 drones downed",
+      "brief_text_ja": "ウクライナ保安庁（SBU）は11月14日、特殊作戦センター「アルファ」の長距離無人機がサマラ州プロスヴェト近郊の送油ステーションを攻撃し複数の貯油タンクを損傷させたと発表し、参謀本部は複数のタンクで火災が続いたとした。同拠点は硫黄含有量の異なる原油を輸出銘柄「ウラル」へ混合する施設とされ、約2週間で2度目の攻撃となる。参謀本部はリペツク2飛行場でも整備機材を収めた格納庫、航空燃料タンク、中央指揮所の3目標への命中を確認し、ロシア国防省は夜間に29機のウクライナ無人機を撃墜したと主張した（信頼度B3）。",
+      "brief_text_en": "The SBU said on Nov 14 that long-range drones of its Alpha Special Operations Center struck the oil pumping station near Prosvet in Samara region, damaging several storage tanks, and the General Staff said several tanks were ablaze. The station is described as the hub where crude of differing sulfur content is blended into the Urals export grade; this was its second strike in about two weeks. The General Staff also confirmed hits on three targets at Lipetsk-2 airfield (a hangar with maintenance equipment, an aviation-fuel tank and the central command post), while Russia's defense ministry claimed 29 Ukrainian drones were downed overnight (reliability B3).",
+      "japan_relevance": false,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "ウクライナ保安庁・参謀本部",
+      "publisher_en": "Security Service of Ukraine / General Staff",
+      "sources": [
+        {
+          "title": "SSU drones strike oil facility in Russia's Samara region",
+          "url": "https://www.ukrinform.net/rubric-ato/4184658-ssu-drones-strike-oil-facility-in-russia39s-samara-region.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Ukraine struck 3 targets at Russian Lipetsk-2 airfield",
+          "url": "https://militarnyi.com/en/news/ukraine-struck-3-targets-russian-lipetsk-2/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Air defenses downed 39 Ukrainian UAVs during the day",
+          "url": "https://tass.com/defense/2218213",
+          "publisher": "TASS (Russian MoD claim)",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261114-06"
+    },
+    {
+      "id": "cl-20261115-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "独ARX Robotics、ウクライナと共同生産の地上ロボットRys Proを初納入　12か月で数千台を計画",
+      "title_en": "Germany's ARX Robotics delivers first co-produced Rys Pro UGVs to Ukraine, plans several thousand in 12 months; Gereon with Ukrainian Saber module in production",
+      "brief_text_ja": "ARX RoboticsのヴィートフェルトCEOは11月13日、ウクライナのRoboneersと共同生産した地上無人車両Rys Proの初回分を試験事業として納入し、合弁会社「ARX Industries」の設立手続きに入ったとUkrinformに述べた。同社はRys Pro、Gereon、Hectorを合わせ今後12か月で数千台をウクライナへ納入する計画で、ウクライナ製の戦闘モジュール「Saber」を搭載したGereonは生産・納入段階にあり、武器使用、目標交戦、偵察の試験を経たという。数量と契約先は公表されていない。",
+      "brief_text_en": "ARX Robotics CEO Marc Wietfeld told Ukrinform on Nov 13 that the first batch of Rys Pro ground vehicles co-produced with Ukraine's Roboneers had been delivered under a pilot project and that the process of establishing the joint venture 'ARX Industries' had begun. The company plans to deliver several thousand UGVs (Rys Pro, Gereon and Hector combined) to Ukraine over the next 12 months; Gereon vehicles fitted with the Ukrainian 'Saber' combat module are in production and delivery after tests of weapons employment, target engagement and reconnaissance. Quantities and customers were not disclosed.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "ARX Robotics",
+      "publisher_en": "ARX Robotics",
+      "sources": [
+        {
+          "title": "ARX Robotics and Roboneers deliver first batch of jointly produced Rys Pro ground robots to Ukraine",
+          "url": "https://www.ukrinform.net/rubric-defense/4184521-arx-robotics-and-roboneers-deliver-first-batch-of-jointly-produced-rys-pro-ground-robots-to-ukraine.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "German Gereon ground robots equipped with Ukrainian Saber combat modules enter production and delivery",
+          "url": "https://www.ukrinform.net/rubric-defense/4184531-german-gereon-ground-robots-equipped-with-ukrainian-saber-combat-modules-enter-production-and-delivery.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "EU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain",
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国コナンテクノロジー、国防AI基盤「ARGO-X」を初公開　国家AI戦略委は「国防AI法」と2030年目標を提示",
+      "title_en": "Korea's Konan Technology unveils 'ARGO-X' multi-source intelligence platform; National AI Strategy Committee official cites a planned Defense AI Act and a 2030 target",
+      "brief_text_ja": "11月13日にソウル・龍山で開かれた第5回国防AIサミット（国防部と主要部隊など27機関から約200人）で、コナンテクノロジーは映像、信号、公開情報を構造化オントロジーで結び指揮判断を支援する「ARGO-X」を初公開した。国家AI戦略委員会国防安保分科の沈承培分科長は基調講演で、国防AI行動計画に続く「国防AI法」の制定と、2030年までに非戦闘分野のAI適用を完成させる目標を示した。SKテレコムの国防特化LLM、KAIのAIパイロット「CAILOT」の飛行試験結果も報告されたが、契約の発表はない。",
+      "brief_text_en": "At the 5th Defense AI Summit in Yongsan, Seoul, on Nov 13 (about 200 attendees from 27 bodies including the Ministry of National Defense and major commands), Konan Technology unveiled 'ARGO-X,' which fuses video, signals and open-source intelligence on a structured ontology to support command decisions. Shim Seung-bae, head of the defense and security subcommittee of the National AI Strategy Committee, cited a planned Defense AI Act following the Defense AI Action Plan and a target of completing AI application in non-combat areas by 2030. SK Telecom's defense-specialized LLM and KAI's CAILOT AI-pilot flight-test results were also presented; no contract was announced.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "コナンテクノロジー・韓国国家AI戦略委員会",
+      "publisher_en": "Konan Technology / National AI Strategy Committee of Korea",
+      "sources": [
+        {
+          "title": "코난테크놀로지, 국방 AI 플랫폼 '아르고스' 첫 공개…차세대 사업 비전 제시",
+          "url": "https://newspim.com/news/view/20261113001154",
+          "publisher": "뉴스핌",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261114-09"
+    },
+    {
+      "id": "cl-20261115-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "JPCERT/CC、AI悪用のサイバー攻撃拠点とみられるサーバー約1,000台を国際調査で確認と報道",
+      "title_en": "JPCERT/CC reported to have identified about 1,000 servers suspected as bases for AI-driven cyberattacks in an international probe",
+      "brief_text_ja": "共同通信は11月14日、JPCERTコーディネーションセンターが海外のセキュリティ企業との国際調査で、高性能AIを悪用したサイバー攻撃の拠点とみられるサーバーを世界で少なくとも約1,000台確認したと報じた。サーバーは10月からインターネット上に存在し、AIで国内外のウェブサイトの弱点を探して不正侵入を試み、複数の国の企業を標的にしていたと疑われる。JPCERT/CCは10月21日に、AIを用いて既知の脆弱性を探索しAPI経由で攻撃する国内の事案と攻撃基盤の分析を公表していたが、約1,000台に関する同センター自身の公表文は14日時点で確認できていない。",
+      "brief_text_en": "Kyodo reported on Nov 14 that JPCERT/CC, in an international investigation with overseas security companies, has identified at least about 1,000 servers worldwide suspected of serving as bases for cyberattacks using high-performance AI. The servers have existed on the internet since October and are suspected of using AI to search for weaknesses in websites in Japan and abroad, attempting unauthorized intrusions against companies in several countries. JPCERT/CC published on Oct 21 an analysis of domestic incidents in which attackers used AI to scan for known vulnerabilities and attack via APIs; its own statement on the roughly 1,000 servers could not be located as of Nov 14.",
+      "japan_relevance": true,
+      "date": "2026-11-14",
+      "stage": "",
+      "publisher": "JPCERTコーディネーションセンター（共同通信報道）",
+      "publisher_en": "JPCERT/CC (Kyodo report)",
+      "sources": [
+        {
+          "title": "ＡＩ悪用の攻撃拠点、千台発見",
+          "url": "https://www.daily.co.jp/society/main/2026/11/14/0021035318.shtml",
+          "publisher": "共同通信（デイリースポーツ）",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Recent AI-Assisted Cyber Attacks in Japan: Investigating Attack Infrastructure and Techniques",
+          "url": "https://blogs.jpcert.or.jp/en/2026/10/web_api_attacks.html",
+          "publisher": "JPCERT/CC Eyes",
+          "date": "2026-10-21",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "英国、無人掃海システムの母船3隻をノルウェーの標準艦計画から取得　9,000万ポンド、初号艦は2031年",
+      "title_en": "UK to buy three motherships for uncrewed mine-hunting systems under Norway's standardized vessel program: £90m, first ship in 2031, option for three more",
+      "brief_text_ja": "英国防省は11月12日、ストリーティング国防相とノルウェーのサンドヴィク国防相がオスロで、無人掃海システムを発進・回収する母船3隻の取得に合意したと発表した。英国は2025年12月の「ルンナ・ハウス合意」でノルウェーのP1118標準艦プログラムに参加しており、防衛投資計画で追加の9,000万ポンドが計上され、初号艦は2031年納入、さらに3隻のオプションを持つ。発表はイランによるホルムズ海峡での機雷敷設を脅威の背景に挙げ、同じ発表でOcean Infinityへの別の9,000万ポンド契約「Atlantic Net」にも触れている。",
+      "brief_text_en": "The UK MoD announced on Nov 12 that Defence Secretary Wes Streeting and Norwegian Defence Minister Tore O. Sandvik had agreed in Oslo on the purchase of three vessels to launch and recover uncrewed mine-hunting systems. The UK joined Norway's P1118 Standardised Vessel Programme under the Lunna House Agreement of December 2025; an additional £90m was announced in the Defence Investment Plan, the first ship is due in 2031 and there is an option for three more. The release cites Iran's mining of the Strait of Hormuz as the threat backdrop and separately mentions a distinct £90 million 'Atlantic Net' contract to Ocean Infinity.",
+      "japan_relevance": false,
+      "date": "2026-11-12",
+      "stage": "announced",
+      "publisher": "英国防省",
+      "publisher_en": "UK Ministry of Defence",
+      "sources": [
+        {
+          "title": "UK growth and security boosted as Royal Navy agrees export deal for new mine-hunting motherships",
+          "url": "https://www.gov.uk/government/news/uk-growth-and-security-boosted-as-royal-navy-agrees-export-deal-for-new-mine-hunting-motherships",
+          "publisher": "UK Ministry of Defence",
+          "date": "2026-11-12",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "UK to buy three new mine-hunting drone motherships under Norway agreement",
+          "url": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "GB"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Hermeus、マッハ3級無人機Quarterhorseの任務システムにノースロップ・グラマンを起用　自律ソフトはAnduril",
+      "title_en": "Hermeus brings Northrop Grumman onto the DIU-funded Mach 3-class Quarterhorse drone for mission systems; Anduril supplies autonomy software",
+      "brief_text_ja": "Hermeusは11月13日、国防イノベーション・ユニット（DIU）の資金でマッハ3を目指す無人機Quarterhorseについて、ノースロップ・グラマンが任務システムの設計、開発、統合、維持を担うと発表した。同機は2026年に超音速飛行を達成しており、ノースロップのミムケン氏は電子戦、通信、センシング、航法の技術を持ち込むとしつつ具体のシステム名は明かさず、任務機材の試験は来夏に始まる見込みである。Hermeusは9月に今後の飛行試験でAndurilの自律ソフトを用いると表明しており、生産契約の発表はない。",
+      "brief_text_en": "Hermeus announced on Nov 13 that Northrop Grumman will provide mission-systems design, development, integration and sustainment for Quarterhorse, an uncrewed aircraft being developed with Defense Innovation Unit funding toward Mach 3. The aircraft went supersonic earlier in 2026; Northrop's Kyle Mimken said the company brings electronic warfare, communications, sensing and navigation technology while declining to name specific systems, and trials of mission-kit elements are expected to start next summer. Hermeus said in September it would use Anduril autonomy software for upcoming flight tests; no production contract has been announced.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "announced",
+      "publisher": "Hermeus",
+      "publisher_en": "Hermeus",
+      "sources": [
+        {
+          "title": "Hermeus recruits Northrop Grumman to Quarterhorse drone program",
+          "url": "https://breakingdefense.com/2026/11/hermeus-recruits-northrop-grumman-to-quarterhorse-drone-program/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-14",
+      "rank": 14,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米アフリカ軍、Merlinの自律操縦による負傷者搬送試験に50万ドル　陸軍はSafe ProのAIとGhost-Xで戦車防護",
+      "title_en": "AFRICOM awards Merlin $500,000 to test autonomous-pilot casualty evacuation; Army gives Safe Pro Group $2.5 million for an AI stack with Anduril's Ghost-X to protect Abrams tanks",
+      "brief_text_ja": "Defense Oneは11月13日、米アフリカ軍がMerlinに自律操縦技術を負傷者搬送に用いる試験契約50万ドルを与え、陸軍がSafe Pro GroupにAI技術スタックの契約250万ドルを与えたと報じた。後者はAnduril製の偵察無人機Ghost-Xと統合し、空からの偵察で探知した脅威からエイブラムス戦車を防護する構想である。いずれも試験・試作段階の小規模契約で、契約公告の原文は確認していない。",
+      "brief_text_en": "Defense One reported on Nov 13 that U.S. Africa Command awarded Merlin a $500,000 contract to test autonomous-pilot technology for casualty evacuation, and that the Army awarded Safe Pro Group $2.5 million for its AI technology stack, to be integrated with Anduril's Ghost-X reconnaissance drone to protect Abrams tanks from threats detected by aerial reconnaissance. Both are small test and prototype awards; the award notices themselves were not reviewed.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "awarded",
+      "publisher": "米アフリカ軍・米陸軍（Defense One報道）",
+      "publisher_en": "U.S. Africa Command / U.S. Army (Defense One report)",
+      "sources": [
+        {
+          "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
+          "url": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
+          "publisher": "Defense One",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-15",
+      "rank": 15,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍DEVCOM、無人地上車両から発進する無人機群の「自律攻撃」をグラーフェンヴェーアで実弾実証",
+      "title_en": "Army DEVCOM demonstrates an 'autonomous strike' by a drone swarm launched from a UGV at Grafenwoehr; 173rd Airborne flies FPV strikes",
+      "brief_text_ja": "在欧・アフリカ米陸軍は11月13日、DEVCOM兵器センターが第7軍訓練司令部と12日にドイツのグラーフェンヴェーアで実施した実弾実証を発表した。無人地上車両R3NEGADEに載せた群発射装置HIV3から無人機群を発進させて「自律攻撃」を行い、第173空挺旅団の兵士がFPV無人機で攻撃し、別のR3NEGADEはジャベリン付き遠隔操作銃塔を搭載した。開発中の対装甲ペイロードFIR3FLYを積むTRV-400とコンテナ化した即応無人部隊概念R3ACTも静展示されたが、実証段階であり契約や数量の公表はない。",
+      "brief_text_en": "U.S. Army Europe and Africa said on Nov 13 that the DEVCOM Armaments Center, with the 7th Army Training Command, ran a live-fire demonstration at Grafenwoehr, Germany, on Nov 12: a HIV3 swarm launcher mounted on an R3NEGADE unmanned ground vehicle launched a group of drones for an 'autonomous strike,' soldiers of the 173rd Airborne Brigade flew FPV strikes, and a second R3NEGADE carried a remote weapon station with Javelin. A TRV-400 with the developmental FIR3FLY anti-armor payload and the containerized R3ACT rapid-response autonomous team concept were shown statically. It was a demonstration; no contract or quantities were announced.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "在欧・アフリカ米陸軍",
+      "publisher_en": "U.S. Army Europe and Africa",
+      "sources": [
+        {
+          "title": "US Army evaluates unmanned capabilities during live-fire demonstration in Germany",
+          "url": "https://www.defconlevel.com/alert/2026-11-13-us-army-evaluates-unmanned-capabilities-during-live-fire-demonstration-in-germany",
+          "publisher": "Defcon Level (republished USAREUR-AF statement)",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-16",
+      "rank": 16,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "フィンランド、EUウクライナ投資枠組みの3,730万ユーロでウクライナの防衛・両用技術企業を支援する「SISU」計画",
+      "title_en": "Finland launches €37.3m 'SISU' program, funded by the EU Ukraine Investment Framework, to grow Ukrainian defense and dual-use firms",
+      "brief_text_ja": "フィンランド外務省は11月13日、EUのウクライナ投資枠組みから全額を充てる3,730万ユーロの「ウクライナ戦略投資・支援（SISU）」計画を発表したとMilitarnyiが報じた。対象はウクライナの安全保障・防衛・両用技術企業で、事業規模の拡大、資金調達、リスク管理、投資受け入れ態勢、国際市場参入を支援する。受益企業や配分の仕組みは公表されておらず、11月上旬の約3億ユーロの両国防衛産業合意に続く動きである。",
+      "brief_text_en": "Militarnyi reported on Nov 13 that Finland's foreign ministry announced the €37.3 million 'Strategic Investment and Support for Ukraine' (SISU) program, funded entirely from the EU's Ukraine Investment Framework, to support Ukrainian security, defense and dual-use technology companies in scaling, access to finance, risk management, investment readiness and entry into international markets. Beneficiaries and the disbursement mechanism were not disclosed; the program follows roughly €300 million in Finland–Ukraine defense-industrial agreements signed in early November.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "announced",
+      "publisher": "フィンランド外務省",
+      "publisher_en": "Ministry for Foreign Affairs of Finland",
+      "sources": [
+        {
+          "title": "Finland allocates €37 million to develop Ukraine's defense industry and help it enter global markets",
+          "url": "https://militarnyi.com/en/news/finland-37-million-develop-ukraine-defense-industry-help-enter-global-markets/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "eu"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261115-17",
+      "rank": 17,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米空軍、機密扱いの「フォースデザイン2026」を策定　自律性・センサー・AIを中心に2024年版を置き換え",
+      "title_en": "US Air Force completes classified 'Force Design 2026' centered on autonomy, sensing and AI, replacing the 2024 'One Force Design'",
+      "brief_text_ja": "米空軍は11月10日、アルビン前参謀総長が2024年に示した「ワン・フォース・デザイン」を置き換える「フォースデザイン2026」を策定したと発表し、Defense Newsが13日に報じた。文書は機密で公開版はなく、空軍はセンシング、ネットワーク、AI、自律性、無人システム、長射程兵器、電子戦の進展が航空戦力の生成方法を変えているとし、ウィルスバック参謀総長は「根本的な転換」と述べた。予算額や協働戦闘航空機（CCA）の具体はなく、2024年版の公開要約には自律性の記述がなかった点との対比が指摘されている。",
+      "brief_text_en": "The US Air Force said on Nov 10 that it had completed 'Force Design 2026,' replacing the 2024 'One Force Design' of former Chief of Staff Gen. David Allvin, Defense News reported on Nov 13. The document is classified with no releasable version; the service says advances in sensing, networking, AI, autonomy, unmanned systems, long-range weapons and electronic warfare are changing how it generates airpower, and Chief of Staff Gen. Ken Wilsbach called it 'a fundamental shift.' No budget figures or Collaborative Combat Aircraft specifics were released, and observers note that autonomy was absent from the 2024 unclassified summary.",
+      "japan_relevance": false,
+      "date": "2026-11-10",
+      "stage": "announced",
+      "publisher": "米空軍",
+      "publisher_en": "U.S. Air Force",
+      "sources": [
+        {
+          "title": "US Air Force adopts new force design focusing on sensors and autonomy",
+          "url": "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/",
+          "publisher": "Defense News",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Air Force's secret new force design built around technological change",
+          "url": "https://www.airandspaceforces.com/air-force-secret-new-force-design-technological-change/",
+          "publisher": "Air & Space Forces Magazine",
+          "date": "2026-11-11",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-15",
+      "text_ja": "米FAA、15日の業務終了までに通常の運航スケジュールへ復帰（ベッドフォード長官の見通し）",
+      "text_en": "FAA expects normal flight schedules by close of business Nov 15 (Administrator Bedford)"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。LAWS政府専門家会合の最終報告の「文書の要素」と議定書交渉マンデート案を審議",
+      "text_en": "CCW Seventh Review Conference (Geneva, Nov 16–20): 'elements of an instrument' from the LAWS GGE and a proposed protocol-negotiation mandate"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "米FEMA 2027年度対無人機助成（2.5億ドル）の申請期限",
+      "text_en": "Application deadline for FEMA's FY2027 counter-UAS grants ($250 million)"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）。高市首相は17日に日米首脳会談とクアッド首脳会合に出席の見通し",
+      "text_en": "49th ASEAN Summit and related meetings (Manila, Nov 16–18); PM Takaichi expected at a Japan–US summit and the Quad leaders' meeting on Nov 17"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "クアッド首脳会合（マニラ）。2024年9月以来の開催で、経済安全保障とAIでの協力再確認が見込まれる",
+      "text_en": "Quad leaders' meeting in Manila, the first since September 2024; cooperation on economic security and AI expected to be reaffirmed"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "Nvidiaの2027年度第3四半期決算（クレス暫定CEO体制で初）。取締役会の独立調査、対中H200許可、輸出管理法案への姿勢が焦点",
+      "text_en": "Nvidia Q3 FY2027 earnings, the first under interim CEO Kress; board inquiry, H200 licenses and stance on export-control bills in focus"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, Nov 17–19); NCIA industry workshop on the integrated cyber defence centre"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "Anthropic IPOの価格決定（19日にNasdaqで取引開始の見通し、ティッカー「ANT」）。修正届出書の輸出規制に関する記述",
+      "text_en": "Anthropic IPO pricing (Nasdaq debut expected Nov 19 under 'ANT'); export-control language in the amended filing"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "米中経済・安全保障調査委員会（USCC）の2026年年次報告書の公表",
+      "text_en": "USCC 2026 annual report release"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "APEC首脳会議（深圳、11月18〜19日）に合わせたトランプ・習会談。「超知能」対話の前進とAI事故通報経路が議題とベセント長官。高市首相の初訪中",
+      "text_en": "Trump–Xi meeting at the Shenzhen APEC summit (Nov 18–19); Bessent cites the 'superintelligence' dialogue and AI-incident channels; PM Takaichi's first China visit"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting: votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "ベルリンでの「有志連合」首脳会合（報道）。アブダビ協議でのロシアの要求への欧州の対応",
+      "text_en": "'Coalition of the Willing' leaders' meeting in Berlin (reported); European response to Russian demands at the Abu Dhabi talks"
+    },
+    {
+      "date": "2026-11-20",
+      "text_ja": "台湾立法院、2026年度追加予算（国防1,457億台湾ドル、無人機・無人艇3項目559億台湾ドル）の第三読会（予定）",
+      "text_en": "Taiwan Legislative Yuan third reading of the FY2026 supplementary budget (NT$145.7bn defense, NT$55.9bn for three drone/USV items), scheduled"
+    },
+    {
+      "date": "2026-11-21",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの質問締切（回答は12月4日）",
+      "text_en": "Question deadline for the USAF cislunar autonomous spacecraft AI/ML RFI (responses due Dec 4)"
+    },
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for Commerce, Justice, State and the DNI to answer Sen. Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限。フアン氏の議会証言は感謝祭前と報道",
+      "text_en": "Deadline for the DoD STIB to begin its study on commercial AI and cloud for classified networks; Huang's congressional testimony reported for before Thanksgiving"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。外国干渉事件の捜査と選挙期間中の偽情報・サイバー攻撃の推移",
+      "text_en": "Taiwan local elections; foreign-interference investigations and disinformation and cyber activity during the campaign"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "シャヒーン、クーンズ両上院議員がマスク氏に求めたStarlink・Starshield関連記録の保全措置の書面確認の期限",
+      "text_en": "Deadline for Musk to confirm in writing the preservation of Starlink/Starshield records requested by Sens. Shaheen and Coons"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：与党実務者協議で安保3文書の骨子案の議論を開始（11月下旬以降）。次回は防衛産業基盤戦略を扱う予定",
+      "text_en": "Japan: LDP–Ishin working-level talks take up the outline of the three security documents (late November onward); next session on the defense industrial base strategy"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：国家サイバー統括室のアウトリーチ・チーム新設とIPA「トップガン人材チーム」立ち上げの期限（11月中）",
+      "text_en": "Japan: deadline (within November) for the National Cybersecurity Office outreach team and the IPA 'Top Gun' talent team"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院外交・中国特別・情報の3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取（書簡の指定日）",
+      "text_en": "Transcribed closed-door interview of former Nvidia CEO Huang by the House Foreign Affairs, China Select and Intelligence committees (date set in the letter)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "日本：安保3文書改定に向けた有識者会議の報告書（12月上旬の見通し）。防衛費総額（60兆円程度か）の判断材料",
+      "text_en": "Japan: expert panel report on the three security documents (expected early December), informing the defense-spending total (about ¥60 trillion under consideration)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "国連総会本会議でのLAWS決議（第1委員会で10月29日に163対5で採択）の採択（12月上旬の見通し）",
+      "text_en": "UN General Assembly plenary adoption of the LAWS resolution (First Committee vote 163–5 on Oct 29), expected early December"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "韓国：防衛事業庁の「国防革新ラボ」事業の着手（12月）。韓国版Blue UAS認証リストの公表時期は未定",
+      "text_en": "Korea: DAPA 'Defense Innovation Lab' launch (December); timing of a Korean Blue UAS-style certification list still open"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "イスラエル国防軍の無人システム・AI部門の発足（12月初めまでの予定と報道）",
+      "text_en": "Launch of the IDF unmanned systems and AI directorate (reported for early December)"
+    },
+    {
+      "date": "2026-12-04",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの回答期限",
+      "text_en": "Response deadline for the USAF cislunar autonomous spacecraft AI/ML RFI"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。規則案は2026年7月10日からOIRA審査中",
+      "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule; the draft has been under OIRA review since July 10, 2026"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区、CSSCの500トン級無人艇、人型ロボットを含む空軍の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, Dec 7–13): dedicated unmanned and counter-UAS zone, CSSC 500-ton USV, PLAAF exhibits including humanoid robots"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, Korea, Dec 8–11), five themes including drones and counter-drone"
+    },
+    {
+      "date": "2026-12-09",
+      "text_ja": "米陸軍犯罪捜査部のダークネット・暗号化メッセージ監視AI基盤RFIの回答期限",
+      "text_en": "Response deadline for the Army CID RFI on an AI-enabled darknet and encrypted-messaging monitoring platform"
+    },
+    {
+      "date": "2026-12-10",
+      "text_ja": "ラトニック商務長官の上院銀行委員会での証言（米政府関係者の説明として報道。日程は1つの情報源）",
+      "text_en": "Commerce Secretary Lutnick's Senate Banking testimony (reported via a US official; single-source date)"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）",
+      "text_en": "Japan: cabinet decision on the revised three security documents (mid-December target, as reported)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日米の在日米軍駐留経費特別協定（2027〜31年度）の合意目標（年内）",
+      "text_en": "Target for agreement on the Japan–US host-nation support special measures agreement for FY2027–31 (by year-end)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：AI法制度の見直しの全体像（法改正を含む）の提示（年内目途）",
+      "text_en": "Japan: overall picture of the AI legal framework review, including legislative amendments (by year-end)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：国内の踏み台機器対策の取りまとめと、サイバー協議会を通じた脅威ハンティング用マニュアル・検知ツールの提供（年内目途）",
+      "text_en": "Japan: compiled measures against compromised relay devices and threat-hunting manuals and tools via the Cybersecurity Council (by year-end)"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "日本：2027年通常国会の召集（1月中旬〜下旬の見込み）。能動的サイバー防御法改正案の提出は「早ければ」この会期と報道",
+      "text_en": "Japan: convening of the 2027 ordinary Diet session (mid-to-late January); active cyber defense law amendments 'at the earliest' this session, as reported"
+    },
+    {
+      "date": "2027-01-27",
+      "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）",
+      "text_en": "Deadline for US federal civilian agencies to remove Acronis software (DHS directive)"
+    },
+    {
+      "date": "2027-01-28",
+      "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。FACA違反を訴える訴訟がコロンビア特別区連邦地裁で係属",
+      "text_en": "Report deadline for 'Project Meridian' (the defense secretary's future-of-warfare panel); a FACA lawsuit is pending in D.D.C."
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "欧州委員会のドローン戦略2.0実施ロードマップの提示（2027年春）",
+      "text_en": "European Commission roadmap for implementing Drone Strategy 2.0 (spring 2027)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "日本：サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）の運用開始（3月頃）",
+      "text_en": "Japan: launch of the supply-chain security evaluation scheme (SCS) around March"
+    },
+    {
+      "date": "2027-10-01",
+      "text_ja": "米国防省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日",
+      "text_en": "DoD target date for standing up the Autonomous Warfare Command (a four-star functional combatant command)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "確認済み：米国（国防省・議会・運輸省・商務省関連、防衛専門媒体、フロンティアAI企業関連報道）、ウクライナ・ロシア（空軍・参謀本部・SBU発表の媒体経由、ロシア国防省主張、ISW）、欧州・NATO・英国（英国防省、独・フィンランド関連、バルト）、日本（時事・共同報道）、韓国（ソウル経済・뉴스핌・Korea Herald）、台湾（11月14日の新規動向なし、追加予算は11月20日第三読会を予定に記載）。未確認：中国（11月14日の国防部・新華社・外交部）、イスラエル・中東、インド、豪州、ASEAN、国連・CCW運用検討会議の事前声明、シンクタンク（CSIS・CNAS・RAND等）、CISA等のサイバー勧告、フロンティアAI企業の一次ページ。理由：本号の調査途中でウェブ検索の利用上限に達し、各サイトの直接取得も多数が拒否されたため。該当なしの判断ではなく、未確認である。",
+      "japan": "防衛省の記者会見ページ（11月13日・14日分）は取得できず、11月10日以降の会見は確認できていない。防衛装備庁の11月14日付の公募・契約は確認できず。JPCERT/CCの日英トップページには14日時点で約1,000台の件の公表文なし（10月21日の分析記事はあり）。時事通信の記事はAdnkronos英語版の転載で確認、共同通信の記事は熊本日日新聞・デイリースポーツの転載で確認。内閣官房・経産省・外務省の14日付の発表は未確認。"
+    },
+    "dropped": [
+      {
+        "title": "Lawsuit says Pentagon's future warfare panel lacks transparency and balance (Military Times, Nov 13)",
+        "url": "https://www.militarytimes.com/news/pentagon-congress/2026/11/13/lawsuit-says-pentagons-future-warfare-panel-lacks-transparency-and-balance/",
+        "reason": "訴訟自体は11月3日提起で、13日の記事は要約。新たな裁判所の動きなし。報告期限（2027年1月28日）を予定に反映"
+      },
+      {
+        "title": "Hegseth PME overhaul memo expands AI-assisted wargaming, ends tenure (Military.com, Nov 13; memo Nov 9)",
+        "url": "https://www.military.com/hegseth-military-war-college-overhaul-reduces-civilian-faculty",
+        "reason": "AIとの関わりが「AI支援のウォーゲーム拡大」の一文に限られ、主題は士官教育の人事制度"
+      },
+      {
+        "title": "Hegseth revives OSS name, elevates ASD SO/LIC (SOFX/Task & Purpose, Nov 13)",
+        "url": "https://www.sofx.com/hegseth-revives-the-oss-name-and-puts-special-operations-top-civilian-on-par-with-service-secretaries/",
+        "reason": "特殊作戦の組織改編でAI・自律の要素なし。前号でも不採用"
+      },
+      {
+        "title": "Drone Dominance 'Gauntlet 2.5' reusable bomber finalists (Defense Daily, Nov 12)",
+        "url": "https://www.defensedaily.com/",
+        "reason": "有料記事で詳細を確認できず、日付も窓の外"
+      },
+      {
+        "title": "Fed Financial Stability Report: AI cited by 87% of contacts as salient risk (Reuters, Nov 13)",
+        "url": "https://www.reuters.com/",
+        "reason": "金融安定の観点で、安全保障との接点が薄い。原文も開けず"
+      },
+      {
+        "title": "UFORCE $700M Series A at >$6B (Defense One, Nov 13)",
+        "url": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
+        "reason": "調達自体は11月12日に報じられ、英国富ファンドの出資は11月13日号で扱った。CEOの戦果主張（車両1万台以上）は独立に確認できず"
+      },
+      {
+        "title": "FREYJA: Zelensky says Ukrainian interceptor and launcher are finished; Danish radar ready (Kyiv Post, Nov 14)",
+        "url": "https://www.kyivpost.com/post/90129",
+        "reason": "対弾道ミサイル防衛の開発発表で、AI・自律の要素が確認できず。試験の実施もまだ"
+      },
+      {
+        "title": "Bild: Russian Abu Dhabi demands include Finland leaving NATO (Militarnyi, Nov 13)",
+        "url": "https://militarnyi.com/en/news/finland-leave-nato-troops-out-of-baltics-russia-demands/",
+        "reason": "欧州安全保障の構造に関わるが技術・AIの論点がなく、Bild報道の裏付けもない"
+      },
+      {
+        "title": "National Guard UAS crews hit 316,000+ targets, one strike every 3 minutes (Ukrinform, Nov 14)",
+        "url": "https://www.ukrinform.net/rubric-ato/4184233-national-guard-drones-hit-over-316000-enemy-targets-since-russias-fullscale-invasion-pivnenko.html",
+        "reason": "司令官の自己申告の統計で独立の検証がなく、新規性も限られる"
+      },
+      {
+        "title": "General Staff: Neptune missiles strike UAV production facility in Rostov (Militarnyi, Nov 13)",
+        "url": "https://militarnyi.com/en/news/neptune-missiles-strike-uav-facility-warehouse-rostov/",
+        "reason": "記事本文を開けず見出しのみ。施設名や被害の確認ができない"
+      },
+      {
+        "title": "Ukrainian drones struck three radar stations at Ust-Luga (Militarnyi, Nov 13)",
+        "url": "https://militarnyi.com/en/news/ukrainian-drones-3-radar-stations-ust-luga/",
+        "reason": "記事本文を開けず見出しのみ"
+      },
+      {
+        "title": "Taiwan supplementary budget: NT$55.9bn drone/USV items, committee cut/freeze motions (CTEE Nov 2; UDN Nov 4; LTN headline date unknown)",
+        "url": "https://www.ctee.com.tw/news/20261102700086-430101",
+        "reason": "11月14日の新規動向を確認できず。自由時報の「国民党が凍結せず634億元全額通過」の見出しは日付と文脈が未確認。11月20日の第三読会を予定に記載"
+      },
+      {
+        "title": "L-SAM among six candidates in Czech BMD concept KVAČR 2040 (Global Economic, Nov 14)",
+        "url": "https://www.g-enews.com/article/Global-Biz/2026/11/202611140958477139fbbec65dfb_1",
+        "reason": "2035年以降の取得構想でAIの論点なし"
+      },
+      {
+        "title": "GMO Internet Group puts cyberattack cost at ¥3.05bn (Jiji, Nov 13)",
+        "url": "https://english.adnkronos.com/2026/11/13/gmo-cyberattack-impact-estimated-at-3-05-b-yen/",
+        "reason": "企業のサイバー被害で、攻撃へのAI関与は報じられていない"
+      },
+      {
+        "title": "Jensen Huang's departure blasts big hole in AI startup funding, VCs say (TechCrunch, Nov 13)",
+        "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+        "reason": "投資エコシステムの話で安全保障の接点が薄い。Mistralへの出資の論点は今後の欧州の議論次第"
+      },
+      {
+        "title": "Microsoft's latest email outage turned into a full-blown global cloud crisis (TechCrunch, Nov 13)",
+        "url": "https://techcrunch.com/",
+        "reason": "記事を開けず、原因と規模が未確認。サイバー関与の有無も不明"
+      }
+    ],
+    "notes_for_editor": [
+      "調査上の制約：本号の調査途中でウェブ検索の利用上限に達し、複数の媒体・政府サイトの直接取得も拒否された。そのため中国（11月14日）、イスラエル・中東、インド、豪州、ASEAN、国連・CCW運用検討会議の事前動向、主要シンクタンク、CISA等の勧告、フロンティアAI企業の一次ページは未確認である。重要な動きを見落としている可能性があり、翌号で遡って扱う必要があるかの判断を仰ぎたい。",
+      "cl-20261115-06（Anthropic IPO）：Bloombergとロイターの原文、CNNの原文、修正届出書（S-1/A）は開けず、The Decoder、AI Weekly、TechCrunch、CNN転載（NBC Palm Springs）に依拠している。EDGARはロボット排除で取得できなかった。『モデルがEAR／ITARの対象となり得る』という届出書の文言は転載情報であり、本文にその旨を明記した。ラトニック長官の12月10日証言は前号同様1つの情報源。",
+      "cl-20261115-02（防衛費60兆円・駐留経費3兆円）：時事通信の記事はjiji.comが取得できず、Adnkronos英語版の転載で確認した。両報道とも匿名の政府関係者に基づく『検討』『要求』段階で、政府の公式発表はない。",
+      "cl-20261115-01（FAA）：CNBC・CNN・Axios・Washington Timesは開けず、Yahoo News・NPR・ABC・Fox Business・KPRC等で確認した。『FBIはサイバー攻撃と見ていない』はBloombergをSecurityWeekが引いたもので、FBIの直接の声明は確認していない。",
+      "cl-20261115-05（ジェット型無人機）：空軍発表はUkrinform・UNNの転載で確認し、空軍のTelegram原文は取得できなかった（当日の経路警報のみ表示）。Geran-5 K5-Kの分解調査の数値はFDD Long War Journalがウクライナ情報総局の資料を引いたもので、生産数の推定は未検証と明記した。",
+      "cl-20261115-11（JPCERT/CC）：共同通信の報道のみで、JPCERT/CC自身の公表文は日英トップページで見つからなかった。一次資料が公表されれば続報で差し替えることを勧める。",
+      "cl-20261115-15（DEVCOM実証）：在欧・アフリカ米陸軍の声明はdefconlevel.comの転載で確認し、army.mil原文は一覧に見つからなかった。出典の信頼性に留意。",
+      "cl-20261115-12（英母船）：英国防省の発表には9,000万ポンドの数字が2つ（母船取得と、Ocean Infinityへの『Atlantic Net』契約）あり、混同しないよう本文で区別した。日付は11月12日で窓の直前だが、13日の報道で確認したため短信に置いた。",
+      "cl-20261115-17（フォースデザイン2026）：発表は11月10日で窓の外だが、13日のDefense News報道で確認したため公表日で記録し短信の末尾に置いた。",
+      "検証のWARN：出典の再利用（Al Jazeera、TechCrunch等）は続報としてcontinuation_ofを付した項目に限る。各項目の字数・文数のWARNが残る場合は報告に記す。"
+    ]
+  }
+}
