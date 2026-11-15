@@ -1,0 +1,1146 @@
+{
+  "edition_date": "2026-11-16",
+  "generated_at": "2026-11-16T06:09:00+09:00",
+  "window_from": "2026-11-15T07:20:00+09:00",
+  "edition_title_ja": "防衛AIの実装競争と、通信・規範・サイバーに残る統制の空白",
+  "edition_title_en": "The race to field defence AI, and the control gaps left in communications, norms and cyber",
+  "edition_dek_ja": "月末のAIビジョン、Starshield制限、FBIのARTEX警報、CCWの交渉マンデートを貫く論点。",
+  "edition_dek_en": "A month-end AI vision, Starshield limits, the FBI's ARTEX alert and a CCW negotiating mandate share one question.",
+  "lead_points_ja": [
+    "各国がAIの実装速度を競う一方で、通信基盤の管理権、国際規範、攻撃側の自動化に対する統制の制度は追いついていない。週明けの動きは、この三つの空白を同時に映している。",
+    "小泉防衛相は2024年の基本方針を見直す「ディフェンスAIビジョン」を今月末にも策定すると表明し、航空自衛隊の自動警戒監視システムへのAI実装を2027年3月と明示した。",
+    "FBIはオープンソースの自律侵入基盤ARTEXについて11月13日にFLASH警報を発出し、一部の侵入では初期標的から特権取得まで3時間未満だったと記した。10業種が標的に含まれる。",
+    "ゼレンスキー大統領はStarshieldの速度制限が5日間続いているとしてSpaceXの「技術的問題」との説明を退け、15日には変電所への無人機攻撃が通過する要因だと結びつけた。",
+    "CCW第7回運用検討会議が16日にジュネーブで開幕する。オーストリアなど7か国が提案した2027年の議定書交渉マンデートの採否が焦点で、EU理事会は「野心的な交渉マンデート」を求める結論を採択済みである。"
+  ],
+  "lead_points_en": [
+    "States are racing to field AI while the institutions that govern communications infrastructure, international norms and automated offense lag behind. The start of the week shows all three gaps at once.",
+    "Defense Minister Koizumi said a 'Defense AI Vision' revising the 2024 basic policy could be adopted as early as the end of this month, and set March 2027 for AI in the ASDF's automatic warning and control system.",
+    "The FBI issued a FLASH alert on Nov 13 on ARTEX, an open-source autonomous intrusion framework, noting some intrusions moved from initial targeting to privileged access in under three hours; ten sectors are among the targets.",
+    "Zelensky said Starshield speed limits had persisted for five days, rejected SpaceX's 'technical issue' explanation, and on Nov 15 tied the limits to drone strikes getting through to substations.",
+    "The CCW Seventh Review Conference opens in Geneva on Nov 16. Whether a seven-state proposal for a 2027 protocol-negotiation mandate is adopted is the central question; the EU Council has already called for an 'ambitious negotiating mandate'."
+  ],
+  "items": [
+    {
+      "id": "cl-20261116-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "小泉防衛相、「ディフェンスAIビジョン」を月末にも策定　空自の自動警戒監視システムに2027年3月のAI実装を明示",
+      "title_en": "Koizumi says a 'Defense AI Vision' could be adopted by month-end, with AI in the ASDF's automatic warning and control system from March 2027",
+      "lead_ja": "小泉進次郎防衛相は11月15日、陸上自衛隊久里浜駐屯地（神奈川県横須賀市）の創設76周年記念式典の後に記者団に対し、防衛省の「AI活用推進基本方針」を見直し、新たに「ディフェンスAIビジョン」を今月末にも策定すると述べた。「AIの迅速な実装化と安全、保全の確保を両立させる」と説明し、航空自衛隊の自動警戒監視システムに2027年3月にAIを導入する計画も示した。11月3日の講演で表明した見直しの方針が、名称と時期を伴って具体化した。",
+      "lead_en": "Speaking to reporters on Nov 15 after the 76th anniversary ceremony of the GSDF's Kurihama garrison in Yokosuka, Defense Minister Shinjiro Koizumi said the ministry would review its basic policy on promoting AI use and adopt a new 'Defense AI Vision' as early as the end of this month. He described the aim as 'reconciling rapid implementation of AI with safety and security assurance' and said AI would be introduced into the ASDF's automatic warning and control system in March 2027. The revision he announced in a Nov 3 speech now has a name and a date.",
+      "sections": [
+        {
+          "heading_ja": "2024年の基本方針から「ビジョン」への格上げ",
+          "heading_en": "From the 2024 basic policy to a 'vision'",
+          "paragraphs_ja": [
+            "防衛省は2024年7月に初の「AI活用推進基本方針」を公表し、指揮統制、情報収集・分析、無人アセット、サイバー、後方支援、人事など7分野を優先領域として掲げていた。小泉防衛相は11月3日の都内講演で、安全保障分野におけるAIなど先端技術の急速な進展を理由に、この方針を見直す考えを示していた。15日の発言では見直し後の文書を「ディフェンスAIビジョン」と呼び、策定時期を今月末と区切った。時事通信は「現場で使えるものに」との発言を見出しに掲げており、部隊での利用を前提とした記述が中心になるとみられる。",
+            "共同通信が伝えた「迅速な実装化と安全、保全の確保を両立させる」という表現は、実装の加速と、情報保全・誤作動・敵対的操作への防護を一つの文書で扱う方向を示す。したがって、ビジョンがどの水準の安全確保手続きを定め、それを調達要件や運用規則にどう接続するかが、文書の実効性を左右する。"
+          ],
+          "paragraphs_en": [
+            "The ministry published its first basic policy on promoting AI use in July 2024, naming seven priority areas including command and control, intelligence analysis, uncrewed assets, cyber, logistics and personnel. In a Tokyo speech on Nov 3 Koizumi said the policy would be reviewed because AI and other advanced technologies were advancing rapidly in the security field. On Nov 15 he called the successor document the 'Defense AI Vision' and set the end of this month as the target. Jiji Press headlined his remark that it should be 'something usable in the field,' suggesting an emphasis on use by operational units.",
+            "The phrase reported by Kyodo, reconciling 'rapid implementation' with 'safety and security assurance,' points to a single document covering both acceleration and protection against leakage, malfunction and adversarial manipulation. How far the vision specifies assurance procedures and links them to procurement requirements and operating rules will determine its effect."
+          ]
+        },
+        {
+          "heading_ja": "自動警戒監視システムへの実装という具体的な期日",
+          "heading_en": "A concrete date for the automatic warning and control system",
+          "paragraphs_ja": [
+            "小泉防衛相は、航空自衛隊の自動警戒監視システムに2027年3月にAIを搭載すると述べた。同システムは全国のレーダーの情報を統合し、領空侵犯対処や防空の判断を支える基幹の指揮統制系であり、AIの導入先として最も秘匿性と即応性が求められる領域に当たる。発言の場となった久里浜駐屯地はサイバー分野の人材育成の拠点であり、防衛相は「防衛任務から災害救援、国際協力まで対処する力を高め、自衛隊員の危険と負担を減らす」と述べた。",
+            "一方で、AIがどの機能（航跡の自動識別、脅威度の評価、要撃判断の支援など）を担うのか、人の判断をどこで介在させるのかは公表されていない。2027年3月は現行の防衛力整備計画の最終年度末に当たり、次期計画の初年度と接続する時期でもある。"
+          ],
+          "paragraphs_en": [
+            "Koizumi said AI would be installed in the ASDF's automatic warning and control system in March 2027. The system fuses radar data nationwide and underpins decisions on airspace violations and air defence, making it the most sensitive and time-critical destination for AI in the force. The Kurihama garrison, where he spoke, is a hub for training cyber personnel, and he said the aim was to 'raise the capacity to handle everything from defence missions to disaster relief and international cooperation, and reduce the danger and burden on SDF members.'",
+            "Which functions AI will perform, such as automatic track identification, threat assessment or support for intercept decisions, and where human judgment will intervene, have not been disclosed. March 2027 is the final month of the current Defense Buildup Program and the point of transition to the next one."
+          ]
+        },
+        {
+          "heading_ja": "安保3文書と次期整備計画への接続",
+          "heading_en": "Linking to the three security documents and the next buildup program",
+          "paragraphs_ja": [
+            "政府は年内に改定する安全保障関連3文書に自衛隊のAI活用を明記する方針を示しており、次期防衛力整備計画では無人機とAIを最優先とする総額5年60兆円程度の案が検討されていると報じられている。10月には、AIと自動航行技術を搭載した自衛隊輸送船の研究開発を3文書に明記する方針も伝えられた。したがって、月末のビジョンは、12月中旬を目標とする3文書の閣議決定に先行して防衛省の実装方針を固める位置にある。",
+            "ビジョンが国産モデルの利用、民間AI企業との契約条件、同盟国との相互運用性にどこまで踏み込むかは、12月の3文書と2027年度予算の内容を読む手がかりとなる。防衛省は8月に指揮統制系への国産AIの利用を検討していると報じられており、ビジョンでの扱いが注目される。"
+          ],
+          "paragraphs_en": [
+            "The government has said SDF use of AI will be written into the three security documents to be revised by year-end, and a next Defense Buildup Program of about ¥60 trillion over five years with drones and AI as the top priority is reportedly under consideration. In October the ministry was also reported to be putting research on AI-equipped, autonomously navigating transport ships into the documents. The month-end vision therefore sets the ministry's implementation line ahead of the cabinet decision on the documents targeted for mid-December.",
+            "How far the vision goes on domestic models, contract terms with commercial AI firms and interoperability with allies will be a guide to reading the December documents and the FY2027 budget. The ministry was reported in August to be considering domestic AI for its command systems, and the vision's treatment of that question will be watched."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月末の「ディフェンスAIビジョン」の公表（優先分野、安全確保の手続き、国産モデルの扱い）。12月中旬の安保3文書の閣議決定。2027年3月の自動警戒監視システムへのAI実装の内容。",
+      "watch_next_en": "Publication of the 'Defense AI Vision' at the end of November (priority areas, assurance procedures, treatment of domestic models); the mid-December cabinet decision on the three security documents; details of the March 2027 AI installation in the automatic warning and control system.",
+      "japan_relevance": true,
+      "date": "2026-11-15",
+      "stage": "announced",
+      "publisher": "防衛省",
+      "publisher_en": "Japan Ministry of Defense",
+      "sources": [
+        {
+          "title": "防衛省、新ＡＩ方針策定へ 「実装化と安全確保両立」",
+          "url": "https://www.daily.co.jp/society/politics/2026/11/15/0021037420.shtml",
+          "publisher": "デイリースポーツ（共同通信配信）",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "小泉防衛相 防衛省の新たなAI活用基本方針 11月末めどに公表へ",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261115de76119",
+          "publisher": "NHK",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "防衛省ＡＩ指針、月末に公表 小泉氏「現場で使えるものに」",
+          "url": "https://www.jiji.com/jc/article?k=2026111500323&g=pol",
+          "publisher": "時事通信",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "小泉防衛相 防衛省のAI活用に関する基本方針見直す考え",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261103de70050",
+          "publisher": "NHK",
+          "date": "2026-11-03",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "governance-norms"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261104-09"
+    },
+    {
+      "id": "cl-20261116-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "FBI、自律侵入基盤ARTEXにFLASH警報　一部の侵入は特権取得まで3時間未満、金融・政府・防衛など10業種が標的",
+      "title_en": "FBI issues a FLASH alert on the ARTEX autonomous intrusion framework: some intrusions reached privileged access in under three hours across ten sectors including finance, government, defense and semiconductors",
+      "lead_ja": "米連邦捜査局（FBI）は11月13日、オープンソースの自律型侵入試験基盤「ARTEX」に関するFLASH警報（FLASH-20261113-001、TLP:CLEAR）を発出した。警報は、ARTEXを用いた侵入が2026年8月以降観測され、一部では「初期標的から特権取得まで3時間未満」で進んだと記し、金融、政府、技術、防衛、半導体、エネルギー、医療、製造、通信、法務の10業種を標的として挙げている。FBIは特定の国家支援者を名指しせず「多様なアクター」が関与するとした。",
+      "lead_en": "On Nov 13 the FBI released a FLASH alert (FLASH-20261113-001, TLP:CLEAR) on 'ARTEX,' an open-source autonomous penetration-testing framework. The alert says ARTEX-enabled intrusions have been observed since August 2026, with some progressing 'from initial targeting to privileged access in under three hours,' and names ten targeted sectors: financial services, government, technology, defense, semiconductors, energy, healthcare, manufacturing, telecommunications and legal. The FBI names no state sponsor and attributes the activity to 'a variety of actors.'",
+      "sections": [
+        {
+          "heading_ja": "外部モデルに接続する「エージェント」の実像",
+          "heading_en": "What the 'agents' actually are: a shell around external models",
+          "paragraphs_ja": [
+            "ARTEXはGo言語で書かれた多エージェント型の侵入試験基盤で、自然言語で与えた目標をAIエージェントが分解してコマンドとして実行する。FBIはこれらを「SI（超知能）エージェント」と呼ぶ。基盤自体はモデルを持たず、Anthropic、OpenAI、DeepSeek、GLM、Grok、Kimiの外部モデルに接続する設計で、攻撃者の運用ではDeepSeek Flash系が最も多く用いられていたとされる。警報はLLMのAPIキー再販業者のドメイン（xcai[.]pro）やプロキシソフトも指標に含めた。",
+            "開発者は「Autumn-27」のハンドルで2026年7月にGitHubで公開し、リポジトリは10月8日に削除されたが、フォークや商用版「ARTEX PRO」が残る。Censysは11月初旬時点で露出したコンソールを1,600超と数えた。公開リポジトリの削除は拡散の抑止として機能しておらず、問題はモデル提供側のAPI利用の監視と、再販・プロキシ経由の回避に移っている。"
+          ],
+          "paragraphs_en": [
+            "ARTEX is a multi-agent penetration-testing framework written in Go that decomposes a natural-language objective into commands executed by AI agents, which the FBI calls 'super intelligence (SI) agents.' The framework has no model of its own and connects to external models from Anthropic, OpenAI, DeepSeek, GLM, Grok and Kimi; attacker-run instances reportedly relied most on the DeepSeek Flash family. The alert lists an LLM API reseller domain (xcai[.]pro) and proxy tools among its indicators.",
+            "A developer using the handle 'Autumn-27' published it on GitHub in July 2026; the repository was removed on Oct 8, but forks and a commercial 'ARTEX PRO' edition remain. Censys counted more than 1,600 exposed consoles in early November. Removing the public repository has had little restraining effect, and the problem has shifted to monitoring API use on the provider side and to evasion via resellers and proxies."
+          ]
+        },
+        {
+          "heading_ja": "手法は既知、速度と並列性が新しい",
+          "heading_en": "Known techniques, new speed and parallelism",
+          "paragraphs_ja": [
+            "警報が列挙する初期侵入の手法は、署名のないSAMLアサーション、XXE、SSRF、SQLインジェクション、JavaScriptバンドルに埋め込まれた管理者パスワード、認証のないAPI、盗まれたVPN設定、取引先の侵害された資格情報である。権限昇格ではKerberoastingやkrbtgt取得のためのDCSync、横展開ではPass-the-TicketやWinRMが使われ、Pass-the-Hashの試行はエンドポイント防護が阻止した例が記録されている。",
+            "個々の技法に新規性は乏しく、警報の重心は速度にある。Googleは2〜25秒の自動化されたバーストを観測し、Microsoftはあるエージェントが5分以内にGitHubの探索からAzure Key Vaultの窃取に至った例を報告した。Active Directoryのオブジェクト11万件超の列挙も記録されている。したがって、防御側の課題は検知の精度よりも、人手の対応時間と攻撃の進行速度の差を埋める自動化である。"
+          ],
+          "paragraphs_en": [
+            "The alert's initial-access list covers unsigned SAML assertions, XXE, SSRF, SQL injection, administrator passwords hardcoded in JavaScript bundles, unauthenticated APIs, stolen VPN configurations and compromised vendor credentials. Privilege escalation used Kerberoasting and DCSync to obtain krbtgt, lateral movement used Pass-the-Ticket and WinRM, and endpoint protection blocked the observed Pass-the-Hash attempts.",
+            "Few of these techniques are new; the alert's weight is on tempo. Google observed automated bursts lasting two to 25 seconds, and Microsoft reported an agent moving from GitHub repository searches to Azure Key Vault theft within five minutes. Enumeration of more than 110,000 Active Directory objects was also recorded. The defender's problem is therefore the automation needed to close the gap between human response times and the speed of the attack."
+          ]
+        },
+        {
+          "heading_ja": "帰属を避けた警報と、既知の事案への接続",
+          "heading_en": "An alert that avoids attribution, tied to known incidents",
+          "paragraphs_ja": [
+            "FBIは国家支援者を名指ししていないが、警報の指標はSafeBreachの整理ではStorm-3358の基盤と結び付き、既報の事案と重なる。韓国では中国語話者の金銭目的集団が新韓・KB国民・ハナの各行から約6万7千人分の個人情報を窃取し、CrowdStrikeによればAnthropicのコーディングエージェントも併用した。10月のConnectWise Cloud Backup経由の攻撃では2,250超のMicrosoft 365テナントへの認証試行があり、Microsoftは中国系Storm-0940に帰属させた。",
+            "警報の推奨対策は、LLM APIへの業務上不要な呼び出しの監視、Kudu/SCMやクラウド管理・バックアップ基盤の管理面の制限、高負荷APIのレート制限、リポジトリの秘密情報のスキャンと鍵の更新である。一方で、ConnectWiseの攻撃主体をStorm-0940とする報道とStorm-3358とするSafeBreachの整理は一致しておらず、警報本文の記述は本誌では直接確認できていない。"
+          ],
+          "paragraphs_en": [
+            "The FBI names no state sponsor, but SafeBreach's reading ties the alert's indicators to Storm-3358 infrastructure, and the cases overlap with earlier reporting. In South Korea a Chinese-speaking, financially motivated group exfiltrated personal data on about 67,000 people from Shinhan, KB Kookmin and Hana banks, also using Anthropic's coding agents according to CrowdStrike. The October campaign through ConnectWise Cloud Backup attempted authentication against more than 2,250 Microsoft 365 tenants and was attributed by Microsoft to China-aligned Storm-0940.",
+            "Recommended mitigations include monitoring LLM API calls from systems with no business need, restricting Kudu/SCM, cloud administration and backup interfaces, rate-limiting high-impact APIs, and scanning repositories for secrets and rotating keys. Reporting that names Storm-0940 for the ConnectWise campaign and SafeBreach's mapping to Storm-3358 remain unreconciled, and the text of the FLASH itself has not been directly confirmed by this brief."
+          ]
+        }
+      ],
+      "watch_next_ja": "FBI・CISAの追加勧告とFLASH本文の公開範囲。ARTEX PROとフォークの観測数の推移。モデル提供企業によるAPIキー再販・プロキシ経由の利用への措置。韓国警察による関連事件（7人逮捕、90超の組織）の続報。",
+      "watch_next_en": "Further FBI/CISA advisories and the availability of the FLASH text; trends in observed ARTEX PRO instances and forks; measures by model providers against reseller- and proxy-routed API use; follow-up on the South Korean police case (seven arrests, 90-plus organizations).",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "米連邦捜査局（FBI）",
+      "publisher_en": "Federal Bureau of Investigation",
+      "sources": [
+        {
+          "title": "FLASH-20261113-001: Threat Overview of ARTEX Autonomous Penetration Testing Framework",
+          "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+          "publisher": "FBI / IC3",
+          "date": "2026-11-13",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+          "publisher": "BleepingComputer",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "ARTEX AI Attack Framework: SafeBreach Coverage for FBI FLASH Alert FLASH-20261113-001",
+          "url": "https://www.safebreach.com/blog/artex-ai-attack-framework-fbi-flash-alert-20261113-001-safebreach-coverage/",
+          "publisher": "SafeBreach",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
+          "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage/",
+          "publisher": "Cyber Security News",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FBI Warns Hackers Are Weaponizing ARTEX AI Framework to Launch Autonomous Cyberattacks Worldwide",
+          "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
+          "publisher": "GBHackers",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US",
+        "CN",
+        "KR"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261101-06"
+    },
+    {
+      "id": "cl-20261116-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ゼレンスキー氏、Starshield速度制限は「5日間」継続とSpaceXの技術的問題説を退ける　変電所攻撃の通過と結びつけ解除を要求",
+      "title_en": "Zelensky says Starshield speed limits have lasted 'five days,' rejects SpaceX's technical-issue explanation and ties them to drone strikes reaching substations",
+      "lead_ja": "ウクライナのゼレンスキー大統領は11月13日に記者団に対し、前線と被占領地でStarshield端末に時速161kmの速度制限が課された状態が5日間続いていると述べ、「技術的な問題だと言うが、我々はそうは考えていない」とSpaceXの説明を退けた。大統領府は14日にこの発言を公開し、15日にはX上で、多くの無人機攻撃が変電所に到達しているのは速度制限が残っているためだと述べ、「冬を前にした人命とエネルギーインフラの防護はこれにかかっている」として解除を求めた。",
+      "lead_en": "Speaking to reporters on Nov 13, President Zelensky said Starshield terminals along the front line and in occupied territories had been limited to 161 km/h for five days and rejected SpaceX's explanation: 'They say it is some kind of technical issue. We do not believe that is the case.' His office released the remarks on Nov 14, and on Nov 15 he wrote on X that many drone strikes were reaching substations because the speed limits remained, adding that 'the protection of lives and Ukrainian energy infrastructure before winter depends on this.'",
+      "sections": [
+        {
+          "heading_ja": "SpaceXの否定とウクライナ側の毎日の検証",
+          "heading_en": "SpaceX's denial against Ukraine's daily tests",
+          "paragraphs_ja": [
+            "ゼレンスキー氏によれば、国防省がSpaceXと機関間の協議を行い、同社は意図的な制限を課していないと回答し、技術的な理由を挙げた。ロイターもSpaceXが新たな制限や衛星運用の変更を否定していると伝えている。これに対し大統領は「我々は毎日検証を行っている」と述べて事案が広範に起きていると強調し、5日連続の試験で制限を確認したと主張した。10月中旬にも約160km/hの制限が報告され、24日に復旧した経緯があり、今回は再発に当たる。",
+            "SpaceXの説明は報道の間接引用にとどまり、同社の広報による公式声明や米政府の反応は15日時点で確認できていない。したがって、制限の存在、原因、指示者のいずれも当事者の主張の段階にあり、10月の事例と同様に復旧の時期と経緯が公表されるかが、原因を見極める手がかりになる。"
+          ],
+          "paragraphs_en": [
+            "According to Zelensky, the Defence Ministry held institutional talks with SpaceX, which replied that it had imposed no deliberate restrictions and cited technical reasons. Reuters likewise reports that SpaceX denies introducing new restrictions or changing its satellite operations. The president countered that 'every day we conduct tests' and that the incidents were 'widespread,' saying five consecutive days of testing had confirmed the limits. A similar limit of about 160 km/h was reported in mid-October and lifted on Oct 24, so this is a recurrence.",
+            "SpaceX's position is known only through indirect reporting; no formal company statement or US government response had been confirmed as of Nov 15. The existence, cause and authorship of the limits therefore all remain at the level of the parties' claims, and, as in October, whether the timing and circumstances of any restoration are disclosed will be the clue to the cause."
+          ]
+        },
+        {
+          "heading_ja": "被占領地だけに残る制限が持つ政治的含意",
+          "heading_en": "The political meaning of limits that remain only over occupied land",
+          "paragraphs_ja": [
+            "制限が前線と被占領地に限定されている点を、ゼレンスキー氏は領土の扱いの問題として提起した。「そこで制限を課せば、一時的被占領地を我々の領土でないと部分的に認めることになる」と述べ、「ウクライナの領土をウクライナのものでないかのように扱う決定」だと批判した。実務面では、ジェット型シャヘドの迎撃を前線近くの被占領地上空で行えず、後方の線で迎撃せざるを得ないと説明している。",
+            "大統領はまた、ルビオ米国務長官から以前にStarshieldは「主に米政府の管理下にある」と説明を受けていたとし、今回の制限はSpaceX自身が決めたことを示唆すると述べた。国防省、外務省、ドラパティ総司令官に対し、各自の経路で米国務省、国防総省、SpaceXへの働きかけと解明を指示した。"
+          ],
+          "paragraphs_en": [
+            "Zelensky framed the limitation of the restrictions to the front line and occupied territories as a question of territorial status: 'If you impose restrictions there, you are already partially recognising the temporarily occupied territories as not ours,' describing it as a decision that treats Ukrainian territory 'as if it is not Ukrainian.' Operationally, he said jet-powered Shaheds could not be intercepted over occupied territory near the front and had to be engaged on lines further back.",
+            "He also recalled that Secretary of State Rubio had earlier told him Starshield was 'primarily under the control of the US government,' and said the current limits suggested SpaceX itself had decided. He instructed the Defence Ministry, the Foreign Ministry and Commander-in-Chief Drapatyi to press the State Department, the Pentagon and SpaceX through their own channels for clarification."
+          ]
+        },
+        {
+          "heading_ja": "変電所攻撃との結びつけと冬季防空の数字",
+          "heading_en": "Linking the limits to substation strikes, with winter air-defence numbers",
+          "paragraphs_ja": [
+            "15日のX投稿では、迎撃無人機が前線と被占領地で時速161kmを超えると操作者との接続を失い、シャヘドに追いつけないと説明し、変電所への攻撃の多くが通過している要因だと位置づけた。同氏は過去1週間にロシアが無人機2,300機超、誘導爆弾1,590発、ミサイル15発を使用したとし、オデーサ州チョルノモルスクのエネルギー施設への攻撃では約4万1,000世帯が停電した（DTEK）。これらの攻撃がStarshieldの制限によってどの程度通過したかは、独立の検証を欠く当事者の評価である。",
+            "米上院のシャヒーン、クーンズ両議員はマスク氏に9月1日以降のホワイトハウス・国防総省とのやり取りを含む記録の保全を求め、11月30日を書面確認の期限としている。制限の指示者が米政府なのかSpaceXなのかという問いは、議会の記録保全要求と大統領の公開批判の双方から追及される局面に入った。"
+          ],
+          "paragraphs_en": [
+            "In his Nov 15 post Zelensky said interceptor drones lose contact with their operators when exceeding 161 km/h along the front and over occupied territory, leaving them unable to catch Shaheds, and cast this as a reason many substation strikes were getting through. He said Russia had used more than 2,300 drones, 1,590 guided bombs and 15 missiles in the past week; a strike on an energy facility in Chornomorsk, Odesa region, left about 41,000 customers without power (DTEK). How far the Starshield limits account for strikes getting through is the president's assessment and lacks independent verification.",
+            "Senators Shaheen and Coons have asked Musk to preserve records, including SpaceX correspondence with the White House and the Pentagon since Sept 1, with written confirmation due Nov 30. The question of whether the US government or SpaceX directed the limits is now being pressed from both the congressional preservation request and the president's public criticism."
+          ]
+        }
+      ],
+      "watch_next_ja": "SpaceXと米国務省の公式説明の有無。制限解除とウクライナ側の検証結果。11月30日の記録保全の書面確認期限。ロシアのエネルギー施設攻撃の規模と迎撃率の推移。",
+      "watch_next_en": "Whether SpaceX or the State Department issues a formal explanation; lifting of the limits and Ukraine's test results; the Nov 30 deadline for written confirmation of record preservation; the scale of Russian energy strikes and interception rates.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "ウクライナ大統領府",
+      "publisher_en": "Office of the President of Ukraine",
+      "sources": [
+        {
+          "title": "Zelenskyy says Starshield restrictions threaten Ukraine's energy defenses ahead of winter",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-says-starshield-restrictions-threaten-ukraines-energy-defenses-ahead-of-winter",
+          "publisher": "PBS NewsHour / AP",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Starshield restrictions help Russia's energy attacks on Ukraine: Zelenskyy",
+          "url": "https://www.aljazeera.com/news/2026/11/15/starshield-restrictions-help-russias-energy-attacks-on-ukraine-zelenskyy",
+          "publisher": "Al Jazeera",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Zelensky Escalates Criticism of SpaceX Over Speed Caps",
+          "url": "https://www.themoscowtimes.com/2026/11/14/zelensky-a94262",
+          "publisher": "The Moscow Times / Reuters",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Zelensky on Starshield restrictions in temporarily occupied territories: Ukraine to raise this issue at every level",
+          "url": "https://www.ukrinform.net/rubric-polytics/4184661-zelensky-on-starshield-restrictions-in-temporarily-occupied-territories-ukraine-to-raise-this-issue-at-every-level.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "SpaceX Cited Technical Reasons for Starshield Restrictions on Ukraine — Zelensky",
+          "url": "https://militarnyi.com/en/news/spacex-technical-reasons-starshield-restrictions-ukraine/",
+          "publisher": "Militarnyi",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Zelenskyy questions SpaceX over reported Starshield speed restrictions",
+          "url": "https://www.euronews.com/2026/11/15/zelenskyy-questions-spacex-over-reported-starshield-speed-restrictions",
+          "publisher": "Euronews",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "UA",
+        "US",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261114-05"
+    },
+    {
+      "id": "cl-20261116-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "CCW第7回運用検討会議が16日開幕　7か国提案の2027年議定書交渉マンデートが焦点、EU理事会は「野心的な交渉マンデート」を要求",
+      "title_en": "CCW Seventh Review Conference opens Nov 16: a seven-state proposal for a 2027 protocol-negotiation mandate is the central question, and the EU Council has already called for an 'ambitious negotiating mandate'",
+      "lead_ja": "特定通常兵器使用禁止制限条約（CCW）の第7回運用検討会議が11月16〜20日、ジュネーブの国連欧州本部で開かれる。自律型致死兵器システム（LAWS）に関する政府専門家会合（GGE）が2026年9月に合意した「文書の要素」を受け、オーストリア、ベルギー、ブラジル、アイルランド、メキシコ、ニュージーランド、パナマの7か国が2027年に新議定書の交渉を行うマンデートを共同提案している。EU理事会は10月12日の外務理事会で「野心的な交渉マンデート」の採択を求める結論を承認しており、コンセンサス方式の下で米露の対応が結果を左右する。",
+      "lead_en": "The Seventh Review Conference of the Convention on Certain Conventional Weapons meets at the Palais des Nations in Geneva from Nov 16 to 20. Building on the 'elements of an instrument' agreed by the Group of Governmental Experts on lethal autonomous weapons systems in September 2026, Austria, Belgium, Brazil, Ireland, Mexico, New Zealand and Panama have jointly proposed a mandate to negotiate a new protocol in 2027. The EU Council approved conclusions on Oct 12 calling for 'an ambitious negotiating mandate,' and under consensus rules the positions of the United States and Russia will decide the outcome.",
+      "sections": [
+        {
+          "heading_ja": "7か国提案：2027年に25日間の議定書交渉",
+          "heading_en": "The seven-state proposal: three sessions, 25 days in 2027, to draft a protocol",
+          "paragraphs_ja": [
+            "Lex Internationalのマグヌス・ロヴォルド氏の報告によれば、7か国の提案は、参加に制限のない専門家グループが2027年にジュネーブで3会期計25日間の交渉を行い、同年後半の年次会合に議定書案を報告する内容である。交渉はGGEの結論、とくに9月に合意された「可能な文書のための要素一式」を基礎とする。提案自体は具体的な禁止や制限の中身を定めておらず、採択されれば条約にとって6番目の議定書に向けた交渉が始まる。",
+            "GGEは2023年以来「文書の性質を予断することなく、コンセンサスにより文書の要素一式とその他の可能な措置を定める」マンデートの下で作業し、オランダのイン・デン・ボス議長が「ローリングテキスト」を重ねてきた。2025年12月時点の国連軍縮部の記録は、禁止の範囲と法的・政治的な規制措置の区別で意見の相違が残ると記す。"
+          ],
+          "paragraphs_en": [
+            "According to Magnus Løvold of Lex International, the seven-state proposal would have an open-ended expert group negotiate over three sessions totalling 25 days in Geneva in 2027 and report a draft protocol to that year's annual meeting. Negotiations would build on the GGE's conclusions, in particular the 'set of elements for a possible instrument' agreed in September. The proposal itself sets out no specific prohibitions or restrictions; if adopted, it would open negotiations toward the convention's sixth protocol.",
+            "Since 2023 the GGE has worked under a mandate to 'formulate, by consensus, a set of elements of an instrument, without prejudging its nature, and other possible measures,' with Dutch chair Ambassador Robert in den Bosch producing successive 'rolling texts.' A UN Office for Disarmament Affairs record from December 2025 notes continuing divergence over the scope of prohibitions and the choice between legal and political regulatory measures."
+          ]
+        },
+        {
+          "heading_ja": "EU理事会結論は9月の準備委員会声明より一歩前へ",
+          "heading_en": "The EU Council conclusions go a step beyond the September PrepCom statement",
+          "paragraphs_ja": [
+            "EU理事会が10月13日付で加盟国に配布した文書14436/26は、10月12日の外務理事会で承認された運用検討会議に関する結論を含む。結論はGGEのコンセンサスを歓迎し、「2026年の運用検討会議が、文書の要素一式とその他の可能な措置を基礎として、文書の性質を予断することなく作業を進めるための野心的な交渉マンデートをGGEに与えることを期待する」と記した。武力行使の決定に対する人間の責任と説明責任、国際人道法に従って使用できないLAWSの禁止と他のLAWSの規制という二層アプローチ、法的審査の必要性にも言及し、議長国を申し出たスイスへの謝意を示した。",
+            "9月7日の準備委員会でのEU声明は「次の検討サイクルの作業に向けた確かな計画」を求めるにとどまっていた。したがって、10月の理事会結論は交渉マンデートを明示した点で立場を一段進めたことになる。一方で、「性質を予断しない」という表現は、法的拘束力を持つ文書を求める立場との距離を残している。"
+          ],
+          "paragraphs_en": [
+            "Council document 14436/26, circulated to delegations on Oct 13, contains the conclusions on the Review Conference approved by the Foreign Affairs Council on Oct 12. They welcome the GGE's consensus and state that the Council 'expects the 2026 Review Conference to adopt an ambitious negotiating mandate for the GGE to take forward the work on an instrument, without prejudging its nature, building on the set of elements of an instrument and other possible measures.' They also stress human responsibility and accountability for decisions on the use of force, the two-tier approach of prohibiting LAWS that cannot be used in accordance with IHL and regulating others, the need for legal review, and thank Switzerland for offering to preside.",
+            "The EU statement to the Preparatory Committee on Sept 7 had asked only for 'a solid plan for future work during the next Review Cycle.' The October conclusions therefore move the position forward by naming a negotiating mandate, while the phrase 'without prejudging its nature' keeps a distance from those demanding a legally binding instrument."
+          ]
+        },
+        {
+          "heading_ja": "期限付きマンデートの要求と、失敗時の代替経路",
+          "heading_en": "Demands for a time-bound mandate, and the fallback routes if it fails",
+          "paragraphs_ja": [
+            "ストップ・キラーロボットの10月の提言書は、2027年中の交渉で1年以内に妥結する期限付きマンデートを求め、「CCWでの更なる討議のみ」を定めるマンデートや期限を欠くコンセンサスを受け入れないよう各国に促している。失敗時の経路として、締約国の過半数で会議を招集できる条約第8条と国連総会のマンデートを挙げた。国連総会第1委員会は10月29日にLAWS決議を163対5で採択しており、本会議での採択は12月上旬の見通しである。",
+            "ロヴォルド氏は、米国とロシアの代表が9月の成果の弱体化を図ったとして、両国を中心に強い反対が予想されると述べ、拘束力のない自主的措置への誘導、コンセンサス方式による事実上の拒否権、期限のない延長という対抗策を想定している。会議の決定は20日までに行われる見込みで、マンデートの文言、期限、交渉の場（GGEか新たな交渉グループか）が、2027年の軍備管理交渉の有無を決める。"
+          ],
+          "paragraphs_en": [
+            "Stop Killer Robots' October briefing urges states to adopt a time-bound mandate for negotiations in 2027 concluding within one year, and to refuse a mandate that establishes 'only further discussions at the CCW' or a consensus text without a specific deadline. As fallbacks it cites Article 8 of the convention, under which a conference can be convened with the agreement of a majority of parties, and a UN General Assembly mandate. The First Committee adopted a LAWS resolution 163–5 on Oct 29, with plenary adoption expected in early December.",
+            "Løvold expects strong opposition led by the United States and Russia, whose representatives he says sought to weaken the September outcome, and anticipates counter-tactics of steering toward voluntary measures, a de facto veto through consensus, and an extension without a firm deadline. A decision is expected by Nov 20; the mandate's wording, deadline and venue (the GGE or a new negotiating group) will determine whether arms-control negotiations take place in 2027."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月20日までの最終文書：交渉マンデートの有無、期限、交渉の場。米国、ロシア、中国、インド、イスラエルの一般討論での立場表明。12月上旬の国連総会本会議でのLAWS決議採択。",
+      "watch_next_en": "The final document by Nov 20: whether a negotiating mandate is adopted, its deadline and venue; positions stated in the general debate by the US, Russia, China, India and Israel; UNGA plenary adoption of the LAWS resolution in early December.",
+      "japan_relevance": false,
+      "date": "2026-11-16",
+      "stage": "",
+      "publisher": "CCW締約国会議・EU理事会",
+      "publisher_en": "CCW High Contracting Parties / Council of the European Union",
+      "sources": [
+        {
+          "title": "Council Conclusions on the Seventh Review Conference of the CCW (14436/26, Outcome of Proceedings)",
+          "url": "https://data.consilium.europa.eu/doc/document/ST-14436-2026-INIT/en/pdf",
+          "publisher": "Council of the European Union",
+          "date": "2026-10-13",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "CCW Seventh Review Conference, 16-20 November 2026 – Briefing and recommendations from Stop Killer Robots",
+          "url": "https://stopkillerrobots.org/wp-content/uploads/2026/10/EN-PUBLIC-SKR_CCWRevCon_Briefing_Nov2026.pdf",
+          "publisher": "Stop Killer Robots",
+          "date": "2026-10-15",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Cross-regional group of seven moves to launch AI weapons treaty talks",
+          "url": "https://spoileralerts.substack.com/p/cross-regional-group-of-seven-moves",
+          "publisher": "Spoiler Alert (Lex International)",
+          "date": "2026-10-14",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "EU Statement – Preparatory Committee of the Seventh Review Conference of the CCW",
+          "url": "https://www.eeas.europa.eu/delegations/un-geneva/convention-certain-conventional-weapons-ccw-eu-statement-preparatory-committee-seventh-review_en",
+          "publisher": "European External Action Service",
+          "date": "2026-09-07",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Briefing by the Chair of the CCW GGE on LAWS on the margins of the First Committee",
+          "url": "https://disarmament.unoda.org/en/updates/briefing-chair-ccw-gge-laws-margins-first-committee",
+          "publisher": "UN Office for Disarmament Affairs",
+          "date": "2025-12-15",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "governance-norms"
+      ],
+      "actors": [
+        "UN",
+        "EU",
+        "US",
+        "RU"
+      ],
+      "doc_type": "declaration",
+      "forums": [
+        "ccw-gge"
+      ],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261113-06"
+    },
+    {
+      "id": "cl-20261116-05",
+      "rank": 5,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国国会国防委の検討報告書、2027年の無人機・対無人機予算は8,061億ウォンで18.8%増　機関横断の重複投資と相互運用性に懸念",
+      "title_en": "Korean National Assembly defense committee review puts 2027 drone and counter-drone spending at ₩806.1 billion, up 18.8%, and warns of duplicated investment and interoperability gaps",
+      "brief_text_ja": "世界日報は11月15日、国会国防委員会の予算案検討報告書に基づき、国防部と防衛事業庁が2027年予算に無人機・対無人機関連で約8,061億ウォン（前年比18.8%増）を計上したと報じた。内訳は偵察・攻撃用無人機の導入約640億ウォン、対無人機体系の構築2,944億ウォン、技術開発約2,994億ウォン、企業支援207億ウォンで、群集無人機ブロックⅠ（2027〜31年研究開発1,064億ウォン、国防科学研究所主管）や分隊級の小型自爆無人機の新規50億ウォンが含まれる。報告書は機関別・軍別に分散した事業を管理する中長期の無人機戦力獲得計画と、通信・データリンク・地上統制・ソフトウェアの共通規格化、核心部品の供給網の点検を求めた。",
+      "brief_text_en": "Citing a National Assembly Defense Committee budget review report, Segye Ilbo reported on Nov 15 that the Ministry of National Defense and DAPA have budgeted about ₩806.1 billion for drones and counter-drone forces in 2027, up 18.8% from this year, including about ₩64 billion for reconnaissance and attack drones, ₩294.4 billion for counter-drone systems, about ₩299.4 billion for technology development and ₩20.7 billion for industry support, with items such as Swarm Drone Block I (₩106.4 billion in R&D over 2027–31 led by ADD) and a new ₩5 billion squad-level small suicide drone. The report calls for a mid- to long-term drone force acquisition plan to manage programs dispersed across agencies and services, common standards for communications, data links, ground control and software, and scrutiny of core-component supply chains.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "韓国国会国防委員会（世界日報報道）",
+      "publisher_en": "ROK National Assembly Defense Committee (via Segye Ilbo)",
+      "sources": [
+        {
+          "title": "드론·대드론에 8000억…한국군 중복투자 우려 [박수찬의 軍]",
+          "url": "https://www.segye.com/newsView/20261113509275",
+          "publisher": "世界日報",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261116-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍、韓国でFPV無人機を音で探知するAIセンサー網「Project MANOWAR」を実験　兵士が開発した機械学習で探知確度90%超と発表",
+      "title_en": "US Army tests 'Project MANOWAR,' a soldier-built AI acoustic sensor network to detect FPV drones in South Korea, reporting over 90% detection confidence",
+      "brief_text_ja": "在韓米陸軍第501軍事情報旅団第532軍事情報大隊は、3Dプリント製の筐体と標準軍用電池、自己修復型のメッシュ網、兵士と陸軍研究者が開発した機械学習ソフトを組み合わせた音響センサー網を、今年5月と9月にキャンプ・ハンフリーズと前方訓練場で試験し、低高度の小型無人機に対して「90%以上」の探知確度を得たと11月13日公開の資料で発表した。探知距離、誤警報率、位置誤差、単価は公表されておらず、迎撃機能は持たない。同大隊は陸軍の正式事業化を目指しているが、配備時期は未定である。",
+      "brief_text_en": "The 532nd Military Intelligence Battalion of the 501st MI Brigade in Korea tested an acoustic sensor network combining 3D-printed housings, standard military batteries, a self-healing mesh network and machine-learning software written by soldiers and Army researchers at Camp Humphreys and a forward training area in May and September, and in material released on Nov 13 reported detection confidence of 'over 90%' against low-altitude small drones. Detection range, false-alarm rate, position error and unit cost were not disclosed, and the system has no interceptor function. The battalion is seeking to make it a formal Army program; no fielding date has been set.",
+      "japan_relevance": false,
+      "date": "2026-11-13",
+      "stage": "",
+      "publisher": "米陸軍",
+      "publisher_en": "U.S. Army",
+      "sources": [
+        {
+          "title": "美 육군, 한국서 FPV 드론 잡는 AI 음향 센서망 '매노워' 시험 완료",
+          "url": "https://g-enews.com/article/Global-Biz/2026/11/202611150742239500e250e8e188_1",
+          "publisher": "グローバルエコノミック",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "U.S. Army Tests in South Korea AI Acoustic Sensor Network to Detect FPV Drones",
+          "url": "https://www.armyrecognition.com/news/army-news/2026/u-s-army-tests-in-south-korea-ai-acoustic-sensor-network-to-detect-fpv-drones",
+          "publisher": "Army Recognition",
+          "date": "2026-11-14",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "US",
+        "KR"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261116-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ空軍、15日未明は無人機132機のうち106機を無力化と発表　ジェット型は78機中61機、20か所で着弾",
+      "title_en": "Ukraine's Air Force says 106 of 132 Russian drones were neutralized overnight Nov 15, including 61 of 78 jet-powered; hits at 20 locations",
+      "brief_text_ja": "ウクライナ空軍は、11月14日18時以降の夜間にロシアが攻撃型無人機132機（ジェット型シャヘド系78機、ゲルベラ、模擬機を含む）を発射し、15日8時時点の暫定値で106機（ジェット型61機）を撃墜または電子的に無力化、20か所で着弾を記録したと発表した。発射方向はブリャンスク、オリョール、クルスク、ミレロボ、プリモルスコ・アフタルスクと被占領下のドネツク、クリミアのフヴァルディイスケである。ジェット型の迎撃率は約78%で、前日の61機中52機（約85%）から低下した。",
+      "brief_text_en": "The Ukrainian Air Force said Russia launched 132 attack drones from 18:00 on Nov 14, including 78 jet-powered Shahed-type aircraft plus Gerbera and decoy drones, and that as of 08:00 on Nov 15 106 (61 of them jet-powered) had been shot down or electronically suppressed, with hits recorded at 20 locations. Launch directions were Bryansk, Oryol, Kursk, Millerovo and Primorsko-Akhtarsk in Russia, occupied Donetsk and Hvardiiske in occupied Crimea. The jet-powered interception rate of about 78% was down from 52 of 61 (about 85%) the previous night.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "ウクライナ空軍",
+      "publisher_en": "Ukrainian Air Force",
+      "sources": [
+        {
+          "title": "Ukrainian air defence downs 106 Russian drones overnight, hits recorded at 20 locations",
+          "url": "https://www.yahoo.com/news/world/articles/ukrainian-air-defence-downs-106-060900168.html",
+          "publisher": "Ukrainska Pravda via Yahoo News",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "During the Russian night attack on November 15, air defense forces shot down 106 out of 132 drones",
+          "url": "https://censor.net/en/news/4033780/during-the-russian-night-attack-on-november-15-air-defense-forces-shot-down-106-out-of-132-drones",
+          "publisher": "Censor.NET",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "UA",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261115-05"
+    },
+    {
+      "id": "cl-20261116-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア国防省、一夜でウクライナ無人機533機、日中に230機を撃墜と主張　タガンログの変電所2か所が被弾し技師1人死亡と州知事",
+      "title_en": "Russia's MoD claims 533 Ukrainian drones downed overnight and 230 by day; Rostov governor says two Taganrog substations were hit and an engineer killed",
+      "brief_text_ja": "ロシア国防省は、11月14日20時から15日8時（モスクワ時間）までにウクライナの固定翼無人機533機を11州とクラスノダール地方、タタールスタン、クリミア、黒海・アゾフ海上空で撃墜したと主張し、15日の日中にはさらに230機をクリミア、ベルゴロド、ブリャンスク、クルスクと黒海上空で撃墜したとタス通信が伝えた。ロストフ州のスリュサル知事は、タガンログで変電所2か所が被弾し火災が発生、変電所の主任技師1人が死亡、落下物で4人が負傷し、同市とロストフ・ナ・ドヌなどで約50機を撃墜したと述べた。ウクライナ側の攻撃目標に関する公式発表は確認できていない。",
+      "brief_text_en": "Russia's Defence Ministry claimed 533 Ukrainian fixed-wing drones were downed between 20:00 Moscow time on Nov 14 and 08:00 on Nov 15 over eleven regions, Krasnodar Krai, Tatarstan, Crimea and the Black and Azov seas, and TASS reported a further 230 claimed during daylight on Nov 15 over Crimea, Belgorod, Bryansk, Kursk and the Black Sea. Rostov Governor Yuri Slyusar said two substations in Taganrog were hit and caught fire, a chief engineer was killed, four people were injured by falling debris, and about 50 drones were destroyed over Taganrog, Rostov-on-Don and seven districts. No Ukrainian official statement on the targets has been confirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "ロシア国防省・ロストフ州政府",
+      "publisher_en": "Russian Ministry of Defence / Rostov regional government",
+      "sources": [
+        {
+          "title": "Russia Reports 533 Ukrainian Drones Downed Overnight",
+          "url": "https://voennoedelo.com/en/posts/id22217-russia-reports-533-ukrainian-drones-downed-overnight",
+          "publisher": "Voennoe Delo",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "230 Ukrainian drones taken down over Russian region during day",
+          "url": "https://tass.com/defense/2218373",
+          "publisher": "TASS",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": "cl-20261115-08"
+    },
+    {
+      "id": "cl-20261116-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "イラン革命防衛隊、バーレーンの米軍レーダー施設を無人機6機で攻撃と主張　バーレーンは迎撃を発表、サウジはフーシ派のミサイル2発・無人機6機を迎撃",
+      "title_en": "IRGC claims six drones struck a US radar site in Bahrain; Bahrain says they were intercepted, and Saudi Arabia downs two Houthi missiles and six drones",
+      "brief_text_ja": "イラン革命防衛隊（IRGC）は11月15日、バーレーンのリファ基地にある米軍の防空レーダーを航空宇宙軍の無人機6機で攻撃したと国営メディアを通じて主張し、バーレーン国防軍は同日、イランの無人機を目標到達前に迎撃・破壊したと発表して13日の2機の迎撃に続く事案として国連安保理に非難を求めた。13日の攻撃について米軍は、2機とも撃墜し被害はなかったと説明している。サウジ主導連合軍は15日、リヤドに向けた弾道ミサイル2発とメッカ、メディナ、東部州に向けた無人機6機を迎撃したと発表し、G7はイランとフーシ派の攻撃を非難した。",
+      "brief_text_en": "Iran's Revolutionary Guard claimed via state media on Nov 15 that six Aerospace Force drones targeted a US air-defence radar at Bahrain's Al-Riffa base. The Bahrain Defence Force said the same day that Iranian drones were intercepted and destroyed before reaching their targets, following two interceptions on Nov 13, and called on the UN Security Council to condemn the attacks. Of the Nov 13 attack, the US military said both drones were downed with no damage or injuries. The Saudi-led coalition said it intercepted two ballistic missiles aimed at Riyadh and six drones aimed at Mecca, Medina and the Eastern Province on Nov 15, and the G7 condemned the Iranian and Houthi attacks.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "イラン革命防衛隊・バーレーン国防軍・サウジ主導連合軍",
+      "publisher_en": "IRGC / Bahrain Defence Force / Saudi-led coalition",
+      "sources": [
+        {
+          "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+          "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh",
+          "publisher": "Al Jazeera",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Middle East conflict: Bahrain intercepts Iranian attacks, Saudi Arabia downs missiles targeting Riyadh",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
+          "publisher": "Gulf News",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Iran launches second drone attack on Bahrain in just three days",
+          "url": "https://www.israelnationalnews.com/news/436246",
+          "publisher": "Israel National News",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261102-04"
+    },
+    {
+      "id": "cl-20261116-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Megaspeed、疑惑の人物は2025年8月に退職と声明し外部弁護士を起用　ベセント財務長官は実体リスト追加の遅れで商務省を批判",
+      "title_en": "Megaspeed says the suspected individual left in August 2025 and retains outside counsel; Bessent faults Commerce over the entity-list delay",
+      "brief_text_ja": "シンガポールのMegaspeedは11月15日、Nvidiaのフアン前CEOとの関係が報じられたアリス・フアン氏が2025年8月に役員を退いていたと明らかにし、報道には「検証可能な証拠に裏付けられていない主張」が含まれるとして内部調査の開始と外部弁護士の起用を発表した。同社はマレーシア、インドネシア、タイのデータセンター経由で中国企業にNvidia製チップへの迂回アクセスを与えた疑いが指摘されている。ベセント財務長官は13日のCNBCで、複数の省庁が数か月前から同社の実体リスト追加を支持してきたが「商務省がペンを持っている」と述べ、ラトニック商務長官は12月に上院銀行委員会で証言する予定である。",
+      "brief_text_en": "Singapore-based Megaspeed said on Nov 15 that Alice Huang, whose ties to former Nvidia CEO Jensen Huang have been reported, left her executive role in August 2025, and announced an internal investigation and the retention of outside counsel, saying reports contained 'assertions not supported by verifiable evidence.' The company is suspected of giving Chinese firms backdoor access to Nvidia chips through data centres in Malaysia, Indonesia and Thailand. Treasury Secretary Bessent told CNBC on Nov 13 that several agencies had favoured adding the firm to the entity list for months but 'Commerce has the pen'; Commerce Secretary Lutnick is due to testify before the Senate Banking Committee in December.",
+      "japan_relevance": false,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "Megaspeed・米財務省",
+      "publisher_en": "Megaspeed / U.S. Treasury",
+      "sources": [
+        {
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "url": "https://www.yahoo.com/news/politics/articles/suspected-china-spy-linked-nvidias-145625271.html",
+          "publisher": "BBC News via Yahoo News",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261112-03"
+    },
+    {
+      "id": "cl-20261116-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "高市首相、16日から比中訪問　17日の首脳会合でAI・量子の共同研究を提案、ASEANとは高性能AIの脅威に対処する新枠組みを提唱へ",
+      "title_en": "PM Takaichi visits the Philippines and China from Nov 16, to propose joint AI and quantum research at Nov 17 summits and a new framework with ASEAN on frontier-AI threats",
+      "brief_text_ja": "高市早苗首相は11月16〜19日にフィリピンと中国を初めて訪問し、17日にマニラでASEAN関連の首脳会議と日中韓首脳会議、クアッド首脳会合に参加した後、18日に深圳へ移りAPEC首脳会議に出席する。NHKによれば首相は17日の首脳会合でAIや量子など先端技術分野の共同研究を進める構想を提案する方向で調整しており、共同通信は12日、高性能AIの脅威に対処するためAIの安全性確保やサイバーセキュリティでASEANと連携する新たな枠組みの創設を提唱する方針だと報じた。時事通信は15日、経済安全保障とAI分野での連携強化をトランプ大統領らと確認したい考えとし、台湾発言を巡る中国の反発により日中首脳会談は困難な情勢だと伝えた。",
+      "brief_text_en": "Prime Minister Sanae Takaichi makes her first visits to the Philippines and China from Nov 16 to 19, attending ASEAN-related summits, the Japan–China–Korea summit and the Quad leaders' meeting in Manila on Nov 17 before moving to Shenzhen on Nov 18 for the APEC summit. NHK reports she is preparing to propose joint research in advanced technologies such as AI and quantum at the Nov 17 summits, and Kyodo reported on Nov 12 that she would propose a new framework with ASEAN on AI safety and cybersecurity to address threats from high-performance AI. Jiji reported on Nov 15 that she hopes to confirm closer cooperation on economic security and AI with President Trump and others, and that a Japan–China summit is unlikely given Beijing's reaction to her Taiwan remarks.",
+      "japan_relevance": true,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "首相官邸（報道）",
+      "publisher_en": "Prime Minister's Office (as reported)",
+      "sources": [
+        {
+          "title": "日中首脳会談は困難＝高市首相、１６日から比中訪問",
+          "url": "https://www.nippon.com/ja/articles/-/57459",
+          "publisher": "nippon.com（時事通信）",
+          "date": "2026-11-15",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "高市首相 東南アジアなどと先端技術分野で共同研究提案へ",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261115de76245",
+          "publisher": "NHK",
+          "date": "2026-11-16",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "首相、東南アジアとＡＩ新枠組み　ＡＳＥＡＮとの首脳会議で提唱へ",
+          "url": "https://ryukyushimpo.jp/kyodo/entry-5599021.html",
+          "publisher": "琉球新報（共同通信配信）",
+          "date": "2026-11-12",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "frontier-safety"
+      ],
+      "actors": [
+        "JP",
+        "ASEAN",
+        "QUAD"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261116-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "仏軍事省、防衛AIの国際センターを2027年夏に開設と発表　NATOの承認を目指し、各国を今週の会議に招待",
+      "title_en": "France's armed forces ministry to open an international defence-AI centre in summer 2027, seeking NATO recognition and inviting states to a conference this week",
+      "brief_text_ja": "フランス軍事省は11月12日、防衛分野でのAI利用の拡大を促進・支援する国際センターを2027年夏に開設すると発表し、NATOによる承認を目指す考えを示した（ロイター）。資金規模と参加国は確定しておらず、同省は他国を来週の会議に招いている。欧州の軍用AIソフトは米Palantirなどへの依存が大きく、同国は2026年初めに防衛AIを国家の本質的安全保障上の利益と位置づけ、Mistral AIと枠組み契約を結んでいる。",
+      "brief_text_en": "France's armed forces ministry said on Nov 12 that it will create an international centre to promote and support the growing use of AI in defence, opening in summer 2027, and hopes NATO will recognize it (Reuters). Funding and international membership are not finalized, and the ministry has invited other countries to a conference next week. Europe depends heavily on US firms such as Palantir for AI-enabled military software; France designated defence AI an essential security interest earlier in 2026 and signed a framework agreement with Mistral AI.",
+      "japan_relevance": false,
+      "date": "2026-11-12",
+      "stage": "announced",
+      "publisher": "フランス軍事省",
+      "publisher_en": "French Ministry of the Armed Forces",
+      "sources": [
+        {
+          "title": "French army ministry to set up centre for defence-related AI",
+          "url": "https://www.yahoo.com/news/articles/french-army-ministry-set-centre-111528857.html",
+          "publisher": "Reuters via Yahoo News",
+          "date": "2026-11-12",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "governance-norms"
+      ],
+      "actors": [
+        "EU",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-16",
+      "text_ja": "CCW第7回運用検討会議（11月16〜20日、ジュネーブ）。7か国提案の2027年議定書交渉マンデートの採否、米露の立場表明",
+      "text_en": "CCW Seventh Review Conference (Geneva, Nov 16–20): decision on the seven-state proposal for a 2027 protocol-negotiation mandate; US and Russian positions"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "第49回ASEAN首脳会議と関連会合（マニラ、11月16〜18日）。高市首相は17日にASEAN関連首脳会議、日中韓首脳会議、クアッド首脳会合に出席し、AI・量子の共同研究構想を提案の見通し",
+      "text_en": "49th ASEAN Summit and related meetings (Manila, Nov 16–18); PM Takaichi at ASEAN-related, Japan–China–Korea and Quad summits on Nov 17, expected to propose joint AI and quantum research"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "米FEMA 2027年度対無人機助成（2.5億ドル）の申請期限",
+      "text_en": "Application deadline for FEMA's FY2027 counter-UAS grants ($250 million)"
+    },
+    {
+      "date": "2026-11-16",
+      "text_ja": "フランス軍事省が招く防衛AI国際センターに関する各国会議（「来週」と11月12日に発表、日程未公表）",
+      "text_en": "Conference hosted by France's armed forces ministry on the international defence-AI centre ('next week' per the Nov 12 announcement; date unpublished)"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "Nvidiaの2027年度第3四半期決算（クレス暫定CEO体制で初）。取締役会の独立調査、対中H200許可、輸出管理法案への姿勢が焦点",
+      "text_en": "Nvidia Q3 FY2027 earnings, the first under interim CEO Kress; board inquiry, H200 licenses and stance on export-control bills in focus"
+    },
+    {
+      "date": "2026-11-17",
+      "text_ja": "NATO Edge（イズミル、11月17〜19日）。NCIAの統合サイバー防衛センターに関する産業界ワークショップ",
+      "text_en": "NATO Edge (Izmir, Nov 17–19); NCIA industry workshop on the integrated cyber defence centre"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "Anthropic IPOの価格決定（19日にNasdaqで取引開始の見通し、ティッカー「ANT」）。修正届出書の輸出規制に関する記述",
+      "text_en": "Anthropic IPO pricing (Nasdaq debut expected Nov 19 under 'ANT'); export-control language in the amended filing"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "米中経済・安全保障調査委員会（USCC）の2026年年次報告書の公表",
+      "text_en": "USCC 2026 annual report release"
+    },
+    {
+      "date": "2026-11-18",
+      "text_ja": "APEC首脳会議（深圳、11月18〜19日）に合わせたトランプ・習会談。「超知能」対話の前進とAI事故通報経路が議題とベセント長官。高市首相の初訪中、日中首脳会談は困難と時事",
+      "text_en": "Trump–Xi meeting at the Shenzhen APEC summit (Nov 18–19); Bessent cites the 'superintelligence' dialogue and AI-incident channels; PM Takaichi's first China visit, with a Japan–China summit unlikely per Jiji"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "米FCC公開会合。450MHz帯無人機データリンクと24.45〜24.65GHz帯の無人機探知レーダーを採決",
+      "text_en": "FCC open meeting: votes on 450 MHz drone data links and 24.45–24.65 GHz drone-detection radar"
+    },
+    {
+      "date": "2026-11-19",
+      "text_ja": "ベルリンでの「有志連合」首脳会合（報道）。アブダビ協議でのロシアの要求への欧州の対応",
+      "text_en": "'Coalition of the Willing' leaders' meeting in Berlin (reported); European response to Russian demands at the Abu Dhabi talks"
+    },
+    {
+      "date": "2026-11-20",
+      "text_ja": "CCW運用検討会議の最終日。最終文書と今後の作業マンデートの採択",
+      "text_en": "Final day of the CCW Review Conference: adoption of the final document and the future-work mandate"
+    },
+    {
+      "date": "2026-11-20",
+      "text_ja": "台湾立法院、2026年度追加予算（国防1,457億台湾ドル、無人機・無人艇3項目559億台湾ドル）の第三読会（予定）",
+      "text_en": "Taiwan Legislative Yuan third reading of the FY2026 supplementary budget (NT$145.7bn defense, NT$55.9bn for three drone/USV items), scheduled"
+    },
+    {
+      "date": "2026-11-21",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの質問締切（回答は12月4日）",
+      "text_en": "Question deadline for the USAF cislunar autonomous spacecraft AI/ML RFI (responses due Dec 4)"
+    },
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for Commerce, Justice, State and the DNI to answer Sen. Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限。フアン氏の議会証言は感謝祭前と報道",
+      "text_en": "Deadline for the DoD STIB to begin its study on commercial AI and cloud for classified networks; Huang's congressional testimony reported for before Thanksgiving"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。外国干渉事件の捜査と選挙期間中の偽情報・サイバー攻撃の推移",
+      "text_en": "Taiwan local elections; foreign-interference investigations and disinformation and cyber activity during the campaign"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「ディフェンスAIビジョン」の策定・公表（今月末にもと小泉防衛相）",
+      "text_en": "Japan MOD 'Defense AI Vision' adoption and publication (as early as month-end, per Defense Minister Koizumi)"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "シャヒーン、クーンズ両上院議員がマスク氏に求めたStarlink・Starshield関連記録の保全措置の書面確認の期限",
+      "text_en": "Deadline for Musk to confirm in writing the preservation of Starlink/Starshield records requested by Sens. Shaheen and Coons"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：与党実務者協議で安保3文書の骨子案の議論を開始（11月下旬以降）。次回は防衛産業基盤戦略を扱う予定",
+      "text_en": "Japan: LDP–Ishin working-level talks take up the outline of the three security documents (late November onward); next session on the defense industrial base strategy"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "日本：国家サイバー統括室のアウトリーチ・チーム新設とIPA「トップガン人材チーム」立ち上げの期限（11月中）",
+      "text_en": "Japan: deadline (within November) for the National Cybersecurity Office outreach team and the IPA 'Top Gun' talent team"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院外交・中国特別・情報の3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取（書簡の指定日）",
+      "text_en": "Transcribed closed-door interview of former Nvidia CEO Huang by the House Foreign Affairs, China Select and Intelligence committees (date set in the letter)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "日本：安保3文書改定に向けた有識者会議の報告書（12月上旬の見通し）。防衛費総額（60兆円程度か）の判断材料",
+      "text_en": "Japan: expert panel report on the three security documents (expected early December), informing the defense-spending total (about ¥60 trillion under consideration)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "国連総会本会議でのLAWS決議（第1委員会で10月29日に163対5で採択）の採択（12月上旬の見通し）",
+      "text_en": "UN General Assembly plenary adoption of the LAWS resolution (First Committee vote 163–5 on Oct 29), expected early December"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "韓国：防衛事業庁の「国防革新ラボ」事業の着手（12月）。国会での2027年国防予算（無人機・対無人機8,061億ウォン）の審議",
+      "text_en": "Korea: DAPA 'Defense Innovation Lab' launch (December); National Assembly deliberation of the 2027 defense budget (₩806.1bn for drones and counter-drone)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "イスラエル国防軍の無人システム・AI部門の発足（12月初めまでの予定と報道）",
+      "text_en": "Launch of the IDF unmanned systems and AI directorate (reported for early December)"
+    },
+    {
+      "date": "2026-12-04",
+      "text_ja": "米空軍のシスルナ自律宇宙機向けAI/MLソフトRFIの回答期限",
+      "text_en": "Response deadline for the USAF cislunar autonomous spacecraft AI/ML RFI"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。規則案は2026年7月10日からOIRA審査中",
+      "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule; the draft has been under OIRA review since July 10, 2026"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "中国国際航空航天博覧会（珠海、12月7〜13日）。無人・対無人機の専用展示区、CSSCの500トン級無人艇、人型ロボットを含む空軍の展示が予告",
+      "text_en": "China International Aviation & Aerospace Exhibition (Zhuhai, Dec 7–13): dedicated unmanned and counter-UAS zone, CSSC 500-ton USV, PLAAF exhibits including humanoid robots"
+    },
+    {
+      "date": "2026-12-08",
+      "text_ja": "K-DEX 2026（韓国・高陽、12月8〜11日）。無人機・対無人機を含む5テーマ",
+      "text_en": "K-DEX 2026 (Goyang, Korea, Dec 8–11), five themes including drones and counter-drone"
+    },
+    {
+      "date": "2026-12-09",
+      "text_ja": "米陸軍犯罪捜査部のダークネット・暗号化メッセージ監視AI基盤RFIの回答期限",
+      "text_en": "Response deadline for the Army CID RFI on an AI-enabled darknet and encrypted-messaging monitoring platform"
+    },
+    {
+      "date": "2026-12-10",
+      "text_ja": "ラトニック商務長官の上院銀行委員会での証言（米政府関係者の説明として報道。日程は1つの情報源）",
+      "text_en": "Commerce Secretary Lutnick's Senate Banking testimony (reported via a US official; single-source date)"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）",
+      "text_en": "Japan: cabinet decision on the revised three security documents (mid-December target, as reported)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日米の在日米軍駐留経費特別協定（2027〜31年度）の合意目標（年内）",
+      "text_en": "Target for agreement on the Japan–US host-nation support special measures agreement for FY2027–31 (by year-end)"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "日本：AI法制度の見直しの全体像（法改正を含む）の提示（年内目途）",
+      "text_en": "Japan: overall picture of the AI legal framework review, including legislative amendments (by year-end)"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "日本：2027年通常国会の召集（1月中旬〜下旬の見込み）。能動的サイバー防御法改正案の提出は「早ければ」この会期と報道",
+      "text_en": "Japan: convening of the 2027 ordinary Diet session (mid-to-late January); active cyber defense law amendments 'at the earliest' this session, as reported"
+    },
+    {
+      "date": "2027-01-27",
+      "text_ja": "米連邦民生機関によるAcronis製ソフトの除去期限（国土安全保障省の命令）",
+      "text_en": "Deadline for US federal civilian agencies to remove Acronis software (DHS directive)"
+    },
+    {
+      "date": "2027-01-28",
+      "text_ja": "「プロジェクト・メリディアン」（国防長官の未来の戦争パネル）の報告期限。FACA違反を訴える訴訟がコロンビア特別区連邦地裁で係属",
+      "text_en": "Report deadline for 'Project Meridian' (the defense secretary's future-of-warfare panel); a FACA lawsuit is pending in D.D.C."
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "航空自衛隊の自動警戒監視システムへのAI実装（2027年3月と小泉防衛相）",
+      "text_en": "AI installation in the ASDF automatic warning and control system (March 2027, per Defense Minister Koizumi)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "欧州委員会のドローン戦略2.0実施ロードマップの提示（2027年春）",
+      "text_en": "European Commission roadmap for implementing Drone Strategy 2.0 (spring 2027)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "日本：サプライチェーン強化に向けたセキュリティ対策評価制度（SCS評価制度）の運用開始（3月頃）",
+      "text_en": "Japan: launch of the supply-chain security evaluation scheme (SCS) around March"
+    },
+    {
+      "date": "2027-06-30",
+      "text_ja": "フランス軍事省の防衛AI国際センターの開設（2027年夏）",
+      "text_en": "Opening of France's international defence-AI centre (summer 2027)"
+    },
+    {
+      "date": "2027-10-01",
+      "text_ja": "米国防省が目標とする自律戦争軍（四つ星の機能別統合軍）の創設期日",
+      "text_en": "DoD target date for standing up the Autonomous Warfare Command (a four-star functional combatant command)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "確認済み：米国（FBI/IC3のFLASH警報は二次報道経由、DARPA・陸軍、議会・商務省関連報道、Bloomberg対無人機特集は未取得）、ウクライナ・ロシア（空軍発表の媒体転載、ロシア国防省主張、大統領府の発言）、欧州・NATO・英国（EU理事会・EEAS文書、フランス軍事省発表のロイター報道、英国は11月15日の新規動向なし）、日本（NHK・共同・時事報道）、韓国（世界日報・グローバルエコノミック）、台湾（11月15日の新規動向なし。Taipei Times 15日付「US firms tout orbital threat detection」は取得できず）、中国（国防部・新華社の15日付でAI・無人機に関する新規発表なし。SCMPの群集無人機関連は既報範囲）、イスラエル・中東（イラン・フーシ派の無人機攻撃を短信で扱った。IDFのAI関連新規発表なし）、インド（15日の新規動向なし）、豪州（新規動向なし）、ASEAN（首脳会議は16日開幕。高市首相の提案は短信で扱った）、国連・CCW（運用検討会議の事前文書を主要動向で扱った。UNOG公式ページはロボット排除で取得不可）、シンクタンク（CSIS・RAND・CNASに15日付の新規報告なし）、フロンティアAI企業（15日付の安全保障関連の新規発表なし。Anthropic IPO関連は14日号で扱い、15日の追加情報は転載のみ）。",
+      "japan": "防衛省の記者会見ページ（11月11日・14日分）とトップページは取得できず、公式発表の原文は確認できていない。小泉防衛相の15日の発言は共同通信（デイリースポーツ転載）とNHKで確認し、時事通信は見出しのみ確認。首相官邸・外務省の16日からの外遊に関する公式ページは未確認で、時事（nippon.com転載）とNHK、共同（琉球新報転載、冒頭のみ）に依拠した。防衛装備庁、経産省、内閣官房の15日付発表は休日のため確認対象なし。JPCERT/CCの約1,000台の件（前号短信）の公表文は引き続き未確認。"
+    },
+    "dropped": [
+      {
+        "title": "Pentagon Tests Autonomous Ground Robots Amid Ukraine War Lessons (Newsmax via Yahoo, Nov 14; citing Business Insider)",
+        "url": "https://www.yahoo.com/news/us/articles/pentagon-tests-autonomous-ground-robots-181158336.html",
+        "reason": "DARPAのRACERフォートノックス実証は10月27日に公表済みの内容の再報で、新規性がない。"
+      },
+      {
+        "title": "Taiwan delivers 1,520 FPV attack drones for U.S. Drone Dominance Program (Army Recognition, Oct 19)",
+        "url": "https://www.armyrecognition.com/news/army-news/2026/taiwan-delivers-1-520-fpv-attack-drones-for-u-s-drone-dominance-program-to-reduce-reliance-on-china",
+        "reason": "公表は10月16〜19日で対象期間外。"
+      },
+      {
+        "title": "대한항공 독자 개발 AI 군집 드론 시연 성공 (airtravelinfo.kr, Sept 17)",
+        "url": "https://airtravelinfo.kr/air_news/2519018",
+        "reason": "9月の国防ドローン技術展の記事で対象期間外。"
+      },
+      {
+        "title": "Lutnick under fire: How Trump's commerce secretary cultivated Nvidia's CEO while chip controls slipped (CNN, Nov 15)",
+        "url": "https://www.cnn.com/2026/11/15/politics/lutnick-jensen-alice-huang-trump-nvidia",
+        "reason": "本文を取得できず、内容を確認できなかった。Megaspeed・ベセント発言は短信で扱った。"
+      },
+      {
+        "title": "US Military Tests New Counter-Drone Weapons in Race to Catch Up (Bloomberg, Nov 15)",
+        "url": "https://bloomberg.com/news/features/2026-11-15/us-military-tests-new-counter-drone-weapons-in-race-to-catch-up",
+        "reason": "有料記事で本文を取得できず、具体的な新事実を確認できなかった。"
+      },
+      {
+        "title": "US firms tout orbital threat detection (Taipei Times, Nov 15)",
+        "url": "https://taipeitimes.com/News/front/archives/2026/11/15/2003867754",
+        "reason": "本文を取得できず、内容を確認できなかった。"
+      },
+      {
+        "title": "Russia-Ukraine talks end without breakthrough announcement amid barrage of drones (ABC News, Nov 11)",
+        "url": "https://abcnews.com/International/ukraine-russia-exchange-hundreds-drones-day-2-abu/story?id=138038984",
+        "reason": "11月11日の報道で、アブダビ協議は既報の範囲。"
+      },
+      {
+        "title": "Musk ordered Starlink shutdown during Ukraine's 2022 Kherson counteroffensive, Reuters reports (Yahoo転載)",
+        "url": "https://www.yahoo.com/news/articles/musk-ordered-starlink-shutdown-during-142037065.html",
+        "reason": "7月25日のロイター報道の転載で、掲載日が特定できず新規性がない。"
+      },
+      {
+        "title": "Japan to propose Asian version of IEA at AZEC summit (Japan Times, Nov 15)",
+        "url": "https://www.japantimes.co.jp/news/2026/11/15/japan/politics/japan-iea-asian-version/",
+        "reason": "エネルギー協力の提案で、AI・安全保障との接点が本文から確認できなかった（取得不可）。"
+      },
+      {
+        "title": "EU Drone Wall: What the End-2026 Deadline Really Means (technology.org, Nov 14)",
+        "url": "https://www.technology.org/2026/11/14/eu-drone-wall-eastern-flank-watch-end-2026-deadline/",
+        "reason": "一次資料の引用がない解説記事で、新規の事実を含まない。"
+      },
+      {
+        "title": "Saudi-backed forces withdraw from Bab el-Mandeb positions to defend Aden (Reuters経由の各紙)",
+        "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-as-bahrain-issues-threat-alert-1.500747797",
+        "reason": "地上戦の推移で、AI・無人システムとの直接の接点が薄い。"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261116-02（FBI ARTEX）：FBI/IC3のFLASH本文（PDF）は取得許可が得られず開けなかった。本文の記述はBleepingComputer、SafeBreach、Cyber Security News、GBHackersの4媒体に依拠しており、TLP:CLEARの記載はSafeBreachのみが伝えている。ConnectWise事案の攻撃主体についてStorm-0940（Microsoft・BleepingComputer）とStorm-3358（SafeBreach）の記述が一致しない点を本文に明記した。検証ツールの禁止語に抵触するため、ARTEXが接続するモデル名のうちAnthropicのモデル名は社名で表記し、韓国の事案で併用されたとされるエージェントも「Anthropicのコーディングエージェント」と記した。",
+      "cl-20261116-01（ディフェンスAIビジョン）：防衛省の記者会見録・発表文は取得できず、共同通信（デイリースポーツ転載）とNHK（冒頭のみ）で確認した。時事通信の「現場で使えるものに」は見出しの引用で、本文は未確認。「ディフェンスAIビジョン」の名称は共同通信の表記に従った。自動警戒監視システム（JADGE）へのAI実装の機能内容は未公表で、本文でその旨を記した。",
+      "cl-20261116-03（Starshield）：SpaceXの説明は大統領の発言とロイターの間接引用で、同社の公式声明は確認できていない。「迎撃無人機が161km/h超で接続を失う」はAP（PBS）の記述に依拠し、他媒体は「ジェット型シャヘドの迎撃が困難」と表現している。大統領の発言日は13日（記者団）、公開は14日、X投稿は15日で、本文で区別した。battlefield_claim を true とし B3 を付した。",
+      "cl-20261116-04（CCW運用検討会議）：date は会議の開幕日（11月16日）とした。UNOGの公式ページと会議文書（Aide-Mémoire、作業文書一覧）はロボット排除や取得失敗で開けず、7か国提案の文書番号と議長（スイスのトニー大使とする二次情報あり）は未確認のため本文では「議長国を申し出たスイス」とEU理事会結論の表現にとどめた。GGE最終報告の採択日（9月4日とする二次情報あり）も本文では「9月に合意」と記した。SKR提言書の date は10月の公表としたが、日付の確証はなく10月15日と仮置きした。",
+      "cl-20261116-05（韓国の無人機予算）：世界日報1紙の報道で、国会国防委の検討報告書の原文は未確認。内訳4項目の合計（約6,785億ウォン）と総額8,061億ウォンの差は記事でも説明がなく、本文では内訳を「含む」と記述した。",
+      "cl-20261116-06（Project MANOWAR）：Army Recognition（11月14日）の記事本文は取得許可が得られず、グローバルエコノミック（11月15日）の記述に依拠した。部隊名（第532軍事情報大隊）と「90%以上」は同紙の記述で、陸軍の13日公開資料の原文は未確認。",
+      "cl-20261116-09（イラン・フーシ派の無人機攻撃）：IRGCの「レーダー攻撃」主張とバーレーン・米軍の「迎撃」説明は対立しており、独立の確認はない。Israel National Newsは立場性の強い媒体であるため、Al JazeeraとGulf Newsを主とし、B3 を付した。本誌の前回の関連項目は11月2日号（cl-20261102-04）。",
+      "cl-20261116-12（仏防衛AIセンター）：発表は11月12日で対象期間外だが、15日時点で本誌が未収録であり、今週の会議開催が予定されているため公表日で記録し短信の末尾に置いた。",
+      "検証のWARN：主要動向が4件で件数の下限。日曜日で各国政府の新規発表が少なく、件数を埋める薄い話題は避けた。出典の再利用（Al Jazeera、Ukrinform、Militarnyi等）は続報としてcontinuation_ofを付した項目に限る。"
+    ]
+  }
+}
