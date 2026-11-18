@@ -1,0 +1,604 @@
+{
+  "edition_date": "2026-11-19",
+  "generated_at": "2026-11-19T06:33:00+09:00",
+  "window_from": "2026-11-18T07:12:00+09:00",
+  "edition_title_ja": "AIの悪用可能性を測る公的検証と、計算資源統制の次段階",
+  "edition_title_en": "Public tests of AI misuse and the next stage of compute control",
+  "edition_dek_ja": "GAOとUSCCの報告、Nvidiaの決算、ロシアの精製能力の半減が同じ一日に重なった。",
+  "edition_dek_en": "GAO and USCC reports, Nvidia's results and a near-halving of Russian refining converged on a single day.",
+  "lead_points_ja": [
+    "米議会の二つの監視機関が同じ日に、フロンティアAIの悪用可能性と中国のAI技術スタックの到達点を公的な記録として示した。GAOは4つの主要AIが12時間未満で攻撃計画を生成したと報告し、USCCは中国製オープンウェイトモデルの利用制限と対中チップ輸出の認証制を議会に勧告した。安全対策と計算資源の双方で、統制の次段階が立法の議題に乗る。",
+    "Nvidiaは中国向けデータセンター売上をゼロと前提しても次期売上1,300億ドルを見込み、輸出管理が同社の成長曲線に与える影響は現時点では限定的である。暫定CEO体制の下で、前CEOの議会聴取が12月1日に控える。",
+    "ロイターの業界推計では、無人機攻撃でロシアの原油処理量は10月末比45%減となり、主要35製油所のうち15か所が停止または混乱している。ウクライナ参謀本部はクラスノダールの2製油所への攻撃を発表したが、数字はいずれも独立に確認されていない。",
+    "イラン軍は2か月超ぶりにクウェートの米軍基地を無人機で攻撃したと主張し、米軍はケシュム島の革命防衛隊拠点を空爆した。11月13日以降、湾岸の米軍施設への無人機攻撃が再び日常化しつつある。",
+    "ジュネーブのCCW運用検討会議では、フランスが拘束・非拘束を組み合わせた「ハイブリッド」案を模索し、ICRCは中国と豪州の柔軟化を指摘した。中継のない非公式協議の下で、20日の最終文書に自律兵器のマンデートがどう書き込まれるかが焦点である。"
+  ],
+  "lead_points_en": [
+    "Two congressional watchdogs on the same day put the misuse potential of frontier AI and the state of China's AI stack on the public record. GAO reported that four major AI platforms produced attack plans in under 12 hours each, and the USCC recommended restricting Chinese open-weight models and certifying AI chip exports to China. On both safeguards and compute, the next stage of control is now a legislative agenda item.",
+    "Nvidia guided to $130 billion in next-quarter revenue while assuming no data-centre compute revenue from China, so export controls are so far doing little to bend its growth curve. Under an interim CEO, the former CEO's congressional deposition is set for Dec 1.",
+    "Reuters' industry sources estimate that drone strikes have cut Russia's crude processing 45% since late October, with 15 of 35 major refineries halted or disrupted. Ukraine's General Staff announced strikes on two Krasnodar refineries; none of the figures is independently verified.",
+    "Iran's army claimed its first drone attack on a US base in Kuwait in more than two months, and US aircraft struck an IRGC site on Qeshm Island. Since Nov 13, drone attacks on US facilities in the Gulf have again become routine.",
+    "At the CCW Review Conference in Geneva, France is building support for a 'hybrid' of binding and non-binding measures, and the ICRC pointed to new flexibility from China and Australia. With consultations off camera, the question is how the autonomous-weapons mandate is written into the final document on Nov 20."
+  ],
+  "items": [
+    {
+      "id": "cl-20261119-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "米中委員会年次報告、中国製オープンウェイトAIの利用制限と対中チップ輸出の認証制を勧告　輸出管理は「主要な手段」",
+      "title_en": "USCC annual report recommends restricting Chinese open-weight AI and certifying chip exports to China; export controls called 'the principal tool'",
+      "lead_ja": "米中経済・安全保障調査委員会（USCC）は11月18日、2026年の年次報告書を議会に提出した。30項目の勧告は、中国製オープンウェイトモデルの機微な用途への配備制限、中国製AIモデル利用の開示義務、対中AIチップ輸出に米国内の製造能力を転用しないことの輸出者認証を求める。第8章は輸出管理を「中国を減速させる主要な手段」と位置づけ、第2章は人民解放軍が調達文書上でNvidiaの先進チップを「積極的に調達している」とするCSETの評価を引いた。",
+      "lead_en": "The US-China Economic and Security Review Commission (USCC) transmitted its 2026 Annual Report to Congress on Nov 18. Its 30 recommendations include restricting the deployment of Chinese open-weight models in sensitive applications, mandatory disclosure of the use of Chinese AI models, and exporter certification that AI chip exports to China do not divert US manufacturing capacity. Chapter 8 calls export controls 'the principal tool slowing China', and Chapter 2 cites CSET's assessment, based on procurement documents, that the PLA is 'actively soliciting' Nvidia's advanced chips.",
+      "sections": [
+        {
+          "heading_ja": "30の勧告が描くAI技術スタックの統制",
+          "heading_en": "Thirty recommendations and control of the AI stack",
+          "paragraphs_ja": [
+            "報告書は10の重点勧告を冒頭に置き、そのうち三つがAIに直結する。勧告IIIは、中国本拠の企業が開発したオープンウェイトモデルについて「安全策が実証されない限り機微な用途への配備を制限する」とし、商務省の情報通信技術・サービス室（OICTS）が180日以内に機微な用途を特定し、期限付きの認可がない新規配備を禁じる案である。既存の利用者には「対象モデルを置き換える能力を文書化して維持する」ことを求める。",
+            "勧告VIIは連邦機関と連邦資金の受給者に「中国に本拠を置く、または中国法の下で組織された主体が開発したAIモデルの利用」の開示を義務づけ、民間企業には連邦取引委員会が執行し、上場企業は証券開示でその利用を「重大な事業リスク」として記載する。勧告VIIIは2018年輸出管理改革法を改正し、対中AIチップ輸出の条件として、輸出者が米国市場の能力を転用しないと認証する制度を提案する。認証の範囲は「先端ノードのウェハー製造、高帯域幅メモリ、先進パッケージングを含む上流の能力」に及び、虚偽認証には刑事罰、免除には安全保障上の決定と30日間の議会審査を要する。"
+          ],
+          "paragraphs_en": [
+            "The report leads with ten key recommendations, three of which bear directly on AI. Recommendation III would 'restrict deployment in sensitive applications unless safeguards are demonstrated' for open-weight models developed by China-headquartered firms, with Commerce's OICTS identifying sensitive uses within 180 days and prohibiting new deployment absent a time-limited authorisation. Existing users would have to 'maintain documented capabilities to replace covered models'.",
+            "Recommendation VII would require federal agencies and recipients of federal funds to disclose 'any use of AI models developed by an entity headquartered in, or organized under the laws of China', with FTC enforcement for businesses and SEC filers reporting such use 'as a material business risk'. Recommendation VIII would amend the Export Control Reform Act of 2018 so that AI chip exports to China are conditioned on exporter certification that US market capacity is not diverted, covering 'upstream capacity, including advanced-node wafer fabrication, high-bandwidth memory, and advanced packaging', with criminal penalties for false certification and a national-security determination plus 30-day congressional review for any waiver."
+          ]
+        },
+        {
+          "heading_ja": "輸出管理を「主要な手段」とする第8章の評価",
+          "heading_en": "Chapter 8's verdict: export controls as 'the principal tool'",
+          "paragraphs_ja": [
+            "第8章「シリコンから主権へ：ウェハーからウェイトまでAIスタックの統制を目指す中国の試み（第1部）」の主要な知見は、「輸出管理は中国を減速させる主要な手段である」と記す。中国は「最も困難なチョークポイントをまだ閉じていない」とし、Nvidiaの開発環境CUDAの「ソフトウェアの堀」を挙げた。CUDAは「関連する先進AIチップと異なり、広範な輸出管理の対象になっていない」と指摘し、2025年1月時点で約150万人の中国の開発者が利用しているというフアン氏の発言を引用して、次回の報告で詳しく扱うとした。",
+            "計算資源の格差は「主に先進チップへの米国の輸出管理により、相当なものとなっている」と評価し、Epoch AIの推計として米国が観測可能な世界のAI計算能力の約4分の3、中国が約15%を占める（2025年5月時点）とした。表3はHuawei Ascend 910CとNvidia B200を比較し、総処理性能（TPP）は12,800対40,000、メモリ帯域は3.2対8TB/sである。Huaweiの2025年のAIチップ生産は「わずか20万〜40万個」で、Nvidiaの推定400万〜500万個と対置された。"
+          ],
+          "paragraphs_en": [
+            "The key findings of Chapter 8, 'Silicon to Sovereignty: China's Bid to Control the AI Stack from Wafer to Weights, Part One', state that 'export controls are the principal tool slowing China'. China 'has not yet closed the hardest chokepoints', including 'the Nvidia Compute Unified Device Architecture (CUDA) software moat'. The report notes that CUDA, 'unlike the associated advanced AI chips', 'is not subject to broad export controls', cites Jensen Huang's January 2025 remark that about 1.5 million developers in China used CUDA, and promises a deeper look 'in a subsequent report'.",
+            "The compute gap is 'substantial, largely due to U.S. export controls on advanced chips', with Epoch AI estimating that the US hosted roughly three-quarters of observed global AI compute and China about 15% as of May 2025. Table 3 compares Huawei's Ascend 910C with Nvidia's B200: TPP of 12,800 versus 40,000 and memory bandwidth of 3.2 versus 8 TB/s. Huawei's AI chip output was 'just 200,000–400,000 units in 2025', against an estimated four to five million for Nvidia."
+          ]
+        },
+        {
+          "heading_ja": "人民解放軍の調達文書と第三国経由の遠隔アクセス",
+          "heading_en": "PLA procurement documents and remote access via third countries",
+          "paragraphs_ja": [
+            "第2章は「中国は米国の輸出管理を回避し、インテリジェント化を支える最先端半導体の獲得を目指している」と述べ、「安全・新興技術センター（CSET）の研究者は2026年4月、過去数年の人民解放軍の調達文書に基づき、人民解放軍がAI軍事能力の開発のためNvidiaの先進チップを積極的に調達していると評価した」と記す。報告書本文には具体的なチップ型番、部隊名、数量の記載が見当たらず、報道で言及される西北工業大学のH200購入記録はロイターの取材に由来し、委員会の記述とは別である。",
+            "遠隔アクセスについては「中国のAI企業が東南アジアのデータセンターを通じて先進Nvidiaチップにアクセスしているとの報告がある」とし、既存の規則は「第三国のAIデータセンターを通じた中国主体の遠隔アクセスを明らかに完全には防げていない」と評価した。報告書の情報は10月8日時点で確定しており、16日に公表された遠隔アクセス暫定最終規則は反映されていない。18日の公表説明会は東部時間13時に開かれ、報告書は5回の公聴会と35人の証人、2019年以来初の中国への調査出張に基づく。"
+          ],
+          "paragraphs_en": [
+            "Chapter 2 states that 'China is seeking to evade U.S. export controls to gain the most advanced semiconductors that underpin its intelligentization drive' and that 'researchers from the Center for Security and Emerging Technology assessed in April 2026 that the PLA is actively soliciting Nvidia's advanced chips to develop its AI-enabled military capabilities, based on PLA procurement documents from the past several years'. The report body names no chip model, unit or quantity; the Northwestern Polytechnical University H200 purchase record cited in some coverage comes from Reuters reporting, separate from the Commission's text.",
+            "On remote access, the report says 'reports indicate that Chinese AI companies have been accessing advanced Nvidia AI chips through data centers in Southeast Asia' and that existing rules 'have evidently not fully prevented Chinese entities from remotely accessing advanced semiconductors through AI data centers in third countries'. The report is current as of Oct 8, so it predates the Nov 16 interim final rule on remote access. The release briefing was held at 1 p.m. Eastern on Nov 18, and the report draws on five hearings, 35 witnesses and the Commission's first fact-finding trip to China since 2019."
+          ]
+        }
+      ],
+      "watch_next_ja": "勧告XI〜XXX（本文641ページ）の全文確認。勧告III・VII・VIIIの法案化の動き（下院中国特別委員会、上院商業委員会）。第8章「第1部」に続く第2部の公表時期。11月19日：深圳での米中首脳会談で輸出管理が議題となるか。",
+      "watch_next_en": "Full text of Recommendations XI–XXX (p. 641). Legislative uptake of Recommendations III, VII and VIII (House Select Committee on China, Senate Commerce). Timing of Chapter 8 'Part Two'. Nov 19: whether export controls feature at the Trump–Xi meeting in Shenzhen.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "米中経済・安全保障調査委員会（USCC）",
+      "publisher_en": "U.S.-China Economic and Security Review Commission",
+      "sources": [
+        {"title": "2026 Annual Report to Congress (full PDF)", "url": "https://www.uscc.gov/sites/default/files/2026-11/2026_Annual_Report_to_Congress.pdf", "publisher": "USCC", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "2026 Annual Report to Congress (release page)", "url": "https://www.uscc.gov/annual-report/2026-annual-report-congress", "publisher": "USCC", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "US commission says China's military is seeking Nvidia's most advanced chips", "url": "https://thenextweb.com/news/us-commission-says-chinas-military-is-seeking-nvidias-most-advanced-chips", "publisher": "The Next Web", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Is Chinese military still pushing for H200 access despite Nvidia's latest export curbs? Report offers details", "url": "https://www.theweek.in/news/defence/2026/11/18/nvidia-h200-hopper-chips-china-military.html", "publisher": "The Week", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "China Seeks Nvidia's Top AI Chips for Weapons, U.S. Panel Warns", "url": "https://www.yahoo.com/news/politics/articles/china-seeks-nvidia-top-ai-185845561.html", "publisher": "Gadget Review (Yahoo配信)", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export", "frontier-safety", "governance-norms"],
+      "actors": ["US", "CN"],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "米GAO、覆面テストで4つの主要AIが「実行可能な攻撃計画」を生成と報告　いずれも12時間未満で安全対策を回避",
+      "title_en": "GAO reports that four major AI platforms produced 'viable attack plans' in covert tests, each bypassing safeguards in under 12 hours",
+      "lead_ja": "米政府監査院（GAO）は11月18日、OpenAI、Anthropic、Google、xAI（報告書の表記はSpaceXAI）の4社の主要な対話型AIを覆面でテストし、いずれも大量殺傷を狙う即席爆発装置（IED）または電力網への攻撃について「実行可能な攻撃計画」を生成したとする報告書GAO-27-108814を公開した。安全対策はいずれの場合も作動したが、GAOは「一般的な回避手法」で突破し、各プラットフォームは12時間未満で計画を出力した。報告書は勧告を含まず、要請者のハッサン上院議員は来年初めの公聴会と、公開前の安全性試験を義務づける立法を予告した。",
+      "lead_en": "On Nov 18 the US Government Accountability Office publicly released GAO-27-108814, reporting that covert tests of ChatGPT, Claude, Gemini and Grok each produced 'viable attack plans' for either a mass-casualty improvised explosive device or an attack on the electrical grid. Safeguards triggered in every case, but GAO bypassed them with 'common safeguard-bypassing techniques', and each platform produced a plan in under 12 hours. The report makes no recommendations; its requester, Senator Maggie Hassan, announced a hearing early next year and legislation to require pre-release safety testing.",
+      "sections": [
+        {
+          "heading_ja": "IEDと電力網、2つのシナリオで12時間未満",
+          "heading_en": "Two scenarios, IED and grid, each under 12 hours",
+          "paragraphs_ja": [
+            "報告書は2025年12月から2026年10月の監査期間のうち、2026年春に試験を実施した。対象は利用者数の多い4つのプラットフォームで、本文ではA〜Dと匿名化され、どのモデルがどのシナリオに割り当てられたかは伏せられている。シナリオは「大量殺傷が可能な」IEDによる攻撃と、経済的損害を与える電力網への攻撃の2つで、各シナリオに2プラットフォームが無作為に割り当てられ、各1回ずつ試行された。試験者は覆面の人格と個別契約のアカウントを別回線で使い、無料版から有料版へ進めた。",
+            "計画された停止基準は「潜在的に実行可能な情報を得るか、悪意ある指示を得られないまま延べ24時間が経過するまで」であり、結果は「各プラットフォームは12時間未満で攻撃計画を生成した」と記される。IEDのシナリオでは日時と標的（報道によればホテルの駐車場とコンベンションセンター）、法執行機関の回避策、ペーパーカンパニーと複数州での購入を勧める時系列が示された。電力網のシナリオでは主要都市の変電所を無人機または銃器で狙う手順と機種、入手方法、地図と画像が生成された。GAOは大都市の消防局の爆発物処理隊長に部品と手順を確認させ、「爆発に至る」との検証を得た。"
+          ],
+          "paragraphs_en": [
+            "The audit ran from December 2025 to October 2026, with testing in spring 2026. The four most-used platforms were anonymised as A–D in the body, and the model-to-scenario assignment is withheld. The two scenarios were an IED attack 'capable of mass casualties' and an attack on the electrical grid causing economic harm; two platforms were randomly assigned to each and run once. Testers used undercover personas and individual subscriber accounts on a separate network, moving from free to paid tiers.",
+            "The planned stop rule was to test 'until either: (1) potentially feasible information was received ... or (2) a total of 24 total working hours had passed', and the result was that 'each platform took less than 12 hours to generate a plan for the attacks'. In the IED scenario the plans gave dates, times and targets (a hotel parking garage and a convention centre, per press coverage), ways to avoid law enforcement, and a timeline recommending a shell company and multi-state purchases. In the grid scenario they gave procedures for attacking substations in major cities by drone or firearm, specific models and acquisition routes, plus a map and an image. A bomb-squad commander at a major metropolitan fire department verified for GAO that the components and instructions 'would result in an explosion'."
+          ]
+        },
+        {
+          "heading_ja": "作動した安全対策と「一般的な回避手法」",
+          "heading_en": "Safeguards that fired, and 'common bypassing techniques'",
+          "paragraphs_ja": [
+            "GAOは「いずれの場合も、プロンプトは拒否、情報の削除、アカウント停止といったプラットフォームの安全対策を作動させた」と記し、NIST、MITRE、学術文献で特定した「一般的な安全対策回避手法」で突破した。使用したプロンプトと手法、標的の座標、材料の購入先は報告書から除かれ、一部の図は改変されている。事後の対応として、プラットフォームBの企業は試験期間終了後にアカウントを停止し、CとDは翌日にチャット履歴の一部を削除したが、Cのアカウントは「2週間足らず後も停止されず有効のまま」だった。",
+            "試験中に企業への通知はなく、GAOは報告書案をAnthropic、Google、OpenAI、SpaceXAIに送って協議し、2026年9月に試験用アカウントを提供した。報告書は「情報の詳細は既知のものだった」としつつ、数週間から数か月を要する統合を「数時間で」実現したと総括し、「現状のこの技術は潜在的に危険であり、その悪用は国家と経済の安全保障に対する増大するリスクである」と結んだ。第三者製品を対象としたため、連邦機関や議会への勧告を置かず、立法者への判断材料として提示する形をとった。"
+          ],
+          "paragraphs_en": [
+            "GAO writes that 'in each case, GAO's prompts triggered the platforms' safeguards, such as denial, removal of information, or suspending accounts', and that it circumvented them with 'common safeguard-bypassing techniques' identified from NIST, MITRE and academic sources. Prompts, techniques, target coordinates and purchase sources are withheld and some figures altered. Afterwards, the company behind Platform B suspended the account after the test period, C and D removed parts of the chat history the next day, yet Platform C's account 'was still active and had not been suspended' less than two weeks later.",
+            "Companies were not notified during testing; GAO later shared a draft with Anthropic, Google, OpenAI and SpaceXAI, met their officials and handed over the test accounts in September 2026. The report says the details 'were not novel' but that the platforms compressed weeks or months of synthesis into hours, concluding that 'in its current state, this technology can potentially be dangerous ... and its misuse represents a growing risk to national and economic security'. Because it examined third-party products, the report contains no recommendations to agencies or Congress."
+          ]
+        },
+        {
+          "heading_ja": "企業の反応とハッサン議員の公聴会予告",
+          "heading_en": "Company responses and Hassan's promised hearing",
+          "paragraphs_ja": [
+            "Anthropicは、安全策は単一の防護が破られうる前提で設計していると説明し、試験が2026年5月時点のシステムを反映し統計的に有意な標本に当たらないことの明記を求め、GAOは「時点を反映したもので統計的に有意な標本ではない」と認めた。OpenAIは報告書がモデルの出力と調査員の入力を常には区別していないと指摘し、GAOは「拒否の努力は認めるが、プラットフォームは最終的に攻撃に使える情報を提供した」と応じた。Googleは多層的な緩和策を挙げ、SpaceXAIはモデルの更新ごとに安全性と監視の改善を続けるとした。OpenAIはABCに、試験は「数か月前の旧版」に対するものだと述べた。",
+            "要請者の合同経済委員会筆頭委員ハッサン上院議員（民主党）は「AIの公共安全上の脅威はもはや理論上のものではない」とし、「議会が行動しなければ、悪意ある者がAIで大規模攻撃を計画し実行するのは『いつか』の問題である」と述べた。次期国土安全保障・政府問題委員長として来年1月前後に公聴会を開き、公開前の安全性試験を求める法案を準備する。GAOのウォルシュ局長はNextgovに「これらの製品は運営企業の完全な制御下にない」と語った。前日の評価企業Valsの報告と合わせ、民間と政府の双方がフロンティアモデルの悪用耐性を数字で示す段階に入った。"
+          ],
+          "paragraphs_en": [
+            "Anthropic said its safeguards assume any single protection can be defeated, noted the study reflects its system as of May 2026 and asked GAO to state that the tests are not statistically significant; GAO agreed that they 'reflect a point in time and are not a statistically significant sample'. OpenAI said the report did not always distinguish model output from investigator input, to which GAO replied that 'the platform ultimately provided information that could be used in an attack'. Google cited layered mitigations, and SpaceXAI said it would keep improving safety and moderation with each release. OpenAI told ABC the tests were run 'months ago on an older version of ChatGPT'.",
+            "Senator Maggie Hassan (D-N.H.), ranking member of the Joint Economic Committee and the report's requester, said 'the AI public safety threat is no longer theoretical' and that 'if Congress does not act, it is a question of when — not if — a bad actor will use AI to plan and carry out a major attack'. As incoming chair of the Homeland Security and Governmental Affairs Committee she plans a hearing around January and legislation requiring pre-release safety testing. GAO's Kevin Walsh told Nextgov that 'these products are not fully in the control of the companies that are operating them'. Together with the previous day's Vals report, private and public evaluators are now quantifying frontier models' resistance to misuse."
+          ]
+        }
+      ],
+      "watch_next_ja": "2027年1月前後：ハッサン議員の国土安全保障・政府問題委員会での公聴会と、公開前の安全性試験を義務づける法案。各社の報告書に対する正式声明。GAO-27-108814の原本PDF（gao.gov）の公開。",
+      "watch_next_en": "Around January 2027: Hassan's HSGAC hearing and a bill mandating pre-release safety testing. Formal company statements on the report. Availability of the GAO-27-108814 PDF on gao.gov.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "米政府監査院（GAO）",
+      "publisher_en": "U.S. Government Accountability Office",
+      "sources": [
+        {"title": "Artificial Intelligence: Covert Testing Used Common Platforms to Create Viable Attack Plans (GAO-27-108814)", "url": "https://www.gao.gov/products/gao-27-108814", "publisher": "GAO", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "GAO-27-108814 Highlights", "url": "https://www.gao.gov/assets/gao-27-108814-highlights.pdf", "publisher": "GAO", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "GAO report on malicious use of AI (full report, as released by Sen. Hassan's office)", "url": "https://www.hassan.senate.gov/imo/media/doc/gao_ai_malicious_use_report.pdf", "publisher": "GAO / Office of Sen. Maggie Hassan", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "AI models used to plan 'viable' attack plots in test despite safeguards: Government report", "url": "https://abcnews.com/Technology/ai-models-plan-viable-attack-plots-test-despite/story?id=138229892", "publisher": "ABC News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds", "url": "https://www.nextgov.com/artificial-intelligence/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417305/", "publisher": "Nextgov/FCW", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "AI platforms planned U.S. terror attacks when asked to, prompting calls for Senate hearings", "url": "https://www.cbsnews.com/news/ai-platforms-plan-us-terror-attack-when-asked-to-senate-hearings/", "publisher": "CBS News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Government watchdog: Chatbots helped plan terrorist attacks in tests", "url": "https://www.wmur.com/article/government-watchdogs-chatbots-terrorist-attack/74466494", "publisher": "AP (WMUR配信)", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["frontier-safety", "governance-norms"],
+      "actors": ["US"],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "無人機攻撃でロシアの原油処理量は10月末比45%減とロイター　ウクライナ参謀本部はクラスノダールの2製油所攻撃を発表",
+      "title_en": "Reuters: drone strikes cut Russia's crude processing 45% since late October; Ukraine's General Staff announces strikes on two Krasnodar refineries",
+      "lead_ja": "ロイターは11月18日、業界関係者2人の推計として、ウクライナの無人機攻撃によりロシアの製油所の原油処理量が10月末の日量70万トン超から約40万トン（日量約300万バレル）へ45%減少し、主要35製油所のうち15か所で操業が停止または混乱していると報じた。同日、ウクライナ参謀本部はクラスノダール地方のイリスキーとアフィプスキーの両製油所を17日から18日にかけて攻撃したと発表し、ロシア側の地方当局は無人機の破片で2つの事業所に火災が発生したと認めた。数字はいずれも独立に確認されておらず、ロシアのエネルギー省は回答していない。",
+      "lead_en": "Reuters reported on Nov 18, citing two industry sources, that Ukrainian drone strikes have cut Russian refineries' crude processing by 45% from over 700,000 tonnes a day at the end of October to around 400,000 tonnes (about 3 million barrels a day), with operations halted or disrupted at 15 of 35 major refineries. The same day Ukraine's General Staff said it struck the Ilsky and Afipsky refineries in Krasnodar Krai on Nov 17 and overnight into Nov 18, and the regional Russian authorities acknowledged fires at two enterprises from falling drone debris. None of the figures is independently verified, and Russia's energy ministry did not respond.",
+      "sections": [
+        {
+          "heading_ja": "主要35製油所のうち15か所が停止・混乱",
+          "heading_en": "Fifteen of 35 major refineries halted or disrupted",
+          "paragraphs_ja": [
+            "ロイターの情報源によれば、影響を受けた製油所の名目処理能力は合計で日量約50万トンに達し、ロシアの一次精製能力（推定日量93万トン）の約54%を占める。先週半ばの9か所から15か所へ増え、リャザン、ヤロスラヴリ、キリシ、ヴォルガ地域の製油所が挙げられた。一方で11月の月間平均は日量50万トン超を維持し、9〜10月を5〜10%下回る水準にとどまるという推計も併記されており、瞬間値の落ち込みと月間平均の差は記事の中で整理されていない。",
+            "ロシアは一部地域で国内燃料不足に直面し、港湾への攻撃で輸出能力も制約されている。ロイターは、計画中の対米ディーゼル輸出取引に支障が出る可能性を指摘した。10月11日のトランプ大統領による「エネルギー停戦」はどちらの側も認めておらず、攻撃は約2週間緩んだ後に再開した。ロシアのエネルギー省はコメントの要請に応じていない。"
+          ],
+          "paragraphs_en": [
+            "According to Reuters' sources, the affected refineries' combined nominal capacity is around 500,000 tonnes a day, about 54% of Russia's estimated primary refining capacity of 930,000 tonnes a day. The count rose from nine in the middle of last week to 15, with Ryazan, Yaroslavl, Kirishi and Volga-region plants named. The same sources estimate that the November average remains above 500,000 tonnes a day, 5–10% below September and October, and the article does not reconcile the current-rate drop with the monthly average.",
+            "Russia faces domestic fuel shortages in some regions and restricted export capacity after strikes on ports, and Reuters noted that a planned diesel export deal with the United States could be hampered. Neither side has acknowledged the Oct 11 'energy ceasefire' announced by President Trump; strikes eased for roughly two weeks before resuming. Russia's energy ministry did not respond to a request for comment."
+          ]
+        },
+        {
+          "heading_ja": "2製油所への攻撃、双方の発表の差",
+          "heading_en": "Ilsky and Afipsky: the General Staff's claims and the regional fire reports",
+          "paragraphs_ja": [
+            "ウクライナ参謀本部はTelegramで、17日から18日にかけてイリスキー製油所（年間処理能力約660万トン）とアフィプスキー製油所（同625万トン）を攻撃し、イリスキーでは「爆発と煙が記録され、貯蔵タンクが被弾した」、アフィプスキーでは「暫定情報として原油処理装置が被弾した」と発表した。同夜にスタニツィア・ルハンスカ付近のシヴェルスキー・ドネツ川の道路橋とクルスク州ホムトフカ付近の修理拠点も攻撃したとし、「ロシアが武力侵略を完全に止めるまで作戦は続く」と記した。",
+            "ロシア側では、クラスノダール地方の作戦本部が「セヴェルスキー地区での無人機攻撃で、落下した破片により2つの事業所で火災が発生した」とし、9か所で破片を確認、4人が負傷したと発表した。施設名は公式には示されず、ASTRAなどの独立系メディアが住民の証言から両製油所と特定した。ロシア国防省は同夜に183機のウクライナ無人機を迎撃したと発表した。アフィプスキーは11月6日に、イリスキーは16日に攻撃を受けており、同一施設への反復攻撃で復旧を妨げる型が定着している。"
+          ],
+          "paragraphs_en": [
+            "Ukraine's General Staff said on Telegram that it struck the Ilsky refinery (about 6.6 million tonnes a year) and the Afipsky refinery (6.25 million tonnes) on Nov 17 and overnight into Nov 18: at Ilsky 'explosions and smoke were recorded ... storage tanks were hit', and at Afipsky 'according to preliminary information, an oil processing unit ... was hit'. The same night it reported hitting a road bridge over the Siverskyi Donets near Stanytsia Luhanska and a repair base near Khomutovka in Kursk Oblast, adding that operations 'will continue until Russia completely ends its armed aggression against Ukraine'.",
+            "On the Russian side, Krasnodar Krai's operational headquarters said that 'during the UAV attack in the Seversky district, fires broke out at two enterprises as a result of falling drone debris', with debris at nine locations and four people injured. The facilities were not officially named; independent outlets such as ASTRA identified them as the two refineries from residents' accounts. Russia's defence ministry said it intercepted 183 Ukrainian drones overnight. Afipsky was hit on Nov 6 and Ilsky on Nov 16, so repeat strikes on the same plants to frustrate repairs have become the established pattern."
+          ]
+        },
+        {
+          "heading_ja": "推計の確度と検証の限界",
+          "heading_en": "How firm the estimates are",
+          "paragraphs_ja": [
+            "ロイターの数字は匿名の業界関係者2人の推計であり、ロシアの公式統計の裏付けはない。ウクライナ参謀本部の被害説明は当事者の発表で、第三者の衛星画像による確認は18日中に報じられていない。クラスノダール地方当局の火災報告は被害の発生を裏づけるが、規模と復旧期間は示されていない。したがって「45%減」は精製能力への累積的な圧力を示す指標として扱うのが妥当であり、個別施設の損害評価とは切り分けて読む必要がある。"
+          ],
+          "paragraphs_en": [
+            "Reuters' figures are estimates from two unnamed industry sources, unsupported by Russian official statistics. The General Staff's damage descriptions are party claims, and no third-party satellite confirmation had been reported by the end of Nov 18. The Krasnodar authorities' fire reports corroborate that damage occurred but give no scale or repair timeline. The '45%' figure is therefore best read as an indicator of cumulative pressure on refining capacity, kept separate from damage assessments of individual plants."
+          ]
+        }
+      ],
+      "watch_next_ja": "ロシアの11月精製統計と国内ガソリン価格の推移。アフィプスキー・イリスキーの衛星画像による損害確認。ロシアのディーゼル輸出制限の有無。11月19日：ベルリンでの「有志連合」首脳会合。",
+      "watch_next_en": "Russia's November refining statistics and domestic gasoline prices. Satellite confirmation of damage at Afipsky and Ilsky. Any Russian diesel export restrictions. Nov 19: Coalition of the Willing leaders' meeting in Berlin.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "ロイター、ウクライナ参謀本部、クラスノダール地方作戦本部",
+      "publisher_en": "Reuters; General Staff of Ukraine; Krasnodar Krai operational HQ",
+      "sources": [
+        {"title": "Exclusive-Drone attacks nearly halve Russia's November oil refining, sources say", "url": "https://www.yahoo.com/news/articles/exclusive-drone-attacks-nearly-halve-145826294.html", "publisher": "Reuters (Yahoo配信)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "General Staff confirms strikes on Ilsky and Afipsky oil refineries", "url": "https://www.ukrinform.net/rubric-ato/4186044-general-staff-confirms-strikes-on-ilsky-and-afipsky-oil-refineries.html", "publisher": "Ukrinform", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "General Staff confirmed the striking of two oil refineries in Kuban, another bridge, and three Russian aircraft", "url": "https://unn.ua/en/news/the-general-staff-confirmed-the-striking-of-two-oil-refineries-in-kuban-another-bridge-and-three-russian-aircraft", "publisher": "UNN", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Ukrainian Drones Target Krasnodar Region Refineries", "url": "https://themoscowtimes.com/2026/11/18/ukrainian-drones-target-krasnodar-region-refineries-a94294", "publisher": "The Moscow Times", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Drones attack Afipsky and Ilsky oil refineries in Russia – media reports", "url": "https://www.ukrinform.net/rubric-ato/4185869-drones-attack-afipsky-and-ilsky-oil-refineries-in-russia-media-reports.html", "publisher": "Ukrinform", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "2 Russian oil refineries reportedly targeted in overnight drone attack on Krasnodar Krai", "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/", "publisher": "Kyiv Independent", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting", "c2-decision"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage", "assess"],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "Nvidia、第3四半期売上1,158億ドル　次期見通しは中国データセンター売上を見込まず、暫定CEO体制で発表",
+      "title_en": "Nvidia posts $115.8 billion quarterly revenue; outlook assumes no China data-centre revenue, announced under an interim CEO",
+      "lead_ja": "Nvidiaは11月17日、2027会計年度第3四半期（10月25日締め）の売上高が前年同期比103%増の1,158億ドル、データセンター部門が110%増の1,076億ドルだったと発表した。第4四半期の売上見通しは1,300億ドル（±3%）で、同社は「見通しに中国からのデータセンター計算向け売上を一切想定していない」と明記した。発表の談話は暫定CEO兼CFOのコレット・クレス氏が担い、辞任したフアン前CEOは12月1日の下院聴取を控える。",
+      "lead_en": "Nvidia reported on Nov 17 that revenue for the third quarter of fiscal 2027 (ended Oct 25) rose 103% year on year to $115.8 billion, with Data Center revenue up 110% to $107.6 billion. Fourth-quarter guidance is $130 billion, plus or minus 3%, and the company stated that it 'is not assuming any Data Center compute revenue from China in its outlook'. The release quoted Colette Kress as interim CEO and CFO, while former CEO Jensen Huang, who resigned, faces a House deposition on Dec 1.",
+      "sections": [
+        {
+          "heading_ja": "中国向け売上ゼロの前提と1,158億ドルの実績",
+          "heading_en": "A zero-China assumption on top of $115.8 billion",
+          "paragraphs_ja": [
+            "純利益はGAAPベースで653億ドル、希薄化後1株利益は2.70ドルである。第4四半期は1週間多い14週の四半期で、売上1,300億ドル、粗利益率71〜72%を見込む。CFOコメンタリーによれば、第3四半期の中国向けデータセンター用Hopper製品の出荷は24億ドルで、同社はこれを次期見通しから除いた。16日に公表された遠隔アクセス暫定最終規則と第三国データセンター向けの許可要件は、見通しの前提に直接は言及されていない。",
+            "発表はAnthropicへのGrace BlackwellとVera Rubinの容量提供をクラウド経由で拡大したこと、Palantirとの「主権AIインテリジェンスとNemotronオープンモデルを重要供給網へ届ける」提携、豪州で2027年までに最大2GWの構築計画、ユーリッヒのJUPITERでの量子シミュレーションを挙げた。防衛・政府向けの個別契約は実績の説明に含まれていない。中国の売上を外した見通しが前四半期を上回る点は、米国の輸出管理が同社の成長曲線に与える影響が現時点では限定的であることを示す。"
+          ],
+          "paragraphs_en": [
+            "GAAP net income was $65.3 billion, with diluted EPS of $2.70. The fourth quarter is a 14-week period, for which Nvidia expects $130 billion in revenue and a gross margin of 71–72%. According to the CFO commentary, shipments of Data Center Hopper products to China in the third quarter were $2.4 billion, which the company excludes from its outlook. The Nov 16 interim final rule on remote access and the new licensing requirements for third-country data centres are not directly referenced in the outlook assumptions.",
+            "The release highlighted expanded Anthropic access to Grace Blackwell and Vera Rubin capacity through cloud providers, a Palantir partnership 'to bring sovereign AI intelligence and NVIDIA Nemotron open models to critical supply chains', a planned buildout of up to 2 gigawatts in Australia by 2027 and a record quantum simulation on JUPITER at Jülich. No defence or government contracts appear among the quarter's highlights. That guidance excluding China still exceeds the prior quarter indicates that US export controls are, for now, doing little to bend the company's growth curve."
+          ]
+        },
+        {
+          "heading_ja": "暫定CEO体制と議会聴取を控える前CEO",
+          "heading_en": "An interim CEO and a former CEO awaiting Congress",
+          "paragraphs_ja": [
+            "発表の談話は「暫定CEO兼執行副社長兼CFO」としてクレス氏が述べ、11月13日に辞任したフアン氏の名は本文に現れない。報道によればフアン氏は17日、CEOに復帰できれば「光栄」としつつ、「まず議会で証言しなければならない」と述べた。下院3委員会は12月1日に同氏の非公開・記録付き聴取、2日に法務責任者の聴取を予定しており、取締役会は17日に国家安全保障・輸出管理監督委員会を新設している。決算の数字と、諜報工作疑惑に端を発する統治の立て直しが、同じ週に並行して進む。"
+          ],
+          "paragraphs_en": [
+            "The release quotes Kress as 'interim CEO and executive vice president and chief financial officer', and Huang, who resigned on Nov 13, is not named in the text. According to press reports, Huang said on Nov 17 he would be 'honored' to return as CEO but 'first he must testify before Congress'. Three House committees have scheduled his closed, transcribed deposition for Dec 1 and the general counsel's for Dec 2, and the board created a National Security and Export Control Oversight Committee on Nov 17. The quarterly numbers and the governance repair prompted by the espionage allegations are now running in parallel."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月1日：下院3委員会によるフアン前CEOの聴取。12月2日：法務責任者の聴取。次期CEOの選任。2027年2月：第4四半期決算で中国向け売上の実績。",
+      "watch_next_en": "Dec 1: House deposition of former CEO Huang. Dec 2: general counsel's deposition. Selection of a permanent CEO. February 2027: actual China revenue in Q4 results.",
+      "japan_relevance": false,
+      "date": "2026-11-17",
+      "stage": "",
+      "publisher": "Nvidia",
+      "publisher_en": "NVIDIA Corporation",
+      "sources": [
+        {"title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027", "publisher": "Nvidia", "date": "2026-11-17", "kind": "primary", "accessed": true},
+        {"title": "NVIDIA: Third Quarter 2027 CFO Commentary", "url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420", "publisher": "Nvidia (MarketScreener転載)", "date": "2026-11-17", "kind": "primary", "accessed": true},
+        {"title": "Nvidia Q3 Fiscal 2027 Earnings: $115.8 Billion Revenue, $65.3 Billion Profit and a Strong Outlook Without Jensen Huang", "url": "https://www.trendingtopics.eu/nvidia-without-huang-115-8-billion-in-revenue-beats-all-expectations/", "publisher": "Trending Topics", "date": "2026-11-17", "kind": "media", "accessed": true},
+        {"title": "Is Chinese military still pushing for H200 access despite Nvidia's latest export curbs? Report offers details", "url": "https://www.theweek.in/news/defence/2026/11/18/nvidia-h200-hopper-chips-china-military.html", "publisher": "The Week", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export", "industry-procurement"],
+      "actors": ["US", "CN"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261118-07"
+    },
+    {
+      "id": "cl-20261119-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "イラン軍、クウェートの米軍基地を無人機で攻撃と主張　2か月ぶりの再開、米はケシュム島のIRGC拠点を空爆",
+      "title_en": "Iran's army claims a drone attack on a US base in Kuwait, the first in two months; US strikes an IRGC site on Qeshm Island",
+      "lead_ja": "イラン軍は11月18日未明、クウェートのアリ・アル・サレム空軍基地のパトリオット防空システムと「無人機・ミサイル発射基盤」を「戦闘用および自爆型無人機」で攻撃したと国営放送を通じて発表した。クウェート軍参謀本部は防空が対処したとし被害の報告はなく、革命防衛隊は同日もバーレーンの米軍レーダーを狙ったと主張し、米軍は17日にケシュム島の革命防衛隊ミサイル発射拠点を空爆した。クウェートへの攻撃は2か月超ぶりで、湾岸での散発的な交戦が再び広がっている。",
+      "lead_en": "In the early hours of Nov 18, Iran's army said via state broadcaster that 'combat and kamikaze drones' had targeted Patriot air-defence systems and 'drone and missile launch platforms' at Ali Al Salem Air Base in Kuwait. Kuwait's General Staff said air defences responded and no damage was reported; the IRGC claimed drones at US radars in Bahrain the same day, and US aircraft struck an IRGC missile launch site on Qeshm Island on Nov 17. It was the first attack on Kuwait in more than two months, and sporadic exchanges in the Gulf are widening again.",
+      "sections": [
+        {
+          "heading_ja": "2か月の空白を破ったクウェートへの攻撃",
+          "heading_en": "Breaking a two-month lull in Kuwait",
+          "paragraphs_ja": [
+            "イラン軍の声明は基地を「航空輸送の中枢であり、西アジアへの軍事力の入口」と位置づけ、米無人機の監視とイランの通信塔への攻撃に対する応答と説明した。無人機やミサイルの機数は示されていない。クウェート外務省は「繰り返されるイランの攻撃」を主権への「明白な侵害」であり「危険なエスカレーション」と非難し、安保理決議2817と国連憲章第51条を援用した。クウェートでは数週間ぶりに警報が発令され、湾岸協力会議の事務総長は「一国への攻撃はGCC全加盟国の安全への侵害」と述べた。",
+            "バーレーン国防軍は「イランからの複数の空からの攻撃」を迎撃し、「継続的かつ体系的なイランの対バーレーン作戦」の一部と非難した。内務省は午前3時45分ごろを含む2度の避難警報を出し、約30分で解除した。Stars and Stripesによればクウェートへの攻撃は9月以来で、バーレーンは1週間で3度目となる。米国防当局者は水曜日の攻撃が「米国の利益に影響しなかった」と匿名で説明し、中央軍は週内のいかなる攻撃でも米軍人の負傷はないとした。"
+          ],
+          "paragraphs_en": [
+            "Iran's army described the base as 'a key hub for air transport, and the gateway for the entry of military forces into West Asia' and framed the attack as a response to US drone surveillance and an attack on Iranian communication towers. No drone or missile counts were given. Kuwait's foreign ministry condemned 'repeated Iranian attacks' as a 'flagrant violation of its sovereignty' and 'a dangerous escalation', invoking UNSC Resolution 2817 and Article 51 of the UN Charter. Alerts sounded in Kuwait for the first time in weeks, and the GCC secretary-general said 'any attack on the Kingdom constitutes an infringement on the security of all GCC states'.",
+            "Bahrain's defence force said it intercepted 'a number of aerial attacks from Iran' as part of 'a continuing, systematic Iranian campaign against Bahrain'. The interior ministry issued two shelter warnings, including one around 3:45 a.m., each lifted within about 30 minutes. Per Stars and Stripes, it was the first attack on Kuwait since September and the third on Bahrain in a week. A US defence official said on background that Wednesday's strikes 'did not impact U.S. interests', and CENTCOM said no US personnel were injured in any strikes that week."
+          ]
+        },
+        {
+          "heading_ja": "ケシュム島空爆と「虚偽」とされた命中主張",
+          "heading_en": "The Qeshm strike and a hit claim called 'FALSE'",
+          "paragraphs_ja": [
+            "米軍は17日、ケシュム島の革命防衛隊ミサイル発射拠点を戦闘機で精密攻撃し、匿名の米軍当局者は「米国の人員と資産を狙うIRGCの攻撃に応じた自衛」と説明した。ホルモズガン州の副知事は住宅・商業・インフラへの被害はないと述べ、革命防衛隊系のタスニム通信は複数の砲弾が着弾したと伝えた。17日のバーレーンのシェイク・イサ空軍基地のレーダーへの命中主張について、中央軍はCBSの報道によれば「虚偽」とし、「IRGCが発射した複数の片道攻撃無人機は迎撃された」と述べた。",
+            "同じ17日夜、ADNOCロジスティクス＆サービスの船舶がホルモズ海峡の通過中に攻撃を受け、乗員1人が行方不明、11人が負傷した。イラン軍のハタミ総司令官は、敵が「誤算すれば」応答は「より粉砕的で、より厳しく、地理的制限のないもの」になると警告した。2月28日に始まった戦争は4月8日の停戦後、夏に交戦が緩んでいたが、11月13日以降の一連の攻撃で湾岸の米軍施設への無人機攻撃が再び日常化しつつあり、仲介役のカタールは合意への「極めて重大な危険」と警告している。"
+          ],
+          "paragraphs_en": [
+            "US fighter aircraft struck an IRGC missile launch site on Qeshm Island on Nov 17, which a US military official described on background as 'self-defense' strikes 'in response to IRGC aggression targeting U.S. personnel and assets'. Hormozgan's deputy governor said there was no damage to residential, commercial or infrastructure areas, while IRGC-affiliated Tasnim reported several projectiles struck the island. On the IRGC's claim to have hit a radar at Sheikh Isa Air Base in Bahrain on Nov 17, CENTCOM, as reported by CBS, called it 'FALSE' and said 'multiple Iranian one-way attack drones launched by the IRGC today towards Bahrain were intercepted'.",
+            "The same evening an ADNOC Logistics & Services vessel was attacked while transiting the Strait of Hormuz, leaving one crew member missing and 11 injured. Iran's army commander Maj Gen Amir Hatami warned that if the enemy 'make a miscalculation' the response would be 'more crushing, more severe and without geographical limitation'. The war that began on Feb 28 saw fighting ease after the Apr 8 ceasefire and over the summer, but the strikes since Nov 13 are making drone attacks on US facilities in the Gulf routine again, and mediator Qatar warned of an 'extremely grave danger' to any agreement."
+          ]
+        }
+      ],
+      "watch_next_ja": "中央軍の公式声明と迎撃・被害の確認。カタールの仲介協議の継続。11月19日：深圳での米中露首脳会合でイランが議題となるか（トランプ大統領は「イラン」を議題に挙げた）。",
+      "watch_next_en": "A formal CENTCOM statement confirming intercepts and damage. Continuation of Qatari mediation. Nov 19: whether Iran features at the US–China–Russia meeting in Shenzhen (Trump has named Iran as a topic).",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "イラン軍、クウェート軍参謀本部、バーレーン国防軍、米中央軍",
+      "publisher_en": "Iranian Army; Kuwait General Staff; Bahrain Defence Force; US CENTCOM",
+      "sources": [
+        {"title": "Middle East war: Iran attacks Bahrain, Kuwait; drone threats keep Gulf on high alert as US hits Iran's Qeshm", "url": "https://gulfnews.com/world/mena/middle-east-war-iran-attacks-bahrain-kuwait-drone-threats-keep-gulf-on-high-alert-as-us-hits-irans-qeshm-1.500751444", "publisher": "Gulf News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Iran drone attacks on Kuwait and Bahrain target Patriot missile systems", "url": "https://www.stripes.com/theaters/middle_east/2026-11-18/iran-kuwait-bahrain-drone-attacks-patriot-missile-23504134.html", "publisher": "Stars and Stripes", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Iran war live updates (Nov 17): US self-defense strikes, Strait of Hormuz", "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/", "publisher": "CBS News", "date": "2026-11-17", "kind": "media", "accessed": true},
+        {"title": "Iran war live updates (Nov 18): Gulf retaliation strikes, Strait of Hormuz", "url": "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/", "publisher": "CBS News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Kuwait, Bahrain fend off Iranian aerial attacks as coalition hits Houthi military sites", "url": "https://www.arabnews.com/middle-east/kuwait-bahrain-fend-off-iranian-aerial-attacks-as-coalition-hits-houthi-military-sites-3012614", "publisher": "Arab News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Iran launches fresh wave of attacks on US bases", "url": "https://www.yahoo.com/news/world/articles/iran-launches-fresh-wave-attacks-180129935.html", "publisher": "The Telegraph (Yahoo配信)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Iranian army claims drone attack on US airbase at Kuwait's Ali Al Salem", "url": "https://www.business-standard.com/amp/world-news/iranian-army-claims-drone-attack-on-us-airbase-at-kuwait-s-ali-al-salem-126111801563_1.html", "publisher": "Business Standard (PTI)", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting", "c2-decision"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261118-08"
+    },
+    {
+      "id": "cl-20261119-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "CCW運用検討会議3日目、仏が拘束・非拘束の「ハイブリッド」案　ICRCは中国と豪州の「柔軟化」を指摘",
+      "title_en": "CCW Review Conference day 3: France floats a binding/non-binding 'hybrid'; ICRC points to new flexibility from China and Australia",
+      "lead_ja": "ジュネーブの特定通常兵器使用禁止制限条約（CCW）第7回運用検討会議は11月18日、ロシアの異議で中継のない非公式協議の3日目を迎えた。同日のNGOと赤十字国際委員会（ICRC）の記者説明で、「ストップ・キラーロボット」のファン・ローイエン事務局長は「これまでに95か国が法的拘束力のある文書への支持を表明した」と述べ、米国とロシアを「反対側の極」に置いた。ICRCのレナン軍縮顧問は中国と豪州が拘束力のある文書に「ある程度の柔軟性と開放性」を示していると指摘し、フランスは拘束力のある規則と非拘束の措置を組み合わせた「ハイブリッド」案への支持を集めていると報じられた。",
+      "lead_en": "The Seventh Review Conference of the Convention on Certain Conventional Weapons in Geneva spent Nov 18, its third day, in informal consultations without webcast after Russia's objections. At an NGO–ICRC press briefing that day, Stop Killer Robots executive director Nicole Van Rooijen said '95 states have so far expressed their support for a legally binding instrument' and placed the United States and Russia 'at the other extreme'. ICRC disarmament adviser Richard Lennane said China and Australia were showing 'a degree of flexibility and openness to a legally binding instrument', and France was reported to be gathering support for a 'hybrid' of binding rules and non-binding measures.",
+      "sections": [
+        {
+          "heading_ja": "「ハイブリッド」案と全面的な議定書を求める国々",
+          "heading_en": "The 'hybrid' option and the states holding out for a full protocol",
+          "paragraphs_ja": [
+            "AFPによれば、フランスは法的拘束力のある規則と非拘束の措置を組み合わせる「ハイブリッド」の手法への支持を集めており、オーストリア、ブラジル、キューバ、メキシコは完全に拘束力のある議定書への支持を再確認し、ハイブリッド案を支持していない。ICRCのレナン氏は「励みになる兆候」として「非常に多くの国が交渉開始をかなり強く求めている」と述べ、各国が「相違を調整する妥協と方法を議論している」とし、任意的な措置を含む拘束力のある合意も歓迎すると語った。",
+            "選択肢は三つに整理できる。ペルーのシアレル大使が10月23日に示した議長案は、2026年に採択された要素を基礎に「新たな議定書を交渉する」専門家会合（年15日、2028年の締約国会合に議定書案を報告）を置く。オーストリア、ベルギー、ブラジル、アイルランド、メキシコ、ニュージーランド、パナマの7か国案は2027年に計25日の交渉で議定書案を同年の締約国会合へ送る。米国の作業文書WP.2は、国際人道法の適用を明確化する「非拘束の文書」を2029年末までに目指す5年間のコンセンサス作業を提案する。",
+            "レックス・インターナショナルのレーヴォルド氏は、交渉開始に失敗すれば支持国が2008年のクラスター弾禁止条約のように条約外の枠組みへ進む可能性を示した。CCWの決定はコンセンサスを要するため、米露の反対が続く限り条約内での議定書交渉の開始には高い壁が残る。"
+          ],
+          "paragraphs_en": [
+            "According to AFP, France is building support for a 'hybrid' approach combining legally binding rules with non-binding measures, while Austria, Brazil, Cuba and Mexico reaffirmed support for a fully binding protocol and have not endorsed the hybrid. The ICRC's Lennane cited 'encouraging signs', saying 'there's a large number of states that are pressing really quite firmly for negotiations to start' and that states were 'discussing various compromises and ways of reconciling those differing views'; he said he would welcome a binding agreement that also included optional measures.",
+            "Three options frame the choice. The proposal by Main Committee II chair-designate Elmer Schialer of Peru, dated Oct 23, would mandate the GGE 'to negotiate a new Protocol' building on the elements adopted in 2026, meeting 15 days a year and reporting a draft protocol to the 2028 Meeting of High Contracting Parties. The seven-state proposal by Austria, Belgium, Brazil, Ireland, Mexico, New Zealand and Panama envisages 25 days of negotiation in 2027 with a draft protocol to that year's meeting. US working paper WP.2 proposes five more years of consensus-based work toward a 'non-binding instrument' clarifying how IHL applies, preferably by the end of 2029.",
+            "Magnus Løvold of Lex International said that if the conference fails to launch negotiations, supporting states might pursue a framework outside the CCW, as with the 2008 Convention on Cluster Munitions. Because CCW decisions require consensus, continued US and Russian opposition leaves a high bar for launching protocol negotiations inside the Convention."
+          ]
+        },
+        {
+          "heading_ja": "中継のない協議と空欄の最終文書案",
+          "heading_en": "Off-camera consultations and a draft final document with '[LAWS]' blanks",
+          "paragraphs_ja": [
+            "16日にロシアが議題採択を阻んだため、17日以降の協議は議長の権限による非公式形式で進み、国連の中継も公式の発言記録もない。国連軍縮部の会議ページには17〜18日付の文書や声明が掲載されておらず、11月13日付の最終文書案CCW/CONF.VII/CRP.1と最終宣言案は、自律兵器に関する部分を「[LAWS]」の空欄で残している。第2主要委員会の作業計画は18日午後に「LAWSに関する最終文書の準備」を予定していたが、公式会合として開かれたかは確認できていない。決定はコンセンサスで20日までに行われる。",
+            "日本は会議での声明を公表していない。10月22日の国連総会第1委員会で市川大使は「CCWの下での検討の継続を強く支持する」とし、9月の準備委員会では「人道と安全保障の双方の考慮を踏まえた均衡ある議論」を求めており、拘束力のある議定書への立場は公的記録上は示されていない。18日の説明でファン・ローイエン氏が示した「95か国」はNGOの集計であり、会議前の「130か国が規則を支持し、70か国超が交渉の用意」という数字とは基準が異なる。"
+          ],
+          "paragraphs_en": [
+            "Since Russia blocked adoption of the agenda on Nov 16, work since Nov 17 has proceeded as informal consultations under the President's authority, with no UN webcast and no official record of statements. The UNODA meeting page lists no documents or statements dated Nov 17–18, and the Nov 13 draft final document CCW/CONF.VII/CRP.1 and draft final declaration leave the autonomous-weapons passages as '[LAWS]' placeholders. Main Committee II's programme scheduled 'preparation of the final document pertaining to LAWS' for the afternoon of Nov 18, but whether it met formally is unconfirmed. The decision is due by consensus by Nov 20.",
+            "Japan has published no statement at the conference. At the UN First Committee on Oct 22, Ambassador Ichikawa said Japan 'strongly supports the continued consideration of this issue under the CCW', and at the September preparatory committee Japan called for 'balanced discussions that take into account both humanitarian and security considerations'; its position on a binding protocol is absent from the public record. The '95 states' cited by Van Rooijen is an NGO count, measured differently from the pre-conference figures of '130 countries' supporting rules and 'more than 70' ready to negotiate."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月20日：最終文書と自律兵器の作業マンデートの採択（議定書交渉、専門家会合の継続、非拘束作業、またはその組み合わせ）。マンデート案の修正文書の配布。日本の会議声明の有無。",
+      "watch_next_en": "Nov 20: adoption of the final document and the LAWS work mandate (protocol negotiation, continued GGE, non-binding work, or a mix). Circulation of a revised mandate text. Whether Japan publishes a conference statement.",
+      "japan_relevance": true,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "CCW第7回運用検討会議、ストップ・キラーロボット、赤十字国際委員会",
+      "publisher_en": "CCW Seventh Review Conference; Stop Killer Robots; ICRC",
+      "sources": [
+        {"title": "NGOs slam Russia, US for snagging 'killer robots' talks", "url": "https://www.yahoo.com/news/politics/articles/ngos-slam-russia-us-snagging-173128142.html", "publisher": "AFP (Yahoo配信)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "NGOs slam Russia, US for snagging 'killer robots' talks", "url": "https://www.trtworld.com/article/f0b679f6e7f3", "publisher": "TRT World (AFP)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "CCW/CONF.VII/CRP.1 Draft Final Report", "url": "https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-SeventhReview_Conference_(2026)/CCW-CONF.VII-CRP.1_Draft_Final_Report.pdf", "publisher": "UNODA", "date": "2026-11-13", "kind": "primary", "accessed": true},
+        {"title": "Convention on Certain Conventional Weapons – Seventh Review Conference (2026): documents", "url": "https://meetings.unoda.org/meeting/79323/documents", "publisher": "UNODA", "date": "2026-11-18", "kind": "primary", "accessed": true},
+        {"title": "Statement by Japan at the UNGA First Committee (22 October 2026)", "url": "https://www.disarm.emb-japan.go.jp/files/101105961.pdf", "publisher": "在ジュネーブ日本政府代表部", "date": "2026-10-22", "kind": "primary", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "governance-norms"],
+      "actors": ["UN", "US", "RU", "CN", "JP"],
+      "doc_type": "news-analysis",
+      "forums": ["ccw-gge"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261118-09"
+    },
+    {
+      "id": "cl-20261119-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "Palantir、「民間人被害軽減」の技術白書を配布とTIME　標的決定に法的審査と「攻撃禁止」層を提案",
+      "title_en": "TIME: Palantir circulates a 'civilian harm mitigation' white paper proposing legal reviews and 'no strike' layers in targeting after the Minab school strike",
+      "brief_text_ja": "TIMEは11月18日、Palantirの「民間人被害軽減技術白書」（2026年11月付）が中間選挙後に米政府当局者と軍事専門家の間で回覧されていると報じた。白書はMaven Smart System内の地理空間インターフェースGaiaに、民間インフラのオープンソース情報層、学校や病院などの「攻撃禁止」標的、システム全体の行動記録、法的審査を標的決定に組み込む工程を加える案を示す。2月28日のミナーブ小学校への誤爆（検察側は156人死亡、うち児童120人）を背景に、元国防省民間人被害評価責任者のブライアント氏は「なぜ標的ソフトが当初から民間環境の特性把握機能を備えていなかったのか」と問い、Palantirはコメント要請に応じていない。",
+      "brief_text_en": "TIME reported on Nov 18 that a 'Palantir Civilian Harm Mitigation Technical Whitepaper', dated November 2026, has been circulating among US officials and military experts since the midterms. It proposes adding to Gaia, the geospatial interface within the Maven Smart System, open-source data layers on civilian infrastructure, 'no strike' targets such as schools and hospitals, a system-wide action log and a workflow integrating legal reviews into targeting decisions. Against the backdrop of the Feb 28 strike on a Minab primary school (156 dead including 120 pupils, per prosecutors), former Pentagon civilian-harm assessment chief Wes Bryant asked 'why wasn't their targeting software already equipped with robust capabilities for civilian environment characterization?'; Palantir did not respond to requests for comment.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "TIME",
+      "publisher_en": "TIME",
+      "sources": [
+        {"title": "Palantir's New Pitch", "url": "https://time.com/article/2026/11/18/palantir-military-targeting/", "publisher": "TIME", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting", "industry-procurement"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["decide", "assess"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "トランプ大統領が深圳入り、19日に習主席と会談し米中露3者会合へ　高市首相は習主席と握手、プーチン大統領と約30分対話",
+      "title_en": "Trump arrives in Shenzhen for a Nov 19 meeting with Xi and a US–China–Russia trilateral; Takaichi shakes hands with Xi and speaks with Putin for about 30 minutes",
+      "brief_text_ja": "トランプ大統領は11月18日に深圳に到着し、ホワイトハウスの日程では19日12時45分（現地時間）に習近平国家主席との会談、14時30分に米中露3者会合が麒麟山荘で予定されている。ベセント財務長官が11日に示した「超知能」に関する新たな対話とAI事故の相互通報経路、16日の遠隔アクセス規則への中国の反応が焦点となる。高市首相は同日の歓迎レセプションで習主席と握手し、夕食会直後にプーチン大統領と約30分対話して北海道新聞記者の拘束などを提起したが、日中首脳会談の予定は示されていない。",
+      "brief_text_en": "President Trump arrived in Shenzhen on Nov 18; the White House schedule lists a bilateral with Xi Jinping at 12:45 p.m. local time on Nov 19 and a US–China–Russia trilateral at 2:30 p.m., both at Kylin Villa. The new 'superintelligence' dialogue and AI-incident notification channel outlined by Treasury Secretary Bessent on Nov 11, and China's response to the Nov 16 remote-access rule, are the items to watch. Prime Minister Takaichi shook hands with Xi at the welcome reception and spoke with Putin for about 30 minutes after the dinner, raising the detention of a Hokkaido Shimbun reporter; no Japan–China summit has been scheduled.",
+      "japan_relevance": true,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "ホワイトハウス、外務省、共同通信",
+      "publisher_en": "The White House; MOFA Japan; Kyodo",
+      "sources": [
+        {"title": "Trump and Xi are set to meet in China amid tensions over AI. Here's what to know.", "url": "https://www.cbsnews.com/news/trump-xi-meet-china-chips-ai/", "publisher": "CBS News", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Wednesday/Thursday White House schedule: President Trump arrives in Shenzhen, China", "url": "https://www.tradingview.com/news/macenews:c27adda62094b:0-wednesday-thursday-white-house-schedule-president-trump-arrives-in-shenzhen-china/", "publisher": "MACE News (TradingView配信)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "高市首相初訪中、習近平氏と握手　ＡＰＥＣ、ロシア大統領とも対話", "url": "https://www.daily.co.jp/society/main/2026/11/19/0021048069.shtml", "publisher": "共同通信（デイリースポーツ配信）", "date": "2026-11-19", "kind": "media", "accessed": true},
+        {"title": "【速報】高市総理、プーチン大統領と約30分間対話　ロシアによるウクライナ侵攻後初", "url": "https://news.cube-soft.jp/article/4116408", "publisher": "TBS NEWS DIG", "date": "2026-11-19", "kind": "media", "accessed": true},
+        {"title": "US–China must stay clear-eyed on AI cooperation, rivalry: Bessent", "url": "https://www.business-standard.com/amp/world-news/us-china-must-stay-clear-eyed-on-ai-cooperation-rivalry-bessent-126111101600_1.html", "publisher": "Business Standard (Reuters)", "date": "2026-11-11", "kind": "media", "accessed": true}
+      ],
+      "themes": ["governance-norms", "compute-export"],
+      "actors": ["US", "CN", "JP", "RU"],
+      "doc_type": "news-analysis",
+      "forums": ["bilateral"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "小泉防衛相とインドのシン国防相、横須賀で護衛艦「なとり」を視察　19日に第4回日印「2+2」、装備・技術協力が議題",
+      "title_en": "Koizumi and India's Rajnath Singh inspect frigate Natori at Yokosuka; fourth Japan–India '2+2' on Nov 19 with equipment and technology cooperation on the agenda",
+      "brief_text_ja": "小泉防衛相は11月18日、来日したインドのシン国防相と海上自衛隊横須賀基地で護衛艦「なとり」を視察した。インド国防省は18〜19日の訪日の議題として防衛装備・技術協力、海洋安全保障、3軍にわたる共同訓練の規模と複雑性の拡大、産業協力を挙げ、両大臣の会談は本年3回目となる。外務省によれば19日に東京で第4回日印外務・防衛閣僚会合（「2+2」）と第19回戦略対話が開かれ、経済安全保障も議題に含まれる。",
+      "brief_text_en": "Defense Minister Koizumi and visiting Indian Defence Minister Rajnath Singh inspected the frigate JS Natori at the JMSDF Yokosuka base on Nov 18. India's defence ministry listed defence equipment and technology collaboration, maritime security, expanding 'the scale and complexity of joint exercises across all three services' and industrial partnerships as the agenda for the Nov 18–19 visit, the ministers' third meeting this year. According to MOFA, the fourth Japan–India '2+2' and the 19th strategic dialogue take place in Tokyo on Nov 19, with economic security among the topics.",
+      "japan_relevance": true,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "防衛省、インド国防省、外務省",
+      "publisher_en": "Japan MOD; Indian Ministry of Defence; MOFA Japan",
+      "sources": [
+        {"title": "Raksha Mantri to attend 4th India-Japan 2+2 Ministerial Dialogue and hold bilateral talks with his Japanese counterpart in Tokyo", "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2337279&reg=48&lang=2", "publisher": "インド国防省（PIB）", "date": "2026-11-17", "kind": "primary", "accessed": true},
+        {"title": "第4回日印外務・防衛閣僚会合（「2＋2」）及び第19回日印外相間戦略対話の開催", "url": "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_04480.html", "publisher": "外務省", "date": "2026-11-17", "kind": "primary", "accessed": true},
+        {"title": "Defence Minister Rajnath Singh visits Japan's Yokosuka naval base, tours Mogami-class frigate JS Natori", "url": "https://www.tribuneindia.com/news/japan-visit/defence-minister-rajnath-singh-visits-japans-yokosuka-naval-base-tours-mogami-class-frigate-js-natori", "publisher": "The Tribune (ANI)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "小泉防衛相、横須賀でインド国防相と海自護衛艦を視察　「防衛協力を発展」", "url": "https://www.kanaloco.jp/news/government/article-1321683.html", "publisher": "神奈川新聞", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["JP", "IN"],
+      "doc_type": "news-analysis",
+      "forums": ["bilateral"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "マルコス大統領と米大使、トランプ訪問中の「パックス・シリカ」署名を否定　比投資委員会は年内の法的枠組み署名を見込む",
+      "title_en": "Marcos and the US ambassador rule out a 'Pax Silica' signing during Trump's visit; Philippine officials expect a legal framework by year-end",
+      "brief_text_ja": "マルコス大統領とリプトン米大使は11月18日、マラカニアン宮殿での米比首脳会談に先立つ取材で「この訪問では署名しない」と述べ、AI・半導体供給網の再編を掲げる「パックス・シリカ」の署名を否定した。理由は示されず、貿易担当次官は年内の法的枠組みの署名を見込むと説明している。フィリピンは2026年4月に同構想へ参加し、タルラック州ニュークラーク・シティの約1,620ヘクタールを起点とする産業拠点で鉱物加工とAI・半導体向け部品の生産を構想するが、環境影響と管理権限をめぐる批判が続いている。",
+      "brief_text_en": "Speaking to reporters before the US–Philippine bilateral at Malacañang on Nov 18, President Marcos and US Ambassador Lee Lipton said 'there is no signing, not on this trip' of Pax Silica, the US initiative to reorganise AI and semiconductor supply chains. No reason was given; the trade undersecretary expects the legal framework to be signed before year-end. The Philippines joined the initiative in April 2026 and envisages an industrial hub starting from a 1,620-hectare site in New Clark City, Tarlac, to process minerals and make components for AI and semiconductor manufacturing, amid continuing criticism over environmental impact and control of the hub.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "フィリピン大統領府、米国大使館",
+      "publisher_en": "Office of the President of the Philippines; US Embassy Manila",
+      "sources": [
+        {"title": "Marcos: No Pax Silica signing during Trump's ASEAN visit", "url": "https://www.philstar.com/headlines/2026/11/18/2570982/marcos-no-pax-silica-signing-during-trumps-asean-visit", "publisher": "Philstar", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Pax Silica not sealed, say Marcos, U.S. envoy", "url": "https://tribune.net.ph/2026/11/18/pax-silica-not-sealed-say-marcos-us-envoy", "publisher": "Daily Tribune", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Marcos: No Pax Silica signing during Trump visit", "url": "https://www.sunstar.com.ph/manila/marcos-no-pax-silica-signing-during-trump-visit", "publisher": "SunStar", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export", "governance-norms"],
+      "actors": ["US", "ASEAN"],
+      "doc_type": "news-analysis",
+      "forums": ["bilateral"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261119-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア、17〜18日夜にウクライナへ無人機141機　ウクライナは126機を無力化、ロシア国防省は183機迎撃を主張",
+      "title_en": "Russia launches 141 drones at Ukraine overnight Nov 17–18; Ukraine neutralises 126, Russia's MoD claims 183 Ukrainian drones downed",
+      "brief_text_ja": "ウクライナ側の集計では、ロシアは11月17日夜から18日にかけてオリョール、ミレロヴォ、チャウダ、フヴァルディイスケから無人機141機（Shahed系73機）を発射し、防空は126機（Shahed系59機）を撃墜または無力化、7か所で着弾が報告された。ロシア国防省は同夜に183機のウクライナ無人機を迎撃したと発表した。双方の数字は当事者の発表であり、独立の確認はない。",
+      "brief_text_en": "By Ukrainian count, Russia launched 141 drones (73 Shahed-type) from Oryol, Millerovo, Chauda and Hvardiiske overnight on Nov 17–18; air defences shot down or neutralised 126 (59 Shahed-type), with strikes reported at seven locations. Russia's defence ministry said it intercepted 183 Ukrainian drones the same night. Both sets of figures are party claims without independent confirmation.",
+      "japan_relevance": false,
+      "date": "2026-11-18",
+      "stage": "",
+      "publisher": "ウクライナ空軍、ロシア国防省",
+      "publisher_en": "Ukrainian Air Force; Russian MoD",
+      "sources": [
+        {"title": "Russia launched 141 drones at Ukraine on Nov 18: 126 enemy drones downed", "url": "https://112.ua/en/rosia-atakuvala-ukrainu-141-bezpilotnikom-18-listopada-zbito-126-droniv-voroga-198940", "publisher": "112.ua (UATV)", "date": "2026-11-18", "kind": "media", "accessed": true},
+        {"title": "Ukrainian Drones Target Krasnodar Region Refineries", "url": "https://themoscowtimes.com/2026/11/18/ukrainian-drones-target-krasnodar-region-refineries-a94294", "publisher": "The Moscow Times", "date": "2026-11-18", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {"date": "2026-11-19", "text_ja": "深圳：トランプ・習会談（12時45分、麒麟山荘）と米中露3者会合（14時30分）。「超知能」対話とAI事故通報経路、遠隔アクセス規則への中国の「反制措置」。米BIS遠隔アクセス暫定最終規則の連邦公報掲載・発効", "text_en": "Shenzhen: Trump–Xi bilateral (12:45, Kylin Villa) and US–China–Russia trilateral (14:30); the 'superintelligence' dialogue, AI-incident channel and China's 'countermeasures' to the remote-access rule. Federal Register publication and effect of the BIS remote-access IFR"},
+    {"date": "2026-11-19", "text_ja": "Anthropic株（ANT）のNasdaq取引開始。18日夜（米東部時間）の価格決定（仮条件70〜78ドル、80ドル超の観測）。260億ドルの私募と日本での最大35億ドルの公募", "text_en": "Anthropic (ANT) begins trading on Nasdaq after pricing on the evening of Nov 18 ET (range $70–78, talk of above $80); $26bn private placement and up to $3.5bn Japan public offering"},
+    {"date": "2026-11-19", "text_ja": "東京：第4回日印外務・防衛閣僚会合（「2+2」）と第19回戦略対話。小泉・シン防衛相会談の成果（装備・技術協力、共同訓練）", "text_en": "Tokyo: fourth Japan–India '2+2' and 19th strategic dialogue; outcomes of the Koizumi–Singh meeting (equipment and technology cooperation, exercises)"},
+    {"date": "2026-11-19", "text_ja": "ベルリンでの「有志連合」首脳会合。NATO Edge最終日（イズミル）。米FCC公開会合（無人機データリンクと探知レーダーの周波数）", "text_en": "Coalition of the Willing leaders' meeting in Berlin; final day of NATO Edge (Izmir); FCC open meeting on drone data-link and detection-radar spectrum"},
+    {"date": "2026-11-20", "text_ja": "CCW運用検討会議の最終日。最終文書と自律兵器の作業マンデート（議定書交渉、専門家会合、非拘束作業、ハイブリッド）の採択", "text_en": "Final day of the CCW Review Conference: adoption of the final document and the LAWS mandate (protocol negotiation, GGE, non-binding work or a hybrid)"},
+    {"date": "2026-11-20", "text_ja": "台湾立法院、2026年度追加予算（国防1,457億台湾ドル、無人機・無人艇3項目559億台湾ドル）の第三読会（予定）。21日：アルバニージー豪首相と習近平国家主席の会談（深圳）", "text_en": "Taiwan's Legislative Yuan third reading of the 2026 supplementary budget (NT$145.7bn defence incl. NT$55.9bn for drones and USVs). Nov 21: Albanese–Xi meeting in Shenzhen"},
+    {"date": "2026-11-24", "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限", "text_en": "Deadline for the Commerce, Justice and State secretaries and the DNI to answer Sen. Bennet's Megaspeed letter"},
+    {"date": "2026-11-26", "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限", "text_en": "Deadline for the DoW Science, Technology and Innovation Board to begin its study on commercial AI and cloud on classified networks"},
+    {"date": "2026-11-28", "text_ja": "台湾統一地方選挙。中国の介入手法（Threadsアカウント網、AIで書き換えた投稿）の推移", "text_en": "Taiwan local elections; evolution of Chinese interference methods (Threads account networks, AI-rewritten posts)"},
+    {"date": "2026-11-30", "text_ja": "防衛省「ディフェンスAIビジョン」の策定・公表（今月末にもと小泉防衛相）。与党安保PTの次回会合（防衛産業基盤戦略）", "text_en": "Japan MOD's Defense AI Vision (by month-end per Koizumi); next ruling-party security PT meeting on the defence industrial base"},
+    {"date": "2026-12-01", "text_ja": "米下院3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取。12月2日：ティーター法務責任者の聴取", "text_en": "Closed, transcribed House deposition of former Nvidia CEO Huang; Dec 2: general counsel Teeter"},
+    {"date": "2026-12-01", "text_ja": "国連総会本会議でのLAWS決議の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）。イスラエル国防軍の無人システム・AI部門の発足（12月初めまで）", "text_en": "UNGA plenary vote on the LAWS resolution (early December); Japan's expert panel report on the three security documents (early December); IDF unmanned-systems/AI branch launch (by early December)"},
+    {"date": "2026-12-07", "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）", "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule; Zhuhai Airshow (Dec 7–13)"},
+    {"date": "2026-12-11", "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方", "text_en": "US continuing resolution expires; fate of the reconciliation bill covering Golden Dome and the Autonomous Warfare Group"},
+    {"date": "2026-12-15", "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）", "text_en": "Japan: Cabinet approval of the revised three security documents (mid-December target, per reports)"},
+    {"date": "2027-01-10", "text_ja": "米中貿易休戦の期限。深圳での首脳会談で延長条件が議論されるか", "text_en": "US–China trade truce deadline; whether extension terms are addressed in Shenzhen"},
+    {"date": "2027-01-18", "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切（11月19日の連邦公報掲載から60日）", "text_en": "Comment deadline for the BIS remote-access IFR (60 days after Nov 19 publication)"},
+    {"date": "2027-01-31", "text_ja": "ハッサン上院議員（次期国土安全保障・政府問題委員長）のAIと国土安全保障・重要インフラに関する公聴会（1月前後）。李在明大統領の訪日（1月）", "text_en": "Sen. Hassan's HSGAC hearing on AI risks to homeland security and critical infrastructure (around January); President Lee Jae-myung's visit to Japan (January)"},
+    {"date": "2027-02-17", "text_ja": "米BIS遠隔アクセス規則：既存データセンターの許可申請期限（発効から90日）", "text_en": "BIS remote-access rule: licensing deadline for existing data centres (90 days after effect)"},
+    {"date": "2027-03-31", "text_ja": "クアッド海洋監視協力の初演習（グアム、Exercise Sea Dragonに合わせて）。航空自衛隊の自動警戒監視システムへのAI実装", "text_en": "First Quad maritime surveillance exercise (Guam, alongside Exercise Sea Dragon); AI implementation in the JASDF automatic warning and control system"}
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（USCC・GAO報告、Nvidia決算、国防省・陸軍、TIME）、中国（USCC記述、深圳首脳会談の日程）、日本（高市首相の深圳日程、日印防衛相、防衛省は環境からmod.go.jpに到達できず報道で代替）、韓国（検索で該当する18日の発表なし。国防AI点検会議は2025年11月18日の件で不採用）、台湾（サイバー関連2件は本文を開けず不採用）、欧州・NATO（CCW、仏ハイブリッド案、EU・EDAは17〜18日付の該当なし）、英国（17日の£25m無人機発表は対象期間前・既報の予定欄）、ロシア・ウクライナ（精製能力、クラスノダール製油所、夜間攻撃）、イスラエル・中東（イランのクウェート・バーレーン攻撃、ケシュム島、ADNOC）、インド（日印防衛相、USCC第3章は未読）、豪州（国防省の18日付発表は到達できず該当確認なし）、ASEAN（パックス・シリカ）。国際規範（CCW）、サイバー（GAO報告）、研究・シンクタンク（CSIS露C2論文は2月公表のため不採用）。",
+      "japan": "外務省（新着は17日まで。18日の日露対話・日中握手は19日未明時点で未掲載、報道で代替）、防衛省（mod.go.jpは本環境から到達不可。18日の大臣会見の有無は未確認）、防衛装備庁・内閣府・経産省・NSS（該当する18日の発表を検索で確認できず）、国会（該当なし）、与党PT（次回は防衛産業基盤戦略、日程未定）。"
+    },
+    "dropped": [
+      {"title": "국방부 국방인공지능 추진점검 회의（安圭伯国防相「国防AI発展のゴールデンタイム」）", "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156728915", "reason": "検索結果の日付確認で2025年11月18日の件と判明し、対象期間外のため不採用"},
+      {"title": "小泉防衛相、3文書改定「日本と地域の未来を左右」 防衛省で訓示（日経）", "url": "https://www.nikkei.com/article/DGXZQOUA181YQ0Y6A910C2000000/", "reason": "2026年9月18日の留任時の訓示で、対象期間外"},
+      {"title": "Pentagon awards NODA AI $100M for autonomy software（Defence Blog）", "url": "https://defence-blog.com/pentagon-awards-noda-ai-100m-for-autonomy-software/", "reason": "2026年8月17日の企業発表で対象期間外。DIU賞金型公募の複数受賞枠で満額受注の裏付けもない"},
+      {"title": "How Russia Is Reshaping Command and Control for AI-Enabled Warfare（CSIS）", "url": "https://www.csis.org/analysis/how-russia-reshaping-command-and-control-ai-enabled-warfare", "reason": "2026年2月10日公表で対象期間外"},
+      {"title": "DoW Accelerates Army Counter-Drone Capabilities（JIATF-401、Bumblebee V2訓練）", "url": "https://www.army.mil/article/296860/dow_accelerates_army_counter_drone_capabilities", "reason": "11月2〜13日の部隊訓練の広報で、AIや調達段階の新規性が薄い"},
+      {"title": "Pentagon selects seven counter-drone laser systems for live-fire competition", "url": "https://dronelife.com/2026/11/18/pentagon-counter-drone-laser-competition/", "reason": "国防省の発表は11月16日付で対象期間前。12月中旬のダグウェイでの実射試験の結果で扱う"},
+      {"title": "Department of War redesignates CDAO as Super Intelligence Office（Soldier Systems 18日付）", "url": "https://soldiersystems.net/2026/11/18/department-of-war-redesignates-cdao-as-super-intelligence-office/", "reason": "11月13日の発表で、11月14日号（cl-20261114-01）で既報"},
+      {"title": "Stronger security urged after hackers create 34 accounts on government platform／Cabinet orders improved notification of data breaches（Taipei Times）", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/18/2003867975", "reason": "記事本文を開けず、行政院・資通安全署の原文も確認できないため"},
+      {"title": "Anthropic IPO pricing（Bloomberg「最大85ドル」、CNBC「増額検討」）", "url": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-said-to-be-weighing-ipo-price-as-high-as-85-per-share", "reason": "原稿時点で価格決定の公表がなく、観測報道にとどまるため予定欄に反映"},
+      {"title": "Army buys hundreds more drones and electronic warfare kit in £25 million boost（英国防省、11月17日）", "url": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank", "reason": "17日11時（UTC）の発表で前号の対象期間内。RAPSTONEの配備目標は予定欄に既載"},
+      {"title": "Golden Dome's command-and-control layer is in testing（Aerospace America）", "url": "https://aerospaceamerica.aiaa.org/golden-domes-command-and-control-layer-is-in-testing-deputy-director-says/", "reason": "前号の短信（cl-20261118-19）で既報"},
+      {"title": "Reuters: Northwestern Polytechnical University bought two H200 chips（The Week経由）", "url": "https://www.theweek.in/news/defence/2026/11/18/nvidia-h200-hopper-chips-china-military.html", "reason": "ロイター原文を開けず、USCC報告書本文にも記載がないため、USCC項目で出典の違いを注記するにとどめた"}
+    ],
+    "notes_for_editor": [
+      "USCC項目：CNBCとSCMPの記事は本文を開けなかった（client error）ため出典に含めず、報告書PDFの該当箇所を直接確認した。勧告XI〜XXX（p.641）と第3〜7章・第10章は未読。",
+      "GAO項目：gao.govの報告書本文PDFはレート制限で開けず、ハッサン上院議員事務所が掲載した同一文書（表紙に「公開前は暫定的に制限」の注記あり）を一次資料として確認した。ワシントン・ポストとワシントン・タイムズは開けなかった。",
+      "Nvidia項目：MarketScreener掲載のCFOコメンタリーはログイン壁のため要約経由の確認で、「中国向けHopper出荷24億ドル」はThe Weekの記述でも裏づけたが原文の逐語確認はできていない。フアン氏の「まず議会で証言」発言はTrending Topics（Yahoo Finance引用）に依拠。",
+      "ロシア精製項目：ロイター記事は瞬間値（日量40万トン）と11月平均（50万トン超）を並記しており、本文でその未整理を明記した。信頼度B3は業界関係者2人の推計と当事者発表の組み合わせによる。",
+      "イラン項目：centcom.milに17〜18日付の公式発表が見当たらず、中央軍の発言はCBS・Gulf News等の報道経由。イラン側の機数は公表されていない。",
+      "CCW項目：18日の協議内容は非公式・非中継のため公式記録がなく、AFPのNGO・ICRC記者説明に依拠。「95か国」はNGO集計。",
+      "深圳短信：高市首相とプーチン大統領の対話は19日未明時点で外務省ページに未掲載で、TBS・共同の報道に依拠。日中首脳会談の有無は19日の動きで更新が必要。",
+      "mod.go.jpは本実行環境のプロキシで到達できず、防衛省の18日の会見・発表は確認できていない。",
+      "検証のWARN：主要動向6件のうち題の長さ・段落長の警告が出た場合は内容優先で残した。"
+    ]
+  }
+}
