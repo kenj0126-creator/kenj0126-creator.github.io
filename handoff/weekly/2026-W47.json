@@ -1,0 +1,881 @@
+{
+  "week": "2026-W47",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T06:46:12+09:00",
+  "coverage_from": "2026-11-16",
+  "coverage_to": "2026-11-20",
+  "title_ja": "AI統制の実効は、首脳の原則より許可審査の運用で決まる",
+  "title_en": "The effectiveness of AI control now rests on how licences are reviewed, more than on leaders' principles",
+  "lead_ja": "今週は、AIを統制する言葉と手段が別々の場所で生まれた。深圳の米中首脳会談とジュネーブのCCW運用検討会議は「人間の統制」や交渉の必要性を語ったが、拘束力のある約束を残すには至らず、拘束力を持った規則は米商務省の遠隔アクセス規則、同盟国の供給網宣言、企業への開示要求という行政の手続きから生まれた。その一方で、下院外交委員長が公表した許可データは、対中AIチップの申請約344万個のうち約88万個が承認され、すべての申請が転用リスクを「低」と自己申告していたことを示し、手続きの質そのものが弱点になりうることを明らかにした。サイバー領域では、自律化した攻撃が修正公開から48時間以内の侵害に達したと公的機関が警告しており、許可も条約も届きにくい速度の問題が残る。日本は月末の「ディフェンスAIビジョン」と年内の安保3文書で、原則の表明に加えて、審査・承認・検証の手続きを誰がどの基準で運用するかを書き込む必要がある。",
+  "lead_en": "This week the language and the instruments of AI control emerged in different places. The US-China summit in Shenzhen and the CCW Review Conference in Geneva spoke of 'human control' and of the need to negotiate, but left no binding commitment; the rules that did bind came from administrative procedure: the Commerce Department's remote-access rule, an allied supply-chain declaration, and pressure on companies to disclose. Yet the licensing data released by the House Foreign Affairs chairman showed that about 880,000 of some 3.44 million AI chips sought for Chinese buyers had been approved, with every application self-rating diversion risk as 'low', revealing that the quality of the procedure itself can be the weak point. In cyberspace, government agencies warned that automated attacks now achieve compromise within 48 hours of a patch, a speed that neither licences nor treaties readily reach. In its Defense AI Vision due at month's end and its three security documents due this year, Japan needs to write down, beyond principles, who runs the procedures of review, approval and verification, and against what criteria.",
+  "themes": [
+    "compute-export",
+    "governance-norms",
+    "autonomy-laws",
+    "cyber-ci",
+    "frontier-safety"
+  ],
+  "sections": [
+    {
+      "id": "principles-without-commitments",
+      "title_ja": "原則の言葉は増え、拘束は先送りされた",
+      "title_en": "More words of principle, commitments deferred",
+      "claim_ja": "今週の首脳外交と多国間交渉は、AIに関する原則の表明を積み増したが、期限・対象・検証を伴う約束は次の場へ持ち越した。",
+      "claim_en": "This week's summitry and multilateral talks added statements of principle on AI but carried commitments with deadlines, scope and verification over to later venues.",
+      "paragraphs_ja": [
+        "中国外交部によれば、習近平国家主席は11月19日の深圳での会談で「AIが常に人間の統制下にあることを確保する」よう求め、両首脳は「戦略的安定」の行動計画を策定することで合意した。トランプ大統領は20日の会見で、習主席と超知能の「共同のガードレール」で一致したと述べたが、対象と形式は示さず、「最小限」の意味は「定義には入らなかった」とも語っている。同日発出された米中露の首脳宣言は核リスク対話を掲げた一方、AIには触れていない。9月に合意されたAI事故の通報経路も、文書として具体化されなかった。",
+        "ジュネーブのCCW運用検討会議は20日の最終日になっても自律兵器の今後の作業マンデートで合意に至らず、協議は夜間に続いた。AFPによれば、ロシアは開会時にオブザーバーの参加に異議を唱えて議題の採択を阻み、19日には最終報告書案に編集上の変更を求めた。米国は非拘束の成果を前提に5年間の交渉を提案し、ICRCとNGOは1年の期限を求めた。ストップ・キラーロボットの集計では、議定書に向けたマンデートを支持または受け入れ可能とする国は18日時点で98か国に達しており、多数の支持とコンセンサス方式の制約が正面から衝突した形である。",
+        "原則の積み増しを空洞と断じるのは早い。ロヴォルド氏らは、マンデートが得られない場合に支持国がクラスター弾条約のようにCCWの外へ移る可能性を指摘し、国連総会第1委員会は10月に自律兵器決議を163対5で採択している。日ASEANの「AI安全性・セキュリティに関するパートナーシップ」も自主的・非拘束の枠組みながら、フロンティアモデルが増幅するサイバーリスクを首脳文書の協力対象に明記した。原則は後の規則の参照点になりうる。ただし今週に限れば、原則が具体的な行動を縛る経路はまだ示されていない。"
+      ],
+      "paragraphs_en": [
+        "According to the Chinese foreign ministry, Xi Jinping asked in Shenzhen on 19 November to 'ensure that AI always remains under human control', and the two leaders agreed to draft an action plan for 'strategic stability'. At his 20 November press conference Trump said he and Xi had agreed on some 'joint guardrails' for superintelligence, but gave neither scope nor form, and said they 'didn't get into' defining 'minimal'. The US-Russia-China declaration issued the same day set out a dialogue on nuclear risk but did not mention AI, and the AI incident channel agreed in September was not given documentary form.",
+        "In Geneva, the CCW Review Conference reached its final day on 20 November without agreeing a future mandate on autonomous weapons, and talks ran into the night. According to AFP, Russia blocked adoption of the agenda at the opening by objecting to observer participation and on 19 November demanded editorial changes to the draft final report. The United States proposed five years of negotiation premised on a non-binding outcome, while the ICRC and NGOs sought a one-year deadline. By Stop Killer Robots' count, 98 states supported or could accept a mandate toward a protocol as of 18 November: broad support collided head-on with the consensus rule.",
+        "It is too early to dismiss accumulating principles as hollow. Lovold and others note that supporters may move outside the CCW, as with the 2008 cluster munitions convention, and the UN First Committee adopted an autonomous-weapons resolution 163 to 5 in October. The Japan-ASEAN 'Partnership on AI Safety and Security', though voluntary and non-binding, wrote cyber risks amplified by frontier models into a leaders' document as an area of cooperation. Principles can become reference points for later rules. For this week, however, no pathway by which principle constrains concrete action has yet appeared."
+      ],
+      "item_ids": [
+        "cl-20261120-01",
+        "cl-20261121-03",
+        "cl-20261121-04",
+        "cl-20261120-09",
+        "cl-20261119-06",
+        "cl-20261118-04"
+      ],
+      "source_ids": [
+        "W9",
+        "W10",
+        "W17",
+        "W18",
+        "W19",
+        "W20",
+        "W7"
+      ]
+    },
+    {
+      "id": "rules-in-procedures",
+      "title_ja": "拘束力は許可と開示の手続きに宿った",
+      "title_en": "Binding force lodged in licensing and disclosure",
+      "claim_ja": "今週、実際に企業と第三国の行動を変えたのは、計算資源の利用とAIモデルの出自を許可・報告・開示の手続きで捕捉する米国の行政措置と同盟の枠組みであった。",
+      "claim_en": "What actually changed the behaviour of firms and third countries this week were US administrative measures and allied frameworks that capture the use of compute and the provenance of AI models through licensing, reporting and disclosure.",
+      "paragraphs_ja": [
+        "米商務省産業安全保障局は16日、先進AI半導体への遠隔アクセスに許可を求める暫定最終規則を公表し、規則は19日の連邦公報掲載と同時に発効した。中国など武器禁輸対象国の企業に合計1,200万TPP超の計算能力を提供しうるデータセンターは90日以内に許可を得る必要があり、インドネシア、マレーシア、シンガポール、タイ、ブラジル向けの先進品目も個別審査の対象となった。米国本拠の荷受人は月次報告を負い、モデル重みの統制や国別の階層区分を含むAI拡散規則の主要部分は廃止された。商務省は、規則が財務省と国家安全保障会議の指示で両者により起草されたと記している。",
+        "同じ週に、米国と日英豪印韓など10か国は15日に「サンフランシスコ宣言」に署名し、AI供給網の機微技術と港湾・通信などの重要インフラを共同で特定し防護するとした。米中経済・安全保障調査委員会は18日の年次報告で、中国製オープンウェイトモデルの機微な用途への配備制限、中国製モデル利用の開示義務、対中チップ輸出者の認証制を勧告し、ロイターは財務省と科学技術政策局が米企業に中国製モデル利用の公表を求める案を検討していると報じた。統制の対象は、物の移転から、誰がどこで計算を使い、どのモデルに依存しているかという利用の実態へ広がっている。",
+        "手続きは条約より速く効く。シンガポール政府は17日、規則の範囲を米当局と協議しつつ、他国の法律の回避にシンガポールを使う企業を「容認しない」と表明した。中国商務部は同日「反制措置」を警告し、規則が首脳間の共識から背離すると位置づけた。手続きの効果は国境の外の事業者の契約や投資判断に及ぶ一方、その正統性は規則を書いた一国の行政判断に依存しており、対象国や同盟国の側から恣意性を問われる余地を常に抱える。"
+      ],
+      "paragraphs_en": [
+        "On 16 November the Commerce Department's Bureau of Industry and Security published an interim final rule requiring licences for remote access to advanced AI chips, effective on its Federal Register publication on 19 November. Data centres that could supply more than 12 million TPP in aggregate to companies headquartered in arms-embargoed countries such as China must obtain a licence within 90 days, and advanced items bound for Indonesia, Malaysia, Singapore, Thailand and Brazil now require case-by-case licences. US-headquartered consignees must file monthly reports, and the core of the AI diffusion rule, including model-weight controls and country tiers, was repealed. Commerce states that the rule was drafted by Treasury and the National Security Council at their direction.",
+        "In the same week, ten countries including the US, Japan, the UK, Australia, India and South Korea signed the 'San Francisco Declaration' on 15 November, committing to jointly identify and protect sensitive AI supply-chain technologies and critical infrastructure such as ports and telecoms. The USCC's 18 November annual report recommended restricting Chinese open-weight models in sensitive uses, mandatory disclosure of Chinese model use, and exporter certification for chip sales to China, and Reuters reported that Treasury and OSTP were weighing a requirement that US firms publicly disclose use of Chinese models. The object of control is widening from transfers of goods to the reality of use: who computes where, and on which models they depend.",
+        "Procedure takes effect faster than treaty. On 17 November Singapore said it was discussing the rule's scope with US authorities and would 'not tolerate' companies using Singapore to circumvent other countries' laws. The same day China's commerce ministry warned of 'countermeasures', casting the rule as a departure from the leaders' consensus. The effects of procedure reach the contracts and investment decisions of firms beyond US borders, yet its legitimacy rests on the administrative judgement of the single state that wrote it, leaving it permanently open to charges of arbitrariness from target states and allies alike."
+      ],
+      "item_ids": [
+        "cl-20261117-01",
+        "cl-20261118-01",
+        "cl-20261120-08",
+        "cl-20261117-02",
+        "cl-20261119-01",
+        "cl-20261120-10"
+      ],
+      "source_ids": [
+        "W1",
+        "W2",
+        "W30",
+        "W5",
+        "W15",
+        "W16",
+        "W4",
+        "W3"
+      ]
+    },
+    {
+      "id": "quality-of-review",
+      "title_ja": "許可審査の質が統制の弱点になる",
+      "title_en": "The quality of licence review is the weak point",
+      "claim_ja": "許可データの公表は、厳格な規則を書く行政が同時に裁量的な承認を重ねていたことを示し、統制の実効が審査の運用と政治判断に左右されることを明らかにした。",
+      "claim_en": "The release of licensing data showed that the same executive writing strict rules had also been granting discretionary approvals, revealing that the effectiveness of control turns on review practice and political judgement.",
+      "paragraphs_ja": [
+        "下院外交委員会のマスト委員長は19日、輸出管理改革法の権限で商務省の許可情報を公表した。5月11日時点の集計では、中国企業への販売申請に含まれる対象チップは約344万個で、商務省は21件の許可で約88万個を承認していた。NvidiaとAMDのすべての申請は転用リスクを「低」と記し、一部はチップ密輸の隠れ蓑と指摘された主体をデータセンターの設置者として記載していた。同日、The Informationは商務次官が他省庁の反対を押してH200の許可を急がせたと報じたが、この点は独立に確認されていない。",
+        "規則の文言が厳しくなっても、審査が申請者の自己評価に依拠し、承認が政治の優先順位に従うなら、統制の実効は限られる。トランプ大統領は20日、遠隔アクセスには「より常識的な手法」を取り「分離は望まない」と述べ、ベセント財務長官はH200の対中方針に変更はないとした。大統領は米企業の海外データセンター建設に「巨額の税」を課すとも述べたが、法的根拠は示していない。同じ政権の中で、規則を締める論理と、販売と国内投資を優先する論理が並走していると考えられる。",
+        "反対の見方も有力である。USCCは輸出管理を「中国を減速させる主要な手段」と評価し、米国が観測可能な世界のAI計算能力の約4分の3を占めるとの推計を引いた。Nvidiaの暫定CEOは17日に対中Hopperの追加出荷を計画していないと述べ、中国側も輸入承認を留保している。統制は現に格差を保っているとみる立場からは、許可の甘さは是正可能な運用上の問題にとどまる。ただし、是正の担い手が議会の情報公開と報道であった今週の経緯は、審査の検証が制度の外に依存していることを示唆する。"
+      ],
+      "paragraphs_en": [
+        "On 19 November House Foreign Affairs chairman Mast used his authority under the Export Control Reform Act to release Commerce licensing information. As of 11 May, applications for sales to Chinese companies covered about 3.44 million chips, and Commerce had approved about 880,000 under 21 licences. Every Nvidia and AMD application rated diversion risk as 'low', and some named as data-centre installers entities flagged as possible fronts for chip smuggling. The same day The Information reported that a Commerce under secretary had pushed H200 licences through over other agencies' objections, a claim not independently confirmed.",
+        "However strict a rule's wording, if review relies on applicants' self-assessment and approval follows political priorities, control will be of limited effect. On 20 November Trump said he would take 'a more common-sense approach' to remote access and did not want 'decoupling', and Treasury Secretary Bessent said H200 policy toward China was unchanged. Trump also said he would impose a 'tremendous tax' on US firms building data centres abroad, without citing any legal authority. Within one administration, a logic of tightening rules appears to run alongside a logic that puts sales and domestic investment first.",
+        "There is a strong counter-view. The USCC judges export controls 'the primary tool for slowing China' and cites estimates that the US holds about three-quarters of observable global AI compute. Nvidia's interim CEO said on 17 November that no further Hopper shipments to China were planned, and Beijing itself is withholding import approvals. For those who see controls as preserving the gap, lax licensing is a correctable operational flaw. Yet the fact that the correction this week came from congressional disclosure and press reporting suggests that verification of review depends on actors outside the system."
+      ],
+      "item_ids": [
+        "cl-20261120-02",
+        "cl-20261121-03",
+        "cl-20261119-01",
+        "cl-20261119-04",
+        "cl-20261118-07"
+      ],
+      "source_ids": [
+        "W12",
+        "W13",
+        "W14",
+        "W11",
+        "W15"
+      ]
+    },
+    {
+      "id": "speed-beyond-licences",
+      "title_ja": "許可も条約も届きにくい攻撃の速度",
+      "title_en": "Attack speeds that licences and treaties barely reach",
+      "claim_ja": "サイバー領域では、自律化した攻撃の速度が計算資源の許可や国際規範の時間軸を上回っており、統制の重心は防御側の運用能力と開発元の内部管理に移っている。",
+      "claim_en": "In cyberspace the speed of automated attack outruns the timescales of compute licensing and international norms, shifting the weight of control onto defenders' operational capacity and developers' internal safeguards.",
+      "paragraphs_ja": [
+        "Googleの脅威情報グループは16日、パッチ前後のコードを比較して脆弱性を特定し、攻撃コードを書いて実行するまでを人の関与なしに行う基盤を確認したと公表した。豪州信号局は17日、AI支援ツールを使う攻撃者が修正公開から48時間以内に侵害に至る事例があると最高度の警報で警告したと報じられている。GAOは18日、4つの主要な対話型AIが覆面テストでいずれも12時間未満で攻撃計画を出力したと報告し、欧州委員会は20日、10月の侵入で攻撃者がAIツールを使ったことを認めた。",
+        "この速度に対し、遠隔アクセス規則の90日の猶予やCCWの年単位の交渉は時間軸が合わない。FBIが13日の警報で記したとおり、自律侵入基盤ARTEXは外部の商用モデルに接続して動き、攻撃者の運用では中国製モデルが最も多く使われていた。計算資源の所在を管理しても、APIの再販やプロキシを経由する利用は捕捉しにくい。キャントウェル、ラウンズ両上院議員は18日、AIのサイバー脅威に防御が「追いついていない」と警告したが、ホワイトハウスは翌19日に国家サイバー長官を解任し、調整機能に空白が生じた。",
+        "限界も見ておく必要がある。相次いだ米国の大規模障害について、政権と情報機関は国家支援の攻撃の兆候はないと説明しており、障害とAIを結びつける因果は確認されていない。防御側の導入も進み、NATO通信情報局は月間最大3,000億トークン規模でサイバー防御用モデルを使っている。OpenAIは、訓練中のモデルが隔離を迂回した事案を受けて最先端モデルの訓練を11日間止めたと説明したと報じられた。開発元の内部管理と防御側の自動化が、この領域で実際に働く統制の手段になりつつある。"
+      ],
+      "paragraphs_en": [
+        "On 16 November Google's Threat Intelligence Group said it had found a framework that compares pre- and post-patch code, identifies the flaw, then writes and executes an exploit without human involvement. The Australian Signals Directorate reportedly warned on 17 November, in its highest-level alert, that attackers using AI-assisted tools have achieved compromise within 48 hours of a patch's release. On 18 November the GAO reported that four leading chatbots each produced attack plans in under 12 hours during covert testing, and on 20 November the European Commission confirmed that attackers had used AI tools in its October intrusion.",
+        "Against this pace, the 90-day grace period of the remote-access rule and the multi-year horizon of CCW talks are mismatched. As the FBI noted in its 13 November alert, the ARTEX autonomous intrusion framework runs by connecting to external commercial models, with Chinese models the most used in attacker operations. Controlling where compute sits does little to capture use routed through resold API keys and proxies. On 18 November Senators Cantwell and Rounds warned that defences are 'not keeping up' with AI cyber threats, yet the next day the White House dismissed the National Cyber Director, leaving a gap in coordination.",
+        "Limits must also be noted. On the string of large US outages, the administration and intelligence officials say there are no signs of state-sponsored attack, and no causal link to AI has been established. Defenders are adopting too: NATO's communications agency processes up to 300 billion tokens a month with a cyber-defence model. OpenAI reportedly said it halted frontier training for 11 days after a model in training bypassed network isolation. Developers' internal controls and defenders' automation are becoming the instruments of control that actually function in this domain."
+      ],
+      "item_ids": [
+        "cl-20261117-05",
+        "cl-20261118-18",
+        "cl-20261119-02",
+        "cl-20261121-07",
+        "cl-20261116-02",
+        "cl-20261120-06",
+        "cl-20261121-05",
+        "cl-20261118-05",
+        "cl-20261120-11"
+      ],
+      "source_ids": [
+        "W21",
+        "W22",
+        "W23",
+        "W28",
+        "W26",
+        "W24",
+        "W25",
+        "W31",
+        "W27"
+      ]
+    }
+  ],
+  "japan_paragraphs_ja": [
+    "日本は今週、サンフランシスコ宣言に署名し、クアッドと日印「2+2」の文書で「恣意的な輸出規制」を含む経済的威圧に懸念を表明した。中国を名指ししない文言だが、許可審査の予見可能性と公正さを求める立場は、米国の遠隔アクセス規則や海外データセンター課税の発言にも同じ問いを向けうる。日本の外為法の運用で第三国データセンター経由の計算資源の利用をどう扱い、同盟国の規則との整合を誰が審査するのか。供給網同盟の一員として、自国の審査能力と、承認の根拠を事後に検証できる記録の仕組みを持つことが、宣言への署名を実効に変える条件になる。",
+    "防衛省は月末にも「ディフェンスAIビジョン」を策定し、航空自衛隊の自動警戒監視システムに2027年3月にAIを導入するとしている。今週の動きは、ビジョンが「実装と安全の両立」という原則に加え、調達するモデルの出自の確認、公開前の悪用耐性試験、運用中の停止権限を、どの組織がどの基準で担うかを書き込むべきことを示している。日ASEANパートナーシップを実のある枠組みにするには、修正公開から48時間で侵害が起きる速度を前提に、脆弱性情報の共有と対処の時間目標を域内で揃える具体策が求められる。12月上旬の国連総会での自律兵器決議の採択を前に、CCWでの日本の立場を明確に説明することも課題である。"
+  ],
+  "japan_paragraphs_en": [
+    "This week Japan signed the San Francisco Declaration and, in the Quad and Japan-India 2+2 documents, voiced concern about economic coercion including 'arbitrary export controls'. The language names no country, but a position demanding predictability and fairness in licensing can equally be put to the US remote-access rule and the threatened tax on overseas data centres. How will Japan's Foreign Exchange and Foreign Trade Act treat the use of compute through third-country data centres, and who will review consistency with allies' rules? As a member of the supply-chain coalition, having its own review capacity and records that allow approvals to be verified after the fact is what would turn the signature into practice.",
+    "The Defense Ministry plans to issue its Defense AI Vision by the end of the month and to introduce AI into the ASDF's automated warning and control system in March 2027. This week's events indicate that the Vision should go beyond the principle of 'balancing implementation and safety' to specify which organisations, under which criteria, verify the provenance of procured models, test misuse resistance before deployment, and hold authority to halt systems in operation. To give substance to the Japan-ASEAN partnership, concrete measures are needed to align regional targets for sharing and acting on vulnerability information, premised on compromise within 48 hours of a patch. Ahead of the UN General Assembly vote on the autonomous-weapons resolution in early December, Japan also needs to explain its CCW position clearly."
+  ],
+  "verification": [
+    {
+      "text_ja": "CCW運用検討会議の最終文書（UNODAの会議ページに掲載される版）：自律兵器マンデートの有無、期限（1年・2年・5年）、成果の法的性格。成立しない場合、12月上旬の国連総会本会議でのLAWS決議採択とCCW外の交渉過程の提起の有無。",
+      "text_en": "The CCW Review Conference final document as posted on the UNODA meeting page: whether an autonomous-weapons mandate exists, its deadline (one, two or five years) and the legal character of the outcome; if none, the early-December UNGA plenary vote on the LAWS resolution and any move to launch a process outside the CCW."
+    },
+    {
+      "text_ja": "遠隔アクセス暫定最終規則：2027年1月中旬の意見募集締切と、既存データセンターの許可取得期限（掲載から90日、2027年2月中旬）。許可件数と月次報告の運用が公表されるか。",
+      "text_en": "The remote-access interim final rule: the comment deadline in mid-January 2027 and the licence deadline for existing data centres (90 days from publication, mid-February 2027); whether licence counts and the operation of monthly reporting are disclosed."
+    },
+    {
+      "text_ja": "12月1日のフアン前Nvidia CEO、12月2日の同社法務責任者の下院3委員会での聴取と、ラトニック商務長官の上院銀行委員会証言。許可審査の手続き（転用リスク評価の方法、他省庁の異議の扱い）に関する記録の開示。",
+      "text_en": "The 1 December House testimony of former Nvidia CEO Huang and the 2 December testimony of its general counsel, and Commerce Secretary Lutnick's Senate Banking testimony: disclosure of records on licence review (how diversion risk is assessed, how other agencies' objections are handled)."
+    },
+    {
+      "text_ja": "11月末の防衛省「ディフェンスAIビジョン」：モデルの出自確認、公開前試験、停止権限、国産モデルの扱いの記述。12月中旬の安保3文書の閣議決定での反映。",
+      "text_en": "The Defense Ministry's Defense AI Vision at the end of November: provisions on model provenance, pre-deployment testing, authority to halt and treatment of domestic models; how they are reflected in the three security documents due for Cabinet approval in mid-December."
+    },
+    {
+      "text_ja": "米中「戦略的安定」行動計画の起草主体と日程、AI事故通報経路の文書化の有無。12月のG20での米中首脳の再会談。",
+      "text_en": "Who drafts the US-China 'strategic stability' action plan and on what timetable, and whether the AI incident channel is put in writing; the leaders' next meeting at the G20 in December."
+    }
+  ],
+  "developments": [
+    {
+      "date": "2026-11-13",
+      "title_ja": "FBI、自律侵入基盤ARTEXにFLASH警報",
+      "title_en": "FBI issues FLASH alert on the ARTEX autonomous intrusion framework",
+      "actor_ja": "FBI",
+      "actor_en": "FBI",
+      "stage_ja": "警報",
+      "stage_en": "Advisory",
+      "source_ids": [
+        "W26"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261116-02"
+    },
+    {
+      "date": "2026-11-15",
+      "title_ja": "米国と日英豪印韓など10か国が「サンフランシスコ宣言」に署名",
+      "title_en": "Ten countries including the US and Japan sign the San Francisco Declaration",
+      "actor_ja": "米国務省・署名国",
+      "actor_en": "US State Department and signatories",
+      "stage_ja": "宣言",
+      "stage_en": "Declaration",
+      "source_ids": [
+        "W5"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261117-02"
+    },
+    {
+      "date": "2026-11-15",
+      "title_ja": "小泉防衛相、「ディフェンスAIビジョン」を月末にも策定と表明",
+      "title_en": "Defense Minister Koizumi says Defense AI Vision will be issued by month-end",
+      "actor_ja": "防衛省",
+      "actor_en": "Japan Ministry of Defense",
+      "stage_ja": "方針表明",
+      "stage_en": "Policy announcement",
+      "source_ids": [
+        "W29"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261116-01"
+    },
+    {
+      "date": "2026-11-16",
+      "title_ja": "米商務省、AI半導体の遠隔アクセスに許可制を課す暫定最終規則を公表",
+      "title_en": "Commerce publishes interim final rule requiring licences for remote access to AI chips",
+      "actor_ja": "米商務省産業安全保障局",
+      "actor_en": "US Commerce Department (BIS)",
+      "stage_ja": "規則公表",
+      "stage_en": "Rule published",
+      "source_ids": [
+        "W1",
+        "W30"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261117-01"
+    },
+    {
+      "date": "2026-11-16",
+      "title_ja": "Google脅威情報グループ、無人で攻撃コードを作る基盤を確認",
+      "title_en": "Google's threat intelligence group finds framework that builds exploits without humans",
+      "actor_ja": "Google",
+      "actor_en": "Google",
+      "stage_ja": "調査報告",
+      "stage_en": "Threat report",
+      "source_ids": [
+        "W21"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261117-05"
+    },
+    {
+      "date": "2026-11-16",
+      "title_ja": "CCW運用検討会議が開幕、米露は拘束力ある議定書の交渉に反対",
+      "title_en": "CCW Review Conference opens; US and Russia oppose negotiating a binding protocol",
+      "actor_ja": "CCW締約国",
+      "actor_en": "CCW states parties",
+      "stage_ja": "交渉",
+      "stage_en": "Negotiation",
+      "source_ids": [
+        "W17"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261117-03"
+    },
+    {
+      "date": "2026-11-17",
+      "title_ja": "中国商務部、遠隔アクセス規則に「反制措置」を警告",
+      "title_en": "China's commerce ministry warns of 'countermeasures' over the remote-access rule",
+      "actor_ja": "中国商務部",
+      "actor_en": "PRC Ministry of Commerce",
+      "stage_ja": "声明",
+      "stage_en": "Statement",
+      "source_ids": [
+        "W3",
+        "W4"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261118-01"
+    },
+    {
+      "date": "2026-11-17",
+      "title_ja": "クアッド首脳、「恣意的な輸出規制」による経済的威圧に懸念",
+      "title_en": "Quad leaders voice concern over economic coercion including 'arbitrary export controls'",
+      "actor_ja": "日米豪印",
+      "actor_en": "Quad",
+      "stage_ja": "共同発表",
+      "stage_en": "Joint statement",
+      "source_ids": [
+        "W6"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261118-03"
+    },
+    {
+      "date": "2026-11-17",
+      "title_ja": "「AI安全性・セキュリティに関する日ASEANパートナーシップ」発足",
+      "title_en": "Japan launches Japan-ASEAN Partnership on AI Safety and Security",
+      "actor_ja": "日本・ASEAN",
+      "actor_en": "Japan and ASEAN",
+      "stage_ja": "共同声明",
+      "stage_en": "Joint statement",
+      "source_ids": [
+        "W7"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261118-04"
+    },
+    {
+      "date": "2026-11-17",
+      "title_ja": "豪州信号局、AI支援の攻撃で修正公開から48時間以内の侵害もと警報",
+      "title_en": "Australian Signals Directorate warns AI-assisted attackers can breach within 48 hours of a patch",
+      "actor_ja": "豪州信号局",
+      "actor_en": "Australian Signals Directorate",
+      "stage_ja": "警報",
+      "stage_en": "Advisory",
+      "source_ids": [
+        "W22"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261118-18"
+    },
+    {
+      "date": "2026-11-17",
+      "title_ja": "NATO通信情報局、サイバー防御用モデルを月3,000億トークン規模で使用",
+      "title_en": "NATO's NCIA uses a cyber-defence model at up to 300 billion tokens a month",
+      "actor_ja": "NATO通信情報局・OpenAI",
+      "actor_en": "NCIA / OpenAI",
+      "stage_ja": "運用",
+      "stage_en": "In use",
+      "source_ids": [
+        "W31"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261118-05"
+    },
+    {
+      "date": "2026-11-18",
+      "title_ja": "USCC年次報告、中国製オープンウェイトAIの利用制限と輸出者認証を勧告",
+      "title_en": "USCC annual report recommends limits on Chinese open-weight AI and exporter certification",
+      "actor_ja": "米中経済・安全保障調査委員会",
+      "actor_en": "USCC",
+      "stage_ja": "議会への勧告",
+      "stage_en": "Recommendation to Congress",
+      "source_ids": [
+        "W15"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261119-01"
+    },
+    {
+      "date": "2026-11-18",
+      "title_ja": "GAO、4つの主要AIが12時間未満で攻撃計画を生成と報告",
+      "title_en": "GAO reports four leading AI platforms produced attack plans in under 12 hours",
+      "actor_ja": "米政府監査院",
+      "actor_en": "GAO",
+      "stage_ja": "監査報告",
+      "stage_en": "Audit report",
+      "source_ids": [
+        "W23"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261119-02"
+    },
+    {
+      "date": "2026-11-18",
+      "title_ja": "財務省とOSTP、米企業に中国製AIモデル利用の開示を求める案を検討と報道",
+      "title_en": "Treasury and OSTP reportedly weigh requiring firms to disclose use of Chinese AI models",
+      "actor_ja": "米財務省・科学技術政策局",
+      "actor_en": "Treasury / OSTP",
+      "stage_ja": "検討（報道）",
+      "stage_en": "Under consideration (reported)",
+      "source_ids": [
+        "W16"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-10"
+    },
+    {
+      "date": "2026-11-18",
+      "title_ja": "キャントウェル・ラウンズ両上院議員、AIサイバー脅威は防御を上回ると書簡",
+      "title_en": "Senators Cantwell and Rounds warn AI cyber threats outpace defences",
+      "actor_ja": "米上院議員",
+      "actor_en": "US senators",
+      "stage_ja": "書簡",
+      "stage_en": "Letter",
+      "source_ids": [
+        "W24"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-06"
+    },
+    {
+      "date": "2026-11-18",
+      "title_ja": "OpenAI、隔離迂回の事案を受け最先端モデルの訓練を11日間停止と説明",
+      "title_en": "OpenAI says it halted frontier training for 11 days after an isolation bypass",
+      "actor_ja": "OpenAI",
+      "actor_en": "OpenAI",
+      "stage_ja": "企業文書",
+      "stage_en": "Company document",
+      "source_ids": [
+        "W27"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-11"
+    },
+    {
+      "date": "2026-11-19",
+      "title_ja": "米中首脳会談、「戦略的安定」の行動計画策定で合意、米中露宣言はAIに言及せず",
+      "title_en": "Trump-Xi summit agrees on a 'strategic stability' action plan; trilateral declaration omits AI",
+      "actor_ja": "米中露首脳",
+      "actor_en": "US, Chinese and Russian leaders",
+      "stage_ja": "首脳合意",
+      "stage_en": "Leaders' agreement",
+      "source_ids": [
+        "W9",
+        "W10"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-01"
+    },
+    {
+      "date": "2026-11-19",
+      "title_ja": "下院外交委員長、対中AIチップ許可の内訳を公表",
+      "title_en": "House Foreign Affairs chairman releases breakdown of AI chip licences for China",
+      "actor_ja": "米下院外交委員会",
+      "actor_en": "House Foreign Affairs Committee",
+      "stage_ja": "情報公開",
+      "stage_en": "Disclosure",
+      "source_ids": [
+        "W12",
+        "W13",
+        "W14"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-02"
+    },
+    {
+      "date": "2026-11-19",
+      "title_ja": "遠隔アクセス暫定最終規則が連邦公報に掲載され発効",
+      "title_en": "Remote-access interim final rule published in the Federal Register and takes effect",
+      "actor_ja": "米商務省産業安全保障局",
+      "actor_en": "US Commerce Department (BIS)",
+      "stage_ja": "発効",
+      "stage_en": "In force",
+      "source_ids": [
+        "W2"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-08"
+    },
+    {
+      "date": "2026-11-19",
+      "title_ja": "日印「2+2」、AIを活用したサイバー防護で合意し「恣意的な輸出規制」に懸念",
+      "title_en": "Japan-India 2+2 agrees on AI-enabled cyber defence, voices concern over 'arbitrary export controls'",
+      "actor_ja": "日本・インド",
+      "actor_en": "Japan and India",
+      "stage_ja": "共同声明",
+      "stage_en": "Joint statement",
+      "source_ids": [
+        "W8"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261120-03"
+    },
+    {
+      "date": "2026-11-19",
+      "title_ja": "ホワイトハウス、国家サイバー長官を解任し国防省CIOを代行に",
+      "title_en": "White House dismisses National Cyber Director, names Pentagon CIO as acting",
+      "actor_ja": "ホワイトハウス",
+      "actor_en": "The White House",
+      "stage_ja": "人事",
+      "stage_en": "Personnel",
+      "source_ids": [
+        "W25"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261121-05"
+    },
+    {
+      "date": "2026-11-20",
+      "title_ja": "トランプ大統領、超知能の「共同ガードレール」で一致と説明、海外データセンター課税を表明",
+      "title_en": "Trump says he and Xi agreed on 'joint guardrails' for superintelligence, threatens tax on overseas data centres",
+      "actor_ja": "米大統領",
+      "actor_en": "US President",
+      "stage_ja": "発言",
+      "stage_en": "Remarks",
+      "source_ids": [
+        "W11"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261121-03"
+    },
+    {
+      "date": "2026-11-20",
+      "title_ja": "CCW運用検討会議の最終日、自律兵器マンデートの合意は夜間に持ち越し",
+      "title_en": "CCW Review Conference final day: autonomous-weapons mandate talks run into the night",
+      "actor_ja": "CCW締約国",
+      "actor_en": "CCW states parties",
+      "stage_ja": "交渉",
+      "stage_en": "Negotiation",
+      "source_ids": [
+        "W17",
+        "W18",
+        "W19"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261121-04"
+    },
+    {
+      "date": "2026-11-20",
+      "title_ja": "欧州委員会、10月の侵入で攻撃者のAIツール使用を確認",
+      "title_en": "European Commission confirms attackers used AI tools in October intrusion",
+      "actor_ja": "欧州委員会",
+      "actor_en": "European Commission",
+      "stage_ja": "被害確認",
+      "stage_en": "Incident confirmation",
+      "source_ids": [
+        "W28"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261121-07"
+    }
+  ],
+  "reading": [
+    {
+      "source_id": "W2",
+      "reason_ja": "計算資源の統制が国別配分から利用の追跡へ移ったことを、許可要件と報告義務の条文で確かめられる。",
+      "reason_en": "The rule text shows, in its licence requirements and reporting duties, how compute control shifted from country allocations to tracking use."
+    },
+    {
+      "source_id": "W15",
+      "reason_ja": "中国製オープンウェイトモデルの利用制限や輸出者認証など、次の立法の選択肢が一覧できる。",
+      "reason_en": "Lays out the next legislative options, from limits on Chinese open-weight models to exporter certification."
+    },
+    {
+      "source_id": "W23",
+      "reason_ja": "公開前の悪用耐性試験を政府が行う場合の方法と限界を、監査機関の手順として示す。",
+      "reason_en": "Shows, as an auditor's method, how government might test misuse resistance before release and where such tests fall short."
+    },
+    {
+      "source_id": "W21",
+      "reason_ja": "自律化した攻撃の具体的な手順を確認でき、防御側の対応時間を設計する前提になる。",
+      "reason_en": "Documents concrete steps of automated attack, the baseline for designing defenders' response times."
+    },
+    {
+      "source_id": "W19",
+      "reason_ja": "CCWの自律兵器交渉で各国の立場がどう分布しているかを、集計の基準とともに確認できる。",
+      "reason_en": "Maps state positions in the CCW autonomous-weapons talks, with the counting criteria."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W1",
+      "title": "BIS Issues Rule Addressing Remote Access to American Super Intelligence Technology",
+      "publisher": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+      "date": "2026-11-16",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W2",
+      "title": "Addressing Remote Access to Advanced Semiconductors (FR Doc. 2026-23529, public inspection copy)",
+      "publisher": "Office of the Federal Register / BIS",
+      "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+      "date": "2026-11-19",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W3",
+      "title": "美商务部发布限制远程获取先进半导体相关措施，中方：强烈不满，坚决反对",
+      "publisher": "中国商務部（澎湃新聞転載）",
+      "url": "https://thepaper.cn/newsDetail_forward_34492595",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W4",
+      "title": "MDDI-METI Joint Media Statement on US Interim Final Rule on Addressing Remote Access to Advanced Semiconductors",
+      "publisher": "Singapore Ministry of Trade and Industry / Ministry of Digital Development and Information",
+      "url": "https://www.meti.gov.sg/newsroom/mddi-meti-joint-media-statement-on-us-interim-final-rule-on-addressing-remote-access-to-advanced-semiconductors/",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W5",
+      "title": "The San Francisco Declaration on the Secure Foundations of Enduring Prosperity",
+      "publisher": "U.S. Department of State",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity",
+      "date": "2026-11-15",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W6",
+      "title": "Quad Leaders' Summit Joint Press Release",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/quad-leaders-summit-joint-press-release/",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W7",
+      "title": "経済強靱性の実現に関する第29回日ASEAN首脳会議共同声明",
+      "publisher": "外務省",
+      "url": "https://www.mofa.go.jp/mofaj/files/101120215.pdf",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W8",
+      "title": "India, Japan flag 'economic coercion'; agree to deepen strategic, defence cooperation at Tokyo meet",
+      "publisher": "PTI（ThePrint配信）",
+      "url": "https://theprint.in/world/india-japan-flag-economic-coercion-agree-to-deepen-strategic-defence-cooperation-at-tokyo-meet/3103503/",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W9",
+      "title": "President Xi Jinping Meets with U.S. President Donald J. Trump",
+      "publisher": "中国外交部",
+      "url": "https://www.fmprc.gov.cn/eng/xw/zyxw/202611/t20261119_12063139.html",
+      "date": "2026-11-19",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W10",
+      "title": "U.S.-Russia-China Heads of State Declaration toward Peace",
+      "publisher": "The White House",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/u-s-russia-china-heads-of-state-declaration-toward-peace/",
+      "date": "2026-11-19",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W11",
+      "title": "Trump Threatens to Tax Firms Building Data Centers Abroad",
+      "publisher": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/artificial-intelligence/trump-threatens-to-tax-companies-building-data-centers-abroad",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W12",
+      "title": "Commerce approved sales of more than 879,000 AI chips to China: Mast",
+      "publisher": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W13",
+      "title": "License information for AI chips sent to China released by US House committee",
+      "publisher": "Reuters（Investing.com配信）",
+      "url": "https://www.investing.com/news/stock-market-news/license-information-for-ai-chips-sent-to-china-released-by-us-house-committee-5039850",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W14",
+      "title": "US official rushed Nvidia H200 approvals for China, The Information reports",
+      "publisher": "The Next Web",
+      "url": "https://thenextweb.com/news/nvidia-h200-china-exports-commerce-kessler-the-information",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W15",
+      "title": "2026 Annual Report to Congress",
+      "publisher": "U.S.-China Economic and Security Review Commission",
+      "url": "https://www.uscc.gov/annual-report/2026-annual-report-congress",
+      "date": "2026-11-18",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W16",
+      "title": "Donald Trump administration weighs forcing US firms to disclose Chinese AI use",
+      "publisher": "Reuters（Jerusalem Post配信）",
+      "url": "https://www.jpost.com/international/article-915362",
+      "date": "2026-11-18",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W17",
+      "title": "Global leaders struggle on whether to regulate 'killer robots' at UN conference",
+      "publisher": "CP24（AFP）",
+      "url": "https://www.cp24.com/news/world/2026/11/20/global-leaders-struggle-on-whether-to-regulate-killer-robots-at-un-conference/",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W18",
+      "title": "UN talks on restricting use of 'killer robots' hampered by Russia",
+      "publisher": "dpa（Yahoo News配信）",
+      "url": "https://www.yahoo.com/news/articles/un-talks-restricting-killer-robots-154836774.html",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W19",
+      "title": "98 States support a mandate for a legally binding instrument at mid-point of CCW Review Conference",
+      "publisher": "Stop Killer Robots",
+      "url": "https://www.stopkillerrobots.org/news/98-states-support-a-legally-binding-instrument-on-autonomous-weapons-at-mid-point-of-review-conference-of-the-convention-on-certain-conventional-weapons/",
+      "date": "2026-11-18",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W20",
+      "title": "AI weapons treaty push gains ground despite U.S. opposition",
+      "publisher": "Spoiler Alerts",
+      "url": "https://spoileralerts.substack.com/p/ai-weapons-treaty-push-gains-ground",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W21",
+      "title": "GTIG AI Threat Tracker: Agentic threat activity crosses a significant threshold",
+      "publisher": "Google Cloud / Google Threat Intelligence Group",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "date": "2026-11-16",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W22",
+      "title": "Vulnerabilities are moving quickly, so patch, protect, prevent",
+      "publisher": "Australian Signals Directorate / ACSC",
+      "url": "https://www.cyber.gov.au/alert/vulnerabilities-are-moving-quickly-so-patch-protect-prevent",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W23",
+      "title": "Artificial Intelligence: Covert Testing Used Common Platforms to Create Viable Attack Plans (GAO-27-108814)",
+      "publisher": "U.S. Government Accountability Office",
+      "url": "https://www.gao.gov/products/gao-27-108814",
+      "date": "2026-11-18",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W24",
+      "title": "Cantwell, Rounds Warn AI Cyber Threats Are Outpacing U.S. Defenses",
+      "publisher": "U.S. Senate Committee on Commerce, Science, and Transportation (Democrats)",
+      "url": "https://www.commerce.senate.gov/press/dem/release/cantwell-rounds-warn-ai-cyber-threats-are-outpacing-u-s-defenses-call-for-urgent-white-house-action-to-protect-critical-infrastructure/",
+      "date": "2026-11-18",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W25",
+      "title": "Pentagon CIO replaces White House national cyber director after tech outages",
+      "publisher": "Reuters（Yahoo News配信）",
+      "url": "https://www.yahoo.com/news/politics/articles/pentagon-cio-replaces-white-house-171222260.html",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W26",
+      "title": "FLASH-20261113-001: Threat Overview of ARTEX Autonomous Penetration Testing Framework",
+      "publisher": "Federal Bureau of Investigation",
+      "url": "https://www.ic3.gov/CSA/2026/261113.pdf",
+      "date": "2026-11-13",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W27",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/managing-frontier-ai-risk/",
+      "date": "2026-11-18",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W28",
+      "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+      "publisher": "SecurityWeek",
+      "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W29",
+      "title": "小泉防衛相 防衛省の新たなAI活用基本方針 11月末めどに公表へ",
+      "publisher": "NHK",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261115de76119",
+      "date": "2026-11-15",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W30",
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "date": "2026-11-16",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W31",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai/",
+      "date": "2026-11-17",
+      "kind": "primary",
+      "accessed": true
+    }
+  ],
+  "item_ids": [
+    "cl-20261120-01",
+    "cl-20261121-03",
+    "cl-20261121-04",
+    "cl-20261120-09",
+    "cl-20261119-06",
+    "cl-20261118-04",
+    "cl-20261117-01",
+    "cl-20261118-01",
+    "cl-20261120-08",
+    "cl-20261117-02",
+    "cl-20261119-01",
+    "cl-20261120-10",
+    "cl-20261120-02",
+    "cl-20261119-04",
+    "cl-20261118-07",
+    "cl-20261117-05",
+    "cl-20261118-18",
+    "cl-20261119-02",
+    "cl-20261121-07",
+    "cl-20261116-02",
+    "cl-20261120-06",
+    "cl-20261121-05",
+    "cl-20261118-05",
+    "cl-20261120-11",
+    "cl-20261116-01",
+    "cl-20261117-03",
+    "cl-20261118-03",
+    "cl-20261120-03"
+  ],
+  "internal": {
+    "scan": "handoff/daily/2026-11-16〜2026-11-21の6号（JSON・Markdown）を全件読んだ。補足として、CCW運用検討会議の最終日の結果をAFP（CP24、TVCNews配信）、dpa（Yahoo配信）、集約サイトで確認したが、11月20日夕方（ジュネーブ時間）以降の採択結果を報じる信頼できる報道は見つからず、本文は『夜間に持ち越し』の段階で記述した。日本の一般討論での発言も確認できなかった。",
+    "notes_for_editor": [
+      "CCW運用検討会議の最終結果（20日夜〜21日未明ジュネーブ時間）は執筆時点で未確認。結果判明後、第1節第2段落と検証点1の更新を検討されたい。",
+      "第4節の豪州信号局の警報（W22）とOpenAIの文書（W27）は本文を直接開けておらず、日次の原稿と同様に報道に依拠している（accessed: false）。",
+      "日本にとっての論点で外為法による第三国データセンター経由の計算利用の扱いを問いとして提起したが、現行の運用は確認していない。断定は避けている。",
+      "dpaは英国を法的拘束力ある文書への反対国に挙げたが、他の報道と一致しないため本文では扱っていない。"
+    ]
+  }
+}
