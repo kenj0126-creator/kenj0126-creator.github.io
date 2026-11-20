@@ -1,0 +1,1129 @@
+{
+  "edition_date": "2026-11-21",
+  "generated_at": "2026-11-21T06:40:00+09:00",
+  "window_from": "2026-11-20T07:05:00+09:00",
+  "edition_title_ja": "都市と同盟領を叩く飽和攻撃と、成立した予算・積み上げを迫る建議",
+  "edition_title_en": "Saturation strikes on cities and allied soil, an enacted budget, and a call for bottom-up defence spending",
+  "edition_dek_ja": "100発のミサイルと400機の無人機の夜、台湾の国防追加予算、米中「共同ガードレール」、日本の防衛費総額。",
+  "edition_dek_en": "A night of 100 missiles and 400 drones, Taiwan's enacted defence top-up, the words of US–China 'joint guardrails', and Japan's fight over the next five-year defence total.",
+  "lead_points_ja": [
+    "ロシアが巡航ミサイル84発、弾道・極超音速ミサイル、無人機404機（ジェット型123機）でウクライナ全土を攻撃し、キーウの3つの橋を損傷させ、巡航ミサイルとジェット型無人機がポーランド南東部に落下した。クリミア橋への3度の攻撃に対する「報復」が、都市インフラとNATO領の双方に及んだ一日である。台湾では立法院が追加予算6,076億台湾ドルを削減なしで成立させ、国防1,457億が強弓ミサイルの量産と無人機調達に動き出した。",
+    "トランプ大統領は帰国後の会見で、習主席と超知能の「共同のガードレール」で一致したと述べる一方、「SIを勝ち取る者が勝つ」と競争の論理を強調し、米企業の海外データセンター建設に「巨額の税」を課すと表明した。ベセント財務長官は会談でフアン氏の件は「全く」話題にならず、H200の対中方針に変更はないと述べた。",
+    "ジュネーブのCCW運用検討会議は最終日も自律兵器マンデートの合意に至らず、協議は夜間に続いた。外交官は「交渉に反対しているのは1か国だけ」と述べ、米国は5年間の交渉を提案している。採択の有無はジュネーブ時間20日夜の段階で公表に至っていない。",
+    "ホワイトハウスはケアンクロス国家サイバー長官を解任し、国防省CIOのデービス氏を代行に据えた。航空の地上停止やOutlookの世界的障害が続くなか、政権は「国家支援の攻撃ではない」と説明している。欧州委員会は10月の侵入で攻撃者がAIツールを使ったことを認めた。",
+    "日本では財政制度等審議会が、次期防衛費を「主体的判断に基づく現実的な積み上げ」で決めるよう建議し、防衛省の70〜80兆円試算に「金額やGDP比ありきではない」と釘を刺した。小泉防衛相は人的基盤の強化のための予算確保を求め、維新は70兆円を要求した。"
+  ],
+  "lead_points_en": [
+    "Russia struck across Ukraine with 84 cruise missiles, ballistic and hypersonic missiles and 404 drones (123 jet-powered), damaging three Kyiv bridges, while a cruise missile and a jet drone fell in south-eastern Poland. The 'retaliation' for three strikes on the Crimean Bridge reached both urban infrastructure and NATO territory. In Taiwan the legislature enacted a NT$607.6bn supplementary budget with no cuts, releasing NT$145.7bn for Chiang Kung missile production and drone procurement.",
+    "At his post-trip press conference Trump said he and Xi agreed on 'some joint guardrails' for superintelligence while stressing that 'whoever wins SI wins', and threatened a 'tremendous tax' on US firms building data centres abroad. Treasury Secretary Bessent said Jensen Huang did 'not at all' come up and that H200 policy toward China is unchanged.",
+    "The CCW Review Conference in Geneva ended its final scheduled day without agreement on an autonomous-weapons mandate, with talks running into the night. A diplomat said only one delegation opposes a negotiation-focused process; the US proposed a five-year track. No outcome had been published as of Friday night Geneva time.",
+    "The White House removed National Cyber Director Sean Cairncross and installed Pentagon CIO Kirsten Davies as acting director amid a nationwide ground stop and a global Outlook outage that the administration says are not state-sponsored attacks. The European Commission confirmed that attackers used an AI tool in October's intrusion.",
+    "Japan's Fiscal System Council urged that the next five-year defence total be built up 'realistically, on Japan's own judgement', warning that the MOD's ¥70–80tn estimate must not be driven 'by amounts or GDP ratios'. Defence Minister Koizumi asked for funds to strengthen the personnel base; Ishin demanded ¥70tn."
+  ],
+  "items": [
+    {
+      "id": "cl-20261121-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "ロシア、ミサイル約100発と無人機404機でウクライナを夜間攻撃　キーウの3橋が損傷、ポーランドにKh-101が落下",
+      "title_en": "Russia fires about 100 missiles and 404 drones at Ukraine overnight; three Kyiv bridges damaged and a Kh-101 lands in Poland",
+      "lead_ja": "ロシア軍は11月19日18時から20日朝にかけて、巡航ミサイル84発、弾道・極超音速ミサイル、無人機404機（うちジェット推進型123機）でウクライナ全土を攻撃したとウクライナ空軍が発表した。キーウでは3つの橋が損傷し、西部のエネルギー施設が集中的に狙われ、全国で12人が死亡した。巡航ミサイル2発とジェット型無人機1機とみられる物体がポーランド南東部に落下し、ルッテNATO事務総長は「明らかに危険」と述べた。",
+      "lead_en": "From 18:00 on 19 November to the morning of 20 November, Russia attacked Ukraine with 84 cruise missiles, ballistic and hypersonic missiles and 404 drones (123 of them jet-powered), the Ukrainian Air Force said. Three bridges in Kyiv were damaged, energy facilities in the west were hit hardest, and 12 people were killed nationwide. Objects believed to be two cruise missiles and a jet drone fell in south-eastern Poland; NATO Secretary General Rutte called the incident 'clearly dangerous'.",
+      "sections": [
+        {
+          "heading_ja": "ジェット型123機と巡航ミサイル84発の同時運用",
+          "heading_en": "123 jet-powered Shaheds and 84 cruise missiles in one wave",
+          "paragraphs_ja": [
+            "ウクライナ空軍の発表によれば、ロシアはKh-101、カリブル、イスカンデルKの巡航ミサイル84発、イスカンデルMとS-400を転用した弾道ミサイル、極超音速対艦ミサイル「ツィルコン」、無人機404機を投入し、無人機のうち123機がジェット推進型であった。前日19日の攻撃（98機中61機）に続き、ジェット型の比率は高い水準で推移している。空軍は10時30分までに462目標（弾道3、巡航79、無人機380、うちジェット型102）を無力化し、23か所に着弾、10か所に残骸が落下したと発表した。弾道・ツィルコンの発射数は公表されていない。",
+            "空軍のイフナト報道官によれば、最初にカリブルが、続いてKh-101が発射され、巡航ミサイルの多くは西部のエネルギー施設へ、弾道ミサイルはキーウとその周辺へ向かった。エネルギー省は発電所と送配電の変電所が被害を受け、原子力発電所が出力を下げたと説明し、西部の750kV変電所への着弾もエネルギー当局者が伝えた。リヴィウ、ザカルパッチャ、イヴァーノ・フランキーウシク各州で停電が生じた。数値は空軍とエネルギー省の発表に基づき、独立の検証は得られていないため、信頼度はB2とする。"
+          ],
+          "paragraphs_en": [
+            "According to the Ukrainian Air Force, Russia launched 84 Kh-101, Kalibr and Iskander-K cruise missiles, Iskander-M and repurposed S-400 ballistic missiles, Zircon hypersonic anti-ship missiles and 404 drones, 123 of them jet-powered. After the 19 November raid (61 of 98 drones), the jet-powered share remains high. By 10:30 the Air Force reported 462 targets neutralised (3 ballistic, 79 cruise, 380 drones including 102 jet-powered), with impacts at 23 locations and debris at 10. The number of ballistic and Zircon launches was not disclosed.",
+            "Air Force spokesman Yurii Ihnat said Kalibrs were fired first, then Kh-101s; most cruise missiles headed for energy facilities in the west, while ballistic missiles were aimed mainly at Kyiv and its region. The Energy Ministry said power plants and transmission and distribution substations were hit and nuclear plants reduced output; an energy official reported a strike on a 750 kV substation in the west. Outages followed in Lviv, Zakarpattia and Ivano-Frankivsk regions. The figures rest on Air Force and ministry statements without independent verification, hence a reliability code of B2."
+          ]
+        },
+        {
+          "heading_ja": "ドニプロ川の橋を狙った弾道ミサイル",
+          "heading_en": "Ballistic missiles aimed at the Dnipro bridges",
+          "paragraphs_ja": [
+            "キーウではポジリスコ・ヴォスクレセンスキー橋、南橋、ダルニツキー橋の3橋が損傷したとクリチコ市長が述べ、コレツキー首相は市内で少なくとも6人が死亡し約15人が負傷したと説明した。リヴィウでは鉄道駅への着弾で2人が死亡し、ハルキウで1人、スロヴィャンシクで1人が死亡し、全国の死者は12人、負傷者は82人に達した。プーチン大統領は「われわれの報復行動は、彼らが橋に対して行ったことよりはるかに痛みを伴うものになる」と述べ、クリミア橋への1週間で3度の攻撃に対する報復であることを明示した。",
+            "ドニプロ川の橋を弾道ミサイルで狙う行動は、クリミア橋の道路部と鉄道部を狙ったウクライナの作戦に対する対称的な応答として読める。キーウの橋は左岸と右岸を結ぶ軍民共用の動脈であり、損傷の程度と復旧期間が明らかになるにつれ、双方が相手の橋梁を標的に加えるエスカレーションの段階が評価の焦点となる。報道官は巡航ミサイル1発がポーランドに逸れた可能性を指摘しており、西部への集中攻撃は国境を越える副作用を伴った。"
+          ],
+          "paragraphs_en": [
+            "In Kyiv, Mayor Klitschko said the Podilsko-Voskresenskyi, Southern and Darnytskyi bridges were damaged, and Prime Minister Koretskyi reported at least six dead and about 15 injured in the city. A strike on the railway station in Lviv killed two; one person died in Kharkiv and one in Sloviansk, bringing the national toll to 12 dead and 82 injured. Putin said 'our retaliatory actions will be far more painful than what they did to the bridge', framing the raid as revenge for three strikes on the Crimean Bridge within a week.",
+            "Targeting the Dnipro bridges with ballistic missiles reads as a symmetrical answer to Ukraine's operations against the road and rail decks of the Crimean Bridge. Kyiv's bridges are dual-use arteries between the left and right banks, so the extent of damage and repair time will shape the assessment of an escalation in which both sides now add the other's bridges to the target set. The spokesman noted that one cruise missile probably strayed into Poland, so the concentration on the west came with a cross-border side effect."
+          ]
+        },
+        {
+          "heading_ja": "ポーランド領内に落下した3つの物体",
+          "heading_en": "Three objects down on Polish territory",
+          "paragraphs_ja": [
+            "ポーランドのコシニャク・カミシュ国防相は、Kh-101巡航ミサイル1発、別のミサイル1発、ジェット推進型と推定される無人機1機の計3物体が領空を侵犯したと述べた。ウクライナ国境から約60kmのノヴィ・リポヴィエツ、近接するフミエレク、南に約50kmのモウォディチ、西のルドニク・ナド・サネムで落下や爆発音が報告され、負傷者はなかった。アレクサンドルフ郡長は5時40分（GMT）に長さ約7mの物体が落下し「黒い煙」と「大きなきのこ雲」を見たと述べ、ジェシュフ空港では管制官が退避した。",
+            "トゥスク首相は「意図的な挑発に直面しているようだ」と述べ、物体がロシアのものであることに「疑いはない」とした。国防相は、仏英とバルト3国の国防相および8か国の参謀総長が訪問し、「有志連合」の演習が行われていた日程と重なることは「偶然ではない」と述べ、NATOに東翼の支援強化を求める方針を示した。ルッテ事務総長は「明らかに危険」とXに投稿し、21日にワルシャワを訪問する。ロシア大使館は論評の求めに応じておらず、第4条協議の発動は報じられていない。"
+          ],
+          "paragraphs_en": [
+            "Polish Defence Minister Kosiniak-Kamysz said three objects violated Polish airspace: a Kh-101 cruise missile, a second missile and most likely a jet-powered drone. Impacts or explosions were reported at Nowy Lipowiec, about 60 km from the Ukrainian border, nearby Chmielek, Mołodycz about 50 km to the south and Rudnik nad Sanem to the west, with no injuries. The Aleksandrów county head said an object about 7 m long fell at 05:40 GMT with 'black smoke' and 'one large, distinct mushroom cloud'; air traffic controllers at Rzeszów airport were evacuated.",
+            "Prime Minister Tusk said 'it seems we are dealing with an intentional provocation' and that there was 'no doubt' the objects were Russian. The defence minister said the timing, coinciding with visits by the French, British and Baltic defence ministers and eight chiefs of staff and with Coalition of the Willing exercises, 'is no accident', and that Poland would ask NATO for more support on the eastern flank. Secretary General Rutte called the incident 'clearly dangerous' on X and will visit Warsaw on 21 November. The Russian embassy had not responded to requests for comment, and no Article 4 consultation had been reported."
+          ]
+        }
+      ],
+      "watch_next_ja": "キーウ3橋の損傷評価と復旧期間。11月21日：ルッテ事務総長のワルシャワ訪問とポーランドの要請内容。弾道・ツィルコンの発射数と迎撃率の公表。ジェット型シャヘドの比率（19日61/98、20日123/404）の推移。",
+      "watch_next_en": "Damage assessment and repair time for Kyiv's three bridges. 21 Nov: Rutte's Warsaw visit and Poland's requests. Disclosure of ballistic/Zircon launch numbers and interception rates. Trend in the jet-powered Shahed share (61/98 on 19 Nov, 123/404 on 20 Nov).",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "ウクライナ空軍、ポーランド国防省",
+      "publisher_en": "Ukrainian Air Force; Polish Ministry of National Defence",
+      "sources": [
+        {
+          "title": "Ukraine's air defenses down 82 missiles, 380 Russian drones overnight",
+          "url": "https://www.ukrinform.net/rubric-ato/4186737-ukraines-air-defenses-down-82-missiles-380-russian-drones-overnight.html",
+          "publisher": "Ukrinform",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Air defense forces shoot down 82 out of 84 Russian cruise and ballistic missiles, neutralize 380 UAVs",
+          "url": "https://en.interfax.com.ua/news/general/1239749.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russian attacks kill 12, injure 82 across Ukraine over past day as country reels from mass overnight strike",
+          "url": "https://kyivindependent.com/russian-attacks-kill-12-injure-82-across-ukraine-over-past-day-as-country-reels-from-mass-overnight-strike/",
+          "publisher": "Kyiv Independent",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia Fires Over 100 Missiles, 400 Drones at Ukraine in Overnight Attack: Air Force",
+          "url": "https://thedefensepost.com/2026/11/20/russia-fires-missiles-drones-ukraine/",
+          "publisher": "The Defense Post (AFP)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland condemns Russian airspace 'provocation'",
+          "url": "https://www.rte.ie/news/2026/1120/1600008-poland-russia-airspace-violations/",
+          "publisher": "RTÉ (Reuters)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland condemns Russian 'provocation' after airspace violations",
+          "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations",
+          "publisher": "Al Jazeera",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland Condemns Russian 'Provocation' After 3 Airspace Violations",
+          "url": "https://www.themoscowtimes.com/2026/11/20/poland-condemns-russian-provocation-after-3-airspace-violations-a94331",
+          "publisher": "The Moscow Times (Reuters)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Two Russian missiles and a drone hit Poland",
+          "url": "https://notesfrompoland.com/2026/11/20/unidentified-object-hits-poland-amid-russian-attacks-on-western-ukraine/",
+          "publisher": "Notes from Poland",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "isr-targeting"
+      ],
+      "actors": [
+        "UA",
+        "RU",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261120-05"
+    },
+    {
+      "id": "cl-20261121-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "台湾立法院、6,076億台湾ドルの追加予算を削減なしで三読　国防1,457億は強弓ミサイルの量産と無人機調達に充てる",
+      "title_en": "Taiwan's legislature passes a NT$607.6bn supplementary budget with no cuts; NT$145.7bn for defence funds Chiang Kung missile production and drones",
+      "lead_ja": "立法院は11月20日、2026年度（民国115年度）中央政府追加予算を歳出6,076億台湾ドル（約184億米ドル）の全額で三読通過させた。国防分野の1,457億台湾ドルは「防衛作戦能力を高める武器の購入・製造と戦闘部隊の加給」に充てられ、民衆党団が提出した中油増資2,338億の削除案は否決された。国民党団は統一地方選挙の8日前に「一毛不刪」で放行し、無人機調達は国内産を主とすることを条件に掲げた。",
+      "lead_en": "On 20 November the Legislative Yuan passed the FY2026 (ROC year 115) central government supplementary budget at third reading, with the full NT$607.6bn (about US$18.4bn) in spending intact. The NT$145.7bn defence portion covers 'weapons procurement and production to raise combat capability and allowances for combat troops', and a TPP motion to delete the NT$233.8bn CPC capital injection was voted down. The KMT caucus let the budget through 'without cutting a cent' eight days before local elections, attaching a demand that drone procurement be mainly domestic.",
+      "sections": [
+        {
+          "heading_ja": "歳出6,076億の全額照列と借入2,085億",
+          "heading_en": "NT$607.6bn approved in full, with NT$208.6bn in borrowing",
+          "paragraphs_ja": [
+            "中央社によれば、追加予算は歳入828億、歳出6,076億3,230万台湾ドルを原案どおり計上し、融資による借入2,085億5,411万も全額が認められた。行政院が9月に閣議決定した6つの重点分野には「強化国防」が含まれ、民生4,213億、災害復旧77億、児童・青年手当の準備費3億、軍人・公務員の専業加給107億（月額2,000元の引き上げを7月1日に遡及）が並ぶ。国民党団の主決議は無異議で可決され、政府に2028年1月末までの油・電気料金の全面凍結を求めた。民衆党団の中油増資2,338億を全額削除する案は採決で否決された。",
+            "行政院の李慧芝報道官は卓栄泰院長の意向として、与野党の「理性的な対話と十分な意思疎通」に謝意を示し、政府は「財政規律を厳守する」と述べた。国民党団の傅崐萁総召は20日朝の時点で約6,000億の支持を表明し、国防約1,500億はほぼ全額を認め、一部項目を凍結したうえで行政院の立法院への報告後に解凍すると説明していた。最終的に凍結が残ったかどうかは、立法院の議事録の公表を待つ必要がある。"
+          ],
+          "paragraphs_en": [
+            "According to CNA, the supplementary budget lists NT$82.8bn in added revenue and NT$607.6323bn in added spending as proposed, and the NT$208.5541bn in borrowing was approved in full. 'Strengthening national defence' is one of six priorities the Executive Yuan set in September, alongside NT$421.3bn for livelihoods, NT$7.7bn for disaster reconstruction, NT$300m to prepare the child and youth allowance, and NT$10.7bn for professional allowances for military personnel and civil servants (a NT$2,000 monthly rise backdated to 1 July). A KMT caucus resolution passed without objection, asking the government to freeze fuel and electricity prices through January 2028. A TPP motion to delete the NT$233.8bn CPC capital injection was defeated in a vote.",
+            "Executive Yuan spokesperson Lee Hui-chih, conveying Premier Cho Jung-tai's view, thanked the parties for 'rational dialogue and full communication' and said the Cabinet would 'strictly uphold fiscal discipline'. KMT caucus convener Fu Kun-chi had said on the morning of 20 November that the caucus supported about NT$600bn, accepted nearly all of the roughly NT$150bn for defence, and would freeze some items pending an Executive Yuan report to the legislature. Whether any freezes survived the final vote awaits publication of the legislative record."
+          ]
+        },
+        {
+          "heading_ja": "強弓の第1期量産と2027年の無人機4万機",
+          "heading_en": "First-phase Chiang Kung production and 40,000 drones in 2027",
+          "paragraphs_ja": [
+            "台北タイムズによれば、国防1,457億には強弓（天弓四型）ミサイルの第1期量産費が含まれ、特別予算法案の審議停滞で止まっていた国家中山科学研究院の外注と生産ライン整備が、来年度予算を待たずに着手できる。強弓は頼清徳総統が掲げる多層防空「T-Dome」の中核とされる。9月の行政院案では無人システム3種に558億を配分し、沿岸偵察無人機600機超、沿岸攻撃無人機4万機超、小型無人艇100隻超を2027年に取得する計画が示されていた。",
+            "無人機の内訳が最終的にどの程度維持されたかは、公表資料では確認に至っていない。国民党団は「無人機の調達は国内を主とすべきだ」と条件を付け、18日の質疑では民衆党が「非紅」部品の検証体制と9.8億の対無人機システムの検収不合格を追及していた。4万機規模の攻撃無人機は、ウクライナの戦場で示された低コスト無人機の消耗戦型運用を台湾海峡に移すものであり、国産供給網の整備速度と部品の出自確認が計画の実現を左右する。"
+          ],
+          "paragraphs_en": [
+            "The Taipei Times reports that the NT$145.7bn includes first-phase mass production of the Chiang Kung (Tien Kung IV) missile, allowing the National Chung-Shan Institute of Science and Technology to start outsourcing and production-line preparation without waiting for next year's budget, after the programme stalled during deliberation of a special budget bill. The Chiang Kung is described as a key component of President Lai Ching-te's multi-layered 'T-Dome' air defence. The Executive Yuan's September proposal allocated NT$55.9bn to three classes of uncrewed system: more than 600 coastal reconnaissance drones, more than 40,000 coastal attack drones and an initial batch of more than 100 small uncrewed surface vessels, all in 2027.",
+            "How much of the drone line survived in the enacted version has not been confirmed in published material. The KMT caucus attached a condition that drone procurement 'should be mainly domestic', and on 18 November the TPP had pressed on verification of 'non-red' components and a failed acceptance test of a NT$980m counter-drone system. A fleet of some 40,000 attack drones transfers the attritional, low-cost drone warfare seen in Ukraine to the Taiwan Strait, so the pace of building a domestic supply chain and tracing component origins will decide whether the plan is realised."
+          ]
+        },
+        {
+          "heading_ja": "選挙8日前の放行と特別予算法案の行方",
+          "heading_en": "Passage eight days before the elections, with the special budget bill still pending",
+          "paragraphs_ja": [
+            "三読は11月28日の統一地方選挙の8日前に行われた。国民党団は前日まで16案を院会採決に持ち越していたが、最終的に全項目を原案どおり通し、「一毛不刪」を選挙前の実績として示した。追加予算の成立により国防の2026年度分は確保されたが、頼政権が別途提出している複数年の国防特別予算法案と、2027年度総予算の審議は残っており、強弓の量産を本格化させる財源はそこで決まる。",
+            "追加予算は単年度の措置であり、無人機4万機や無人艇の取得が2027年に計画されている以上、特別予算法案の成否が調達の連続性を左右する。選挙後の立法院で与野党の構図が変わらない限り、国産条件や「非紅」部品の検証をめぐる駆け引きは、特別予算の審議でも繰り返される見通しである。"
+          ],
+          "paragraphs_en": [
+            "The third reading came eight days before the 28 November local elections. The KMT caucus had held 16 items over for floor votes until the previous day, but in the end passed every item as proposed and presented 'not a cent cut' as a pre-election record. The enacted top-up secures the 2026 defence tranche, but the Lai administration's separate multi-year special defence budget bill and the FY2027 general budget remain under deliberation, and the funding to scale up Chiang Kung production will be decided there.",
+            "Because the supplementary budget is a single-year measure and the 40,000 drones and the uncrewed vessels are planned for 2027, the fate of the special budget bill will determine procurement continuity. Unless the post-election balance in the legislature shifts, the bargaining over domestic-content conditions and 'non-red' component verification is likely to be repeated in the special budget deliberations."
+          ]
+        }
+      ],
+      "watch_next_ja": "立法院の議事録による国防項目の凍結の有無と無人機558億の最終配分。国防部による強弓量産と無人機調達の執行計画の公表。11月28日：統一地方選挙。国防特別予算法案と2027年度総予算の審議日程。",
+      "watch_next_en": "Legislative record on any frozen defence items and the final allocation of the NT$55.9bn drone line. MND's execution plan for Chiang Kung production and drone procurement. 28 Nov: local elections. Timetable for the special defence budget bill and the FY2027 general budget.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "台湾立法院",
+      "publisher_en": "Legislative Yuan (Taiwan)",
+      "sources": [
+        {
+          "title": "Legislature passes US$18.41 billion supplementary budget for 2026",
+          "url": "https://focustaiwan.tw/politics/202611200016",
+          "publisher": "Focus Taiwan (CNA)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Additional budget passes with no cuts",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868118",
+          "publisher": "Taipei Times",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "立院三讀115年度追加預算 歲出6076億元全數照列",
+          "url": "https://tw.news.yahoo.com/%E7%AB%8B%E9%99%A2%E4%B8%89%E8%AE%80115%E5%B9%B4%E5%BA%A6%E8%BF%BD%E5%8A%A0%E9%A0%90%E7%AE%97-%E6%AD%B2%E5%87%BA6076%E5%84%84%E5%85%83%E5%85%A8%E6%95%B8%E7%85%A7%E5%88%97-075322554.html",
+          "publisher": "中央社（Yahoo奇摩）",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "立院通過6,076億元追加預算 政院：回應民意的具體行動",
+          "url": "https://newtalk.tw/news/view/2026-11-20/1072327",
+          "publisher": "Newtalk新聞",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "115年度追加預算案拚今三讀 國民黨團擬放行6000億、無人機600億不刪",
+          "url": "https://www.ctwant.com/article/507613/",
+          "publisher": "CTWANT",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Taiwan seeks NT$145.7bn for missile defence and mass drone orders",
+          "url": "https://defencematters.eu/taiwan-supplementary-budget-missile-defence-mass-drones/",
+          "publisher": "Defence Matters",
+          "date": "2026-09-04",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "TW"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-14"
+    },
+    {
+      "id": "cl-20261121-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "トランプ大統領、習主席と超知能の「共同ガードレール」で一致と説明　海外データセンターに課税、H200方針は「変更なし」",
+      "title_en": "Trump says he and Xi agreed 'joint guardrails' on superintelligence, threatens a 'tremendous tax' on overseas data centres; Bessent says H200 policy unchanged",
+      "lead_ja": "トランプ大統領は11月20日正午（米東部時間）からホワイトハウスで記者会見し、深圳での会談で習近平国家主席と「いくつかの共同のガードレールを設ける」ことで一致したと述べ、「超知能（SI）を勝ち取る者が勝つ」と語った。同時に、米企業が海外にデータセンターを建設すれば「巨額の税」と「罰則」を課すと表明したが、法的根拠や時期は示していない。ベセント財務長官は同日、会談でフアン氏の件は「全く」話題にならず、H200の対中輸出方針に変更はないと述べた。",
+      "lead_en": "At a White House press conference starting at noon ET on 20 November, Trump said he and Xi Jinping had agreed in Shenzhen 'to do some joint guardrails' and declared that 'whoever wins SI wins'. He also said US companies building data centres abroad would face a 'tremendous tax' and 'penalties', without specifying legal authority or timing. Treasury Secretary Bessent said the same day that Jensen Huang did 'not at all' come up in the talks and that policy on H200 exports to China is unchanged.",
+      "sections": [
+        {
+          "heading_ja": "「共同ガードレール」の対象と形式は未公表",
+          "heading_en": "Scope and form of the 'joint guardrails' undisclosed",
+          "paragraphs_ja": [
+            "大統領は会見で、習主席が「超知能についてもわれわれの成果を祝福した」と述べ、「習主席と私は、いくつかの共同のガードレールを設けることで一致した」と語った。帰路のFoxの電話インタビューでは「われわれは双方とも、安全目的の穏当な規制を望んでいる」と述べている。中国外交部の19日の発表は、習主席が「AIが常に人間の統制下にあることを確保する」よう求めたと記録しており、「ガードレール」の対象、形式、交渉主体は双方の発表のいずれにも現れていない。",
+            "9月に合意されたAI事故の通報経路や「超知能」対話の具体化は、今回も文書として示されなかった。大統領は「SIを勝ち取る者が勝つ、覚えておけ」と競争の論理を強調し、「データセンターのために非常に激しく戦う。中国には渡さない」と続けた。ガードレールは競争の停止条件としてよりも、競争を続ける前提条件として語られている。"
+          ],
+          "paragraphs_en": [
+            "Trump said Xi 'congratulated me on how well we're doing in every way, but also with super intelligence', and that 'President Xi and I agree that we're going to do some joint guardrails'. In a phone interview with Fox on the way home he said 'we both want regulations, moderate regulations for safety purposes'. The Chinese Foreign Ministry's 19 November readout records Xi calling for AI to remain 'always under human control'; neither side's statements identify the scope, form or negotiating channel of the 'guardrails'.",
+            "The AI-incident notification channel and the 'superintelligence' dialogue agreed in September were again left without a document. Trump stressed the logic of competition, 'whoever wins SI wins, remember that', and added that 'we're going to fight very hard for the data centers because we're not going to let China' take them. The guardrails were framed as a precondition for continuing the race rather than a brake on it."
+          ]
+        },
+        {
+          "heading_ja": "海外データセンター課税は根拠と範囲が不明",
+          "heading_en": "An overseas data-centre tax without legal basis or scope",
+          "paragraphs_ja": [
+            "大統領は「中国がすべてを取ってしまう。そうはさせない」と述べ、米企業が海外にデータセンターを建てる場合「巨額の税を課す。ここに建ててほしい」と語った。「このことは自分のスタッフにもまだ言っていない」とも述べ、ブルームバーグは法的権限と実施方法が示されていないと指摘した。発言ではフィンランドでの建設計画に触れ、国内の立地としてテキサス、ルイジアナ、バージニア州ラウドン郡周辺を挙げ、ルイジアナでは「教師に5万ドル、住民に1万ドルずつ払わせる」と述べた。",
+            "ポリティコはメタ、アマゾン、グーグル、マイクロソフトが海外に大規模な計画を持つと整理し、データセンターの電力料金や水への反発が中間選挙で民主党を押し上げたと指摘した。中東や東南アジアでの米企業のデータセンター建設は「米国AIスタック」の輸出と遠隔アクセス規制の対象でもあり、課税が制度化されれば、同盟国との計算資源協力と対中輸出管理の双方に影響が及ぶ。"
+          ],
+          "paragraphs_en": [
+            "Trump said 'China will take all of them, and we're not allowing that to happen', and that US firms building abroad would face 'a tremendous tax. We want them to build it here'. He added 'I haven't even said that to my people', and Bloomberg noted he gave no legal authority or mechanism. He referred to a planned build in Finland and named Texas, Louisiana and the area around Loudoun County, Virginia as domestic sites, saying Louisiana should make companies pay teachers $50,000 and residents $10,000 each.",
+            "Politico noted that Meta, Amazon, Google and Microsoft have large projects abroad and that public anger over data centres' electricity bills and water use helped Democrats in the midterms. US data-centre construction in the Middle East and South-East Asia is also the vehicle for 'American AI stack' exports and the object of the new remote-access rule, so a tax, if institutionalised, would touch both compute cooperation with allies and export controls on China."
+          ]
+        },
+        {
+          "heading_ja": "フアン氏は「全く話題にならず」、H200は現行線",
+          "heading_en": "Huang 'not at all' discussed; H200 line holds",
+          "paragraphs_ja": [
+            "ベセント財務長官は20日のCNBCのインタビューで、会談でNvidiaのフアン前CEOやスパイ疑惑が話題になったかを問われ「いや、全くない」と答え、H200の対中輸出について「方針の変更は予想していない」と述べた。大統領はH200に「非常に固い線」を引いており、Nvidiaの出荷停止は「中国側の注文の少なさ」によるものだと説明した。遠隔アクセスについては「より常識的な手法」を取るとし、「分離は望まない。リスク低減が必要なだけだ」と語った。Nvidia株は同日午前に6%超下落し、CBSは大統領自身がFoxに「Nvidiaについてはあまり話さなかった」と述べたと伝えている。"
+          ],
+          "paragraphs_en": [
+            "Asked on CNBC on 20 November whether Huang or the espionage allegations around Nvidia came up in the Trump–Xi meeting, Bessent answered 'No, not at all', and said of H200 exports to China, 'I wouldn't anticipate any change in the policy'. He said Trump had drawn 'a very firm line' at the H200 and attributed Nvidia's halt in shipments to 'a paucity of orders from the Chinese'. On remote access he promised 'a more common sense approach', adding 'we don't want to decouple, we just need to de-risk'. Nvidia shares fell more than 6% in morning trade, and CBS reported Trump telling Fox he 'didn't talk much about Nvidia'."
+          ]
+        }
+      ],
+      "watch_next_ja": "「共同ガードレール」の文書化と米中の協議枠組み（担当部局・日程）の発表。データセンター課税の法的手段（大統領令、税制、関税）の提示と対象国。12月1〜2日：フアン氏とティーター氏の下院聴取。12月：ドラルG20での米中再会談。",
+      "watch_next_en": "Any document on the 'joint guardrails' and the US–China channel (agencies, dates). Legal vehicle for the data-centre tax (executive order, tax code, tariffs) and the countries covered. 1–2 Dec: House depositions of Huang and Teeter. December: Trump–Xi meeting at the G20 in Doral.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "ホワイトハウス、米財務省",
+      "publisher_en": "White House; US Treasury",
+      "sources": [
+        {
+          "title": "Trump Threatens to Tax Firms Building Data Centers Abroad",
+          "url": "https://news.bloomberglaw.com/artificial-intelligence/trump-threatens-to-tax-companies-building-data-centers-abroad",
+          "publisher": "Bloomberg Law",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Trump says he'll tax companies building data centers outside US",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-says-ll-tax-companies-195437358.html",
+          "publisher": "Politico (Yahoo News)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Trump threatens 'tremendous tax' on US firms building data centers abroad",
+          "url": "https://www.tag24.com/en/news/politics/politicians/donald-trump/trump-threatens-tremendous-tax-on-us-firms-building-data-centers-abroad-not-allowing-that-to-happen-3551176",
+          "publisher": "TAG24",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Trump's Marathon Press Conference 11-20-2026: Full Video And Transcript",
+          "url": "https://tommyxtopher.substack.com/p/trumps-marathon-press-conference",
+          "publisher": "Tommy Christopher (Substack, unofficial transcript)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Trump touts Asia deals and meeting with Xi and Putin at White House press conference",
+          "url": "https://www.cbsnews.com/live-updates/trump-press-conference-live-stream-2026-11-20/",
+          "publisher": "CBS News",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Scott Bessent Says Trump-Xi Talks Did Not Address Jensen Huang, Left Nvidia H200 Policy Unchanged",
+          "url": "https://stocktwits.com/news-articles/markets/equity/scott-bessent-says-trump-xi-talks-did-not-address-jensen-huang-left-nvidia-h200-policy-unchanged/cNbSZuYR915",
+          "publisher": "Stocktwits",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent",
+          "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+          "publisher": "CNBC",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "compute-export",
+        "frontier-safety"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-01"
+    },
+    {
+      "id": "cl-20261121-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "CCW運用検討会議の最終日、自律兵器マンデートの合意は夜間に持ち越し　「反対は1か国のみ」と外交官、米は5年間の交渉を提案",
+      "title_en": "CCW Review Conference's final day ends without an autonomous-weapons mandate; a diplomat says 'only one delegation' objects, US proposes five years",
+      "lead_ja": "ジュネーブの第7回CCW運用検討会議は11月20日の最終日、自律兵器に関する今後の作業マンデートを含む最終文書の合意に至らず、協議は夜間に続いた。匿名の外交官はAFPに「何かを交渉する必要性についてコンセンサスに非常に近い。交渉に焦点を当てた手続きに積極的に反対しているのは1つの代表団だけだ」と述べた。ロシアは前日に最終報告書案の編集変更を要求し、米国は5年間の交渉期間を提案しており、採択の有無はジュネーブ時間20日夜の段階で公表に至っていない。",
+      "lead_en": "On its final scheduled day, 20 November, the Seventh CCW Review Conference in Geneva had not agreed a final document including a mandate for future work on autonomous weapons, and talks ran into the night. An anonymous diplomat told AFP: 'We're very close to consensus on the need to negotiate something. There is only one delegation that is actively opposing a process that is focused on negotiations.' Russia had demanded editorial changes to the draft final report the day before, the US has proposed a five-year negotiating period, and no outcome had been published as of Friday night Geneva time.",
+      "sections": [
+        {
+          "heading_ja": "ロシアの編集要求と「1か国の反対」",
+          "heading_en": "Russia's editing demands and the 'one delegation'",
+          "paragraphs_ja": [
+            "AFPによれば、ロシアは16日の開会時にEUや市民社会のオブザーバー参加に異議を唱えて議題採択を阻み、19日には最終報告書案について中核的な論点と関係のない箇所を含む編集上の変更を要求した。dpaは、コンセンサス方式のもとで議題の採択が阻まれたことは「実質的な拒否権」に当たり、非公式協議しかできなかったと報じた。外交官は「反対は1つの代表団だけ」と述べて名指しを避けたが、両通信社はロシアを行き詰まりの中心に置いている。",
+            "ストップ・キラーロボットの18日の集計では、議定書に向けたマンデートを支持または受け入れ可能とする国は98か国、非同盟運動の声明を含めれば139か国に達する。米国は非拘束の合意に向けた5年間の交渉を提案し、ICRCとNGOは1年の期限を求めた。フランスは拘束的な規定と非拘束の措置を組み合わせる「ハイブリッド」案の支持を集めている。dpaは米、イスラエル、インド、英国を法的拘束力ある文書への反対国として挙げたが、英国の立場は他の報道と一致せず、確認を要する。"
+          ],
+          "paragraphs_en": [
+            "According to AFP, Russia blocked adoption of the agenda at the opening on 16 November by objecting to the participation of observers including the EU and civil society, and on 19 November demanded editorial changes to the draft final report, including passages unrelated to the core issues. dpa reported that blocking the agenda under consensus rules 'essentially amounts to a veto', leaving only informal consultations. The diplomat avoided naming the 'one delegation', but both agencies place Russia at the centre of the deadlock.",
+            "Stop Killer Robots counted 98 states on 18 November that support or are open to a mandate for a protocol, or 139 if a Non-Aligned Movement statement is included. The US proposed five years of negotiations toward a non-binding outcome; the ICRC and NGOs want a one-year deadline. France is gathering support for a 'hybrid' combining legally binding provisions with non-binding measures. dpa listed the US, Israel, India and the UK as opponents of a legally binding instrument, but the UK's position conflicts with other reporting and needs confirmation."
+          ]
+        },
+        {
+          "heading_ja": "失敗時の代替経路としてのクラスター弾条約",
+          "heading_en": "The Cluster Munitions Convention as a fallback path",
+          "paragraphs_ja": [
+            "グテーレス国連事務総長は16日「これらの無慈悲な兵器の使用と拡散を防ぐため行動を」と訴え、ICRCのシュポリャリッチ総裁は「戦争の将来を機械に委ねないことを確保する決定的な責任」を国家に求めた。レックス・インターナショナルのロヴォルド氏は、マンデートが得られなければ支持国は2008年のクラスター弾条約のようにCCWの外の枠組みに移る可能性があると述べ、フューチャー・オブ・ライフ研究所のヘヒル氏は「最終日になっても少数の国が進展を阻んでいる。続くなら国際的多数派はAI兵器の管理をどう達成するか決めなければならない」と述べた。",
+            "10月の国連総会第1委員会では自律兵器決議が賛成163、反対5、棄権9で採択されており、12月上旬の本会議採択が次の節目となる。CCWでマンデートが成立しない場合、賛成多数の国々が総会決議を根拠に別途の交渉過程を立ち上げるかどうかに焦点が移る。成立した場合も、期限の長さ（1年か5年か）と成果の法的性格（議定書か非拘束文書かハイブリッドか）が、自律兵器の規範形成の速度を決める。"
+          ],
+          "paragraphs_en": [
+            "UN Secretary-General Guterres urged states on 16 November to 'take action to prevent the use and spread of these merciless weapons', and ICRC President Spoljaric said states have 'the crucial responsibility to ensure that the future of warfare is not handed over to machines'. Magnus Lovold of Lex International said that without a mandate supporters might move outside the CCW, as with the 2008 Convention on Cluster Munitions, and Anna Hehir of the Future of Life Institute said that 'on the final day of talks, a minority of states continue to block progress' and that 'the international majority must decide how it will achieve AI weapons controls' if they persist.",
+            "In October the UN General Assembly's First Committee adopted an autonomous-weapons resolution by 163 to 5 with 9 abstentions; the plenary vote in early December is the next milestone. If no mandate emerges from the CCW, attention shifts to whether the majority launches a separate negotiating process on the strength of the UNGA resolution. If one does emerge, the length of the deadline (one year or five) and the legal character of the outcome (protocol, non-binding text or hybrid) will set the pace of norm-building on autonomous weapons."
+          ]
+        }
+      ],
+      "watch_next_ja": "最終文書と自律兵器マンデートの採択の有無（議長の総括、国連ジュネーブの発表）。ストップ・キラーロボット、HRW、ICRCの反応声明。12月上旬：国連総会本会議でのLAWS決議の採択とCCW外の交渉過程の提案の有無。",
+      "watch_next_en": "Whether a final document and an autonomous-weapons mandate were adopted (chair's summary, UN Geneva release). Reaction statements from Stop Killer Robots, HRW and the ICRC. Early December: UNGA plenary vote on the LAWS resolution and any proposal for a process outside the CCW.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "CCW第7回運用検討会議",
+      "publisher_en": "Seventh CCW Review Conference",
+      "sources": [
+        {
+          "title": "Global leaders struggle on whether to regulate 'killer robots' at UN conference",
+          "url": "https://www.cp24.com/news/world/2026/11/20/global-leaders-struggle-on-whether-to-regulate-killer-robots-at-un-conference/",
+          "publisher": "CP24 (AFP)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "UN talks on restricting use of 'killer robots' hampered by Russia",
+          "url": "https://www.yahoo.com/news/articles/un-talks-restricting-killer-robots-154836774.html",
+          "publisher": "dpa (Yahoo News)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "98 States support a mandate for a legally binding instrument at mid-point of CCW Review Conference",
+          "url": "https://www.stopkillerrobots.org/news/98-states-support-a-legally-binding-instrument-on-autonomous-weapons-at-mid-point-of-review-conference-of-the-convention-on-certain-conventional-weapons/",
+          "publisher": "Stop Killer Robots",
+          "date": "2026-11-18",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "NGOs slam Russia, U.S. snagging 'killer robots' talks",
+          "url": "https://tribune.net.ph/2026/11/19/ngos-slam-russia-us-snagging-killer-robots-talks",
+          "publisher": "Daily Tribune (AFP)",
+          "date": "2026-11-19",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "governance-norms"
+      ],
+      "actors": [
+        "UN",
+        "US",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "ccw-gge",
+        "un-ga"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-09"
+    },
+    {
+      "id": "cl-20261121-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ホワイトハウス、ケアンクロス国家サイバー長官を解任　国防省CIOのデービス氏が代行、相次ぐ障害は「国家支援の攻撃ではない」",
+      "title_en": "White House removes National Cyber Director Cairncross; Pentagon CIO Davies steps in as acting director amid outages deemed 'not state-sponsored'",
+      "lead_ja": "ホワイトハウスは11月19日、ショーン・ケアンクロス国家サイバー長官を解任し、国防省のカーステン・デービス最高情報責任者（CIO）を長官代行に任命した。全米の航空の地上停止、Microsoft Outlookの世界的障害、NSAの機密通信網の停止と報じられる障害が相次ぐなかでの交代であり、政権は「協調的なサイバー攻撃の兆候はない」としている。後任の長官は上院の承認を要し、1月からは民主党が上院の多数を占める。",
+      "lead_en": "On 19 November the White House removed National Cyber Director Sean Cairncross and named Pentagon Chief Information Officer Kirsten Davies as acting director. The change came amid a nationwide aviation ground stop, a global Microsoft Outlook outage and a reported disruption of an NSA classified network, which the administration says show 'no indication of a coordinated cyberattack'. A permanent successor needs Senate confirmation, and Democrats take control of the Senate in January.",
+      "sections": [
+        {
+          "heading_ja": "障害の原因説明と人事の理由の齟齬",
+          "heading_en": "A gap between the outage explanation and the personnel rationale",
+          "paragraphs_ja": [
+            "ロイターによれば、ホワイトハウスに近い人物は19日「大統領はケアンクロス氏の解任を全面的に支持した」と述べ、Axiosはスティーブン・ミラー氏が解任を推し、当局者の一人が同氏は「職務に必要な強いサイバーの実績を欠いていた」と語ったと報じた。ケアンクロス氏は2025年8月に上院承認を受け、以前はミレニアム・チャレンジ公社を率い、共和党全国委員会の幹部を務めた。同氏は19日夜の声明で政権に仕えたことを「生涯の名誉」と述べた。",
+            "障害について、米情報機関の高官は18日「保守や技術的変更に伴う個別のサービス障害であり、組織的・国家支援の攻撃ではない」と述べ、ホワイトハウスも同日「協調的なサイバー攻撃、国家支援の活動、悪意ある主体の兆候はない」と声明した。ルビオ国務長官もマニラで、障害同士のつながりや敵対行為の証拠はないと述べた。ロイターは、AI時代に発見された脆弱性の修正を企業が急いでいることとの関連を専門家が指摘していると伝えたが、確認された因果関係ではない。ホーリー上院議員は17日、議員への説明を要求していた。"
+          ],
+          "paragraphs_en": [
+            "Reuters reported a person close to the White House saying on 19 November that 'the president fully supported firing Sean Cairncross from his position'; Axios reported that Stephen Miller pushed for the dismissal and that one official said Cairncross 'lacked the strong cyber credentials to perform the job'. Cairncross was confirmed by the Senate in August 2025, previously led the Millennium Challenge Corporation and was a senior Republican National Committee official. In a statement on the evening of 19 November he called serving in the administration 'the honor of a lifetime'.",
+            "On the outages, a senior US intelligence official said on 18 November they were isolated service disruptions tied to maintenance and technical changes, 'not a coordinated or state-sponsored attack', and the White House said the same day it 'sees no indication of a coordinated cyberattack, state-sponsored activity, or malicious actors'. Secretary of State Rubio, in Manila, said there was no evidence linking the outages or of hostile action. Reuters relayed experts' suggestion that companies rushing to patch vulnerabilities discovered in the AI era could be a factor, which remains unconfirmed. Senator Hawley had demanded a briefing for lawmakers on 17 November."
+          ]
+        },
+        {
+          "heading_ja": "国防省CIOの空白と大統領サイバー顧問の役割",
+          "heading_en": "A vacancy at the Pentagon CIO and the role of the president's cyber adviser",
+          "paragraphs_ja": [
+            "デービス氏は2025年12月に国防省CIOに就任し、ユニリーバのCISO、エスティローダー、HPE、シーメンスなどで技術・サイバーの要職を歴任した。CIOとしてはDell（97億ドル、5月）とOracle（70億ドル、7月）の大型契約を結び、CMMCの第三者評価の停止を決めた。Xへの投稿で「われわれの機会は、今後何世代にわたってサイバー領域を支配することだ」と述べた。Breaking Defenseはヘグセス国防長官が異動を確認したと報じ、国防省CIOの職務を誰が引き継ぐかは明らかになっていない。",
+            "国家サイバー長官室は2021年に設置された大統領の最高サイバー顧問であり、AIによる攻撃の自律化が進むなかで民間と政府の防御を調整する役割を担う。上院のキャントウェル・ラウンズ両議員がAIサイバー脅威は防御を「上回っている」と超知能タスクフォースに書簡を送った直後の交代であり、下院には「国家サイバー・AI調査委員会」法案が出ている。調整機能の空白期間の長さと、上院承認を要する後任の選定が実務上の論点になる。"
+          ],
+          "paragraphs_en": [
+            "Davies became Pentagon CIO in December 2025 after senior technology and cyber roles including CISO at Unilever and positions at Estée Lauder, HPE and Siemens. As CIO she signed large enterprise deals with Dell ($9.7bn, May) and Oracle ($7bn, July) and suspended CMMC third-party assessments. On X she wrote that 'our opportunity is to dominate the cyber landscape for generations to come'. Breaking Defense reported that Defense Secretary Hegseth confirmed the move, and it is not yet clear who will assume the Pentagon CIO's duties.",
+            "The Office of the National Cyber Director, created in 2021, is the president's top cyber adviser and coordinates private and public defence as AI-driven attacks become more autonomous. The change follows the letter in which Senators Cantwell and Rounds told the Super Intelligence Task Force that AI cyber threats are 'outpacing' defences, and a House bill would create a National Cyber and AI Commission. The length of the coordination gap and the choice of a Senate-confirmable successor are the practical questions."
+          ]
+        }
+      ],
+      "watch_next_ja": "国防省CIOの後任・代行の指名。国家サイバー長官の正式な後任指名と上院の日程。航空の地上停止とOutlook障害に関する政府の技術的説明の公表。下院「国家サイバー・AI調査委員会」法案の審議。",
+      "watch_next_en": "Naming of an acting or permanent Pentagon CIO. A formal nominee for National Cyber Director and the Senate timetable. Published technical explanations of the aviation ground stop and the Outlook outage. Progress of the House bill for a National Cyber and AI Commission.",
+      "japan_relevance": false,
+      "date": "2026-11-19",
+      "stage": "",
+      "publisher": "ホワイトハウス、米国防省",
+      "publisher_en": "White House; US Department of War",
+      "sources": [
+        {
+          "title": "Pentagon CIO replaces White House national cyber director after tech outages",
+          "url": "https://www.yahoo.com/news/politics/articles/pentagon-cio-replaces-white-house-171222260.html",
+          "publisher": "Reuters (Yahoo News)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "White House Reportedly Replaces Cyber Director Sean Cairncross Amid Widespread US Tech Outages",
+          "url": "https://www.yahoo.com/news/politics/articles/white-house-reportedly-replaces-cyber-120734226.html",
+          "publisher": "Stocktwits (Yahoo News)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Pentagon CIO Davies tapped as acting National Cyber Director",
+          "url": "https://breakingdefense.com/2026/11/pentagon-cio-davies-tapped-as-acting-national-cyber-director/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Who is Kirsten Davies, the White House's new acting cyber director?",
+          "url": "https://www.washingtonexaminer.com/news/white-house/4809773/kirsten-davies-white-house-cyber-director/",
+          "publisher": "Washington Examiner",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261121-06",
+      "rank": 6,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "財政審、次期防衛費は「主体的判断に基づく現実的な積み上げ」を建議　70〜80兆円試算に「GDP比ありきではない」",
+      "title_en": "Japan's Fiscal System Council urges a 'realistic, bottom-up' next defence budget on Japan's own judgement, warning against 'amount- or GDP-ratio-first' targets",
+      "lead_ja": "財務相の諮問機関である財政制度等審議会は11月20日、2027年度予算編成に向けた建議をまとめ、2027〜31年度の防衛費について「わが国自身の主体的判断に基づき、現実的な積み上げを行っていくことが重要だ」と提言した。無人機の大量調達や長期戦への備えで防衛費の増大が見込まれるとしつつ、防衛財源の安定確保と財政の持続性への配慮を求めた。小泉防衛相は同日、物価高と円安に加え、自衛官の処遇改善と人的基盤の強化のためにも必要な防衛費を確保したい考えを示した。",
+      "lead_en": "On 20 November the Fiscal System Council, an advisory body to the finance minister, adopted its recommendations for the FY2027 budget, saying it is 'important to build up defence spending realistically, on Japan's own independent judgement' for FY2027–31. It anticipates growth driven by mass drone procurement and preparation for protracted conflict, while demanding stable defence revenue and attention to fiscal sustainability. Defence Minister Koizumi said the same day he wants to secure the funds needed for better treatment of SDF personnel and a stronger personnel base, on top of inflation and yen weakness.",
+      "sections": [
+        {
+          "heading_ja": "70〜80兆円試算と「GDP比ありきではない」",
+          "heading_en": "The ¥70–80tn estimate and 'not GDP-ratio first'",
+          "paragraphs_ja": [
+            "共同通信によれば、防衛省は2027〜31年度の5年間に、現行5か年計画の約2倍となる70〜80兆円規模が必要と当初試算している。建議は、米国が同盟国に国防費GDP比3.5%を求めていることを念頭に「防衛力の強化は金額やGDP比ありきではない」と記し、増田寛也分科会長代理は会見で「防衛費が膨れあがっていくことに対し、国民の理解が大事だ」と政府の説明責任を強調した。財源については「市場の信認確保が極めて重要だ」と述べた。",
+            "政府内では5年総額を50兆円台前半とする財務省側の案と60兆円を軸とする調整が報じられ、高市首相は19日「金額ありきではない」として財政の持続可能性への配慮を示したとロイターが伝えた。日本維新の会は20日、安保3文書の改定に向けて5年間70兆円の防衛費を要求したと時事通信が報じた。建議が無人機の「大量調達」を増大要因として明示したことは、装備の単価と数量の構造が正面装備中心から変わる見通しを財務当局も共有していることを示す。"
+          ],
+          "paragraphs_en": [
+            "According to Kyodo, the Ministry of Defense initially estimates that FY2027–31 will require ¥70–80tn, roughly double the current five-year plan. With the US pressing allies for defence spending of 3.5% of GDP, the recommendations state that 'strengthening defence capability should not start from an amount or a GDP ratio', and acting subcommittee chair Hiroya Masuda told reporters that 'public understanding is essential as defence spending balloons', stressing the government's duty to explain. On financing he said 'securing market confidence is extremely important'.",
+            "Within the government, a Finance Ministry option in the low ¥50tn range and a ¥60tn baseline are reported to be under negotiation, and Reuters reported Prime Minister Takaichi saying on 19 November that the figure 'should not come first', citing fiscal sustainability. Jiji reported that Nippon Ishin demanded ¥70tn over five years on 20 November ahead of the revision of the three security documents. By naming 'mass procurement of drones' as a growth driver, the council signals that the finance authorities too expect the unit-cost and quantity structure of equipment to shift away from major platforms."
+          ]
+        },
+        {
+          "heading_ja": "人的基盤と無人機を結ぶ予算の論理",
+          "heading_en": "A budget logic linking personnel and unmanned systems",
+          "paragraphs_ja": [
+            "小泉防衛相は20日、安保3文書の改定にあたり、物価高・円安によるコスト増に加え「自衛隊員の処遇改善や人的基盤の強化」のためにも必要な防衛費を確保したい考えを示した。防衛省が月末にも公表するとしている「ディフェンスAIビジョン」と、与党安保PTで政府が説明した無人機工場の「予備生産力」を新法人が保有する構想は、いずれも人員制約を無人化と自動化で補う方向にあり、建議が求める「現実的な積み上げ」の対象となる。",
+            "12月上旬の有識者会議報告、12月中旬の3文書改定の閣議決定、年末の2027年度予算案と並行して、5年総額の規模と財源が決まる。建議は税や国債の具体的な配分を示さず、財源論を与党税調に委ねた形である。無人機の大量調達と人的基盤の強化を同時に積み上げるには、調達単価の公表と更新周期の設計が必要であり、建議の「国民の理解」はその透明性を求めるものと読める。"
+          ],
+          "paragraphs_en": [
+            "Koizumi said on 20 November that, in revising the three security documents, he wants to secure defence funds for 'improving SDF personnel's treatment and strengthening the personnel base' in addition to cost increases from inflation and the weak yen. The 'Defense AI Vision' the ministry plans to publish by the end of the month and the scheme explained to the ruling-party security team for a new entity to hold 'reserve production capacity' such as drone factories both compensate for personnel constraints through unmanned systems and automation, and both fall within the council's 'realistic build-up'.",
+            "The five-year total and its financing will be settled alongside the expert panel's report in early December, Cabinet approval of the revised documents in mid-December and the FY2027 budget draft at year-end. The recommendations stop short of specifying tax or bond allocations, leaving revenue questions to the ruling party's tax commission. Building up mass drone procurement and the personnel base at the same time requires disclosed unit costs and a designed replacement cycle, and the council's call for 'public understanding' reads as a demand for that transparency."
+          ]
+        }
+      ],
+      "watch_next_ja": "財務省による建議全文の公表と防衛費の節の文言。11月末：防衛省「ディフェンスAIビジョン」。12月上旬：安保3文書改定の有識者会議報告。12月中旬：3文書改定の閣議決定と5年総額（50兆円台前半〜70兆円）の決着。12月下旬：2027年度予算案。",
+      "watch_next_en": "Publication of the council's full text and the wording of its defence section. End-Nov: MOD's Defense AI Vision. Early Dec: expert panel report on the three security documents. Mid-Dec: Cabinet approval and the five-year total (low ¥50tn to ¥70tn). Late Dec: FY2027 budget draft.",
+      "japan_relevance": true,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "財政制度等審議会（財務省）",
+      "publisher_en": "Fiscal System Council (Ministry of Finance, Japan)",
+      "sources": [
+        {
+          "title": "防衛費、現実的積み上げを　財政審、持続性配慮求める",
+          "url": "https://www.oanda.jp/lab-education/market_news/kn_2026112001001492/",
+          "publisher": "共同通信（OANDA配信）",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "防衛費、現実的積み上げを 財政審、持続性配慮求める",
+          "url": "https://ryukyushimpo.jp/kyodo/entry-5608944.html",
+          "publisher": "共同通信（琉球新報）",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "小泉防衛相 自衛隊人的基盤強化に必要な防衛費確保したい考え",
+          "url": "https://news.web.nhk/newsweb/na/nd-20261120de79016",
+          "publisher": "NHK",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "維新、防衛費７０兆円要求　安保３文書改定巡り",
+          "url": "https://www.jiji.com/jc/article?k=2026112001121&g=pol",
+          "publisher": "時事通信",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": false
+        },
+        {
+          "title": "5年間の防衛費、金額ありきでないと高市首相　「財政の持続可能性に配慮」",
+          "url": "https://topics.smt.docomo.ne.jp/amp/article/reuters/world/reuters-20261119121",
+          "publisher": "ロイター（dメニューニュース）",
+          "date": "2026-11-19",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "governance-norms"
+      ],
+      "actors": [
+        "JP",
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261121-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "欧州委員会、10月の侵入で攻撃者のAIツール使用を確認　人事・医療費精算・翻訳システムの停止は10日超",
+      "title_en": "European Commission confirms attackers used an AI tool in October's intrusion; HR, medical-reimbursement and translation systems taken down for over 10 days",
+      "brief_text_ja": "欧州委員会のレニエ報道官は11月20日の記者会見で、10月22日に検知し26日に確認した委員会へのサイバー攻撃について、攻撃者がAIツールを使用していたと認めたとセキュリティウィークが報じた。委員会は「保護的・予防的措置として複数のアプリケーションを一時停止」し、人事システムSysper、医療費精算のMyPMO、翻訳システムが影響を受け、ポリティコによれば障害は10日を超えた。報道官はツールの名称と攻撃主体を明らかにせず、身代金要求も「把握していない」としたが、約2週間前にCERT-EUが「公開によって脅威主体の採用が加速する公算が高い」と警告した自律型侵入基盤ARTEXとの関係は確認されていない。",
+      "brief_text_en": "Commission spokesperson Thomas Regnier confirmed at a press conference on 20 November that attackers used an AI tool in the cyberattack detected on 22 October and confirmed on 26 October, SecurityWeek reported. The Commission 'temporarily took down several applications' as a 'protective and preventive measure'; the Sysper HR system, the MyPMO medical-reimbursement system and translation systems were affected, and Politico reported disruption of more than 10 days. Regnier did not name the tool or the attacker and said he was not aware of a ransom demand; a link to the ARTEX autonomous intrusion framework, about which CERT-EU warned two weeks earlier that 'public availability will likely accelerate adoption by threat actors', has not been confirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "欧州委員会",
+      "publisher_en": "European Commission",
+      "sources": [
+        {
+          "title": "European Commission Confirms AI-Assisted Cyberattack Disrupted Services",
+          "url": "https://www.securityweek.com/european-commission-confirms-ai-assisted-cyberattack-disrupted-services/",
+          "publisher": "SecurityWeek",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "eu"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261116-02"
+    },
+    {
+      "id": "cl-20261121-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "豪中、新たな「AI対話」の設置で合意　アルバニージー首相は李強首相と北京で、習主席はAIを「新興分野」の協力に挙げる",
+      "title_en": "Australia and China agree a new 'AI dialogue'; Albanese meets Li Qiang in Beijing while Xi lists AI among 'emerging areas' of cooperation",
+      "brief_text_ja": "ABCによれば、アルバニージー豪首相は11月20日夜（北京）に李強首相と会談し、豪中が新たなAI対話を設けることで合意した。首相は北京の経済界との会合で、AIは生産性と生活水準を変える力があり「そのため豪州はAI基準を策定している」と述べた。同日朝の深圳での習近平主席との会談について中国側の発表は、グリーン経済、新エネルギー、デジタル産業、気候対応とともにAIを「新興分野」の協力に挙げ、首相が「貿易、投資、AIなどの分野での実務協力」と「一つの中国政策」への関与を表明したと記しており、対話の形式や安全・人間の統制への言及は含まれていない。",
+      "brief_text_en": "According to the ABC, Prime Minister Albanese met Premier Li Qiang in Beijing on the evening of 20 November and the two sides agreed to establish a new Australia–China AI dialogue. At a business roundtable in Beijing he said AI could transform productivity and living standards and 'that's why Australia is developing AI standards'. China's readout of the morning Xi–Albanese meeting in Shenzhen lists AI among 'emerging areas' of cooperation alongside the green economy, new energy, digital industry and climate response, and records Albanese pledging 'practical cooperation in trade, investment, AI and other fields' and commitment to the one-China policy; it says nothing about the dialogue's format, safety or human control.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "豪州首相府、中国外交部",
+      "publisher_en": "Prime Minister of Australia; Chinese Ministry of Foreign Affairs",
+      "sources": [
+        {
+          "title": "Australia and China agree to AI talks as Albanese wraps up international trip",
+          "url": "https://www.abc.net.au/news/2026-11-21/australia-strikes-deal-on-ai-talks-with-china-after-apec/107411592",
+          "publisher": "ABC News (Australia)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "President Xi Jinping Meets with Australian Prime Minister Anthony Albanese",
+          "url": "https://ph.china-embassy.gov.cn/eng/chinew/202611/t20261120_12063986.htm",
+          "publisher": "Embassy of China in the Philippines (MFA readout)",
+          "date": "2026-11-20",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "frontier-safety"
+      ],
+      "actors": [
+        "AU",
+        "CN"
+      ],
+      "doc_type": "declaration",
+      "forums": [
+        "bilateral"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-19"
+    },
+    {
+      "id": "cl-20261121-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "スウェーデンのNordic Air Defence、ジェット型ゲラン対応の自律迎撃無人機K200を発表　ウクライナに拠点",
+      "title_en": "Sweden's Nordic Air Defence unveils the K200 autonomous interceptor for jet-powered Gerans, opens a staffed office in Ukraine for testing",
+      "brief_text_ja": "Nordic Air Defenceは11月20日、Kreuger 100XRの後継となる自律型迎撃無人機K200を発表した。単発プロペラの固定翼機で弾頭は500g、外部レーダーと光学・赤外線センサーの誘導で目標に接近し、終末段階は機上の赤外線カメラで誘導し、失敗時は再交戦できるとし、ロシアのジェット型Geran-3aを含む目標に対し追尾・正面・横切りの交戦に対応すると説明している。同社はウクライナに常駐の事務所を開設し、試験結果を開発に反映するとしており、速度・射程・価格は公表していない。",
+      "brief_text_en": "On 20 November Nordic Air Defence announced the K200, an autonomous drone interceptor succeeding the Kreuger 100XR. A single-propeller fixed-wing design with a 500 g warhead, it is guided toward targets by external radars and EO/IR sensors, uses an onboard IR camera for terminal guidance and can re-engage after a miss; the company says it supports tail-chase, head-on and crossing engagements against targets including Russia's jet-powered Geran-3a. It has opened a staffed office in Ukraine where testing will feed development; speed, range and price were not disclosed.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "announced",
+      "publisher": "Nordic Air Defence",
+      "publisher_en": "Nordic Air Defence",
+      "sources": [
+        {
+          "title": "Sweden's Nordic Air Defence launches K200 drone interceptor, pushes toward Ukraine tests",
+          "url": "https://breakingdefense.com/2026/11/swedens-nordic-air-defence-launches-k200-drone-interceptor-pushes-toward-ukraine-tests/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "UA",
+        "EU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261121-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米GAO、弾薬データ計画の所管を「超知能室」から取得・維持担当次官室へ移す国防省の要請に同意",
+      "title_en": "GAO accepts the Pentagon's request to move the munitions data-management plan from the Super Intelligence Office to Acquisition and Sustainment; readiness tool draws on 37 sources with no plan",
+      "brief_text_ja": "DefenseScoopによれば、GAOが11月19日に公表した9月の報告書の非機密版は、国防省に弾薬の補充を統括する包括的計画がなく、37のデータ源を取り込む「弾薬即応性イニシアティブ」ツールにもデータ管理計画と一貫した照合手順がないと指摘し、単一の計画、権限を持つ単一の部署、各軍との定期的な照合を勧告した。国防省は概ね同意し、データ計画の所管を旧CDAOの「超知能室」から取得・維持担当次官室に置くよう求め、GAOはこの要請に同意した。",
+      "brief_text_en": "According to DefenseScoop, the unclassified version of a September GAO report released on 19 November finds that the Pentagon has no overarching plan for munitions restocking and that its Munitions Readiness Initiative tool, which pulls from 37 data sources, lacks a data-management plan and consistent reconciliation; GAO recommends one plan, one office with authority and regular reconciliation with the services. The department largely agreed and asked that the data plan be owned by the Office of the Under Secretary for Acquisition and Sustainment rather than the Super Intelligence Office (formerly CDAO), a request GAO accepted.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "米政府監査院（GAO）",
+      "publisher_en": "US Government Accountability Office",
+      "sources": [
+        {
+          "title": "GAO calls for broad munitions plan, better data management from Pentagon",
+          "url": "https://defensescoop.com/2026/11/20/gao-pentagon-munitions-plan-data-management/",
+          "publisher": "DefenseScoop",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-18"
+    },
+    {
+      "id": "cl-20261121-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍、データ運用センター（ADOC）の試行を2027年10月まで1年延長　借用人員で運営し恒久組織化を上申へ",
+      "title_en": "US Army extends the Army Data Operations Center pilot by a year to October 2027, running on borrowed staff while seeking permanent status",
+      "brief_text_ja": "米陸軍データ運用センター（ADOC）のナッシュ副センター長は11月19日、AFCEAのデータフォーラムで、4月に180日の試行として設置された同センターの期間を「2026年10月1日から2027年10月1日まで」延長したと述べた。前線部隊のシステム障害を解決する窓口として機能し、当初2か月かかった問題が「数日」で解決するようになったとし、指揮統制将来能力局のエバンス局長は、構造の正式化など「長い準備期間を要する項目」が残り、人員はアバディーン試験場の他組織からの借用であると説明した。",
+      "brief_text_en": "Chad Nash, deputy of the Army Data Operations Center, said at the AFCEA Data Forum on 19 November that the centre, established in April under a 180-day pilot, has been extended 'from Oct. 1, 2026, to Oct. 1, 2027'. It acts as a clearinghouse for resolving system problems reported by units at the tactical edge, with issues that once took two months now solved 'in days'; Col. Reginald Evans, director of the Command and Control Future Capability Directorate, said 'long lead process items' such as formalising the structure remain and that personnel are borrowed from other organisations at Aberdeen Proving Ground.",
+      "japan_relevance": false,
+      "date": "2026-11-19",
+      "stage": "",
+      "publisher": "米陸軍",
+      "publisher_en": "US Army",
+      "sources": [
+        {
+          "title": "Army extends Data Operations Center pilot to Oct. 2027",
+          "url": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-19",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261121-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国・防衛事業庁長代理「AI基盤の先端戦力を迅速に獲得できる獲得体系へ転換」　与野党共同の「国防先端戦力事業法案」を後押し",
+      "title_en": "South Korea's acting DAPA chief pledges a shift to an acquisition system for rapid fielding of AI-based advanced forces, backing a bipartisan bill",
+      "brief_text_ja": "韓国防衛事業庁の金一東（キム・イルドン）庁長職務代理は11月20日、ソウルで開かれた「2026国防防衛産業フォーラム」の祝辞で「AI基盤の先端戦力の迅速な獲得と継続的な性能発展が可能な獲得体系への画期的な転換を推進している」と述べ、国民の力の柳龍源議員と民主党の金炳周議員が共同提出した「国防先端戦力事業に関する法律案」が獲得体系の革新を支えると期待を示した。基調講演で申範澈元国防次官は、北朝鮮がロシア・ウクライナ戦争で無人機戦の実戦経験を得ているとし「戦争経験の有無は天と地の差」と警戒を促した。",
+      "brief_text_en": "Kim Il-dong, acting head of the Defense Acquisition Program Administration, told the 2026 Defense Industry Forum in Seoul on 20 November that DAPA is 'pursuing a fundamental shift to an acquisition system that enables rapid acquisition and continuous performance upgrades of AI-based advanced forces', and said the bipartisan 'Act on Advanced Defense Capability Programs' sponsored by Yu Yong-weon (PPP) and Kim Byung-joo (DP) would underpin that reform. In the keynote, former Vice Defence Minister Shin Beom-chul warned that North Korea is gaining real combat experience in drone warfare from the Russia–Ukraine war, saying 'the gap between having and lacking war experience is as wide as heaven and earth'.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "韓国防衛事業庁",
+      "publisher_en": "Defense Acquisition Program Administration (ROK)",
+      "sources": [
+        {
+          "title": "[2026 국방방산포럼] 김일동 \"AI 첨단 전력 신속 획득…획득체계 획기적 전환 추진\"",
+          "url": "https://www.ajunews.com/view/20261120095411225",
+          "publisher": "아주경제",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "[2026 국방방산포럼] 신범철 \"북한 실전 경험 경계해야…어제의 성공 버리는 혁신 필요\"",
+          "url": "https://www.ajunews.com/view/20261120114223655",
+          "publisher": "아주경제",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261121-13",
+      "rank": 13,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Anthropic株、上場2日目は一時10%超下落し87ドル前後　AI株全体の売りと計算資源コストの増加が重荷",
+      "title_en": "Anthropic shares fall more than 10% intraday to around $87 on day two, weighed by an AI selloff and rising compute costs",
+      "brief_text_ja": "Anthropic株は上場2日目の11月20日、午前に一時85.80ドルまで下げ、11時20分（米東部時間）時点で86.90ドル（前日比10.6%安）で取引され、初日の寄り付き111.50ドル・高値115.10ドルから大きく下げた。モトリーフールは、S&P500が1.3%、ナスダックが2.5%下落するAI株の売りに加え、直近四半期で売上が47%増える一方で計算資源の支出が約1.7倍の速さで増え、初の営業黒字から営業赤字に転じた点を投資家の懸念として挙げた。時価総額は約1.27兆ドルで、年換算売上の約18倍にあたる。",
+      "brief_text_en": "On its second trading day, 20 November, Anthropic fell as low as $85.80 in the morning and was trading at $86.90, down 10.6%, at 11:20 ET, after opening at $111.50 and peaking at $115.10 on day one. The Motley Fool cited a broad AI selloff (S&P 500 down 1.3%, Nasdaq down 2.5%) and investor concern that compute spending grew about 1.7 times as fast as the 47% sequential revenue increase, turning the company's first operating profit into an operating loss. Market capitalisation stood at about $1.27tn, roughly 18 times annualised revenue.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "Nasdaq",
+      "publisher_en": "Nasdaq",
+      "sources": [
+        {
+          "title": "Why Anthropic Stock Is Falling Today",
+          "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/",
+          "publisher": "The Motley Fool",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261120-07"
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-21",
+      "text_ja": "ルッテNATO事務総長のワルシャワ訪問。ポーランドの東翼支援要請の内容。CCW運用検討会議の最終文書・自律兵器マンデートの採択結果の公表",
+      "text_en": "NATO Secretary General Rutte in Warsaw; Poland's eastern-flank requests. Publication of the CCW Review Conference outcome on the final document and the LAWS mandate"
+    },
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for the Commerce, Justice and State secretaries and the DNI to answer Sen. Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the DoW Science, Technology and Innovation Board to begin its study on commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。中国の介入手法（Threadsアカウント網、AIで書き換えた投稿）の推移。選挙後の国防特別予算法案の審議再開",
+      "text_en": "Taiwan local elections; evolution of Chinese interference methods (Threads account networks, AI-rewritten posts); resumption of deliberation on the special defence budget bill"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「ディフェンスAIビジョン」の策定・公表（月末にもと小泉防衛相）。財政審建議の全文公表。与党安保PTの次回会合（防衛産業基盤戦略）",
+      "text_en": "Japan MOD's Defense AI Vision (by month-end per Koizumi); full text of the Fiscal System Council's recommendations; next ruling-party security PT meeting on the defence industrial base"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取。12月2日：ティーター法務責任者の聴取。FY2027 NDAA協議文書の公表（「数週間以内」と上院スタッフ）",
+      "text_en": "Closed, transcribed House deposition of former Nvidia CEO Huang; Dec 2: general counsel Teeter. Release of the conferenced FY2027 NDAA ('a couple weeks', per Senate staff)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "国連総会本会議でのLAWS決議の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）。イスラエル国防軍の無人システム・AI部門の発足（12月初めまで）",
+      "text_en": "UNGA plenary vote on the LAWS resolution (early December); Japan's expert panel report on the three security documents (early December); IDF unmanned-systems/AI branch launch (by early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）",
+      "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule; Zhuhai Airshow (Dec 7–13)"
+    },
+    {
+      "date": "2026-12-11",
+      "text_ja": "米継続予算決議の期限。ゴールデンドーム（初期運用能力2028年夏）と自律戦争グループの予算を含む調整法案の行方",
+      "text_en": "US continuing resolution expires; fate of the reconciliation bill covering Golden Dome (IOC summer 2028) and the Autonomous Warfare Group"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）と5年総額の決着。米G20首脳会合（ドラル）でのトランプ・習再会談",
+      "text_en": "Japan: Cabinet approval of the revised three security documents (mid-December target) and the five-year total. Trump–Xi meeting at the G20 (Doral)"
+    },
+    {
+      "date": "2027-01-10",
+      "text_ja": "米中貿易休戦の期限。深圳会談後の延長条件",
+      "text_en": "US–China trade truce deadline; extension terms after Shenzhen"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切（11月19日の連邦公報掲載から60日）",
+      "text_en": "Comment deadline for the BIS remote-access IFR (60 days after Nov 19 publication)"
+    },
+    {
+      "date": "2027-01-31",
+      "text_ja": "ハッサン上院議員（次期国土安全保障・政府問題委員長）のAIリスク公聴会（1月）。ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）。国家サイバー長官の後任指名と上院承認手続き",
+      "text_en": "Sen. Hassan's HSGAC hearing on AI risks (January); the White House Super Intelligence Task Force policy document (expected by end-January); nomination and Senate confirmation of a National Cyber Director"
+    },
+    {
+      "date": "2027-02-17",
+      "text_ja": "米BIS遠隔アクセス規則：既存データセンターの許可申請期限（発効から90日）。インドのUNICORN「必要性の承認」（2月まで）",
+      "text_en": "BIS remote-access rule: licensing deadline for existing data centres (90 days after effect). India's Acceptance of Necessity for UNICORN (by February)"
+    },
+    {
+      "date": "2027-03-31",
+      "text_ja": "クアッド海洋監視協力の初演習（グアム、Exercise Sea Dragonに合わせて）。航空自衛隊の自動警戒監視システムへのAI実装",
+      "text_en": "First Quad maritime surveillance exercise (Guam, alongside Exercise Sea Dragon); AI implementation in the JASDF automatic warning and control system"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（ホワイトハウス会見はCBSライブ・ブルームバーグ法務・ポリティコ・非公式トランスクリプトで確認、whitehouse.govの会見録は未掲載。財務長官CNBC発言はStocktwits経由。国家サイバー長官交代はロイター・Breaking Defense。DefenseScoop・Defense Newsのトップページは本環境から到達不可、個別記事は到達可。GAO、陸軍ADOC。war.gov・congress.gov・army.milは到達不可）、中国（外交部の豪中会談発表は在フィリピン大使館の転載で確認。国防部・商務部の20日付該当なし）、日本（財政審建議は共同通信のOANDA・琉球新報転載で確認、mof.go.jpの建議全文は未掲載または未索引。NHKの小泉防衛相記事は見出し・リードのみ。時事・ロイター（dメニュー）・日経・中日・Yahoo!ニュースはrobots拒否で未閲覧）、韓国（防衛事業庁長代理・申範澈のフォーラム発言。国防部の20日付AI発表は国防AI競技会の本選のみ）、台湾（立法院三読は中央社・台北タイムズ・Newtalk・CTWANTで確認。自由時報は到達不可。国防部の20日付発表は未確認）、欧州・NATO（ポーランド領空侵犯はロイター・AP・Notes from Poland。欧州委員会のAI攻撃確認はセキュリティウィーク、Tagesspiegel Backgroundは到達不可。EU・EDAの20日付該当なし。Nordic Air Defence発表）、英国（国防省の20日付該当なし。バーナム首相の「全く容認できない」発言はアルジャジーラ経由）、ロシア・ウクライナ（空軍発表はUkrinform・インタファクス・キーウ・インディペンデント・Defense Post経由。ロシア国防省の20日付迎撃主張は未確認）、イスラエル・中東（ブルームバーグの安価な防空への転換記事はrobots拒否。IRGC・CENTCOMの20日付発表は未確認）、インド（20日付該当なし。空軍のAIツール発表は11月12日で既報範囲外）、豪州（ABCの豪中AI対話、中国側発表）、ASEAN（20日付該当なし）。国際規範（CCW最終日はAFP・dpa・SKR・HRW。最終文書の採択は未公表）、サイバー（国家サイバー長官、欧州委員会、Washington Timesの「AIエージェントによる攻撃」記事は到達不可）、フロンティア企業（Anthropic2日目、Nvidia株、OpenAI・Google・Microsoftの20日付安全保障関連発表なし）、研究・シンクタンク（CSIS・RAND・CNAS・IISSの19〜20日付該当報告なし。CRSの自律戦争コマンド報告はUSNI経由で到達不可）。",
+      "japan": "財務省（財政審建議：共同通信経由で確認、全文PDFは未索引）、防衛省（小泉防衛相の20日の発言はNHK見出し・リードと日経見出しで確認。mod.go.jpは到達不可）、防衛装備庁・内閣府・経産省・NSS・外務省（20日付の該当発表を検索で確認できず）、国会（該当なし）、与党・野党（維新の70兆円要求は時事見出しのみ、本文未閲覧。自民税調の動きは16日の報道）、首相官邸（高市首相の19日「金額ありきでない」発言はロイター見出し、本文未閲覧）。"
+    },
+    "dropped": [
+      {
+        "title": "Israel Pivots to Cheaper Air Defense With Iran Tensions Rising (Bloomberg)",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-20/israel-cheaper-air-defense-david-sling-iran-stunner-interceptor-patriot-rafael-rtx",
+        "reason": "本文を開けず（robots拒否）、数値と出典を確認できないため不採用。"
+      },
+      {
+        "title": "Report to Congress on the Creation of an Autonomous Warfare Command (CRS IN12757 via USNI News)",
+        "url": "https://news.usni.org/2026/11/19/report-to-congress-on-the-creation-of-an-autonomous-warfare-command",
+        "reason": "USNIページを開けず、CRS報告本文（11月18日付）も本環境から到達できないため、第2次情報のみで内容を確認できなかった。NDAA協議文書の公表時に再検討。"
+      },
+      {
+        "title": "Bicoastal maritime demos highlight future concepts for autonomous port defense (US Army / Saronic Corsair)",
+        "url": "https://www.army.mil/article/296886/bicoastal_maritime_demos_highlight_future_concepts_for_autonomous_port_defense",
+        "reason": "army.milを開けず、実証の日付（4〜5月開始）も対象期間から離れているため不採用。"
+      },
+      {
+        "title": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent (CNBC)",
+        "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+        "reason": "本文を開けず、CBSの報道（大統領は「Nvidiaについてはあまり話さなかった」とFoxに発言）と見出しが整合しないため、主要動向3の出典（accessed: false）に留め、矛盾の断定は避けた。"
+      },
+      {
+        "title": "AI agents now carrying out cyberattacks with minimal human input (Washington Times)",
+        "url": "https://www.washingtontimes.com/news/2026/nov/20/ai-agents-carrying-cyberattacks-minimal-human-input/",
+        "reason": "本文を開けず、基になる報告（Amazon Threat Intelligence等）が前日の不採用候補と重なる可能性が高いため不採用。"
+      },
+      {
+        "title": "Auterion to launch joint venture with Ukrainian drone maker Skyfall (Breaking Defense)",
+        "url": "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall/",
+        "reason": "公表日を確認できず（URLは11月のみ）、対象期間内かどうか不明のため不採用。"
+      },
+      {
+        "title": "MBDA and German startup ATMOS team up to study space-based strike weapons (Defense News)",
+        "url": "https://www.defensenews.com/global/europe/2026/11/19/mbda-and-german-startup-atmos-team-up-to-study-space-based-strike-weapons/",
+        "reason": "企業発表は11月18日で対象期間外。Defense Newsも到達不可。"
+      },
+      {
+        "title": "Rajnath Singh launches IAF's indigenous AI applications",
+        "url": "https://www.indiasentinels.com/air-force/rajnath-singh-asks-indian-air-force-to-sharpen-element-of-surprise-as-he-launches-in-house-ai-tools-7705",
+        "reason": "11月12日の空軍司令官会議の出来事で対象期間外。"
+      },
+      {
+        "title": "Mossad chief pressed for renewed Iran attacks during visit to U.S. (The Cipher Brief見出し)",
+        "url": "https://www.thecipherbrief.com/report/global-intelligence-report-for-friday-november-20-2026",
+        "reason": "見出しのみで本文・原報道を確認できず、AI・無人機との接点も不明のため不採用。"
+      }
+    ],
+    "notes_for_editor": [
+      "主要動向4（CCW）：ジュネーブ時間20日夜（日本時間21日早朝）の段階で最終文書と自律兵器マンデートの採択の有無は公表されておらず、本稿は『合意に至らず協議が続いた』段階で止めている。採択結果が判明した場合は続報で扱う。dpaが英国を拘束的文書への反対国に挙げた点は他報道と一致せず、本文でも『確認を要する』と留保した。",
+      "主要動向3（トランプ会見）：発言の引用は非公式トランスクリプト（Substack）とブルームバーグ法務・ポリティコ・TAG24の報道に依拠し、whitehouse.govの会見録は未掲載。CNBCの『フアン氏について話したと大統領が述べ、財務長官と矛盾』という見出しは本文を開けず、CBSの報道と整合しないため、矛盾の断定は避けた。",
+      "主要動向2（台湾）：国防1,457億の内訳（無人機558億、強弓量産）は9月の行政院案と台北タイムズに基づく。最終的に凍結が残ったか、無人機の配分が維持されたかは立法院の公表資料で未確認。自由時報は到達不可。",
+      "主要動向6（日本）：財政審建議の全文（mof.go.jp）は未索引で、共同通信の報道に依拠。時事（維新70兆円）とロイター（高市首相19日発言）は見出しのみで本文未閲覧（accessed: false）。NHKの小泉防衛相記事は見出し・リードのみ閲覧。",
+      "主要動向1（ロシアの攻撃）：数値はウクライナ空軍・エネルギー省の発表に基づきB2。キーウの死者数は報道により3〜7人と幅があり、本文はコレツキー首相の『少なくとも6人』を採用。ロシア国防省の同夜の迎撃主張は未確認。ポーランドの「UK PM Burnham」の発言はアルジャジーラ経由で、本文では使っていない。",
+      "短信7（欧州委員会）：出典はセキュリティウィーク1件のみ（Tagesspiegel Backgroundは到達不可）。報道官はツール名を明かしておらず、ARTEXとの関係は未確認である旨を本文に明記した。continuation_ofはFBIのARTEX警報（cl-20261116-02）に紐づけたが、別事案として扱うべきなら解除を検討。",
+      "短信13（Anthropic）：終値を確認できる出典を開けず、11時20分（米東部時間）時点の株価を用いた。",
+      "短信8（豪中AI対話）：AI対話の合意は北京での李強首相との会談（ABC）であり、深圳の習主席との会談の中国側発表には対話の記述がない。前日の短信（アルバニージー首相のAPEC演説）の続報としてcontinuation_ofを設定した。",
+      "検証のWARN：主要動向の見出しは45字を超えるものがあり、前日までの号と同じ複文形式を維持した。"
+    ]
+  }
+}
