@@ -1,0 +1,833 @@
+{
+  "edition_date": "2026-11-22",
+  "generated_at": "2026-11-22T06:12:00+09:00",
+  "window_from": "2026-11-21T06:40:00+09:00",
+  "edition_title_ja": "拘束力を先送りした自律兵器マンデートとAI相場の急落",
+  "edition_title_en": "A deferred autonomous-weapons mandate and the AI market correction",
+  "edition_dek_ja": "ジュネーブの徹夜交渉、SECのNvidia会計調査、蒸留と自律型サイバー攻撃への対抗策。",
+  "edition_dek_en": "An all-night deal in Geneva, the SEC's Nvidia inquiry, and countermeasures to distillation and agentic cyberattacks.",
+  "lead_points_ja": [
+    "ジュネーブの徹夜交渉は、自律兵器に関する文書を2年で「策定」するマンデートで妥結し、拘束力の有無を専門家会合の勧告に委ねた。同じ日、SECがNvidiaの会計を調査しているとの報道を引き金にAI関連株は急落し、台湾株は1991年以来最大の週間下落を記録した。規範の制度化が先送りされる一方で、AI投資の資金循環が市場の側から試される一日である。",
+    "CCW運用検討会議はロシアの手続き上の異議で議題も採択できず、約100か国が支持した拘束力ある規則は次の2年に持ち越された。米国の5年案は退けられ、ICRCは「機会は失われた」と評した。",
+    "Nvidia株は14%安で10月高値から約2.7兆ドルの時価総額を失い、ナスダックは5.28%安、S&P500とダウは調整局面に入った。Anthropic株は公開価格に5セントまで接近し、台湾の金融監督管理委員会は空売り規制を月内3度目に強化した。",
+    "ロシアは弾道ミサイル3発と無人機148機（ジェット型87機）でウクライナを攻撃し、クリヴィー・リフで2人が死亡した。ルッテNATO事務総長はワルシャワで「ポーランド領土の隅々を守る」と保証し、北大西洋理事会は23日に協議する。",
+    "OpenAIはDeepSeekとMoonshot AI関係者による蒸留を名指しして輸出管理と制裁立法への支持を表明し、GAOはエージェント型AIが攻撃の複数段階を自律実行する事例を挙げ、人間の承認と認証前の自律型AIの制限を政策選択肢に置いた。日本と東アジアの公的発表は週末で動きが乏しく、中東ではリヤドへの弾道ミサイルとホルムズ海峡付近のタンカー被弾が続いた。"
+  ],
+  "lead_points_en": [
+    "The all-night session in Geneva ended with a mandate to 'elaborate' an instrument on autonomous weapons within two years, leaving the question of legal force to an expert group's recommendation. The same day, a report that the SEC is probing Nvidia's accounting triggered a rout in AI stocks, and Taiwan's market posted its worst week since 1991. Norm-building was deferred while the circular flow of AI capital was tested by the market.",
+    "Russia's procedural objections kept the CCW Review Conference from adopting even its agenda; binding rules backed by about 100 states were pushed into the next two years. The US five-year proposal was set aside, and the ICRC spoke of a missed opportunity.",
+    "Nvidia fell 14%, about $2.7 trillion below its October peak; the Nasdaq dropped 5.28%, and the S&P 500 and Dow entered corrections. Anthropic traded within five cents of its IPO price, and Taiwan's FSC tightened short-selling curbs for the third time this month.",
+    "Russia attacked Ukraine with three ballistic missiles and 148 drones (87 jet-powered), killing two in Kryvyi Rih. In Warsaw, NATO Secretary General Rutte guaranteed that NATO would 'defend every inch of Polish territory', and the North Atlantic Council meets on 23 November.",
+    "OpenAI named DeepSeek and individuals linked to Moonshot AI in its account of distillation campaigns and backed export controls and sanctions legislation; GAO cited agentic AI running multiple attack stages autonomously and listed human authorization and pre-certification limits among its policy options. Official activity in Japan and East Asia was thin over the weekend, while ballistic missiles at Riyadh and tanker strikes near Hormuz continued in the Middle East."
+  ],
+  "items": [
+    {
+      "id": "cl-20261122-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "CCW運用検討会議、自律兵器の文書を2年で「策定」するマンデートを徹夜で採択　法的拘束力の有無は先送り",
+      "title_en": "CCW Review Conference adopts, after an all-night session, a two-year mandate to 'elaborate' an instrument on autonomous weapons; its legal nature is left open",
+      "lead_ja": "ジュネーブの特定通常兵器使用禁止制限条約（CCW）第7回運用検討会議は、11月21日午前4時台（現地時間）に、自律型致死兵器システムに関する文書を今後2年でコンセンサスにより「策定（elaborate）」する政府専門家会合（GGE）のマンデートを採択して閉幕した。文書が法的拘束力を持つ議定書になるかは専門家会合が勧告することとされ、国連事務総長が求めた2026年中の拘束力ある文書の交渉開始には至っていない。ロシアの手続き上の異議で会議は議題と手続規則を採択できず、条約の正式な検討も行えないまま終わった。",
+      "lead_en": "The Seventh Review Conference of the Convention on Certain Conventional Weapons (CCW) in Geneva closed at around 4 a.m. local time on 21 November after adopting a mandate for the Group of Governmental Experts (GGE) to 'elaborate' an instrument on lethal autonomous weapons systems by consensus over the next two years. Whether the instrument becomes a legally binding protocol is left to the expert group's recommendation, short of the negotiation of a binding instrument in 2026 that the UN Secretary-General had sought. Russian procedural objections prevented the conference from adopting its agenda and rules of procedure, and it ended without a formal review of the Convention.",
+      "sections": [
+        {
+          "heading_ja": "「交渉」を退け「策定」で妥結した文言",
+          "heading_en": "'Elaborate', not 'negotiate': the wording that closed the deal",
+          "paragraphs_ja": [
+            "最終文書案（CCW/CONF.VII/CRP.1/Rev.2、11月20日付）を引く報道によれば、採択されたマンデートは、GGEが9月4日に採択した「文書の要素」を土台に、その性質を予断せずに文書を策定し、法的性質と具体的な形式（拘束力ある議定書とするかを含む）を勧告するというものである。議長のトーニ・スイス大使は「交渉（negotiate）」の語を退け、「10年以上の議論を経て、CCWは文書の策定開始に合意した」と述べ、「深く分断された今日の世界でも多国間外交は具体的な成果を出せる」と語った。",
+            "米国が11月4日の作業文書（CCW/CONF.VII/WP.2）で提案した、年10日の会合を5年続けて2031年の第8回運用検討会議に報告する非拘束文書の案は採用されず、期間は2年に短縮された。一方で、非拘束の形式が排除されたわけでもない。中満泉国連軍縮担当上級代表は合意を「重要な成果」と評価しつつ、「法的拘束力ある文書への道は依然として開かれている」と述べ、2年を「非常に圧縮された時間枠」と形容した。"
+          ],
+          "paragraphs_en": [
+            "According to reports citing the draft final document (CCW/CONF.VII/CRP.1/Rev.2, dated 20 November), the mandate asks the GGE to build on the 'elements of an instrument' it adopted on 4 September, to elaborate an instrument without prejudging its nature, and to recommend its legal nature and specific form, including whether it should be a binding protocol. The president, Swiss ambassador Julien Thöni, rejected the word 'negotiate'; he said that after more than ten years of discussion the CCW had agreed to launch the elaboration of an instrument, and that 'even in today's deeply divided world, multilateral diplomacy can still deliver concrete results'.",
+            "The US working paper of 4 November (CCW/CONF.VII/WP.2), which proposed a non-binding instrument developed over five years of ten-day annual sessions reporting to the Eighth Review Conference in 2031, was set aside and the timeframe cut to two years. A non-binding outcome has not been ruled out, however. Izumi Nakamitsu, UN High Representative for Disarmament Affairs, called the agreement a 'significant achievement', said the path to a legally binding instrument 'is still open', and described two years as a 'very compressed timeframe'."
+          ]
+        },
+        {
+          "heading_ja": "ロシアの遅延戦術と約100か国の拘束力支持",
+          "heading_en": "Russian stalling and the roughly 100 states backing binding rules",
+          "paragraphs_ja": [
+            "ロイターによれば、ロシアの手続規則への異議で公式会合の一部が取り消され、交渉は最終日の夜を徹して「数語」をめぐって続いた。ガーディアンは、ロシアが「意図的な議事妨害」を主導したとする外交官の見方と、コンセンサスの道を探った米国との対比を伝えている。拘束力ある規則を支持した国はロイターの集計で約100か国、推進側の集計では95か国超であり、オーストリア、ベルギー、ブラジル、アイルランド、メキシコ、ニュージーランド、パナマの7か国は1年以内の交渉開始を求めていた。",
+            "拘束力に反対または慎重だったのは米国、ロシア、イスラエルのほか、ガーディアンの報道では韓国、日本、トルコ、英国、フランス、ドイツも新たな拘束法規に消極的で、既存の国際人道法で足りるとする立場をとった。会議は議題と手続規則をコンセンサスで採択できず、最終宣言の前文と宣言部分も採択されず、条約の正式な検討を「行う状況になかった」と最終文書に記された。エジプト代表団は非加盟国の排除をめぐり最終日に議長に抗議した。"
+          ],
+          "paragraphs_en": [
+            "Reuters reported that Russian objections to the rules of procedure forced the cancellation of some formal meetings, and that negotiators spent the final night arguing over 'a handful of words'. The Guardian contrasted diplomats' view that Russia led 'deliberate filibustering' with a United States that sought a consensus path. About 100 states backed binding rules by Reuters' count, more than 95 by the campaigners' count; seven of them (Austria, Belgium, Brazil, Ireland, Mexico, New Zealand and Panama) had pushed for negotiations to open within a year.",
+            "Those opposed to or wary of binding rules included the United States, Russia and Israel, and, according to the Guardian, South Korea, Japan, Turkey, the UK, France and Germany, which argued that existing international humanitarian law is sufficient. The conference could not adopt its agenda or rules of procedure by consensus, the preamble and declaratory part of the final declaration were not adopted, and the final document records that the conference 'was not in a position to conduct a formal review' of the Convention. Egypt's delegation protested to the chair on the last day over the exclusion of non-member states."
+          ]
+        },
+        {
+          "heading_ja": "ICRCと市民社会が指摘する「失われた機会」",
+          "heading_en": "The 'missed opportunity' seen by the ICRC and civil society",
+          "paragraphs_ja": [
+            "ICRCは声明で、会議が「法的拘束力ある文書の明確で即時の交渉マンデートに合意できなかった」ことを「遺憾」とし、「機会は失われたが、行動の必要性は残る」と述べた。ストップ・キラーロボットは「法的拘束力ある文書への明確な道筋を示さない薄められたマンデート」と批判し、ファンローイエン事務局長は「拘束力ある文書の作成を遅らせることは市民と人類を危険にさらす」と述べた。ブラジルのマイヤー大使は「技術は外交より速く動いている」と語り、支持国の外交官は結果を「落胆させるが、もっと悪くなり得た」と評した。",
+            "次の節目は、10月29日に国連総会第1委員会で賛成163・反対5・棄権9で採択された決議L.37の12月の本会議採択と、2027年のGGE会期である。2年の作業では、国際人道法の下で禁止すべき兵器と、禁止には至らないが規制できる兵器の線引きが議長の示す課題となる。一部の観測者と元軍人からは、CCWの枠外で新たなプロセスを検討すべきだとの声も出ている。"
+          ],
+          "paragraphs_en": [
+            "The ICRC said in a statement that it 'regrets' that the conference 'failed to agree to a clear and immediate negotiation mandate for a legally binding instrument', adding that 'while an opportunity has been missed, the imperative to act remains'. Stop Killer Robots called the outcome 'a watered-down mandate that fails to chart a clear path towards a legally binding instrument', and its executive director Nicole van Rooijen said that 'delaying the creation of a legally binding instrument puts civilians and humanity at risk'. Brazil's ambassador Frederico Meyer said 'technology is moving faster than diplomacy', while a diplomat from a supporting state called the result 'disappointing but could have been much worse'.",
+            "The next milestones are the December plenary vote on UN General Assembly resolution L.37, adopted in the First Committee on 29 October by 163 votes to 5 with 9 abstentions, and the GGE sessions in 2027. Over the two years, the task set out by the president is to identify which weapons should be prohibited under international humanitarian law and which can be regulated short of prohibition. Some observers and former military officers argue that a new process outside the CCW should be considered."
+          ]
+        }
+      ],
+      "watch_next_ja": "最終文書CCW/CONF.VII/11の公表と、米国・ロシア・日本の立場説明。12月上旬：国連総会本会議でのLAWS決議（L.37）採択。2027年のGGE会期日程と、「文書の要素」から条文案への移行。",
+      "watch_next_en": "Publication of the final document CCW/CONF.VII/11 and explanations of position by the US, Russia and Japan. Early December: UNGA plenary vote on the LAWS resolution (L.37). The 2027 GGE calendar and the transition from 'elements' to draft text.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "CCW第7回運用検討会議（ジュネーブ）",
+      "publisher_en": "Seventh Review Conference of the CCW (Geneva)",
+      "sources": [
+        {
+          "title": "States agree to UN talks aiming to regulate 'killer robots' by 2028",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-21-states-agree-to-un-talks-aiming-to-regulate-killer-robots-by-2028/",
+          "publisher": "Reuters (via TimesLIVE)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+          "url": "https://www.kiro7.com/news/technology/nations-un-talks-ai/KPESIT54IE2Y7I6ZK5KTRTWRCI/",
+          "publisher": "AP (via KIRO 7)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "UN sees progress on autonomous weapons regulation despite lack of binding treaty mandate",
+          "url": "https://www.anews.com.tr/world/2026/11/21/un-sees-progress-on-autonomous-weapons-regulation-despite-lack-of-binding-treaty-mandate",
+          "publisher": "Anadolu Agency (anews)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "International talks on controlling use of autonomous weapons collapse",
+          "url": "https://www.aol.co.uk/articles/international-talks-controlling-autonomous-weapons-131529000.html",
+          "publisher": "The Guardian (via AOL)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "States launch two-year autonomous weapons process without treaty commitment",
+          "url": "https://streamlinefeed.co.ke/news/states-launch-two-year-autonomous-weapons-process-without-treaty-commitment",
+          "publisher": "Streamline Newsroom (citing AFP, Reuters, UN documents)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Draft Final Document of the Seventh Review Conference (CCW/CONF.VII/CRP.1/Rev.2)",
+          "url": "https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-SeventhReview_Conference_(2026)/CCW-CONF.VII-CRP.1-Rev.2.pdf",
+          "publisher": "UNODA",
+          "date": "2026-11-20",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "governance-norms"
+      ],
+      "actors": [
+        "UN",
+        "US",
+        "RU",
+        "JP"
+      ],
+      "doc_type": "declaration",
+      "forums": [
+        "ccw-gge",
+        "un-ga"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261121-04"
+    },
+    {
+      "id": "cl-20261122-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "SECがNvidiaの会計を調査とロイター、株価は14%安　ナスダック5.3%安、台湾株は1991年以来の週間下落",
+      "title_en": "Reuters: SEC probing Nvidia's accounting; shares fall 14%, about $2.7 trillion below the October peak, as the Nasdaq drops 5.3% and Taiwan's TAIEX posts its worst week since 1991",
+      "lead_ja": "ロイターは11月20日、米証券取引委員会（SEC）の執行部門がNvidiaの会計処理を調査していると、事情を知る2人の話として報じた。Nvidia株は同日14.0%下落して125.53ドルで終え、10月6日の最高値からの時価総額の減少は約2.7兆ドルに達した。ナスダック総合は5.28%安で年初来の上昇を失い、S&P500とダウは高値から10%超下落して調整局面に入り、台湾の加権指数は週間で約18%下げて1991年以来最大の下落となった。",
+      "lead_en": "Reuters reported on 20 November, citing two people briefed on the matter, that the SEC's enforcement division is scrutinising Nvidia's accounting practices. Nvidia closed down 14.0% at $125.53, bringing the loss of market value since its 6 October record to about $2.7 trillion. The Nasdaq Composite fell 5.28% and gave up its gains for the year, the S&P 500 and Dow confirmed corrections of more than 10% from their highs, and Taiwan's TAIEX lost about 18% on the week, its worst since 1991.",
+      "sections": [
+        {
+          "heading_ja": "焦点未特定の調査と「循環的融資」への視線",
+          "heading_en": "An inquiry of unspecified focus, and scrutiny of 'circular financing'",
+          "paragraphs_ja": [
+            "ロイターによれば、SECの執行スタッフは「同社の潜在的な会計上の問題を精査」しているが、調査の開始時期と対象は特定できず、SECは論評を控え、Nvidiaは即時の回答を出さなかった。ウォール・ストリート・ジャーナルは11月17日にSECの調査を報じたが焦点は不明としており、ヤフー・ファイナンスは、WSJが開示による投資家の誤導の有無も対象に含まれると伝えたとする。調査は不正の証拠を意味せず、多くは執行措置に至らずに終わる、とロイターは付記している。",
+            "市場の関心は、Nvidiaが出資先のAI企業に販売する「循環的融資」と、シンガポール経由の売上計上に向いている。フィナンシャル・タイムズは2025年のシンガポール経由売上を約1,040億ドル（全体の約半分）と報じ、Nvidiaは地域別売上の基準を請求先から顧客本社所在地に変更した経緯がある。クレス暫定CEO（前CFO）は17日の決算説明でAI業界への融資案件に「はるかに選別的になる」と述べ、四半期報告書（10-Q）の提出は「数週間以内」に遅れ、取締役会の独立委員会が調査を続けている。ベセント財務長官は「10日以内に取締役会と外部弁護士から回答が必要だ」と述べた。"
+          ],
+          "paragraphs_en": [
+            "According to Reuters, SEC enforcement staff are 'scrutinizing potential accounting issues at the company', but the agency could not determine when the inquiry began or what it covers; the SEC declined to comment and Nvidia did not immediately respond. The Wall Street Journal reported the probe on 17 November without identifying its focus, and Yahoo Finance says the Journal reported that it includes whether Nvidia's disclosures misled investors. Reuters adds that investigations are not evidence of wrongdoing and that many close without enforcement action.",
+            "Market attention has turned to 'circular financing', in which Nvidia sells to AI companies it has invested in, and to revenue booked through Singapore. The Financial Times reported about $104 billion of 2025 revenue through the Singapore unit, roughly half of sales, and Nvidia last year changed its geographic reporting from billing address to customer headquarters. Interim CEO and former CFO Colette Kress said on the 17 November earnings call that Nvidia would be 'far more selective' about AI-industry financing deals; the 10-Q is delayed 'in the coming weeks' and an independent board committee is investigating. Treasury Secretary Scott Bessent said 'we need answers in the next 10 days from the board and from the outside counsel'."
+          ]
+        },
+        {
+          "heading_ja": "7営業日続落と2008年以来の週間下落",
+          "heading_en": "Seven straight losses and the worst week since 2008",
+          "paragraphs_ja": [
+            "Nvidia株は7営業日続落し、週間の時価総額減少は約9,000億ドルで2008年10月以来の下落率となった。ロイターの市場概況では、ダウは949.73ドル（1.93%）安の48,147.33、S&P500は265.41ポイント（3.70%）安の6,910.42で7日続落（2020年2月以来の長さ）、ナスダックは1,261.47ポイント（5.28%）安の22,617.73で、週間下落率は2020年3月以来の大きさとなった。Anthropic株は上場2日目に一時83.05ドルと公開価格83ドルに5セントまで接近した後、88.30ドル（9%安）で終えた。",
+            "売りの背景として、ロイターはAnthropicの上場とNvidiaの決算が「AIをめぐるリスクと巨額支出への懸念を払拭できなかった」ことを挙げ、クックFRB理事の「政策金利は十分に高くない」との発言で12月の25ベーシスポイント利上げがほぼ織り込まれた点も重なった。ブロードコムはグーグルがAIチップ計画を縮小したとの報道で12%下落し、マイクロン、ウエスタンデジタルなどメモリー・ストレージ株も大きく下げた。"
+          ],
+          "paragraphs_en": [
+            "Nvidia fell for a seventh straight session, and the week's loss of nearly $900 billion in market value was its worst since October 2008. In Reuters' market summary, the Dow fell 949.73 points (1.93%) to 48,147.33, the S&P 500 fell 265.41 points (3.70%) to 6,910.42 for a seventh straight loss (its longest streak since February 2020), and the Nasdaq fell 1,261.47 points (5.28%) to 22,617.73, its largest weekly drop since March 2020. Anthropic traded as low as $83.05 on its second day, five cents above the $83 IPO price, before closing at $88.30 (down 9%).",
+            "Reuters attributed the selling to Anthropic's debut and Nvidia's results having 'failed to dispel fears' over AI risks and spending, compounded by Fed Governor Lisa Cook's remark that the policy rate is 'not high enough', which left markets pricing a near-certain 25-basis-point hike in December. Broadcom fell 12% on a report that Google had cut plans for its AI chips, and memory and storage names such as Micron and Western Digital dropped sharply."
+          ]
+        },
+        {
+          "heading_ja": "台湾の空売り規制と半導体供給網への波及",
+          "heading_en": "Taiwan's short-selling curbs and the spillover to the chip supply chain",
+          "paragraphs_ja": [
+            "台湾の加権指数は20日に6.23%下落し、週間で約18%の下落は1991年以来最大、10月6日の最高値からは4分の1超の下げとなった。ブルームバーグによれば、海外投資家は今四半期に560億ドル超を売り越し、バークレイズは個人投資家の強制売却を、UOBケイヒアンは追証による投げ売りを主因に挙げる。金融監督管理委員会は19日、借株による空売り注文の日中上限を過去30日平均出来高の1%（11月初めに設けた3%から）に引き下げ、月内3度目の規制強化となった。",
+            "加権指数の7割超をテクノロジー株が占め、TSMCは19日にAnthropic株602万4,096株を公開価格で約5億ドル取得したと開示している。AI投資の資金循環はフロンティア企業、半導体、台湾市場を一体で動かしており、相場の調整は輸出管理と供給網の議論に関わる主体に同時に及ぶ。SEC調査の対象と10-Qの内容が、Nvidiaの対中販売やMegaspeed案件の説明責任と結びつくかどうかが次の論点となる。"
+          ],
+          "paragraphs_en": [
+            "The TAIEX fell 6.23% on 20 November; its roughly 18% weekly loss was the largest since 1991 and left the index more than a quarter below its 6 October record. Bloomberg reported that global funds have sold more than $56 billion of Taiwanese stocks net this quarter; Barclays pointed to forced retail selling and UOB Kay Hian to margin calls as the main drivers. On 19 November the Financial Supervisory Commission cut the intraday cap on borrowed-stock short orders to 1% of a stock's 30-day average volume, from the 3% limit set earlier in November, the third tightening this month.",
+            "Technology makes up more than 70% of the TAIEX, and TSMC disclosed on 19 November that it had bought 6,024,096 Anthropic shares at the IPO price for about $500 million. The circular flow of AI capital now moves frontier labs, chipmakers and the Taiwan market together, so a correction reaches the same actors involved in export-control and supply-chain debates. The next question is whether the scope of the SEC inquiry and the contents of the 10-Q connect to Nvidia's accountability over China sales and the Megaspeed case."
+          ]
+        }
+      ],
+      "watch_next_ja": "Nvidiaの10-Q提出時期と独立委員会の報告。ベセント長官が示した「10日以内」の回答期限（11月27日前後）。12月1〜2日：下院3委員会によるフアン前CEO、ティーター法務責任者の聴取。11月23日：台湾金管会の追加措置の有無と加権指数の週明けの値動き。",
+      "watch_next_en": "Timing of Nvidia's 10-Q and the independent committee's report. Bessent's '10 days' deadline (around 27 Nov). 1–2 Dec: House committee interviews of former CEO Huang and general counsel Teeter. 23 Nov: any further FSC measures and the TAIEX reopening.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "ロイター、米SEC、台湾金融監督管理委員会",
+      "publisher_en": "Reuters; US SEC; Taiwan Financial Supervisory Commission",
+      "sources": [
+        {
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+          "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460",
+          "publisher": "Reuters (via Investing.com)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia's accounting is a focus of US SEC investigation, sources say",
+          "url": "https://live.euronext.com/en/financial-news/nvidias-accounting-focus-us-sec-investigation-sources-say",
+          "publisher": "Reuters (via Euronext)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
+          "url": "https://ca.finance.yahoo.com/news/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-futures-slip-anthropic-104746137.html",
+          "publisher": "Reuters (via Yahoo Finance)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2, Then Bounced 6% to Close at $88.30",
+          "url": "https://247wallst.com/investing/2026/11/20/anthropic-stock-came-within-5-cents-of-its-83-ipo-price-on-day-2-then-bounced-6-to-close-at-88-30-facebook-closed-its-day-2-10-below-its-ipo-price/",
+          "publisher": "24/7 Wall St.",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "TAIEX plunges almost 18% in worst week since 1991",
+          "url": "https://www.taipeitimes.com/News/front/archives/2026/11/21/2003868120",
+          "publisher": "Taipei Times (Bloomberg)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "TSMC buys Anthropic shares for US$500 million",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868042",
+          "publisher": "Taipei Times",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "compute-export"
+      ],
+      "actors": [
+        "US",
+        "TW"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261119-04"
+    },
+    {
+      "id": "cl-20261122-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ロシア、弾道3発と無人機148機で夜間攻撃　ルッテ事務総長はワルシャワで「ポーランドの隅々を守る」、NACは23日協議",
+      "title_en": "Russia attacks Ukraine with three ballistic missiles and 148 drones (87 jet-powered); in Warsaw, Rutte pledges to 'defend every inch' of Poland and the NAC meets on 23 November",
+      "lead_ja": "ウクライナ空軍によれば、ロシアは11月20日18時から21日朝にかけて弾道ミサイル3発と無人機148機（うちジェット推進型87機）を発射し、空軍は8時までに無人機117機（ジェット型67機）を撃墜または電子的に無力化したが、弾道ミサイルの迎撃は報告に含まれていない。クリヴィー・リフ中心部に弾道ミサイル2発が着弾し、7歳の男児と20歳の救急隊員が死亡、58人が負傷した。前日にロシアのミサイルと無人機が落下したポーランドでは、ルッテNATO事務総長が21日にワルシャワで「NATOはポーランド領土の隅々を守ると保証できる」と述べ、北大西洋理事会は23日に協議する。",
+      "lead_en": "According to the Ukrainian Air Force, Russia launched three ballistic missiles and 148 drones (87 of them jet-powered) between 18:00 on 20 November and the morning of 21 November; by 08:00 the Air Force had shot down or electronically suppressed 117 drones (67 jet-powered), and no ballistic interceptions were listed. Two ballistic missiles struck central Kryvyi Rih, killing a seven-year-old boy and a 20-year-old paramedic and injuring 58. In Poland, where Russian missiles and a drone had fallen the day before, NATO Secretary General Mark Rutte said in Warsaw on 21 November, 'I can guarantee that NATO will defend every inch of Polish territory'; the North Atlantic Council meets on 23 November.",
+      "sections": [
+        {
+          "heading_ja": "ジェット型の比率が6割に迫った夜",
+          "heading_en": "A night in which jet-powered drones neared 60% of the wave",
+          "paragraphs_ja": [
+            "空軍の朝の発表によれば、弾道ミサイルはイスカンデルM、KN-23またはS-400転用型で、ブリャンスク州と占領下クリミアなどから発射され、無人機はオリョール、ブリャンスク、プリモルスコ・アフタルスク、ミレロヴォ、占領下ドネツク、クリミア（グヴァルデイスコエ）から飛来した。148機のうち87機がジェット型で、19日（98機中61機）、20日（404機中123機）に続いて比率は高止まりし、今回は6割近くに達した。着弾は19か所、残骸落下は9か所と発表され、発表時点で約10機が飛行中であった。",
+            "クリヴィー・リフでは20日夜に弾道ミサイル2発が中心部に着弾し、救助活動中に同じ地点へジェット型無人機が追撃したと市防衛評議会のヴィルクル議長が説明した。21日朝までに負傷者は58人（子ども6人、救急隊員3人）で、28人が入院し11人が重体、約25棟の住宅と病院が損傷した。ハルキウ州ソロニツィウカでは5階建て住宅への無人機攻撃で子ども2人を含む11人が負傷し、キーウのポジール地区でも住宅2棟が延焼して2人が負傷した。",
+            "数値はウクライナ空軍と市当局の発表に基づき、独立の検証は得られていないため、信頼度はB2とする。ロシア国防省は20日20時から21日8時（モスクワ時間）にウクライナの固定翼無人機275機をベルゴロド、ブリャンスク、クルスク、レニングラード各州など11地域とクリミア、黒海上空で迎撃したと主張しており、被害の説明はなく、こちらも未検証である。"
+          ],
+          "paragraphs_en": [
+            "In its morning report the Air Force identified the ballistic missiles as Iskander-M, KN-23 or repurposed S-400 rounds launched from Bryansk region and occupied Crimea among other points, with drones arriving from Orel, Bryansk, Primorsko-Akhtarsk, Millerovo, occupied Donetsk and Crimea (Gvardeyskoye). Of 148 drones, 87 were jet-powered; after 61 of 98 on 19 November and 123 of 404 on 20 November, the jet-powered share stayed high and this time approached 60%. Impacts were reported at 19 locations and debris at nine, with about ten drones still airborne when the report was issued.",
+            "In Kryvyi Rih, two ballistic missiles struck the city centre on the evening of 20 November and a jet-powered drone then hit the same site while rescuers were working, according to Oleksandr Vilkul, head of the city's Defence Council. By the morning of 21 November, 58 people were injured, including six children and three ambulance workers; 28 were hospitalised, 11 in serious condition, and about 25 apartment buildings and a hospital were damaged. In Solonytsivka, Kharkiv region, a drone strike on a five-storey building injured 11 including two children, and in Kyiv's Podil district two houses caught fire and two people were hurt.",
+            "The figures are statements by the Ukrainian Air Force and city authorities without independent verification, so the reliability is rated B2. Russia's Defence Ministry claimed 275 Ukrainian fixed-wing drones intercepted between 20:00 on 20 November and 08:00 on 21 November Moscow time over eleven regions including Belgorod, Bryansk, Kursk and Leningrad, plus Crimea and the Black Sea, with no account of damage; that figure is also unverified."
+          ]
+        },
+        {
+          "heading_ja": "ワルシャワの保証と23日の北大西洋理事会",
+          "heading_en": "The Warsaw guarantee and the 23 November North Atlantic Council",
+          "paragraphs_ja": [
+            "ルッテ事務総長は21日、ワルシャワでポーランド政府と会談し、「NATOはポーランド領土の隅々を守ると保証できる」と述べ、グリンケビッチ欧州連合軍最高司令官が「防衛と抑止の能力への脅威を特定するために必要なすべてを行い」、必要なら態勢を調整すると説明した。北大西洋理事会は23日にブリュッセルでポーランドの領空侵犯を協議する。コシニャク＝カミシュ国防相はXで「近い将来、東部国境の防護を強化するためNATO同盟国から強力な支援を受ける」と述べ、グリンケビッチ司令官と「措置の詳細を調整」していると明らかにしたが、資産の種類は示していない。",
+            "トゥスク首相は20日、落下物が「ロシアのものであることは確実」で、有志連合の演習が行われていたノヴァ・デンバの近くに落ちた点から「偶然とは見えない」「意図的な挑発」とみると述べ、「間違いで」落ちたとするトランプ大統領の見方に「必ずしも同意しない」と語った。ポーランド国防省は落下物をノヴィ・リポヴィエツのKh-101巡航ミサイル、ルドニク・ナト・サネムの第2のミサイル、モウォディチのジェット型無人機とみており、ルブリンの軍検察が一括して捜査している。第4条協議の要請は確認されておらず、迎撃に至らなかった理由（レーダー追尾と交戦規則）の説明も公表に至っていない。"
+          ],
+          "paragraphs_en": [
+            "Meeting the Polish government in Warsaw on 21 November, Rutte said 'I can guarantee that NATO will defend every inch of Polish territory' and explained that SACEUR General Alexus Grynkewich 'would do everything necessary to identify any threats to defense and deterrence capabilities' and adjust the posture if needed. The North Atlantic Council will discuss the violation of Polish airspace in Brussels on 23 November. Defence Minister Władysław Kosiniak-Kamysz wrote on X that 'in the near future, we will receive strong support from our NATO allies to bolster the protection of our eastern border' and that he was coordinating 'the details of these measures' with Grynkewich, without naming the assets.",
+            "On 20 November Prime Minister Donald Tusk said 'we know for certain that we are dealing with Russian objects', that their fall near the Coalition of the Willing exercises at Nowa Dęba 'does not look like a coincidence' and amounted to 'a deliberate provocation', and that he did 'not always agree' with President Trump's view that they fell 'by mistake'. Poland's Defence Ministry assesses the objects as a Kh-101 cruise missile at Nowy Lipowiec, a second missile at Rudnik nad Sanem and a jet-powered drone at Mołodycz; military prosecutors in Lublin are handling all three in one investigation. No request for Article 4 consultations has been confirmed, and no explanation of why no interception took place (radar tracks, rules of engagement) has yet been published."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月23日：北大西洋理事会の協議結果とEastern Sentryへの追加資産（戦闘機・早期警戒機・防空）。ルブリン軍検察による3物体の同定と弾頭の有無の公表。弾道ミサイルの迎撃率（21日は3発中0）の推移。クリヴィー・リフの二重打撃の検証。",
+      "watch_next_en": "23 Nov: outcome of the NAC meeting and additional Eastern Sentry assets (fighters, AEW, air defence). Lublin prosecutors' identification of the three objects and whether warheads were present. Ballistic interception rates (0 of 3 on 21 Nov). Verification of the Kryvyi Rih double strike.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "ウクライナ空軍、NATO、ポーランド国防省",
+      "publisher_en": "Ukrainian Air Force; NATO; Polish Ministry of National Defence",
+      "sources": [
+        {
+          "title": "Russia attacked Ukraine with three ballistic missiles and 148 drones; air defenses shot down or suppressed 117 UAVs - Air Force",
+          "url": "https://censor.net/en/news/4034877/russia-attacked-ukraine-with-three-ballistic-missiles-and-148-drones-air-defenses-shot-down-or",
+          "publisher": "Censor.NET",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia Bombards Ukraine Overnight, Killing 7-Year-Old Boy and Paramedic, Injuring Dozens",
+          "url": "https://united24media.com/war-in-ukraine/russia-bombards-ukraine-overnight-killing-7-year-old-boy-and-paramedic-injuring-dozens-24584",
+          "publisher": "UNITED24 Media",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "NATO will defend every inch of Polish territory, Rutte says",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/21/nato-will-defend-every-inch-of-polish-territory-rutte-says",
+          "publisher": "Reuters (via Internazionale)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Rutte stated that NATO would defend every inch of Poland's territory",
+          "url": "https://unn.ua/en/news/rutte-stated-that-nato-would-defend-every-inch-of-polands-territory",
+          "publisher": "UNN (citing Reuters/PAP)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Tusk believes that the fall of Russian missiles in Poland is 'not a coincidence' amid the 'coalition of the willing' exercises nearby",
+          "url": "https://unn.ua/en/news/tusk-believes-that-the-fall-of-russian-missiles-in-poland-is-not-a-coincidence-amid-the-coalition-of-the-willing-exercises-nearby",
+          "publisher": "UNN",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russian Missiles in Poland: Update, 21 Nov 12:00 CET",
+          "url": "https://www.gscentre.eu/post/russian-missiles-poland-risk-assessment-update-21-november-2026-1200",
+          "publisher": "Global Security Centre",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia Says It Downed 275 Ukrainian Drones Overnight",
+          "url": "https://www.khaama.com/russia-downs-275-ukrainian-drones/",
+          "publisher": "Khaama Press",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting",
+        "c2-decision"
+      ],
+      "actors": [
+        "RU",
+        "UA",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261121-01"
+    },
+    {
+      "id": "cl-20261122-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "OpenAI、「敵対的蒸留」対策を公表　DeepSeekとMoonshot関係者を名指し、推論抽出の成功率は0.2%に",
+      "title_en": "OpenAI publishes measures against 'adversarial distillation', naming DeepSeek and individuals linked to Moonshot AI; extraction of protected reasoning falls from 54% to 0.2%",
+      "lead_ja": "OpenAIは11月20日、フロンティアモデルの出力を無断で用いて同等の能力を持つモデルを訓練する「敵対的蒸留」への対抗策を公表した。2月に議会へ説明したDeepSeekの試みと、9月に摘発した「Moonshot AI関係者」による抽出活動を名指しし、保護された推論過程を引き出す攻撃の成功率がGPT-6 Astraの54.0%からGPT-6.2 Astraの0.2%に下がったと報告した。国家安全保障上の含意として、輸出管理の強化と、Chip Security Act、AI OVERWATCH Act、MATCH Actへの支持を明記している。",
+      "lead_en": "On 20 November OpenAI published its countermeasures against 'adversarial distillation', the unauthorised use of a frontier model's outputs to train a model of similar capability. It named DeepSeek, whose attempts it briefed Congress on in February, and 'individuals associated with Moonshot AI', whose extraction campaign it disrupted in September, and reported that the success rate of attacks extracting protected reasoning fell from 54.0% on GPT-6 Astra to 0.2% on GPT-6.2 Astra. Under the heading of national security it endorsed stronger export controls and the Chip Security Act, the AI OVERWATCH Act and the MATCH Act.",
+      "sections": [
+        {
+          "heading_ja": "推論過程を会話に結びつけるAPI設計",
+          "heading_en": "An API design that ties reasoning to the conversation that produced it",
+          "paragraphs_ja": [
+            "OpenAIは、蒸留で最も価値が高いのは中間の思考過程（protected reasoning）であるとし、ユーザーに見える要約より正確な痕跡で学習した「生徒」モデルがサイバー課題で高い性能を示した社内実験を示している。対策は、抽出を狙う指示を拒否しつつ正当な説明要求には応じる敵対的訓練、入力分類器とツール呼び出しの引数まで含む出力分類器、そしてGPT-6.2 AstraとSolで推論過程をそれを生成した会話に結びつけ、過去のメッセージが書き換えられた場合は後続の推論を破棄するAPI上の保護である。保護の弱い旧世代モデルからの推論読み出しも遮断した。",
+            "6種の攻撃者モデルを束ねた適応型ブラックボックスのレッドチーム評価では、過去の要求からの抽出成功率が54.0%から0.2%へ、現在の要求からの抽出が22.9%から0.9%へ下がった。週次の執行措置は「数千から数万アカウント」の規模で、今夏に増加のペースが大きく上がったという。侵害指標は他社と共有し、提携先には「一貫した基準」を求める方針である。"
+          ],
+          "paragraphs_en": [
+            "OpenAI argues that the most valuable target of distillation is the intermediate chain of thought ('protected reasoning'), citing internal experiments in which a student model trained on exact reasoning traces outperformed one trained on user-visible summaries on cyber tasks. The countermeasures are adversarial training that refuses extraction prompts while answering legitimate explanation requests; input classifiers and output classifiers covering assistant messages and tool-call arguments; and, for GPT-6.2 Astra and Sol, an API protection that ties protected reasoning to the conversation that produced it and drops the reasoning that followed any rewritten earlier message. Older model families with weaker safeguards are blocked from reading that reasoning.",
+            "In adaptive black-box red-teaming aggregated across six attacker models, extraction from an earlier request fell from 54.0% to 0.2% and extraction from the current request from 22.9% to 0.9%. Weekly enforcement actions 'ranged in scale from thousands to tens of thousands of accounts', with the rate increasing significantly over the summer. Indicators of compromise are shared with other providers, and partners are held to a 'consistent-standards policy'."
+          ]
+        },
+        {
+          "heading_ja": "輸出管理と制裁立法への支持",
+          "heading_en": "Backing for export controls and sanctions legislation",
+          "paragraphs_ja": [
+            "同社は「敵対的蒸留の国家安全保障上の含意」と題する節で、2月に議会へDeepSeekによる米国フロンティアモデルの蒸留の兆候を説明したこと、外国の行為者を特定し制裁する権限を政府に与える立法を支持すること、「より強い輸出管理は、敵対者がフロンティアモデルの訓練に必要なハードウェアへ到達するのを制限できる」ことを述べ、Chip Security Act、AI OVERWATCH Act、MATCH Actへの支持を議会に伝えたと記した。知見は産業界と政府、Frontier Model Forumを通じて共有するとしている。",
+            "蒸留をめぐる議論は、米中委員会の年次報告（中国製オープンウェイトモデルの利用制限勧告）や財務省・OSTPが検討する中国製モデル利用の開示義務案と並び、計算資源の輸出管理から「モデルの重み」と「出力」の管理へと制度の射程を広げる方向にある。一方で、公表された数値は社内評価に基づくもので独立の検証は示されておらず、対象アカウントの帰属（Moonshot「関係者」）の根拠も要約にとどまる。"
+          ],
+          "paragraphs_en": [
+            "In a section titled 'The national security implications of adversarial distillation', the company said it briefed Congress in February on activity indicating that DeepSeek was attempting to distill US frontier models, that it supports legislation giving the US government more tools to identify and sanction foreign actors, and that 'stronger export controls can limit adversaries' access to the hardware needed to train frontier models'; it told Congress it supports the Chip Security Act, the AI OVERWATCH Act and the MATCH Act. Findings are shared with industry and government and through the Frontier Model Forum.",
+            "Alongside the US-China Commission's annual report (recommending limits on Chinese open-weight models) and the Treasury–OSTP proposal to require disclosure of Chinese model use, the distillation debate is extending the reach of policy from compute export controls to the governance of model weights and outputs. The published figures, however, rest on internal evaluations without independent verification, and the basis for attributing accounts to 'individuals associated with' Moonshot is given only in summary."
+          ]
+        }
+      ],
+      "watch_next_ja": "Chip Security Act、AI OVERWATCH Act、MATCH Actの審議状況。財務省・OSTPの中国製モデル利用開示案の正式提案。他のフロンティア企業の蒸留対策の公表と、Frontier Model Forumでの基準化。",
+      "watch_next_en": "Progress of the Chip Security Act, the AI OVERWATCH Act and the MATCH Act. A formal Treasury–OSTP proposal on disclosing Chinese model use. Other frontier labs' anti-distillation measures and standard-setting at the Frontier Model Forum.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "announced",
+      "publisher": "OpenAI",
+      "publisher_en": "OpenAI",
+      "sources": [
+        {
+          "title": "Combatting adversarial distillation",
+          "url": "https://openai.com/index/combatting-adversarial-distillation/",
+          "publisher": "OpenAI",
+          "date": "2026-11-20",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "OpenAI tightens safeguards against adversarial distillation",
+          "url": "https://news.lavx.hu/article/openai-tightens-safeguards-against-adversarial-distillation",
+          "publisher": "LavX News",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "compute-export",
+        "cyber-ci"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261122-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米GAO、AIとサイバーの技術評価を公表　エージェント型AIの自律攻撃を指摘し16の政策選択肢を提示",
+      "title_en": "GAO technology assessment on AI and cybersecurity: agentic AI now runs multiple attack stages autonomously; 16 policy options offered",
+      "lead_ja": "米政府監査院（GAO）は11月20日、技術評価報告「AIとサイバーセキュリティ：技術はサイバー攻撃を増幅し、サイバー防御を強化しうる」（GAO-27-108458、70ページ）を公表した。生成AIは防御能力を広げる一方で攻撃の「精度、正確性、速度」を高めており、新たな傾向として「エージェント型AIが最小限の人間の入力で攻撃の複数段階を自律的に実行する」事例を挙げた。4つの政策目標の下に16の選択肢を示し、重大な機能における人間の承認と、認証前の自律型AIの制限を含めている。",
+      "lead_en": "On 20 November the US Government Accountability Office published 'AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense' (GAO-27-108458, 70 pages). Generative AI has expanded defensive capabilities while raising the 'precision, accuracy, and speed' of attacks, and GAO identifies as an emerging trend 'the use of agentic AI to autonomously carry out multiple stages of an attack with minimal human input'. The report sets out 16 policy options under four goals, including human authorization for consequential actions and limits on autonomous AI pending certification.",
+      "sections": [
+        {
+          "heading_ja": "AIマルウェア実験場と低技能者による侵入",
+          "heading_en": "An AI malware lab and a low-skill intrusion",
+          "paragraphs_ja": [
+            "GAOが業界報告を分析した事例では、2026年6月に脅威主体が複数のAIエージェントを使い、悪性コードを各社のセキュリティ製品に対して試験し、技法をフレームワークに対応づけて結果を報告させる「AIマルウェア実験場」を運用していた。2026年2月には低技能の行為者が複数の商用生成AIサービスを使い、弱いパスワードで多要素認証のない機器について盗まれた資格情報を悪用した。報告は、生成AIの攻撃・防御能力を評価する「広く受け入れられた基準が存在しない」こと、AIツールは試験が難しく、使用法に関するデータと指針が不足していることを課題に挙げた。",
+            "方法は文献・文書の調査、関係者への聞き取り、複数日の専門家会合である。クラウドセキュリティアライアンスの解説は、作業期間を2025年4月から2026年11月、専門家会合を2026年4月（20人）とし、報告が2025年11月に公表されたAIを用いたスパイ活動（作業の80〜90%を自動化と推定）を引用するとしているが、これらはGAOの概要ページには記載がなく、本文での確認を要する。"
+          ],
+          "paragraphs_en": [
+            "Among the incidents GAO drew from industry reporting, a threat actor in June 2026 ran an 'AI-powered malware lab', using multiple AI agents to test malicious code against different security products, map techniques to frameworks and report results. In February 2026 a low-skill actor used several commercial generative AI services to exploit stolen credentials on devices with weak passwords and no multi-factor authentication. The report finds that 'there are no widely accepted evaluation criteria for assessing offensive or defensive capabilities of generative AI', that AI tools are difficult to test, and that data and guidance on their use are insufficient.",
+            "The method comprised a literature and document review, stakeholder interviews and a multi-day expert meeting. A Cloud Security Alliance note states that the work ran from April 2025 to November 2026, that the expert meeting was held in April 2026 with 20 participants, and that the report cites the AI-enabled espionage campaign disclosed in November 2025 (an estimated 80–90% of the operation automated); these details do not appear on GAO's summary page and should be checked against the full report."
+          ]
+        },
+        {
+          "heading_ja": "人間の承認、認証前の制限、決定論的な代替",
+          "heading_en": "Human authorization, pre-certification limits and deterministic fallbacks",
+          "paragraphs_ja": [
+            "16の選択肢は、指針と実務の隙間（要件の調和、脅威情報共有の改善、AI関連のプライバシーリスク、基本的対策の徹底）、研究の隙間（安全な導入のための研究、エージェント型AIのアイデンティティ管理、試験環境の拡充）、ライフサイクル全体の統治、人材の4目標に整理された。統治の項には、重大なサイバーセキュリティ機能に決定論的なAIの代替手段を確保すること、「結果を伴うAI主導の行動には人間の承認を要求する」こと、「自律的で非決定論的なAIを認証まで重大な機能で制限する」こと、導入前後の出力検証、リスクに基づく調達、価値の評価、プライバシー責任者の設置が並ぶ。",
+            "GAOはこれらを立法機関、省庁、標準化団体、産業界に向けた「選択肢のメニュー」であり網羅的ではないと位置づけている。11月19日に公表された覆面テスト報告（4つの主要AIが12時間未満で安全対策を回避し「実行可能な攻撃計画」を生成）と合わせ、議会で検討が進むAIサイバー脅威への対応（キャントウェル・ラウンズ書簡、国家サイバー・AI調査委員会法案）に、認証と人間の承認という具体的な設計要件を供給する内容である。国防省が11月17日にAIをサイバー要員訓練の「基本要件」とした動きとも接続する。"
+          ],
+          "paragraphs_en": [
+            "The 16 options are grouped under four goals: gaps in guidance and practice (harmonising requirements, improving threat-information sharing, closing AI-related privacy gaps, applying fundamental practices); research gaps (research for safe adoption, agentic-AI identity management, expanded test environments); governance across the AI lifecycle; and the workforce. The governance goal includes a deterministic fallback for critical cybersecurity functions, a requirement for 'human authorization for consequential AI-initiated cybersecurity actions', a restriction on 'autonomous and nondeterministic AI in consequential functions pending certification', validation of outputs before and during deployment, risk-based acquisition, evaluation of value gain, and a senior role for privacy risk.",
+            "GAO presents these as 'a menu of alternatives' for legislatures, agencies, standards bodies and industry, and says the list is not exhaustive. Together with the covert-testing report of 19 November (four leading AI systems produced 'actionable attack plans' after bypassing safeguards in under 12 hours), it supplies concrete design requirements, certification and human authorization, to congressional efforts on AI cyber threats such as the Cantwell–Rounds letter and the proposed National Cyber and AI Commission. It also connects to the Department of Defense's decision of 17 November to make AI a 'fundamental requirement' in cybersecurity workforce training."
+          ]
+        }
+      ],
+      "watch_next_ja": "報告本文の政策選択肢の章（pp.41〜49）と専門家会合の記録。国家サイバー長官の後任指名と、超知能タスクフォースへのキャントウェル・ラウンズ書簡の回答。NIST・CISAによる「AI主導の行動への人間の承認」の指針化の有無。",
+      "watch_next_en": "The policy-options chapter of the full report (pp. 41–49) and the expert-meeting record. Nomination of a new National Cyber Director and the response to the Cantwell–Rounds letter to the superintelligence task force. Whether NIST or CISA turn 'human authorization for AI-initiated actions' into guidance.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "米政府監査院（GAO）",
+      "publisher_en": "US Government Accountability Office",
+      "sources": [
+        {
+          "title": "AI and Cybersecurity: Technologies Can Magnify Cyberattacks and Enhance Cyber Defense (GAO-27-108458)",
+          "url": "https://www.gao.gov/products/gao-27-108458",
+          "publisher": "GAO",
+          "date": "2026-11-20",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "GAO's Autonomous Cyber Defense Options: Authorization, Certification, Agent Identity",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-gao-autonomous-ai-cyber-defense-policy-202/",
+          "publisher": "Cloud Security Alliance",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "GAO Identifies Data and Governance Gaps as AI Reshapes Cybersecurity",
+          "url": "https://www.cdomagazine.tech/us-federal-news-bureau/gao-identifies-data-and-governance-gaps-as-ai-reshapes-cybersecurity",
+          "publisher": "CDO Magazine",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261122-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "フーシ派がリヤドに弾道ミサイル3発、バーレーンはイランの攻撃を迎撃と発表　ホルムズ付近でタンカー2隻被弾",
+      "title_en": "Houthis fire three ballistic missiles at Riyadh, Saudi-led coalition reports interceptions; Bahrain intercepts an Iranian attack and two tankers are hit near Hormuz",
+      "brief_text_ja": "サウジ主導連合は11月21日早朝、フーシ派がリヤドに向けて発射した弾道ミサイル3発を迎撃・破壊したとXで発表し、AFP記者は爆発音を聞いたと伝えた。バーレーン内務省は同日22時過ぎにミサイルと無人機の接近でサイレンを発令し、国営テレビは防空部隊がイランの攻撃を迎撃したと報じ、民間の工業施設で火災が発生した。UKMTOはホルムズ海峡付近のハサブ沖でタンカー2隻が未特定の飛翔体で被弾したと報告し（負傷者なし）、イラン海軍は制限区域で識別装置を切った油槽船が機雷に触れたと説明し、国営テレビはケシュム島上空で米無人機を撃墜したと主張したが米側の確認はなく、CENTCOMはIRGCが主張した米F-16への攻撃を否定し、イラン封鎖が130日連続に達したと発表した。",
+      "brief_text_en": "Early on 21 November the Saudi-led coalition said on X that its air defences had intercepted and destroyed three ballistic missiles launched by the Houthis toward Riyadh, and an AFP reporter heard explosions. Shortly after 22:00 the same day Bahrain's Interior Ministry activated sirens for incoming missiles and drones, state television reported that air defences had intercepted Iranian attacks, and a fire broke out at a civilian industrial facility. UKMTO reported two tankers struck by unidentified projectiles off Khasab near the Strait of Hormuz with no casualties; Iran's navy said a tanker with its identification systems switched off had struck a mine in a restricted area, and state television claimed a US drone was shot down over Qeshm without US confirmation, while CENTCOM denied an IRGC claim of an attack on a US F-16 and said the blockade of Iran had reached 130 consecutive days.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "サウジ主導連合、バーレーン内務省、UKMTO、CENTCOM、イラン海軍",
+      "publisher_en": "Saudi-led coalition; Bahrain Interior Ministry; UKMTO; CENTCOM; Iranian Navy",
+      "sources": [
+        {
+          "title": "Middle East war: 8 things UAE residents need to know tonight, November 21",
+          "url": "https://gulfnews.com/uae/middle-east-war-8-things-uae-residents-need-to-know-tonight-november-21-1.500756425",
+          "publisher": "Gulf News",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Middle East war live: Bahrain intercepts Iranian aerial attacks as Hormuz tensions rise",
+          "url": "https://gulfnews.com/uae/middle-east-war-trump-says-iran-wants-deal-but-terms-are-unacceptable-1.500755788",
+          "publisher": "Gulf News",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Live - Trump seeks permanent deal as Iran vows to break US blockade",
+          "url": "https://www.iranintl.com/en/liveblog/202611214578",
+          "publisher": "Iran International",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "isr-targeting"
+      ],
+      "actors": [
+        "US",
+        "IL"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": "cl-20261120-13"
+    },
+    {
+      "id": "cl-20261122-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米陸軍、ソフト認証自動化「Project Gatekeeper」の第1段階でOpenAIと協業　他社モデルは次四半期以降",
+      "title_en": "Army acting CIO says Project Gatekeeper, which automates software authorization, will work with OpenAI in its first phase; other models to follow from next quarter",
+      "brief_text_ja": "米陸軍のチウリCIO代行は11月20日、AFCEAのデータフォーラムで、商用ソフトウェアの運用承認（ATO）を自動化する「Project Gatekeeper」の第1段階としてOpenAIと協業し「最初に何を検査すべきか」を詰めると述べ、同社の「Daybreak」ツールを検証に使う可能性を示した。10月に公開された同プロジェクトは、ベンダーが陸軍のDevSecOps基盤にコードを提出して迅速な検証を受け、通過したものをIL5環境へ移す仕組みで、現在は共通アクセスカードで認証し、Login.govの導入を予定している。AIモデルの統合は「次の四半期」を目標とし、その後は他の商用・オープンソースのモデル提供者にも開放してベンダーが自前のAPIキーを持ち込む形を想定しているが、契約額とOpenAIのコメントは示されていない。",
+      "brief_text_en": "Speaking at AFCEA's Annual Data Forum on 20 November, Army acting CIO Gabe Chiulli said the first phase of Project Gatekeeper, which aims to automate the authority-to-operate (ATO) process for commercial software, will work with OpenAI to 'work through, like, what do we want to check first', and that OpenAI's 'Daybreak' tooling could be used for validation. Unveiled in October, Gatekeeper has vendors submit code to an Army DevSecOps platform for quick validation, with passing code moving into an IL5 environment; access is by Common Access Card today, with Login.gov planned. Chiulli set the integration of AI models for 'the next quarter', after which the Army expects to open it to other commercial and open-source model providers, with vendors bringing their own API keys; no contract value was given and OpenAI did not comment.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "announced",
+      "publisher": "米陸軍",
+      "publisher_en": "US Army",
+      "sources": [
+        {
+          "title": "Army plans to work with OpenAI on Project Gatekeeper",
+          "url": "https://defensescoop.com/2026/11/20/army-project-gatekeeper-openai-gabe-chiulli/",
+          "publisher": "DefenseScoop",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "cyber-ci"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261122-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ヘグセス長官の対カナダ機密メモ、ラウンズ上院議員「シンクタンクと社交行事の制限」　加国防相「変化の証拠はない」",
+      "title_en": "On Hegseth's classified memo on Canada, Senator Rounds says the limits fall on think-tank and social events; Canada's defence minister sees 'no evidence of any kind of change'",
+      "brief_text_ja": "ワシントン・ポストが11月20日夜に報じた、ヘグセス国防長官がカナダとの防衛協力を制限した機密メモについて、ラウンズ上院議員は21日、ハリファクス国際安全保障フォーラムで、制限は主に米軍高官のシンクタンク行事や社交への参加を対象とし作戦や情報共有には及ばないと説明し、国防省のパーネル報道官も国防情報協力、NORAD、NATOには影響しないと述べた。マクギンティ加国防相は「何らかの文書があるのは明らかだが、我々は見ていない」とし、防衛・安全・情報の協力は続いていると述べ、装備の国産化を進める10の中核分野とNATOイノベーション基金への1億カナダドルの初回拠出を表明した。トランプ政権の高官は2025年以降の制限により同フォーラムに参加していない。",
+      "brief_text_en": "On the classified memo in which Defense Secretary Hegseth restricted defence cooperation with Canada, first reported by The Washington Post on the evening of 20 November, Senator Mike Rounds said at the Halifax International Security Forum on 21 November that the limits mostly target US military officials' participation in think-tank events and social engagements rather than operations or intelligence sharing, and Pentagon spokesman Sean Parnell said the guidance does not affect defence intelligence cooperation, NORAD or NATO. Canadian Defence Minister David McGuinty said 'it's clear that there's some sort of document we haven't seen' and that cooperation on defence, security and intelligence continues, and announced ten core areas for domestic production and an initial CAD 100 million contribution to the NATO Innovation Fund. Trump administration officials have stayed away from the forum under restrictions imposed in 2025.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "米国防省、カナダ国防省",
+      "publisher_en": "US Department of Defense; Department of National Defence (Canada)",
+      "sources": [
+        {
+          "title": "Despite Hegseth memo, Canada hasn't seen changes to defense relationship with US, says DefMin",
+          "url": "https://breakingdefense.com/2026/11/canada-hasnt-seen-changes-to-defense-relationship-with-us-says-mcguinty/",
+          "publisher": "Breaking Defense",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US senator says Pentagon restrictions on Canada focus on think tanks and social events",
+          "url": "https://www.yahoo.com/news/politics/articles/us-senator-says-pentagon-restrictions-192117185.html",
+          "publisher": "AP (via Yahoo News)",
+          "date": "2026-11-21",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US",
+        "NATO"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "bilateral",
+        "nato"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-23",
+      "text_ja": "北大西洋理事会（ブリュッセル）でポーランド領空侵犯を協議、Eastern Sentryへの追加資産。国連・バルバドス共催「ブリッジタウンAI安全特別サミット」。台湾加権指数の週明けと金管会の追加措置",
+      "text_en": "North Atlantic Council (Brussels) on the Polish airspace violation and additional Eastern Sentry assets. UN–Barbados Bridgetown Special Summit on AI Safety. TAIEX reopening and any further FSC measures"
+    },
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for the Commerce, Justice and State secretaries and the DNI to answer Senator Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the DoD Science, Technology and Innovation Board to begin its study on commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-27",
+      "text_ja": "ベセント財務長官が示したNvidia取締役会・外部弁護士の回答期限（「10日以内」）の目安",
+      "text_en": "Approximate end of the 'next 10 days' Treasury Secretary Bessent gave Nvidia's board and outside counsel to provide answers"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。中国の介入手法（AIで書き換えた投稿、アカウント網）の推移。選挙後の国防特別予算法案の審議再開",
+      "text_en": "Taiwan local elections; evolution of Chinese interference methods (AI-rewritten posts, account networks); resumption of the special defence budget bill after the vote"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「ディフェンスAIビジョン」の策定・公表（月末にもと小泉防衛相）。財政審建議の全文公表。与党安保PTの次回会合（防衛産業基盤戦略）",
+      "text_en": "Japan MoD 'Defense AI Vision' (by month-end per Minister Koizumi). Full text of the Fiscal System Council's recommendation. Next ruling-party security PT meeting (defence industrial base)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院3委員会によるNvidiaフアン前CEOの非公開・記録付き聴取。12月2日：ティーター法務責任者の聴取。FY2027 NDAA協議文書の公表（「数週間以内」と上院スタッフ）",
+      "text_en": "Closed, transcribed House interview of former Nvidia CEO Huang; 2 Dec: general counsel Teeter. FY2027 NDAA conference text ('within weeks', Senate staff)"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "国連総会本会議でのLAWS決議（L.37）の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）。イスラエル国防軍の無人システム・AI部門の発足（12月初めまで）",
+      "text_en": "UNGA plenary adoption of the LAWS resolution (L.37), expected early December. Japan: expert panel report on the three security documents (early December). IDF unmanned systems and AI directorate stand-up (by early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）",
+      "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule. Airshow China (Zhuhai, 7–13 December)"
+    },
+    {
+      "date": "2026-12-11",
+      "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方",
+      "text_en": "US continuing resolution expires; fate of the reconciliation bill carrying Golden Dome and Autonomous Warfare Group funding"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標と報道）と5年総額の決着。米G20首脳会合（ドラル）でのトランプ・習再会談",
+      "text_en": "Japan: Cabinet decision on the revised three security documents (mid-December target) and the five-year total. Trump–Xi meeting at the G20 summit (Doral)"
+    },
+    {
+      "date": "2027-01-10",
+      "text_ja": "米中貿易休戦の期限。深圳会談後の延長条件",
+      "text_en": "Expiry of the US–China trade truce; extension terms after the Shenzhen meeting"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切（11月19日の連邦公報掲載から60日）",
+      "text_en": "Comment deadline for the BIS remote-access interim final rule (60 days from the 19 November Federal Register publication)"
+    },
+    {
+      "date": "2027-01-31",
+      "text_ja": "ハッサン上院議員のAIリスク公聴会（1月）。ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）。国家サイバー長官の後任指名",
+      "text_en": "Senator Hassan's AI-risk hearing (January). White House superintelligence task force policy paper (expected by end-January). Nomination of a new National Cyber Director"
+    },
+    {
+      "date": "2027-02-17",
+      "text_ja": "米BIS遠隔アクセス規則：既存データセンターの許可申請期限（発効から90日）。インドのUNICORN「必要性の承認」（2月まで）",
+      "text_en": "BIS remote-access rule: licence deadline for existing data centres (90 days from effect). India's UNICORN acceptance of necessity (by February)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（GAO技術評価は概要ページを直接確認。OpenAIの蒸留対策は原文を確認。ロイターのSEC・Nvidia記事はInvesting.com・Euronext転載で確認、CNN・CNBC・ブルームバーグは到達不可。DefenseScoopの陸軍Gatekeeper記事、Breaking Defenseのハリファクス記事を確認。war.gov・army.mil・congress.govは未確認。NDAA・ゴールデンドーム・超知能タスクフォースの21日付の新規発表なし）、中国（国防部・外交部・商務部の21日付の該当発表を検索で確認できず。珠海航空ショーは12月7日開幕）、日本（防衛省・防衛装備庁・内閣府・経産省・外務省・NSSの21日付（土曜）の該当発表を検索で確認できず。mod.go.jpの会見録は到達不可。高市首相・小泉防衛相の21日の新たな発言は報道で確認できず）、韓国（国防部・防衛事業庁の21日付該当なし。20日の国防防衛産業フォーラムは前号で既報）、台湾（台北タイムズ21日付：加権指数の週間下落、追加予算成立（前号既報）、選挙介入対策記事は到達不可。国防部の21日付発表は未確認）、欧州・NATO（ルッテ事務総長のワルシャワ訪問はロイター・UNN。ポーランド国防省の公式発表は未確認。EU・EDAの21日付該当なし。デンマークのロシア駐在武官追放（20日）はAI関連性が薄く不採用）、英国（国防省の21日付該当なし）、ロシア・ウクライナ（空軍発表はCensor.NET・UNITED24経由、ウクルインフォルム・ウクラインスカ・プラウダ・NV.uaは到達不可。ロシア国防省の主張はKhaama経由）、イスラエル・中東（Gulf News・Iran International。CENTCOM・サウジ連合の原文は未確認。IDF関連の21日付のAI・無人機発表なし）、インド（21日付該当なし）、豪州（ABCのMicrosoft障害記事は既報範囲の続報にとどまる）、ASEAN（21日付該当なし）。国際規範（CCW閉幕はロイター・AP・アナドル・ガーディアン・Streamline。UNODAの最終文書案PDFとガーディアン原文は到達不可。ICRC・SKRの声明原文は未確認）、サイバー（GAO報告。米国の障害群の21日付の新たな公式所見なし）、フロンティア企業（OpenAI蒸留対策、Anthropic株2日目終値、Nvidia。Google・Microsoft・Metaの21日付の安全保障関連発表なし）、研究・シンクタンク（CSIS・RAND・CNAS・IISSの20〜21日付該当報告なし）。",
+      "japan": "防衛省（会見録・報道資料は到達不可。21日付の報道で新たな発言を確認できず）、防衛装備庁・内閣府・経産省・外務省・NSS（21日付の該当発表を検索で確認できず）、国会（閉会中・該当なし）、与党・野党（21日付の提言・会合の報道なし）、首相官邸（高市首相の21日の安全保障関連発言は確認できず）。日本に関わる動きは、CCWで拘束力に慎重な側に日本が挙げられた点（ガーディアン）のみで、本文中に記載した。"
+    },
+    "dropped": [
+      {
+        "title": "Denmark expels Russian defence attaché over foiled assassination plot (PET, 20 Nov)",
+        "url": "https://pet.dk/en/about-pet/news-list/russia-uses-danish-criminal-networks-in-assassination-attempt-on-danish-soil/2026/11/20",
+        "reason": "対象期間内で重要だがAIと無人システムへの関わりが薄く、本サイトの範囲外と判断して不採用。"
+      },
+      {
+        "title": "Operation Bear Trap: 14 settlements, ~200 sq km returned in northern Kharkiv region (Interfax-Ukraine)",
+        "url": "https://en.interfax.com.ua/news/general/1240080.html",
+        "reason": "本文を開けず、作戦でのAI・無人システムの役割も報道から確認できないため不採用。"
+      },
+      {
+        "title": "2026 Elections: Taiwan tackling election interference (Taipei Times, 21 Nov)",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/21/2003868132",
+        "reason": "本文を開けず、内容（AI生成コンテンツの手法・件数）を確認できないため不採用。11月28日の選挙前に再確認。"
+      },
+      {
+        "title": "Czech President Pavel: incident like Poland's 'a matter of time' for Czechia (Expats.cz)",
+        "url": "https://www.expats.cz/czech-news/article/a-matter-of-time-pavel-warns-czechia-could-face-an-incident-like-poland-s",
+        "reason": "発言日を確認できず、本文も未閲覧のため不採用。"
+      },
+      {
+        "title": "TSMC buys Anthropic shares for US$500 million (Taipei Times, 20 Nov)",
+        "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868042",
+        "reason": "開示は11月19日で対象期間外。Nvidia・相場の項目の文脈として本文中に1文で言及。"
+      },
+      {
+        "title": "Bridgetown Special Summit on AI Safety (UN–Barbados, 23 Nov)",
+        "url": "https://news.un.org/en/story/2026/11/1168854",
+        "reason": "開催は23日で未発生のため「今後の予定」に記載。32か国と欧州委員会が署名したとされるフロンティアAI管理の呼びかけは原文未確認。"
+      },
+      {
+        "title": "After tech outages, experts say Australians must look for 'emergency exit' (ABC, 21 Nov)",
+        "url": "https://abc.net.au/news/2026-11-21/microsoft-nsa-tech-outages-latest/107403042",
+        "reason": "米国の障害群に関する新たな公式所見を含まず、前号の続報として採用に至らず。"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261122-01（CCW）：UNODAの最終文書案PDF（CCW/CONF.VII/CRP.1/Rev.2）とガーディアン原文は本環境から開けず、ロイター（TimesLIVE転載）、AP（KIRO7転載）、アナドル、ガーディアン（AOL転載）、Streamline（AFP・ロイター・国連文書を引用）に依拠した。マンデートの文言（「策定」「コンセンサス」「法的性質を勧告」）は複数報道で一致するが、GGEの会期数と2027年の日程は未確認。閉幕時刻はロイター「4時過ぎ（3時GMT）」、AFP経由「4時45分ごろ」、ガーディアン「5時直前」で幅がある。",
+      "cl-20261122-02（Nvidia・相場）：ロイターの独占記事はInvesting.comとEuronextの転載で確認。SEC調査の焦点は未特定で、シンガポール経由売上や循環的融資への言及は報道側の文脈であり、SECの対象と確認されたものではない。Nvidia株の下落率は14.0%（ヤフー・ファイナンス、LSEG）と13.8%（ロイター市場概況）で差があり、本文は銘柄記事の14.0%、概況では「約14%」と表記した。10月高値からの時価総額減少は約2.7兆ドル（ヤフー）と約2.6兆ドル（Dealroom）で幅がある。",
+      "cl-20261122-03（ウクライナ・ポーランド）：数値はウクライナ空軍・市当局の発表で、信頼度B2。Kh-101の同定とルブリン軍検察の捜査はGlobal Security Centre（民間リスク会社）とLatin Timesに依拠し、ポーランド国防省の原文は未確認。F-35・AWACSの追加要請はLatin Timesのみの単独報道のため本文から除いた。",
+      "cl-20261122-05（GAO）：CSAの解説が示す作業期間・専門家会合（20人）・2025年11月のスパイ活動事例（80〜90%自動化）の引用は、GAO概要ページでは確認できず、本文PDF（70ページ）の確認が必要。本文中でその旨を明記した。",
+      "cl-20261122-06（中東）：すべて当事者の主張（サウジ連合、バーレーン国営TV、イラン海軍・国営TV、CENTCOM）で、UKMTOのタンカー被弾報告以外は独立確認なし。信頼度C3。",
+      "タグ体系：Nvidia・相場の項目は「industry-procurement」「compute-export」に置いたが、市場・金融の概念はテーマIDにない。中東の項目のactorsにサウジ・バーレーン・イランのIDがないため、US・ILのみとした。",
+      "週末（土曜）のため、日本・韓国・中国・台湾の公的発表は該当がなく、短信は3件にとどめた（件数を埋めるための採用はしていない）。"
+    ]
+  }
+}
