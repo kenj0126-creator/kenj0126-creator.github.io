@@ -1,0 +1,562 @@
+{
+  "edition_date": "2026-11-23",
+  "generated_at": "2026-11-23T06:10:00+09:00",
+  "window_from": "2026-11-22T06:12:00+09:00",
+  "edition_title_ja": "軍民に広がる中国製AIと、自律エージェント・海上無人機の実地化",
+  "edition_title_en": "Chinese AI across military and civilian use, and the fielding of autonomous agents and naval drones",
+  "edition_dek_ja": "連邦システムからの排除提言、独力でゼロデイを突くAI、そしてバルト海に達した無人機戦が重なった一日。",
+  "edition_dek_en": "A day that linked a call to purge federal systems, AI that finds zero-days on its own, and a drone war reaching the Baltic.",
+  "lead_points_ja": [
+    "その日の動きは、中国製AIモデルの軍民両面への浸透と、AIエージェント・海上無人機の実地化という二つの流れが同時に表面化した点に特徴がある。",
+    "米下院の2委員会は中国製オープンウェイトAIの連邦システムからの排除を提言し、人民解放軍と米企業が同じモデル系列を使う実態を示した。",
+    "アマゾンは、中国系とみられる攻撃者の自律AIエージェントがゼロデイを独力で発見・悪用したと報告した。",
+    "ウクライナに帰属される海上無人機攻撃がバルト海とリビアに及び、日本は2027年度からの装備調達縮小で無人機とAIを優先する方向と報じられた。"
+  ],
+  "lead_points_en": [
+    "The day was marked by two currents surfacing at once: the penetration of Chinese AI models into both military and civilian use, and the fielding of AI agents and naval drones.",
+    "Two US House committees urged removing Chinese open-weight AI from federal systems, showing the PLA and US firms drawing on the same model families.",
+    "Amazon reported that a suspected Chinese-nexus actor's autonomous AI agents found and exploited a zero-day on their own.",
+    "Drone strikes attributed to Ukraine reached the Baltic and Libya, while Japan was reported to be protecting drones and AI amid cuts to FY2027 procurement."
+  ],
+  "items": [
+    {
+      "id": "cl-20261123-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "米下院2委員会、中国製オープンウェイトAIの排除を提言　PLAと米企業が同一モデルを利用と指摘",
+      "title_en": "Two US House committees urge removing Chinese open-weight AI, citing shared model families in the PLA and US firms",
+      "lead_ja": "米下院の中国特別委員会と国土安全保障委員会は11月20日、中国製オープンウェイトAIモデルに関する共同調査報告書を公表した。報告書は、人民解放軍がDeepSeekやアリババのQwenを調達し、同じモデル系列が米企業の製品内部でも稼働している実態を示し、連邦システムと重要インフラからの排除を提言した。両委員長は、米国が開発で先行しても普及と依存の構造で後れを取る恐れを警告している。",
+      "lead_en": "On November 20 the House Select Committee on the CCP and the Homeland Security Committee released a joint investigative report on Chinese open-weight AI models. It showed the PLA procuring DeepSeek and Alibaba's Qwen while the same model families run inside US companies' products, and urged their removal from federal systems and critical infrastructure. The chairmen warned that US leadership in development could be offset by a structure of diffusion and dependence.",
+      "sections": [
+        {
+          "heading_ja": "軍民で重なるモデル系列",
+          "heading_en": "Model families shared across military and civilian use",
+          "paragraphs_ja": [
+            "報告書によれば、人民解放軍は2026年7月の調達公告でサイバー演習場にDeepSeekを組み込み、「知能化された攻撃」と「知能化された侵入」の機能を求めた。別の記録では、アリババのQwenとDeepSeekを中核に据えた指揮情報システムが示され、2026年の案件ではDeepSeek、アリババ、Moonshot、MiniMaxの各モデルをインターネットから切り離した網で動かし、軍事用AIエージェントを開発する構想が確認された。",
+            "さらに、PLAサイバー空間部隊第一局に属する要員が、AI企業・智譜（Zhipu）の北京本社を複数回、直近では2026年8月に訪れたとされる。両委員会は、これらと同じモデル系列が米企業の内部でも稼働していると指摘する。コーディング基盤Cursorを手がけるAnysphereはMoonshotの基盤モデルを用い、Airbnbはアリババのモデルをカスタマーサポートに、DoorDashは複数の中国製モデル系列を採用したと報告した。"
+          ],
+          "paragraphs_en": [
+            "According to the report, a July 2026 PLA procurement notice built DeepSeek into a cyber range, seeking functions for \"intelligent attack\" and \"intelligent penetration.\" Other records describe a command information system built around Alibaba's Qwen and DeepSeek, and a 2026 project that required DeepSeek, Alibaba, Moonshot and MiniMax models to run on an internet-disconnected network to develop military AI agents.",
+            "Personnel from the first bureau of the PLA Cyberspace Force are said to have visited the Beijing headquarters of the AI firm Zhipu on several occasions, most recently in August 2026. The committees note that the same model families run inside US companies. Anysphere, which makes Cursor, uses a Moonshot base model; Airbnb uses Alibaba models in customer support; and DoorDash reported deploying several Chinese model families."
+          ]
+        },
+        {
+          "heading_ja": "排除と来歴管理の提言",
+          "heading_en": "Removal and provenance management",
+          "paragraphs_ja": [
+            "報告書は12項目の政策提言を示した。中核は、連邦の調達業務と高リスクの重要インフラ機能から中国製モデルを排除し、各省庁がその実施を監督できる可視性を持たせる点にある。あわせて、モデルの来歴を示す標準と「AI部品表」の整備、米国主導のオープンウェイトAI構想の立ち上げ、CISAをAI関連のサイバー事案報告の単一窓口とすることなどを求めた。",
+            "両委員長は、既にDeepSeekを連邦の民生システムから除外した国土安全保障省の措置を土台に、対象をDeepSeek以外の中国製モデルへ広げるべきだと主張する。名指しされた米企業は委員会と「建設的な協議」を行ったとされ、Anysphereは中国製モデルの段階的な置き換えを検討すると説明した。"
+          ],
+          "paragraphs_en": [
+            "The report sets out 12 policy recommendations. At their core is keeping Chinese models out of federal contract work and high-risk critical-infrastructure functions, with visibility for agencies to enforce it. It also calls for a model-provenance standard and an \"AI bill of materials,\" a US-led open-weight AI initiative, and making CISA the single point of submission for AI-related cyber incident reports.",
+            "The chairmen argue for extending restrictions beyond DeepSeek to other Chinese models, building on the Homeland Security Department's exclusion of DeepSeek from federal civilian systems. The named US firms are said to have held \"productive discussions\" with the committees, and Anysphere said it would explore phasing out Chinese models."
+          ]
+        },
+        {
+          "heading_ja": "蒸留と依存をめぐる論点",
+          "heading_en": "Distillation and dependence",
+          "paragraphs_ja": [
+            "報告書は、中国の進展の多くが米国モデルの出力を蒸留したものに依拠し、米国のデータラベリング企業が学習データの供給に関与していると指摘した。価格の安さとオープンウェイトの配布、国家支援を通じて世界的な依存を築く構造を問題視している。モーレナー委員長は「米国が数千億ドルを投じて競う間に、北京は盗んだ情報で差を詰めている」と述べた。",
+            "ただし報告書の指摘の相当部分は、調達記録や企業への聞き取りに基づくものであり、PLAの実運用で中国製モデルがどこまで使われているかは独立に確認されていない。提言はいずれも立法化されておらず、議会の対応はこれからである。"
+          ],
+          "paragraphs_en": [
+            "The report says much of China's progress rests on distilled outputs from US models, with US data-labeling firms helping supply training data. It frames low prices, open-weight distribution and state support as a structure that builds global dependence. Chairman Moolenaar said that while America invests hundreds of billions to compete, Beijing is using stolen intelligence to close the gap.",
+            "A large part of the report, however, rests on procurement records and company briefings, and how far the PLA uses Chinese models operationally has not been independently confirmed. None of the recommendations has been enacted, and the congressional response is still ahead."
+          ]
+        }
+      ],
+      "watch_next_ja": "報告書本体（2026.11.20付PDF）の精読と、連邦調達からの中国製モデル排除を求める立法化の動き。名指しされたAnysphere・Airbnb・DoorDashの対応。",
+      "watch_next_en": "A close read of the report PDF (dated 2026-11-20), legislation to bar Chinese models from federal contracting, and the responses of Anysphere, Airbnb and DoorDash.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "米下院中国特別委員会・国土安全保障委員会",
+      "publisher_en": "US House Select Committee on the CCP and Homeland Security Committee",
+      "sources": [
+        {"title": "Chairmen Garbarino, Moolenaar Release Joint Investigative Report Urging Removal of PRC Open-Weight Models From Federal Systems, High-Risk Critical Infrastructure", "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/", "publisher": "House Homeland Security Committee", "date": "2026-11-20", "kind": "primary", "accessed": true},
+        {"title": "Joint Investigation Report: China is Trying to Get U.S. Companies Addicted to Chinese AI Models", "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models", "publisher": "House Select Committee on the CCP", "date": "2026-11-20", "kind": "primary", "accessed": true}
+      ],
+      "themes": ["governance-norms", "compute-export", "frontier-safety"],
+      "actors": ["US", "CN"],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "NYT、中国国家安全省が2年にわたりAIチップ入手を主導と報道　TSMCは中国設計企業の16nm以下発注を停止",
+      "title_en": "NYT reports China's MSS led a two-year drive to obtain AI chips; TSMC halts sub-16nm orders from Chinese designers",
+      "lead_ja": "ニューヨーク・タイムズは11月21日、複数の情報当局者の話として、中国国家安全省が少なくとも2年にわたり先端AIチップの入手と半導体供給網の情報収集を主導してきたと報じた。同じ週、TSMCは中国の設計企業に対し、米国の輸出許可を得ない限り16ナノメートル以下の発注を停止するよう指示したと伝えられた。情報当局の動きと製造側の締め付けが同時に表面化した。",
+      "lead_en": "On November 21 The New York Times, citing intelligence officials, reported that China's Ministry of State Security has for at least two years led an effort to obtain advanced AI chips and gather intelligence on the semiconductor supply chain. In the same week, TSMC was reported to have instructed Chinese designers that orders using 16-nanometre processes and below be halted absent a US export licence. Intelligence activity and a manufacturing squeeze surfaced together.",
+      "sections": [
+        {
+          "heading_ja": "国家安全省の「反封鎖」体制",
+          "heading_en": "The MSS \"counter-blockade\" apparatus",
+          "paragraphs_ja": [
+            "NYTは、陳一新・国家安全相の下に直属の作業チームが置かれ、輸出規制を回避する「反封鎖」の取り組みを支えていると報じた。チームは中国企業による先端チップの入手と密輸を助け、半導体産業とその供給網に関する情報を集めているとされる。陳氏は4月の党機関誌で、求めても買っても得られない技術を確保せよと記していた。",
+            "同省は、シンガポールを拠点とするメガスピードのような企業を通じ、海外のデータセンターでNvidia製チップを利用させる形で直接販売の規制を迂回したとされる。米政府は同社を違法な密輸の疑いで調査しているとされ、中国側は一連の疑いを「純然たる捏造」と否定している。"
+          ],
+          "paragraphs_en": [
+            "The Times reported that a working team reporting directly to State Security Minister Chen Yixin supports a \"counter-blockade\" effort to get around export controls. The team is said to help Chinese firms acquire and smuggle advanced chips and to gather intelligence on the chip sector and its supply chains. In April, Chen wrote in a party journal that the ministry must secure technology that cannot be obtained by asking or buying.",
+            "The ministry is said to have used firms such as Singapore-based Megaspeed to let Chinese companies use Nvidia chips at overseas data centres, sidestepping limits on direct sales. The US government is reported to be investigating Megaspeed for illegal smuggling, and Beijing calls the allegations a pure fabrication."
+          ]
+        },
+        {
+          "heading_ja": "製造の蛇口を絞るTSMC",
+          "heading_en": "TSMC tightens the tap",
+          "paragraphs_ja": [
+            "ロイターは関係者の話として、TSMCが中国の設計企業に対し、16ナノメートル以下の製造工程を用いる発注を米国の輸出許可を得ない限り停止するよう指示したと伝えた。対象企業は原則として28ナノと40ナノの旧世代に限られ、広帯域メモリーや先端的なパッケージングを使わないことが条件とされる。",
+            "この措置は、TSMCが中国製設計の技術的性質を自ら確認して規制対象外か判断する手順を米商務省の新規則が封じたことを受けたものとされる。英フィナンシャル・タイムズは、TSMCとサムスンが中国向けの一部出荷を停止したと先に報じていた。"
+          ],
+          "paragraphs_en": [
+            "Reuters, citing people familiar with the matter, reported that TSMC instructed Chinese designers that orders using 16-nanometre processes and below be halted unless customers obtain US export licences. Affected customers are generally limited to older 28nm and 40nm processes, on condition the chips use no high-bandwidth memory and require no advanced packaging.",
+            "The move is said to follow new US Commerce Department rules that closed a route by which TSMC could verify the technical characteristics of Chinese designs to judge whether they fell outside controls. The Financial Times had earlier reported that TSMC and Samsung suspended some shipments to Chinese customers."
+          ]
+        },
+        {
+          "heading_ja": "確認されていない部分",
+          "heading_en": "What remains unverified",
+          "paragraphs_ja": [
+            "一連の報道は匿名の当局者に依拠しており、陳氏の作業チームと具体的な出荷を結びつける米国の起訴文書は示されていない。Nvidiaはこの報道へのコメントを出しておらず、同社の前CEOをめぐる証券規制上の調査とは別個の論点として扱う必要がある。"
+          ],
+          "paragraphs_en": [
+            "The reporting rests on anonymous officials, and no US charging document has been shown tying Chen's team to specific shipments. Nvidia has not commented on the report, and it should be treated as distinct from the securities inquiry surrounding the company's former CEO."
+          ]
+        }
+      ],
+      "watch_next_ja": "商務省の遠隔アクセス規則（2026-11-19発効）の意見募集期限（2027年1月中旬）と、メガスピードをめぐる米司法省の調査の進展。TSMCの中国向け審査の運用。",
+      "watch_next_en": "The comment deadline (mid-January 2027) on Commerce's remote-access rule effective 2026-11-19, the Megaspeed inquiry, and how TSMC applies its China screening.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "ニューヨーク・タイムズ／ロイター",
+      "publisher_en": "The New York Times / Reuters",
+      "sources": [
+        {"title": "China's Spies Set Sights on A.I. Chips Years Before Nvidia Scandal", "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html", "publisher": "The New York Times", "date": "2026-11-21", "kind": "media", "accessed": false},
+        {"title": "China's Spy Agency Runs Secret Push to Obtain AI Chips, Bypassing U.S. Controls", "url": "https://en.sedaily.com/world/2026/11/22/chinas-spy-agency-runs-secret-push-to-obtain-ai-chips", "publisher": "Seoul Economic Daily", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "TSMC halts Chinese designers' orders at 16nm and below without US licences", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041", "publisher": "Taipei Times", "date": "2026-11-20", "kind": "media", "accessed": true}
+      ],
+      "themes": ["compute-export", "industry-procurement"],
+      "actors": ["CN", "US", "TW"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "アマゾン、中国系とみられる攻撃者の自律AIエージェントがゼロデイを独力で発見・悪用と報告",
+      "title_en": "Amazon reports a suspected Chinese-nexus actor's autonomous AI agents found and exploited a zero-day on their own",
+      "lead_ja": "アマゾンは11月20日、公開のオープンソース自律ペネトレーションテスト基盤「Cairn」を運用する攻撃者のAIエージェントが、オープンソースの医療画像AIアプリに潜むゼロデイ脆弱性を独力で見つけ、悪用したと報告した。エージェントはAPIの把握から任意のファイル書き込みまでをおよそ11分で達成した。約48時間に及ぶ作戦は中国本土以外の東アジアの大学を標的にした。",
+      "lead_en": "On November 20 Amazon reported that an actor's AI agents, running the open-source autonomous penetration-testing framework Cairn, found and exploited on their own a zero-day flaw in an open-source medical-imaging AI application. The agents went from mapping the API to arbitrary file writes in about 11 minutes. The roughly 48-hour campaign targeted universities in East Asia outside mainland China.",
+      "sections": [
+        {
+          "heading_ja": "11分でのゼロデイ悪用",
+          "heading_en": "A zero-day exploited in 11 minutes",
+          "paragraphs_ja": [
+            "アマゾンのCJモーゼス最高情報セキュリティ責任者によれば、脆弱性はファイル名の処理に起因するパストラバーサルの欠陥で、エージェントはアップロード用のAPIを足がかりに任意のファイル書き込みを実現した。アマゾンは、発見の時点で助言も報告も存在しなかったことから、これを高い確度でゼロデイと評価している。",
+            "後続のセッションでは、Pythonのリバースシェルを仕込み、学習用のAPIを起動させることでroot権限のシェルを獲得した。一方で、認証のないRedisに対する約16時間・148手順の試行や、GPUサーバーへの3万通り超の資格情報試行は失敗に終わり、能力には明確な限界も残る。"
+          ],
+          "paragraphs_en": [
+            "Amazon's CISO, CJ Moses, said the flaw was a path-traversal weakness in filename handling, and that the agents used an upload API to achieve arbitrary file writes. Amazon assesses with high confidence that it was a zero-day, since no advisory or report existed at the time of discovery.",
+            "In a later session the agents planted a Python reverse shell and triggered a training API to gain a root shell. A roughly 16-hour, 148-step effort against an unauthenticated Redis instance and more than 30,000 credential attempts against a GPU server both failed, leaving clear limits on the capability."
+          ]
+        },
+        {
+          "heading_ja": "帰属と観測の経緯",
+          "heading_en": "Attribution and how it was observed",
+          "paragraphs_ja": [
+            "アマゾンは、簡体字のプロンプト、中国標準時に沿ったスクリプトの時刻、中国にとって戦略的と見られる大学への標的設定を根拠に、中国系の攻撃者だと「中程度の確度」で評価した。発見の端緒は、攻撃者自身が認証をかけずに公開していたCairnのサーバーであり、おとりによる観測とは異なる経路だった。アマゾンはMONAIの保守担当に通報し、修正と脆弱性情報が公開された。"
+          ],
+          "paragraphs_en": [
+            "Amazon assesses with moderate confidence that this was a Chinese-nexus actor, citing Simplified Chinese prompts, script timestamps aligned to China Standard Time, and targeting of universities likely of strategic interest to China. The lead came from the actor's own Cairn server, left publicly exposed without authentication, a route distinct from honeypot observation. Amazon notified the MONAI maintainers, who released a fix and a security advisory."
+          ]
+        },
+        {
+          "heading_ja": "防御側への含意",
+          "heading_en": "Implications for defenders",
+          "paragraphs_ja": [
+            "モーゼス氏は「エージェント型の攻撃活動は既に起きており、防御側はその速度と執拗さに備えるべきだ」と述べた。エージェントはSOCが警報を選別するより速く動きうるため、確度の高い検知に自動対応を結びつけ、人間は個々の動作の逐一の確認から結果の監督へ軸足を移す体制が要るという。GAOが11月20日に示した自律的AIサイバー防御の政策選択肢とも重なる論点である。"
+          ],
+          "paragraphs_en": [
+            "Moses said agentic offensive operations are already happening and that defenders should prepare for the speed and persistence such tools enable. Because agents can move faster than a SOC can triage alerts, he argued for tying high-confidence detections to automated response and shifting humans from reviewing every action toward overseeing outcomes. The point overlaps with the policy options GAO set out on November 20 for autonomous AI cyber defence."
+          ]
+        }
+      ],
+      "watch_next_ja": "MONAI Labelの脆弱性情報（GHSA）とパッチの普及、Cairnなどオープンソース自律攻撃基盤の拡散、GAO報告（GAO-27-108458）が示す認可要件の立法化の行方。",
+      "watch_next_en": "Uptake of the MONAI Label advisory and patch, the spread of open-source autonomous attack frameworks such as Cairn, and whether the authorization options in GAO-27-108458 become law.",
+      "japan_relevance": false,
+      "date": "2026-11-20",
+      "stage": "",
+      "publisher": "アマゾン（脅威インテリジェンス）",
+      "publisher_en": "Amazon Threat Intelligence",
+      "sources": [
+        {"title": "Chinese-nexus actor's Cairn AI agents found a zero-day on their own", "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/", "publisher": "AWS Security Blog", "date": "2026-11-20", "kind": "primary", "accessed": true},
+        {"title": "MONAI Label Zero-Day: AI Agents Exploit Medical Imaging Research Servers", "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-monai-label-agent-discovered-zero-day-2026/", "publisher": "Cloud Security Alliance", "date": "2026-11-21", "kind": "media", "accessed": false}
+      ],
+      "themes": ["cyber-ci", "frontier-safety"],
+      "actors": ["US", "CN"],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "日本政府、2027年度からの装備調達縮小を主要企業に通知と報道　無人機とAIの予算は維持の方向",
+      "title_en": "Japan reported to have told contractors of cuts to FY2027 procurement, while protecting drone and AI budgets",
+      "lead_ja": "日経アジアの報道を引く各社によれば、日本政府は2027年度からの5年間で防衛費の伸びを抑える検討に入り、防衛省は主要な装備会社に対し、兵器の調達が当初の見積もりを大きく下回りうると伝えた。縮小の対象には弾薬と艦艇が含まれる一方、無人機とAI関連の予算要求は当初水準で維持される方向とされる。年内の安全保障関連3文書の改定を前に、重点の置き換えが進む。",
+      "lead_en": "Citing Nikkei Asia, several outlets reported that Japan's government has begun weighing a curb on defence-spending growth over the five years from FY2027, and that the Defense Ministry told major contractors weapons procurement could fall well below initial estimates. Ammunition and warships are among the targets of the cuts, while budget requests for drones and AI are said to be kept at their original level. A shift in priorities is under way ahead of a year-end revision of the three security documents.",
+      "sections": [
+        {
+          "heading_ja": "ミサイルと艦艇に及ぶ縮小",
+          "heading_en": "Cuts reaching missiles and warships",
+          "paragraphs_ja": [
+            "報道によれば、縮小の対象には弾薬と艦艇が含まれ、弾薬メーカーには増産計画の中止が示されたとされる。北朝鮮の弾道ミサイルに対する迎撃ミサイルは、5年間で計画の約4分の1に落ち込む可能性があるという。防衛省は主要な装備会社に対し、投資計画の見直しが必要になりうると通知した。",
+            "5年間の総額は当初7〜80兆円と見込まれたが、政府内では5〜60兆円が議論の中心になっている。これは現行の2023〜2027年度計画の43兆円を上回る水準にとどまる。円安と物価高が装備価格を押し上げるため、実質的な削減と見る向きもある。"
+          ],
+          "paragraphs_en": [
+            "The cuts are said to cover ammunition and warships, with ammunition makers told that a planned production expansion is cancelled. Interceptor missiles against North Korean ballistic missiles could fall to about a quarter of the plan over five years. The ministry notified major contractors that they may need to revise investment plans.",
+            "The five-year total was initially estimated at 70-80 trillion yen, but discussions now centre on 50-60 trillion, still above the current 2023-2027 plan of 43 trillion. Because a weaker yen and inflation are raising equipment prices, some see this as an effective cut."
+          ]
+        },
+        {
+          "heading_ja": "無人機とAIは優先",
+          "heading_en": "Drones and AI are prioritized",
+          "paragraphs_ja": [
+            "こうした縮小のなかでも、無人機とAI関連の予算要求は当初水準で維持される方向とされる。ロシアのウクライナ侵攻や中東での作戦で有効性が示された技術に、調達の重点が移りつつある。防衛省は新方針「Defense AI Vision」を11月末に公表する予定であり、年内の安全保障関連3文書の改定とあわせ、無人機とAIを「新しい戦い方」の柱に据える構えである。"
+          ],
+          "paragraphs_en": [
+            "Even amid these cuts, budget requests for drones and AI are said to be kept at their original level. Procurement is shifting toward technologies whose value was shown in Russia's war on Ukraine and in operations in the Middle East. The ministry plans to publish a new \"Defense AI Vision\" at the end of November and, with the year-end revision of the three security documents, intends to make drones and AI pillars of a \"new way of fighting.\""
+          ]
+        },
+        {
+          "heading_ja": "財政制約と反発",
+          "heading_en": "Fiscal limits and pushback",
+          "paragraphs_ja": [
+            "背景には財政上の制約がある。高市政権の消費減税は2027年度から2年連続で歳入を圧迫し、政府は成長投資の財源も確保する必要がある。11月18日の防衛産業の会合では、自民党の議員が5〜60兆円の水準は「国防産業の崩壊を招きかねない」と述べたとされる。最終的な金額は12月中旬の3文書改定に向けてなお流動的である。"
+          ],
+          "paragraphs_en": [
+            "Fiscal constraints lie behind this. The Takaichi government's consumption-tax cut will squeeze revenue for two straight years from FY2027, and the government must also fund growth investment. At a November 18 defence-industry meeting, an LDP lawmaker is said to have warned that a 50-60 trillion yen level could cause the defence industry to collapse. The final figure remains fluid ahead of the mid-December document revision."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月中旬の安保3文書改定と2027年度予算案の数値、防衛省「Defense AI Vision」の内容、主要装備会社への通知が調達計画に与える影響。日経の原報道の確認。",
+      "watch_next_en": "The mid-December revision of the three security documents and the FY2027 budget figures, the content of the Defense AI Vision, and the effect of the contractor notices. Confirmation against the original Nikkei report.",
+      "japan_relevance": true,
+      "date": "2026-11-21",
+      "stage": "",
+      "publisher": "日経アジア（各社報道）",
+      "publisher_en": "Nikkei Asia (as relayed by other outlets)",
+      "sources": [
+        {"title": "日本防衛預算恐縮水 擬大砍武器採購保AI無人機", "url": "https://www.cna.com.tw/news/aopl/202611220010.aspx", "publisher": "中央社", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Japan weighs scaling back missile and warship purchases", "url": "https://asia.nikkei.com/politics/defense/japan-weighs-scaling-back-missile-and-warship-purchases", "publisher": "Nikkei Asia", "date": "2026-11-21", "kind": "media", "accessed": false}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["JP"],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ウクライナの海上無人機攻撃がバルト海とリビアに拡大　露貨物船と軍艦が相次ぎ被弾",
+      "title_en": "Ukraine's naval-drone strikes extend to the Baltic and Libya as Russian ships are hit in quick succession",
+      "lead_ja": "数日のうちに、ウクライナに帰属される無人機の攻撃がフィンランド湾とリビア東部の双方に及んだ。11月21日にはロシア船籍の貨物船スパルタIIがフィンランド湾で炎上し、22日にはベンガジの海軍基地でロシア海軍のコルベットが無人艇の攻撃を受けたとされる。フィンランドのオルポ首相は「戦争が近隣地域に波及している」と述べた。",
+      "lead_en": "Within days, drone strikes attributed to Ukraine reached both the Gulf of Finland and eastern Libya. On November 21 the Russian-flagged cargo ship Sparta II caught fire in the Gulf of Finland, and on November 22 a Russian navy corvette was reportedly hit by sea drones at the Benghazi naval base. Finland's Prime Minister Orpo said the war was spilling over into neighbouring areas.",
+      "sections": [
+        {
+          "heading_ja": "フィンランド湾のスパルタII",
+          "heading_en": "The Sparta II in the Gulf of Finland",
+          "paragraphs_ja": [
+            "11月21日、フィンランド湾でロシア船籍の貨物船スパルタII（約121メートル）が無人機の攻撃を受け炎上した。運航会社のオボロンロジスティカはロシア国防省の兵站を担い、米国の制裁対象とされる。レニングラード州知事は、ロシア国境から約3カイリの国際水域で2発の無人機が命中したと述べた。16人の乗組員は避難し、船はその後ロシア側が曳航を始めた。",
+            "フィンランド国防軍の報道官フフティネン氏は、攻撃はウクライナによるものである可能性が高いと述べた。オルポ首相は「戦争が我々の近隣地域に波及している」と語り、あわせてウクライナには侵略者と戦う権利があるとした。エストニアは艦艇を出して消火と汚染対応を支援した。"
+          ],
+          "paragraphs_en": [
+            "On November 21 the Russian-flagged cargo ship Sparta II (about 121 metres) was struck by drones and caught fire in the Gulf of Finland. Its operator, Oboronlogistika, handles logistics for the Russian Defence Ministry and is under US sanctions. The Leningrad region governor said two drones hit in international waters about three nautical miles from Russia's border. The 16-member crew was evacuated, and Russia later began towing the ship.",
+            "A Finnish Defence Forces spokesman, Huhtinen, said the attack was likely carried out by Ukraine. Prime Minister Orpo said the war was spilling over into neighbouring areas, while adding that Ukraine has the right to fight the aggressor. Estonia sent a vessel to help with firefighting and pollution response."
+          ]
+        },
+        {
+          "heading_ja": "ベンガジのメルクーリ",
+          "heading_en": "The Merkury at Benghazi",
+          "paragraphs_ja": [
+            "翌22日には、リビア東部ベンガジの海軍基地で、ロシア海軍のコルベット「メルクーリ」が無人艇の攻撃を受けたとリビアの当局者が述べた。西部リビアのウクライナ側拠点から複数の海上無人機が発射され、4隻が迎撃されたものの2隻が命中したという。衛星画像は同日に港で船舶が炎上し、後に部分的に沈んだ様子を示したとBBCは伝えた。",
+            "ウクライナはこの攻撃についてコメントしておらず、ロシアからの即時の反応もなかった。リビア東部政府は主権の侵害だと非難し、ロシアと共同で調査を始めたと発表した。同政府は、ロシア・ウクライナ戦争の当事者ではないとの立場を示している。"
+          ],
+          "paragraphs_en": [
+            "The next day, November 22, Libyan officials said the Russian navy corvette Merkury was struck by uncrewed surface vessels at the Benghazi naval base. Several sea drones were launched from a Ukrainian-run base in western Libya; four were intercepted and two hit. BBC reported that satellite imagery showed a vessel on fire at the port that day and later partially submerged.",
+            "Ukraine has not commented on the attack, and there was no immediate reaction from Russia. Libya's eastern government condemned it as a violation of sovereignty and announced a joint investigation with Russia, stating that Libya is not a party to the Russia-Ukraine war."
+          ]
+        },
+        {
+          "heading_ja": "黒海を越える海上戦",
+          "heading_en": "A maritime war beyond the Black Sea",
+          "paragraphs_ja": [
+            "一連の攻撃は、ウクライナの海上無人機による作戦が黒海の外へ広がりつつあることを示す。標的はロシアの軍事兵站や関連船舶に向けられ、バルト海では近隣国を巻き込む緊張が高まっている。エストニア海軍の司令官はフィンランド湾でのさらなる攻撃の可能性に言及した。地理的な拡張は、沿岸国の対応と海上交通の安全に新たな課題を突きつける。"
+          ],
+          "paragraphs_en": [
+            "The strikes show Ukraine's naval-drone operations spreading beyond the Black Sea. Targets are directed at Russian military logistics and related shipping, and tension drawing in neighbouring states is rising in the Baltic. Estonia's navy commander pointed to the possibility of further attacks in the Gulf of Finland. This geographic extension poses fresh challenges for coastal states' responses and for the safety of maritime traffic."
+          ]
+        }
+      ],
+      "watch_next_ja": "23日のNATO会合でのバルト海の扱い、両攻撃に対するウクライナの公式な認否、スパルタIIの積荷に関する続報、リビアを拠点とする作戦の詳細。",
+      "watch_next_en": "How the Baltic is handled at the November 23 NATO meeting, any official Ukrainian acknowledgment of either strike, follow-up on the Sparta II's cargo, and details of the Libya-based operation.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "各国当局・報道（フィンランド国防軍、リビア当局ほか）",
+      "publisher_en": "National authorities and press (Finnish Defence Forces, Libyan officials, and others)",
+      "sources": [
+        {"title": "Russian cargo ship burns in Baltic Sea after drone strike, crew evacuates", "url": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782", "publisher": "ABC News", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Russian warship struck by suspected Ukrainian sea drones at Benghazi naval base, Libyan officials say", "url": "https://www.cbsnews.com/news/russian-warship-struck-suspected-ukrainian-sea-drones-benghazi-naval-base-libya-officials/", "publisher": "CBS News", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Russian cargo ship still on fire off Finland after attack", "url": "https://www.themoscowtimes.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack-a94343", "publisher": "The Moscow Times", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "ロシア、攻撃用無人機186機で夜間攻撃　キーウ州ディメルの集合住宅倒壊で死傷",
+      "title_en": "Russia attacks overnight with 186 drones; a Kyiv-region apartment collapse in Dymer kills and injures",
+      "brief_text_ja": "11月22日未明、ロシアは72機のジェット型を含む186機の攻撃用無人機でウクライナを攻撃し、ウクライナ空軍は161機を撃墜・制圧したと発表した。キーウ州ディメルでは5階建て集合住宅の一部が倒壊し、ゼレンスキー大統領は複数が倒壊建物の下に取り残されていると述べた。日中にはヴィシネベのスーパーへの攻撃で2人が死亡した。",
+      "brief_text_en": "Before dawn on November 22, Russia attacked Ukraine with 186 drones, including 72 jet-powered types, and Ukraine's Air Force said it downed or suppressed 161. Part of a five-storey apartment block collapsed in Dymer, Kyiv region, and President Zelensky said several people remained trapped under the rubble. During the day, a strike on a supermarket in Vyshneve killed two.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "ウクライナ空軍",
+      "publisher_en": "Air Force of Ukraine",
+      "sources": [
+        {"title": "Russia attacked Ukraine with 186 drones: air defense destroyed 161 UAVs", "url": "https://unn.ua/en/news/russia-attacked-ukraine-with-186-drones-air-defense-destroyed-161-uavs", "publisher": "UNN", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "14 people missing after Russian drone strike on Kyiv region", "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region", "publisher": "Euronews", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting"],
+      "actors": ["RU", "UA"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261122-03"
+    },
+    {
+      "id": "cl-20261123-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "NATO、ポーランドの要請で23日に北大西洋理事会の臨時会合　領内にKh-101巡航ミサイル",
+      "title_en": "NATO holds an extraordinary North Atlantic Council meeting on November 23 at Poland's request over Kh-101 missiles",
+      "brief_text_ja": "ポーランドは11月20日の対ウクライナ大規模攻撃時に領内へ落下した3発をいずれもKh-101巡航ミサイルと検察が推定し、NATOに北大西洋理事会の臨時会合を要請した。会合は23日にブリュッセルで開かれ、ポーランドは東側の防空強化を提案する。ポーランド政府は、現時点で第4条の発動は予定していないと説明している。",
+      "brief_text_en": "Poland's prosecutors assessed that three objects that fell on its territory during the November 20 attack on Ukraine were all Kh-101 cruise missiles, and Warsaw requested an extraordinary North Atlantic Council meeting. The session convenes in Brussels on November 23, where Poland will propose strengthening eastern air defence. Warsaw says it does not plan to invoke Article 4 at this stage.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "NATO／ポーランド政府",
+      "publisher_en": "NATO / Government of Poland",
+      "sources": [
+        {"title": "NATO to meet over Polish airspace violation", "url": "https://www.anews.com.tr/world/2026/11/22/nato-to-meet-over-polish-airspace-violation", "publisher": "Anadolu Agency", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Three Kh-101 Missiles Enter Poland on November 20", "url": "https://militarnyi.com/en/news/three-kh-101-missiles-enter-poland-on-november-20-country-calls-for-stronger-nato-air-defenses/", "publisher": "Militarnyi", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["governance-norms"],
+      "actors": ["NATO", "RU"],
+      "doc_type": "news-analysis",
+      "forums": ["nato"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "英ウクライナ、「ミドルストライク」と長射程無人機を英国内で共同生産する協定に署名",
+      "title_en": "UK and Ukraine sign a deal to jointly produce \"middle strike\" and long-range drones in Britain",
+      "brief_text_ja": "ウクライナのフメラ国防相と英国のストリーティング国防相は11月21日、キーウで「ミドルストライク」および「ディープストライク」無人機を英国の資金で英国内で生産する協定に署名した。先月発表された5億ポンド超の支援と連動する。生産数と時期は公表されていない。",
+      "brief_text_en": "Ukrainian Defence Minister Khmara and UK Defence Secretary Streeting signed agreements in Kyiv on November 21 to produce Ukrainian \"middle strike\" and \"deep strike\" drones in Britain with UK funding. The arrangement is tied to the £500 million-plus package announced last month. Production numbers and timing were not disclosed.",
+      "japan_relevance": false,
+      "date": "2026-11-21",
+      "stage": "awarded",
+      "publisher": "ウクライナ国防省／英国防省",
+      "publisher_en": "Ministry of Defence of Ukraine / UK Ministry of Defence",
+      "sources": [
+        {"title": "UK to produce 'middle strike,' long-range drones for Ukraine in Britain", "url": "https://kyivindependent.com/uk-to-produce-middle-strike-long-range-drones-for-ukraine-in-britain/", "publisher": "The Kyiv Independent", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Ukrainian 'middle strike' and 'deep strike' drones will be manufactured in the UK", "url": "https://censor.net/en/news/4034947/ukrainian-middle-strike-and-deep-strike-drones-will-be-manufactured-for-ukrainian-armed-forces-in", "publisher": "Censor.NET", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement"],
+      "actors": ["GB", "UA"],
+      "doc_type": "budget-procurement",
+      "forums": ["bilateral"],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "韓国国会、23日に「国防AI法案」などの公聴会　参与連帯は検証の空洞化を懸念",
+      "title_en": "Korea's National Assembly holds a hearing on defence AI bills on November 23; PSPD warns of hollowed-out verification",
+      "brief_text_ja": "韓国国会国防委員会は11月23日、国防人工知能法案と国防先端戦力事業法案の公聴会を開く。参与連帯は11月22日、迅速取得の特例が高リスクのAI兵器にも及び、法定の試験評価が認証審査や部隊運用評価で代替される恐れがあると指摘した。独立した技術安全機関と国会への事前審査・定期報告を求めている。",
+      "brief_text_en": "Korea's National Assembly defence committee holds a hearing on November 23 on a defence AI bill and a defence advanced-forces project bill. On November 22, PSPD warned that fast-track exemptions could extend to high-risk AI weapons and that statutory testing could be replaced by certification reviews and unit field evaluations. It called for an independent technical safety body and prior Assembly review with regular reporting.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "韓国NGO新聞／参与連帯",
+      "publisher_en": "Korea NGO News / PSPD",
+      "sources": [
+        {"title": "참여연대 \"국방AI 특례 확대 안돼\", 무기 검증·국회 감시 공백 우려", "url": "https://www.ngonews.kr/news/articleView.html?idxno=243843", "publisher": "한국NGO신문", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "[입법의견서] 「국방첨단전력사업법」 제정안 의견", "url": "https://peoplepower21.org/peace/2029382", "publisher": "참여연대 평화군축센터", "date": "2026-09-16", "kind": "primary", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "governance-norms"],
+      "actors": ["KR"],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "台湾、MQ-9B「シーガーディアン」初号機2機を受領　12月に受領式へ",
+      "title_en": "Taiwan takes delivery of its first two MQ-9B Sea Guardians; acceptance ceremony set for December",
+      "brief_text_ja": "台湾空軍は米ゼネラル・アトミクス製のMQ-9B「海上衛士」の最初の2機を受領し、9月14日に初飛行を終えた。12月に受領式を行い、評価を経て戦力化する方針である。計4機と地上管制設備を217億台湾ドル超で取得し、中国軍の動向監視に充てる。",
+      "brief_text_en": "Taiwan's Air Force has taken delivery of its first two MQ-9B Sea Guardians from General Atomics and completed a first flight on September 14. An acceptance ceremony is planned for December, after which the aircraft will enter service following evaluation. Four aircraft and ground-control equipment are being acquired for over NT$21.7 billion to monitor Chinese military activity.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "fielded",
+      "publisher": "自由時報（軍武頻道）",
+      "publisher_en": "Liberty Times (Military channel)",
+      "sources": [
+        {"title": "強化台海監偵 首批MQ-9B無人機下月可望正式接裝", "url": "https://def.ltn.com.tw/article/breakingnews/5649592", "publisher": "自由時報", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting", "industry-procurement"],
+      "actors": ["TW", "US"],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": ["detect"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "防衛省、新方針「Defense AI Vision」を11月末に公表へ　人間の判断と責任を原則に",
+      "title_en": "Japan's Defense Ministry to publish a \"Defense AI Vision\" at month's end, with human judgment and responsibility as a principle",
+      "brief_text_ja": "小泉防衛相は11月15日の臨時記者会見で、2024年の防衛省AI活用推進基本方針を改める新方針「Defense AI Vision」を11月末をめどに公表すると説明した。人間が判断と責任を負う原則を維持しつつ、データとAIを部隊が使える能力に転換することを狙う。年内の安全保障関連3文書の改定と連動する。",
+      "brief_text_en": "At a November 15 press conference, Defense Minister Koizumi said the ministry would publish a new \"Defense AI Vision,\" revising its 2024 basic policy on AI use, around the end of November. It keeps the principle that humans bear judgment and responsibility while aiming to turn data and AI into capabilities troops can use. It is tied to the year-end revision of the three security documents.",
+      "japan_relevance": true,
+      "date": "2026-11-15",
+      "stage": "",
+      "publisher": "防衛省",
+      "publisher_en": "Ministry of Defense (Japan)",
+      "sources": [
+        {"title": "防衛省、新方針「Defense AI Vision」を11月末に公表へ 小泉防衛相が3つの重視事項を説明", "url": "https://novaist.jp/articles/japan-defense-ai-vision/", "publisher": "NOVAIST", "date": "2026-11-16", "kind": "media", "accessed": true},
+        {"title": "Japan's defence ministry to adopt \"defence AI vision\" policy starting this month", "url": "https://asianews.network/japans-defence-ministry-to-adopt-defence-ai-vision-policy-starting-this-month/", "publisher": "Asia News Network", "date": "2026-11-16", "kind": "media", "accessed": false}
+      ],
+      "themes": ["c2-decision", "governance-norms"],
+      "actors": ["JP"],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261123-12",
+      "rank": 12,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ホルムズ海峡でタンカー被弾続く　バーレーンはイランの攻撃で負傷者、サウジはフーシ派無人機を迎撃",
+      "title_en": "Tankers keep being hit near Hormuz; Bahrain reports injuries from Iranian strikes and Saudi Arabia intercepts a Houthi drone",
+      "brief_text_ja": "バーレーン内務省は11月22日、前日のイランの攻撃で民間の産業施設が被弾し、2人が負傷したと発表した。サウジアラビアは、リヤド方面へ向かうフーシ派の無人機を迎撃したと説明した。ホルムズ海峡付近では複数のタンカーが被弾したほか、カタールによる仲介の動きも伝えられるが、各国の主張の多くは独立には確認されていない。",
+      "brief_text_en": "Bahrain's Interior Ministry said on November 22 that an Iranian strike the previous day hit a civilian industrial facility and injured two. Saudi Arabia said it intercepted a Houthi drone heading toward Riyadh. Several tankers were hit near the Strait of Hormuz, and Qatari mediation was reported. Many of the parties' claims have not been independently confirmed.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "各国当局・報道（バーレーン内務省ほか）",
+      "publisher_en": "National authorities and press (Bahrain Interior Ministry, and others)",
+      "sources": [
+        {"title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz", "url": "https://www.arabnews.com/middle-east/bahrain-says-iran-struck-industrial-site-as-tankers-hit-in-hormuz-3013503", "publisher": "Arab News / AFP", "date": "2026-11-22", "kind": "media", "accessed": true},
+        {"title": "Middle East war: What UAE residents need to know this evening, November 22", "url": "https://gulfnews.com/world/mena/middle-east-war-what-uae-residents-need-to-know-this-evening-november-22-1.500757170", "publisher": "Gulf News", "date": "2026-11-22", "kind": "media", "accessed": true}
+      ],
+      "themes": ["isr-targeting"],
+      "actors": ["US", "IL"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": "cl-20261122-06"
+    }
+  ],
+  "upcoming": [
+    {"date": "2026-11-23", "text_ja": "NATO北大西洋理事会の臨時会合（ブリュッセル、ポーランド情勢）", "text_en": "Extraordinary North Atlantic Council meeting (Brussels, on Poland)"},
+    {"date": "2026-11-23", "text_ja": "韓国国会国防委員会の公聴会（国防AI法案・国防先端戦力事業法案）", "text_en": "Korea National Assembly defence-committee hearing on the defence AI and advanced-forces bills"},
+    {"date": "2026-11-30", "text_ja": "防衛省「Defense AI Vision」の公表（月末めど）", "text_en": "Japan's Defense Ministry to publish the Defense AI Vision (targeted for month's end)"},
+    {"date": "2026-12-01", "text_ja": "台湾MQ-9Bの受領式（12月中）", "text_en": "Taiwan MQ-9B acceptance ceremony (during December)"},
+    {"date": "2026-12-15", "text_ja": "日本の安全保障関連3文書の改定（中旬めど）と2027年度予算案", "text_en": "Japan's revision of the three security documents (mid-month) and the FY2027 budget"}
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（下院報告書、NYT報道、AWS報告、NDAA協議動向）、中国（PLA調達・国家安全省・MOFCOM輸出規制草案＝期限切れで不採用）、日本（装備調達縮小、Defense AI Vision、安保3文書）、韓国（国防AI法案公聴会）、台湾（MQ-9B受領）、ロシア・ウクライナ（夜間攻撃、海上無人機のバルト海・リビア波及、UK共同生産）、欧州・NATO（ポーランドKh-101、23日NAC）、中東（ホルムズ・バーレーン・サウジ＝続報）。該当の薄い日：豪州・インド・ASEANは当窓では新規の主要動向を確認せず。",
+      "japan": "防衛省（Defense AI Vision／11月15日臨時会見）、2027年度装備調達の縮小報道（日経アジア経由）、安保3文書改定の年内方針。防衛装備庁・NSS・経産省・外務省の新規発表は当窓では主要動向に至らず。"
+    },
+    "dropped": [
+      {"title": "中国MOFCOM・科学技術省のAIモデル・チップ設計の輸出規制草案", "url": "https://thenextweb.com/news/china-ai-export-controls-draft", "reason": "公表は10月16日、意見募集は11月15日で終了しており当窓の新規動向に当たらない。cl-20261123-02の背景として扱う。"},
+      {"title": "米GAOのAI・サイバー技術評価（GAO-27-108458）", "url": "https://www.gao.gov/products/gao-27-108458", "reason": "11月20日公表だが前号cl-20261122-05で既報。cl-20261123-03の文脈として言及にとどめる。"},
+      {"title": "イスラエルのAI部門・レーザー防空（Iron Beam関連）", "url": "https://breakingdefense.com/2026/09/israeli-military-creates-new-branch-focused-on-ai-drones-and-robotics/", "reason": "当窓での新規の一次発表を確認できず。検索結果の多くは9月以前の記事。"},
+      {"title": "NDAA FY2027のAI条項", "url": "https://armedservices.house.gov/UploadedFiles/FY27_NDAA_CITI_PRINT_-_FINAL.pdf", "reason": "当窓での新たな協議・採決の確定情報を確認できず。"}
+    ],
+    "notes_for_editor": [
+      "cl-20261123-02（NYT報道）とcl-20261123-04（日本の調達縮小）は、原報道（NYT本体・日経アジア本体）の本文を直接開けず、二次報道に依拠した。accessedはNYT・日経ともfalse。公開サイトの『確認日』は空欄になる。",
+      "cl-20261123-03のAWS報告は対象アプリの名称をMONAI Labelと明示せず、GHSAリンク（GHSA-qc22-rmgc-vg94）から推定した。帰属は『中程度の確度』、本文もその旨を明記した。",
+      "cl-20261123-05・06・12は戦場・攻撃関連の主張を含むため信頼度コードを付した（海上無人機B2、ウクライナ夜間攻撃B2、中東C3）。ベンガジ・バルト海の攻撃はウクライナが認否を示していない。",
+      "cl-20261123-04の5年総額（50〜60兆円）・迎撃ミサイル約4分の1などの数値は報道段階であり、政府の最終決定ではない。12月中旬の3文書改定で確定する見込み。",
+      "cl-20261123-07（ポーランド）はミサイルの発数・種別について報道間で差異があり、最新の検察見解（3発ともKh-101）を採った。第4条の発動は予定なしとの報道に依拠。"
+    ]
+  }
+}
