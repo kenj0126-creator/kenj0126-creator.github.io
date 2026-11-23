@@ -1,0 +1,912 @@
+{
+  "edition_date": "2026-11-24",
+  "generated_at": "2026-11-24T06:05:00+09:00",
+  "window_from": "2026-11-23T06:10:00+09:00",
+  "edition_title_ja": "安全保障審査を担う取締役会と、自主規制に向かうフロンティアAI",
+  "edition_title_en": "A Board as Security Reviewer, and Frontier AI Turning to Self-Imposed Limits",
+  "edition_dek_ja": "Nvidiaの復帰決定、OpenAIの共通上限案、ブリッジタウンの枠組み提案が示す統治の所在。",
+  "edition_dek_en": "Nvidia's reinstatement, OpenAI's shared-limits proposal and the Bridgetown framework call show where governance now sits.",
+  "lead_points_ja": [
+    "AIの安全保障上の判断が、政府の正式な手続きよりも先に、取締役会や研究所の自主的な決定として示される一日となった。Nvidiaの取締役会は「政府高官の意見」を受けてフアン氏を復帰させ、OpenAIは競合と共有する開発上限を提案し、国連とバルバドスは法的拘束力のない「リスク管理枠組み」の協議開始を求めた。",
+    "Nvidia取締役会は11月23日、フアン氏をCEO・取締役に全会一致で復帰させ、「国家安全保障上のリスクはない」と表明した。独立取締役委員会の調査は継続し、12月1〜2日の下院聴取と12月3日の上院銀行委員会公聴会が控える。",
+    "OpenAIのパホツキ主任科学者は、GPT-3.5からの対数パープレキシティの推移を公開し、監視能力が一定の到達点に達するまで各社が越えない共通の上限を設けるよう提案した。アルトマンCEOとMetaのワン氏が賛意を示した。",
+    "韓国国会国防委員会の公聴会では、国防AI法案をめぐり「過度の人間統制は自主軍縮」とする論者と、特例による検証の空洞化を懸念する市民団体の主張が対立した。",
+    "台湾では地方選挙を5日後に控え、大陸委員会が中国の介入を警告した。検察は民衆党の市議候補を反浸透法違反で起訴し、約2万件の偽アカウントの使用を主張している。"
+  ],
+  "lead_points_en": [
+    "Security judgments about AI were rendered today by boards and labs ahead of formal government process: Nvidia's board reinstated Jensen Huang after 'input from senior levels of the United States government', OpenAI proposed development limits shared with rivals, and the UN and Barbados called for talks on a non-binding AI risk-management framework.",
+    "On 23 November Nvidia's board unanimously reinstated Huang as CEO and director, stating that the move 'poses no national security risk'. The independent directors' investigation continues, with closed-door House interviews on 1–2 December and a public Senate Banking hearing on 3 December.",
+    "OpenAI chief scientist Jakub Pachocki published log-perplexity figures from GPT-3.5 onward and proposed shared limits that no lab would cross until monitoring capability reaches a defined milestone. Sam Altman and Meta's Alexandr Wang voiced support.",
+    "At the Korean National Assembly's defense committee hearing on the Defense AI Act, witnesses arguing that excessive human control amounts to 'self-disarmament' clashed with civil-society concerns that special provisions hollow out weapons verification.",
+    "Five days before Taiwan's local elections, the Mainland Affairs Council warned of Chinese interference; prosecutors have indicted a TPP council candidate under the Anti-Infiltration Act, alleging the use of some 20,000 fake accounts."
+  ],
+  "items": [
+    {
+      "id": "cl-20261124-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "Nvidia取締役会、フアン氏をCEOに全会一致で復帰　「政府高官の意見」で「安全保障上のリスクなし」、調査と聴取は継続",
+      "title_en": "Nvidia Board Unanimously Reinstates Huang as CEO, Citing Government 'Input' and 'No National Security Risk'; Probes and Hearings Continue",
+      "lead_ja": "Nvidiaの取締役会は11月23日、11月12日に辞任したジェンスン・フアン氏を社長兼CEO・取締役に即日復帰させると発表した。取締役会は「米政府の上級レベルからの意見」を受け、復帰が「国家安全保障上のリスクをもたらさない」と確信したと説明する一方、独立取締役委員会による調査は結論まで続けるとした。安全保障上の適格性の判断が、政府の正式な手続きよりも先に企業統治の場で示された点で、この復帰は輸出管理をめぐる議会との緊張を一段と高める。",
+      "lead_en": "On 23 November Nvidia's board announced the immediate reinstatement of Jensen Huang, who resigned on 12 November, as president, CEO and director. The board said it had 'received input from senior levels of the United States government' and was 'confident that Mr. Huang's reinstatement poses no national security risk', while pledging that the independent directors' investigation would proceed to its conclusion. A security judgment rendered through corporate governance ahead of any formal government process sharpens the confrontation with Congress over export controls.",
+      "sections": [
+        {
+          "heading_ja": "全会一致の復帰と「政府上級レベルの意見」",
+          "heading_en": "A Unanimous Vote and 'Input from Senior Levels of Government'",
+          "paragraphs_ja": [
+            "11月23日付の発表によれば、取締役会はフアン氏との「一連の協議と会合」を経て全会一致で復帰を決め、同氏の「率直さとNvidiaを率いる能力」に満足したと述べた。暫定CEOを務めたコレット・クレスCFOは財務責任者に戻り、ハーベイ・ジョーンズ会長は「ジェンスンに全幅の信頼を置く」と表明した。発表は「米政府の上級レベルからの意見」を受けたと記す一方、誰がどのような判断を示したかには触れておらず、「安全保障審査」という語も使っていない。",
+            "トランプ大統領はSNSでフアン氏を「偉大な愛国者であり国宝」と呼び、CNBCに対しては復帰がなければ習近平氏が同氏に中国企業の経営を打診したかもしれないと語ったと報じられている。Fortuneは復帰が大統領の圧力とシリコンバレー指導者の支持を受けたものと位置づけ、Engadgetは大統領自身が取締役会を説得したと述べたと伝える。取締役会の文言と政権の説明は、復帰の経緯について一致した像を描いていない。"
+          ],
+          "paragraphs_en": [
+            "According to the 23 November release, the board voted unanimously 'following a series of discussions and meetings with Mr. Huang' and was 'satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA'. Colette Kress, who served as interim CEO, returns to the CFO role, and Chair Harvey C. Jones said the board had 'every confidence in Jensen'. The release notes 'input from senior levels of the United States government' without identifying who gave it or what it concluded, and does not use the phrase 'security review'.",
+            "President Trump called Huang a 'Great Patriot and National Treasure' on social media and, according to the Detroit News, told CNBC that without the reinstatement Xi Jinping 'might have asked him to head up a Chinese company'. Fortune framed the return as following pressure from the president and support from Silicon Valley leaders, and Engadget reported that Trump said he had convinced the board. The board's wording and the administration's account do not describe the sequence in the same way."
+          ]
+        },
+        {
+          "heading_ja": "並行する五つの調査と取締役会内部の統制",
+          "heading_en": "Five Parallel Investigations and Internal Board Controls",
+          "paragraphs_ja": [
+            "復帰後も調査は続く。独立取締役で構成する委員会は独立した法律顧問とともに、フアン氏が「外国情報機関の工作の標的になった」との報道を受けた調査を進めており、取締役会はこれを結論まで続けると改めて表明した。取締役会はさらに独立取締役による国家安全保障・輸出管理委員会を設け、指名・ガバナンス委員会に報告する最高コンプライアンス責任者の人選を進めている。",
+            "Fortuneの整理では、カリフォルニア州司法長官は同社とフアン氏が中国の先端チップ入手や機密情報の取得を可能にしたか、投資家を誤導したかをめぐり召喚状を出し、SECは開示の適正性を調査中と報じられている。トランプ大統領はFBIがMegaspeedのアリス・フアン氏と中国情報機関との関係を調べていると述べ、ブルームバーグは司法省が同氏関連の事業体によるSuper Micro製品の対中密輸を調べていると報じた。Megaspeedは同氏が2025年8月30日付で退職したと説明し、北京は疑惑を否定している。"
+          ],
+          "paragraphs_en": [
+            "The investigations outlive the reinstatement. A committee of independent directors, with independent counsel, is examining reporting that Huang 'has been the target of a foreign intelligence effort', and the board reiterated that this inquiry will proceed to conclusion. The board has also formed a National Security and Export Control Committee of independent directors and is searching for a Chief Compliance Officer who will report to the Nominating and Corporate Governance Committee.",
+            "By Fortune's tally, California's attorney general has subpoenaed the company over whether it or Huang enabled China to obtain advanced chips or confidential information, or misled investors, and the SEC is reported to be examining the company's disclosures. Trump has said the FBI is investigating Huang's ties to Megaspeed's Alice Huang and to Chinese intelligence, and Bloomberg reported a Justice Department inquiry into whether entities linked to her helped smuggle Super Micro products into China. Megaspeed says she left the firm effective 30 August 2025, and Beijing rejects the allegations."
+          ]
+        },
+        {
+          "heading_ja": "12月1日の非公開聴取と3日の公開公聴会",
+          "heading_en": "Closed-Door Interviews on 1 December, a Public Hearing on the 3rd",
+          "paragraphs_ja": [
+            "議会日程は復帰によって変わっていない。フアン氏とティム・ティーター法務責任者は12月1日と2日に、下院中国特別委員会、情報委員会、外交委員会による記録付きの非公開聴取に応じる。上院銀行委員会のティム・スコット委員長は12月3日に公開公聴会を開くと発表し、ブルームバーグへの声明で「米国の輸出管理の監督」に焦点を当てると述べた。同委員会のウォーレン筆頭委員は、復帰は「フアン氏と取締役会が議会に説明責任を負うという事実を変えない」とし、政権に対して取締役会へ与えた「意見」の内容を説明するよう求めた。",
+            "下院側の反応は党派を越えて厳しい。商務省産業安全保障局（BIS）を所管する金融サービス委小委員会のヒューゼンガ委員長は「この件の扱われ方に懸念がある」と述べ、フアン氏の判断を「無謀」と評したうえで、BISのケスラー次官の公聴会出席を調整していると明かした。ムーレナー中国特別委員長はラトニック商務長官とケスラー次官からの聴取を求め、民主党のディンゲル議員は取締役会の決定を「無責任」と批判した。"
+          ],
+          "paragraphs_en": [
+            "The congressional calendar is unchanged by the reinstatement. Huang and general counsel Tim Teter are due to give transcribed, closed-door interviews on 1 and 2 December before the House Select Committee on China, the Intelligence Committee and the Foreign Affairs panel. Senate Banking Chairman Tim Scott announced a public hearing on 3 December that, in a statement to Bloomberg, 'will focus on oversight of US export controls'. Ranking member Elizabeth Warren said the reinstatement 'does not change the fact that' Huang and the board still owe Congress answers, and asked the administration to explain the 'input' it gave the board.",
+            "House reactions were sharp across party lines. Rep. Bill Huizenga, who chairs the Financial Services subcommittee overseeing the Bureau of Industry and Security, said 'I have concerns with how this has been handled', called Huang's decisions 'reckless' and said he is trying to arrange a hearing with BIS Under Secretary Jeffrey Kessler. Select Committee Chairman John Moolenaar wants to hear from Commerce Secretary Howard Lutnick and Kessler, and Democrat Debbie Dingell called the board's decision 'irresponsible'."
+          ]
+        },
+        {
+          "heading_ja": "輸出管理3法案と12月の国防授権法",
+          "heading_en": "Three Export-Control Bills and the December Defense Bill",
+          "paragraphs_ja": [
+            "復帰は、対中チップ輸出の権限を議会に引き寄せる立法の追い風になりうる。ウォーレン氏が挙げたAI Overwatch法案（先端AIチップの対中輸出許可を議会が審査）、Chip Security法案（海外のチップの所在追跡）、MATCH法案（同盟国に製造装置の対中輸出制限を促す）について、ブルームバーグは12月の国防授権法に組み込む最終協議が進んでいると報じている。情報技術産業協議会は新たな措置に反対しており、Nvidiaはコメントを控えた。",
+            "Fortuneによれば株価は取引開始直後に約30%上昇したが、復帰の法的・政治的な帰結はこれから定まる。取締役会は「進行中の政府の調査と照会に引き続き協力する」と述べており、12月の聴取で政府の「意見」の中身と独立取締役委員会の調査範囲がどこまで明らかになるかが、企業統治による安全保障判断の妥当性を測る指標になる。"
+          ],
+          "paragraphs_en": [
+            "The reinstatement may strengthen the hand of legislation that pulls authority over chip exports toward Congress. For the three bills Warren named — the AI Overwatch Act (congressional review of advanced-chip licenses for China), the Chip Security Act (tracking chips abroad) and the MATCH Act (pressing allies to restrict chipmaking-tool sales to China) — Bloomberg reports that final talks are under way to fold them into the December defense authorization. The Information Technology Industry Council opposes the new measures, and Nvidia declined to comment.",
+            "Fortune reported that shares rose about 30% as trading opened, but the legal and political consequences are still to be set. The board said the company 'will continue to cooperate with ongoing government investigations and inquiries'; how much the December hearings reveal about the government's 'input' and the scope of the independent directors' inquiry will be the measure of whether a security judgment made through corporate governance holds up."
+          ]
+        }
+      ],
+      "watch_next_ja": "12月1〜2日：下院3委員会によるフアン氏・ティーター氏の非公開聴取。12月3日：上院銀行委員会の公開公聴会。11月27日前後：ベセント財務長官が示した取締役会・外部弁護士の回答期限。国防授権法協議文書での輸出管理3法案の扱い。",
+      "watch_next_en": "1–2 Dec: closed-door House interviews with Huang and Teter. 3 Dec: public Senate Banking hearing. Around 27 Nov: the deadline Treasury Secretary Bessent set for the board and outside counsel. Treatment of the three export-control bills in the NDAA conference text.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "announced",
+      "publisher": "Nvidia取締役会",
+      "publisher_en": "Nvidia Board of Directors",
+      "sources": [
+        {
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+          "publisher": "NVIDIA Investor Relations",
+          "date": "2026-11-23",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Form 8-K exhibit: November 23 press release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm",
+          "publisher": "SEC EDGAR",
+          "date": "2026-11-23",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia stock soars 30% on Jensen Huang's return as CEO, but now he must grapple with a wave of investigations",
+          "url": "https://fortune.com/2026/11/23/nvidia-stock-jensen-huang-return-ceo-investigations-china-spy-scandal-fbi/",
+          "publisher": "Fortune",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "NVIDIA's Jensen Huang will testify publicly before senators on December 3",
+          "url": "https://www.engadget.com/2325655/nvidia-jensen-huang-will-testify-publlicly-before-senators-on-december-3/",
+          "publisher": "Engadget",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Huizenga wants answers from reinstated Nvidia CEO Huang, Trump admin",
+          "url": "https://www.yahoo.com/news/politics/articles/huizenga-wants-answers-reinstated-nvidia-181921706.html",
+          "publisher": "The Detroit News (via Yahoo News)",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261122-02"
+    },
+    {
+      "id": "cl-20261124-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "OpenAI主任科学者、パープレキシティの推移を公開し「共通の上限」を提案　監視能力の到達までは各社が越えない線を",
+      "title_en": "OpenAI's Chief Scientist Publishes Perplexity Trajectory and Proposes 'Shared Limits' No Lab Crosses Until Monitoring Catches Up",
+      "lead_ja": "OpenAIのヤクブ・パホツキ主任科学者は11月22日、論考「Perplexity and Intelligence」でGPT-3.5以降の内部評価セットにおける対数パープレキシティの推移を公開し、フロンティア開発者が「パープレキシティなどの測定値に基づく共通の上限」を設け、AIの挙動を理解し監視する能力が明確な到達点に達するまで越えないことを提案した。アルトマンCEOは「OpenAIがここしばらくで公表した最も重要なもの」と支持し、Metaのアレクサンドル・ワン最高AI責任者も同日、社会のAIへの「引き渡し」を容認すべきでないと投稿した。法的拘束力のない業界内の合意として、各国政府の規制に先行する形で示された点に特徴がある。",
+      "lead_en": "On 22 November OpenAI chief scientist Jakub Pachocki published 'Perplexity and Intelligence', disclosing the log-perplexity trajectory of OpenAI models since GPT-3.5 on an internal held-out set, and proposed that frontier developers agree on 'common limits, based on perplexity and other measurements' that none would cross until the ability to understand and monitor AI behavior reaches a defined milestone. Sam Altman called it 'the most important thing OpenAI has published in a while', and Meta's chief AI officer Alexandr Wang posted the same day that society should not accept a 'handover' to AI. The proposal is notable as a non-binding, industry-internal arrangement advanced ahead of government regulation.",
+      "sections": [
+        {
+          "heading_ja": "0.99から0.76へ、能力の閾値を数値で示す",
+          "heading_en": "From 0.99 to 0.76: Capability Thresholds in Numbers",
+          "paragraphs_ja": [
+            "報道が伝える数値では、対数パープレキシティはGPT-3.5の約0.99で流暢な対話が、GPT-4の約0.91で生産的な思考連鎖が現れ、0.8を下回る領域でサイバーセキュリティと数学の変革的な能力が、約0.76で未解決の数学問題への成果が出始めたという。パホツキ氏は0.68〜0.70の帯域で予測しがたい新たな能力が現れると見込む。測定はGPT-3.5以来の内部コードベースの固定スナップショットを用いており、研究所ごとにデータセットが異なるため横断比較は難しいとOpenAI自身が留保している。"
+          ],
+          "paragraphs_en": [
+            "As reported, log-perplexity fell from about 0.99 at GPT-3.5, where fluent conversation emerged, to about 0.91 at GPT-4, where productive chain-of-thought appeared; below 0.8 transformative cybersecurity and mathematics capabilities arrived, and at about 0.76 models began producing results on open mathematical problems. Pachocki expects further hard-to-predict capabilities in the 0.68–0.70 band. The measurements use a fixed held-out snapshot of OpenAI's internal codebase, the main evaluation set since GPT-3.5, and OpenAI itself cautions that differing datasets across labs make cross-lab comparison difficult."
+          ]
+        },
+        {
+          "heading_ja": "上限の解除は思考連鎖監視の後継を条件に",
+          "heading_en": "Lifting a Limit Is Conditioned on a Successor to Chain-of-Thought Monitoring",
+          "paragraphs_ja": [
+            "提案の核心は、上限をどこに置くかよりも、いつ解除するかの条件にある。パホツキ氏は、現在の思考連鎖モニターの後継にあたる監視手法など「明確に定義された到達点」に達するまで誰も越えない線を各社が約束し、共通の評価手法、初回使用前のレッドチームによる安全性論証、共通の透明性基準を併せて定めることを求めた。同氏はX上で「それ以降の進展はAIの挙動を理解する能力に条件づけられる」と述べる一方、最初の上限をどこに置き、いつ発効させるかは示していない。",
+            "背景には研究の自動化がある。OpenAIが11月18日に公表した報告では、介入なしでモデルが訓練実行の監視を79%、訓練の立ち上げを35%、推論・サービングコードの作成を25%の成功率でこなしたとされ、パホツキ氏は深層学習研究の自己改善が早ければ2027年にも始まりうると見込む。9月の訓練停止事案を公表した同社が、今度は業界横断の制動装置を提案した形である。"
+          ],
+          "paragraphs_en": [
+            "The core of the proposal lies in the condition for release rather than the position of the limit. Pachocki asks labs to commit to a line none will cross until a 'clearly defined milestone' in monitoring capability, such as a successor to today's chain-of-thought monitors, is reached, alongside shared evaluation norms, red-teamed safety cases before first use, and common transparency standards. On X he wrote that progress beyond the limits should be 'gated on our ability to understand AI behavior', while leaving open where the first limit should sit and when it would take effect.",
+            "Research automation is the backdrop. An OpenAI report of 18 November put zero-intervention success rates at 79% for monitoring training runs, 35% for launching them and 25% for writing inference and serving code, and Pachocki expects self-improvement in deep-learning research to become possible as early as 2027. Having disclosed its September training halt, the company is now proposing an industry-wide brake."
+          ]
+        },
+        {
+          "heading_ja": "競合の呼応と、政府が介在しない合意の限界",
+          "heading_en": "Rival Endorsement and the Limits of an Agreement Without Governments",
+          "paragraphs_ja": [
+            "Metaのワン氏は11月22日、「制約のない再帰的自己改善の世界で人類が統制を保てるとは想像しがたい」とし、業界全体が「既定路線」から離れる行動を取れば統制は可能だと投稿した。Euronewsは、Google DeepMindの研究者が20日にAGIの接近を警告し、習近平国家主席が先週「人間の統制下にあるAI」を求めたことと並べて報じている。提案は政府や中国への言及を含まず、米中首脳が合意した軍事AIの人間関与とは別の経路で進む。検証を担う主体と、合意に加わらない開発者の扱いが、次の論点になる。"
+          ],
+          "paragraphs_en": [
+            "Meta's Wang posted on 22 November that it is 'hard to imagine a world where humanity can maintain control over fully unconstrained recursive self-improvement', adding that control is possible if the whole industry departs from the 'default path'. Euronews placed the exchange alongside a 20 November warning by Google DeepMind researchers that AGI may be near and Xi Jinping's call last week for AI 'under human control'. The proposal makes no reference to governments or China and runs on a separate track from the human-involvement understanding reached by the US and Chinese leaders. Who verifies compliance, and how developers outside the agreement are treated, are the next questions."
+          ]
+        }
+      ],
+      "watch_next_ja": "他のフロンティア研究所（Anthropic、Google DeepMind、xAI）の公式な応答。OpenAIが示す最初の上限値と発効条件。1月末までに見込まれるホワイトハウス超知能タスクフォースの政策文書での扱い。",
+      "watch_next_en": "Formal responses from other frontier labs (Anthropic, Google DeepMind, xAI). The first limit value and trigger conditions OpenAI specifies. Treatment in the White House superintelligence task force policy document expected by end-January.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "OpenAI",
+      "publisher_en": "OpenAI",
+      "sources": [
+        {
+          "title": "Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence/",
+          "publisher": "OpenAI",
+          "date": "2026-11-22",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "OpenAI's chief scientist calls for industry-wide limits on AI models",
+          "url": "https://thenextweb.com/news/openai-chief-scientist-shared-ai-limits",
+          "publisher": "The Next Web",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+          "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+          "publisher": "The Decoder",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "OpenAI Proposes Shared AI Development Limits Tied to Safety Milestones",
+          "url": "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/",
+          "publisher": "Unite.AI",
+          "date": "2026-11-22",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "'We should not be okay with a handover of society to AI', warns Meta's AI boss",
+          "url": "https://www.euronews.com/2026/11/23/we-should-not-be-okay-with-a-handover-of-society-to-ai-warns-metas-ai-boss",
+          "publisher": "Euronews",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261124-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ブリッジタウンAI安全サミット、グテーレス氏が「多国間AIリスク管理枠組み」の協議を要請　軍事利用は議題外",
+      "title_en": "At the Bridgetown Special Summit on AI Safety, Guterres Calls for Talks on a 'Multilateral AI Risk Management Framework'; Military Uses Kept Off the Agenda",
+      "lead_ja": "バルバドス政府と国連は11月23日、ブリッジタウンで「AI安全に関する特別サミット」を共催した。グテーレス事務総長は加盟国に「多国間AIリスク管理枠組み」の協議開始と「AI能力構築のためのグローバル基金」の創設を呼びかけ、権力が「国家や統治機構から少数の企業と個人へ」移っていると警告した。交渉による成果文書は予定されず、軍事利用は議題から外れたが、事務総長は自律兵器の禁止への支持を改めて表明した。",
+      "lead_en": "Barbados and the United Nations co-hosted the Special Summit on AI Safety in Bridgetown on 23 November. Secretary-General António Guterres urged member states to begin talks on a 'multilateral AI Risk Management Framework' and to create a Global Fund for AI Capacity-Building, warning that power is shifting 'from States, from governing institutions to a small number of companies and persons'. No negotiated outcome was planned and military uses were excluded from the agenda, but Guterres reiterated his support for a ban on autonomous weapons.",
+      "sections": [
+        {
+          "heading_ja": "条約でも規制でもない「枠組み」の中身",
+          "heading_en": "What the 'Framework' Contains: Neither Treaty Nor Regulation",
+          "paragraphs_ja": [
+            "国連ニュースによれば、事務総長が示した枠組みの要素は、共有された安全対策、共通の試験手法、明確な安全措置と基準、基本的な透明性要件、先端AIモデルの独立した評価と監督、そしてすべての国がそれらを実施できる支援である。ギル事務総長特使は事前に「条約でも規制でもなく、各国が自国の安全インフラを築く際に使える枠組み」と説明しており、ガイアナ・クロニクルは交渉による成果文書はなく、行動の呼びかけと誓約が見込まれると報じた。",
+            "マクロン仏大統領はビデオで参加し、「AIセキュリティに関するパリ・コール」が18の首脳と11のAI企業の署名を得たと述べた。事前報道では約150人の参加者が想定され、ノルウェーとフィンランドの閣僚、AI安全研究所の長、国連の独立国際科学パネルの委員が名を連ねる一方、米国は上級外交官が代表し中国の専門家も出席が見込まれるとされた。米中の出席は国連ニュースと公式サイトでは確認できていない。"
+          ],
+          "paragraphs_en": [
+            "According to UN News, the elements of the framework Guterres outlined are shared safety measures, common approaches to testing, clear safeguards and standards, basic transparency requirements, independent evaluation and oversight of advanced AI models, and support so that every country can put them into practice. Special Envoy Amandeep Singh Gill had described it in advance as 'not a treaty, it's not regulation, but it is a framework' that countries can use to build national safety infrastructure, and the Guyana Chronicle reported that calls to action and pledges, rather than a negotiated text, were expected.",
+            "President Macron joined by video and said the Paris Call for AI Security had been 'signed by 18 Heads of State and government and 11 AI leaders'. Pre-summit reporting anticipated about 150 participants, including ministers from Norway and Finland, heads of AI safety institutes and members of the UN's Independent International Scientific Panel on AI, with the United States represented by a senior diplomat and Chinese experts also expected. Attendance by the US and China is not confirmed by UN News or the official site."
+          ]
+        },
+        {
+          "heading_ja": "軍事は議題外、自律兵器禁止は再表明",
+          "heading_en": "Military Uses Off the Table, Autonomous-Weapons Ban Restated",
+          "paragraphs_ja": [
+            "事前報道は「議論は軍事利用を扱わない」と明記していたが、事務総長は演説でAIを兵器化する能力が「二つの国と限られた数の企業に集中している」と述べ、機械が誰を殺すかを選ぶことは「絶対に受け入れられない」として自律兵器禁止への支持を繰り返した。11月21日にCCW運用検討会議が法的拘束力の有無を先送りした直後の発言であり、国連の立場を首脳級の場で再確認した意味を持つ。核指揮統制への言及は確認できない。"
+          ],
+          "paragraphs_en": [
+            "Although pre-summit coverage stated that 'discussions will not cover military uses of AI', Guterres said in his remarks that the capacity to weaponise AI is 'concentrated in two countries and a limited number of companies' and, calling a machine's choice of whom to kill 'absolutely unacceptable', reiterated his support for banning autonomous weapons. Coming two days after the CCW Review Conference deferred the question of legal binding force on 21 November, the statement restates the UN position at leader level. No reference to nuclear command and control was found."
+          ]
+        },
+        {
+          "heading_ja": "対応能力の格差と「キルスイッチ」の要求",
+          "heading_en": "The Response-Capacity Gap and a Demand for a 'Kill Switch'",
+          "paragraphs_ja": [
+            "能力構築が中心議題となった。事務総長は7月のAIガバナンスに関するグローバル対話に参加した国のうち111か国がそれまでAIの議論に加わったことがなかったと述べ、ギル特使は世界開発報告2026を引いて高所得国に500のインシデント対応チームがある一方、低所得国には6しかないと指摘した。モトリー首相はフロンティア研究所のエージェントがバルバドスの銀行に侵入した場合の賠償責任と、政府が持つべき緊急の「キルスイッチ」について問われ、「購入するものを止められることが販売の条件でなければならない」と答えた。任期を12月末に終える事務総長の最後の大型AI会合であり、枠組み協議の受け皿は後任の下で定まる。"
+          ],
+          "paragraphs_en": [
+            "Capacity-building dominated the agenda. Guterres said that 111 of the countries taking part in July's Global Dialogue on AI Governance had never before joined any AI discussion, and Gill, citing the World Development Report 2026, noted that high-income countries have 500 incident-response teams while low-income countries have six. Asked whether a frontier lab should pay if its agent hacked a Barbadian bank and whether governments should hold an emergency 'kill switch', Prime Minister Mia Mottley answered yes, saying it 'has to be a condition of the sale' that the buyer can shut the system down. This was the last major AI meeting of Guterres's term, which ends in December; the venue for framework talks will be settled under his successor."
+          ]
+        }
+      ],
+      "watch_next_ja": "サミットの議長総括または誓約一覧の公表。国連総会でのLAWS決議（L.37）採択（12月上旬の見通し）。2027年の第2回AIガバナンス・グローバル対話での枠組み協議の取り扱い。",
+      "watch_next_en": "Publication of a chair's summary or pledge list. Adoption of the UNGA LAWS resolution (L.37), expected in early December. How the 2027 Global Dialogue on AI Governance takes up the framework talks.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "国連・バルバドス政府",
+      "publisher_en": "United Nations / Government of Barbados",
+      "sources": [
+        {
+          "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
+          "url": "https://news.un.org/en/story/2026/11/1168861",
+          "publisher": "UN News",
+          "date": "2026-11-23",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Bridgetown Special Summit on AI Safety — official site and agenda",
+          "url": "https://bridgetownaisummit.bb/",
+          "publisher": "Government of Barbados",
+          "date": "2026-11-20",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Bridgetown AI summit to tackle safety as risks outpace capacity to respond",
+          "url": "https://guyanachronicle.com/2026/11/23/bridgetown-ai-summit-to-tackle-safety-as-risks-outpace-capacity-to-respond/",
+          "publisher": "Guyana Chronicle",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "governance-norms",
+        "frontier-safety",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "UN"
+      ],
+      "doc_type": "speech-testimony",
+      "forums": [
+        "un-ga",
+        "ai-summits"
+      ],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261124-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "韓国国防委の国防AI法公聴会、「過度の統制は自主軍縮」論と「特例で検証が空洞化」の懸念が対立",
+      "title_en": "Korean Defense Committee Hearing on the Defense AI Act: 'Excessive Control Is Self-Disarmament' Meets Fears That Special Provisions Hollow Out Verification",
+      "lead_ja": "韓国国会国防委員会は11月23日の全体会議で「国防人工知能法案」の公聴会を開いた。法案は1月27日に与野党33人の共同発議で提出され、国防部長官が3年ごとの基本計画を定め、長官を委員長とする国防人工知能委員会が主要政策を審議し、規制特例と簡素化手続きで軍へのAI導入を支えるという構成である。公聴会では、人間の統制を強く書き込むことに慎重な法学者と、安全最優先の原則を基本法に置くべきだとする議員、特例の範囲を法律で限定するよう求める市民団体の立場が並び、指揮統制へのAI適用をどこまで認めるかが論点となった。",
+      "lead_en": "The National Assembly's Defense Committee held a public hearing on the Defense Artificial Intelligence Act at its plenary session on 23 November. Introduced on 27 January with 33 cross-party co-sponsors, the bill would have the defense minister set a basic plan every three years, create a Defense AI Committee chaired by the minister to decide major policy, and support military AI adoption through regulatory special provisions and simplified procedures. The hearing set a legal scholar wary of writing strong human-control clauses into statute against lawmakers who want a safety-first principle in the basic law and civil-society groups demanding that the scope of special provisions be fixed in the statute itself; how far AI may be applied to command and control emerged as a central issue.",
+      "sections": [
+        {
+          "heading_ja": "指揮統制を除けば「能力の半分も使えない」",
+          "heading_en": "Excluding Command and Control Would Leave 'Under Half' of AI's Capacity in Use",
+          "paragraphs_ja": [
+            "デイリアンによれば、陳述人として出席したAI企業FUNZINの金得和CEOは、AIが状況判断から判断支援へ移行している現状を踏まえ、指揮統制を適用対象から外せばAIの能力は半分も使えないと述べた。韓国国防研究院の沈承培研究委員は政策が技術に追いついていないとして、3年単位の基本計画を毎年改定する案を示した。与党系の林宗得幹事は軍事AIが生命と安全に関わる以上、安全最優先の原則を基本法に明記すべきだと求め、韓起鎬議員は使用を認めるAIエンジンを法律で指定し、中国、ロシア、北朝鮮など敵対国のエンジンを排除する規定を提案した。"
+          ],
+          "paragraphs_en": [
+            "According to Dailian, witness Kim Deuk-hwa, CEO of the AI firm FUNZIN, said that with AI moving from situational assessment to decision support, excluding command and control from the law's scope would leave under half of AI's capacity in use. Sim Seung-bae of the Korea Institute for Defense Analyses argued that policy is lagging technology and suggested revising the three-year basic plan annually. Im Jong-deuk, the People Power Party's committee whip, said that because military AI touches life and safety a safety-first principle must be written into the basic law, and Han Ki-ho proposed that the statute designate approved AI engines and bar those from China, Russia, North Korea and other hostile states."
+          ]
+        },
+        {
+          "heading_ja": "「設計による人間の統制」と自主軍縮論",
+          "heading_en": "'Human Control by Design' and the Self-Disarmament Argument",
+          "paragraphs_ja": [
+            "ソウル大学法学専門大学院の朴相哲教授は、AI兵器への過度な人間統制を法律に書き込むことに慎重な立場を示した。同教授は、CCWの政府専門家会合で国際社会が合意したのは人間が逐一介在する方式よりも「設計による人間の統制」の可能性であり、米中露は強い直接統制の条項に反対してきたと述べ、手続き上の統制は下位法令で定めればよく、この議論で法案を遅らせるべきでないとした。",
+            "発議者の柳龍源議員が北朝鮮と中国にはAI利用の倫理的な足かせがほとんどないと指摘すると、同教授は「自主軍縮」にあたる方式は適切でないと応じた。これに対し民主党の朴善源議員は人間の主体性を侵しうる要素の削除を求め、与党の劉榮夏議員は一度成立した法は改正が難しいとして拙速を戒めた。統制の強度をめぐる見解の差は、与党内でも分かれている。"
+          ],
+          "paragraphs_en": [
+            "Park Sang-cheol, professor at Seoul National University School of Law, cautioned against writing excessive human control over AI weapons into statute. He said that what the international community agreed at the CCW Group of Governmental Experts was the possibility of 'human control by design' rather than a human in every loop, that the US, China and Russia have opposed strong direct-control clauses, and that procedural controls could be set in subordinate regulations without delaying the bill.",
+            "When sponsor Yu Yong-weon observed that North Korea and China face few ethical constraints on AI use, Park replied that an approach amounting to 'self-disarmament' would be wrong. Democratic Party lawmaker Park Sun-won countered by asking that any element that could infringe human agency be removed, and the PPP's Yoo Young-ha warned against haste, since laws are hard to amend once passed. Views on the strength of control diverge even within the ruling party."
+          ]
+        },
+        {
+          "heading_ja": "特例の範囲と国会報告をめぐる市民社会の要求",
+          "heading_en": "Civil Society's Demands on the Scope of Special Provisions and Reporting to the Assembly",
+          "paragraphs_ja": [
+            "参与連帯は公聴会前日の11月22日、本法案と「国防先端戦力事業法案」が既存の防衛事業の検証手続きを迂回し、国会の監視を弱めるおそれがあるとする意見を発表した。同団体は、迅速獲得の特例の範囲が大統領令に委ねられ、兵器体系と一般の後方支援体系がリスク区分なしに一括りにされていること、認証審査や部隊の実使用評価が法定の試験評価に代替できること、主要事業の選定や特例の適用、安全検証の結果を国会に報告する義務が曖昧であることを問題視した。そのうえで、特例の範囲を法律に列挙し、高リスク兵器に別の検証基準を設け、国会の事前審査と定期報告を義務づけるよう求めた。",
+            "46団体からなるAI市民行動は5月に、国際人道法の順守、追加議定書第36条の兵器審査、致死的判断の機械への委任禁止、委員会の外部委員3分の1以上などを盛り込む19ページの立法意見書を提出している。法案小委員会での審査日程は公聴会の時点で未定である。"
+          ],
+          "paragraphs_en": [
+            "On 22 November, the day before the hearing, People's Solidarity for Participatory Democracy (PSPD) issued a statement warning that this bill and the Defense Advanced Capabilities Project Act could bypass existing defense-project verification and weaken parliamentary oversight. It objected that the scope of rapid-acquisition special provisions is left to presidential decree, that weapon systems and general logistics systems are grouped without risk tiers, that certification reviews or unit field evaluations may substitute for statutory test and evaluation, and that neither bill clearly obliges reporting to the Assembly on project selection, use of special provisions or safety-verification results; it asked that the scope be listed in the statute, that separate verification standards apply to high-risk weapons, and that prior Assembly review and regular reporting be mandated.",
+            "In May, AI Citizens' Action, a coalition of 46 groups, had submitted a 19-page legislative opinion calling for compliance with international humanitarian law, Article 36 weapons reviews, a prohibition on delegating lethal decisions to machines, and at least one-third external membership on the committee. No subcommittee review date had been announced as of the hearing."
+          ]
+        }
+      ],
+      "watch_next_ja": "国防委員会法案審査小委員会の日程と、国防先端戦力事業法案との併合審査の有無。指揮統制への適用範囲と「人的介入」条項の修正案。12月の2027年度予算審議での国防AI関連費。",
+      "watch_next_en": "Scheduling of the Defense Committee's bill subcommittee and whether the Advanced Capabilities Project Act is reviewed jointly. Amendments on the command-and-control scope and the 'human intervention' clause. Defense-AI line items in the December FY2027 budget deliberations.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "韓国国会国防委員会",
+      "publisher_en": "National Assembly Defense Committee (Republic of Korea)",
+      "sources": [
+        {
+          "title": "\"국방AI 통제는 자체 군축…북한·중국은 윤리적 족쇄 거의 없어\"",
+          "url": "https://www.dailian.co.kr/news/view/1718605/",
+          "publisher": "Dailian",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "참여연대 \"국방AI 특례 확대 안돼\", 무기 검증·국회 감시 공백 우려",
+          "url": "https://www.ngonews.kr/news/articleView.html?idxno=243843",
+          "publisher": "한국NGO신문",
+          "date": "2026-11-22",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "[입법의견서] AI시민행동, 「국방인공지능법」 제정안 국제법 준수, 책임성 조항 등 법안 개선 및 보완 사항 제안",
+          "url": "https://peoplepower21.org/publiclaw/2022744",
+          "publisher": "참여연대 공익법센터",
+          "date": "2026-05-14",
+          "kind": "primary",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision",
+        "governance-norms"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "law-regulation",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261123-09"
+    },
+    {
+      "id": "cl-20261124-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "台湾地方選5日前、大陸委員会が中国の介入を警告　検察は民衆党候補を反浸透法で起訴し約2万件の偽アカウント使用を主張",
+      "title_en": "Five Days Before Taiwan's Local Elections, MAC Warns of Chinese Interference; Prosecutors Indict a TPP Candidate Under the Anti-Infiltration Act, Alleging Some 20,000 Fake Accounts",
+      "lead_ja": "台湾の大陸委員会の沈有忠副主任委員は11月23日、11月28日の地方選挙を前に、中国が候補者への資金提供、認知戦、地下賭博を通じた資金の流入で介入を試みていると警告し、AIと顔認識の進歩が浸透を高度化させていると述べた。新北地検は11月20日、民衆党の桃園市議候補を反浸透法違反などで起訴し、中国共産党の関係者を名乗る人物から資金を受け、約2万件の偽Facebookアカウントで支持を装ったと主張している。候補者は否認している。Metaは20日、台湾当局が指摘した約2,400件のThreadsアカウントを削除したと説明した。",
+      "lead_en": "On 23 November, five days before the 28 November local elections, Mainland Affairs Council deputy head Shen Yu-chung warned that China is attempting to interfere by financing candidates, waging cognitive warfare and channelling money through underground betting, adding that advances in AI and facial recognition are making infiltration more sophisticated. New Taipei prosecutors indicted a Taiwan People's Party candidate for Taoyuan City Council on 20 November under the Anti-Infiltration Act and other charges, alleging she took money from men claiming to be Chinese Communist Party officials and used some 20,000 fake Facebook accounts to simulate support; she denies wrongdoing. Meta said on 20 November it had removed about 2,400 Threads accounts flagged by Taiwanese authorities.",
+      "sections": [
+        {
+          "heading_ja": "起訴状が描く資金の流れと偽アカウント網",
+          "heading_en": "The Money Trail and Fake-Account Network Described in the Indictment",
+          "paragraphs_ja": [
+            "中央社によれば、検察は周曉芸候補が2025年に台湾の四海幇に連なる仲介者を通じて3回廈門を訪れ、共産党幹部を名乗る「大劉」「小劉」から2025年12月に1万米ドル、2026年1月と2月に月30万台湾ドルを受け取ったと主張する。検察は同候補が2,000件の偽台湾アカウントの背景情報と台湾人の写真の提供を求められ、約2万件の偽Facebookアカウントが支持の印象をつくるのに使われたとして、懲役3年6か月を求刑した。",
+            "周候補はFacebookで、フォロワーが最近1万人を超えたばかりであること、起訴の時期に疑問があること、SNS運用は専門業者に委託していたことを挙げて関与を否定している。これらは検察の主張であり、司法判断はこれからである。"
+          ],
+          "paragraphs_en": [
+            "According to CNA, prosecutors allege that candidate Chou Hsiao-yun travelled to Xiamen three times in 2025 through intermediaries linked to Taiwan's Four Seas gang and received US$10,000 in December 2025 and NT$300,000 a month in January and February 2026 from two men, 'Da Liu' and 'Xiao Liu', who claimed to be CCP officials. Prosecutors say she was asked for background on 2,000 fake Taiwanese social-media accounts and photographs of Taiwanese people for profile pictures, and that about 20,000 fake Facebook accounts were used to create an impression of support; they seek three years and six months.",
+            "Chou, on Facebook, denies wrongdoing, noting that her following only recently passed 10,000, questioning the indictment's timing and saying she had outsourced social-media work to professionals. These remain prosecutors' allegations awaiting adjudication."
+          ]
+        },
+        {
+          "heading_ja": "Threads2,400件とAI動画2,150本",
+          "heading_en": "2,400 Threads Accounts and 2,150 AI-Generated Videos",
+          "paragraphs_ja": [
+            "ロイターが11月20日に伝えた政府文書では、台湾当局はMetaに約2,400〜2,700件のアカウントを通報し、対象はThreadsに限られる。報告書は2,400件のうち74%が所在地を中国、約25%が未記載、1%がロシアとし、27のクラスターが中国またはロシアの運用者により一括作成されたと評価する。別の報告書は約260のアカウントが2,150本超のAI生成動画を投稿し、235万件の反応を得て主に民進党の政治家と政策を標的にしたと記す。",
+            "Metaは通報されたアカウントを削除し、多くは自社システムが既に無効化していたと説明したうえで、「低品質の偽アカウント」で選挙関連の投稿はなく、大半はフォロワーがいなかったと述べた。台湾側は一部の削除を確認している。"
+          ],
+          "paragraphs_en": [
+            "Government documents reported by Reuters on 20 November show Taiwan flagged roughly 2,400–2,700 accounts to Meta, all on Threads. One report assesses that of 2,400 accounts, 74% listed China as location, about 25% none and 1% Russia, in 27 clusters created in bulk by operators in China or Russia. Another report says about 260 accounts posted more than 2,150 AI-generated videos drawing 2.35 million interactions, mostly targeting DPP politicians and policies.",
+            "Meta said it removed the flagged accounts, many already disabled by its systems, describing them as 'low-quality fake accounts' with no election-related posts and mostly no followers. Taiwanese officials confirmed that some had been taken down."
+          ]
+        },
+        {
+          "heading_ja": "顔認識と日常への監視拡大という新たな警告",
+          "heading_en": "A New Warning on Facial Recognition and Surveillance Creeping into Daily Life",
+          "paragraphs_ja": [
+            "沈副主任委員の発言は、中国のAIと顔認識の進歩が浸透を高度化させ、データ収集を日常生活へ広げうるという点に新しさがある。偽アカウント網の規模をめぐっては、台湾当局が「一括作成された中露発の運用」とみる一方、Metaは選挙への影響力を限定的に評価しており、脅威認識の差が残る。11月28日の投開票と、選挙後に再開する国防特別予算法案の審議が、この認識差の政治的な帰結を示す場になる。"
+          ],
+          "paragraphs_en": [
+            "What is new in Shen's remarks is the claim that China's advances in AI and facial recognition are making infiltration more sophisticated and could extend data collection into daily life. On the scale of the fake-account networks, Taiwanese authorities see bulk-created operations originating in China and Russia, while Meta rates their electoral effect as limited, leaving a gap in threat assessment. The 28 November vote and the post-election resumption of debate on the special defense budget bill will show the political consequences of that gap."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月28日：台湾統一地方選挙の投開票と、選挙期間中の介入手法に関する国家安全局・大陸委員会の総括。周曉芸候補の公判日程。Metaの四半期の脅威報告での台湾関連ネットワークの記載。",
+      "watch_next_en": "28 Nov: Taiwan's local elections and the NSB/MAC post-election assessment of interference methods. Trial schedule for Chou Hsiao-yun. Treatment of Taiwan-related networks in Meta's quarterly adversarial threat report.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "台湾・大陸委員会／新北地方検察署",
+      "publisher_en": "Mainland Affairs Council / New Taipei District Prosecutors Office (Taiwan)",
+      "sources": [
+        {
+          "title": "MAC sends warning about China election interference",
+          "url": "https://focustaiwan.tw/politics/202611230016",
+          "publisher": "Focus Taiwan (CNA)",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Meta removes thousands of accounts flagged by Taiwan in China influence probe",
+          "url": "https://www.jpost.com/international/article-915564",
+          "publisher": "The Jerusalem Post (Reuters)",
+          "date": "2026-11-20",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cognitive"
+      ],
+      "actors": [
+        "TW",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "cognitive-domain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261118-14"
+    },
+    {
+      "id": "cl-20261124-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "ロシア、無人機153機で夜間攻撃　ディメルの集合住宅の死者は11人に、キーウ中心部で落下物の火災",
+      "title_en": "Russia Launches 153 Drones Overnight; Dymer Apartment Toll Rises to 11, Debris Fire in Central Kyiv",
+      "brief_text_ja": "ウクライナ空軍は11月23日朝、22日夜からの攻撃で露側がShahed・Gerbera型の攻撃用無人機と囮機あわせて153機を投入し、午前8時までに134機を撃墜または抑止、11か所で着弾があったと発表した（うちジェット推進のShahedは42機、ミサイルの使用は確認されていない）。22日未明にキーウ州ディメルの5階建て集合住宅が被弾した事案では、州警察の集計で死者11人、負傷7人、行方不明2人となり、23日午後にはキーウ中心部シェウチェンキウシキー地区で落下物による火災で3人が負傷したとクリチコ市長が述べた。ロシア国防省は17地域で192機を迎撃したと主張し、ロストフ州ノボシャフチンスクの石油製品工場の火災がSNS上で報じられているが、被害の独立した確認はない。",
+      "brief_text_en": "Ukraine's Air Force said on the morning of 23 November that Russia launched 153 Shahed and Gerbera strike drones and decoys overnight, of which 134 were shot down or suppressed by 08:00 with impacts at 11 locations (42 were jet-powered Shaheds; no missiles were recorded). In the 22 November strike on a five-storey block in Dymer, Kyiv region, the regional police count rose to 11 dead, seven injured and two missing, and Mayor Klitschko said falling debris caused a fire in central Kyiv's Shevchenkivskyi district on the afternoon of the 23rd, injuring three. Russia's defence ministry claimed 192 drones intercepted over 17 regions, and social-media channels reported a fire at the Novoshakhtinsk oil-products plant in Rostov region, with no independent confirmation of damage.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "ウクライナ空軍／キーウ州警察",
+      "publisher_en": "Ukrainian Air Force / Kyiv Regional Police",
+      "sources": [
+        {
+          "title": "Air defense downs or suppresses 134 of 153 enemy drones",
+          "url": "https://en.interfax.com.ua/news/general/1240642.html",
+          "publisher": "Interfax-Ukraine",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Falling drone debris sparks fire in central Kyiv, 2 rescued, 3 injured, including foreign national",
+          "url": "https://kyivindependent.com/falling-drone-debris-sparks-fire-in-central-kyiv-2-rescued-3-injured-including-foreign-national/",
+          "publisher": "The Kyiv Independent",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Missile War Monitor: Dymer apartment block toll rises to 11 as fires are reported at a Russian refinery and pumping station",
+          "url": "https://www.yahoo.com/news/world/articles/missile-war-monitor-dymer-apartment-085120552.html",
+          "publisher": "bne IntelliNews (via Yahoo News)",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261123-06"
+    },
+    {
+      "id": "cl-20261124-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "北大西洋理事会が23日に協議　ポーランド検察は落下3発すべてをKh-101と暫定認定、早期警戒機とF-35を要請",
+      "title_en": "North Atlantic Council Meets on the 23rd; Polish Prosecutors Provisionally Identify All Three Objects as Kh-101s, Warsaw Requests More AEW Aircraft and F-35s",
+      "brief_text_ja": "ルブリン地方検察は、11月20日にポーランド領空に侵入し落下した3つの物体がいずれもロシアのKh-101巡航ミサイルであり、2026年第4四半期にモスクワ州ドゥブナで製造されたとの暫定所見を示した（当初の政府発表はミサイル2発と無人機1機）。ザレフスキ国防副大臣は第4条の発動は不要としたうえで、23日の北大西洋理事会でポーランドと東翼の防空強化を求める考えを示し、コシニャク＝カミシュ国防相は早期警戒管制機とF-35の追加を要請したと述べた。理事会は国別代表レベルで開かれ、本稿執筆時点で会合後の公式声明は確認できていない。",
+      "brief_text_en": "The Lublin District Prosecutor's Office issued preliminary findings that all three objects that entered Polish airspace and came down on 20 November were Russian Kh-101 cruise missiles, manufactured in the fourth quarter of 2026 at Dubna, Moscow region (the government's initial account was two missiles and one drone). Deputy Defence Minister Paweł Zalewski said invoking Article 4 was unnecessary but that Poland would ask the North Atlantic Council on the 23rd to strengthen air defences in Poland and on the eastern flank, and Defence Minister Władysław Kosiniak-Kamysz said Warsaw had requested additional airborne early-warning aircraft and F-35s. The Council met at national-representative level; no post-meeting statement had been published at the time of writing.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "ポーランド国防省／ルブリン地方検察",
+      "publisher_en": "Polish Ministry of National Defence / Lublin District Prosecutor's Office",
+      "sources": [
+        {
+          "title": "All three missiles that violated Polish airspace were Russian, NATO to meet today",
+          "url": "https://en.protothema.gr/2026/11/23/all-three-missiles-that-violated-polish-airspace-were-russian-nato-to-meet-today/",
+          "publisher": "ProtoThema English",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "NATO to Discuss Russian Missiles in Poland",
+          "url": "https://reform.news/en/nato-to-discuss-russian-missiles-in-poland/",
+          "publisher": "Reform.news",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland to urge NATO to strengthen its air defenses after Russia's missiles entered its airspace",
+          "url": "https://newsukraine.rbc.ua/news/poland-wants-nato-to-strengthen-defenses-1795369392.html",
+          "publisher": "RBC-Ukraine",
+          "date": "2026-11-22",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "isr-targeting"
+      ],
+      "actors": [
+        "NATO",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261123-07"
+    },
+    {
+      "id": "cl-20261124-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "イラン、バーレーン攻撃を再開　UKMTOはホルムズ沖でタンカー2隻の被弾を報告、CENTCOMはF-16損傷主張を否定",
+      "title_en": "Iran Resumes Attacks on Bahrain; UKMTO Reports Two Tankers Hit off Hormuz at the Weekend; CENTCOM Rejects IRGC Claim of a Damaged F-16",
+      "brief_text_ja": "バーレーン国防軍は11月21日夜から22日にかけてイランの複数の空中攻撃を迎撃したと発表し、内務省は民間産業施設で火災が起き、バーレーン人1人とパキスタン人1人が負傷したと説明した。IRGCはシェイク・イサ基地とジュフェアの米軍施設、さらにパトリオットのレーダー2基を攻撃したと主張しているが、米側はこれを確認しておらず、CENTCOMはIRGCが20日に米F-16を損傷させたとする主張を「全く攻撃はなかった」と否定した。英海上貿易機関（UKMTO）は21日早朝に湾を出る2隻のタンカーがそれぞれ船尾と機関室に被弾したと報告し、ISW-CTPは機関室への被弾地点をオマーン・ハサブの東17海里と推定している。",
+      "brief_text_en": "The Bahrain Defence Force said it intercepted several Iranian aerial attacks on the night of 21–22 November, and the Interior Ministry reported a fire at a civilian industrial facility and injuries to a Bahraini citizen and a Pakistani resident. The IRGC claimed strikes on Sheikh Isa Air Base and US facilities at Juffair and the destruction of two Patriot radars, claims the US side has not confirmed; CENTCOM dismissed the IRGC's assertion that it damaged a US F-16 on the 20th, saying Iran 'did not attack a US F-16 fighter aircraft yesterday — at all'. UKMTO reported that two tankers leaving the Gulf early on the 21st were struck in the stern and the engine room respectively, with ISW-CTP placing the engine-room strike 17 nautical miles east of Khasab, Oman.",
+      "japan_relevance": false,
+      "date": "2026-11-22",
+      "stage": "",
+      "publisher": "バーレーン国防軍／UKMTO／米中央軍",
+      "publisher_en": "Bahrain Defence Force / UKMTO / US Central Command",
+      "sources": [
+        {
+          "title": "Middle East conflict: Bahrain intercepts Iranian attacks as Tehran prepares 14 oil tankers to breach US naval blockade",
+          "url": "https://gulfnews.com/world/mena/middle-east-conflict-bahrain-intercepts-iranian-attacks-as-tehran-prepares-14-oil-tankers-to-breach-us-naval-blockade-1.500756662",
+          "publisher": "Gulf News",
+          "date": "2026-11-22",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Iranian Attack Sparks a Fire in Bahrain as 2 Tankers Are Hit in Hormuz",
+          "url": "https://thebostonreport.com/2026/11/22/bahrain-fire-iran-attack-tankers-hormuz-f16-claim/",
+          "publisher": "The Boston Report",
+          "date": "2026-11-22",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US-Israel-Iran-Saudi Arabia-Yemen war live updates, November 23, 2026",
+          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-23-2026",
+          "publisher": "Khaleej Times",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "US",
+        "IL"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261123-12"
+    },
+    {
+      "id": "cl-20261124-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "米海軍、HIIの小型無人潜水艇「Lionfish」を82隻追加発注　潜在契約額は3億4,700万ドル超、機雷対処とISRに",
+      "title_en": "US Navy Orders 82 More HII 'Lionfish' Small UUVs; Potential Contract Value Above $347 Million for Mine Countermeasures and ISR",
+      "brief_text_ja": "ハンティントン・インガルス・インダストリーズ（HII）は、米海軍がREMUS 300を基にした小型無人潜水艇「Lionfish」82隻を追加発注し、同社が建造・試験・納入する総数は175隻、潜在的な契約額は3億4,700万ドル超で最大200隻まで拡張可能だと発表した（エルサレム・ポスト、11月23日）。Lionfishは国防イノベーションユニット（DIU）と海軍情報戦センター太平洋と共同開発され、MK 18 Mod 1 Swordfishを置き換えて機雷対処、情報収集、海中監視に用いられる。配備先は公表されていないが、ホルムズ海峡での商船への攻撃が続く中での増強である。",
+      "brief_text_en": "Huntington Ingalls Industries (HII) said the US Navy has ordered 82 additional Lionfish small UUVs, based on the REMUS 300, bringing the total the company will build, test and deliver to 175, with a potential contract value exceeding $347 million and scalability to 200 vehicles (The Jerusalem Post, 23 November). Developed with the Defense Innovation Unit and NIWC Pacific, Lionfish replaces the MK 18 Mod 1 Swordfish for mine countermeasures, intelligence collection and undersea surveillance. No deployment location has been disclosed; the order comes as attacks on merchant shipping in the Strait of Hormuz continue.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "awarded",
+      "publisher": "米海軍／HII",
+      "publisher_en": "US Navy / HII",
+      "sources": [
+        {
+          "title": "US Navy orders more underwater drones as Iran attacks on Hormuz intensify",
+          "url": "https://jpost.com/defense-and-tech/article-915821",
+          "publisher": "The Jerusalem Post",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "detect"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261124-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "インドDRDO、新興企業olee.spaceに無人機向け耐妨害レーザー通信を発注　18か月で地上・機上端末を国産化",
+      "title_en": "India's DRDO Contracts Pune Startup olee.space for Jam-Resistant Laser Drone Links; Ground and Airborne Terminals to Be Built in 18 Months",
+      "brief_text_ja": "インド国防研究開発機構（DRDO）は、2023年設立のolee.spaceに、地上局と飛行中の無人機を結ぶ自由空間光通信（FSOC）システムの開発を発注した（ビジネス・スタンダード、11月23日）。自動の指向・捕捉・追尾（PAT）を備えた地上端末と機上の小型光学ペイロードを18か月で国産設計・開発する内容で、契約額は非公表である。電波妨害を受けにくい全二重の見通し内リンクを狙うもので、ロシア・ウクライナ戦争で無人機が光ファイバー有線化に向かった教訓を背景にしており、同社が別に開発する指向性エネルギーの対無人機兵器は今回の契約に含まれない。",
+      "brief_text_en": "India's Defence Research and Development Organisation has awarded Pune-based olee.space, founded in 2023, a contract to develop a free-space optical communication (FSOC) system linking ground stations with drones in flight (Business Standard, 23 November). The work covers indigenous design and development of a ground terminal with automatic pointing, acquisition and tracking and a compact airborne optical payload within 18 months; the value was not disclosed. The aim is a full-duplex line-of-sight link resistant to radio jamming, drawing on the Russia–Ukraine war's shift toward fibre-tethered drones. The company also develops directed-energy counter-drone weapons, which are outside this contract.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "awarded",
+      "publisher": "インド国防研究開発機構（DRDO）",
+      "publisher_en": "Defence Research and Development Organisation (India)",
+      "sources": [
+        {
+          "title": "DRDO taps Pune startup olee.space to develop jam-proof drone laser links",
+          "url": "https://business-standard.com/companies/start-ups/drdo-taps-pune-startup-olee-space-to-develop-jam-proof-drone-laser-links-126112300967_1.html",
+          "publisher": "Business Standard",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "industry-procurement"
+      ],
+      "actors": [
+        "IN"
+      ],
+      "doc_type": "budget-procurement",
+      "forums": [],
+      "kill_chain": [
+        "sustain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-24",
+      "text_ja": "ベネット上院議員のMegaspeed書簡に対する商務・司法・国務長官と国家情報長官の回答期限",
+      "text_en": "Deadline for the Commerce, Justice and State secretaries and the DNI to answer Sen. Bennet's Megaspeed letter"
+    },
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the Pentagon's Science, Technology and Innovation Board to begin its study on commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-27",
+      "text_ja": "ベセント財務長官が示したNvidia取締役会・外部弁護士の回答期限（「10日以内」）の目安",
+      "text_en": "Approximate deadline ('within 10 days') set by Treasury Secretary Bessent for Nvidia's board and outside counsel"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。選挙後の国防特別予算法案の審議再開",
+      "text_en": "Taiwan's local elections; post-election resumption of the special defense budget bill"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「Defense AI Vision」の公表（月末めど）。財政審建議の全文公表",
+      "text_en": "Japan MOD's 'Defense AI Vision' (expected by month-end); full text of the Fiscal System Council recommendation"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院3委員会によるNvidiaフアン氏の非公開・記録付き聴取（12月2日はティーター法務責任者）。FY2027 NDAA協議文書の公表見通し",
+      "text_en": "Closed-door transcribed interviews of Nvidia's Huang before three House committees (Teter on 2 Dec); expected release of the FY2027 NDAA conference text"
+    },
+    {
+      "date": "2026-12-03",
+      "text_ja": "米上院銀行委員会、輸出管理の監督に関する公開公聴会（フアン氏が証言）",
+      "text_en": "Senate Banking Committee public hearing on export-control oversight, with Huang testifying"
+    },
+    {
+      "date": "2026-12-05",
+      "text_ja": "国連総会本会議でのLAWS決議（L.37）の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）",
+      "text_en": "UNGA plenary adoption of the LAWS resolution (L.37), expected early December; Japan: expert panel report on revising the three security documents (early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）",
+      "text_en": "Statutory deadline for the FAA's Part 108 BVLOS final rule; Airshow China (Zhuhai, 7–13 Dec)"
+    },
+    {
+      "date": "2026-12-11",
+      "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方",
+      "text_en": "Expiry of the US continuing resolution; fate of the reconciliation bill including Golden Dome and autonomous-warfare funding"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標）と5年総額の決着。米G20首脳会合（ドラル）",
+      "text_en": "Japan: Cabinet decision on the revised three security documents (mid-December target) and the five-year total; G20 summit at Doral"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "グテーレス国連事務総長の任期満了。ブリッジタウンで提起した「多国間AIリスク管理枠組み」協議の引き継ぎ",
+      "text_en": "End of Guterres's term as UN Secretary-General; handover of the 'multilateral AI Risk Management Framework' talks raised at Bridgetown"
+    },
+    {
+      "date": "2027-01-10",
+      "text_ja": "米中貿易休戦の期限",
+      "text_en": "Expiry of the US–China trade truce"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切",
+      "text_en": "Comment deadline for the BIS remote-access interim final rule"
+    },
+    {
+      "date": "2027-01-31",
+      "text_ja": "ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）",
+      "text_en": "White House superintelligence task force policy document (expected by end-January)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（Nvidia復帰、議会反応、OpenAI提案、HII契約）、中国（台湾選挙介入の主体として／商務部・国防部の新規発表は該当なし）、日本（11月23日は祝日で防衛省・装備庁・NSS・経産省・外務省の新規発表は該当なし）、韓国（国防委公聴会）、台湾（大陸委員会警告・起訴・Meta）、欧州・NATO（NAC会合、ポーランド検察所見）、英国（新規は該当なし。11月17日のエストニア向け2,500万ポンドの無人機・電子戦パッケージは掲載日の範囲外）、ロシア・ウクライナ（夜間攻撃、露製油所火災）、イスラエル・中東（バーレーン、ホルムズ）、インド（DRDO契約）、豪州（該当なし）、ASEAN（該当なし）。国連（ブリッジタウン）。",
+      "japan": "防衛省報道資料・大臣会見、防衛装備庁、内閣官房NSS、経産省、外務省、国会（閉会中）を確認。11月23日（勤労感謝の日）は新規発表なし。安保3文書有識者会議の第5回（10月27日）の報道は範囲外。"
+    },
+    "dropped": [
+      {
+        "title": "Pentagon redesignates CDAO as 'Super Intelligence Office' (war.gov, 13 Nov)",
+        "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
+        "reason": "11月13日の発表で範囲外。既往号（11月14日号ほか）で言及済み。"
+      },
+      {
+        "title": "Semafor: US, China eye 'joint guardrails' on AI (22 Nov)",
+        "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai",
+        "reason": "本文を開けず（自動取得拒否）。11月21日号のトランプ発言の続報に相当するが、新事実を確認できないため不採用。"
+      },
+      {
+        "title": "UK Army buys hundreds more drones and EW kit in £25m boost for Estonia (gov.uk, 17 Nov)",
+        "url": "https://www.gov.uk/government/news/army-buys-hundreds-more-drones-and-electronic-warfare-kit-in-25-million-boost-to-strengthen-britains-defences-on-natos-eastern-flank",
+        "reason": "公表日が11月17日で範囲外。The Defense Postの23日付記事は本文を開けなかった。"
+      },
+      {
+        "title": "DRDO SSPL EoI for acoustic drone detection (10 Nov)",
+        "url": "https://www.indiandefensenews.in/2026/11/drdo-launches-indigenous-acoustic-drone.html",
+        "reason": "11月10日付の公募で範囲外。仕様・期限の記載もなし。"
+      },
+      {
+        "title": "Alexandr Wang (Meta) X post on 'handover' to AI (22 Nov)",
+        "url": "https://www.euronews.com/2026/11/23/we-should-not-be-okay-with-a-handover-of-society-to-ai-warns-metas-ai-boss",
+        "reason": "単独項目とせず、OpenAI提案の項（cl-20261124-02）に反応として組み込んだ。"
+      },
+      {
+        "title": "Ukraine General Staff claims on Novoshakhtinsk refinery / Kaleykino pumping station (23 Nov)",
+        "url": "https://www.yahoo.com/news/world/articles/missile-war-monitor-dymer-apartment-085120552.html",
+        "reason": "参謀本部の確認を一次資料で開けず、監視媒体間で記述が食い違うため、短信cl-20261124-06内で「SNS上の報告、独立確認なし」と限定して触れるにとどめた。"
+      },
+      {
+        "title": "US Treasury Iran-related sanctions on ~20 entities (23 Nov, per Khaleej Times/Newspim ticker)",
+        "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-23-2026",
+        "reason": "財務省の発表本文を確認できず、AI・無人機との接点も薄い。"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261124-02：OpenAIの原文（openai.com/index/perplexity-and-intelligence/）は取得できず、数値・引用はThe Next Web、The Decoder、Unite.AIの報道に依拠した（accessed: false）。「GPT-6.2 Astra 0.761」などモデル名付きの数値は報道のグラフ注記に基づくため本文では省いた。",
+      "cl-20261124-01：Nvidiaの8-K本体の提出日は取得したテキストからは確認できず、EDGAR上の別紙（11月23日付プレスリリース）のみを出典とした。株価「約30%上昇」はFortuneの寄稿時点の値で終値ではない。「辞任」（Engadget）と「事実上の解任」（Fortune）で表現が分かれるため、本文は「辞任」で統一し取締役会発表の文言に沿わせた。",
+      "cl-20261124-03：米国の上級外交官と中国専門家の出席は事前報道（ガイアナ・クロニクル）の見込みで、国連ニュースと公式サイトでは確認できない。パリ・コールの署名数は国連ニュース（18か国・11社）と事前報道（17か国・10社）で食い違い、本文は国連ニュースに従った。",
+      "cl-20261124-04：デイリアン記事は国防AI法案のみを扱い、同日の公聴会で国防先端戦力事業法案が併せて審議されたかは確認できない。4人目の陳述人（禹鍾勳ソウル大教授）の発言内容は記事にない。",
+      "cl-20261124-07：NAC会合後のNATO公式声明は執筆時点（24日05:50 JST）で確認できず、nato.intの報道室も取得できなかった。会合の結果が公表されれば続報が必要。",
+      "cl-20261124-08：ボストン・レポートはAI支援の執筆と明記した媒体で、UKMTO・ISW-CTP・CENTCOMの一次情報を中継している。IRGCの主張（パトリオットレーダー破壊）は未確認として記述した。AP通信は同日にタンカー3隻以上の被弾を数えており、UKMTOの2隻と食い違う。",
+      "検証のWARN：過去号と同一URL（続報）、短信cl-20261124-06〜08の見出しが45字超、主要動向の本文が目安をやや超える節がある場合は内容を優先して残した。"
+    ]
+  }
+}
