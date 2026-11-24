@@ -1,0 +1,816 @@
+{
+  "edition_date": "2026-11-25",
+  "generated_at": "2026-11-25T06:15:00+09:00",
+  "window_from": "2026-11-24T06:05:00+09:00",
+  "edition_title_ja": "常態化するAI支援攻撃と、AI主権を掲げる国家投資",
+  "edition_title_en": "AI-Assisted Attacks Become Routine as States Invest in 'AI Sovereignty'",
+  "edition_dek_ja": "英国の警告、日本の経済安保方針案、韓国の国防データセンターが示す、守りと基盤の同時競争。",
+  "edition_dek_en": "A British warning, Japan's draft economic-security line and a Korean defense data center show defense and infrastructure racing at once.",
+  "lead_points_ja": [
+    "AIを使った攻撃の常態化と、AIの基盤を国家が囲い込む動きが同じ日に重なった。英国NCSCは9月以降にAI支援型のサイバー攻撃が「顕著に増加」したと公式に認め、日本政府は安保3文書に向けた経済安全保障の方針案でインド太平洋における「米中に次ぐ立ち位置」を掲げ、韓国ではハンファが10兆ウォンの国防専用AIデータセンター構想を政府に示した。",
+    "NCSCは、レッドチーム用に作られた「エージェント型攻撃フレームワーク」が安価なオープンモデルや違法なAPI転売と組み合わされ、既知の弱点を分単位で突いていると説明した。Artexなど6種を名指しし、悪用される脆弱性に新規のものは含まれないとした。",
+    "日本政府の方針案は、AIを無人機・宇宙・サイバーに関わる戦略技術と位置づけ、「AI主権」の確保と機微な個人データ保護制度の策定を盛り込む。年内の3文書改定に反映される見通しで、装備調達の圧縮が伝えられる中で、AI分野だけが拡張の方向を示す。",
+    "NATOは北大西洋理事会を経て、ポーランドへの早期警戒管制機（AWACS）の前方展開を承認した。F-35の追加要請は持ち越され、23日深夜には新たなロシア製無人機の領空侵入が起きた。",
+    "Nvidiaをめぐっては、シューマー上院民主党院内総務がフアン氏を輸出管理法違反と名指しし、トランプ大統領は取締役会に復帰を迫ったと認めた。Anthropic株は上場4日目に公開価格83ドルを割り込んだ。"
+  ],
+  "lead_points_en": [
+    "The normalization of AI-enabled attacks and the state enclosure of AI infrastructure landed on the same day. The UK's NCSC formally acknowledged a 'marked rise' in AI-assisted cyberattacks since September; Japan's government set a goal of ranking 'behind only the US and China' in the Indo-Pacific in a draft economic-security line for the three security documents; and in Korea, Hanwha presented a 10-trillion-won defense-only AI data center concept to the government.",
+    "The NCSC said 'agentic offensive frameworks' built for red-teaming are being paired with cheap open models or illegal API resellers to exploit known weaknesses within minutes. It named six, including Artex, and said none of the vulnerabilities exploited are new.",
+    "Japan's draft positions AI as a strategic technology bearing on drones, space and cyberspace, and includes securing 'AI sovereignty' and a protection regime for sensitive personal data. It is expected to feed the year-end revision of the three documents; amid reported cuts to equipment orders, AI is the one area pointing toward expansion.",
+    "After the North Atlantic Council met, NATO authorized the forward deployment of an AWACS aircraft to Poland. Warsaw's request for additional F-35s was deferred, and a further Russian drone incursion occurred late on the 23rd.",
+    "On Nvidia, Senate Democratic leader Schumer accused Huang by name of violating export-control law, and President Trump acknowledged pressing the board to reinstate him. Anthropic's shares fell below their $83 IPO price on the fourth trading day."
+  ],
+  "items": [
+    {
+      "id": "cl-20261125-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "英NCSC、9月以降のAI支援型サイバー攻撃の「顕著な増加」を公式に認定　Artexなど6種の攻撃フレームワークを名指し",
+      "title_en": "UK NCSC Formally Confirms a 'Marked Rise' in AI-Assisted Cyberattacks Since September, Naming Six Agentic Frameworks Including Artex",
+      "lead_ja": "英国の国家サイバーセキュリティセンター（NCSC）は11月24日、9月以降にAI支援型のサイバー攻撃が「顕著に増加」したとの見解を公式ブログで示し、同日に担当者3人が報道機関に説明した。レッドチーム用に開発された「エージェント型攻撃フレームワーク」が、安価で高性能なオープンモデルや違法なAPI転売業者と組み合わされ、複数の部門の組織で侵害が報告されているという。悪用される弱点はいずれも既知のものであり、対策の基本は変わらないとする一方、攻撃の速度・規模・持続性が従来と異なる水準に達したとの評価は、国家機関として最も踏み込んだ認定である。",
+      "lead_en": "On 24 November the UK's National Cyber Security Centre (NCSC) said in an official blog that it has observed a 'marked rise' in AI-assisted cyberattacks since September, and three of its officials briefed reporters the same day. 'Agentic offensive frameworks' originally built for red-teaming are being combined with cheap, capable open models or illegal API resellers, and organizations across multiple sectors are reporting compromises. The NCSC stresses that every weakness exploited is already known and that the fundamentals of defense are unchanged, yet its assessment that speed, scale and persistence have reached a new level is the most forthright finding from a national agency to date.",
+      "sections": [
+        {
+          "heading_ja": "既知の弱点を分単位で突く攻撃フレームワーク",
+          "heading_en": "Agentic Frameworks That Exploit Known Weaknesses in Minutes",
+          "paragraphs_ja": [
+            "NCSCの説明によれば、攻撃者はArtexを筆頭に、Cairn、PentAGI、RedAmon、Xalgorix、Darkmoonといったフレームワークを用いており、「ツールは入れ替わる」ものの、いずれも能力の底上げをもたらしている。これらは人間の攻撃者より速く、網羅的に探索し、失敗から即座に学び、安価に大規模運用できる。ブログの共著者は建築担当CTOのデイビッド・チズモン氏、インシデント対応担当のクリス・B氏、主任データサイエンティストのエレン・T氏である。",
+            "NCSCは「悪用されている弱点に新規のものはない」と明記し、典型的な攻撃者に新たな能力を与えるものではないとする一方、「忘れられた鍵や保護されていないAPI」が数分で見つかると警告した。具体例として、CYBERWARCONでCrowdStrikeのエリック・ルーイ氏が示した事例では、アルゼンチンの医療機関への攻撃で攻撃者がモデルに初期侵入口の探索を指示し、約90分後にエージェントがSQLインジェクションの脆弱性を発見して悪用した。NCSCは現時点の活動が「騒がしく」検知しやすいとしつつ、将来のフレームワークが隠密性を優先すれば状況は変わりうると留保している。"
+          ],
+          "paragraphs_en": [
+            "According to the NCSC, attackers are using frameworks led by Artex and including Cairn, PentAGI, RedAmon, Xalgorix and Darkmoon; 'different tools come and go', but each adds an uplift in capability. They work faster than human operators, search exhaustively, learn instantly from failure and are cheap to run at scale. The blog is co-authored by David Chismon, CTO for architecture, incident handler Kris B. and lead data scientist Ellen T. ",
+            "The NCSC states that 'none of the weaknesses being exploited are new or novel' and that the tools give a typical actor no new capability, while warning that 'a forgotten key or an unprotected API' can now be found in minutes. In one case described by CrowdStrike's Eric Loui at CYBERWARCON, an attacker targeting a healthcare organization in Argentina instructed a model to find an initial access point; about 90 minutes later the agent had found and exploited a SQL-injection flaw. The NCSC notes that current activity is 'noisy' and easy to detect, with the caveat that this may change if future frameworks prioritize stealth."
+          ]
+        },
+        {
+          "heading_ja": "FBIのArtex警報が示す拡散の実態",
+          "heading_en": "The FBI's Artex Alert Shows How Far It Has Spread",
+          "paragraphs_ja": [
+            "名指しされたArtexは、11月13日に米FBIがフラッシュ警報を出したオープンソースの自律型侵入テスト基盤で、FBIは複数の侵入で初期標的化から特権取得までが3時間未満だったとし、Censysの調査として1,600超のコンソールが公開状態にあると指摘した。開発者とされる人物は10月8日にリポジトリを削除したが、フォークや商用版が残る。",
+            "The Recordは、先月の欧州委員会への侵害にもArtexが使われたと報じられていると伝え、Cyberscoopは今回のNCSCの助言がFBI・NSA・CISAと併せて公表されたと報じている。FBIの警報では攻撃者が管理するインスタンスで中国製モデルの利用が最も多く、金融・政府・防衛・半導体など10部門が標的とされた。"
+          ],
+          "paragraphs_en": [
+            "Artex, the framework singled out, is an open-source autonomous penetration-testing platform on which the FBI issued a flash alert on 13 November, stating that some intrusions moved from initial targeting to privileged access in under three hours and citing Censys research showing more than 1,600 exposed consoles. The presumed developer removed the repository on 8 October, but forks and a commercial edition persist. ",
+            "The Record reports that Artex was reportedly used in last month's breach of the European Commission, and Cyberscoop reports that the NCSC advisory was published alongside the FBI, NSA and CISA. The FBI alert found Chinese models most prevalent on attacker-controlled instances, with ten sectors targeted including finance, government, defense and semiconductors."
+          ]
+        },
+        {
+          "heading_ja": "「既存の統制は無効にならない」の含意",
+          "heading_en": "What the Prescription 'AI Does Not Make Existing Controls Obsolete' Implies",
+          "paragraphs_ja": [
+            "NCSCの処方は、ゼロトラストを含む既存のベストプラクティスの徹底であり、「見てきたもののほぼ全ては防げた」とする。リチャード・ホーン長官は年次報告の公表に際し、脅威が高まっているのはAIが新たな攻撃手法を発明したからというより、これまで許容されてきた弱点が大規模に発見・悪用されるようになったためだと述べ、チズモン氏は短期的にはAIが防御側より攻撃側を利する可能性が高いとの見方を示している。",
+            "前週のAmazonによる自律エージェントのゼロデイ悪用報告や米GAOの技術評価と合わせると、各国の政府機関が「エージェント型攻撃は観測済みの現実」という前提に移行したことがうかがえる。したがって焦点は、技術的な新奇性よりも、技術的負債の解消を強制する制度と、オープンモデルやAPI転売の流通統制に移る。"
+          ],
+          "paragraphs_en": [
+            "The NCSC's prescription is rigorous application of existing best practice, including zero trust, and it says 'nearly everything' it has seen could have been prevented. Launching the agency's annual review, chief executive Richard Horne said the threat is rising less because AI has invented new ways to attack than because previously tolerated weaknesses can now be found and exploited at scale, and Chismon has said AI is likely to help attackers more than defenders in the short term. ",
+            "Read alongside Amazon's report last week on an autonomous agent exploiting a zero-day and the US GAO's technology assessment, the statement suggests government agencies have shifted to the premise that agentic attacks are an observed reality. The focus therefore moves from technical novelty to institutions that force the retirement of technical debt and to controls on the circulation of open models and resold API access."
+          ]
+        }
+      ],
+      "watch_next_ja": "NCSC年次報告の本文と、Cyberscoopが伝えるFBI・NSA・CISAとの共同助言の有無。Artexのフォーク・商用版に対する各国の措置。12月の米国防授権法でのAIサイバー関連条項。",
+      "watch_next_en": "The full NCSC annual review and whether a joint advisory with the FBI, NSA and CISA, as reported by Cyberscoop, is published; national measures against Artex forks and the commercial edition; AI-cyber provisions in the December NDAA.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "英国家サイバーセキュリティセンター（NCSC）",
+      "publisher_en": "UK National Cyber Security Centre (NCSC)",
+      "sources": [
+        {
+          "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+          "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+          "publisher": "NCSC",
+          "date": "2026-11-24",
+          "kind": "primary",
+          "accessed": false
+        },
+        {
+          "title": "UK cyber agency, threat companies tracking rise in AI-assisted hacks",
+          "url": "https://cyberscoop.com/uk-ncsc-ai-assisted-cyberattacks/",
+          "publisher": "CyberScoop",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "UK cyber agency seeing 'marked rise' in AI-driven attacks",
+          "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+          "publisher": "The Record",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "FBI warns Artex AI tool is being used by criminals and state-backed hackers",
+          "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+          "publisher": "The Record",
+          "date": "2026-11-13",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [
+        "GB",
+        "US"
+      ],
+      "doc_type": "official-report",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261123-03"
+    },
+    {
+      "id": "cl-20261125-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "日本政府、安保3文書向けの経済安全保障方針案でAIの「米中に次ぐ立ち位置」を目標に　「AI主権」と機微データ保護制度を明記と報道",
+      "title_en": "Japan's Draft Economic-Security Line for the Three Security Documents Targets an AI Position 'Behind Only the US and China', with 'AI Sovereignty' and a Sensitive-Data Regime, Reports Say",
+      "lead_ja": "共同通信は11月24日、政府が年内に改定する安全保障関連3文書に盛り込む経済安全保障政策の方向性案の内容を関係者の話として報じた。AIについてはインド太平洋地域で「米国、中国に次ぐ立ち位置」を確立することを目標とし、他国に依存しない「AI主権」の確保を打ち出す。相次ぐ不正アクセスによる情報流出を受けて、機微な個人データの保護制度を策定する方針も含まれる。防衛費の圧縮が企業に伝えられる中で、AIを無人機・宇宙・サイバーに関わる戦略技術と位置づけて国家目標に引き上げる構図である。",
+      "lead_en": "Kyodo News reported on 24 November, citing people familiar with the matter, the contents of a draft outline of economic-security policy to be folded into the three security-related documents the government will revise by year-end. On AI, it sets the goal of establishing a position in the Indo-Pacific 'behind only the United States and China' and calls for securing 'AI sovereignty' without dependence on other countries. It also includes drafting a protection regime for sensitive personal data after a series of leaks caused by unauthorized access. As companies are told of cuts to defense spending, the draft elevates AI, framed as a strategic technology bearing on drones, space and cyberspace, into a national goal.",
+      "sections": [
+        {
+          "heading_ja": "五つの柱の一つに据えられたAIと「主権」の語",
+          "heading_en": "AI as One of Five Pillars, and the Word 'Sovereignty'",
+          "paragraphs_ja": [
+            "報道によれば、方向性案は経済安全保障を「国家の安全保障を根底から支える基盤」と定義し、今後の取り組みを五つの柱で示す。新たな国際経済秩序の形成、社会全体の持続的対応能力の確保、生産基盤の強化、安全保障と科学技術の連携に、AIが独立した柱として並ぶ。AIは経済力と軍事力の双方を左右する戦略技術とされ、米中が競争を繰り広げる分野で、国内の技術・生産基盤の強化と同志国との協力により「米中に次ぐ」地位を目指す。",
+            "「AI主権」という語は、計算資源やモデルの他国依存を安全保障上の脆弱性とみなす欧州の議論と同じ系譜にあり、日本の公式文書に明示されれば、7月のAI基本計画改定案が掲げた「AI実装能力」の確保を安全保障の文脈へ接続することになる。"
+          ],
+          "paragraphs_en": [
+            "According to the reports, the draft defines economic security as 'the foundation that underpins national security at its root' and sets out five pillars: shaping a new international economic order, securing society-wide resilience, strengthening the production base, linking security with science and technology, and AI as a pillar in its own right. AI is described as a strategic technology affecting both economic and military power, and in a field contested by the US and China, Japan would aim for a position 'behind only' those two by strengthening its domestic technology and production base and cooperating with like-minded countries. ",
+            "The term 'AI sovereignty' belongs to the same lineage as European debates that treat dependence on foreign compute and models as a security vulnerability; if it appears in an official Japanese document, it would connect the 'AI implementation capacity' sought in July's revised AI Basic Plan to a security rationale."
+          ]
+        },
+        {
+          "heading_ja": "機微データ保護制度と相次ぐ流出事案",
+          "heading_en": "A Sensitive-Data Regime After Successive Leaks",
+          "paragraphs_ja": [
+            "方向性案には、不正アクセスによる情報流出が相次いだことを踏まえ、機微な個人データの保護制度を策定する方針が盛り込まれたと報じられている。制度の対象範囲や所管、既存の個人情報保護法制との関係は報道の範囲では明らかでない。AIの訓練データや推論基盤への依存が深まるほど、国民の機微データがどの国の事業者の管理下に置かれるかが安全保障上の論点となるため、「AI主権」とデータ保護は一体の政策として読める。"
+          ],
+          "paragraphs_en": [
+            "The draft reportedly includes a plan to establish a protection regime for sensitive personal data, prompted by a series of leaks caused by unauthorized access. The scope of the regime, its supervising authority and its relationship to existing personal-data law are unclear from the reports. As reliance on AI training data and inference infrastructure deepens, which country's operators hold citizens' sensitive data becomes a security question in itself, so 'AI sovereignty' and data protection read as one policy."
+          ]
+        },
+        {
+          "heading_ja": "装備調達の圧縮と並ぶAI拡張の整合性",
+          "heading_en": "Squaring AI Expansion with Equipment-Order Cuts",
+          "paragraphs_ja": [
+            "方向性案が示す拡張志向は、同じ3文書改定の中で進む防衛費の圧縮と対照をなす。共同通信は11月18日、防衛省が主要企業に対し2027年度以降の装備品・施設整備の発注額が当初見込みから半減ないし5〜8割減になると伝達し、業界が「はしごを外された」と反発していると報じていた。次期防衛力整備計画（2027〜31年度）の総額は70〜80兆円の想定から50兆円台前半に下がる見通しとされ、無人機とAIの予算は維持の方向と伝えられている。",
+            "したがって今回の方針案は、限られた総額の中でAI・無人機を優先する配分方針を経済安全保障の側から裏づける文書と位置づけられる。防衛省が11月末に公表を予定する「Defense AI Vision」と、12月中旬を目標とする3文書の閣議決定で、目標の語句と予算の裏づけがどこまで一致するかが焦点になる。"
+          ],
+          "paragraphs_en": [
+            "The expansionary tone of the draft contrasts with the defense-spending compression under way within the same revision. Kyodo reported on 18 November that the Ministry of Defense had told prime contractors that orders for equipment and facilities from FY2027 would be halved or cut by 50–80% from initial expectations, prompting industry complaints of having the ladder kicked away. The next five-year buildup program (FY2027–31) is expected to fall from an assumed 70–80 trillion yen to the low 50-trillion range, while drone and AI budgets are reported to be maintained. ",
+            "The draft can therefore be read as the economic-security counterpart to an allocation that prioritizes AI and uncrewed systems within a constrained total. The MOD's 'Defense AI Vision', due by month-end, and the mid-December Cabinet decision on the three documents will show how far the language of ambition is matched by budget lines."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月末：防衛省「Defense AI Vision」。12月上旬：安保3文書改定に向けた有識者会議の報告書。12月中旬：3文書の閣議決定と次期整備計画の総額。方向性案の原文公表と「AI主権」「機微データ保護制度」の正式な文言。",
+      "watch_next_en": "End-November: the MOD's 'Defense AI Vision'. Early December: the expert panel's report on the three documents. Mid-December: Cabinet decision on the documents and the next buildup total. Publication of the draft itself and the official wording on 'AI sovereignty' and the sensitive-data regime.",
+      "japan_relevance": true,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "日本政府（共同通信報道）",
+      "publisher_en": "Government of Japan (as reported by Kyodo News)",
+      "sources": [
+        {
+          "title": "【独自】政府、米中に次ぐＡＩ国家確立へ　機微データ保護制度策定も",
+          "url": "https://ryukyushimpo.jp/kyodo/entry-5613706.html",
+          "publisher": "共同通信（琉球新報掲載）",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "【独自】政府、米中に次ぐＡＩ国家確立へ",
+          "url": "https://www.daily.co.jp/society/main/2026/11/24/0021068809.shtml",
+          "publisher": "デイリースポーツ（共同通信配信）",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "防衛費圧縮を企業に伝達、防衛省　業界反発「はしご外し」",
+          "url": "https://kumanichi.com/articles/2059249",
+          "publisher": "共同通信（熊本日日新聞掲載）",
+          "date": "2026-11-18",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export",
+        "governance-norms",
+        "industry-procurement"
+      ],
+      "actors": [
+        "JP"
+      ],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261123-04"
+    },
+    {
+      "id": "cl-20261125-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "ハンファ、10兆ウォンの国防専用AIデータセンター構想を国家AI戦略委と防衛事業庁に提示　2028年7月に初期稼働、最終180MW",
+      "title_en": "Hanwha Presents a 10-Trillion-Won Defense-Only AI Data Center to Korea's National AI Strategy Committee and DAPA: Initial Operation July 2028, 180 MW at Full Build",
+      "lead_ja": "ハンファエアロスペースは11月24日、慶尚南道昌原の建設予定地で、大統領直属の国家AI戦略委員会の河正宇副委員長と防衛事業庁の関係者に対し、国防専用AIデータセンター（AIDC）の構想を説明した。第1段階の投資額は10兆ウォンで、2028年7月に一部施設から初期サービスを始め、最終的に180MW級の高密度GPUサーバーを配備する。データの所有権と統制は軍が持ち、企業が受託運営する方式を提案しており、兵力減少を補う有人・無人協調や指揮官の意思決定支援にAIを用いる前提である。",
+      "lead_en": "On 24 November, at the construction site in Changwon, South Gyeongsang Province, Hanwha Aerospace briefed Ha Jung-woo, vice-chair of the presidential National AI Strategy Committee, and officials of the Defense Acquisition Program Administration (DAPA) on a defense-only AI data center (AIDC). Phase one is a 10-trillion-won investment; initial service would begin in July 2028 from part of the facility, with a final build-out of 180 MW of high-density GPU servers. Hanwha proposes that the military retain data ownership and control while the company operates the center under entrustment, on the premise that AI will support manned-unmanned teaming and commanders' decisions as troop numbers fall.",
+      "sections": [
+        {
+          "heading_ja": "民間主導で「4〜5年前倒し」を掲げる建設方式",
+          "heading_en": "A Private-Led Build Pitched as 'Four to Five Years Faster'",
+          "paragraphs_ja": [
+            "韓国の報道によれば、ハンファは政府主導の建設では妥当性調査、用地、許認可、設計・施工に6〜8年を要するとし、民間が先行して建設することで国防AIの導入を4〜5年早められると説明した。敷地は昌原事業所に近い約1万3,000坪で、網分離と国家最高水準の保安、災害に耐える運用を要件とする。10兆ウォンは、金東官副会長が7月に晋州で発表した2040年までの55兆ウォン投資計画の一部であり、7月時点で昌原に135MW級の国防AIデータセンターを設けるとされていた規模が180MWへ拡大した。",
+            "ハンファは2011年から竹田の統合データセンターを運営し、米ジョージア州でNvidia B300ベースの「AIファクトリー」の設計・統合を手がけた実績を根拠に挙げている。金昇淵会長は先月の創立記念の講話で国防AI能力が宇宙・航空分野の土台になると述べており、今回の構想はグループの中長期戦略における国防側の要として位置づけられている。"
+          ],
+          "paragraphs_en": [
+            "According to Korean reports, Hanwha argued that a government-led build would take six to eight years for feasibility studies, site selection, permits, design and construction, and that building first as a private company would bring defense AI adoption forward by four to five years. The roughly 13,000-pyeong site is near the Changwon works, with network separation, top-tier national security standards and disaster-resilient operation as requirements. The 10 trillion won is part of the 55-trillion-won investment plan to 2040 that Vice Chairman Kim Dong-kwan announced in Jinju in July, when a 135-MW defense AI data center in Changwon was envisaged; the scale has grown to 180 MW. ",
+            "Hanwha cites its operation of the Jukjeon integrated data center since 2011 and its design and integration of an Nvidia B300-based 'AI factory' in Georgia, USA, as credentials. Chairman Kim Seung-youn said in last month's anniversary address that defense AI capability is the foundation of the space and aerospace business, so the concept sits at the defense end of the group's long-term strategy."
+          ]
+        },
+        {
+          "heading_ja": "軍のデータ統制と企業運営をどう両立させるか",
+          "heading_en": "Reconciling Military Data Control with Corporate Operation",
+          "paragraphs_ja": [
+            "提案の核心は、軍がデータの所有権と統制を保持したまま、防衛企業が施設を運営する分業にある。この構造は、前日の国会国防委員会の公聴会で争点となった国防AI法案の論点、すなわち特例による検証の空洞化と人間による統制の確保に直結する。機密ネットワーク上で民間事業者が運営するGPU基盤に軍のデータを集約する以上、アクセス権限、監査、契約終了時のデータ移管の設計が、法案の条文と同じ重さを持つ。慶尚南道が7月に地元企業と合意した防衛産業向けの1.66兆ウォン・100MWのデータセンターは、国防部・防衛事業庁との保安協議を経て2031年の完成を目指す別の計画であり、二つの構想の役割分担も未整理である。",
+            "ハンファはさらに、データセンターを韓国製兵器システムとパッケージで輸出する構想を示した。K9自走砲やチョンムの輸出先に運用基盤ごと提供する発想であり、実現すれば輸出管理と同盟国のデータ主権の双方に新たな論点をもたらす。"
+          ],
+          "paragraphs_en": [
+            "The core of the proposal is a division of labor in which the military retains ownership and control of data while a defense company runs the facility. That structure bears directly on the issues contested at the previous day's National Assembly defense committee hearing on the Defense AI Act, namely the hollowing-out of verification through exemptions and the assurance of human control. Once military data is concentrated on a GPU platform operated by a private company on classified networks, the design of access rights, audit and data transfer at contract end carries the same weight as the bill's clauses. A separate 1.66-trillion-won, 100-MW data center for the defense industry, agreed in July between South Gyeongsang Province and local firms, aims for completion in 2031 after security consultations with the Ministry of National Defense and DAPA, and the division of roles between the two schemes remains unsettled.",
+            "Hanwha also floated exporting the data center as a package with Korean weapon systems, supplying an operating base alongside K9 howitzers and Chunmoo launchers. If realized, that would raise new questions for export controls and for the data sovereignty of allied buyers."
+          ]
+        },
+        {
+          "heading_ja": "兵力減少を前提にした需要の想定",
+          "heading_en": "Demand Premised on a Shrinking Force",
+          "paragraphs_ja": [
+            "韓国メディアは、兵力不足と無人システムの拡大を背景に、有人・無人協調、偵察、戦場分析、指揮官の意思決定支援にAIが必要になると報じている。国家AI戦略委員会の副委員長が現地で説明を受けた事実は、国防AIの計算基盤整備が大統領府レベルの政策課題として扱われていることを示す。一方で、本件は企業の構想説明であり、政府の発注や契約の段階には至っていない。10兆ウォンの資金調達、受託運営の法的枠組み、軍の需要見積もりの開示が、次の確認点となる。"
+          ],
+          "paragraphs_en": [
+            "Korean media report that troop shortages and the spread of uncrewed systems will require AI for manned-unmanned teaming, reconnaissance, battlefield analysis and decision support for commanders. The fact that the vice-chair of the National AI Strategy Committee received the briefing on site indicates that defense AI compute is being handled as a presidential-level policy issue. At the same time, this is a corporate concept briefing and has yet to reach the stage of a government order or contract. Financing for the 10 trillion won, the legal framework for entrusted operation and disclosure of the military's demand estimate are the next points to check."
+          ]
+        }
+      ],
+      "watch_next_ja": "国家AI戦略委員会と防衛事業庁による構想への正式な回答。国防AI法案の国防委員会での審議日程。2028年7月の初期稼働に向けた着工時期と資金計画の開示。",
+      "watch_next_en": "A formal response from the National AI Strategy Committee and DAPA; the defense committee's schedule for the Defense AI Act; disclosure of groundbreaking timing and financing toward initial operation in July 2028.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "announced",
+      "publisher": "ハンファエアロスペース",
+      "publisher_en": "Hanwha Aerospace",
+      "sources": [
+        {
+          "title": "한화, 10조 들여 국방AIDC 짓는다..2028년 가동 목표",
+          "url": "https://www.fnnews.com/news/202611241626136225",
+          "publisher": "파이낸셜뉴스",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "병력 감소에 커지는 AI 역할…한화, 국방 데이터센터 구축",
+          "url": "https://zdnet.co.kr/view/?no=20261124165606",
+          "publisher": "ZDNet Korea",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "S. Korea's first defense-dedicated AI data center to be built in Changwon",
+          "url": "https://mbiz.heraldcorp.com/article/10821676",
+          "publisher": "Herald Business",
+          "date": "2026-07-27",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "c2-decision"
+      ],
+      "actors": [
+        "KR"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261124-04"
+    },
+    {
+      "id": "cl-20261125-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "NATO、ポーランドへのAWACS前方展開を承認　F-35追加は持ち越し、23日深夜にはジェット推進無人機が約9分間領空に滞在",
+      "title_en": "NATO Authorizes Forward Deployment of an AWACS to Poland; Extra F-35s Deferred as a Jet-Powered Drone Spends About Nine Minutes in Polish Airspace Late on the 23rd",
+      "lead_ja": "北大西洋理事会が11月23日にブリュッセルで臨時会合を開いた後、NATOのアリソン・ハート報道官は、グリンケビッチ欧州連合軍最高司令官がポーランドへのAWACS早期警戒管制機の前方展開を承認し、追加資産の展開を検討していると発表した。ポーランドのザレフスキ国防副大臣はAWACSが「ポーランドの自由に供される」とし、F-35など追加戦闘機の要請は来週のNATO外相会合に持ち越されたと説明した。同日深夜には新たなロシア製とみられる無人機が領空に侵入し、作戦司令部は撃墜を許可したものの、機体が東へ引き返したため射撃に至らなかった。",
+      "lead_en": "After an extraordinary North Atlantic Council meeting in Brussels on 23 November, NATO spokeswoman Allison Hart announced that SACEUR Gen. Alexus Grynkewich had authorized the forward deployment of a NATO AWACS aircraft to Poland and was examining additional assets. Polish Deputy Defence Minister Paweł Zalewski said the AWACS would be 'at Poland's disposal' and that requests for additional fighters such as F-35s were deferred to next week's NATO foreign ministers' meeting. Late that night a further drone, presumed Russian, entered Polish airspace; the operational command authorized a shoot-down but did not fire because the aircraft turned back east.",
+      "sections": [
+        {
+          "heading_ja": "3分の侵入時間と、撃てなかったグリペン",
+          "heading_en": "Three Minutes in Airspace, and Gripens That Could Not Fire",
+          "paragraphs_ja": [
+            "Notes from Polandによれば、20日に落下した3発のKh-101巡航ミサイルはポーランド領空に約3分間しかとどまらなかった。NATOの航空警戒任務に就いていたスウェーデン空軍のグリペン2機は、統合航空作戦センターから条件を満たせば射撃してよいとの許可を得ていたが、悪天候のため時間内に目標を識別できなかった。AWACSの前方展開は、この識別と判断の時間を延ばす措置として位置づけられる。NATOは配備基地、時期、任務期間を明らかにしておらず、機体はドイツのガイレンキルヒェン基地を拠点とするE-3Aが想定される。ハート報道官は「危険な事案であり、ロシアに全面的な責任がある」と述べた。"
+          ],
+          "paragraphs_en": [
+            "According to Notes from Poland, the three Kh-101 cruise missiles that came down on the 20th were in Polish airspace for only about three minutes. Two Swedish Gripens on NATO air policing had authorization from the Combined Air Operations Centre to fire if conditions were met, but poor weather prevented identification in time. The forward deployment of an AWACS is framed as a way to lengthen that window for identification and decision. NATO has not disclosed basing, timing or mission duration; the aircraft would presumably be an E-3A from Geilenkirchen in Germany. Hart said: 'This was a dangerous incident, and Russia bears full responsibility.'"
+          ]
+        },
+        {
+          "heading_ja": "深夜の無人機に対する「撃墜許可、射撃せず」の判断",
+          "heading_en": "The Late-Night Drone: Shoot-Down Authorized, No Shot Taken",
+          "paragraphs_ja": [
+            "ポーランド作戦司令部は23日深夜、ウクライナ側から越境したロシア製無人機を追跡し、撃墜を許可したと発表した。機体が国境方向へ引き返したため、「民間人への潜在的脅威と撃墜の帰結」を考慮して射撃は行わなかったという。RMFは匿名の情報源として、無人機がジェット推進で約20km侵入し、約9分間領空にとどまったと報じた。ザレフスキ副大臣は24日、「偶発とは考えにくく、意図的な行動と想定している」と述べた。ロシア側は20日の事案にも23日の事案にもコメントしていない。",
+            "領空侵犯の頻度が上がる中で、撃墜の権限が与えられても射撃に踏み切らない判断が続いており、迎撃の規則と民間被害の回避の均衡が実務上の焦点になっている。2026年9月にはロシアのヘリコプターがカリーニングラードから短時間越境し、2025年9月には約20機の無人機が侵入した経緯があり、今回の対応はそれ以来の判断基準を踏襲している。"
+          ],
+          "paragraphs_en": [
+            "Late on the 23rd, Poland's operational command said it had tracked a Russian-made drone that crossed from Ukraine and had authorized shooting it down; because the aircraft turned back toward the border, no shot was taken 'taking into account the potential threat to civilians and the possible consequences of shooting down the object'. RMF, citing unnamed sources, reported the drone was jet-powered, flew about 20 km into Poland and stayed about nine minutes. Zalewski said on the 24th that 'it is difficult to imagine that this was an accident; we assume it was an intentional action'. Russia has commented on neither the 20 November nor the 23 November incident. ",
+            "As violations grow more frequent, the pattern of authorized but withheld engagements continues, making the balance between rules of engagement and avoiding civilian harm the practical question. A Russian helicopter briefly crossed from Kaliningrad in September 2026 and about 20 Russian drones entered in September 2025, and the handling of this incident follows the criteria applied since then."
+          ]
+        },
+        {
+          "heading_ja": "外相会合に持ち越された戦闘機と防空の増強",
+          "heading_en": "Fighters and Air Defense Deferred to the Foreign Ministers",
+          "paragraphs_ja": [
+            "TVP Worldによれば、理事会はポーランドの要請の一部に応じ、残る提案は来週のNATO外相会合で扱われる。ザレフスキ副大臣は全ての大使が「ポーランドとの完全な連帯」を表明し、ロシアの意図を疑う者はいなかったと説明する一方、「いかなる意味でも攻撃的な行動を議論しているのではない」と付け加えた。トゥスク首相は事案を近隣の軍事演習に合わせた計画的な「挑発」と呼んでいる。AWACSの常続的な展開と、ポーランドが求める早期警戒機・F-35の追加配備が東翼の防空態勢の恒久的な変更につながるかは、外相会合の結論と12月の国防相会合に委ねられる。"
+          ],
+          "paragraphs_en": [
+            "According to TVP World, the Council agreed to some of Poland's requests and deferred the rest to next week's NATO foreign ministers' meeting. Zalewski said all ambassadors expressed 'full solidarity with Poland' and none doubted Russia's intent, while adding that 'we're not talking about offensive actions in any way'. Prime Minister Donald Tusk has called the incident a premeditated 'provocation' timed to coincide with nearby military exercises. Whether a sustained AWACS presence and the additional early-warning aircraft and F-35s Poland seeks become a permanent change to eastern-flank air defense depends on the foreign ministers' conclusions and the December defense ministers' meeting."
+          ]
+        }
+      ],
+      "watch_next_ja": "来週のNATO外相会合での追加戦闘機・防空要請の扱い。AWACSの配備基地と任務期間の公表。ルブリン地方検察のKh-101鑑定の最終所見。ロシア側の公式反応。",
+      "watch_next_en": "Treatment of Poland's fighter and air-defense requests at next week's NATO foreign ministers' meeting; disclosure of the AWACS base and mission duration; the Lublin prosecutors' final findings on the Kh-101s; any official Russian response.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "NATO／ポーランド国防省",
+      "publisher_en": "NATO / Polish Ministry of National Defence",
+      "sources": [
+        {
+          "title": "NATO to bolster Poland's air defenses with radar aircraft after Russian incursions",
+          "url": "https://www.stripes.com/theaters/europe/2026-11-24/nato-authorizes-awacs-deployment-poland-23564156.html",
+          "publisher": "Stars and Stripes",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "NATO to send surveillance aircraft to Poland after Russian missile strikes",
+          "url": "https://notesfrompoland.com/2026/11/24/nato-to-send-surveillance-aircraft-to-poland-after-russian-missile-strikes/",
+          "publisher": "Notes from Poland",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "NATO to Deploy Early-Warning Aircraft to Poland Following Russian Missile Incidents",
+          "url": "https://www.kyivpost.com/post/91000",
+          "publisher": "Kyiv Post (TVP World)",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "isr-targeting"
+      ],
+      "actors": [
+        "NATO",
+        "RU"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261124-07"
+    },
+    {
+      "id": "cl-20261125-05",
+      "rank": 5,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "シューマー氏がフアン氏を輸出管理法違反と名指し、トランプ氏は取締役会への働きかけを認める　Nvidia株は時間外で5%超安",
+      "title_en": "Schumer Accuses Huang of Violating Export-Control Law as Trump Acknowledges Pressing the Board; Nvidia Falls More Than 5% Premarket",
+      "brief_text_ja": "ロイターによれば、シューマー上院民主党院内総務は11月24日、Xへの投稿でフアン氏が極めて高度なチップを中国へ出荷し、先端技術の対中輸出を制限する連邦法に違反したと主張し、宇宙開発競争でソ連にロケットエンジンを売るようなものだと評した。トランプ大統領はCNBCに対し取締役会に復帰を迫ったことを認め、働きかけがなければ復帰はなかっただろうと述べる一方、SNSではブランシュ司法長官が違法行為の証拠はないと確認したと投稿している。上院銀行委員会では、ウォーレン・バンクス両議員によるBlackwellの対中販売を18か月以上禁じる法案と、ウォーレン・コットン両議員による海外出荷チップの所在追跡法案が12月の国防授権法への組み込みを目指して最終協議中と報じられ、Fast Companyによれば24日の時間外取引でNvidia株は5%超下落した。",
+      "brief_text_en": "According to Reuters, Senate Democratic leader Chuck Schumer said in an X post on 24 November that Jensen Huang had shipped extremely advanced chips to China in violation of federal law limiting exports of advanced technology, likening it to selling rocket engines to the Soviets during the Space Race. President Trump told CNBC he had pressed Nvidia's board to reinstate Huang and did not think it would have done so otherwise, while posting on social media that Attorney General Todd Blanche had confirmed there is no evidence of unlawful conduct. On the Senate Banking Committee, a Warren–Banks bill to bar Blackwell sales to China for at least 18 months and a Warren–Cotton bill requiring location tracking of chips shipped abroad are reported to be in final negotiation for inclusion in December's NDAA, and Fast Company reported Nvidia shares down more than 5% in premarket trading on the 24th.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "米上院／ホワイトハウス",
+      "publisher_en": "US Senate / White House",
+      "sources": [
+        {
+          "title": "Schumer accuses Nvidia CEO of violating US export control law",
+          "url": "https://www.marketscreener.com/news/schumer-accuses-nvidia-ceo-of-violating-us-export-control-law-ce7851dbdd8aff20",
+          "publisher": "Reuters (via MarketScreener)",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia's Huang to testify before U.S. Senate on Dec. 3",
+          "url": "https://finance.yahoo.com/technology/articles/nvidia-huang-testify-u-senate-182632538.html",
+          "publisher": "Investing.com (via Yahoo Finance)",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Scott, Warren Press Huang for Testimony After Return to Nvidia",
+          "url": "https://news.bloomberglaw.com/us-law-week/scott-warren-press-huang-for-testimony-after-return-to-nvidia",
+          "publisher": "Bloomberg Law",
+          "date": "2026-11-23",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export"
+      ],
+      "actors": [
+        "US",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261124-01"
+    },
+    {
+      "id": "cl-20261125-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "ロシア、無人機96機で夜間攻撃　うちジェット推進シャヘド64機、ウクライナ空軍は73機を無力化と発表　ロゾヴァでジェット無人機により5人負傷",
+      "title_en": "Russia Launches 96 Drones Overnight, 64 of Them Jet-Powered Shaheds; Ukraine's Air Force Reports 73 Neutralized, Five Injured by a Jet Drone in Lozova",
+      "brief_text_ja": "ウクライナ空軍は11月24日、前夜18時からロシアが攻撃用無人機96機を投入し、うち64機がジェット推進のシャヘド型で、ゲルベラ型やパロディヤ型の囮も含まれたと発表した。午前8時時点の暫定集計で73機（ジェット推進シャヘド45機を含む）を撃墜または無力化し、13か所で着弾、2か所で破片落下が記録されたという（発射方向はオリョール、ブリャンスク、プリモルスコ・アフタルスク、占領下ドネツクとクリミア）。同日18時ごろにはハルキウ州ロゾヴァの繁華街にジェット推進無人機が着弾し、州非常事態庁によれば5人が負傷し1人が重体で、重要インフラ施設にも被害が出た。ジェット推進機が1夜の攻撃の3分の2を占めた点は、迎撃用無人機の速度要件を引き上げる傾向の表れである。",
+      "brief_text_en": "Ukraine's Air Force said on 24 November that from 18:00 the previous evening Russia launched 96 strike drones, 64 of them jet-powered Shahed types, with Gerbera and Parodiya decoys among them. As of 08:00, 73 (including 45 jet-powered Shaheds) had been shot down or neutralized, with impacts at 13 locations and debris at two more; launch directions were Oryol, Bryansk, Primorsko-Akhtarsk, occupied Donetsk and Crimea. At about 18:00 the same day a jet-powered drone struck a busy street in Lozova, Kharkiv region; the regional emergency service reported five injured, one in serious condition, and damage to a critical-infrastructure facility. That jet-powered aircraft made up two-thirds of a night's attack points to rising speed requirements for interceptor drones.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "ウクライナ空軍／ハルキウ州非常事態庁",
+      "publisher_en": "Ukrainian Air Force / State Emergency Service, Kharkiv region",
+      "sources": [
+        {
+          "title": "Russia launched 96 UAVs at Ukraine, air defence forces destroyed and neutralized 73 of them",
+          "url": "https://censor.net/en/news/4035274/russia-launched-96-uavs-at-ukraine-air-defence-forces-destroyed-and-neutralized-73-of-them",
+          "publisher": "Censor.NET",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia strikes Lozova with jet-powered drone: five injured, critical infrastructure damaged",
+          "url": "https://glavnoe.in.ua/en/news-en/russia-strikes-lozova-with-jet-powered-drone-five-injured-critical-infrastructure-damaged",
+          "publisher": "Glavnoe",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261124-06"
+    },
+    {
+      "id": "cl-20261125-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 2,
+      "title_ja": "ホルムズ海峡の通航が1週間で40%超減少　イラン海軍はタンカー2隻の触雷を発表、トランプ氏は過去1年で最多の無人機・ミサイル攻撃を主張",
+      "title_en": "Hormuz Transits Fall More Than 40% in a Week; Iran's Navy Says Two Tankers Hit Mines, Trump Claims the Heaviest Drone and Missile Attacks in a Year",
+      "brief_text_ja": "アルジャジーラの整理によれば、MarineTrafficのデータで11月1〜7日に226隻だったホルムズ海峡の通航は17〜23日に125隻へと40%超減り、AIS上では直近24時間に28隻（約418万バレル）が通過した（戦前は1日125〜140隻）。イラン海軍は24日、海峡東側の制限海域に航法・識別装置を切って進入したタンカー2隻が触雷し炎上したと発表し、バガイ外務省報道官は米海軍の封鎖を「決して容認しない」と述べた。トランプ大統領は22日、イランが過去1週間に1年余りで最多の無人機とミサイルを発射し、全て撃墜されたと投稿しており、CENTCOMはイラン積み出し船から貨物を受け取る船舶を封鎖回避の疑いがあると警告した。通航減少と攻撃の因果はデータ上では確定しておらず、触雷の経緯もイラン側の主張にとどまる。",
+      "brief_text_en": "Per Al Jazeera's compilation, MarineTraffic data show Strait of Hormuz transits fell from 226 vessels on 1–7 November to 125 on 17–23 November, a drop of more than 40%, with AIS recording 28 crossings (about 4.18 million barrels) in the latest 24 hours against a pre-war 125–140 per day. Iran's navy said on the 24th that two tankers that entered a restricted zone east of the strait with navigation and identification systems off struck mines and caught fire, and Foreign Ministry spokesperson Esmaeil Baghaei said Iran would 'definitely not tolerate' the US naval blockade. President Trump posted on the 22nd that Iran had launched more drones and missiles in the past week than at any time in over a year, all shot down, and CENTCOM warned that ships receiving cargo from Iranian-loaded vessels could be evading the blockade. The data do not establish that the attacks caused the decline, and the mine strikes rest on Iranian accounts.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "イラン海軍／米中央軍",
+      "publisher_en": "Iranian Navy / US Central Command",
+      "sources": [
+        {
+          "title": "Hormuz oil traffic is down 40 percent: Are Iran's tanker attacks working?",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "publisher": "Al Jazeera",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "US",
+        "IL"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B3",
+      "continuation_of": "cl-20261124-08"
+    },
+    {
+      "id": "cl-20261125-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "英政府系2ファンドが自律システム検証用「仮想戦場」のAgon Dynamicsに出資　シリーズA7,000万ドル、評価額4億5,000万ドル",
+      "title_en": "Two UK Government Funds Back Agon Dynamics, Maker of a 'Virtual Battlefield' for Testing Autonomous Systems: $70M Series A at a $450M Valuation",
+      "brief_text_ja": "The Registerによれば、英国のSovereign AI Fundと国家安全保障戦略投資基金（NSSIF）は11月24日、元英陸軍将校トリスタム・コンスタント氏が率いるAgon Dynamicsのシリーズ・A（7,000万ドル、評価額4億5,000万ドルと報道）に参加した。同社は大規模な無人機攻撃や航法・通信の劣化を模擬した環境で自律システムを配備前に試験する「合成戦闘アリーナ」を提供し、今年の3,000万ドルのシードを含め累計1億ドルを調達した。政府の出資額は商業上の理由で非公開で、ナラヤンAI担当相は英国に「主権的な防衛AI能力」が必要だと述べた。",
+      "brief_text_en": "According to The Register, the UK's Sovereign AI Fund and the National Security Strategic Investment Fund (NSSIF) took part on 24 November in the Series A of Agon Dynamics, led by former British Army officer Tristam Constant ($70 million at a reported $450 million valuation). The company offers a 'synthetic battle arena' for testing autonomous systems before deployment against simulated mass drone attacks and degraded navigation and communications, and has raised $100 million in total including a $30 million seed round this year. The government's cheque size is undisclosed as commercially sensitive; AI minister Kanishka Narayan said the UK 'needs sovereign defence AI capabilities'.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "英Sovereign AI Fund／NSSIF",
+      "publisher_en": "UK Sovereign AI Fund / NSSIF",
+      "sources": [
+        {
+          "title": "UK gov invests in defense startup making virtual training ground for AI",
+          "url": "https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707",
+          "publisher": "The Register",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "industry-procurement",
+        "autonomy-laws"
+      ],
+      "actors": [
+        "GB"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "assess"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261125-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "台湾大陸委員会副主任委員、中国の選挙介入を「深刻な国家安全保障上の脅威」と表明　AIで手口が精緻化、顔認識による情報収集にも警戒",
+      "title_en": "Taiwan's MAC Deputy Minister Calls Chinese Election Interference a 'Serious National Security Threat', Citing AI-Refined Tactics and Facial-Recognition Data Collection",
+      "brief_text_ja": "台北時報によれば、大陸委員会の沈有忠副主任委員は11月23日、中国の選挙介入が深刻な国家安全保障上の脅威になっており、手口はAIによって精緻化し単純な干渉の域を超えていると述べ、中国が大規模な顔認識システムを運用し台湾人のデータ収集に監視技術を使いうると警告した。20日に反浸透法違反で起訴された民衆党の桃園市議候補は、厦門の中国側工作員のために台湾人の写真を収集し、約2万件の偽アカウントの作成に使われたとされる。沈氏は先週のAPECをめぐる認知戦や、地下賭博を通じた選挙資金の流入についても国家安全機関が証拠を収集したと述べたが、詳細は示していない。",
+      "brief_text_en": "According to the Taipei Times, Mainland Affairs Council Deputy Minister Shen Yu-chung said on 23 November that Chinese election interference has become a serious national security threat, that its tactics are increasingly refined with AI and go beyond simple meddling, and that China runs large facial-recognition systems and could use surveillance technology to collect data on Taiwanese. The Taiwan People's Party Taoyuan council candidate indicted on the 20th under the Anti-Infiltration Act allegedly gathered photos of Taiwanese for Chinese operatives in Xiamen, which were used to create about 20,000 fake social-media accounts. Shen also said national security agencies had collected evidence of cognitive warfare around last week's APEC summit and of underground betting funnelling money into the elections, without giving details.",
+      "japan_relevance": false,
+      "date": "2026-11-23",
+      "stage": "",
+      "publisher": "台湾大陸委員会",
+      "publisher_en": "Mainland Affairs Council (Taiwan)",
+      "sources": [
+        {
+          "title": "2026 Elections: Election interference rising threat: MAC",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/24/2003868283",
+          "publisher": "Taipei Times",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cognitive"
+      ],
+      "actors": [
+        "TW",
+        "CN"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [
+        "cognitive-domain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261124-05"
+    },
+    {
+      "id": "cl-20261125-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "Anthropic株、上場4日目に公開価格83ドルを割り込む　一時75.61ドル、証券会社2社は「買い」で調査開始",
+      "title_en": "Anthropic Shares Break Below the $83 IPO Price on Day Four, Touching $75.61 as Two Brokerages Initiate at 'Buy'",
+      "brief_text_ja": "Fast CompanyとMotley Foolによれば、Anthropic（ナスダック：ANT）は11月24日の時間外取引で公開価格83ドルを下回る81.40ドルまで下げ、通常取引では午後3時26分時点で80.28ドル（8.40%安、日中安値75.61ドル）となった。初日に115.10ドルの高値をつけた後は下落が続き、AI企業の評価額と投資負担への懸念が背景にあると報じられている。一方でCanaccordは目標株価135ドル、Oppenheimerは最大150ドルで「買い」の調査を開始した。上場来最大のIPOの値動きは、Nvidiaの政治リスクと並んでフロンティアAI企業の資金調達環境を左右する指標となる。",
+      "brief_text_en": "According to Fast Company and the Motley Fool, Anthropic (Nasdaq: ANT) fell to $81.40 in premarket trading on 24 November, below its $83 IPO price, and traded at $80.28 (down 8.40%, intraday low $75.61) as of 3:26 p.m. ET. The stock has declined since touching $115.10 on its first day, with reports attributing the slide to concern over AI valuations and spending. Canaccord initiated coverage at 'buy' with a $135 target and Oppenheimer at up to $150. The performance of the largest IPO on record is, alongside Nvidia's political risk, a gauge of the financing environment for frontier AI companies.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "Anthropic（株式市場）",
+      "publisher_en": "Anthropic (equity market)",
+      "sources": [
+        {
+          "title": "Anthropic stock has already dipped below its IPO price in premarket: Will the AI trade fizzle again today?",
+          "url": "https://www.fastcompany.com/91648273/ant-stock-is-down-why-anthropic-shares-dipped-below-ipo-price",
+          "publisher": "Fast Company",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Why Does Anthropic Stock Keep Dropping?",
+          "url": "https://fool.com/investing/2026/11/24/why-does-anthropic-stock-keep-dropping",
+          "publisher": "The Motley Fool",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "industry-procurement"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-26",
+      "text_ja": "米国防省の科学技術革新委員会（STIB）による機密ネットワークへの商用AI・クラウド導入研究の開始期限",
+      "text_en": "Deadline for the Pentagon's Science, Technology and Innovation Board to begin its study on commercial AI and cloud on classified networks"
+    },
+    {
+      "date": "2026-11-27",
+      "text_ja": "ベセント財務長官が示したNvidia取締役会・外部弁護士の回答期限（「10日以内」）の目安",
+      "text_en": "Approximate deadline ('within 10 days') set by Treasury Secretary Bessent for Nvidia's board and outside counsel"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。選挙後の国防特別予算法案の審議再開",
+      "text_en": "Taiwan's local elections; post-election resumption of the special defense budget bill"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「Defense AI Vision」の公表（月末めど）。財政審建議の全文公表",
+      "text_en": "Japan MOD's 'Defense AI Vision' (expected by month-end); full text of the Fiscal System Council recommendation"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院3委員会によるNvidiaフアン氏の非公開・記録付き聴取（12月2日はティーター法務責任者）。FY2027 NDAA協議文書の公表見通し。NATO外相会合（週内、日程は公式発表待ち）",
+      "text_en": "Closed-door transcribed interviews of Nvidia's Huang before three House committees (Teter on 2 Dec); expected release of the FY2027 NDAA conference text; NATO foreign ministers' meeting (this week, date to be confirmed)"
+    },
+    {
+      "date": "2026-12-03",
+      "text_ja": "米上院銀行委員会、輸出管理の監督に関する公開公聴会（フアン氏が証言）",
+      "text_en": "Senate Banking Committee public hearing on export-control oversight, with Huang testifying"
+    },
+    {
+      "date": "2026-12-05",
+      "text_ja": "国連総会本会議でのLAWS決議（L.37）の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）",
+      "text_en": "UNGA plenary adoption of the LAWS resolution (L.37), expected early December; Japan: expert panel report on revising the three security documents (early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）",
+      "text_en": "Statutory deadline for the FAA's Part 108 BVLOS final rule; Airshow China (Zhuhai, 7–13 Dec)"
+    },
+    {
+      "date": "2026-12-11",
+      "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方",
+      "text_en": "Expiry of the US continuing resolution; fate of the reconciliation bill including Golden Dome and autonomous-warfare funding"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標）と5年総額の決着。米G20首脳会合（ドラル）",
+      "text_en": "Japan: Cabinet decision on the revised three security documents (mid-December target) and the five-year total; G20 summit at Doral"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "グテーレス国連事務総長の任期満了。ブリッジタウンで提起した「多国間AIリスク管理枠組み」協議の引き継ぎ",
+      "text_en": "End of Guterres's term as UN Secretary-General; handover of the 'multilateral AI Risk Management Framework' talks raised at Bridgetown"
+    },
+    {
+      "date": "2027-01-10",
+      "text_ja": "米中貿易休戦の期限",
+      "text_en": "Expiry of the US–China trade truce"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切",
+      "text_en": "Comment deadline for the BIS remote-access interim final rule"
+    },
+    {
+      "date": "2027-01-31",
+      "text_ja": "ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）",
+      "text_en": "White House superintelligence task force policy document (expected by end-January)"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（Nvidia議会反応、Anthropic株、Rogers議員の調整法案発言は11月18日で範囲外、war.govのAgent Network発表は6月で範囲外、CAISI早期アクセス合意は5月で範囲外）、中国（外交部・商務部の新規発表は該当なし。環球時報11月18日は範囲外）、日本（共同通信の経済安保方針案、防衛省・装備庁・NSS・経産省・外務省の24日付新規発表はウェブ検索で該当なし）、韓国（ハンファ国防AIDC）、台湾（大陸委員会）、欧州・NATO（NAC結果、AWACS、ポーランド無人機）、英国（NCSC、Agon Dynamics。Novara Mediaの標的化システム記事はTBIJ11月13日報道の再構成で範囲外）、ロシア・ウクライナ（夜間攻撃、ロゾヴァ）、イスラエル・中東（ホルムズ。ynetのIDF対FPV記事は7月付で範囲外）、インド（IANSのDRDO記事はクウェート紙の又聞きで10月の会議を扱い不採用）、豪州（該当なし）、ASEAN（該当なし）、国連（該当なし）。",
+      "japan": "共同通信配信各紙（琉球新報、デイリースポーツ、熊本日日新聞）を確認。東京新聞・中日新聞・時事・Yahoo!ニュース・西日本新聞・新潟日報・山陰中央・秋田魁・四国新聞・北日本新聞は自動取得が拒否された。防衛省報道資料・大臣会見（mod.go.jp）の24日付ページは取得できず、ウェブ検索でも24日付の発表は確認できなかった。国会は閉会中。"
+    },
+    "dropped": [
+      {
+        "title": "Jiji: 装備発注、最大8割減 防衛省、企業に通知（11月24日）",
+        "url": "https://www.jiji.com/jc/article?k=2026112400951&g=pol",
+        "reason": "本文を開けず（自動取得拒否）。同趣旨の共同通信11月18日報道と日経11月21日報道（cl-20261123-04）を既に扱っており、経済安保方針案の項（cl-20261125-02）の背景として共同通信版を引用した。"
+      },
+      {
+        "title": "Inside Defense: White House seeks budget relief for Pentagon's growing Maven AI footprint",
+        "url": "https://insidedefense.com/ai-news/white-house-seeks-budget-relief-pentagons-growing-maven-ai-footprint",
+        "reason": "本文を開けず（自動取得拒否）、公表日と金額を確認できなかった。確認でき次第、続報候補。"
+      },
+      {
+        "title": "Breaking Defense: $350 billion reconciliation bill 'not going to happen': HASC chair",
+        "url": "https://breakingdefense.com/2026/11/350-billion-reconciliation-bill-not-going-to-happen-hasc-chair/",
+        "reason": "公表日が11月18日で範囲外。自律戦争コマンド（AUTOWARCOM）がFY2027 NDAAに入らないとのRogers委員長の見通しは重要で、NDAA協議文書公表時に扱う。"
+      },
+      {
+        "title": "Engadget / Tom's Hardware: Google, Microsoft and xAI agree to give US government early model access (CAISI)",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-microsoft-and-xai-agree-to-let-us-govenment-test-ai-models-before-public-release",
+        "reason": "検索上位に出たが公表日は2026年5月5日で範囲外。"
+      },
+      {
+        "title": "Novara Media: The Ministry of Defence Is Designing an AI-Powered Targeting System",
+        "url": "https://novaramedia.com/2026/11/24/the-ministry-of-defence-is-designing-an-ai-powered-targeting-system/",
+        "reason": "TBIJが11月13日に報じたDigital Targeting Webの資料（「automation by default; human by exception」）の再構成で新事実がない。TBIJ原記事は未確認。"
+      },
+      {
+        "title": "war.gov: DOW Unleashes 'Agent Network' to Transform AI-Enabled Battle Management and Targeting",
+        "url": "https://war.gov/News/Releases/Release/Article/4526862/dow-unleashes-agent-network-to-transform-ai-enabled-battle-management-and-targe",
+        "reason": "発表は2026年6月25日で範囲外（検索結果に日付なしで表示された）。"
+      },
+      {
+        "title": "IANS: DRDO steps up efforts to bolster chip, AI capabilities: Report",
+        "url": "https://ianslive.in/indias-drdo-steps-up-efforts-to-bolster-chip-ai-capabilities--20261124133603",
+        "reason": "クウェート紙報道の又聞きで、10月27〜29日のESTIC 2026の展示を扱う。新規の決定・契約を含まない。"
+      },
+      {
+        "title": "Fortune (Sarah Kreps): OpenAI asked me to assess GPT-2 before its release. The stakes are even higher now",
+        "url": "https://fortune.com/2026/11/24/sarah-kreps-openai-anthropic-drones-political-consequences",
+        "reason": "寄稿（意見記事）で、事実報道ではないため不採用。"
+      },
+      {
+        "title": "Al Jazeera 等: Anthropic下落を伝える他の市場記事",
+        "url": "https://www.nasdaq.com/articles/why-anthropic-stock-and-down-today",
+        "reason": "短信cl-20261125-10に統合。"
+      }
+    ],
+    "notes_for_editor": [
+      "cl-20261125-01：NCSCの公式ブログ本文は取得できず（accessed: false）、名指しされた6種のフレームワーク、著者名、引用はThe RecordとCyberscoopの報道に依拠した。CyberscoopはNCSCの助言が「FBI・NSA・CISAと併せて公表された」と記すが、The Recordは共同署名機関を挙げておらず、共同助言の実在は未確認。本文ではCyberscoopの報道として限定して記した。ホーン長官の発言は年次報告の公表に際してのものとThe Recordが記すが、年次報告の公表日は確認できていない。",
+      "cl-20261125-02：政府の方向性案の原文は未公表で、共同通信の関係者取材に基づく報道。琉球新報版はリード以降が有料で、本文はデイリースポーツ版（共同配信）に依拠した。「五つの柱」の構成、「AI主権」「機微データ保護制度」の文言は報道の範囲にとどまる。共同通信11月18日の防衛費圧縮報道は範囲外だが背景として引用した。日経11月21日報道の「無人機とAIの予算は維持」は既出（cl-20261123-04）の記述を引き継いだ。",
+      "cl-20261125-03：ハンファのプレスリリースや防衛事業庁の発表は確認できず、韓国メディア2紙に依拠した。7月3日の55兆ウォン計画発表時の「135MW級」はニューデイリー等の報道による。慶尚南道の100MWデータセンター（7月27日合意）は別事業であり、両者の関係は報道に記述がない。",
+      "cl-20261125-04：Stars and Stripesは落下物を「ミサイル2発と無人機1機、うち1発をKh-101と特定」と記すが、Notes from PolandとTVP Worldはポーランド政府が22日に3発すべてをKh-101と確認したと記す。本文は後者と前日の検察暫定所見に従った。NATO公式声明（nato.int）はハート報道官のX投稿の形で、本文は未取得。深夜の無人機のジェット推進・約20km・約9分はRMFの匿名情報源による。",
+      "cl-20261125-05：トランプ大統領のCNBC発言の日付は、ロイター（24日付）とInvesting.com（23日付、「月曜日」）で扱いが異なるため本文では日付を特定していない。ウォーレン上院議員の声明原文（banking.senate.gov）は取得できなかった。",
+      "cl-20261125-07：ホルムズ通航減少の数値はMarineTrafficとAISに基づく報道で、トランスポンダーを切った船舶を含まない。触雷はイラン海軍（タスニム）の主張で独立確認なし。",
+      "検証のWARN：主要動向4件（目安4〜8件の下限）。見出しが45字を超える項目、過去号と同一URLの出典はいずれも続報として残した。主要動向の各節の分量は論点の重さに応じて配分し、目安を超える節は内容を優先した。"
+    ]
+  }
+}
