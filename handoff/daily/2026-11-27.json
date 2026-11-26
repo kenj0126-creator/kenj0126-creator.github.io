@@ -1,0 +1,854 @@
+{
+  "edition_date": "2026-11-27",
+  "generated_at": "2026-11-27T06:25:00+09:00",
+  "window_from": "2026-11-26T06:05:00+09:00",
+  "edition_title_ja": "チップ規制の波及と選挙前夜の認知戦、AI統治をめぐる応酬",
+  "edition_title_en": "Chip controls ripple outward, cognitive warfare on election eve, and a quarrel over who governs AI",
+  "edition_dek_ja": "出荷停止と融資凍結、AI生成ペルソナ、意思決定支援の調達が示す統制の実効と限界。",
+  "edition_dek_en": "Halted shipments and frozen loans, AI-generated personas and a decision-support purchase show how far control reaches, and where it stops.",
+  "lead_points_ja": [
+    "11月19日に発効した米国の地域別チップ許可制が、規則の文言から市場の行動へ移った一日である。Nvidiaは東南アジア4か国向けのAIサーバー出荷を止めたと報じられ、Bloombergは域内データセンター向け融資が相次いで保留されていると伝えた。中国企業の計算資源への迂回路を塞ぐ措置が、東南アジアのAI建設そのものを減速させている。",
+    "台湾の地方選挙を翌日に控え、米ヴァンダービルト大学と台湾Doublethink Labは中国に沿ったAI生成ペルソナの協調行動を報告し、台湾政府はMetaに約2,700アカウントを通報した。卓栄泰行政院長は26日、投票日のサイバー攻撃への備えを関係機関に指示した。",
+    "ポーランド国防省は27日にPalantirとAI意思決定支援ソフトの契約に署名すると発表した。2023年末の選定開始から初の拘束力ある契約であり、金額と対象部隊は非公表のまま、データ主権をめぐる抗議とオンブズマンへの申し立てが続く。",
+    "AnthropicのアモデイCEOは、同社内に「人間の意思決定をAIに委ねるべきだ」との見方があるとしたAxiosの報道に対し、統治の委譲は「ひどい考え」であり自らがそう考えているとの示唆は「ばかげている」と反論した。作業の自動化と統治の委譲を分け、再帰的自己改善には制限が必要になりうるとした。",
+    "解放軍報は南部戦区空軍のある航空兵旅の観察報告で、シミュレーター上で飛行員が「無人僚機」と協同して仮想敵と対抗訓練を行うと記した。有人無人協同の訓練が前線部隊の日常に入りつつあることを示す記述であり、自律性の程度と規模は公開情報から読み取れる範囲にとどまる。"
+  ],
+  "lead_points_en": [
+    "The US regional chip-licensing regime that took effect on 19 November moved from rule text to market behaviour in a single day. Nvidia was reported to have stopped AI server shipments to four Southeast Asian countries, and Bloomberg reported that lenders are pausing data-centre financing across the region. A measure aimed at closing Chinese firms' detours to compute is slowing Southeast Asia's AI build-out itself.",
+    "On the eve of Taiwan's local elections, researchers at Vanderbilt University and Taiwan's Doublethink Lab reported coordinated activity by China-aligned AI-generated personas, and Taiwan's government flagged about 2,700 accounts to Meta. Premier Cho Jung-tai on 26 November instructed agencies to prepare for cyberattacks on polling day.",
+    "Poland's defence ministry announced it will sign a contract with Palantir on 27 November for AI decision-support software, the first binding contract since selection began at the end of 2023. The value and the units involved remain undisclosed as protests over data sovereignty and a complaint to the ombudsman continue.",
+    "Anthropic CEO Dario Amodei rebutted an Axios report that described a view inside the company that humans should hand some decision-making to AI, calling the transfer of governance to AI 'a terrible idea' and the suggestion that he holds that view 'absurd'. He separated task automation from governance and said limits on recursive self-improvement may be needed.",
+    "PLA Daily, in an observation report on an aviation brigade of the Southern Theater Command Air Force, wrote that pilots train against virtual opponents in coordination with 'unmanned wingmen' on simulators. The passage suggests manned-unmanned teaming is entering frontline routine, while the degree of autonomy and the scale remain within what open sources show."
+  ],
+  "items": [
+    {
+      "id": "cl-20261127-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261126-04",
+      "title_ja": "Nvidia、東南アジア4か国向けAIサーバー出荷を停止と報道　新許可制で域内データセンター融資も相次ぎ保留",
+      "title_en": "FT: Nvidia halts AI server shipments to four Southeast Asian countries as the new licensing rule stalls data-centre lending across the region",
+      "lead_ja": "Financial Timesは11月26日、Nvidiaが製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシア向けのAIサーバー出荷を止めるよう指示したと事情に詳しい3人の話として報じた。前日のBloombergは、同じ4か国を対象とする米商務省の許可制を受けて、ByteDance、Alibaba、Tencentの需要に支えられた域内データセンター向け融資が相次いで保留されていると伝えた。11月19日発効の規則と23日のMegaspeed系7社のエンティティリスト追加に続き、迂回路の封鎖が供給と資金の両面で東南アジアのAI建設を減速させる段階に入った。",
+      "lead_en": "The Financial Times reported on 26 November, citing three people with knowledge of the matter, that Nvidia has told its manufacturing partners to stop shipping AI servers to Malaysia, Singapore, Thailand and Indonesia. A day earlier Bloomberg reported that, following the US Commerce Department's licensing requirement for the same four countries, lenders are pausing data-centre loans across the region whose demand has been underpinned by ByteDance, Alibaba and Tencent. After the rule that took effect on 19 November and the 23 November Entity List additions of seven Megaspeed-linked firms, the closing of diversion routes has reached the stage of slowing Southeast Asia's AI build-out on both the supply and the financing side.",
+      "sections": [
+        {
+          "heading_ja": "Dellらが顧客に伝えた「出荷不許可」",
+          "heading_en": "Dell and Supermicro tell customers their orders will not ship",
+          "paragraphs_ja": [
+            "FTによれば、Nvidia製チップをサーバーに組み込むDellとSupermicroは、4か国の購入者に対しNvidiaが注文の出荷を認めないと伝えた。対象はNvidiaのAIチップを搭載したサーバーで、停止が一時的なものかどうかは明らかにされておらず、Nvidiaとパートナー各社は新規則への適合方法を検討しているという。Nvidia、Dell、Supermicroはいずれも営業時間外のコメント要請に応じていない。",
+            "あるクラウド事業者の幹部はFTに「新しい規則はあるが執行の指針がない」と述べ、「90日の時計が動く中で誰も許可の申請方法を知らない。域内は混乱の極みだ」と語った。Nvidiaは2025年にシンガポール子会社を通じて前年比72%増の1,040億ドルの売上を計上しており、同子会社は台湾と中国の一部売上も計上している。したがって出荷停止は、同社の販売経路の中核に規制が及んだことを意味する。"
+          ],
+          "paragraphs_en": [
+            "According to the FT, Dell and Supermicro, which package Nvidia chips into servers, have told buyers in the four countries that Nvidia will not authorise their orders to be shipped. The halt covers servers containing Nvidia's AI chips; whether it is temporary is unclear, as Nvidia and its partners work out how to comply with the new rules. Nvidia, Dell and Supermicro did not respond to requests for comment outside business hours.",
+            "A cloud-provider executive told the FT: 'There's this new rule but no guidance on execution. No one knows how to apply for this licence while the 90-day clock is ticking. It's causing sheer chaos in the region.' Nvidia booked $104 billion of revenue through its Singapore subsidiary in 2025, up 72 per cent, and routes some Taiwan and China revenue through the same unit. The halt therefore means the controls have reached the core of the company's sales channel."
+          ]
+        },
+        {
+          "heading_ja": "490億ドルに膨らんだ融資市場の足踏み",
+          "heading_en": "A lending market that grew from nothing to $49 billion pauses",
+          "paragraphs_ja": [
+            "Bloombergは11月25日、12人超の銀行員の話として、各行の融資チームが規制の明確化を待っていると報じた。Bain Capital傘下のBridge Data Centresが組成中の66億ドルの増額融資は、マレーシアの施設をByteDanceなどが利用しているため一部の貸し手が追加調査のために遅らせている。Partners Group系Digital Haloの3億7,200万ドルの融資では1行が引受を見送り、シンガポールのAolaniの4億8,000万ドル、GMI Cloudがタイの施設向けチップ購入に充てる3億ドルの融資でも、貸し手が再評価や離脱に動いた。",
+            "ByteDanceを最大顧客とするDayOne Data Centersは米国上場の計画を保留し、Citigroup、Standard Chartered、シンガポールの主要行はデータセンター顧客の総点検に入ったとされる。Bloombergのデータでは、アジア太平洋のデータセンター事業者向け融資は2023年のほぼゼロから490億ドル超に拡大しており、この市場全体が規則の執行方法を見極めるまで停止している。Hogan Lovellsの弁護士ベン・コストジェワ氏は「市場が長く過熱していたことを考えれば、立ち止まって案件を見直す良い機会になりうる」とし、「建設は止まらないが、すべてが減速する」と述べた。"
+          ],
+          "paragraphs_en": [
+            "Bloomberg reported on 25 November, citing more than a dozen bankers, that lending teams are waiting for clarity on the curbs. Some lenders are delaying an upsized $6.6 billion loan being arranged for Bain Capital-owned Bridge Data Centres to conduct more due diligence, because its Malaysian facilities serve clients including ByteDance. One bank passed on a fully underwritten $372 million loan for Partners Group-backed Digital Halo, whose Malaysian data centre serves Alibaba; banks are reassessing a $480 million loan for Singapore-based Aolani; and at least one fund dropped out of a $300 million loan for GMI Cloud to buy chips for a Thai facility to be used by Tencent.",
+            "DayOne Data Centers, whose biggest customer is ByteDance, has put its US IPO plans on hold, and Citigroup, Standard Chartered and Singapore's major banks are said to have begun a broad review of data-centre clients. Bloomberg data show lending to Asia-Pacific data-centre operators grew from virtually zero in 2023 to more than $49 billion, and that whole market has stalled until the rule's enforcement becomes clear. Ben Kostrzewa of Hogan Lovells said 'it could be a good pause, to take stock and to review these projects, given how frothy the market has been for a while', adding that it 'won't stop all these data centers being built, but it will slow it all down'."
+          ]
+        },
+        {
+          "heading_ja": "規則の意図と副作用、12月の聴聞で問われる執行",
+          "heading_en": "Intent and side effects, with enforcement to be examined in December",
+          "paragraphs_ja": [
+            "11月19日発効の規則は、インドネシア、マレーシア、シンガポール、タイ、ブラジル向けの先端AIチップ出荷に米政府の許可を要求し、中国企業に相当量の計算資源を貸し出す世界のデータセンターに90日以内の別途許可を課した。Bloombergは、2022年の規制後に生まれた「中国企業に遠隔アクセスを提供する東南アジア企業」という抜け穴を塞ぐ措置だと位置づける。したがって出荷停止と融資保留は、規則が狙いどおりに迂回需要を圧縮している証左であると同時に、許可手続きの空白が域内の正規需要も巻き込んでいることを示す。",
+            "マレーシアとシンガポールの政府の反応はまだ伝えられておらず、停止の開始時期と対象製品の範囲も報道からは特定できない。12月3日の上院銀行委員会ではフアンCEOが輸出管理の監督について証言し、1〜2日には下院3委員会の非公開聴取が予定されている。許可の発給実績と90日期限の運用が、規則が抑止と混乱のどちらに傾くかを決める。"
+          ],
+          "paragraphs_en": [
+            "The rule effective 19 November requires a US government licence for shipments of advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil, and gives data centres worldwide that lease significant compute to Chinese firms 90 days to obtain a separate licence. Bloomberg frames it as closing the loophole created after the 2022 controls, when Southeast Asian firms began offering Chinese companies remote access to chips. The shipment halt and the lending pause are therefore evidence that the rule is squeezing diversion demand as intended, and at the same time that the licensing vacuum is sweeping up legitimate regional demand.",
+            "No reaction from the Malaysian or Singaporean governments has yet been reported, and neither the start date of the halt nor the range of products covered can be pinned down from the reports. Huang is due to testify on export-control oversight before the Senate Banking Committee on 3 December, with closed interviews before three House committees on 1 and 2 December. The record of licences issued and the handling of the 90-day deadline will decide whether the rule tilts toward deterrence or disruption."
+          ]
+        }
+      ],
+      "watch_next_ja": "BISによる許可申請手続きの指針と初回の発給実績。Nvidia、Dell、Supermicroおよびマレーシア・シンガポール両政府の公式コメント。12月1〜3日の下院聴取と上院銀行委員会公聴会。90日期限（2027年2月中旬）に向けた中国企業向けリース契約の扱い。",
+      "watch_next_en": "BIS guidance on the licence application process and the first licences issued; official comments from Nvidia, Dell, Supermicro and the Malaysian and Singaporean governments; the House interviews on 1–2 December and the Senate Banking hearing on 3 December; treatment of leases to Chinese firms ahead of the 90-day deadline in mid-February 2027.",
+      "date": "2026-11-26",
+      "publisher": "Financial Times・Bloomberg（報道）",
+      "publisher_en": "Financial Times / Bloomberg (reports)",
+      "sources": [
+        {
+          "title": "Nvidia halts chip shipments to four Southeast Asian countries, including Malaysia, FT reports",
+          "url": "https://www.thestar.com.my/business/business-news/2026/11/26/nvidia-halts-chip-shipments-to-southeast-asia-ft-reports",
+          "publisher": "The Star / Reuters (citing FT)",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia halts chip shipments to South-East Asia amid US crackdown",
+          "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/",
+          "publisher": "The National",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Nvidia Halts Server Shipments To 4 Southeast Asian Countries Amid New U.S. Export Curbs, Report Says",
+          "url": "https://www.forbes.com/sites/siladityaray/2026/11/26/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia-as-us-tightens-china-curbs/",
+          "publisher": "Forbes",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Billions in Data Center Deals Grind to Halt After Chip Curbs",
+          "url": "https://www.swissinfo.ch/eng/billions-in-data-center-deals-grind-to-halt-after-chip-curbs/92440076",
+          "publisher": "Bloomberg (via SWI swissinfo.ch)",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "US chip curbs stall $6.6B Bridge loan, freeze Asia AI lending",
+          "url": "https://dealroom.co/news/175928-us-chip-curbs-stall-6-6b-bridge-loan-freeze-asia-ai-lending",
+          "publisher": "Dealroom (citing Bloomberg)",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "compute-export"
+      ],
+      "actors": [
+        "US",
+        "CN",
+        "ASEAN"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 2,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [
+        "cognitive-domain"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261125-09",
+      "title_ja": "台湾地方選前夜、AI生成ペルソナの協調行動を米台の研究者が報告　政府はMetaに約2,700アカウントを通報",
+      "title_en": "On the eve of Taiwan's local elections, US and Taiwanese researchers report coordinated AI-generated personas; the government flags about 2,700 accounts to Meta and the premier orders cyber vigilance",
+      "lead_ja": "11月28日の台湾統一地方選挙を前に、米ヴァンダービルト大学の研究者が台湾のDoublethink Labと共同で、10〜11月にInstagramとThreadsで活動した中国に沿ったAI生成ペルソナの協調行動を報告した。台湾政府はMetaに約2,700アカウントを通報し、内部報告では約260のThreadsアカウントが2,150本超のAI生成動画を拡散して235万件の反応を集めたとされる。卓栄泰行政院長は26日、数位発展部と中央選挙委員会に投票日のサイバー攻撃への連携を指示し、大陸委員会は国家安全局の数字として中国からの侵入試行が1日平均258万件に上ると述べた。",
+      "lead_en": "Ahead of Taiwan's local elections on 28 November, researchers at Vanderbilt University, working with Taiwan's Doublethink Lab, reported coordinated activity in October and November by China-aligned AI-generated personas on Instagram and Threads. Taiwan's government flagged about 2,700 accounts to Meta, and an internal government report says about 260 Threads accounts spread more than 2,150 AI-generated videos that drew 2.35 million interactions. On 26 November Premier Cho Jung-tai instructed the Ministry of Digital Affairs and the Central Election Commission to coordinate against cyberattacks on polling day, and the Mainland Affairs Council, citing the National Security Bureau, said intrusion attempts from China average 2.58 million a day.",
+      "sections": [
+        {
+          "heading_ja": "食と動物の投稿から政治へ転じるアカウント",
+          "heading_en": "Accounts that turn from food and animals to politics",
+          "paragraphs_ja": [
+            "Independentが伝えるヴァンダービルト大学の分析によれば、研究者はAI生成コンテンツを検出する新たなツールを用い、一般の台湾人を装うアカウントが食べ物、動物、芸能人などの非政治的な投稿で信用を築いた後、政治的な内容やディープフェイクの共有、与党批判に転じ、親中・統一のメッセージを織り交ぜる様式を確認した。人間とAIの投稿には語調と語彙に微妙な差があり、投稿パターンから一部のアカウントは職業的に運用されていると研究者はみる。",
+            "BBC Verifyは24日、民進党に関する500本超の偽動画が2025年5月以降に数千万回閲覧され、半数超が直近4か月に集中したと報じた。頼清徳総統が米国の永住権を持ち有事に台湾を見捨てるとの虚偽や、台北市長候補の沈伯洋氏が薬物を使用しているかのような合成映像が含まれ、総統府と沈氏はいずれも否定している。多くのアカウントは所在地を中国本土や香港とし、国家安全局が「認知戦」を担うと名指しした企業Borderlessと結びつくとみられるものもある。"
+          ],
+          "paragraphs_en": [
+            "According to the Vanderbilt analysis reported by The Independent, researchers used a newly developed tool to detect AI-generated content and found accounts posing as ordinary Taiwanese that built credibility with non-political posts about food, animals and celebrities, then switched to political content, shared deepfakes or criticised the ruling party, mixing in pro-China or unification messages. Human and AI posts differed subtly in tone and word choice, and posting patterns suggested some accounts were professionally managed.",
+            "BBC Verify reported on 24 November that more than 500 fake videos about the DPP had been viewed tens of millions of times since May 2025, with more than half tracked in the past four months. They include false claims that President Lai Ching-te holds a US green card and would abandon Taiwan in a war, and synthetic footage appearing to show Taipei mayoral candidate Puma Shen using drugs; the Presidential Office and Shen deny both. Many accounts listed mainland China or Hong Kong as their location, and some appear linked to Borderless, a firm the National Security Bureau has accused of conducting 'cognitive warfare'."
+          ]
+        },
+        {
+          "heading_ja": "2,700件の通報とMetaの「低品質」評価",
+          "heading_en": "2,700 referrals and Meta's 'low-quality fake accounts' assessment",
+          "paragraphs_ja": [
+            "台湾政府はMetaに約2,700アカウントを通報し、その大半はThreads上にある。精査した約2,400のThreadsアカウントのうち74%が所在地を中国、25%が未設定、1%がロシアとし、約260のアカウントが2,150本超のAI生成動画を拡散して235万件の反応を集めたと内部報告は記す。Metaは削除したアカウントを「低品質な偽アカウント」で選挙関連の投稿はしていなかったと説明しており、政府の評価とは重みづけが異なる。",
+            "国家安全局は2026年1〜9月の偽・争議情報が前年比約48%増の250万件超に達したとし、中央選挙委員会は「AI生成のディープフェイク動画に注意」と呼びかける広告を流した。検察は20日に桃園市議候補を中国共産党系の資金と支援を受けたとして起訴しており、認知領域の工作と資金面の浸透が選挙直前に並行して可視化された。中国は選挙介入を否定している。"
+          ],
+          "paragraphs_en": [
+            "Taiwan's government flagged about 2,700 accounts to Meta, most of them on Threads. Of roughly 2,400 Threads accounts examined, 74 per cent listed China as their location, 25 per cent none and 1 per cent Russia, and about 260 accounts spread more than 2,150 AI-generated videos with 2.35 million interactions, according to the internal report. Meta said the accounts it removed were 'low-quality fake accounts' that had not posted election content, a weighting that differs from the government's.",
+            "The National Security Bureau says false or disputed items rose about 48 per cent in the first nine months of 2026 to more than 2.5 million, and the Central Election Commission aired an advert warning voters to beware of AI-generated deepfake videos. Prosecutors on 20 November indicted a Taoyuan city council candidate for accepting CCP-linked funds and support, so cognitive operations and financial penetration became visible in parallel just before the vote. China denies interfering in the elections."
+          ]
+        },
+        {
+          "heading_ja": "投票日に向けた行政院の指示",
+          "heading_en": "The Executive Yuan's polling-day instructions and 2.58 million daily intrusion attempts",
+          "paragraphs_ja": [
+            "Taipei Timesによれば、卓栄泰行政院長は26日、数位発展部、中央選挙委員会、各地方選挙委員会に対し、予想されるサイバー攻撃に緊密に連絡して対処するよう指示し、技術が「選挙に新たな課題をもたらした」と述べた。投票用紙の期限内配送と候補者の安全確保も法務部と内政部に求めた。大陸委員会の梁文傑副主任委員は国家安全局を引いて、中国による台湾のオンラインシステムへの侵入試行が1日平均258万件に上ると述べた。",
+            "選挙結果と並んで、投票後に審議が再開される国防特別予算法案と、今回確認された手口の次の標的が焦点になる。研究者が示したAI生成ペルソナの検出手法は、2028年の総統選挙に向けた監視体制の基盤となりうる。"
+          ],
+          "paragraphs_en": [
+            "According to the Taipei Times, Premier Cho Jung-tai on 26 November instructed the Ministry of Digital Affairs, the Central Election Commission and local commissions to stay in close contact and coordinate responses to expected cyberattacks, saying technology had brought new challenges to elections. He also asked the Ministry of Justice and the Ministry of the Interior to ensure ballots are delivered on time and candidates kept safe. Mainland Affairs Council Deputy Minister Liang Wen-chieh, citing the National Security Bureau, said Chinese intrusion attempts against Taiwan's online systems average 2.58 million a day.",
+            "Alongside the election results, attention turns to the special defence budget bill, whose deliberation resumes after the vote, and to the next target of the techniques identified this week. The researchers' method for detecting AI-generated personas could form the basis of monitoring ahead of the 2028 presidential election."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月28日の投開票と中央選挙委員会・国家安全局の選挙後の総括。Metaの正式な削除報告。ヴァンダービルト大学とDoublethink Labの報告書本文の公表。選挙後に審議が再開される国防特別予算法案。",
+      "watch_next_en": "Polling on 28 November and the post-election assessments of the Central Election Commission and the National Security Bureau; Meta's formal takedown report; publication of the Vanderbilt–Doublethink Lab report itself; resumption of deliberation on the special defence budget bill after the vote.",
+      "date": "2026-11-26",
+      "publisher": "台湾行政院・大陸委員会／ヴァンダービルト大学（報道）",
+      "publisher_en": "Taiwan Executive Yuan and Mainland Affairs Council / Vanderbilt University (reports)",
+      "sources": [
+        {
+          "title": "AI fakes are trying to influence Taiwan's key elections. Taipei suspects China",
+          "url": "https://sg.news.yahoo.com/ai-fakes-trying-influence-taiwan-100924861.html",
+          "publisher": "The Independent (via Yahoo News Singapore)",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "2026 Elections: Be vigilant of cyberattacks ahead of elections: premier",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/27/2003868487",
+          "publisher": "Taipei Times",
+          "date": "2026-11-27",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Taiwan election: Is China behind a wave of AI fakes and disinformation? (BBC Verify)",
+          "url": "https://finwire.io/news/world-news/china-linked-network-using-ai-fakes-to-smear-taiwan-election-candidates-bbc-verify-finds",
+          "publisher": "BBC Verify (via Finwire)",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Taiwan election targeted by pro-China AI fake accounts, US study finds",
+          "url": "https://www.newsminimalist.com/articles/taiwan-election-targeted-by-pro-china-ai-fake-accounts-us-study-finds-091b2579",
+          "publisher": "News Minimalist (summarising TVBS)",
+          "date": "2026-11-24",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cognitive",
+        "cyber-ci"
+      ],
+      "actors": [
+        "TW",
+        "CN"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "japan_relevance": false,
+      "stage": "announced",
+      "forums": [],
+      "kill_chain": [
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "",
+      "title_ja": "ポーランド国防省、PalantirとAI意思決定支援ソフトの契約を27日に署名へ　金額と対象部隊は非公表",
+      "title_en": "Poland's defence ministry to sign a contract with Palantir on 27 November for AI decision-support software, with value and units undisclosed and data-sovereignty protests continuing",
+      "lead_ja": "ポーランド国防省は11月26日、意思決定過程を支援するAIを用いたソフトウェアの購入契約をPalantirと27日に署名すると発表した。署名はワルシャワ城塞のポーランド軍博物館で正午に行われ、コシニャク＝カミシュ副首相兼国防相が出席する。2023年12月に始まった選定、2024年12月のサイバー協定、2025年10月の意向書を経た初の拘束力ある契約であり、金額、期間、使用部隊は公表されていない。",
+      "lead_en": "Poland's defence ministry said on 26 November that it will sign a contract with Palantir on 27 November to buy software that uses AI to support decision-making processes. The signing is set for noon at the Polish Army Museum in the Warsaw Citadel, with Deputy Prime Minister and Defence Minister Władysław Kosiniak-Kamysz attending. It is the first binding contract after a selection process that began in December 2023, a cybersecurity agreement in December 2024 and a letter of intent in October 2025; the value, duration and user units have not been disclosed.",
+      "sections": [
+        {
+          "heading_ja": "2年の選定を経た契約の輪郭",
+          "heading_en": "The shape of a contract two years in the making",
+          "paragraphs_ja": [
+            "Reutersによれば、国防省の声明は「意思決定過程を支援するためにAIを用いるソフトウェア」の購入としか述べておらず、他の詳細は示されていない。The Next Webが伝える国防省の招待状では、契約相手はPalantirのポーランド法人で、選定は2023年12月以来「数十回の会合、演習、システム実演」を重ね、交渉はサイバー空間防衛軍構成部隊司令部が主導した。CyberDefence24はMaven Smart Systemに言及しているが、契約がこのシステムを対象とするかは明示されていない。",
+            "Palantirは公にコメントしておらず、契約額と使用部隊は署名後の公表を待つ。前段階として2024年12月にサイバーセキュリティ協定、2025年10月にカープCEOとの間でAI・IT・サイバーに関する意向書が交わされており、今回の契約は協力関係を調達に転換する節目となる。"
+          ],
+          "paragraphs_en": [
+            "According to Reuters, the ministry's statement says only that it will buy 'software that uses AI to support decision-making processes' and gives no other details. The ministry invitation reported by The Next Web names Palantir's Polish subsidiary as the counterparty, says selection has involved 'dozens of meetings, exercises and system demonstrations' since December 2023, and that negotiations were led by the Cyberspace Defence Forces Component Command. CyberDefence24 refers to the Maven Smart System, but whether the contract covers that system is not stated.",
+            "Palantir has not commented publicly, and the value and user units await disclosure after signing. The contract follows a cybersecurity agreement in December 2024 and a letter of intent on AI, IT and cybersecurity signed with CEO Alex Karp in October 2025, and marks the point at which cooperation turns into procurement."
+          ]
+        },
+        {
+          "heading_ja": "NATOの実績を盾にした擁護と申し立て",
+          "heading_en": "A defence resting on NATO and Ukrainian use, and a complaint to the ombudsman",
+          "paragraphs_ja": [
+            "コシニャク＝カミシュ国防相は、NATOとウクライナ軍が既に同社のソフトを使っていることを根拠に選定を擁護してきた。これに対し、11月上旬にはワルシャワで抗議集会が開かれ、市民団体Nasze Daneは人権オンブズマンのグレゴルチク＝アブラム氏に協力関係の審査を求めた。同氏は10月に国防相へ書簡を送り、国防相は11月初めのRMF FMの番組で軍の分析の完了を待っていると述べていた。",
+            "Palantir Technologies Polskaのワシカ代表は、試験版は実データで稼働せず、本格運用は軍のインフラ上で同社のアクセスなしに行われると説明している。これは事業者側の説明であり、データの所在と管理権限を定める契約条項の公開が検証の前提となる。したがって署名後の焦点は、契約文書のうちデータ主権と監査に関わる部分がどこまで開示されるかに移る。"
+          ],
+          "paragraphs_en": [
+            "Kosiniak-Kamysz has defended the choice by pointing out that NATO and Ukraine's armed forces already use the company's software. Protesters gathered in Warsaw earlier in November, and the civic group Nasze Dane asked human rights ombudsman Sylwia Gregorczyk-Abram to examine the cooperation; she wrote to the minister in October, and in early November he told RMF FM he was waiting for the military to finish its analysis.",
+            "Maciej Łaska, managing director of Palantir Technologies Polska, has said the test version does not run on real data and that the operational system runs on military infrastructure without company access. These are the vendor's statements, and verification depends on publication of the contract clauses governing where data resides and who controls it. After signing, the focus therefore shifts to how much of the contract text on data sovereignty and audit is disclosed."
+          ]
+        },
+        {
+          "heading_ja": "欧州代替構想と並走する東側面の選択",
+          "heading_en": "An eastern-flank choice running alongside Europe's search for an alternative",
+          "paragraphs_ja": [
+            "フランスとドイツは欧州製の対抗ソフトの開発を約束し、オランダは2年以内の代替を目指している。一方で、ドイツは23日にウクライナの戦場管理システム「Delta」の利用で意向書に署名し、ポーランドは今週、米国防省と共同研究開発協定を結んだ。東側面の国々は、欧州の自律性の議論と並行して、実戦で使われている米国・ウクライナ製システムを優先して導入する選択をしている。"
+          ],
+          "paragraphs_en": [
+            "France and Germany have pledged a European rival product and the Netherlands wants an alternative within two years. Germany, however, signed a letter of intent on 23 November to use Ukraine's Delta battle-management system, and Poland signed a joint defence research and development agreement with the US Department of Defense this week. Eastern-flank states are choosing to adopt combat-proven US and Ukrainian systems first, in parallel with Europe's debate on autonomy."
+          ]
+        }
+      ],
+      "watch_next_ja": "11月27日正午（ワルシャワ）の署名式と国防省の公表内容（金額、期間、対象システム、使用部隊）。人権オンブズマンの審査結果。契約のデータ主権・監査条項の開示。",
+      "watch_next_en": "The signing at noon on 27 November in Warsaw and what the ministry discloses (value, duration, system, user units); the outcome of the ombudsman's review; disclosure of the contract's data-sovereignty and audit clauses.",
+      "date": "2026-11-26",
+      "publisher": "ポーランド国防省",
+      "publisher_en": "Polish Ministry of National Defence",
+      "sources": [
+        {
+          "title": "Polish defence ministry to sign agreement with Palantir on Friday",
+          "url": "https://www.yahoo.com/news/world/articles/polish-defence-ministry-sign-agreement-154820910.html",
+          "publisher": "Reuters (via Yahoo News)",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland's defence ministry to sign AI software contract with Palantir",
+          "url": "https://thenextweb.com/news/poland-palantir-ai-software-contract",
+          "publisher": "The Next Web",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Poland's Defense Ministry to Sign Palantir Deal on AI Software for Military Decision-Making",
+          "url": "https://nowosci.ai/en/article/poland-defense-ministry-palantir-ai-software-deal",
+          "publisher": "nowosci.ai (citing CyberDefence24, Money.pl)",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "EU",
+        "US",
+        "NATO"
+      ],
+      "doc_type": "budget-procurement"
+    },
+    {
+      "id": "cl-20261127-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "",
+      "title_ja": "Anthropic CEO、「人間の自由意志をAIに委ねる」との報道を「ばかげている」と反論　作業の自動化と統治の委譲を区別",
+      "title_en": "Anthropic's CEO calls the suggestion that he would 'surrender human free will' to AI 'absurd', separating task automation from the transfer of governance",
+      "lead_ja": "Anthropicのダリオ・アモデイCEOは11月25日、同社内に「人類は超知能AIに意思決定の一部を委ねるべきだ」との共通見解があると匿名筋の話として伝えたAxiosの記事に対し、Xへの長文投稿で反論した。「人間の自由意志をAIに委ねるべきだとは考えていないし、私がそう考えていると示唆するのはばかげている」と述べ、統治をAIに委ねることは「ひどい考え」だとした。一方で作業の自動化はあらゆる企業が進めている現実だとし、再帰的自己改善には制限が必要になりうるとの線引きを示した。",
+      "lead_en": "Anthropic CEO Dario Amodei responded on 25 November, in a long post on X, to an Axios article that cited anonymous sources describing a common view inside the company that humanity should surrender some decision-making to superintelligent AI. 'No, I do not believe that we should \"surrender human free will\" to AI systems, and it's absurd to suggest that I do,' he wrote, calling the transfer of governance to AI 'a terrible idea'. At the same time he said task automation is a reality every company is pursuing, and drew a line at recursive self-improvement, where limits may be needed.",
+      "sections": [
+        {
+          "heading_ja": "Axiosが伝えた「社内の共通見解」と投稿の要点",
+          "heading_en": "The 'common view inside Anthropic' as Axios reported it, and the post's main points",
+          "paragraphs_ja": [
+            "Axiosの記事は、競合企業の幹部がAnthropicの一部社員に帰される見方に反発していると伝え、アモデイ氏が過去に生命に関わる場面でAIに判断を任せる可能性に触れた発言や、初期の製品構想の資料にあった「箱の中の神が統治するユートピア」という表現を根拠に挙げた。アモデイ氏は、自らのエッセイ「Machines of Loving Grace」と「The Adolescence of Technology」を引き、AIは市民の判断を助ける道具であって人を統治する主体ではないとし、「効率や安全保障の祭壇に正統性や自己決定を捧げてはならない」と書いた。",
+            "Anthropicの広報はAxiosに対し、アモデイ氏は多くの公の場で人間によるAIの統制を主張しており、同社のモデルは人間による監督を損なわないよう訓練されていると説明した。Axiosの広報は報道を堅持するとし、アモデイ氏の反論を加えた更新版を示した。前日に同じAxiosが報じた「未公開モデルは安全に公開できない恐れ」をめぐる社員の不安と合わせ、企業の内部での議論が外部の政策論争に直結する局面が続いている。"
+          ],
+          "paragraphs_en": [
+            "The Axios piece reported that executives at rival companies were pushing back against a view attributed to some Anthropic employees, and pointed to Amodei's earlier remarks about letting AI take charge in certain life-critical situations and to an early product-vision slide describing a 'utopia ruled by god in a box'. Amodei cited his essays 'Machines of Loving Grace' and 'The Adolescence of Technology', argued that AI is a tool to help citizens decide rather than an authority that governs people, and wrote: 'We should never sacrifice legitimacy or self-determination at the altar of efficiency or security.'",
+            "An Anthropic spokesperson told Axios that Amodei has advocated human control of AI in many public remarks and that Anthropic trains Claude not to undermine human oversight. Axios said it stands by its reporting and pointed to an updated article including his response. Together with the previous day's Axios report on staff fears that unreleased models may be unsafe to release, internal debates inside the company continue to feed directly into the external policy argument."
+          ]
+        },
+        {
+          "heading_ja": "「雰囲気ベースの位置取り」批判と自己改善の線引き",
+          "heading_en": "A charge of 'vibes-based positioning' and a line at recursive self-improvement",
+          "paragraphs_ja": [
+            "アモデイ氏は、自動車の運転、がん治療薬の設計、ソフトウェアの一貫した作成といった作業の自動化と、社会の統治をAIに委ねることを分けて論じた。「各社が提供する製品は作業の自動化への志向において実質的な差がなく、どの企業もますます作業自動化に長けたモデルを出している」とし、「人間の統制と主体性」や「AIは道具であるべきだ」と唱えながら製品を変えない競合の姿勢を「雰囲気に基づく商業的・政治的な位置取り」と批判した。",
+            "線を引くべき場所として同氏は再帰的自己改善を挙げ、「同社のモデルが意味のある人間の監督や理解なしに次々とフロンティアモデルを完全に自律的に構築することが安全だとは考えていない」とし、「この過程には制限を設けたくなるかもしれない」と書いた。この立場は、11月18日の上院議員書簡が求めたサイバー能力の評価や、1月末に見込まれるホワイトハウス超知能タスクフォースの政策文書で、企業の自主的な線引きが政府の検査基準とどう接続されるかという論点につながる。"
+          ],
+          "paragraphs_en": [
+            "Amodei distinguished task automation, such as driving a car, designing a cancer drug or writing software end to end, from handing the governance of society to AI. 'Certainly the products that they offer don't differ materially in their orientation towards automation of tasks; every company seems to be releasing models more and more capable of task automation,' he wrote, and criticised rivals who invoke 'human control and agency' or say 'AI should just be a tool' without changing their products as engaging in 'vibes-based commercial and political positioning'.",
+            "As the place to draw a line he named recursive self-improvement: 'we don't expect it to be safe for Claude to build successive frontier models fully autonomously' without meaningful human supervision or understanding, and 'we may want limits on this process'. That position connects to the cyber-capability evaluations sought in the 18 November Senate letter and to the White House superintelligence task force paper expected by end-January, where the question is how voluntary corporate lines are tied to government testing standards."
+          ]
+        }
+      ],
+      "watch_next_ja": "Axiosの更新記事と競合各社幹部の後続発言。1月末見込みのホワイトハウス超知能タスクフォースの政策文書。両社の次期モデルの公開判断とシステムカードにおける自律的なモデル開発の扱い。",
+      "watch_next_en": "The updated Axios article and follow-up statements from rival executives; the White House superintelligence task force paper expected by end-January; how the next models' release decisions and system cards treat autonomous model development.",
+      "date": "2026-11-25",
+      "publisher": "Anthropic（アモデイCEOのX投稿）・Axios",
+      "publisher_en": "Anthropic (Amodei's post on X) / Axios",
+      "sources": [
+        {
+          "title": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+          "publisher": "TechCrunch",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Dario Amodei Rejects Idea He Wants To 'Surrender Human Free Will' To AI",
+          "url": "https://www.forbes.com/sites/alisondurkee/2026/11/25/dario-amodei-rejects-idea-he-wants-to-surrender-human-free-will-to-ai/",
+          "publisher": "Forbes",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Should humans hand over decisions to AI? Anthropic CEO Dario Amodei pushes back on Axios report",
+          "url": "https://www.businesstoday.in/technology/artificial-intelligence/story/should-humans-hand-over-decisions-to-ai-anthropic-ceo-dario-amodei-pushes-back-on-axios-report-569599-2026-11-26",
+          "publisher": "Business Today",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Dario Amodei post on X (25 November 2026)",
+          "url": "https://x.com/DarioAmodei/status/2125656399392690605",
+          "publisher": "Dario Amodei (X)",
+          "date": "2026-11-25",
+          "kind": "primary",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "frontier-safety",
+        "governance-norms"
+      ],
+      "actors": [
+        "US"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "",
+      "title_ja": "解放軍報、南部戦区空軍旅のシミュレーター訓練に「無人僚機」との協同を記載　有人無人協同の日常化を示す一節",
+      "title_en": "PLA Daily describes simulator training with 'unmanned wingmen' at a Southern Theater Command air brigade, a line pointing to routine manned-unmanned teaming",
+      "lead_ja": "解放軍報は11月24日の1面で、南部戦区空軍航空兵のある旅に関する観察報告を掲載し、「模擬システムを借りて、飛行員は『無人僚機』の協同配合の下で、仮想の相手と連続した対抗訓練を展開できる」と記した。南華早報が25日にこの記述を取り上げ、台湾の自由時報は26日、2025年12月の中部戦区の事例や米空軍中国航空宇宙研究所（CASI）の報告と並べて、有人無人協同の訓練が前線部隊の日常に入りつつあると報じた。記述は一文にとどまり、機種、無人僚機の自律性の程度、訓練の規模は示されていない。",
+      "lead_en": "PLA Daily's front page on 24 November carried an observation report on an aviation brigade of the Southern Theater Command Air Force stating that, using a simulation system, pilots can carry out sustained confrontation training against virtual opponents in coordination with 'unmanned wingmen'. The South China Morning Post picked up the passage on 25 November, and Taiwan's Liberty Times on 26 November placed it alongside a December 2025 Central Theater case and a report by the US Air Force's China Aerospace Studies Institute (CASI) to argue that manned-unmanned teaming training is entering frontline routine. The passage is a single sentence, and the aircraft type, the wingman's degree of autonomy and the scale of training are not given.",
+      "sections": [
+        {
+          "heading_ja": "観察報告の一文が示す訓練の中身",
+          "heading_en": "What one sentence of the observation report shows",
+          "paragraphs_ja": [
+            "解放軍報記者の陳典宏氏による報告は、同旅のシミュレーターが各種の系統故障や突発事態を再現し、「多波次の目標接近や電磁妨害など複雑な戦場環境をすべて再現し、飛行員に戦闘技能の強化を迫る」と記す。無人僚機への言及はこの文脈の中の一文で、相手は「虚拟对手（仮想の相手）」と表現され、分散型のネットワーク演習やAI対抗相手の記述は含まれていない。記事に登場する飛行員や隊長は、いずれもシミュレーターや無人僚機について語っていない。",
+            "自由時報は、報告が機種を明示していない一方で、写真説明が同旅所属の殲-16を示していると指摘する。したがって確認できるのは、南部戦区の実戦部隊が日常の模擬訓練に無人僚機との協同を組み込んでいるという事実であり、無人僚機の自律性、使用する機体、訓練の頻度は公開情報の外にある。"
+          ],
+          "paragraphs_en": [
+            "The report by PLA Daily correspondent Chen Dianhong says the brigade's simulators reproduce system failures and sudden emergencies and that 'complex battlefield conditions such as multi-wave target approaches and electromagnetic interference are fully reproduced, forcing pilots to strengthen their combat skills'. The reference to unmanned wingmen is one sentence in that context; the adversary is described as a 'virtual opponent', and there is no description of distributed networked exercises or AI adversaries. None of the pilots or squadron leaders quoted in the article speaks about the simulator or the wingmen.",
+            "Liberty Times notes that the report does not name the aircraft type, while the photo caption shows a J-16 attributed to the brigade. What can be confirmed is therefore that an operational Southern Theater unit has built coordination with unmanned wingmen into routine simulator training; the wingman's autonomy, the airframe used and the frequency of training lie outside the published information."
+          ]
+        },
+        {
+          "heading_ja": "2024年以降の戦術検証と編隊映像の蓄積",
+          "heading_en": "Tactics validation since 2024 and the accumulation of formation footage",
+          "paragraphs_ja": [
+            "自由時報によれば、解放軍報は2025年12月にも中部戦区の飛行員がシミュレーターで「システムが生成した忠誠僚機の無人機編隊と協同」し、数千キロ離れた実部隊と対抗した事例を報じていた。CASIが2026年6月に公表した研究は、解放軍空軍が2024年以降に有人無人協同の戦術を検証しており、殲-20を最初期に受領した東部戦区の第9航空旅（安徽省蕪湖）が殲-20の突破戦術を支えていると記す。2025年11月の空軍創設76周年の映像では攻撃-11が殲-20・殲-16Dと編隊を組み、同年9月の閲兵では複数の自律型僚機が公開された。",
+            "International Business Timesは、CASIの40ページの研究（ジョン・チェン、エミリー・スチュワート両氏）が2021年に中国の研究機関が行った、無人僚機に敵の射撃を引きつけさせて有人機を守る模擬実証を記録しているとし、通信の信頼性、指揮統制、複数機の協調が中国側の主要な課題だと指摘する。同紙はまた、米陸軍変革・訓練司令部（T2COM）の評価が台湾上空の無人機群が防空網を圧倒しうると警告したと伝えているが、この評価文書は本号では直接確認していない。"
+          ],
+          "paragraphs_en": [
+            "According to Liberty Times, PLA Daily reported in December 2025 that a Central Theater pilot in a simulator 'coordinated with a loyal-wingman drone formation generated by the system' against live forces thousands of kilometres away. A CASI study published in June 2026 says PLA Air Force units have been validating manned-unmanned teaming tactics since 2024 and that the 9th Aviation Brigade at Wuhu, Anhui, in the Eastern Theater, among the first to receive the J-20, supports J-20 penetration tactics. Footage for the air force's 76th anniversary in November 2025 showed the GJ-11 flying with the J-20 and J-16D, and the September 2025 parade displayed several autonomous wingman drones.",
+            "The International Business Times says the 40-page CASI study by John Chen and Emilie B. Stewart records a 2021 simulated demonstration by a Chinese research institute in which an unmanned wingman was directed to draw enemy fire to protect a manned fighter, and identifies communications reliability, command and control and multi-aircraft coordination as China's main challenges. The paper also reports that an assessment by the US Army's Transformation and Training Command (T2COM) warned that drone swarms over Taiwan could overwhelm defensive networks; that document was not examined directly for this edition."
+          ]
+        },
+        {
+          "heading_ja": "米側の到達点との比較で残る未知数",
+          "heading_en": "What remains unknown when set against the US benchmark",
+          "paragraphs_ja": [
+            "米空軍は7月、協同戦闘機YFQ-44Aがモハーベ砂漠上空でデジタル標的にAIM-120を発射したと発表しており、米中双方が訓練と試験の段階で有人無人協同を公開している。中国側の公開情報は訓練への組み込みを示す一方、実機の無人僚機が実部隊でどの程度運用されているかは映像と閲兵から推測するほかない。解放軍報の記述が前線部隊の日常訓練に及んだこと自体が、戦術検証から部隊訓練への移行を測る指標となる。"
+          ],
+          "paragraphs_en": [
+            "The US Air Force announced in July that the YFQ-44A collaborative combat aircraft fired an AIM-120 at a digital target over the Mojave Desert, so both sides are disclosing manned-unmanned teaming at the training and test stage. China's open information shows incorporation into training, while the extent to which physical unmanned wingmen operate with line units can only be inferred from footage and parades. That PLA Daily's description has reached the daily training of a frontline brigade is itself an indicator of the shift from tactics validation to unit training."
+          ]
+        }
+      ],
+      "watch_next_ja": "解放軍報・中国軍網による他戦区の同種記述。12月7〜13日の珠海航空ショーでの無人僚機の展示と有人機との編隊飛行。CASIの後続報告と米陸軍T2COMの評価文書の公開。",
+      "watch_next_en": "Similar descriptions from other theater commands in PLA Daily and 81.cn; unmanned-wingman displays and formation flights with manned aircraft at Airshow China in Zhuhai on 7–13 December; follow-up CASI reports and publication of the US Army T2COM assessment.",
+      "date": "2026-11-24",
+      "publisher": "解放軍報（中国軍網）",
+      "publisher_en": "PLA Daily (via 81.cn)",
+      "sources": [
+        {
+          "title": "长空亮剑傲苍穹——来自南部战区空军航空兵某旅的观察报告",
+          "url": "https://mil.gmw.cn/2026-11/24/content_39116809.htm",
+          "publisher": "解放軍報（光明網転載）",
+          "date": "2026-11-24",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "共軍加速有人無人協同作戰！擴大將AI「忠誠僚機」納入前線飛官日常訓練",
+          "url": "https://def.ltn.com.tw/article/breakingnews/5653604",
+          "publisher": "自由時報",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "China Trains Fighter Pilots With AI Combat Drones. US Army Warns Of Threat To Taiwan And American Forces.",
+          "url": "https://www.yahoo.com/news/us/articles/china-trains-fighter-pilots-ai-213751383.html",
+          "publisher": "International Business Times (via Yahoo News)",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "China embeds 'loyal wingman' drone simulations in fighter pilot training",
+          "url": "https://www.scmp.com/news/china/military/article/3375766/china-embeds-loyal-wingman-drone-simulations-fighter-pilot-training",
+          "publisher": "South China Morning Post",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": false
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "c2-decision"
+      ],
+      "actors": [
+        "CN",
+        "US",
+        "TW"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 1,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [
+        "engage",
+        "assess"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261126-11",
+      "title_ja": "ロシア、ミサイルと無人機113機で夜間攻撃、うちジェット推進76機　ウクライナ空軍は87機を無力化と発表",
+      "title_en": "Russia attacks overnight with missiles and 113 drones, 76 of them jet-powered; Ukraine's air force reports 87 neutralised and three killed in Kharkiv",
+      "brief_text_ja": "ウクライナ空軍は11月26日、ロシアが夜間にシャヘド型攻撃無人機113機（うちジェット推進76機）とゲルベラ、パロディ型の欺瞞無人機、およびブリャンスク・クルスク両州からイスカンデルM、ツィルコン、S-400のミサイルを投入し、午前8時時点で87機（ジェット推進52機を含む）を撃墜・制圧したと発表した。着弾は20か所、撃墜機の落下は6か所で記録され、Euronewsによればハルキウ市では住宅と教育施設への攻撃で3人が死亡し、キーウではミサイル攻撃で7人が負傷した。ロシア国防省はウクライナの無人機343機を15地域で撃墜したと主張しているが、独立した検証はない。",
+      "brief_text_en": "Ukraine's air force said on 26 November that Russia launched 113 Shahed-type attack drones overnight, 76 of them jet-powered, along with Gerbera and Parody decoy drones and Iskander-M, Zircon and S-400 missiles from Bryansk and Kursk, and that 87 drones (including 52 jet-powered) had been shot down or suppressed as of 8 a.m. Impacts were recorded at 20 locations and debris falls at six; Euronews reported three killed in Kharkiv in strikes on a residential building and an educational institution and seven injured in a missile strike on Kyiv. Russia's defence ministry claimed 343 Ukrainian drones were downed over 15 regions, a figure without independent verification.",
+      "date": "2026-11-26",
+      "publisher": "ウクライナ空軍",
+      "publisher_en": "Ukrainian Air Force",
+      "sources": [
+        {
+          "title": "Russian Federation attacked Ukraine with ballistic missiles; 87 of 113 drones neutralized",
+          "url": "https://unn.ua/en/news/the-russian-federation-attacked-ukraine-with-ballistic-missiles-87-of-113-drones-were-neutralized",
+          "publisher": "UNN",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Russia launches ballistic missile and drone barrage on Ukraine, killing at least three",
+          "url": "https://www.euronews.com/2026/11/26/russia-launches-ballistic-missile-and-drone-barrage-on-ukraine-killing-at-least-three",
+          "publisher": "Euronews",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "RU",
+        "UA"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [
+        "engage"
+      ],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "",
+      "title_ja": "クウェート、イランの無人機攻撃でイタリア人技術者2人が死亡と発表　防空監視拠点のRheinmetall社員、イランは否定",
+      "title_en": "Kuwait says two Italian technicians were killed in an Iranian drone attack on a 'vital site'; they worked for Rheinmetall Italia at an air-defence surveillance station, and Iran denies involvement",
+      "brief_text_ja": "クウェート国防省は11月26日、複数の敵対的な無人機を探知して対処した際、「重要施設」で迎撃された無人機の破片によりイタリア人2人が負傷後に死亡し、クウェート人とパキスタン人各1人が負傷したと発表し、イランの「卑劣な侵略」と非難した。イタリア外務省はRheinmetall Italiaの技術者2人が作業中の施設で無人機攻撃による爆発が起きたと確認し、タヤーニ外相は2人が防空監視拠点の技術者だったと述べ、クウェート外務省は主権の「重大な侵害」として自衛権の留保を表明し、欧州委員会のフォンデアライエン委員長は湾岸の隣国への攻撃をやめさせる圧力の強化を求めた。イラン軍は域内で作戦を行っていないと否定し、非難を敵対的な目的の「隠れ蓑」と主張している。",
+      "brief_text_en": "Kuwait's defence ministry said on 26 November that, as its forces detected and dealt with several hostile drones, two Italians died of injuries from falling shrapnel from intercepted drones at a 'vital site' and a Kuwaiti and a Pakistani were wounded, condemning Iran's 'heinous aggression'. Italy's foreign ministry confirmed an explosion caused by a drone attack at a site where two Rheinmetall Italia technicians were working, Foreign Minister Antonio Tajani said they were technicians at an air-defence surveillance station, and Prime Minister Giorgia Meloni expressed condolences after learning of the deaths during the European Council. Kuwait's foreign ministry called the attack a 'flagrant violation' of its sovereignty and reserved the right to self-defence, and Commission President Ursula von der Leyen called for stepped-up pressure on Iran to end attacks on its Gulf neighbours. Iran's military denied conducting operations in the region and called the accusations a 'cover' for hostile aims.",
+      "date": "2026-11-26",
+      "publisher": "クウェート国防省・イタリア外務省",
+      "publisher_en": "Kuwait Ministry of Defence / Italian Ministry of Foreign Affairs",
+      "sources": [
+        {
+          "title": "Two Italians killed by 'drone strike debris' in Kuwait",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+          "publisher": "Al Jazeera / Reuters",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        },
+        {
+          "title": "Two Italian workers killed in Iranian drone attack on Kuwait",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/26/two-italian-workers-killed-in-iranian-drone-attack-on-kuwait/",
+          "publisher": "The National",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "autonomy-laws",
+        "isr-targeting"
+      ],
+      "actors": [
+        "EU"
+      ],
+      "doc_type": "news-analysis"
+    },
+    {
+      "id": "cl-20261127-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [],
+      "kill_chain": [],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "",
+      "title_ja": "スイスNCSC、AIエージェントによる攻撃の国内初の確認事例を公表　「既知の全事例で侵害に成功」",
+      "title_en": "Switzerland's NCSC publishes the first confirmed domestic cases of cyberattacks using AI agents: all known cases led to compromise, and internet-reachable agents have almost doubled since October",
+      "brief_text_ja": "スイス連邦サイバーセキュリティ庁（BACS）の国家サイバーセキュリティセンター（NCSC）は11月24日、AIエージェントを用いたサイバー攻撃の国内初の確認事例を公表し、少なくとも2つの部門の企業と重要インフラ事業者が影響を受け、「NCSCが把握するすべての攻撃で、AIエージェントの使用は被害者のITシステムの侵害成功につながった」と述べた。エージェントは脆弱性の探索、攻撃ツールの選択、攻撃手順の実行を担い、標準的または推測しやすいパスワードとインターネット接続系の既知の脆弱性を突いたという。「ARTEX」や「CyberStrikeAI」のようにインターネット経由で利用できるAIエージェントの数は2026年10月以降ほぼ倍増したとし、公開系の重要更新を公開後24時間以内に適用すること、例外なき多要素認証、最小権限、振る舞い検知、定期的な侵入試験など6項目の即時対策を求めた。",
+      "brief_text_en": "The National Cyber Security Centre (NCSC) of Switzerland's Federal Office for Cybersecurity (BACS) published on 24 November the first confirmed domestic cases of cyberattacks involving AI agents, saying organisations and critical-infrastructure operators across at least two sectors were affected and that 'in all cyberattacks known to the NCSC, the use of AI agents led to the successful compromise of the victim's IT systems'. The agents searched for vulnerabilities, chose attack tools and executed the attack steps, exploiting default or easily guessed passwords and known flaws in internet-connected systems. The number of internet-accessible AI agents such as 'ARTEX' and 'CyberStrikeAI' has almost doubled since October 2026, the advisory says, and it lists six measures to implement without delay, including applying critical updates to internet-facing systems within 24 hours of release, multi-factor authentication without exception, least privilege, behavioural anomaly detection and regular penetration tests.",
+      "date": "2026-11-24",
+      "publisher": "スイス連邦サイバーセキュリティ庁（BACS／NCSC）",
+      "publisher_en": "Swiss Federal Office for Cybersecurity (BACS / NCSC)",
+      "sources": [
+        {
+          "title": "Cyberattacks involving AI agents: First confirmed cases in Switzerland",
+          "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+          "publisher": "BACS / NCSC",
+          "date": "2026-11-24",
+          "kind": "primary",
+          "accessed": true
+        },
+        {
+          "title": "Switzerland Confirms First AI-Agent Cyberattacks That Successfully Compromised IT Systems",
+          "url": "https://cybersecuritynews.com/switzerland-ai-agent-cyberattacks",
+          "publisher": "Cyber Security News",
+          "date": "2026-11-25",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "cyber-ci",
+        "frontier-safety"
+      ],
+      "actors": [],
+      "doc_type": "official-report"
+    },
+    {
+      "id": "cl-20261127-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "japan_relevance": false,
+      "stage": "",
+      "forums": [
+        "nato"
+      ],
+      "kill_chain": [
+        "detect",
+        "decide"
+      ],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261126-07",
+      "title_ja": "ウクライナ国防省、「Delta」への独・ノルウェーのアクセスと英・デンマークの「Avengers Labs」参加を総括",
+      "title_en": "Ukraine's defence ministry sums up German and Norwegian access to Delta and UK and Danish entry into the 'Avengers Labs' AI environment, offering five million annotated frames with no data export",
+      "brief_text_ja": "Defence Industry Europeが11月26日に伝えたウクライナ国防省の総括によれば、同省はイズミルで11月17〜19日に開かれたNATO Edge 26で、戦場管理システム「Delta」へのアクセスに関するドイツとノルウェーとの合意、および英国とデンマークがAI計画「Avengers Labs」に外国として初めて参加したことを紹介した。Avengers Labsは、主にDeltaから得た500万超の注釈付き映像フレームを用いて国内外の防衛企業が安全な環境でAIモデルを訓練・試験できる仕組みで、基礎データを環境外に持ち出すことはできない。同省イノベーションセンターのザフリーチュク技術部長はDeltaを停止せずに更新し部隊が開発したツールに開放していると述べ、Brave1監督委員会のボルニャコフ委員長は部隊と製造者の反応をもとに試験・購入・導入を速める手法を説明した。",
+      "brief_text_en": "According to a Ukrainian defence ministry summary reported by Defence Industry Europe on 26 November, the ministry presented at NATO Edge 26 in İzmir on 17–19 November its agreements with Germany and Norway on access to the Delta battle-management system and the entry of the United Kingdom and Denmark as the first foreign partners in the Avengers Labs AI programme. Avengers Labs lets Ukrainian and foreign defence companies train and test AI models in a secure environment using more than five million annotated frames, mostly from Delta, and companies cannot take the underlying data out of the environment. Serhii Zahriichuk, technical director of the ministry's innovation centre, said Delta is updated without being taken offline and opened to tools developed by military units, and Brave1 supervisory board chair Oleksandr Borniakov described using feedback from troops and manufacturers to test, buy and adopt technology faster.",
+      "date": "2026-11-26",
+      "publisher": "ウクライナ国防省（報道）",
+      "publisher_en": "Ukrainian Ministry of Defence (report)",
+      "sources": [
+        {
+          "title": "Ukraine highlights four European partnerships on DELTA and battlefield AI at NATO Edge 26",
+          "url": "https://defence-industry.eu/ukraine-highlights-four-european-partnerships-on-delta-and-battlefield-ai-at-nato-edge-26/",
+          "publisher": "Defence Industry Europe",
+          "date": "2026-11-26",
+          "kind": "media",
+          "accessed": true
+        }
+      ],
+      "themes": [
+        "c2-decision",
+        "industry-procurement"
+      ],
+      "actors": [
+        "UA",
+        "GB",
+        "NATO"
+      ],
+      "doc_type": "news-analysis"
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-27",
+      "text_ja": "ポーランド国防省とPalantirのAI意思決定支援ソフト契約の署名式（ワルシャワ、正午）。ベセント財務長官が示したNvidia取締役会・外部弁護士の回答期限（「10日以内」）の目安",
+      "text_en": "Signing of the Polish defence ministry's AI decision-support contract with Palantir (Warsaw, noon); approximate deadline Treasury Secretary Bessent set for Nvidia's board and outside counsel ('within 10 days')"
+    },
+    {
+      "date": "2026-11-28",
+      "text_ja": "台湾統一地方選挙。選挙後の国防特別予算法案の審議再開",
+      "text_en": "Taiwan local elections; deliberation of the special defence budget bill resumes afterwards"
+    },
+    {
+      "date": "2026-11-30",
+      "text_ja": "防衛省「Defense AI Vision」の公表（月末めど）。財政審建議の全文公表",
+      "text_en": "Japan MOD 'Defense AI Vision' due around month-end; full text of the Fiscal System Council recommendation"
+    },
+    {
+      "date": "2026-12-01",
+      "text_ja": "米下院3委員会によるNvidiaフアン氏の非公開・記録付き聴取（12月2日はティーター法務責任者）。FY2027 NDAA協議文書の公表見通し。NATO外相会合（週内、日程は公式発表待ち）",
+      "text_en": "Closed, transcribed interview of Nvidia's Huang by three House committees (general counsel Teeter on 2 Dec); FY2027 NDAA conference text expected; NATO foreign ministers' meeting during the week"
+    },
+    {
+      "date": "2026-12-03",
+      "text_ja": "米上院銀行委員会、輸出管理の監督に関する公開公聴会（フアン氏が証言）",
+      "text_en": "US Senate Banking Committee open hearing on export-control oversight (Huang to testify)"
+    },
+    {
+      "date": "2026-12-05",
+      "text_ja": "国連総会本会議でのLAWS決議（L.37）の採択（12月上旬の見通し）。日本：安保3文書改定に向けた有識者会議の報告書（12月上旬）",
+      "text_en": "UN General Assembly plenary adoption of the LAWS resolution (L.37), expected early December; Japan: expert panel report on the revision of the three security documents (early December)"
+    },
+    {
+      "date": "2026-12-07",
+      "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）",
+      "text_en": "Statutory deadline for the FAA Part 108 (BVLOS) final rule; Airshow China, Zhuhai (7–13 Dec)"
+    },
+    {
+      "date": "2026-12-11",
+      "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方",
+      "text_en": "US continuing resolution expires; fate of the reconciliation bill including Golden Dome and autonomous-warfare funding"
+    },
+    {
+      "date": "2026-12-15",
+      "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標）と5年総額の決着。米G20首脳会合（ドラル）",
+      "text_en": "Japan: Cabinet decision on the revised three security documents (mid-December target) and settlement of the five-year total; G20 summit (Doral)"
+    },
+    {
+      "date": "2026-12-23",
+      "text_ja": "Megaspeed系7社のエンティティリスト追加に伴う経過措置（11月23日時点で輸送中の貨物）の期限",
+      "text_en": "End of the savings clause (shipments en route on 23 Nov) for the Megaspeed-linked Entity List additions"
+    },
+    {
+      "date": "2026-12-31",
+      "text_ja": "グテーレス国連事務総長の任期満了。ブリッジタウンで提起した「多国間AIリスク管理枠組み」協議の引き継ぎ",
+      "text_en": "End of Secretary-General Guterres's term; handover of the 'multilateral AI risk-management framework' consultations raised at Bridgetown"
+    },
+    {
+      "date": "2027-01-10",
+      "text_ja": "米中貿易休戦の期限",
+      "text_en": "Expiry of the US–China trade truce"
+    },
+    {
+      "date": "2027-01-18",
+      "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切",
+      "text_en": "Comment deadline for the BIS interim final rule on remote access"
+    },
+    {
+      "date": "2027-01-31",
+      "text_ja": "ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）",
+      "text_en": "White House superintelligence task force policy document (expected by end-January)"
+    },
+    {
+      "date": "2027-02-17",
+      "text_ja": "11月19日発効の米商務省規則に基づく、中国企業に計算資源を貸し出すデータセンターの90日許可取得期限（目安）",
+      "text_en": "Approximate 90-day licensing deadline under the 19 November Commerce rule for data centres leasing compute to Chinese firms"
+    }
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（商務省規則の市場影響、Anthropic、GAO：該当あり。感謝祭の祝日で国防省・議会の新規公表は該当なし）、中国（解放軍報：該当あり。国防部・外交部の新規AI関連は該当なし）、日本（防衛省・自民党・経産省・外務省：11月26日の新規AI関連は該当なし。「Defense AI Vision」は未公表）、韓国（国防部・防衛事業庁：新規は該当なし。検索で出た防衛事業庁のAI間談会は6月26日のもの）、台湾（行政院・大陸委員会・研究者報告：該当あり）、欧州・NATO（ポーランド国防省、ウクライナ国防省のNATO Edge総括、スイスNCSC：該当あり）、英国（国防省：新規は該当なし。Novaraの標的システム記事は11月13日のTBIJ報道の再報）、ロシア・ウクライナ（夜間攻撃：該当あり）、イスラエル・中東（クウェートへの無人機攻撃：該当あり。イスラエル軍のAI関連新規は該当なし）、インド（新規は該当なし）、豪州（新規は該当なし）、ASEAN（マレーシア・シンガポール・タイ・インドネシアは出荷停止と融資保留の対象として言及。各国政府の反応は未報道）。",
+      "japan": "防衛省報道資料・大臣会見・防衛装備庁のページは本号の実行環境から直接開けず、報道検索で11月25〜26日の新規AI関連発表を確認した（該当なし）。自民党・経産省・外務省・内閣府・国会審議（11月26日の新規AI・安全保障関連は該当なし）。"
+    },
+    "dropped": [
+      {
+        "title": "APA / wisevoter: Pentagon plans to integrate AI into armored vehicles and naval drones (26 Nov)",
+        "url": "https://en.apa.az/america/pentagon-plans-to-integrate-artificial-intelligence-into-armored-vehicles-and-naval-drones-538619",
+        "reason": "根拠のGAO報告（GAO-27-107837「Artificial Intelligence: Actions and Opportunities to Implement Responsible Use in DOD」）は10月14日公表で、10月23日のNPR報道で既報。新規の事実なし。"
+      },
+      {
+        "title": "CNBC: Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say (26 Nov)",
+        "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+        "reason": "本文を開けず内容を確認できないため、主要動向1に含めなかった。Nvidiaがネオクラウドに中国企業への貸し出しを排除する条件を課したとの報道で、確認できれば続報の対象。"
+      },
+      {
+        "title": "Semafor: New US export rules threaten Asian AI buildout (25 Nov) / Miller's AI task force involvement still taking shape (25 Nov)",
+        "url": "https://www.semafor.com/article/11/25/2026/millers-ai-task-force-involvement-still-taking-shape",
+        "reason": "いずれも本文を開けず（robots拒否）。前者はBloomberg報道で代替し、後者はミラー首席補佐官の超知能タスクフォースへの関与が未定との内容で、確認できる事実が乏しいため見送り。"
+      },
+      {
+        "title": "Novara Media: The Ministry of Defence Is Designing an AI-Powered Targeting System (24 Nov)",
+        "url": "https://novaramedia.com/2026/11/24/the-ministry-of-defence-is-designing-an-ai-powered-targeting-system/",
+        "reason": "The Bureau of Investigative Journalismが11月13日に報じた「Digital Targeting Web」の情報公開文書（「automation by default; human by exception」）の再報で、対象期間外。英国防省はコメントしていない。"
+      },
+      {
+        "title": "emergent.sh: China and Netherlands Signal Support for Military AI / Council of Europe Calls for AI Governance at UN (26 Nov)",
+        "url": "https://emergent.sh/news/china-netherlands-signal-support-military-ai",
+        "reason": "一次資料の提示がなく、中国・オランダ両政府、欧州評議会、国連のいずれにも裏付けを確認できないため登録しない。"
+      },
+      {
+        "title": "The Neuron digest: FCC authorises up to one million satellites for SpaceX's 'Starmind' orbital AI compute network (25 Nov)",
+        "url": "https://theneuron.ai/digest/everything-that-happened-in-ai-today-november-26-2026",
+        "reason": "一次資料（FCC文書）と元記事（Gizmodo）を開けず、安全保障との接点も間接的なため見送り。計算資源の軌道上展開として今後の確認対象。"
+      },
+      {
+        "title": "RNA Media: China trains Alibaba's Qwen3-32B aboard ADA Space 'Star Compute' satellite (26 Nov)",
+        "url": "https://www.rnamedia.in/cyber/china-takes-ai-race-into-space-trains-alibabas-large-language-model-aboard-satellite/27432",
+        "reason": "中国情報通信研究院の試験結果の公表日を確認できず、記事自身も軍事指揮統制への統合は示されていないとしている。"
+      },
+      {
+        "title": "The Independent / IBTimes: US Army T2COM assessment warns Chinese drone swarms over Taiwan could overwhelm defences",
+        "url": "https://www.yahoo.com/news/us/articles/china-trains-fighter-pilots-ai-213751383.html",
+        "reason": "評価文書の原文と公表日を確認できないため独立項目とせず、主要動向5で報道として言及するにとどめた。"
+      }
+    ],
+    "notes_for_editor": [
+      "主要動向1（Nvidia・融資）：FT原文とBloomberg原文は開けず、The Star（Reuters転載）、The National、Forbes、swissinfo（Bloomberg転載）、Dealroomの記述に依拠した。出荷停止の開始時期、対象製品の範囲、恒久性はいずれの報道でも特定されておらず、Nvidia・Dell・Supermicroはコメントしていない。融資の保留は匿名の関係者情報であり、「凍結」と「保留・遅延」の語の強さに媒体差がある。重要度は、供給元の出荷停止と490億ドル規模の融資市場の停止という市場構造への影響の大きさから3としたが、企業の確認がない報道段階であるため、編集者の判断で2に下げる余地がある。",
+      "主要動向2（台湾）：ヴァンダービルト大学の報告書本文と題名は確認できず、The Independent（Yahoo転載）とTVBSを要約したNews Minimalistに依拠した。アカウント数等の数字は台湾政府の内部報告としてThe Independentが伝えたもので、研究報告自体の数字ではない。桃園市議候補の起訴は11月24日号で既報の内容を文脈として再掲した。Taipei Timesの記事は27日付紙面で26日の出来事を報じている。",
+      "主要動向3（ポーランド）：国防省の声明原文は開けず、Reuters（Yahoo転載）とThe Next Webに依拠した。nowosci.aiはAI生成・編集未査読の記事であるため、同記事にしかないMaven Smart Systemへの言及とPalantir Polska代表の発言は、その性格を明記して扱った。署名式は本号公開時点では未実施であり、date は発表日の11月26日とした。",
+      "主要動向4（アモデイ）：X投稿の原文は開けず、TechCrunch、Forbes、Business Todayの引用に依拠した。引用文の境界はTechCrunchの記事で一部不明確であり、日本語訳は編集部の訳である。Axiosの記事（11月25日「AI leaders clash over surrendering human free will」）自体は開けていない。前日の未公開モデルに関するAxios報道（cl-20261126-05）とは別記事であるため continuation_of は空にした。",
+      "主要動向5（解放軍報）：原文は光明網の転載で確認し、無人僚機への言及は一文のみである。南華早報の記事は開けず、IBTimes（Yahoo転載）と自由時報の要約に依拠した。IBTimesが伝える米陸軍T2COMの評価文書は未確認のため、報道として言及するにとどめた。公表日が11月24日のため、当日の動向より下に置いた。",
+      "短信（クウェート）：イラン軍の否定はAl Jazeeraが国営メディアを引いて伝えたもので、Rheinmetall自身の声明は確認できていない。actors にイタリアとクウェートの登録がないため EU のみとした。",
+      "短信（スイスNCSC）：公表日は11月24日で前号の確認窓に入るが、前号で扱っていないため本号で短信として扱った。",
+      "短信（ウクライナ国防省・NATO Edge）：NATO Edge 26は11月17〜19日の開催で、国防省の総括を伝えるDefence Industry Europeの記事が11月26日付。dateは記事日とした。",
+      "検証のWARN：主要動向の見出しの一部が目安の45字を超える可能性がある。件数は主要動向5・短信4で、短信は目安の下限を下回るが、感謝祭で米国の公式発表が乏しい日であり、薄い話題で埋めることはしなかった。"
+    ]
+  }
+}
