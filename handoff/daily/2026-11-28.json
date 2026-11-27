@@ -1,0 +1,535 @@
+{
+  "edition_date": "2026-11-28",
+  "generated_at": "2026-11-28T06:20:00+09:00",
+  "window_from": "2026-11-27T06:25:00+09:00",
+  "edition_title_ja": "人間の責任を掲げるAI方針と、前線に届いた意思決定支援",
+  "edition_title_en": "AI Policies That Keep Humans Accountable, and Decision Support Reaching the Front",
+  "edition_dek_ja": "日本とポーランドの選択、空軍クラウドへの侵入、対無人機の共同評価が示す実装の現在地。",
+  "edition_dek_en": "Choices in Tokyo and Warsaw, an intrusion into an Air Force cloud, and joint counter-drone trials mark where implementation stands.",
+  "lead_points_ja": [
+    "11月27日は、日本とポーランドがそれぞれ「人間が指揮し責任を負う」枠組みの下でAIを部隊に実装する選択を、文書と契約で示した一日である。防衛省はAIとデータを戦略的資産と位置づける「Defense AI Vision」を公表し、ポーランド国防省はPalantirのMaven Smart Systemを「Saturn」の名称で全軍に導入する5年約3億ドルの契約に署名した。",
+    "防衛省の新方針は2024年7月の基本方針を更新し、最終判断と責任を人間が担うこと、特定の技術・事業者への過度な依存を避けること、データを自ら管理することを原則に据えた。デジタル統括責任者の下に省全体のデータ管理組織を置き、実行計画に30日・60日・90日の期限を設けて進捗を管理する。人の関与が及ばない完全自律型の致死性兵器を開発する意図はないと明記したと報じられている。",
+    "ポーランド国防省は「鍵、サーバー、情報はすべてポーランド軍の排他的所有」と強調し、国産のAIRONとNEFRYTが将来に事業者のツールを置き換えうるとした。一方で、国家安全保障庁が2023年12月以降リスク分析を作成も受領もしていないと回答したことが報じられ、安全評価の欠如への批判が続く。",
+    "米空軍の基幹クラウド「Cloud One」へのハッカーの侵入がReutersにより報じられた。人事記録から防空データまでを扱い、200超の拠点の弾薬追跡を支える基盤で、サイバー軍が被害評価に入ったとされる。侵入者の特定と流出の有無は不明で、空軍は個別システムの状況に言及していない。",
+    "イスラエル国防省は米中央軍などと約20の対無人機システムを評価する「Black Sands」をイスラエル国内で初めて実施したと発表したが、結果は公表していない。英国のサイバー・特殊作戦軍司令官はAnthropicとOpenAIの最新モデルへのアクセスを求め、「効果の遂行」への利用も探りたいと述べた。"
+  ],
+  "lead_points_en": [
+    "On 27 November, Japan and Poland each showed, in a document and in a contract, how they intend to field AI under a framework in which humans command and bear responsibility. Japan's Ministry of Defense published its Defense AI Vision, which treats AI and data as strategic assets, and Poland's defence ministry signed a five-year contract worth about $300 million to deploy Palantir's Maven Smart System across the armed forces under the name Saturn.",
+    "Japan's new policy updates the July 2024 basic policy and sets as principles that humans keep final judgment and responsibility, that over-dependence on particular technologies or vendors is avoided, and that the ministry manages its own data. A ministry-wide data management organisation will sit under the Chief Digital Officer, and an execution plan will track progress against 30-, 60- and 90-day deadlines. The document is reported to state that Japan has no intention of developing fully autonomous lethal weapons beyond human involvement.",
+    "Poland's ministry stressed that all keys, servers and information are and will remain the exclusive property of the Polish Armed Forces, and said its own AIRON and NEFRYT systems may replace the vendor's tools in future. At the same time, the Internal Security Agency reportedly said it has neither prepared nor received any risk analysis since December 2023, and criticism over the missing security assessment continues.",
+    "Reuters reported that hackers breached Cloud One, the US Air Force's flagship cloud platform. The platform handles data from personnel records to air-defence information and supports munitions tracking at more than 200 sites; US Cyber Command is said to be assessing the damage. The intruders have not been identified, data theft is unconfirmed, and the Air Force declined to discuss the status of specific systems.",
+    "Israel's Ministry of Defense announced the first Black Sands trials on Israeli soil, evaluating about 20 counter-drone systems with US Central Command and others, without releasing results. The commander of the UK's Cyber and Specialist Operations Command said the military is seeking access to the latest Anthropic and OpenAI models and wants to explore using them to prosecute effect."
+  ],
+  "items": [
+    {
+      "id": "cl-20261128-01",
+      "rank": 1,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "防衛省、「Defense AI Vision」を公表　最終判断と責任は人間に、AIとデータを戦略的資産と位置づけ",
+      "title_en": "Japan's Ministry of Defense publishes its Defense AI Vision: humans keep final judgment and responsibility, AI and data become strategic assets",
+      "lead_ja": "防衛省は11月27日、AI活用の新たな基本方針「Defense AI Vision（防衛AIビジョン）」を公表した。2024年7月の「防衛省AI活用推進基本方針」を更新し、AIとデータを任務遂行能力を高める戦略的資産と位置づけたうえで、最終判断と責任を人間が担うこと、特定の技術や事業者への過度な依存を避けることを原則に据えた。小泉防衛相は「AIとデータを我が国を守る力に変え、自衛隊の持つ能力を相互につなぎ、一つの力として最大限に発揮する」ことが狙いだと説明した。",
+      "lead_en": "On 27 November Japan's Ministry of Defense published a new basic policy on AI, the Defense AI Vision. It updates the July 2024 basic policy on promoting AI use, positions AI and data as strategic assets that raise mission capability, and sets as principles that humans retain final judgment and responsibility and that over-dependence on specific technologies or vendors is avoided. Defense Minister Shinjiro Koizumi said the aim is to turn AI and data into the power to defend Japan and to connect the Self-Defense Forces' capabilities so they can be exercised as one.",
+      "sections": [
+        {
+          "heading_ja": "「判断の補助」から「戦い方の変革」へ移る位置づけ",
+          "heading_en": "From a decision aid to a change in how forces fight",
+          "paragraphs_ja": [
+            "2024年の基本方針は、情報収集・分析、後方支援、事務処理の効率化など7つの重点分野を示し、AIを人間の判断を補助するものと位置づけていた。新方針はこの考え方を継承しつつ、個別業務へのAI導入から組織全体の変革へと目的を移し、情報収集から状況理解、意思決定、部隊行動、後方支援までの一連の過程をAIとデータで接続するとした。報道が伝える基本原則は、人間が判断と責任を担うこと、国内法・国際法の順守、安全性・透明性・説明責任の確保、特定の技術・事業者への過度な依存の回避、任務上の課題を起点とした活用の5点である。",
+            "人間の関与については、AIに与える目的と権限の範囲をあらかじめ定め、用途とリスクに応じて監督し、必要に応じて介入できる体制を求めた。AIエージェントには必要最小限の権限を与え、閲覧と変更の権限を区別し、重要な操作には人の確認と処理の記録を残す。時事通信によれば、人の関与が及ばない完全自律型の致死性兵器を開発する意図はないと明記しており、国連総会第1委員会で日本が支持してきた立場を国内の実装文書に落とし込んだ形である。"
+          ],
+          "paragraphs_en": [
+            "The 2024 policy named seven priority areas, including intelligence analysis, logistics and administrative efficiency, and cast AI as a support to human judgment. The new document keeps that premise but shifts the goal from adopting AI in individual tasks to transforming the organisation, linking intelligence collection, situational understanding, decision-making, unit action and logistics through AI and data. According to press accounts, the five basic principles are that humans bear judgment and responsibility, compliance with domestic and international law, assurance of safety, transparency and accountability, avoidance of over-dependence on specific technologies or vendors, and deployment driven by mission problems.",
+            "On human involvement, the policy requires that the purpose and scope of authority given to AI be defined in advance, that oversight match use and risk, and that humans be able to intervene. AI agents are to receive the minimum necessary permissions, with read and write rights separated, and consequential operations are to require human confirmation and leave a record. Jiji Press reports that the document states Japan has no intention of developing fully autonomous lethal weapons beyond human involvement, carrying the position Japan has supported in the UN General Assembly's First Committee into a domestic implementation document."
+          ]
+        },
+        {
+          "heading_ja": "事業者依存を避ける「自ら選び、改善し続ける」能力",
+          "heading_en": "Avoiding vendor dependence by choosing and improving AI itself",
+          "paragraphs_ja": [
+            "新方針が従来と異なる点は、AIを自ら選択・評価・改良し、更新、利用停止、他の技術への移行を判断できる能力を省として保持すると明記したことにある。外部サービスを使う場合も、入力データだけでなく処理で生まれたデータについて取り出しと移行に必要な資料と利用権を確保し、「データを取り出せること」と「移行先で機能を使い続けられること」を別々に確認する。調達では契約終了時のデータと仕様の取り出し、他環境への移行可能性、初期費用から運用・更新・再評価までの総経費を評価対象にし、中核となる技術・知識・能力を国内に維持する。",
+            "推進体制として、デジタル統括責任者にAI統括責任者とデータ統括責任者を兼務させ、その下に省全体のデータ管理を担う組織を整備する。各幕僚監部や部隊に分散していたデータ資産を統合して運用する「デジタル共通基盤」の構築も掲げ、どこにどのデータがあり、誰が管理し、どの条件で使えるかを把握し、参照用データと学習・改良用データを分けて管理する。小泉防衛相は11月15日の会見で、迅速な実装と安全・保全の両立、日本が自立的に運営・管理できるクラウド環境の整備を重視事項に挙げており、依存回避の条項はこの発言を制度に移したものと読める。"
+          ],
+          "paragraphs_en": [
+            "What distinguishes the new policy is its explicit commitment that the ministry will retain the ability to select, evaluate and improve AI itself and to decide on updates, suspension or migration to other technologies. When external services are used, the ministry is to secure the documentation and usage rights needed to extract and migrate both input data and data generated in processing, and to verify separately that data can be taken out and that functions can continue in the destination environment. Procurement is to assess the extraction of data and specifications at contract end, portability to other environments, and total cost from initial outlay through operation, updates and re-evaluation, while keeping core technology, knowledge and capability in Japan.",
+            "For governance, the Chief Digital Officer will concurrently serve as Chief AI Officer and Chief Data Officer, with a ministry-wide data management organisation beneath that post. The policy also calls for a common digital foundation that pools data assets previously scattered across staff offices and units, maps what data exists, who manages it and on what terms it can be used, and separates reference data from training and improvement data. At his 15 November press conference Koizumi had named rapid implementation combined with safety and security, and a cloud environment Japan can operate and manage autonomously, as priorities; the vendor-dependence provisions read as that statement turned into policy."
+          ]
+        },
+        {
+          "heading_ja": "30・60・90日の期限で測る実装の到達点",
+          "heading_en": "Measuring implementation against 30-, 60- and 90-day deadlines",
+          "paragraphs_ja": [
+            "新方針は、重要プロジェクトを組み込んだ実行計画を速やかに策定し、30日、60日、90日といった短期の期限で進捗を評価・管理するとした。成果は実際の任務や業務で実現したかで判断し、導入件数を指標にしない。実行計画では責任者、工程、資源、成果指標を具体化する。したがって年内の焦点は、実行計画の公表時期と、どの重点プロジェクトが最初の90日に置かれるかに移る。",
+            "文書の位置づけには報道間で差があり、TBSは旧方針に「代わる新たな基本方針」、iotnewsは旧方針を「発展的に継承」したと伝えている。12月中旬に閣議決定が見込まれる安保3文書の改定、2027年度予算案、そして11月25日に自民党がおおむね了承した経済安全保障方針の「AI主権」との接続が、新方針の実効性を決める次の段階となる。"
+          ],
+          "paragraphs_en": [
+            "The policy commits the ministry to draw up promptly an execution plan that embeds key projects and to evaluate and manage progress against short deadlines of 30, 60 and 90 days. Results are to be judged by whether they are realised in actual missions and operations, and the number of deployments will serve no role as an indicator. The execution plan is to specify owners, schedules, resources and outcome measures. The questions for the rest of the year are therefore when the plan is published and which priority projects fall within the first 90 days.",
+            "Press accounts differ on the document's status: TBS calls it a new basic policy replacing the old one, while iotnews describes it as carrying the old policy forward. The next stage that will decide its effect is how it connects with the revision of the three security documents expected at a mid-December cabinet decision, the fiscal 2027 budget request, and the AI sovereignty language in the economic security policy the Liberal Democratic Party broadly endorsed on 25 November."
+          ]
+        }
+      ],
+      "watch_next_ja": "防衛省の実行計画の公表と最初の90日に置かれる重点プロジェクト。デジタル統括責任者の下のデータ管理組織の設置時期と人員。12月中旬の安保3文書改定と2027年度予算案におけるAI・データ関連経費。",
+      "watch_next_en": "Publication of the ministry's execution plan and the priority projects placed in the first 90 days. Timing and staffing of the data management organisation under the Chief Digital Officer. AI and data lines in the mid-December revision of the three security documents and the fiscal 2027 budget.",
+      "japan_relevance": true,
+      "date": "2026-11-27",
+      "stage": "announced",
+      "publisher": "防衛省",
+      "publisher_en": "Ministry of Defense (Japan)",
+      "sources": [
+        {"title": "「Defense AI Vision」の策定について（報道発表）", "url": "https://www.mod.go.jp/j/press/news/2026/11/27a.html", "publisher": "防衛省", "date": "2026-11-27", "kind": "primary", "accessed": false},
+        {"title": "Defense AI Vision（本文PDF）", "url": "https://www.mod.go.jp/j/press/news/2026/11/27b.pdf", "publisher": "防衛省", "date": "2026-11-27", "kind": "primary", "accessed": false},
+        {"title": "小泉大臣、新たなAIの基本方針「Defense AI Vision」を公表", "url": "https://news.cube-soft.jp/article/4118948", "publisher": "TBS NEWS DIG", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "防衛省、AIとデータを戦略的資産と位置付ける「Defense AI Vision（防衛AIビジョン）」を策定", "url": "https://iotnews.jp/smart-city/276820/", "publisher": "IoTNEWS", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "防衛省、AI活用の新方針を公表。特定事業者への過度な依存を回避へ", "url": "https://joho-todai.com/defense-ministry-ai-policy-reduce-vendor-dependence/", "publisher": "情報東大", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "防衛省 AI活用の基本方針策定 最終判断は人間が担う", "url": "https://news.web.nhk/newsweb/na/nd-20261127de82364", "publisher": "NHK", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "防衛省、ＡＩ活用で新指針 ５原則「判断は人間」", "url": "https://www.jiji.com/jc/article?k=2026112700243&g=pol", "publisher": "時事通信", "date": "2026-11-27", "kind": "media", "accessed": false}
+      ],
+      "themes": ["c2-decision", "governance-norms", "autonomy-laws"],
+      "actors": ["JP"],
+      "doc_type": "strategy",
+      "forums": [],
+      "kill_chain": ["decide", "sustain"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261123-11"
+    },
+    {
+      "id": "cl-20261128-02",
+      "rank": 2,
+      "tier": "main",
+      "importance": 3,
+      "title_ja": "ポーランド国防省、Palantirと「Saturn」導入契約に署名　5年約3億ドル、鍵とサーバーは軍が保持",
+      "title_en": "Poland signs a five-year, roughly $300 million Palantir contract for the Saturn decision-support system; keys and servers stay with the military",
+      "lead_ja": "ポーランド国防省は11月27日、ワルシャワでPalantir Technologies Polandと、AIを用いた意思決定支援システムの供給契約に署名した。対象はNATOと米軍が使うMaven Smart Systemで、ポーランドでは「Saturn」の名称で運用され、コシニャク＝カミシュ副首相兼国防相は契約を5年で約3億ドル（約12億ズロチ）と説明した。国防省は「鍵、サーバー、情報はすべてポーランド軍の排他的所有」と強調し、2023年12月から続いた選定に区切りがついた一方、安全評価の欠如を指摘する批判が残る。",
+      "lead_en": "On 27 November Poland's Ministry of National Defence signed a contract in Warsaw with Palantir Technologies Poland for an AI-based decision-support system. The system is Maven Smart System, already used by NATO and the US military, and will operate in Poland under the name Saturn; Deputy Prime Minister and Defence Minister Wladyslaw Kosiniak-Kamysz put the contract at about $300 million (about 1.2 billion zloty) over five years. The ministry stressed that all keys, servers and information are and will remain the exclusive property of the Polish Armed Forces. The signing closes a selection process running since December 2023, while criticism over the absence of a security assessment persists.",
+      "sections": [
+        {
+          "heading_ja": "全軍の司令部が使う「Saturn」の中身",
+          "heading_en": "Saturn for every command, from the General Staff to the Territorial Defence Force",
+          "paragraphs_ja": [
+            "国防省の発表によれば、システムは各種の情報源からデータを結合して分析し、状況図を構築して指揮官に行動の選択肢をより速く提示する。TVN24は、無人機、衛星、レーダー、偵察システムのデータを統合して共通の戦場図を作り、物体の検知・分類や標的選定を支援し、敵の動きを検知した後に規模と方向を推定して味方と比較し対応案を提案する機能を伝え、最終決定は指揮官に残るとした。",
+            "コシニャク＝カミシュ国防相は「すべての司令部、すべての軍種が恩恵を受ける」と述べ、参謀本部、作戦司令部、総司令部、サイバー空間防衛司令部、領土防衛軍司令部、支援総監部を列挙した。署名は国防省軍事外交局で行われ、ワルシャワ城塞の軍事博物館での式典にはカープCEOが出席した。Reutersによれば国防相は契約を「ポーランド軍の作戦能力にとって分水嶺」と位置づけ、「可能な限りポーランド製品を選ぶが、国内に匹敵する能力がなければ世界最良のシステムを選ぶ」と説明した。"
+          ],
+          "paragraphs_en": [
+            "According to the ministry, the system combines and analyses data from multiple sources, builds a situational picture and presents commanders with courses of action faster. TVN24 describes it as fusing data from drones, satellites, radars and reconnaissance systems into a common battlefield picture, supporting detection, classification and targeting, and, once enemy movement is detected, estimating its scale and direction, comparing it with friendly forces and proposing responses, with the final decision remaining with the commander.",
+            "Kosiniak-Kamysz said every command and every service would benefit, naming the General Staff, the Operational Command, the General Command, the Cyberspace Defence Command, the Territorial Defence Force Command and the Support Inspectorate. The contract was signed in the ministry's military foreign affairs department, and Palantir chief executive Alex Karp attended the ceremony at the Polish Army Museum in the Warsaw Citadel. Reuters quoted the minister calling the contract a watershed for the operational capabilities of the Polish Armed Forces and explaining that Poland chooses a Polish product wherever possible but picks the best system in the world when no comparable domestic capability exists."
+          ]
+        },
+        {
+          "heading_ja": "「鍵は軍が持つ」と国産代替への経路",
+          "heading_en": "The military holds the keys, and AIRON and NEFRYT as domestic successors",
+          "paragraphs_ja": [
+            "国防省は、データはポーランド軍の管理下にとどまり、閉じた軍のインフラで処理され、Palantirはデータ、暗号鍵、遠隔アクセスのいずれも持たないと説明した。誰が何にアクセスできるかは軍が決める。さらに国防省は自前のAIシステム「AIRON」と「NEFRYT」を開発中で、将来は事業者のツールを置き換えうるとした。したがって契約は、実戦で検証済みの外国製システムを即時に導入しつつ、国産化への移行経路を同時に示す構成になっている。",
+            "この説明は調達側と事業者の主張であり、契約条項のうちデータの所在、更新の管理、監査の権限を定めた部分の開示が検証の前提となる。同じ27日に公表された日本の防衛省の新方針が「データを取り出せること」と「移行先で機能を使い続けられること」を分けて確認するよう求めたように、ポーランドの事例でも国産代替への移行可能性が契約上どこまで担保されているかが論点となる。"
+          ],
+          "paragraphs_en": [
+            "The ministry said data will remain under the control of the Polish Armed Forces and be processed in closed military infrastructure, and that Palantir will have no access to data, encryption keys or remote access; the armed forces decide who may access what. The ministry is also developing its own AI systems, AIRON and NEFRYT, which it said may replace the vendor's tools in future. The contract is therefore structured to field a combat-tested foreign system now while signalling a path toward domestic replacement.",
+            "These are the claims of the buyer and the vendor, and verification depends on disclosure of the contract provisions on data location, update control and audit rights. Just as Japan's new defence AI policy, published the same day, requires separate confirmation that data can be extracted and that functions can continue in a new environment, the Polish case turns on how far the contract guarantees a migration path to domestic alternatives."
+          ]
+        },
+        {
+          "heading_ja": "ABW「リスク分析なし」と残る審査要求",
+          "heading_en": "The security agency's missing risk analysis and continuing calls for review",
+          "paragraphs_ja": [
+            "OKO.pressによれば、国家安全保障庁（ABW）は2023年12月以降、同社とシステムに関するリスク分析を作成も受領もしていないと回答した。市民団体Panoptykonは安全評価の欠如を最も深刻な問題とし、ガフコフスキ・デジタル化相は署名前に「データの流れを底まで確認する」監査を勧めていた。人権オンブズマンは10月に国防相へ書簡を送り、11月初旬にはワルシャワで抗議集会が開かれている。",
+            "欧州では、フランスの国内情報機関が6月にPalantirとの契約終了を表明し、独仏は欧州製の対抗ソフトの開発を約束している。一方でドイツは23日にウクライナの戦場管理システム「Delta」の利用で意向書に署名しており、東側面の国々は実戦で使われるシステムの即時導入を優先する。カープCEOは「Palantirに最も大声で反対するのはポーランドの敵だ」と述べ、批判を正面から退けた。"
+          ],
+          "paragraphs_en": [
+            "According to OKO.press, the Internal Security Agency (ABW) said it has neither prepared nor received any risk analysis of the company or its system since December 2023. The civil society group Panoptykon called the missing security assessment the most serious problem, and Digital Affairs Minister Krzysztof Gawkowski had recommended an audit that checks to the bottom how data flows before signing. The human rights ombudsman wrote to the defence minister in October, and a protest was held in Warsaw in early November.",
+            "Elsewhere in Europe, France's domestic intelligence service said in June it would end its Palantir contract, and France and Germany have promised a European alternative. Germany nonetheless signed a letter of intent on 23 November to use Ukraine's Delta battlefield management system, and the eastern flank states are prioritising immediate adoption of systems in combat use. Karp dismissed the criticism head-on, saying that those who shout loudest against Palantir are Poland's enemies."
+          ]
+        }
+      ],
+      "watch_next_ja": "契約文書のうちデータの所在・更新管理・監査に関する条項の開示。人権オンブズマンの審査結果とABWによるリスク分析の実施。AIRON・NEFRYTの開発工程と「Saturn」の初期運用部隊。",
+      "watch_next_en": "Disclosure of the contract provisions on data location, update control and audit. The ombudsman's review and whether ABW conducts a risk analysis. Development milestones for AIRON and NEFRYT and the first units to operate Saturn.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "awarded",
+      "publisher": "ポーランド国防省",
+      "publisher_en": "Ministry of National Defence (Poland)",
+      "sources": [
+        {"title": "Wojsko Polskie sięga po nowoczesne i sprawdzone technologie wykorzystujące sztuczną inteligencję", "url": "https://www.gov.pl/web/obrona-narodowa/wojsko-polskie-siega-po-nowoczesne-i-sprawdzone-technologie-wykorzystujace-sztuczna-inteligencje", "publisher": "Ministerstwo Obrony Narodowej", "date": "2026-11-27", "kind": "primary", "accessed": true},
+        {"title": "Poland signs contract with Palantir worth $300 million over 5 years", "url": "https://www.yahoo.com/news/world/articles/poland-signs-contract-palantir-worth-130838978.html", "publisher": "Reuters (via Yahoo News)", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "Poland signs $300m deal with Palantir for AI-powered battlefield software platform", "url": "https://notesfrompoland.com/2026/11/27/poland-signs-300m-deal-with-palantir-for-ai-powered-battlefield-software-platform/", "publisher": "Notes from Poland", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "MON podpisał umowę z Palantirem", "url": "https://oko.press/na-zywo/na-zywo-relacja/mon-podpisal-umowe-z-palantirem", "publisher": "OKO.press", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "MON podpisze umowę z Palantir Technologies. Władysław Kosiniak-Kamysz: umowa w sprawie systemu Saturn to ważny moment dla bezpieczeństwa Polski", "url": "https://tvn24.pl/biznes/z-kraju/mon-podpisze-umowe-z-palantir-technologies-wladyslaw-kosiniak-kamysz-umowa-w-sprawie-systemu-saturn-to-wazny-moment-dla-bezpieczenstwa-polski-st9359546", "publisher": "TVN24", "date": "2026-11-26", "kind": "media", "accessed": true}
+      ],
+      "themes": ["c2-decision", "industry-procurement", "isr-targeting"],
+      "actors": ["NATO", "US"],
+      "doc_type": "budget-procurement",
+      "forums": ["nato"],
+      "kill_chain": ["detect", "decide"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261127-03"
+    },
+    {
+      "id": "cl-20261128-03",
+      "rank": 3,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米空軍の基幹クラウド「Cloud One」にハッカーが侵入とReuters　人事記録から防空データまで、サイバー軍が被害評価",
+      "title_en": "Reuters: hackers breached the US Air Force's flagship Cloud One platform, which holds data from personnel records to air defence; Cyber Command is assessing the damage",
+      "lead_ja": "Reutersは11月27日、米空軍の基幹クラウド基盤「Cloud One」がハッカーの侵入を受けたと事情に詳しい複数の関係者の話として報じた。侵入は過去1か月以内のシステム更新中に見つかり、基盤への業務アプリケーションの移行停止、既存アプリの更新停止、一部利用者の管理者権限の喪失をもたらした。侵入者の特定と流出の有無は不明で、空軍は個別システムの安全や運用状況に言及していない。",
+      "lead_en": "Reuters reported on 27 November, citing people familiar with the matter, that hackers breached Cloud One, the US Air Force's flagship cloud computing platform. The intrusion was discovered during a system upgrade within the past month and led to a pause in migrating back-office applications onto the platform, a block on updates to existing applications, and the loss of administrator access for some users. The intruders have not been identified, data theft is unconfirmed, and the Air Force declined to discuss the security or operational status of specific systems.",
+      "sections": [
+        {
+          "heading_ja": "200超の拠点の弾薬追跡を支える基盤",
+          "heading_en": "A platform behind munitions tracking at more than 200 sites",
+          "paragraphs_ja": [
+            "Cloud Oneは2017年から空軍が使い、Microsoft、Amazon、Oracle、Alphabetのサービスを組み合わせた基盤で、人事記録から防空データまでを扱う。世界200超の空軍拠点で爆弾とミサイルを追跡するシステムも支えている。関係者の1人によれば、ハッカーはソフトウェアの欠陥を突いて中央の制御系に到達しており、航空機の状態や予備部品の移動が露出しうる位置にあった。Reutersは、こうした情報へのアクセスやデータの窃取を確認できていない。",
+            "米サイバー軍が被害評価に入ったとされ、空軍は「特定のシステムの安全や運用状況についてコメントしない」と述べた。したがって現時点で確認できるのは、更新作業中の発見、運用上の制約、サイバー軍の関与という範囲にとどまり、攻撃主体、侵入期間、影響を受けたデータの種類は公表を待つ。"
+          ],
+          "paragraphs_en": [
+            "Cloud One, in use since 2017, combines services from Microsoft, Amazon, Oracle and Alphabet and manages everything from personnel records to air-defence data. It also supports a system that tracks bombs and missiles at more than 200 Air Force locations worldwide. One source said the hackers exploited a software flaw to reach a central control system, a position from which aircraft status or the movement of spare parts could potentially be exposed. Reuters could not confirm that such information was accessed or that data was stolen.",
+            "US Cyber Command is said to have been called in to assess the damage, and the Air Force said it does not comment on the security or operational status of specific systems. What can be confirmed at this point is therefore limited to the discovery during an upgrade, the operational restrictions and Cyber Command's involvement; the actor, the duration of access and the categories of data affected await disclosure."
+          ]
+        },
+        {
+          "heading_ja": "AI実装の土台が問われる局面",
+          "heading_en": "The foundation for AI adoption comes under scrutiny",
+          "paragraphs_ja": [
+            "空軍は11月23日に省全体の解決策に指定されたAI機密区分システム「ACME」の母体であり、Cloud Oneのような商用クラウドの組み合わせは、11月26日を期限に科学技術革新委員会が研究を始めた機密ネットワークへの商用AI導入の前提でもある。英GCHQ長官が10月に「フロンティアAIが旧式技術の脆弱性を露わにし始めている」と述べたように、AIを載せる基盤の防御が実装の速度を規定する。",
+            "商船50隻へのサイバー攻撃の調査や、スイスと英国のNCSCによるAIエージェント攻撃の確認と並び、今回の侵入は政府・軍の基幹基盤が標的となった事例である。攻撃にAIが使われたかは報じられておらず、推測は避けるべきである。焦点は、空軍が侵入経路を公表するか、そしてクラウド移行計画の見直しが生じるかに移る。"
+          ],
+          "paragraphs_en": [
+            "The Air Force is the home of ACME, the AI classification system designated on 23 November as a department-wide solution, and commercial cloud combinations such as Cloud One underpin the study of commercial AI on classified networks that the Science and Technology Innovation Board was due to begin by 26 November. As the director of GCHQ observed in October, frontier AI is starting to expose vulnerabilities in legacy technology, and the defence of the platforms that will carry AI sets the pace of adoption.",
+            "Alongside the investigation into cyberattacks on some 50 merchant ships and the confirmation by the Swiss and UK national cyber security centres of attacks by AI agents, this intrusion is a case in which core government and military infrastructure was the target. No reporting indicates that AI was used in the attack, and speculation should be avoided. Attention now turns to whether the Air Force discloses the intrusion path and whether its cloud migration plans are revised."
+          ]
+        }
+      ],
+      "watch_next_ja": "空軍・サイバー軍による侵入経路と影響範囲の公式説明。Cloud Oneへのアプリケーション移行停止の解除時期。議会軍事委員会からの説明要求の有無。",
+      "watch_next_en": "An official account from the Air Force or Cyber Command of the intrusion path and scope. When the pause on application migration to Cloud One is lifted. Whether the armed services committees demand a briefing.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "",
+      "publisher": "Reuters",
+      "publisher_en": "Reuters",
+      "sources": [
+        {"title": "Hackers breach US Air Force flagship Cloud One computing platform", "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/", "publisher": "Reuters", "date": "2026-11-27", "kind": "media", "accessed": false},
+        {"title": "Hackers breach Air Force cloud platform holding personnel and military data", "url": "https://abcnews4.com/news/nation-world/hackers-breach-air-force-cloud-platform-holding-personnel-and-military-data", "publisher": "The National News Desk (TNND)", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "Hackers Breached US Air Force's Cloud Platform, Reuters Says", "url": "https://www.bloomberg.com/news/articles/2026-11-27/hackers-breached-us-air-force-s-cloud-platform", "publisher": "Bloomberg", "date": "2026-11-27", "kind": "media", "accessed": false},
+        {"title": "US Air Force cloud platform reportedly hacked in latest federal breach", "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/", "publisher": "BleepingComputer", "date": "2026-11-27", "kind": "media", "accessed": false}
+      ],
+      "themes": ["cyber-ci"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["sustain"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261128-04",
+      "rank": 4,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "米・イスラエル、約20の対無人機システムを評価する「Black Sands」をイスラエル国内で初実施　結果は非公表",
+      "title_en": "US and Israel run the first Black Sands counter-drone trials on Israeli soil, evaluating about 20 systems; results undisclosed",
+      "lead_ja": "イスラエル国防省は11月26日、国防研究開発局（DDR&D）が米国の中央軍、特殊作戦中央軍、海軍研究局、統合省庁間任務部隊401、能力開発・革新室とともに、約20の対無人機システムを評価する「Black Sands」試験をイスラエル国内で初めて実施したと発表した。2025年10月に米キャンプ・レジューンで12システムを対象に始まった共同試験の第2弾にあたり、試験日と評価結果は公表されていない。",
+      "lead_en": "Israel's Ministry of Defense announced on 26 November that its Directorate of Defense Research and Development (DDR&D) had conducted the first Black Sands trials on Israeli soil, evaluating about 20 counter-drone systems together with US Central Command, Special Operations Command Central, the Office of Naval Research, Joint Interagency Task Force 401 and the Capabilities Development and Innovation office. The event follows the first Black Sands at Camp Lejeune in October 2025, which tested 12 systems; neither the dates nor the results of the Israeli trials have been released.",
+      "sections": [
+        {
+          "heading_ja": "レジューンからイスラエルへ移った共同試験",
+          "heading_en": "A joint trial series that moved from Lejeune to Israel",
+          "paragraphs_ja": [
+            "DVIDSによれば第1回のBlack Sandsは2025年10月20〜31日にノースカロライナ州の海兵隊基地で行われ、イスラエルで実戦使用された12の共同開発システムを約110人の米関係者が評価した。今回はイスラエル地上軍と空軍が参加し、両国の企業が機材を持ち込んだ。DDR&Dのゴールド局長は「無人機の脅威への対処には継続的な技術革新と、パートナーとの緊密な協力が必要だ」と述べ、研究開発部門のアミノフ准将は「両国の戦力整備における大きな節目」と位置づけた。",
+            "国防省はシステム名を挙げていない。Calibre Defenceは公開映像から、Rafaelのレーザー「Iron Beam」、Radaのレーダー、米Allen Control Systemsの自律砲塔「Bullfrog」、Smart Shooterの遠隔砲塔が映っていると読み取ったが、両政府はいずれも確認していない。"
+          ],
+          "paragraphs_en": [
+            "According to DVIDS, the first Black Sands took place on 20-31 October 2025 at a Marine Corps base in North Carolina, where about 110 US participants evaluated 12 co-developed systems that had been used in combat in Israel. This time the IDF Ground Forces and the Israeli Air Force took part and companies from both countries brought equipment. DDR&D head Daniel Gold said countering UAV threats requires continuous technological innovation alongside close cooperation with partners, and Brig. Gen. Benny Aminov of its R&D unit called the series a major milestone in both nations' force development.",
+            "The ministry named no systems. Calibre Defence read the released footage as showing Rafael's Iron Beam laser, Rada radars, Allen Control Systems' Bullfrog autonomous gun station from the United States and a Smart Shooter remote weapon station, but neither government has confirmed that list."
+          ]
+        },
+        {
+          "heading_ja": "結果非公表が示す評価の段階",
+          "heading_en": "What the withheld results say about the stage of evaluation",
+          "paragraphs_ja": [
+            "第1回の報告も定量的な結果を示さず、「どの技術が運用に移せる段階にあるかを指導層に伝える」と述べるにとどまった。DroneXLはエルサレム・ポストの問い合わせにも試験日は示されなかったと伝えている。したがって確認できるのは、約20システムの共同評価が実施された事実と参加組織であり、迎撃率や有効射程などの性能は公開情報の外にある。",
+            "イスラエルはイランと湾岸での無人機攻撃への対処経験を持ち、米側は特殊作戦部隊の対無人機能力の不足を埋める目的を掲げる。12月にはダグウェイ試験場で国防総省のレーザー兵器の比較試験が予定され、Allen Control Systemsも7チームの1つとして参加する。クウェートで26日に起きたイタリア人技術者2人の死亡は、防空監視拠点そのものが無人機の標的になる現実を示しており、評価の成果が配備にどう結びつくかが焦点となる。"
+          ],
+          "paragraphs_en": [
+            "The account of the first event likewise gave no quantitative results, saying only that the outcome would inform leaders which technologies are ready for operational employment. DroneXL reports that the Jerusalem Post received no answer when it asked for the trial dates. What can be confirmed is that a joint evaluation of about 20 systems took place and who participated; performance figures such as intercept rates and effective ranges remain outside public information.",
+            "Israel brings experience in countering drone attacks from Iran and across the Gulf, and the US side frames the series as filling counter-drone gaps for special operations forces. A Pentagon laser weapon shoot-off is scheduled at Dugway Proving Ground in December, with Allen Control Systems among seven teams. The deaths of two Italian technicians in Kuwait on 26 November show that air-defence monitoring sites are themselves drone targets, which sharpens the question of how the evaluation translates into fielding."
+          ]
+        }
+      ],
+      "watch_next_ja": "イスラエル国防省・米特殊作戦中央軍による評価結果の公表の有無。12月のダグウェイ試験場でのレーザー兵器比較試験。選定されたシステムの調達・配備の発表。",
+      "watch_next_en": "Whether Israel's MOD or SOCCENT publishes evaluation results. The December laser weapon shoot-off at Dugway Proving Ground. Procurement or fielding announcements for the systems selected.",
+      "japan_relevance": false,
+      "date": "2026-11-26",
+      "stage": "",
+      "publisher": "イスラエル国防省",
+      "publisher_en": "Israel Ministry of Defense",
+      "sources": [
+        {"title": "U.S. and Israel evaluate about 20 counter-drone systems in joint Black Sands trials", "url": "https://defence-industry.eu/u-s-and-israel-evaluate-about-20-counter-drone-systems-in-joint-black-sands-trials/", "publisher": "Defence Industry Europe", "date": "2026-11-26", "kind": "media", "accessed": true},
+        {"title": "Black Sands: US and Israel test counter-drone tech", "url": "https://www.calibredefence.co.uk/black-sands-israel-and-us-trial-counter-drone-systems-following-bruising-encounters-in-recent-wars/", "publisher": "Calibre Defence", "date": "2026-11-26", "kind": "media", "accessed": true},
+        {"title": "US And Israel Test 20 Counter-Drone Systems. Neither Says What Worked", "url": "https://dronexl.co/2026/11/27/us-israel-black-sands-20-counter-drone-systems-tested-no-results/", "publisher": "DroneXL", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "Joint U.S.-Israel Forces Test Co-Developed Counter-Unmanned Systems: Black Sands 25.2 Exercise Advances Technology and Strengthens Partnerships", "url": "https://www.dvidshub.net/news/554938/joint-us-israel-forces-test-co-developed-counter-unmanned-systems-black-sands-252-exercise-advances-technology-and-strengthens-partnerships", "publisher": "DVIDS / USSOCCENT", "date": "2025-12-19", "kind": "primary", "accessed": true}
+      ],
+      "themes": ["isr-targeting", "industry-procurement"],
+      "actors": ["IL", "US"],
+      "doc_type": "news-analysis",
+      "forums": ["bilateral"],
+      "kill_chain": ["detect", "engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261128-05",
+      "rank": 5,
+      "tier": "main",
+      "importance": 2,
+      "title_ja": "英サイバー・特殊作戦軍司令官、AnthropicとOpenAIの最新モデルへのアクセスを模索　攻撃的利用も「探りたい」",
+      "title_en": "UK Cyber and Specialist Operations commander seeks access to the latest Anthropic and OpenAI models and wants to explore using them to prosecute effect",
+      "lead_ja": "英国のサイバー・特殊作戦軍（CSOC）のマゴーワン司令官は、The House誌のインタビューで、英軍がAnthropicとOpenAIの最新モデルへのアクセスを求めていると述べ、「それらを使って効果を遂行する能力は探りたいことだが、会話の始まりにすぎない」と語った。記事は11月19日付でPoliticsHomeに掲載され、11月27日にPublicTechnologyが再掲した。同司令部のドナヒー少佐は「フロンティアモデルがゲームを変え、ハクティビストや小規模な利用者の手に能力を与えた」と述べている。",
+      "lead_en": "General Sir Rob Magowan, commander of the UK's Cyber and Specialist Operations Command (CSOC), told The House magazine that the British military is seeking access to the latest Anthropic and OpenAI models and that the ability to prosecute effect using them is something it would wish to explore, though this is just the beginning of the conversation. The article ran on PoliticsHome dated 19 November and was republished by PublicTechnology on 27 November. Major Neil Donaghy of the same command said frontier models have changed the game and put capabilities into the hands of hacktivists and small users.",
+      "sections": [
+        {
+          "heading_ja": "防御の理解から「効果の遂行」へ",
+          "heading_en": "From understanding models for defence to prosecuting effect",
+          "paragraphs_ja": [
+            "マゴーワン司令官は、フロンティアモデルが「これまでにない速度と規模で敵にネットワークの弱点を特定させる」とし、モデルを理解して自らを守ることが「極めて重要」だと述べた。そのうえで攻撃的な利用の検討に言及し、米企業は「米国で非常に慎重に規制されている」ため、アクセスの道筋を知るには「米国の同僚に近くとどまる」ことが鍵だとした。11月18日の米上院議員書簡がフロンティアモデルのサイバー能力の評価を求めたこととあわせ、同盟国の軍によるフロンティアモデルの利用条件が政策課題として浮上している。",
+            "中国については「より多作」で、米国製に性能で及ばない可能性のあるモデルを公開市場に放出しており、「潜在的に妥協をもたらす効果があるため懸念している」と述べ、「強力なフロンティアモデルをどう管理し統制するかについての国際的な会話」が必要だとした。"
+          ],
+          "paragraphs_en": [
+            "Magowan said frontier models give an adversary the opportunity to identify weaknesses in networks at a speed and scale never seen before, which makes understanding the models and protecting against them critical. He went on to raise offensive use, noting that the US companies are very carefully regulated in the United States, so the key to learning how the UK can gain access is to stay close to US colleagues. Together with the 18 November letter from US senators seeking evaluation of frontier models' cyber capabilities, the terms on which allied militaries may use frontier models are emerging as a policy question.",
+            "On China, he said it has been more prolific in developing models that may be less powerful than US ones but are released to the open market, which the command finds worrying because of their potentially compromising effect, and he called for an international conversation about how to manage and control powerful frontier models."
+          ]
+        },
+        {
+          "heading_ja": "数千ポンドで放てるエージェントと旧式網",
+          "heading_en": "An agent for 3,000 to 4,000 pounds, and the legacy networks it targets",
+          "paragraphs_ja": [
+            "ドナヒー少佐は「脅威の速度は指数関数的に増している」とし、「3,000〜4,000ポンドとローカル言語モデル、少しの訓練で、エージェントに任務を与えてネットワークを探索・追跡・攻撃させられる」と述べた。GCHQのキースト＝バトラー長官は10月の会議で、フロンティアAIが「我々全員が抱える旧式技術の脆弱性を露わにし始めている」と述べており、マゴーワン司令官は軍も同じ危険にあるかとの問いに「もちろんだ」と答え、英国のネットワークが今日完全に安全とは言えないとしつつ、「Digital Backbone」計画で旧式網の脆弱性を特定していると説明した。",
+            "防衛投資計画はCyberEMに今後4年で25億ポンド、2030〜35年にさらに50億ポンドを充てる。議会のPOSTは電磁戦能力が「遅く複雑な国防省の調達過程」に阻まれていると指摘しており、資金と調達速度の差が実装の制約となる。11月24日に英NCSCがAI支援型攻撃の「顕著な増加」を認定したこととあわせ、英国では攻守双方でフロンティアモデルへの依存と統制が同時に進む。"
+          ],
+          "paragraphs_en": [
+            "Donaghy said the pace of the threat is growing exponentially and that with 3,000 or 4,000 pounds, a local language model and a bit of training, one can put an agent on task to search, hunt and attack networks. GCHQ director Anne Keast-Butler said at an October conference that frontier AI is starting to expose vulnerabilities in the legacy technology everyone is sitting on; asked whether the military faces the same risk, Magowan answered of course, acknowledged that UK networks are short of wholly secure today, and said the Digital Backbone programme is identifying where the vulnerabilities in legacy networks lie.",
+            "The Defence Investment Plan allots 2.5 billion pounds to CyberEM over the next four years and a further 5 billion pounds from 2030 to 2035. Parliament's POST research finds electromagnetic warfare capability hampered by slow and complex Ministry of Defence procurement processes, so the gap between funding and procurement speed constrains implementation. Combined with the UK NCSC's 24 November finding of a notable increase in AI-assisted attacks, Britain is deepening both its reliance on and its control over frontier models on offence and defence at once."
+          ]
+        }
+      ],
+      "watch_next_ja": "英国防省と米AI企業との間のモデル利用条件の公表。CSOCのCyberEM予算（25億ポンド）の執行計画。米国での同盟国向けフロンティアモデル提供に関する政府方針。",
+      "watch_next_en": "Publication of the terms of model access between the UK MOD and US AI companies. The execution plan for CSOC's 2.5 billion pound CyberEM budget. US government policy on providing frontier models to allied militaries.",
+      "japan_relevance": false,
+      "date": "2026-11-19",
+      "stage": "",
+      "publisher": "The House / PoliticsHome",
+      "publisher_en": "The House / PoliticsHome",
+      "sources": [
+        {"title": "Is Britain's Military Winning The War In Cyberspace?", "url": "https://www.politicshome.com/news/article/britains-military-winning-war-cyberspace", "publisher": "PoliticsHome (The House)", "date": "2026-11-19", "kind": "media", "accessed": true},
+        {"title": "Military chiefs warn over AI attacks on legacy systems", "url": "https://www.publictechnology.net/2026/11/27/defence-and-security/military-chiefs-warn-over-ai-attacks-on-legacy-systems/", "publisher": "PublicTechnology", "date": "2026-11-27", "kind": "media", "accessed": true}
+      ],
+      "themes": ["cyber-ci", "frontier-safety"],
+      "actors": ["GB"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261128-06",
+      "rank": 6,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ロシア、無人機155機で夜間攻撃、うちジェット推進83機　ウクライナ空軍は110機を無力化と発表",
+      "title_en": "Russia launches 155 drones overnight, 83 of them jet-powered; Ukraine's air force reports 110 neutralised",
+      "brief_text_ja": "ウクライナ空軍は11月27日、ロシアが26日18時以降にオリョール、ミレロヴォ、クルスク、シャタロヴォ、プリモルスコ・アフタルスクと占領下のドネツク、クリミアからシャヘド型攻撃無人機155機（うちジェット推進83機）とゲルベラ、パロディ型の欺瞞無人機を投入し、午前8時時点で110機（ジェット推進51機を含む）を撃墜・制圧したと発表した。着弾は27か所、撃墜機の落下は4か所で記録され、ミサイルの使用は報告されていない。ジェット推進機の無力化率は61%で、前夜の76機中52機から低下した。",
+      "brief_text_en": "Ukraine's air force said on 27 November that from 18:00 on 26 November Russia launched 155 Shahed-type strike drones (83 of them jet-powered) plus Gerbera and Parodiya decoys from Oryol, Millerovo, Kursk, Shatalovo and Primorsko-Akhtarsk and from occupied Donetsk and Crimea, and that by 08:00 air defences had shot down or suppressed 110 of them, including 51 jet-powered drones. Impacts were recorded at 27 locations and debris at four, with no missiles reported. The neutralisation rate for jet-powered drones was 61 percent, down from 52 of 76 the previous night.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "",
+      "publisher": "ウクライナ空軍",
+      "publisher_en": "Ukrainian Air Force",
+      "sources": [
+        {"title": "Russia Attacks Ukraine Overnight With 155 Drones, Strikes Recorded at 27 Locations", "url": "https://en.lb.ua/news/2026/11/27/51660_russia_attacks_ukraine_overnight.html", "publisher": "LB.ua", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "Russia launched one and a half hundred drones at Ukraine - how air defense performed", "url": "https://unn.ua/en/news/russia-launched-one-and-a-half-hundred-drones-at-ukraine-how-air-defense-performed", "publisher": "UNN", "date": "2026-11-27", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws", "isr-targeting"],
+      "actors": ["RU", "UA"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261127-06"
+    },
+    {
+      "id": "cl-20261128-07",
+      "rank": 7,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "ウクライナ、レーザー「Blysk」がジェット推進ゲランを実戦で初迎撃と大統領府顧問　出力4kW・射程1kmの試験段階",
+      "title_en": "Ukraine's Blysk laser intercepts a jet-powered Geran in combat for the first time, presidential adviser says; a 4 kW system still in testing",
+      "brief_text_ja": "ウクライナ大統領府のベスクレストノフ顧問は11月25日、Carmine Sky社が重要インフラ施設の防護に配備したレーザー「Blysk」が、実戦条件でジェット推進のゲラン型無人機を初めて迎撃したと発表した。出力4kW、有効射程約1kmと報じられ、同顧問は「量産を語るのは時期尚早」で試験が続いているとした。同社は11月19日にキーウ防護のための初のレーザー配備を発表しており、Brave1が支援する「民間防空」計画には約100社が参加し半数が実働部隊を編成しているが、迎撃の映像や独立した確認は示されていない。",
+      "brief_text_en": "Presidential adviser Serhii Beskrestnov said on 25 November that the Blysk laser, deployed by Carmine Sky to protect a critical infrastructure site, had intercepted a jet-powered Geran drone in combat conditions for the first time. The system is reported to have a 4 kW output and a range of about one kilometre, and the adviser said it is too early to speak of serial production while tests continue. Carmine Sky announced the first laser deployment to help protect Kyiv on 19 November; about 100 companies have joined the Brave1-backed Private Air Defence programme, half of them forming combat units, but no footage or independent confirmation of the intercept has been released.",
+      "japan_relevance": false,
+      "date": "2026-11-25",
+      "stage": "",
+      "publisher": "ウクライナ大統領府顧問（Telegram）",
+      "publisher_en": "Adviser to the President of Ukraine (Telegram)",
+      "sources": [
+        {"title": "Ukrainian combat laser intercepts Russian jet-powered drone for first time", "url": "https://kyivindependent.com/ukrainian-combat-lasers-intercept-russian-jet-powered-drone-for-first-time/", "publisher": "Kyiv Independent", "date": "2026-11-25", "kind": "media", "accessed": true},
+        {"title": "Ukraine claims world first as laser weapon downs Russian jet-powered drone", "url": "https://english.alarabiya.net/News/world/2026/11/27/ukraine-claims-world-first-as-laser-weapon-downs-russian-jetpowered-drone", "publisher": "Al Arabiya", "date": "2026-11-27", "kind": "media", "accessed": false}
+      ],
+      "themes": ["autonomy-laws", "industry-procurement"],
+      "actors": ["UA", "RU"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "C3",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261128-08",
+      "rank": 8,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "イラン外相、クウェート無人機攻撃への関与を否定し合同調査を提案　サウジ・ジャザン製油所への攻撃で作業員1人死亡",
+      "title_en": "Iran's foreign minister denies the Kuwait drone attack and proposes a joint inquiry; an attack on Saudi Arabia's Jazan refinery kills one worker",
+      "brief_text_ja": "イランのアラグチ外相は、イタリア人2人が死亡したクウェートへの無人機攻撃について関与を否定し、「戦争のための出来合いの筋書き」の可能性があるとしてクウェートとイタリアとの合同調査を提案した。サウジアラビア外務省は「イランの侵略」を非難し、トランプ大統領は26日の部隊との感謝祭の通話で「勝利は手の内にある」と述べた。同じ26日にはサウジのジャザン製油所がフーシ派によるとされる攻撃を受けてネパール人作業員1人が死亡し、サウジ軍はリヤドに向かう弾道ミサイル2発、巡航ミサイル1発、ジッダ港付近の無人機1機を迎撃したと発表した。",
+      "brief_text_en": "Iranian Foreign Minister Abbas Araghchi denied involvement in the drone attack in Kuwait that killed two Italians, called it a possible precooked recipe for war and offered a joint investigation with Kuwait and Italy. Saudi Arabia's foreign ministry condemned Iranian aggression, and President Trump told troops on a Thanksgiving call on 26 November that victory is at hand. The same day an attack on Saudi Arabia's Jazan refinery, attributed by the coalition to the Houthis, killed a Nepali worker, and Saudi forces said they intercepted two ballistic missiles aimed at Riyadh, a cruise missile and a drone near Jeddah's port.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "",
+      "publisher": "Gulf News",
+      "publisher_en": "Gulf News",
+      "sources": [
+        {"title": "Middle East Tensions Escalate: Trump Declares Victory as Iran Offers Kuwait Drone Probe", "url": "https://gulfnews.com/world/mena/middle-east-tensions-trump-signals-victory-as-iran-offers-kuwait-drone-probe-1.500762639", "publisher": "Gulf News", "date": "2026-11-27", "kind": "media", "accessed": true},
+        {"title": "Middle East conflict: Saudi refinery attack kills worker, Iran denies deadly Kuwait strike", "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343", "publisher": "Gulf News", "date": "2026-11-27", "kind": "media", "accessed": true}
+      ],
+      "themes": ["autonomy-laws"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["engage"],
+      "battlefield_claim": true,
+      "reliability": "B2",
+      "continuation_of": "cl-20261127-07"
+    },
+    {
+      "id": "cl-20261128-09",
+      "rank": 9,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "台湾投票日を前に、ファクトチェック団体が「AIツールの開票集計を信用しない」よう呼びかけ",
+      "title_en": "Ahead of Taiwan's vote, a fact-checking group urges voters to distrust AI tools' vote tallies",
+      "brief_text_ja": "台湾の非営利団体FactLinkデジタルリテラシー研究所は11月27日、統一地方選挙の投開票を翌日に控え、ボランティアの開票監視員に端末の安全確保と出所不明のアプリの回避を求め、公式集計と非公式集計の差を不正の証拠と見なさないよう注意を促した。AIツールが示す集計が選挙管理当局と食い違う場合は「AIツールの側に誤りがある可能性が最も高い」とし、中央選挙委員会の手作業集計の発表を最も信頼できる情報源とした。2024年には開票映像が編集され不正に見せかけられた事例があった。",
+      "brief_text_en": "On 27 November, the day before the nine-in-one local elections, Taiwan's non-profit FactLink Digital Literacy Lab urged volunteer poll watchers to secure their devices and avoid apps from unverified developers, and told the public to treat gaps between official and unofficial tallies as something other than proof of fraud. If an AI tool's tally disagrees with election officials, the fault most likely lies with the AI tool, it said, naming the Central Election Commission's manual-count announcements as the most reliable source. In 2024 a recording of a vote count was edited to look like fraud.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "",
+      "publisher": "Taipei Times",
+      "publisher_en": "Taipei Times",
+      "sources": [
+        {"title": "2026 Elections: Group urges cybersecurity awareness ahead of vote", "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/28/2003868540", "publisher": "Taipei Times", "date": "2026-11-28", "kind": "media", "accessed": true}
+      ],
+      "themes": ["cognitive"],
+      "actors": ["TW"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["cognitive-domain"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": "cl-20261127-02"
+    },
+    {
+      "id": "cl-20261128-10",
+      "rank": 10,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "国防総省、GM・フォードと無人機部品生産の予備協議　WSJ報道を国防省関係者が確認、契約には未到達",
+      "title_en": "Pentagon in preliminary talks with GM and Ford on drone components; a Pentagon official confirms the WSJ report, with no deals yet",
+      "brief_text_ja": "Wall Street Journalは11月24日、国防総省がGM、フォード、Magnaなどと軍用無人機向けのモーター、アクチュエーター、センサー、LiDARなどの部品供給について予備協議を行っていると報じ、国防省関係者はReutersに「国内の製造業者、サプライヤー、新興技術企業と積極的に連携している」と述べた。GMは論評を控えつつGM Defenseが「広範な能力と規模を持つ」と説明し、フォードは軍用車両とRevolution Spaceとの衛星製造に関する協議を認めた。協議は9月30日の覚書で設置された「Project Agincourt」が自律戦闘軍司令部の設立準備を進める中で行われており、自動車側の幹部は利益率への疑問を示し、契約には至っていない。",
+      "brief_text_en": "The Wall Street Journal reported on 24 November that the Pentagon is in preliminary talks with GM, Ford, Magna and others about supplying motors, actuators, sensors, lidar and other components for military drones, and a Pentagon official told Reuters the department is actively partnering with domestic manufacturers, suppliers and emerging tech firms. GM declined to comment on the report but said GM Defense has extensive capabilities and scale, while Ford confirmed talks on military vehicles and on building satellites with Revolution Space. The talks come as Project Agincourt, set up by a 30 September memorandum, lays the groundwork for an Autonomous Warfare Command; auto executives have questioned the margins and no deals have been finalised.",
+      "japan_relevance": false,
+      "date": "2026-11-24",
+      "stage": "",
+      "publisher": "Wall Street Journal / Reuters",
+      "publisher_en": "Wall Street Journal / Reuters",
+      "sources": [
+        {"title": "Ford in talks with the Pentagon to supply military vehicles", "url": "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/", "publisher": "Reuters (via Defense News)", "date": "2026-11-24", "kind": "media", "accessed": true},
+        {"title": "Pentagon reportedly in talks with GM, Ford to scale US military drone production", "url": "https://www.foxbusiness.com/economy/pentagon-reportedly-talks-gm-ford-scale-us-military-drone-production", "publisher": "Fox Business", "date": "2026-11-24", "kind": "media", "accessed": true},
+        {"title": "Pentagon in talks with GM, Ford for military drones", "url": "https://www.newstribune.com/news/2026/nov/25/pentagon-in-talks-with-gm-ford-for-military-drones/", "publisher": "Reuters (via News Tribune)", "date": "2026-11-25", "kind": "media", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws"],
+      "actors": ["US"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["sustain"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    },
+    {
+      "id": "cl-20261128-11",
+      "rank": 11,
+      "tier": "brief",
+      "importance": 1,
+      "title_ja": "イスラエルForesight、インド国防向け自律無人機計画で約130万ドルの条件付き受注　インド海軍の試験完了が条件",
+      "title_en": "Israel's Foresight receives a conditional order of about $1.3 million for an Indian defence autonomous drone project, subject to Indian Navy trials",
+      "brief_text_ja": "イスラエルのForesight Autonomous Holdingsは11月27日、子会社がインドの無人機メーカーから、インド国防軍向け自律無人機に組み込む熱画像3D知覚システム「ScaleCam」約130万ドル分の条件付き・非拘束の発注を受けたと発表した。長波赤外線のステレオカメラと慣性センサーにより、GPSが使えない濃煙・暗所・高温の環境でも位置把握と物体検知を行うもので、インド海軍での試験完了、調達交渉、輸出管理を含む許認可が条件となる。2025年1月の枠組み合意では最大210万ドルの商業的可能性が示されていた。",
+      "brief_text_en": "Israel's Foresight Autonomous Holdings said on 27 November that its subsidiary received a conditional, non-binding order of about $1.3 million from an Indian drone manufacturer for thermal ScaleCam 3D perception systems to be integrated into autonomous drones for the Indian defence forces. The stereoscopic long-wave infrared cameras with inertial sensors provide positioning and object detection in GPS-denied conditions such as dense smoke, poor lighting and high temperatures; the order depends on completing trials with the Indian Navy, procurement negotiations and approvals including export control. The January 2025 framework carried commercial potential of up to $2.1 million.",
+      "japan_relevance": false,
+      "date": "2026-11-27",
+      "stage": "announced",
+      "publisher": "Foresight Autonomous Holdings",
+      "publisher_en": "Foresight Autonomous Holdings",
+      "sources": [
+        {"title": "Foresight Receives Conditional Order of Approximately $1.3 million for Thermal 3D Perception Systems as Part of Indian Defense Autonomous Drones Project", "url": "https://www.globenewswire.com/news-release/2026/11/27/3411172/0/en/foresight-receives-conditional-order-of-approximately-1-3-million-for-thermal-3d-perception-systems-as-part-of-indian-defense-autonomous-drones-project.html", "publisher": "GlobeNewswire (Foresight)", "date": "2026-11-27", "kind": "primary", "accessed": true}
+      ],
+      "themes": ["industry-procurement", "autonomy-laws"],
+      "actors": ["IN", "IL"],
+      "doc_type": "news-analysis",
+      "forums": [],
+      "kill_chain": ["detect"],
+      "battlefield_claim": false,
+      "reliability": "",
+      "continuation_of": ""
+    }
+  ],
+  "upcoming": [
+    {"date": "2026-11-28", "text_ja": "台湾統一地方選挙の投開票（夕方に結果）。選挙後の国防特別予算法案の審議再開", "text_en": "Taiwan's local elections (results in the evening); resumption of deliberations on the special defence budget bill after the vote"},
+    {"date": "2026-11-30", "text_ja": "財政審建議の全文公表。防衛省「Defense AI Vision」の実行計画の策定時期", "text_en": "Full text of the Fiscal System Council's recommendations; timing of the MOD's Defense AI Vision execution plan"},
+    {"date": "2026-12-01", "text_ja": "米下院3委員会によるNvidiaフアン氏の非公開・記録付き聴取（12月2日はティーター法務責任者）。FY2027 NDAA協議文書の公表見通し。NATO外相会合（週内、日程は公式発表待ち）", "text_en": "Closed-door transcribed interview of Nvidia's Jensen Huang by three House committees (general counsel Tim Teter on 2 December); expected release of the FY2027 NDAA conference text; NATO foreign ministers' meeting (this week, date pending)"},
+    {"date": "2026-12-03", "text_ja": "米上院銀行委員会、輸出管理の監督に関する公開公聴会（フアン氏が証言）", "text_en": "Senate Banking Committee public hearing on export-control oversight (Huang testifies)"},
+    {"date": "2026-12-05", "text_ja": "国連総会本会議でのLAWS決議（L.37）の採択（12月上旬の見通し）。日本：「総合的な国力から安全保障を考える有識者会議」の提言を首相に提出（12月前半）", "text_en": "UN General Assembly plenary vote on the LAWS resolution (L.37), expected early December; Japan: the expert panel on security and comprehensive national power submits its recommendations to the prime minister (first half of December)"},
+    {"date": "2026-12-07", "text_ja": "米FAAのPart 108（視程外飛行）最終規則の法定期限。中国国際航空航天博覧会（珠海、12月7〜13日）", "text_en": "Statutory deadline for the FAA's Part 108 (BVLOS) final rule; China International Aviation and Aerospace Exhibition (Zhuhai, 7-13 December)"},
+    {"date": "2026-12-11", "text_ja": "米継続予算決議の期限。ゴールデンドームと自律戦争グループの予算を含む調整法案の行方", "text_en": "Expiry of the US continuing resolution; fate of the reconciliation bill including Golden Dome and Autonomous Warfare Group funding"},
+    {"date": "2026-12-15", "text_ja": "日本：安保3文書改定の閣議決定（12月中旬の目標）と5年総額の決着。米G20首脳会合（ドラル）。12月中に米国防総省のレーザー兵器比較試験（ダグウェイ試験場、日程未公表）", "text_en": "Japan: cabinet decision on the revised three security documents (mid-December target) and the five-year total; G20 summit (Doral); Pentagon laser weapon shoot-off at Dugway Proving Ground during December (date unannounced)"},
+    {"date": "2026-12-23", "text_ja": "Megaspeed系7社のエンティティリスト追加に伴う経過措置（11月23日時点で輸送中の貨物）の期限", "text_en": "End of the savings clause for shipments in transit as of 23 November under the Entity List addition of seven Megaspeed-linked firms"},
+    {"date": "2026-12-31", "text_ja": "グテーレス国連事務総長の任期満了。EU「欧州無人機防衛イニシアチブ」の初期能力の目標時期", "text_en": "End of UN Secretary-General Guterres's term; target date for initial capacity of the EU's European Drone Defence Initiative"},
+    {"date": "2027-01-10", "text_ja": "米中貿易休戦の期限", "text_en": "Expiry of the US-China trade truce"},
+    {"date": "2027-01-18", "text_ja": "米BIS遠隔アクセス暫定最終規則の意見募集締切", "text_en": "Comment deadline for the BIS interim final rule on remote access"},
+    {"date": "2027-01-31", "text_ja": "ホワイトハウス超知能タスクフォースの政策文書（1月末までの見通し）", "text_en": "White House superintelligence task force policy document (expected by end of January)"},
+    {"date": "2027-02-17", "text_ja": "11月19日発効の米商務省規則に基づく、中国企業に計算資源を貸し出すデータセンターの90日許可取得期限（目安）", "text_en": "Approximate 90-day licensing deadline for data centres leasing compute to Chinese firms under the Commerce rule effective 19 November"}
+  ],
+  "internal": {
+    "scan": {
+      "regions": "米国（Reutersの空軍Cloud One侵入報道、WSJ/Reutersの自動車大手との無人機部品協議：該当あり。感謝祭翌日で国防省・議会・BISの新規公表は該当なし。GAO-27-107837のAPA経由報道は10月14日公表の既報として不採用）、中国（国防部・外交部・解放軍報の新規AI関連：該当なし）、日本（防衛省「Defense AI Vision」：該当あり。安保3文書有識者会議の提言原案は日経1面のみで本文を確認できず不採用。経産省・外務省・内閣府・国会の新規AI関連：該当なし）、韓国（国防部・防衛事業庁の11月27日の新規AI関連：該当なし）、台湾（投票日前日の注意喚起：該当あり。投票結果は本号の生成後）、欧州・NATO（ポーランド国防省の契約署名：該当あり。EU無人機防衛イニシアチブの12月期限は10月のEDA報告の再報で不採用）、英国（CSOC司令官インタビューの再掲：該当あり）、ロシア・ウクライナ（夜間攻撃、レーザー迎撃の主張：該当あり）、イスラエル・中東（Black Sands、クウェート・サウジの攻撃：該当あり）、インド（Foresightの条件付き受注：該当あり）、豪州（新規は該当なし）、ASEAN（チップ規制の続報は該当なし）。",
+      "japan": "防衛省の報道発表ページと大臣会見ページ（11月27日）は本号の実行環境から直接開けず、TBS NEWS DIG、IoTNEWS、情報東大、NHK（冒頭のみ）、時事（見出しのみ）、Particle、Snape Report（共同・47NEWS経由）の報道で内容を確認した。自民党・経産省・外務省・内閣府・国会審議の11月27日の新規AI・安全保障関連は該当なし。"
+    },
+    "dropped": [
+      {"title": "GAO-27-107837: Artificial Intelligence: Actions and Opportunities to Implement Responsible Use in DOD（APA 11月26日経由）", "url": "https://www.gao.gov/assets/gao-27-107837.pdf", "reason": "10月14日公表の報告で、前号（11月27日）でも既報として不採用と判断済み。本号で本文を直接確認したが、新規の事実はない（責任あるAI作業部会の活動停止、人員10名中3名の充足、2件の勧告への国防省の同意）。週次での扱いを検討。"},
+      {"title": "WinBuzzer: US Congress Eyes Defense Bill to Curb AI Chip Exports to China（11月27日）", "url": "https://winbuzzer.com/2026/11/27/congress-eyes-defense-bill-to-curb-ai-chip-exports-to-china-xcxwbn/", "reason": "単一の二次媒体で、新規事実はシューマー氏の11月23日の発言とジェフリーズ氏の要求の再掲にとどまる。NDAA協議文書の公表時に続報として扱う。"},
+      {"title": "DroneXL: EU Drone Wall Due in December as Leak Puts Most Defenses Past 2030（11月25日）", "url": "https://dronexl.co/2026/11/25/eu-drone-wall-december-deadline-leak-most-defenses-past-2030/", "reason": "根拠は10月8日にEuronewsが報じたEDA準備態勢報告の再報で、新規の公式発表がない。12月末の初期能力の期限は予定欄に記載。"},
+      {"title": "日経1面: 安保3文書改定へ有識者会議が提言原案（11月27日）", "url": "https://2funde1men.substack.com/p/11273", "reason": "日経本文を開けず、AI・無人機に関する提言内容を確認できない。要約で確認できたのは5年総額（50兆〜60兆円台）と財源の論点のみ。12月前半の首相への提出時に扱う。"},
+      {"title": "bne IntelliNews: Ukraine stops one in 13 Russian ballistic missiles as it races to build faster interceptors", "url": "https://www.intellinews.com/ukraine-stops-one-in-13-russian-ballistic-missiles-as-it-races-to-build-faster-interceptors-489020", "reason": "本文を開けず、迎撃率の算出根拠を確認できない。"},
+      {"title": "Nvidia、クラウド顧客に中国向けの貸し出し比率を制限（CNBC 11月26日）", "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html", "reason": "本文を開けず、検索で確認できた同趣旨の報道は11月3日のもの（非中国企業への51%以上の提供要求）で、新規性を確認できない。"}
+    ],
+    "notes_for_editor": [
+      "主要動向1（防衛省）は一次資料（報道発表 27a.html と本文PDF 27b.pdf）を直接開けず、報道に依拠した。5原則の文言は報道各社で異なり（IoTNEWSは基本原則を3点として整理）、本文では報道が伝える5点を「報道が伝える基本原則」として記した。文書の位置づけ（旧方針に「代わる」か「継承」か）も報道間で差があり、本文に併記した。公開前に本文PDFとの照合を推奨する。",
+      "主要動向2（ポーランド）の契約額は国防相の発言（約3億ドル）とOKO.pressの換算（約12億ズロチ）による。国防省の発表文に金額・期間の記載はない。kresy.plの見出しは「約10億ズロチ」としており、本文を開けず照合できなかった。",
+      "主要動向3（空軍Cloud One）はReuters単独の匿名筋報道で、空軍は確認していない。TNNDの配信記事で内容を確認し、Reuters本文とBloombergは開けなかった。",
+      "主要動向4（Black Sands）はイスラエル国防省の11月26日の発表文を特定できず、報道3本とDVIDSの第1回報告で構成した。Calibre Defenceのシステム特定は映像からの読み取りで、両政府は確認していない。",
+      "主要動向5（英CSOC）はPoliticsHomeの記事の日付がメタデータで11月13日、表示上は11月19日と食い違う。本文では表示日の19日を採用し、PublicTechnologyの再掲日（27日）を併記した。",
+      "短信7（Blysk）の信頼度はC3とした。大統領府顧問のTelegram投稿のみが根拠で、映像や独立した確認がない。"
+    ]
+  }
+}
