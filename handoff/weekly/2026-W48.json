@@ -1,0 +1,821 @@
+{
+  "week": "2026-W48",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:45:59+09:00",
+  "coverage_from": "2026-11-23",
+  "coverage_to": "2026-11-27",
+  "title_ja": "AI主権の中身は、鍵と移行と最先端への接近を誰が握るかで決まる",
+  "title_en": "AI sovereignty is decided by who holds the keys, the right to exit and access to the frontier",
+  "lead_ja": "今週、日本、ポーランド、韓国はそれぞれ方針文書、調達契約、投資構想を通じて、AIとデータの統制を自国の手に置く意思を示した。その一方で、同じ週の動きは、主権の中身を左右する層の多くが他者の手にあることも浮かび上がらせた。計算資源の流れは米国の許可制とエンティティリストが決め、東南アジアでは出荷と融資が止まり、最先端モデルの公開と停止は開発企業の内部で判断され、同盟国の軍もそのモデルへの接近を求める立場にある。AI主権を実効あるものにするのは、暗号鍵とデータの保持、事業者から離れる移行の権利、最先端能力への接近の経路を、契約と運用の条件として具体的に確保できるかどうかである。日本では防衛省の「Defense AI Vision」の実行計画と年内の安保3文書が、その条件を書き込む最初の場になる。",
+  "lead_en": "This week Japan, Poland and South Korea each signalled, through a policy document, a procurement contract and an investment plan, an intent to keep AI and data under national control. The same week showed that many of the layers that give sovereignty its substance sit in other hands. US licensing and the Entity List set the flow of compute, halting shipments and lending in Southeast Asia; decisions to release or withhold frontier models are taken inside developers; and allied militaries find themselves asking for access to those models. What makes AI sovereignty real is whether governments can secure, as concrete contractual and operational terms, possession of keys and data, the right to exit a vendor, and a path to frontier capability. In Japan, the implementation plan for the Defense Ministry's Defense AI Vision and the security documents due by year-end are the first places to write those terms down.",
+  "themes": [
+    "governance-norms",
+    "compute-export",
+    "frontier-safety",
+    "cyber-ci",
+    "c2-decision",
+    "industry-procurement"
+  ],
+  "sections": [
+    {
+      "id": "sovereignty-as-contract-terms",
+      "title_ja": "主権は契約条項の言葉で語られ始めた",
+      "title_en": "Sovereignty is now spoken in the language of contract terms",
+      "claim_ja": "今週の各国の主張は、自立という抽象的な目標を、鍵・データ・移行の権利という契約上の条件に置き換え始めた点で共通している。",
+      "claim_en": "This week's national claims share one feature: they began translating the abstract goal of autonomy into contractual terms covering keys, data and the right to exit.",
+      "paragraphs_ja": [
+        "防衛省は11月27日、2024年7月の基本方針を更新する「Defense AI Vision」を公表した。報道によれば、最終判断と責任を人間が担うことと並び、特定の技術・事業者への過度な依存の回避を5原則の一つに据えた。省としてAIを選択・評価・改良し、更新、利用停止、他の技術への移行を判断できる能力を保持するとし、外部サービスでは「データを取り出せること」と「移行先で機能を使い続けられること」を別々に確認するよう求めた。調達では契約終了時のデータと仕様の取り出し、移行可能性、運用から再評価までの総経費を評価対象とする。",
+        "同じ27日、ポーランド国防省はPalantirのMaven Smart Systemを「Saturn」の名称で全軍に導入する契約に署名し、国防相は5年で約3億ドルと説明した。国防省は、データは閉じた軍の基盤で処理され、Palantirはデータ、暗号鍵、遠隔アクセスのいずれも持たないと強調し、国産のAIRONとNEFRYTが将来は事業者のツールを置き換えうるとした。韓国では24日、ハンファが10兆ウォンの国防専用AIデータセンター構想を政府側に示し、データの所有と統制は軍が持ち企業が受託運営する分業を提案した。こちらは構想の段階であり、発注には至っていない。",
+        "三つの事例は、主権を国家と事業者の間の権利の配分として定義している。日本政府が25日に自民党へ示した経済安保方針の概要も「AI主権」と「米中に次ぐ立ち位置」を掲げた。欧州では、Reutersが16日に伝えたように、フランスが独自基盤「Arcadia」を構築し、オランダは2年以内に欧州製の代替を探す。オランダのボスワイク装備担当相は欧州の知見が「非常に断片的」だと認めている。即時に外国製を導入して出口を契約で確保する道と、自前の構築を急ぐ道があり、日本の新方針は前者の論理、すなわち離れる能力を保つことを文書化したものと読める。"
+      ],
+      "paragraphs_en": [
+        "On November 27 Japan's Defense Ministry published its Defense AI Vision, updating the July 2024 basic policy. According to reports, avoiding excessive dependence on particular technologies or vendors sits among its five principles alongside human judgment and responsibility. The ministry says it will retain the ability to select, evaluate and improve AI and to decide on updates, suspension and migration, and it asks that, for external services, \"being able to extract data\" and \"being able to keep using functions after migration\" be checked separately. Procurement will assess data and specification extraction at contract end, portability and total cost through re-evaluation.",
+        "The same day Poland's Defense Ministry signed a contract to field Palantir's Maven Smart System across its forces under the name Saturn; the minister put it at about $300 million over five years. The ministry stressed that data is processed on closed military infrastructure and that Palantir holds none of the data, encryption keys or remote access, adding that domestic systems AIRON and NEFRYT could later replace the vendor's tools. In South Korea on the 24th, Hanwha presented a 10-trillion-won plan for a defense-dedicated AI data centre in which the military owns and controls the data and the company operates the facility. That remains a proposal, with no order placed.",
+        "All three cases define sovereignty as an allocation of rights between state and vendor. The economic-security outline Tokyo showed the LDP on the 25th likewise called for \"AI sovereignty\" and a position \"next to the US and China.\" In Europe, as Reuters reported on the 16th, France is building its own Arcadia platform and the Netherlands will seek a European alternative within two years, while Dutch procurement minister Boswijk conceded that European expertise is \"very fragmented.\" One path imports a foreign system now and secures the exit by contract; the other hurries to build at home. Japan's new policy reads as a codification of the first logic: preserving the ability to leave."
+      ],
+      "item_ids": [
+        "cl-20261128-01",
+        "cl-20261128-02",
+        "cl-20261125-03",
+        "cl-20261126-02"
+      ],
+      "source_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4",
+        "W5",
+        "W6",
+        "W8",
+        "W9",
+        "W11"
+      ]
+    },
+    {
+      "id": "compute-layer-conditional",
+      "title_ja": "計算資源の層では主権は他国の許可に左右される",
+      "title_en": "At the compute layer, sovereignty depends on another state's licence",
+      "claim_ja": "計算基盤の層で主権の条件を決めたのは規則を書く国の側であり、今週その効果は東南アジアの出荷と融資に及んだ。",
+      "claim_en": "At the compute layer, the terms of sovereignty were set by the state that writes the rules, and this week the effect reached shipments and lending in Southeast Asia.",
+      "paragraphs_ja": [
+        "米商務省は11月23日、Nvidia製GPUの対中迂回疑惑の中心にあるMegaspeed系の7社（マレーシア3社、シンガポール3社、タイ1社）をエンティティリストに加え、輸出管理規則の対象品目すべてを原則不許可とした。19日発効の地域別許可制を個別企業に適用した最初の事例である。26日には、Nvidiaが4か国向けのAIサーバー出荷を止めたとFTが報じ、前日のBloombergは域内データセンター向け融資の保留を伝えた。Bain Capital傘下の事業者の66億ドルの増額融資が遅れ、あるクラウド幹部は「90日の時計が動く中で誰も許可の申請方法を知らない」と語っている。",
+        "マレーシアやシンガポールにとって、データセンターの集積は自国のAI戦略そのものであった。その建設の速度が、一国の行政規則と一社の出荷判断で変わった事実は、計算資源の所在を握るだけでは主権の条件を満たしきれないことを示唆する。台湾のTSMCが米国の許可を得ない中国設計企業の16nm以下の発注を止めたと報じられた件も、同じ構図に属する。逆方向の依存も問われ始めた。米下院2委員会は20日の報告で、人民解放軍が調達するDeepSeekやQwenと同じモデル系列が米企業の製品で稼働していると指摘し、「AI部品表」による来歴管理を提言した。",
+        "反対の見方も有力である。規則の狙いは中国企業への迂回の遮断にあり、正規の需要は許可の指針が整えば戻るとみることができる。Hogan Lovellsの弁護士は「建設は止まらないが、すべてが減速する」と述べ、過熱した市場の見直しの機会とも評した。同盟国にとっても、迂回の遮断は共通の利益である。ただし今週の時点で申請の指針は示されておらず、規則の正統性は規則を書いた国の行政能力に依存している。同盟国にとっての計算資源の主権は、自給の度合いに加えて、同盟国の規則の予見可能性と協議の回路によって測られると考えられる。"
+      ],
+      "paragraphs_en": [
+        "On November 23 the US Commerce Department added seven Megaspeed-linked companies, three in Malaysia, three in Singapore and one in Thailand, at the centre of suspected diversion of Nvidia GPUs to China, to the Entity List, with a presumption of denial for all items subject to the EAR. It was the first application to specific firms of the regional licensing regime that took effect on the 19th. On the 26th the FT reported that Nvidia had halted AI server shipments to four countries, and the day before Bloomberg reported regional data-centre loans being put on hold. A $6.6 billion upsizing for a Bain Capital-backed operator was delayed, and one cloud executive said that \"with the 90-day clock running, nobody knows how to apply for a licence.\"",
+        "For Malaysia and Singapore, clustering data centres was itself the national AI strategy. That a single administrative rule abroad and one company's shipping decision could change the pace of construction suggests that hosting compute does not by itself satisfy the conditions of sovereignty. Reports that TSMC stopped sub-16nm orders from Chinese designers lacking US licences belong to the same pattern. Dependence in the other direction is also under scrutiny: in their November 20 report two House committees said the same model families procured by the PLA, DeepSeek and Qwen, run inside US companies' products, and called for provenance management through an \"AI bill of materials.\"",
+        "There is a strong counter-view. The rule targets diversion to Chinese firms, and legitimate demand may return once licensing guidance is in place. A Hogan Lovells lawyer said that \"construction won't stop, but everything will slow down,\" calling it a chance to review an overheated market. Blocking diversion is also in allies' interest. Yet as of this week no application guidance had been issued, and the rule's legitimacy rests on the administrative capacity of the state that wrote it. For allies, compute sovereignty is likely to be measured by the predictability of an ally's rules and the channels for consultation, in addition to the degree of self-sufficiency."
+      ],
+      "item_ids": [
+        "cl-20261126-04",
+        "cl-20261127-01",
+        "cl-20261123-01",
+        "cl-20261123-02"
+      ],
+      "source_ids": [
+        "W12",
+        "W13",
+        "W14",
+        "W15",
+        "W16",
+        "W17"
+      ]
+    },
+    {
+      "id": "frontier-held-inside-firms",
+      "title_ja": "最先端の能力は企業の内部で管理されている",
+      "title_en": "Frontier capability is governed inside companies",
+      "claim_ja": "最先端モデルの層では、能力の上限・公開・停止を決める判断が開発企業の内部にあり、政府と同盟国の軍は接近を求める側に立っている。",
+      "claim_en": "At the frontier-model layer, decisions on capability ceilings, release and suspension sit inside developers, and governments and allied militaries stand on the side of those seeking access.",
+      "paragraphs_ja": [
+        "OpenAIのパホツキ主任科学者は11月22日、内部評価のパープレキシティの推移を公開し、AIの挙動を監視する能力が明確な到達点に達するまで各社が越えない「共通の上限」を提案した。アルトマンCEOが支持し、Metaのワン氏も社会のAIへの「引き渡し」を容認すべきでないと投稿した。24日にはAxiosが、AnthropicとOpenAIの社員の多くが未公開モデルを安全に公開できない恐れがあると考えていると報じ、両社は公開の遅延や見送りの可能性を認めた。Anthropicのアモデイ氏は25日、統治をAIに委ねる考えを「ばかげている」と退け、再帰的自己改善には制限が要りうるとした。",
+        "同盟国の軍はこの判断の外にいる。英国のサイバー・特殊作戦軍のマゴーワン司令官は19日付のインタビューで、AnthropicとOpenAIの最新モデルへのアクセスを求めていると述べ、その道筋を知るには「米国の同僚に近くとどまる」ことが鍵だと語った。企業統治が安全保障判断を担う構図は半導体にも及ぶ。Nvidiaの取締役会は23日、「米政府の上級レベルからの意見」を受けてフアン氏を復帰させ、「国家安全保障上のリスクはない」と表明したが、誰がどの判断を示したかは明らかにしていない。この層での主権は、企業と米政府を経由して交渉される接近の権利として現れていると考えられる。",
+        "企業内部の抑制を、政府が持ちえない歯止めとして評価する見方もある。開発の最前線を知る主体が自ら上限を語ることには実質があり、国連安保理の24〜25日の討論では、米露が安保理の役割を他機関との重複回避の観点から限定する立場で一致し、多国間の枠組みが早期に代替する見通しは乏しい。ただし、未公開モデルの能力をめぐる報道は匿名の関係者に依拠し、独立に確認されていない。上限の提案も発効の時期と検証の主体を欠いている。企業の判断に依存するほど、同盟国は事前評価への参加や接近の条件を二国間で取り決める必要が高まる。"
+      ],
+      "paragraphs_en": [
+        "On November 22 OpenAI chief scientist Jakub Pachocki published the trajectory of perplexity on internal evaluations and proposed a \"shared ceiling\" that firms would not cross until the ability to monitor AI behaviour reaches a defined milestone. Sam Altman endorsed it, and Meta's Alexandr Wang posted that society should not accept a \"handover\" to AI. On the 24th Axios reported that many Anthropic and OpenAI employees fear unreleased models cannot be released safely, and both firms acknowledged releases could be delayed or withheld. On the 25th Anthropic's Dario Amodei called the idea of handing governance to AI \"absurd\" and said recursive self-improvement may need limits.",
+        "Allied militaries sit outside these decisions. In an interview dated the 19th, Gen. McGowan of the UK's Cyber and Special Operations Command said Britain is seeking access to Anthropic's and OpenAI's latest models and that staying \"close to our US colleagues\" is key to knowing the route. Corporate governance carrying security judgments extends to chips: on the 23rd Nvidia's board reinstated Jensen Huang on the basis of \"input from senior levels of the US government,\" declaring there was \"no national security risk,\" without saying who judged what. At this layer, sovereignty appears to take the form of access rights negotiated through companies and the US government.",
+        "Some see corporate restraint as a brake governments cannot supply. It matters that actors at the frontier propose ceilings themselves, and at the Security Council debate on the 24th and 25th the US and Russia agreed on limiting the Council's role to avoid overlap with other bodies, so a multilateral substitute looks distant. Still, reports about unreleased models' capabilities rest on anonymous sources and have not been independently confirmed, and the ceiling proposal lacks a start date and a verifier. The more allies depend on corporate judgment, the more they need bilateral terms for joining pre-release evaluation and for access."
+      ],
+      "item_ids": [
+        "cl-20261124-02",
+        "cl-20261126-05",
+        "cl-20261127-04",
+        "cl-20261128-05",
+        "cl-20261124-01",
+        "cl-20261126-01"
+      ],
+      "source_ids": [
+        "W20",
+        "W21",
+        "W22",
+        "W23",
+        "W24",
+        "W18",
+        "W19",
+        "W25"
+      ]
+    },
+    {
+      "id": "keys-and-defense-burden",
+      "title_ja": "鍵を持つことと守り切ることは別の課題である",
+      "title_en": "Holding the keys and defending the system are separate problems",
+      "claim_ja": "データと鍵を手元に置く設計は依存を減らす一方、集約した基盤を守る運用能力を国家の側に要求し、今週の侵害と警告はその負担の大きさを示した。",
+      "claim_en": "Keeping data and keys in house reduces dependence but demands that the state itself defend the consolidated infrastructure, and this week's breach and warnings showed how heavy that burden is.",
+      "paragraphs_ja": [
+        "Reutersは11月27日、米空軍の基幹クラウド「Cloud One」がハッカーの侵入を受けたと報じた。2017年からMicrosoft、Amazon、Oracle、Alphabetのサービスを組み合わせて運用され、人事記録から防空データまでを扱い、200超の拠点で弾薬の追跡を支える基盤である。侵入はシステム更新中に見つかり、業務アプリの移行が止まり、サイバー軍が被害評価に入ったとされる。侵入者と流出の有無は不明で、AIの使用も報じられていない。空軍は23日に省全体の解決策に指定されたAI機密区分システム「ACME」の母体でもある。",
+        "攻撃の速度も上がっている。英NCSCは24日、9月以降にAI支援型の攻撃が「顕著に増加」したと認め、ArtexやCairnなど6種のフレームワークを名指しした。悪用される弱点は既知のものだが、「忘れられた鍵や保護されていないAPI」が数分で見つかるという。スイスの当局も同日、AIエージェントによる攻撃の国内初の確認事例を公表し、既知の全事例で侵害が成功したとした。日本の「デジタル共通基盤」、韓国の国防データセンター、ポーランドの閉じた軍の基盤は、いずれもデータを一か所に集める設計であり、主権の確保は同時に高価値の標的を自ら抱えることを意味する。",
+        "この点で、主権を掲げる側にも弱点がある。OKO.pressによれば、ポーランドの国家安全保障庁は2023年12月以降、Palantirとそのシステムのリスク分析を作成も受領もしていないと回答した。反対の立場からは、実戦で鍛えられた外国製の方が未成熟な国産より安全だという議論が出る。PalantirのモズリーはReutersに、NATOのシステムに「キルスイッチ」は存在しないと述べ、欧州の当局者も同等の規模の代替が現状は欧州にないと認めている。ドイツは23日、ウクライナの戦場管理システム「Delta」の利用で意向書に署名したが、運用データは共有の対象外とされた。成熟と統制の均衡は、監査権と出口の権利を契約で確保できるかで決まる。"
+      ],
+      "paragraphs_en": [
+        "On November 27 Reuters reported that hackers had breached Cloud One, the US Air Force's flagship cloud. Run since 2017 on a mix of Microsoft, Amazon, Oracle and Alphabet services, it handles everything from personnel records to air-defence data and supports munitions tracking at more than 200 bases. The intrusion was found during a system update, migration of applications was halted, and Cyber Command is said to be assessing the damage. The intruder and any exfiltration are unknown, and no use of AI has been reported. The Air Force is also the home of ACME, the AI classification system designated a department-wide solution on the 23rd.",
+        "Attack tempo is also rising. On the 24th the UK NCSC acknowledged a \"marked rise\" in AI-assisted attacks since September and named six frameworks including Artex and Cairn. The weaknesses exploited are familiar, but \"forgotten keys and unprotected APIs\" are found within minutes. The same day Swiss authorities published the country's first confirmed cases of AI-agent attacks, saying every known case succeeded in compromising systems. Japan's planned digital common platform, Korea's defense data centre and Poland's closed military infrastructure all concentrate data in one place, so securing sovereignty also means taking on a high-value target.",
+        "Those claiming sovereignty have their own weak points. According to OKO.press, Poland's Internal Security Agency said it has neither produced nor received a risk analysis of Palantir or its system since December 2023. The opposing argument holds that battle-tested foreign systems are safer than immature domestic ones: Palantir's Louis Mosley told Reuters that the NATO system has no \"kill switch,\" and European officials concede Europe currently lacks an equivalent at that scale. On the 23rd Germany signed a letter of intent to use Ukraine's Delta battlefield-management system, with operational data excluded from sharing. The balance between maturity and control turns on whether audit rights and exit rights can be secured by contract."
+      ],
+      "item_ids": [
+        "cl-20261128-03",
+        "cl-20261126-10",
+        "cl-20261125-01",
+        "cl-20261127-08",
+        "cl-20261123-03",
+        "cl-20261126-07"
+      ],
+      "source_ids": [
+        "W30",
+        "W31",
+        "W32",
+        "W26",
+        "W27",
+        "W28",
+        "W29",
+        "W7",
+        "W11",
+        "W33"
+      ]
+    }
+  ],
+  "japan_paragraphs_ja": [
+    "防衛省の「Defense AI Vision」は、移行の権利、総経費の評価、中核能力の国内維持、30日・60日・90日の進捗管理という、主権を契約と運用に落とすための語彙をすでに備えている。問われるのは適用の範囲と担い手である。どの既存システムと新規調達を移行可能性の基準の対象とするのか、事業者との契約条項を誰が監査するのか、最初の90日に置く重点プロジェクトは何かが、実行計画で示される必要がある。経済安保方針の「AI主権」とフィジカルAI基盤モデルへの投資が、米国製の基盤を導入する防衛調達とどう整合するのかも未整理である。出口の権利と国内の中核能力の維持には費用がかかり、5年総額を50兆〜60兆円台に抑える政府案と、80兆円程度を求める党内の声との差は、この費用をどこまで払うかの選択でもある。",
+    "最先端モデルと計算資源の層では、日本も英国と同じく接近を求める側にある。サイバー防御に米国のフロンティアモデルを使うなら、公開前評価への参加、利用条件、停止時の扱いを、AIセーフティ・インスティテュートと同盟の協議の場で具体的に取り決めることが現実的な道筋と考えられる。計算資源については、東南アジアで起きた出荷と融資の停止が示すとおり、同盟国の規則の予見可能性が国内のデータセンター投資の前提になる。日米の間で許可運用の事前協議の回路を持つことが、自給率の目標以上に重要になりうる。そのうえで、データを集約する「デジタル共通基盤」は統合の前に安全評価を済ませ、侵害を前提とした分割と監査の設計を組み込むべきである。"
+  ],
+  "japan_paragraphs_en": [
+    "The Defense AI Vision already contains the vocabulary for turning sovereignty into contract and operations: exit rights, total-cost assessment, keeping core capability at home and 30-, 60- and 90-day progress reviews. The questions are scope and responsibility. The implementation plan needs to say which existing systems and new procurements fall under the portability criteria, who audits vendor contract terms, and which priority projects come in the first 90 days. How the economic-security push for \"AI sovereignty\" and investment in physical-AI foundation models fits with defense procurement of US platforms is also unresolved. Exit rights and domestic core capability cost money, and the gap between the government's plan to hold the five-year total to the 50–60 trillion yen range and party voices seeking around 80 trillion is partly a choice about how much of that cost to pay.",
+    "At the frontier-model and compute layers Japan, like Britain, is on the access-seeking side. If Japan is to use US frontier models for cyber defense, a realistic path is to settle participation in pre-release evaluation, terms of use and handling of suspensions through the AI Safety Institute and alliance consultations. On compute, as the halt in shipments and lending in Southeast Asia shows, the predictability of an ally's rules underpins domestic data-centre investment, and a channel for prior consultation on US licensing may matter more than any self-sufficiency target. Finally, the data-consolidating digital common platform should complete a security assessment before integration and build in segmentation and audit on the assumption of breach."
+  ],
+  "verification": [
+    {
+      "text_ja": "12月1〜2日の下院3委員会によるフアン氏・ティーター氏の非公開聴取と、12月3日の上院銀行委員会公聴会：取締役会が受けた「米政府の上級レベルからの意見」の中身と、許可審査の記録が開示されるか。",
+      "text_en": "The December 1–2 closed-door House interviews of Huang and Teter and the December 3 Senate Banking hearing: whether the content of the \"input from senior levels of the US government\" and licensing records are disclosed."
+    },
+    {
+      "text_ja": "東南アジア4か国向けAIサーバー出荷の再開時期と、商務省による許可申請の指針の公表。既存データセンターの許可取得期限（2027年2月中旬）までの許可件数と、マレーシア・シンガポール政府の対応。",
+      "text_en": "When AI server shipments to the four Southeast Asian countries resume and whether Commerce issues licence-application guidance; licence numbers before the existing-data-centre deadline (mid-February 2027) and the Malaysian and Singaporean responses."
+    },
+    {
+      "text_ja": "防衛省「Defense AI Vision」の実行計画：最初の90日の重点プロジェクト、移行可能性の基準の適用対象。12月中旬の安保3文書の閣議決定における「AI主権」の記述と防衛力整備計画の5年総額。",
+      "text_en": "The Defense AI Vision implementation plan: first-90-day priority projects and which systems the portability criteria cover; the wording on \"AI sovereignty\" and the five-year defense buildup total in the mid-December cabinet decision on the three security documents."
+    },
+    {
+      "text_ja": "ポーランドの「Saturn」契約：データの所在、更新の管理、監査権限を定めた条項の開示と、国家安全保障庁によるリスク分析の有無。",
+      "text_en": "Poland's Saturn contract: disclosure of clauses on data location, update control and audit rights, and whether the Internal Security Agency produces a risk analysis."
+    },
+    {
+      "text_ja": "米空軍「Cloud One」：侵入経路、侵入者、データ流出の有無の公表と、クラウド移行計画およびACMEの展開日程の見直しの有無。",
+      "text_en": "Air Force Cloud One: disclosure of the intrusion path, the intruder and any data loss, and whether cloud-migration plans or the ACME rollout schedule change."
+    }
+  ],
+  "developments": [
+    {
+      "date": "2026-11-19",
+      "title_ja": "英サイバー・特殊作戦軍司令官、米フロンティアモデルへのアクセスを模索と表明",
+      "title_en": "UK Cyber and Special Operations Command chief says it seeks access to US frontier models",
+      "actor_ja": "英サイバー・特殊作戦軍",
+      "actor_en": "UK Cyber and Special Operations Command",
+      "stage_ja": "発言",
+      "stage_en": "Statement",
+      "source_ids": [
+        "W24"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261128-05"
+    },
+    {
+      "date": "2026-11-20",
+      "title_ja": "米下院2委員会、中国製オープンウェイトAIの連邦システムからの排除を提言",
+      "title_en": "Two House committees urge removing Chinese open-weight AI from federal systems",
+      "actor_ja": "米下院中国特別委員会・国土安全保障委員会",
+      "actor_en": "House Select Committee on the CCP and Homeland Security Committee",
+      "stage_ja": "調査報告・提言",
+      "stage_en": "Investigative report and recommendations",
+      "source_ids": [
+        "W17"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261123-01"
+    },
+    {
+      "date": "2026-11-20",
+      "title_ja": "アマゾン、攻撃者の自律AIエージェントがゼロデイを独力で発見・悪用と報告",
+      "title_en": "Amazon reports an attacker's autonomous AI agent found and exploited a zero-day on its own",
+      "actor_ja": "アマゾン",
+      "actor_en": "Amazon",
+      "stage_ja": "調査報告",
+      "stage_en": "Threat report",
+      "source_ids": [
+        "W29"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261123-03"
+    },
+    {
+      "date": "2026-11-22",
+      "title_ja": "OpenAI主任科学者、監視能力の到達まで越えない「共通の上限」を提案",
+      "title_en": "OpenAI chief scientist proposes a shared ceiling until monitoring reaches a milestone",
+      "actor_ja": "OpenAI",
+      "actor_en": "OpenAI",
+      "stage_ja": "提案",
+      "stage_en": "Proposal",
+      "source_ids": [
+        "W20",
+        "W21"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261124-02"
+    },
+    {
+      "date": "2026-11-23",
+      "title_ja": "Nvidia取締役会、「政府高官の意見」を受けフアン氏をCEOに復帰",
+      "title_en": "Nvidia board reinstates Huang as CEO citing input from senior US officials",
+      "actor_ja": "Nvidia取締役会",
+      "actor_en": "Nvidia board",
+      "stage_ja": "企業決定",
+      "stage_en": "Corporate decision",
+      "source_ids": [
+        "W18",
+        "W19"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261124-01"
+    },
+    {
+      "date": "2026-11-23",
+      "title_ja": "米商務省、Megaspeed系7社をエンティティリストに追加",
+      "title_en": "Commerce adds seven Megaspeed-linked firms to the Entity List",
+      "actor_ja": "米商務省産業安全保障局",
+      "actor_en": "US Commerce Department, BIS",
+      "stage_ja": "規則（最終規則）",
+      "stage_en": "Final rule",
+      "source_ids": [
+        "W12",
+        "W13"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-04"
+    },
+    {
+      "date": "2026-11-23",
+      "title_ja": "国防省、空軍のAI機密区分システム「ACME」を省全体の解決策に指定",
+      "title_en": "Pentagon designates the Air Force's ACME AI classification system a department-wide solution",
+      "actor_ja": "米国防省",
+      "actor_en": "US Department of Defense",
+      "stage_ja": "指定・展開",
+      "stage_en": "Designation and rollout",
+      "source_ids": [
+        "W32"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-10"
+    },
+    {
+      "date": "2026-11-23",
+      "title_ja": "独ウクライナ、戦場管理システム「Delta」の独軍利用で意向書に署名",
+      "title_en": "Germany and Ukraine sign a letter of intent on Bundeswehr use of Delta",
+      "actor_ja": "独国防省・ウクライナ国防省",
+      "actor_en": "German and Ukrainian defense ministries",
+      "stage_ja": "意向書",
+      "stage_en": "Letter of intent",
+      "source_ids": [
+        "W33"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-07"
+    },
+    {
+      "date": "2026-11-24",
+      "title_ja": "ハンファ、10兆ウォンの国防専用AIデータセンター構想を政府側に提示",
+      "title_en": "Hanwha presents a 10-trillion-won defense AI data centre plan to the government",
+      "actor_ja": "ハンファエアロスペース",
+      "actor_en": "Hanwha Aerospace",
+      "stage_ja": "構想提示",
+      "stage_en": "Proposal",
+      "source_ids": [
+        "W8"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261125-03"
+    },
+    {
+      "date": "2026-11-24",
+      "title_ja": "英NCSC、9月以降のAI支援型攻撃の「顕著な増加」を認定",
+      "title_en": "UK NCSC confirms a marked rise in AI-assisted attacks since September",
+      "actor_ja": "英国家サイバーセキュリティセンター",
+      "actor_en": "UK NCSC",
+      "stage_ja": "公式見解",
+      "stage_en": "Official assessment",
+      "source_ids": [
+        "W26",
+        "W27"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261125-01"
+    },
+    {
+      "date": "2026-11-24",
+      "title_ja": "スイス当局、AIエージェントによる攻撃の国内初の確認事例を公表",
+      "title_en": "Swiss authorities publish the first confirmed AI-agent attacks in Switzerland",
+      "actor_ja": "スイス連邦サイバーセキュリティ庁",
+      "actor_en": "Swiss Federal Office for Cybersecurity",
+      "stage_ja": "公式報告",
+      "stage_en": "Official report",
+      "source_ids": [
+        "W28"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261127-08"
+    },
+    {
+      "date": "2026-11-24",
+      "title_ja": "AnthropicとOpenAIの社員が未公開モデルの公開に懸念と報道",
+      "title_en": "Report says Anthropic and OpenAI staff fear unreleased models are unsafe to release",
+      "actor_ja": "Axios（報道）",
+      "actor_en": "Axios (report)",
+      "stage_ja": "報道",
+      "stage_en": "Media report",
+      "source_ids": [
+        "W22"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-05"
+    },
+    {
+      "date": "2026-11-24",
+      "title_ja": "国連安保理、AIと無人機をめぐる高級公開討論（25日まで）",
+      "title_en": "UN Security Council holds a high-level open debate on AI and drones (through the 25th)",
+      "actor_ja": "国連安全保障理事会",
+      "actor_en": "UN Security Council",
+      "stage_ja": "討論",
+      "stage_en": "Debate",
+      "source_ids": [
+        "W25"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-01"
+    },
+    {
+      "date": "2026-11-25",
+      "title_ja": "政府、「AI主権」を掲げる経済安保方針の概要を自民党に提示し了承",
+      "title_en": "Government presents an economic-security outline featuring \"AI sovereignty\"; LDP broadly approves",
+      "actor_ja": "日本政府・自民党",
+      "actor_en": "Government of Japan and LDP",
+      "stage_ja": "方針案（党了承）",
+      "stage_en": "Draft policy (party approval)",
+      "source_ids": [
+        "W9",
+        "W10"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261126-02"
+    },
+    {
+      "date": "2026-11-25",
+      "title_ja": "AnthropicのアモデイCEO、統治のAIへの委譲を否定し再帰的自己改善の制限に言及",
+      "title_en": "Anthropic's Amodei rejects handing governance to AI and raises limits on recursive self-improvement",
+      "actor_ja": "Anthropic",
+      "actor_en": "Anthropic",
+      "stage_ja": "声明",
+      "stage_en": "Statement",
+      "source_ids": [
+        "W23"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261127-04"
+    },
+    {
+      "date": "2026-11-26",
+      "title_ja": "Nvidia、東南アジア4か国向けAIサーバー出荷を停止と報道、域内融資も保留",
+      "title_en": "Nvidia reportedly halts AI server shipments to four Southeast Asian countries; regional lending on hold",
+      "actor_ja": "Nvidia（報道）",
+      "actor_en": "Nvidia (reported)",
+      "stage_ja": "出荷停止（報道）",
+      "stage_en": "Shipment halt (reported)",
+      "source_ids": [
+        "W14",
+        "W15"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261127-01"
+    },
+    {
+      "date": "2026-11-27",
+      "title_ja": "防衛省、「Defense AI Vision」を公表",
+      "title_en": "Japan's Defense Ministry publishes the Defense AI Vision",
+      "actor_ja": "防衛省",
+      "actor_en": "Japan Ministry of Defense",
+      "stage_ja": "方針策定",
+      "stage_en": "Policy adopted",
+      "source_ids": [
+        "W1",
+        "W2",
+        "W3",
+        "W4"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261128-01"
+    },
+    {
+      "date": "2026-11-27",
+      "title_ja": "ポーランド国防省、Palantirと「Saturn」導入契約に署名（5年約3億ドル）",
+      "title_en": "Poland signs Saturn contract with Palantir (about $300m over five years)",
+      "actor_ja": "ポーランド国防省",
+      "actor_en": "Polish Ministry of National Defence",
+      "stage_ja": "契約",
+      "stage_en": "Contract",
+      "source_ids": [
+        "W5",
+        "W6",
+        "W7"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261128-02"
+    },
+    {
+      "date": "2026-11-27",
+      "title_ja": "米空軍の基幹クラウド「Cloud One」への侵入を報道",
+      "title_en": "Breach of the Air Force's Cloud One platform reported",
+      "actor_ja": "米空軍（報道）",
+      "actor_en": "US Air Force (reported)",
+      "stage_ja": "侵害（報道）",
+      "stage_en": "Breach (reported)",
+      "source_ids": [
+        "W30",
+        "W31"
+      ],
+      "confidence": "",
+      "item_id": "cl-20261128-03"
+    }
+  ],
+  "reading": [
+    {
+      "source_id": "W2",
+      "reason_ja": "移行可能性、データの取り出し、総経費の評価という条項で、主権を調達の言葉に置き換えた日本の最初の文書である。",
+      "reason_en": "Japan's first document to translate sovereignty into procurement language: portability, data extraction and total-cost assessment."
+    },
+    {
+      "source_id": "W17",
+      "reason_ja": "軍と民間企業が同じモデル系列を使う実態と、AI部品表による来歴管理の提言を、具体的な調達記録とともに確かめられる。",
+      "reason_en": "Documents, with procurement records, the shared use of model families by the PLA and US firms, and the proposal for provenance via an AI bill of materials."
+    },
+    {
+      "source_id": "W26",
+      "reason_ja": "既知の弱点が分単位で突かれる攻撃の実態と、防御の処方を政府機関の言葉で示している。",
+      "reason_en": "A government agency's account of familiar weaknesses exploited within minutes, with its defensive prescription."
+    },
+    {
+      "source_id": "W11",
+      "reason_ja": "欧州各国が外国製の軍事AI基盤への依存をどう減らそうとし、どこで行き詰まっているかを比較できる。",
+      "reason_en": "Compares how European states are trying to reduce reliance on a foreign military AI platform and where they are stuck."
+    }
+  ],
+  "sources": [
+    {
+      "id": "W1",
+      "title": "「Defense AI Vision」の策定について（報道発表）",
+      "publisher": "防衛省",
+      "url": "https://www.mod.go.jp/j/press/news/2026/11/27a.html",
+      "date": "2026-11-27",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W2",
+      "title": "Defense AI Vision（本文PDF）",
+      "publisher": "防衛省",
+      "url": "https://www.mod.go.jp/j/press/news/2026/11/27b.pdf",
+      "date": "2026-11-27",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W3",
+      "title": "防衛省 AI活用の基本方針策定 最終判断は人間が担う",
+      "publisher": "NHK",
+      "url": "https://news.web.nhk/newsweb/na/nd-20261127de82364",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W4",
+      "title": "防衛省、AIとデータを戦略的資産と位置付ける「Defense AI Vision（防衛AIビジョン）」を策定",
+      "publisher": "IoTNEWS",
+      "url": "https://iotnews.jp/smart-city/276820/",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W5",
+      "title": "Wojsko Polskie sięga po nowoczesne i sprawdzone technologie wykorzystujące sztuczną inteligencję",
+      "publisher": "Ministerstwo Obrony Narodowej (Poland)",
+      "url": "https://www.gov.pl/web/obrona-narodowa/wojsko-polskie-siega-po-nowoczesne-i-sprawdzone-technologie-wykorzystujace-sztuczna-inteligencje",
+      "date": "2026-11-27",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W6",
+      "title": "Poland signs contract with Palantir worth $300 million over 5 years",
+      "publisher": "Reuters (via Yahoo News)",
+      "url": "https://www.yahoo.com/news/world/articles/poland-signs-contract-palantir-worth-130838978.html",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W7",
+      "title": "MON podpisał umowę z Palantirem",
+      "publisher": "OKO.press",
+      "url": "https://oko.press/na-zywo/na-zywo-relacja/mon-podpisal-umowe-z-palantirem",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W8",
+      "title": "한화, 10조 들여 국방AIDC 짓는다..2028년 가동 목표",
+      "publisher": "파이낸셜뉴스",
+      "url": "https://www.fnnews.com/news/202611241626136225",
+      "date": "2026-11-24",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W9",
+      "title": "米中に次ぐＡＩ国家に＝社会全体の強靱性強化―安保３文書・経済安保概要",
+      "publisher": "時事通信（nippon.com）",
+      "url": "https://www.nippon.com/ja/articles/-/57982",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W10",
+      "title": "５年間の防衛費圧縮「大変心外」 自民安保調査会が苦言、財源論も",
+      "publisher": "共同通信（琉球新報）",
+      "url": "https://ryukyushimpo.jp/kyodo/entry-5614971.html",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W11",
+      "title": "Europe Seeks Palantir Alternatives as Militaries Move to Cut US Reliance",
+      "publisher": "Reuters (via Deccan Chronicle)",
+      "url": "https://www.deccanchronicle.com/world/europe-seeks-palantir-alternatives-as-militaries-move-to-cut-us-reliance-2004862",
+      "date": "2026-11-16",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W12",
+      "title": "Additions to the Entity List (2026-23999, public inspection)",
+      "publisher": "Federal Register / BIS",
+      "url": "https://www.federalregister.gov/public-inspection/2026-23999/additions-to-the-entity-list",
+      "date": "2026-11-23",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W13",
+      "title": "US adds Megaspeed to trade blacklist as Nvidia's Huang returns as CEO",
+      "publisher": "Al Jazeera",
+      "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list",
+      "date": "2026-11-24",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W14",
+      "title": "Nvidia halts chip shipments to four Southeast Asian countries, including Malaysia, FT reports",
+      "publisher": "The Star / Reuters",
+      "url": "https://www.thestar.com.my/business/business-news/2026/11/26/nvidia-halts-chip-shipments-to-southeast-asia-ft-reports",
+      "date": "2026-11-26",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W15",
+      "title": "Billions in Data Center Deals Grind to Halt After Chip Curbs",
+      "publisher": "Bloomberg (via SWI swissinfo.ch)",
+      "url": "https://www.swissinfo.ch/eng/billions-in-data-center-deals-grind-to-halt-after-chip-curbs/92440076",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W16",
+      "title": "TSMC halts Chinese designers' orders at 16nm and below without US licences",
+      "publisher": "Taipei Times",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/20/2003868041",
+      "date": "2026-11-20",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W17",
+      "title": "Joint Investigation Report: China is Trying to Get U.S. Companies Addicted to Chinese AI Models",
+      "publisher": "House Select Committee on the CCP",
+      "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+      "date": "2026-11-20",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W18",
+      "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+      "publisher": "NVIDIA Investor Relations",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Board-Reinstates-Jensen-Huang-as-President-CEO-and-Board-Director/default.aspx",
+      "date": "2026-11-23",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W19",
+      "title": "Nvidia stock soars 30% on Jensen Huang's return as CEO, but now he must grapple with a wave of investigations",
+      "publisher": "Fortune",
+      "url": "https://fortune.com/2026/11/23/nvidia-stock-jensen-huang-return-ceo-investigations-china-spy-scandal-fbi/",
+      "date": "2026-11-23",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W20",
+      "title": "Perplexity and Intelligence",
+      "publisher": "OpenAI",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "date": "2026-11-22",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W21",
+      "title": "OpenAI warns that upcoming AI systems could outpace safety checks and urges rivals to agree on shared limits",
+      "publisher": "The Decoder",
+      "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+      "date": "2026-11-23",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W22",
+      "title": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release",
+      "publisher": "Axios",
+      "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+      "date": "2026-11-24",
+      "kind": "media",
+      "accessed": false
+    },
+    {
+      "id": "W23",
+      "title": "Anthropic's Dario Amodei calls accusations of surrendering human control to AI 'absurd'",
+      "publisher": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W24",
+      "title": "Is Britain's Military Winning The War In Cyberspace?",
+      "publisher": "PoliticsHome (The House)",
+      "url": "https://www.politicshome.com/news/article/britains-military-winning-war-cyberspace",
+      "date": "2026-11-19",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W25",
+      "title": "In Security Council, Microsoft Executive Warns AI-Assisted War Tactics, Narrowing Response Window Test Peace Efforts, as Speakers Urge Human Control (SC/16518)",
+      "publisher": "UN Meetings Coverage",
+      "url": "https://press.un.org/en/2026/sc16518.doc.htm",
+      "date": "2026-11-24",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W26",
+      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+      "publisher": "NCSC (UK)",
+      "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+      "date": "2026-11-24",
+      "kind": "primary",
+      "accessed": false
+    },
+    {
+      "id": "W27",
+      "title": "UK cyber agency seeing 'marked rise' in AI-driven attacks",
+      "publisher": "The Record",
+      "url": "https://therecord.media/cyberattacks-uk-artificial-intelligence",
+      "date": "2026-11-24",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W28",
+      "title": "Cyberattacks involving AI agents: First confirmed cases in Switzerland",
+      "publisher": "BACS / NCSC (Switzerland)",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "date": "2026-11-24",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W29",
+      "title": "Chinese-nexus actor's Cairn AI agents found a zero-day on their own",
+      "publisher": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "date": "2026-11-20",
+      "kind": "primary",
+      "accessed": true
+    },
+    {
+      "id": "W30",
+      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": false
+    },
+    {
+      "id": "W31",
+      "title": "Hackers breach Air Force cloud platform holding personnel and military data",
+      "publisher": "The National News Desk (TNND)",
+      "url": "https://abcnews4.com/news/nation-world/hackers-breach-air-force-cloud-platform-holding-personnel-and-military-data",
+      "date": "2026-11-27",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W32",
+      "title": "Pentagon Elevates Air Force Program Using AI for Classification",
+      "publisher": "Air & Space Forces Magazine",
+      "url": "https://www.airandspaceforces.com/pentagon-elevates-air-force-program-ai-classification/",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    },
+    {
+      "id": "W33",
+      "title": "Bundeswehr Turns to Ukraine's DELTA System as Battlefield Command Goes Digital",
+      "publisher": "Defence Matters",
+      "url": "https://defencematters.eu/germany-bundeswehr-ukraine-delta-battlefield-management/",
+      "date": "2026-11-25",
+      "kind": "media",
+      "accessed": true
+    }
+  ],
+  "item_ids": [
+    "cl-20261128-01",
+    "cl-20261128-02",
+    "cl-20261125-03",
+    "cl-20261126-02",
+    "cl-20261126-04",
+    "cl-20261127-01",
+    "cl-20261123-01",
+    "cl-20261123-02",
+    "cl-20261124-02",
+    "cl-20261126-05",
+    "cl-20261127-04",
+    "cl-20261128-05",
+    "cl-20261124-01",
+    "cl-20261126-01",
+    "cl-20261128-03",
+    "cl-20261126-10",
+    "cl-20261125-01",
+    "cl-20261127-08",
+    "cl-20261123-03",
+    "cl-20261126-07"
+  ],
+  "internal": {
+    "scan": "handoff/daily/2026-11-23〜2026-11-28の6号（JSON）を全件読んだ。補足として、欧州の軍事AI基盤の脱依存（Reuters 11月16日配信、Deccan Chronicle掲載）を確認し、第1節と第4節で用いた。東南アジア各国政府の出荷停止への公式反応、Cloud One侵入の続報は検索したが、執筆時点で新しい情報は見つからなかった。",
+    "notes_for_editor": [
+      "防衛省の報道発表と本文PDF（W1・W2）は本文を直接開けておらず、原則と条項の記述は日次の原稿と同様に報道（NHK、IoTNEWSなど）に依拠している（accessed: false）。",
+      "Reuters（W30）、Axios（W22）、NCSC（W26）、OpenAI（W20）、安保理会合記録（W25）は直接開けておらず、転載・報道で内容を確認している。",
+      "第3節はAnthropicを含む開発企業の判断を論じている。未公開モデルの能力に関する報道は匿名の関係者に依拠しており、本文でその旨を明記した。",
+      "PalantirのモズリーのReutersへの発言（『キルスイッチ』はない）は11月16日配信の記事によるもので、対象週の前の資料である。",
+      "日本にとっての論点で日米の許可運用の事前協議の回路を提起したが、既存の協議枠組みの有無は確認していない。"
+    ]
+  }
+}
